@@ -1,0 +1,507 @@
+{
+  "contract": "SOURCE_COVERAGE_GUARD_V10_PCS_DIRECT_RECONCILE_PROOF",
+  "discovery_mode": "delta",
+  "coverage_status": "PARTIAL_WORLD_COVERAGE",
+  "worldwide_claim_allowed": false,
+  "expected_materialized_packs": 44,
+  "present_materialized_packs": 43,
+  "missing_packs": [
+    "discovery-global-za-etenders-ocds"
+  ],
+  "degraded_packs": [
+    "discovery-ted",
+    "discovery-global-au-austender",
+    "discovery-global-it-anac-delta",
+    "discovery-global-cyprus-epps",
+    "discovery-global-malta-epps",
+    "discovery-global-uk-pcs-ocds"
+  ],
+  "external_required_lanes": [],
+  "external_present_lanes": [],
+  "external_missing_lanes": [],
+  "strict_exhaustion_sources": [
+    "AU_AUSTENDER",
+    "CYPRUS_EPPS",
+    "LT_CVP_API",
+    "MALTA_EPPS",
+    "TED",
+    "UK_PCS_OCDS",
+    "UNGM_PUBLIC",
+    "ZA_ETENDERS_OCDS"
+  ],
+  "pack_health": {
+    "discovery-ted": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-ted/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-ted/adapter_exit_code.txt"
+      ],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-ted/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "TED"
+        }
+      ]
+    },
+    "discovery-global-ca-canadabuys": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-ca-canadabuys/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-ca-canadabuys/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-fr-boamp": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-fr-boamp/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-fr-boamp/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-qc-seao": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-qc-seao/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-qc-seao/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-au-austender": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-global-au-austender/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-au-austender/adapter_exit_code.txt"
+      ],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-global-au-austender/stats.json",
+          "reason": "ERRORS_PRESENT",
+          "value": [
+            {
+              "type": "PUBLIC_SOURCE_HTTP_BLOCK",
+              "status": 403,
+              "message": "AusTender public listing returned HTTP 403"
+            }
+          ]
+        },
+        {
+          "path": "discovery-download/discovery-global-au-austender/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "AU_AUSTENDER"
+        },
+        {
+          "path": "discovery-download/discovery-global-au-austender/stats.json",
+          "reason": "ZERO_CURRENT_MATERIALIZED",
+          "source": "AU_AUSTENDER"
+        },
+        {
+          "path": "discovery-download/discovery-global-au-austender/stats.json",
+          "reason": "ENUMERATION_INCOMPLETE",
+          "source": "AU_AUSTENDER"
+        }
+      ]
+    },
+    "discovery-global-nz-gets": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-nz-gets/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-nz-gets/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-de-doe": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-de-doe/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-de-doe/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-es-placsp": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-es-placsp/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-es-placsp/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-us-sam-bulk": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-us-sam-bulk/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-us-sam-bulk/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-nl-tenderned-rss": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-nl-tenderned-rss/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-nl-tenderned-rss/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-gr-khmdhs": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-gr-khmdhs/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-gr-khmdhs/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-pl-bzp": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-pl-bzp/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-pl-bzp/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-lv-iub": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-lv-iub/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-lv-iub/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-ch-simap": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-ch-simap/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-ch-simap/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-no-doffin": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-no-doffin/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-no-doffin/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-fi-hilma": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-fi-hilma/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-fi-hilma/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-pt-base-open": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-pt-base-open/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-pt-base-open/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-dk-udbud-public": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-dk-udbud-public/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-dk-udbud-public/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-cz-zakazky-gov": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-cz-zakazky-gov/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-cz-zakazky-gov/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-it-anac-delta": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-global-it-anac-delta/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-it-anac-delta/adapter_exit_code.txt"
+      ],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-global-it-anac-delta/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "IT_ANAC_PVL"
+        }
+      ]
+    },
+    "discovery-global-cyprus-epps": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-global-cyprus-epps/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-global-cyprus-epps/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "CYPRUS_EPPS"
+        },
+        {
+          "path": "discovery-download/discovery-global-cyprus-epps/stats.json",
+          "reason": "ENUMERATION_INCOMPLETE",
+          "source": "CYPRUS_EPPS"
+        }
+      ]
+    },
+    "discovery-global-malta-epps": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-global-malta-epps/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-global-malta-epps/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "MALTA_EPPS"
+        },
+        {
+          "path": "discovery-download/discovery-global-malta-epps/stats.json",
+          "reason": "ENUMERATION_INCOMPLETE",
+          "source": "MALTA_EPPS"
+        }
+      ]
+    },
+    "discovery-global-lux-pmp": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-lux-pmp/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-global-si-ejn": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-si-ejn/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-si-ejn/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-sk-uvo": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-sk-uvo/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-sk-uvo/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-ee-rhr": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-ee-rhr/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-ee-rhr/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-world-bank-procurement": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-world-bank-procurement/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-world-bank-procurement/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-uk-pcs-ocds": {
+      "status": "DEGRADED",
+      "stats_files": [
+        "discovery-download/discovery-global-uk-pcs-ocds/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-uk-pcs-ocds/adapter_exit_code.txt"
+      ],
+      "problems": [
+        {
+          "path": "discovery-download/discovery-global-uk-pcs-ocds/stats.json",
+          "reason": "NOT_LIVE_CANDIDATE_SOURCE",
+          "source": "UK_PCS_OCDS"
+        },
+        {
+          "path": "discovery-download/discovery-global-uk-pcs-ocds/stats.json",
+          "reason": "ENUMERATION_INCOMPLETE",
+          "source": "UK_PCS_OCDS"
+        }
+      ]
+    },
+    "discovery-global-uk-fts-ocds": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-uk-fts-ocds/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-uk-fts-ocds/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-lt-cvp-api": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-lt-cvp-api/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-lt-cvp-api/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-global-ungm-public": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-global-ungm-public/stats.json"
+      ],
+      "adapter_exit_files": [
+        "discovery-download/discovery-global-ungm-public/adapter_exit_code.txt"
+      ],
+      "problems": []
+    },
+    "discovery-contracts-finder-0": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-0/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-1": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-1/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-2": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-2/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-3": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-3/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-4": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-4/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-5": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-5/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-6": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-6/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-contracts-finder-7": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-contracts-finder-7/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-ie-0": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-ie-0/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-ie-1": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-ie-1/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-ie-2": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-ie-2/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    },
+    "discovery-ie-3": {
+      "status": "OK",
+      "stats_files": [
+        "discovery-download/discovery-ie-3/stats.json"
+      ],
+      "adapter_exit_files": [],
+      "problems": []
+    }
+  },
+  "semantics": "WORLD_COMPLETE means every configured live-candidate-capable lane materialized cleanly and every adapter with an exhaustion contract proved full traversal. PCS proof checks are contract-aware: legacy browser/direct-post collectors require Current Opportunity filter and stable-page proof; official bulk OCDS collectors require complete requested month x noticeType partitions including Website Contract Notice 101; and V4 reconciled packs additionally require a complete independent Current Opportunity traversal with every official current row exact-matched into the bulk. Archive-only lanes, source caps, runtime budgets, request failures or missing exhaustion proof keep coverage PARTIAL. This still does not mean every procurement authority on Earth is configured."
+}
