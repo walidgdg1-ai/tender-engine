@@ -1,14 +1,15 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32601281415,
-  "generated_at": "2026-08-22T22:23:40.865859+00:00",
-  "snapshot_rows": 119248,
-  "current_materialized_rows": 99482,
-  "carried_forward_rows": 19766,
+  "source_discovery_run": 32602778339,
+  "generated_at": "2026-08-22T23:09:55.690922+00:00",
+  "snapshot_rows": 119255,
+  "current_materialized_rows": 97818,
+  "carried_forward_rows": 21437,
   "carried_forward_by_source": {
     "DE": 5017,
     "PL": 2607,
-    "UK_PCS_OCDS": 1884,
+    "LT_CVP_API": 2240,
+    "UK_PCS_OCDS": 1892,
     "FR": 1537,
     "WORLD_BANK_PROCUREMENT": 1444,
     "GR_KHMDHS": 1136,
@@ -16,7 +17,6 @@
     "UK_FTS_OCDS": 928,
     "ZA_ETENDERS_OCDS": 679,
     "UNKNOWN": 593,
-    "EE_RHR": 591,
     "PT_BASE_OPEN": 537,
     "SK_UVO": 453,
     "NO_DOFFIN": 359,
@@ -26,20 +26,20 @@
     "UK": 88,
     "NL": 52,
     "US_SAM": 26,
+    "UNGM_PUBLIC": 25,
     "IE": 25,
-    "UNGM_PUBLIC": 23,
     "MT": 22,
+    "DK": 16,
     "FI": 13,
-    "DK": 6,
+    "EE_RHR": 3,
     "SI_EJN": 2,
     "LU": 2,
     "IT_ANAC_PVL": 1,
-    "LT_CVP_API": 1,
     "CA": 1,
     "TED": 1
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 105028,
+    "OPEN_CONFIRMED_BY_DEADLINE": 105035,
     "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 14220
   },
   "packet_count": 239,
@@ -47,8 +47,8 @@
   "failed_sources": [
     "discovery-global-au-austender",
     "discovery-global-cyprus-epps",
-    "discovery-global-ee-rhr",
     "discovery-global-it-anac-delta",
+    "discovery-global-lt-cvp-api",
     "discovery-global-malta-epps",
     "discovery-global-uk-pcs-ocds",
     "discovery-ted"
@@ -58,7 +58,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32601281415",
+  "immutable_release_tag": "live-world-snapshot-32602778339",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
