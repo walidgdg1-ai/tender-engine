@@ -1,23 +1,23 @@
 {
   "schema": "QWEN_LIVE_DCE_SELECTION_SUMMARY_CODED_V2",
-  "generated_at_utc": "2026-08-22T21:36:13+00:00",
+  "generated_at_utc": "2026-08-22T21:52:57+00:00",
   "source_run": "32327417448",
-  "state_rows": 51680,
+  "state_rows": 48506,
   "ledger_rows": 126459,
   "snapshot_rows": 126459,
   "blocked_ids": 32355,
   "durable_attempted_exact_versions_ignored": 14588,
-  "valid_exact_hash_current_unattempted": 21499,
-  "eligible_keep_for_dce": 18027,
-  "review_worthy_rejects_promoted_to_explore": 1902,
+  "valid_exact_hash_current_unattempted": 19032,
+  "eligible_keep_for_dce": 15763,
+  "review_worthy_rejects_promoted_to_explore": 1820,
   "stale_hash_ignored": 0,
   "missing_snapshot": 0,
-  "expired_ignored": 2509,
+  "expired_ignored": 2263,
   "selected": 160,
   "selection_decisions": {
-    "STRONG_FIT": 85,
-    "MAYBE": 47,
-    "REJECT_OBVIOUS": 28
+    "STRONG_FIT": 81,
+    "MAYBE": 48,
+    "REJECT_OBVIOUS": 31
   },
   "selection_survival": {
     "KEEP": 157,
@@ -26,8 +26,8 @@
   "selection_lanes": {
     "qwen-primary-coded": 80,
     "qwen-explore-coded": 48,
-    "qwen-reject-audit-coded": 28,
-    "qwen-elastic-coded": 4
+    "qwen-reject-audit-coded": 31,
+    "qwen-elastic-coded": 1
   },
   "selection_freshness": {
     "historical_backfill": 160
@@ -57,10 +57,10 @@
   "base_candidate_pool": 640,
   "requested_final_limit": 160,
   "candidate_pool_decisions": {
-    "STRONG_FIT": 243,
-    "FIT": 207,
-    "MAYBE": 162,
-    "REJECT_OBVIOUS": 28
+    "STRONG_FIT": 208,
+    "FIT": 181,
+    "MAYBE": 220,
+    "REJECT_OBVIOUS": 31
   },
   "candidate_pool_lanes": {
     "qwen-primary": 320,
@@ -69,9 +69,9 @@
   },
   "code_prior": {
     "positive_code_rows_in_pool": 0,
-    "noncore_code_contradictions_in_pool": 11,
+    "noncore_code_contradictions_in_pool": 10,
     "positive_code_rows_selected": 0,
-    "noncore_code_contradictions_selected": 2,
+    "noncore_code_contradictions_selected": 1,
     "policy": "priority_only_never_drop_never_eligibility",
     "candidate_pool_multiplier": 4
   }
