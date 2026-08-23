@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-08-23T08:03:50.995025+00:00",
-  "latest_source_dce_run_id": 32627186167,
+  "updated_at": "2026-08-23T10:18:05.035128+00:00",
+  "latest_source_dce_run_id": 32633337209,
   "review_queue": [
     {
       "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
@@ -2421,7 +2421,7 @@
       "gpt_priority_score": 21,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32627186167,
         "shard": 1,
@@ -3488,6 +3488,109 @@
         "release_tag": "dce-harvest-32624675274"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "WORLD-BANK:OP00463402",
+      "title": "3.G.2.1 The Calculation Model For Selecting Sustainable Financing Alternatives (CMSF)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463402",
+      "deadline": "2026-08-31T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 76,
+      "priority_score": 76,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-08-31T00:00:00+00:00",
+        "notice_deadline_date": "2026-08-31",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 1,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/world_bank_procurement_notice_OP00463402.html ===== <p><strong>REQUEST FOR EXPRESSIONS OF INTEREST</strong></p><p><strong>(CONSULTANT SERVICES &ndash; FIRMS SELECTION)</strong></p><p>&nbsp;</p><p><strong>INDONESIA Global Environment Facility (GEF) Grant: </strong>&nbsp;<br /><strong>Sustainable Cities Impact Project (SCIP)</strong>&nbsp;</p><p>Grant No.: <u>TF0B8114</u>&nbsp;</p><p><strong>Assignment Title: <u>The Calculation Model For Selecting Sustainable Financing Alternatives (CMSF)</u></strong></p><p><strong>Reference No</strong>.: ID-PPP BAPPENAS-508827-CS-CQS&nbsp;</p><p>The Government of Indonesia has received financing from the World Bank toward the cost of the Global Environment Facility Indonesia Sustainable Cities Impact Project (SCIP) and intends to apply part of the proceeds for consulting services.</p><p>The consulting services (&ldquo;the Services&rdquo;) include but not limited to: (a) Conducting Shadow Credit Rating Analysis for City Level; (b) Preliminary Project Analysis, Financial Model Preparation, and Indicative Financing Schemes Selection Analysis for Selected Sub-Projects; (c) Detailed Indicative Financial Model Development and Selecti",
+            "source": "files/world_bank_procurement_notice_OP00463402.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402",
+            "source_sha256": "1ae44d391053d130ad64c5c041944374f4fce052bb703a11ff8d94d9b72e31cb",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 1197,
+            "match": "Reference"
+          },
+          {
+            "text": "part of the proceeds for consulting services.</p><p>The consulting services (&ldquo;the Services&rdquo;) include but not limited to: (a) Conducting Shadow Credit Rating Analysis for City Level; (b) Preliminary Project Analysis, Financial Model Preparation, and Indicative Financing Schemes Selection Analysis for Selected Sub-Projects; (c) Detailed Indicative Financial Model Development and Selection of Financing Schemes for Selected Sub-Projects; (d) Financial Model and Financing Scheme Selection Guideline Development; (e) Focus Group Discussions on 5 Pilot Cities. The Services are expected period of 8 months.</p><p>Further detailed Terms of Reference (TOR) for the assignment can be found at the following website:&nbsp;</p><p>https://drive.google.com/file/d/1aCrBfGQIU7xTZndycBY3woY1CVspfw5J/view?usp=drive_link&nbsp;</p><p>The Directorate of Development Financing and Investment Strategy, Ministry of National Development Planning/National Development Planning Agency now invites eligible consulting firms (&ldquo;Consultants&rdquo;) to indicate their interest in providing the Services. Interested Consultants should provide information demonstrating that they have the required qualifications and relevant experience to perform the Services. The shortlisting criteria for the firms are as follows",
+            "source": "files/world_bank_procurement_notice_OP00463402.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402",
+            "source_sha256": "1ae44d391053d130ad64c5c041944374f4fce052bb703a11ff8d94d9b72e31cb",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 797,
+            "corpus_end": 2106,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32633337209,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-23T10:18:02.631127+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 10,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "9016c6a3349b2c5083ee3681c1fc59343e44ab00f4fb93c37bd623382e1040fc",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 10,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -7509,7 +7612,7 @@
       "gpt_priority_score": 21,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32627186167,
         "shard": 1,
@@ -8576,6 +8679,109 @@
         "release_tag": "dce-harvest-32624675274"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "WORLD-BANK:OP00463402",
+      "title": "3.G.2.1 The Calculation Model For Selecting Sustainable Financing Alternatives (CMSF)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463402",
+      "deadline": "2026-08-31T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 76,
+      "priority_score": 76,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-08-31T00:00:00+00:00",
+        "notice_deadline_date": "2026-08-31",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 1,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/world_bank_procurement_notice_OP00463402.html ===== <p><strong>REQUEST FOR EXPRESSIONS OF INTEREST</strong></p><p><strong>(CONSULTANT SERVICES &ndash; FIRMS SELECTION)</strong></p><p>&nbsp;</p><p><strong>INDONESIA Global Environment Facility (GEF) Grant: </strong>&nbsp;<br /><strong>Sustainable Cities Impact Project (SCIP)</strong>&nbsp;</p><p>Grant No.: <u>TF0B8114</u>&nbsp;</p><p><strong>Assignment Title: <u>The Calculation Model For Selecting Sustainable Financing Alternatives (CMSF)</u></strong></p><p><strong>Reference No</strong>.: ID-PPP BAPPENAS-508827-CS-CQS&nbsp;</p><p>The Government of Indonesia has received financing from the World Bank toward the cost of the Global Environment Facility Indonesia Sustainable Cities Impact Project (SCIP) and intends to apply part of the proceeds for consulting services.</p><p>The consulting services (&ldquo;the Services&rdquo;) include but not limited to: (a) Conducting Shadow Credit Rating Analysis for City Level; (b) Preliminary Project Analysis, Financial Model Preparation, and Indicative Financing Schemes Selection Analysis for Selected Sub-Projects; (c) Detailed Indicative Financial Model Development and Selecti",
+            "source": "files/world_bank_procurement_notice_OP00463402.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402",
+            "source_sha256": "1ae44d391053d130ad64c5c041944374f4fce052bb703a11ff8d94d9b72e31cb",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 1197,
+            "match": "Reference"
+          },
+          {
+            "text": "part of the proceeds for consulting services.</p><p>The consulting services (&ldquo;the Services&rdquo;) include but not limited to: (a) Conducting Shadow Credit Rating Analysis for City Level; (b) Preliminary Project Analysis, Financial Model Preparation, and Indicative Financing Schemes Selection Analysis for Selected Sub-Projects; (c) Detailed Indicative Financial Model Development and Selection of Financing Schemes for Selected Sub-Projects; (d) Financial Model and Financing Scheme Selection Guideline Development; (e) Focus Group Discussions on 5 Pilot Cities. The Services are expected period of 8 months.</p><p>Further detailed Terms of Reference (TOR) for the assignment can be found at the following website:&nbsp;</p><p>https://drive.google.com/file/d/1aCrBfGQIU7xTZndycBY3woY1CVspfw5J/view?usp=drive_link&nbsp;</p><p>The Directorate of Development Financing and Investment Strategy, Ministry of National Development Planning/National Development Planning Agency now invites eligible consulting firms (&ldquo;Consultants&rdquo;) to indicate their interest in providing the Services. Interested Consultants should provide information demonstrating that they have the required qualifications and relevant experience to perform the Services. The shortlisting criteria for the firms are as follows",
+            "source": "files/world_bank_procurement_notice_OP00463402.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402",
+            "source_sha256": "1ae44d391053d130ad64c5c041944374f4fce052bb703a11ff8d94d9b72e31cb",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 797,
+            "corpus_end": 2106,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32633337209,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-23T10:18:02.631127+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 10,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "9016c6a3349b2c5083ee3681c1fc59343e44ab00f4fb93c37bd623382e1040fc",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 10,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -10185,51 +10391,53 @@
     "selected_by_lane": {
       "GPT_PRIORITY": 4,
       "DCE_AUTHENTICITY_REPAIR": 1,
-      "LOW_PORTAL_SURVEILLANCE": 7
+      "LOW_PORTAL_SURVEILLANCE": 8
     },
     "selected_by_stage": {
-      "BUSINESS_GATES": 11,
+      "BUSINESS_GATES": 12,
       "DCE_AUTHENTICITY": 1
     },
     "selected_by_band": {
       "HOT": 1,
       "MAYBE": 3,
-      "LOW": 8
+      "LOW": 9
     },
     "selected_by_portal": {
       "US_SAM": 1,
       "SCOTLAND_PCS": 2,
       "TED": 1,
       "ZA_ETENDERS": 2,
-      "PL_EZAMOWIENIA": 6
+      "PL_EZAMOWIENIA": 6,
+      "WORLD_BANK": 1
     }
   },
   "counts": {
-    "pending_gpt_web_review": 12,
+    "pending_gpt_web_review": 13,
     "reviewed_ticks_total": 506,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 12,
+    "pending_before_visible_cap": 13,
     "pending_by_stage": {
-      "BUSINESS_GATES": 11,
+      "BUSINESS_GATES": 12,
       "DCE_AUTHENTICITY": 1
     },
     "pending_by_inbox_lane": {
       "GPT_PRIORITY": 4,
       "DCE_AUTHENTICITY_REPAIR": 1,
-      "LOW_PORTAL_SURVEILLANCE": 7
+      "LOW_PORTAL_SURVEILLANCE": 8
     },
     "pending_by_fit_band": {
       "HOT": 1,
       "MAYBE": 3,
-      "LOW": 8
+      "LOW": 9
     },
     "pending_by_portal": {
       "US_SAM": 1,
       "SCOTLAND_PCS": 2,
       "TED": 1,
       "ZA_ETENDERS": 2,
-      "PL_EZAMOWIENIA": 6
+      "PL_EZAMOWIENIA": 6,
+      "WORLD_BANK": 1
     }
   },
   "review_contract": "This file is only the visible GPT Web work window. It uses 75% priority, 12.5% DCE-authenticity repair, and 12.5% portal-diverse LOW surveillance with elastic fill. The durable uncapped backlog remains control/gpt_review_index.json; no candidate is deleted by this visible cap.",
