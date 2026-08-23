@@ -1,32 +1,40 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32665763726,
-  "total_inbox_rows": 119,
-  "dce_authenticity_rows": 9,
+  "latest_source_dce_run_id": 32666624892,
+  "total_inbox_rows": 123,
+  "dce_authenticity_rows": 11,
   "portal_counts": {
-    "TED": 4,
+    "TED": 5,
+    "US_SAM": 2,
     "ZA_ETENDERS": 2,
     "GENERIC_PUBLIC_PAGE": 1,
-    "PL_EZAMOWIENIA": 1,
-    "US_SAM": 1
+    "PL_EZAMOWIENIA": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 6,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 8,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 3
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 8,
+    "NON_AUTHORITATIVE": 10,
     "AUTH_REQUIRED": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
     {
       "portal": "TED",
-      "blocked": 4,
+      "blocked": 5,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 3,
+        "NON_AUTHORITATIVE": 4,
         "AUTH_REQUIRED": 1
+      }
+    },
+    {
+      "portal": "US_SAM",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
       }
     },
     {
@@ -52,28 +60,26 @@
       "reason_counts": {
         "NON_AUTHORITATIVE": 1
       }
-    },
-    {
-      "portal": "US_SAM",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
     }
   ],
   "samples_by_reason": {
-    "AUTH_REQUIRED": [
-      {
-        "candidate_id": "TED:489821-2026",
-        "portal": "TED",
-        "title": "Norway – Information technology services – Learning Platform",
-        "buyer": "The Norwegian Directorate of Immigration",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026"
-      }
-    ],
     "NON_AUTHORITATIVE": [
+      {
+        "candidate_id": "TED:533952-2026",
+        "portal": "TED",
+        "title": "Spain – Software maintenance and repair services – Servicio de mantenimiento del programario de gestión del proceso de quimioterapia (ESPOQ) del Institut Català d'Oncologia",
+        "buyer": "Institut Català d'Oncologia (ICO)",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/533952-2026"
+      },
+      {
+        "candidate_id": "US-SAM:558e4c105d204401912b1d6fdccf1088",
+        "portal": "US_SAM",
+        "title": "D--WebKnossos Enterprise Software License",
+        "buyer": "INTERIOR, DEPARTMENT OF THE",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://sam.gov/opp/558e4c105d204401912b1d6fdccf1088/view"
+      },
       {
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166377-2026-08-20",
         "portal": "ZA_ETENDERS",
@@ -97,22 +103,16 @@
         "buyer": "Gmina Zakrzewo",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defe9f-cf8b-f550-b346-0300019cc174"
-      },
+      }
+    ],
+    "AUTH_REQUIRED": [
       {
-        "candidate_id": "US-SAM:558e4c105d204401912b1d6fdccf1088",
-        "portal": "US_SAM",
-        "title": "D--WebKnossos Enterprise Software License",
-        "buyer": "INTERIOR, DEPARTMENT OF THE",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://sam.gov/opp/558e4c105d204401912b1d6fdccf1088/view"
-      },
-      {
-        "candidate_id": "TED:522255-2026",
+        "candidate_id": "TED:489821-2026",
         "portal": "TED",
-        "title": "Slovakia – Software package and information systems – Technické vybavenie pre zavedenie množstvového zberu zmesového komunálneho odpadu na území mesta Turčianske Teplice",
-        "buyer": "Mesto Turčianske Teplice",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/522255-2026"
+        "title": "Norway – Information technology services – Learning Platform",
+        "buyer": "The Norwegian Directorate of Immigration",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026"
       }
     ]
   },
