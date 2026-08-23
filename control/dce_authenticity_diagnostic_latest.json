@@ -1,16 +1,19 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32627186167,
-  "total_inbox_rows": 12,
-  "dce_authenticity_rows": 1,
+  "latest_source_dce_run_id": 32633337209,
+  "total_inbox_rows": 14,
+  "dce_authenticity_rows": 2,
   "portal_counts": {
-    "PL_EZAMOWIENIA": 1
+    "PL_EZAMOWIENIA": 1,
+    "TED": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 1
+    "UNKNOWN_RETRIEVED_DOCUMENT": 1,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 1
+    "NON_AUTHORITATIVE": 1,
+    "AUTH_REQUIRED": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
@@ -20,6 +23,14 @@
       "likely_public_recovery_target": 0,
       "reason_counts": {
         "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "TED",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "AUTH_REQUIRED": 1
       }
     }
   ],
@@ -32,6 +43,16 @@
         "buyer": "Gmina Zakrzewo",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defe9f-cf8b-f550-b346-0300019cc174"
+      }
+    ],
+    "AUTH_REQUIRED": [
+      {
+        "candidate_id": "TED:489821-2026",
+        "portal": "TED",
+        "title": "Norway – Information technology services – Learning Platform",
+        "buyer": "The Norwegian Directorate of Immigration",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026"
       }
     ]
   },
