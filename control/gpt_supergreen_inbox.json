@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-08-23T15:16:56.038464+00:00",
-  "latest_source_dce_run_id": 32647850099,
+  "updated_at": "2026-08-23T17:45:15.815196+00:00",
+  "latest_source_dce_run_id": 32655795592,
   "review_queue": [
     {
       "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
@@ -22256,11 +22256,398 @@
       "gpt_priority_score": 40,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32647850099,
         "shard": 3,
         "candidate_id": "TED:468315-2026",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:ac620a8758db4388a102b21ae7967fee",
+      "title": "NAWCAD WOLF - Intent to Sole Source for APDU Hardware & Software Maintenance Support Services",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/ac620a8758db4388a102b21ae7967fee/view",
+      "deadline": "2026-08-27T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 71,
+      "priority_score": 71,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-08-27T21:00:00+00:00",
+        "notice_deadline_date": "2026-08-27",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 1,
+          "unique_contexts": 1
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 9,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "NUMBER Section A - Solicitation/Contract Form TW125 Iwakuni APDU System Maintenance Product Service Code: J017 Solicitation Information All quotes/responses shall be submitted via email to Maria Sproul at maria.a.sproul.civ@us.navy.mil no later than 5:00 PM Eastern Standard Time on 27 August 2026. Solicitation N0042126Q1329 is issued as a Intent to Sole Source. The Government intends to purchase on a firm fixed-price basis, and to solicit and negotiate the proposed purchase order on a sole source basis with NTT Data Japan Corporation for Hardware and Software Maintenance Support as list under the authority of FAR 13.501. Offerors must be registered in SAM.GOV database prior to submission of an offer to be considered for award of any DoD contract. This may be accomplished electronically at https://sam.gov This is a firm fixed price procurement therefore, the offeror's initial offer should represent vendor's best quote in terms of price and technical acceptability. This notice is intent to Sole Source with NTT Data Japan Corporation which is a Large Business. Vendors must be NTT Data Japan Corporation authorized distributor and provide documentation to be considered. This notice of intent is not a request for competitive quotes. However, the Government will consider all quotes received.",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2031,
+            "corpus_end": 3344,
+            "match": "registered in"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "n Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 N0042126Q1329 Page 5 of 15 Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definiti",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5135,
+            "corpus_end": 6444,
+            "match": "Reference"
+          },
+          {
+            "text": "n, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 N0042126Q1329 Page 5 of 15 Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report a",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5357,
+            "corpus_end": 6666,
+            "match": "Reference"
+          },
+          {
+            "text": "e Contractor shall ensure a receiving report meets the requirements of DFARS Appendix F. Receiving report. (g) WAWF point of contact. (1) The Contractor may obtain clarification regarding invoicing in WAWF from the following contracting activity's WAWF point of contact. __Jeffrey.r.bell.civ@us.navy.mil__ (Contracting Officer: Insert applicable information or \"Not applicable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11439,
+            "corpus_end": 12748,
+            "match": "Reference"
+          },
+          {
+            "text": "licable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Di",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11848,
+            "corpus_end": 13157,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "T ADDRESS c. CITY d. STATE e. ZIP CODE 7. DELIVERY FOB DESTINATION OTHER (See Schedule) 10. PLEASE FURNISH QUOTATIONS TO THE ISSUING OFFICE IN BLOCK 5a ON OR BEFORE CLOSE OF BUSINESS (Date) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3. REQUISITIO",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 517,
+            "corpus_end": 1830,
+            "match": "certification"
+          },
+          {
+            "text": "ts and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6144,
+            "corpus_end": 7457,
+            "match": "certification"
+          },
+          {
+            "text": "ec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for A",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6171,
+            "corpus_end": 7484,
+            "match": "certification"
+          },
+          {
+            "text": "elpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Fe",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11881,
+            "corpus_end": 13194,
+            "match": "Certification"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "ng contracting activity's WAWF point of contact. __Jeffrey.r.bell.civ@us.navy.mil__ (Contracting Officer: Insert applicable information or \"Not applicable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11685,
+            "corpus_end": 12996,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038)",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11957,
+            "corpus_end": 13268,
+            "match": "Subcontract"
+          },
+          {
+            "text": "or-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038) Feb 2026 52.222-90 Addressing DEI Discrimination by Federal Contractors. (Deviation 2026-O0040, Revision 1) Apr 2026 52.226-8 Encouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and Exclusions. (Deviation 2026-O0038) Feb 2026 52.240-93 Basic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13032,
+            "corpus_end": 14343,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and Exclusions. (Deviation 2026-O0038) Feb 2026 52.240-93 Basic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011 252.203-7002 Requirement to Inform Employees of Whistleblower Rights. Dec 2022 252.204-7000 Disclosure of Information. Oct 2016 252.204-7003 Control of Government Personnel Work Product. Apr 1992 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting (DEVIATION 2026-O0025) May 2024 Deviation 2026-O0025 Jun 2026 252.204-7018 Prohibition",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13398,
+            "corpus_end": 14709,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "te) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3. REQUISITION/PURCHASE REQUEST NO. 4. CERT. FOR NAT. DEF. UNDER BDSA REG. 2 AND/OR DMS REG. 1 RATING 5a. ISSUED BY 6. DELIVER BY (Date) 5b. FOR INFORMATION CALL (NO COLLECT CALLS) NAME TELEPHONE",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 706,
+            "corpus_end": 2014,
+            "match": "QUANTITY"
+          },
+          {
+            "text": "mining whether to conduct a competitive procurement. The Government will not pay for any information received. ***Instructions to Offerors*** Please include the following information with your response: (1) FOB: (Destination preferred) (2) Shipping Cost if applicable (20684-4013): (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3584,
+            "corpus_end": 4892,
+            "match": "Quantity"
+          },
+          {
+            "text": "le (20684-4013): (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 0002 Inspection and Acceptance Location Both Destination Instructions: Perform Insp",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3850,
+            "corpus_end": 5163,
+            "match": "Specification"
+          },
+          {
+            "text": ": (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 0002 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptan",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3865,
+            "corpus_end": 5182,
+            "match": "Statement of Work"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ernment's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038) Feb 2026 52.222-90 Addressing DEI Discrimination by Federal Contractors. (Deviation 2026-O0040, Revision 1) Apr 2026 52.226-8 Encouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and E",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12583,
+            "corpus_end": 13892,
+            "match": "in Person"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/Solicitation_-_N0042126Q1329.pdf ===== REQUEST FOR QUOTATION (THIS IS NOT AN ORDER) THIS RFQ IS IS NOT A SMALL BUSINESS SET-ASIDE 15. DATE OF QUOTATION 16. SIGNER a. NAME (Type or print) c. TITLE (Type or print) b. TELEPHONE AREA CODE NUMBER STANDARD FORM 18 (REV. 6-95) Prescribed by GSA-FAR (48 CFR) 53.215-1(a) AUTHORIZED FOR LOCAL REPRODUCTION Previous edition not usable 8. TO: b. COMPANYa. NAME c. STREET ADDRESS d. CITY e. STATE f. ZIP CODE 9. DESTINATION a. NAME OF CONSIGNEE b. STREET ADDRESS c. CITY d. STATE e. ZIP CODE 7. DELIVERY FOB DESTINATION OTHER (See Schedule) 10. PLEASE FURNISH QUOTATIONS TO THE ISSUING OFFICE IN BLOCK 5a ON OR BEFORE CLOSE OF BUSINESS (Date) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3.",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 22975,
+            "match": "Schedule)\n10. PLEASE FURNISH QUOTATIONS TO THE \nISSUING OFFICE IN BLOCK 5a ON OR\nBEFORE CLOSE OF BUSINESS (Date) \nIMPORT"
+          }
+        ],
+        "submission": [
+          {
+            "text": "Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office respon",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5455,
+            "corpus_end": 6776,
+            "match": "Electronic Submission"
+          },
+          {
+            "text": "ctions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for s",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6320,
+            "corpus_end": 7641,
+            "match": "Electronic Submission"
+          },
+          {
+            "text": "of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available at this web site. (d) The Contractor should follow the training instructions of the WAWF Web-Based Training Course and use the Practice WAWF training. Training Site before submitting payment requests through WAWF. Both can be accessed by selecting the \"",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6626,
+            "corpus_end": 7947,
+            "match": "Electronic Submission"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "sic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011 252.203-7002 Requirement to Inform Employees of Whistleblower Rights. Dec 2022 252.204-7000 Disclosure of Information. Oct 2016 252.204-7003 Control of Government Personnel Work Product. Apr 1992 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting (DEVIATION 2026-O0025) May 2024 Deviation 2026-O0025 Jun 2026 252.204-7018 Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services. Jan 2023 252.225-7013 Duty-Free Entry. Aug 2025 252.225-7048 Export-Controlled Items. Jun 2013 252.225-7056 Prohibition Regarding Business Operations with the Maduro Regime. Jan 2023 252.225-7060 Prohibition on Certain Procurements from the Xinjiang Uyghur Autonomous Region. Jun 2023 252.232-7010 Levies on Contract Payments. Dec 2006 252.233-7001 Choice of Law (Overseas). Jun 1997 252.237-7010 Prohibition on Interrogation of Detainees by Contractor Personn",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13947,
+            "corpus_end": 15252,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 32655795592,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-23T17:45:10.550849+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 37,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "software-maintenance",
+        "training-course"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c64da7611cb4396ce031ebbbce177e6c9ba6fc50d08a8433a6fb623d474b3edc",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 37,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32655795592,
+        "shard": 1,
+        "candidate_id": "US-SAM:ac620a8758db4388a102b21ae7967fee",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -23409,7 +23796,7 @@
       "gpt_priority_score": 35,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32647850099,
         "shard": 3,
@@ -60917,11 +61304,398 @@
       "gpt_priority_score": 40,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32647850099,
         "shard": 3,
         "candidate_id": "TED:468315-2026",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:ac620a8758db4388a102b21ae7967fee",
+      "title": "NAWCAD WOLF - Intent to Sole Source for APDU Hardware & Software Maintenance Support Services",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/ac620a8758db4388a102b21ae7967fee/view",
+      "deadline": "2026-08-27T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 71,
+      "priority_score": 71,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-08-27T21:00:00+00:00",
+        "notice_deadline_date": "2026-08-27",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 1,
+          "unique_contexts": 1
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 9,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "NUMBER Section A - Solicitation/Contract Form TW125 Iwakuni APDU System Maintenance Product Service Code: J017 Solicitation Information All quotes/responses shall be submitted via email to Maria Sproul at maria.a.sproul.civ@us.navy.mil no later than 5:00 PM Eastern Standard Time on 27 August 2026. Solicitation N0042126Q1329 is issued as a Intent to Sole Source. The Government intends to purchase on a firm fixed-price basis, and to solicit and negotiate the proposed purchase order on a sole source basis with NTT Data Japan Corporation for Hardware and Software Maintenance Support as list under the authority of FAR 13.501. Offerors must be registered in SAM.GOV database prior to submission of an offer to be considered for award of any DoD contract. This may be accomplished electronically at https://sam.gov This is a firm fixed price procurement therefore, the offeror's initial offer should represent vendor's best quote in terms of price and technical acceptability. This notice is intent to Sole Source with NTT Data Japan Corporation which is a Large Business. Vendors must be NTT Data Japan Corporation authorized distributor and provide documentation to be considered. This notice of intent is not a request for competitive quotes. However, the Government will consider all quotes received.",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2031,
+            "corpus_end": 3344,
+            "match": "registered in"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "n Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 N0042126Q1329 Page 5 of 15 Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definiti",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5135,
+            "corpus_end": 6444,
+            "match": "Reference"
+          },
+          {
+            "text": "n, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 N0042126Q1329 Page 5 of 15 Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report a",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5357,
+            "corpus_end": 6666,
+            "match": "Reference"
+          },
+          {
+            "text": "e Contractor shall ensure a receiving report meets the requirements of DFARS Appendix F. Receiving report. (g) WAWF point of contact. (1) The Contractor may obtain clarification regarding invoicing in WAWF from the following contracting activity's WAWF point of contact. __Jeffrey.r.bell.civ@us.navy.mil__ (Contracting Officer: Insert applicable information or \"Not applicable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11439,
+            "corpus_end": 12748,
+            "match": "Reference"
+          },
+          {
+            "text": "licable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Di",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11848,
+            "corpus_end": 13157,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "T ADDRESS c. CITY d. STATE e. ZIP CODE 7. DELIVERY FOB DESTINATION OTHER (See Schedule) 10. PLEASE FURNISH QUOTATIONS TO THE ISSUING OFFICE IN BLOCK 5a ON OR BEFORE CLOSE OF BUSINESS (Date) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3. REQUISITIO",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 517,
+            "corpus_end": 1830,
+            "match": "certification"
+          },
+          {
+            "text": "ts and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6144,
+            "corpus_end": 7457,
+            "match": "certification"
+          },
+          {
+            "text": "ec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for A",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6171,
+            "corpus_end": 7484,
+            "match": "certification"
+          },
+          {
+            "text": "elpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Fe",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11881,
+            "corpus_end": 13194,
+            "match": "Certification"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "ng contracting activity's WAWF point of contact. __Jeffrey.r.bell.civ@us.navy.mil__ (Contracting Officer: Insert applicable information or \"Not applicable.\") (2) Contact the WAWF helpdesk at 866-618-5988, if assistance is needed. (End of clause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11685,
+            "corpus_end": 12996,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ause) N0042126Q1329 Page 9 of 15 Section H - Special Contract Requirements Section I - Contract Clauses FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.203-19 Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements. Jan 2017 52.204-10 Reporting Executive Compensation and First-Tier Subcontract Awards. (Deviation 2026- O0038) Feb 2026 52.204-13 System for Award Management-Maintenance. (Deviation 2026-O0038) Feb 2026 52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014 52.209-6 Protecting the Government's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038)",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11957,
+            "corpus_end": 13268,
+            "match": "Subcontract"
+          },
+          {
+            "text": "or-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038) Feb 2026 52.222-90 Addressing DEI Discrimination by Federal Contractors. (Deviation 2026-O0040, Revision 1) Apr 2026 52.226-8 Encouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and Exclusions. (Deviation 2026-O0038) Feb 2026 52.240-93 Basic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13032,
+            "corpus_end": 14343,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and Exclusions. (Deviation 2026-O0038) Feb 2026 52.240-93 Basic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011 252.203-7002 Requirement to Inform Employees of Whistleblower Rights. Dec 2022 252.204-7000 Disclosure of Information. Oct 2016 252.204-7003 Control of Government Personnel Work Product. Apr 1992 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting (DEVIATION 2026-O0025) May 2024 Deviation 2026-O0025 Jun 2026 252.204-7018 Prohibition",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13398,
+            "corpus_end": 14709,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "te) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3. REQUISITION/PURCHASE REQUEST NO. 4. CERT. FOR NAT. DEF. UNDER BDSA REG. 2 AND/OR DMS REG. 1 RATING 5a. ISSUED BY 6. DELIVER BY (Date) 5b. FOR INFORMATION CALL (NO COLLECT CALLS) NAME TELEPHONE",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 706,
+            "corpus_end": 2014,
+            "match": "QUANTITY"
+          },
+          {
+            "text": "mining whether to conduct a competitive procurement. The Government will not pay for any information received. ***Instructions to Offerors*** Please include the following information with your response: (1) FOB: (Destination preferred) (2) Shipping Cost if applicable (20684-4013): (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3584,
+            "corpus_end": 4892,
+            "match": "Quantity"
+          },
+          {
+            "text": "le (20684-4013): (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 0002 Inspection and Acceptance Location Both Destination Instructions: Perform Insp",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3850,
+            "corpus_end": 5163,
+            "match": "Specification"
+          },
+          {
+            "text": ": (3) IUID Labeling if applicable: (4) Tax ID# (5) Unique Entity ID # (6) Cage Code: (7) Small Business: Yes ____ No ____ (8) Estimated Delivery Date: (9) If available on a Pricelist please provide a copy. (10) Total: _____________________ N0042126Q1329 Page 2 of 15 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Item Supplies/Service Quantity Unit Unit Price Amount 0001 Hardware Mainenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each 0002 Software Maintenance Support Service 1 Yr Pricing Arrangement: Firm Fixed Price 1 Each N0042126Q1329 Page 3 of 15 Section C - Description/Specifications/Statement of Work Requirements TW125 Iwakuni APDU System Maintenance N0042126Q1329 Page 4 of 15 Section D - Packaging and Marking Section E - Inspection and Acceptance Overall Contract Inspection/Acceptance Locations 0001 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptance upon receipt. DoDAAC: N3555A CountryCode: USA NAVAL AIR WARFARE CTR AIRCRAFT DIV 17134 WEBSTER FIELD ROAD, ST INIGOES MD 20684 ST INIGOES, MD 20684 UNITED STATES Eric Larson, TPOC Email: eric.j.larson44.civ@us.navy.mil Telephone: 301-995-8209 0002 Inspection and Acceptance Location Both Destination Instructions: Perform Inspection and Acceptan",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3865,
+            "corpus_end": 5182,
+            "match": "Statement of Work"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ernment's Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded. (Deviation 2026-O0038) Feb 2026 52.209-10 Prohibition on Contracting With Inverted Domestic Corporations. (Deviation 2026- O0038) Feb 2026 52.212-4 Terms and Conditions-Commercial Products and Commercial Services. (Deviation 2026- O0038) Feb 2026 52.222-3 Convict Labor. (Deviation 2026-O0038) Feb 2026 52.222-19 Child Labor-Cooperation with Authorities and Remedies. (Deviation 2026-O0038) Mar 2026 52.222-36 Equal Opportunity for Workers with Disabilities. (Deviation 2026-O0038) Feb 2026 52.222-50 Combating Trafficking in Persons. (Deviation 2026-O0038) Feb 2026 52.222-90 Addressing DEI Discrimination by Federal Contractors. (Deviation 2026-O0040, Revision 1) Apr 2026 52.226-8 Encouraging Contractor Policies to Ban Text Messaging While Driving. May 2024 52.232-33 Payment by Electronic Funds Transfer-System for Award Management. Oct 2018 52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013 52.232-40 Providing Accelerated Payments to Small Business Subcontractors. Mar 2023 52.233-3 Protest after Award. (Deviation 2026-O0038) Feb 2026 52.233-4 Applicable Law for Breach of Contract Claim. (Deviation 2026-O0038) Feb 2026 52.240-91 Security Prohibitions and E",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12583,
+            "corpus_end": 13892,
+            "match": "in Person"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/Solicitation_-_N0042126Q1329.pdf ===== REQUEST FOR QUOTATION (THIS IS NOT AN ORDER) THIS RFQ IS IS NOT A SMALL BUSINESS SET-ASIDE 15. DATE OF QUOTATION 16. SIGNER a. NAME (Type or print) c. TITLE (Type or print) b. TELEPHONE AREA CODE NUMBER STANDARD FORM 18 (REV. 6-95) Prescribed by GSA-FAR (48 CFR) 53.215-1(a) AUTHORIZED FOR LOCAL REPRODUCTION Previous edition not usable 8. TO: b. COMPANYa. NAME c. STREET ADDRESS d. CITY e. STATE f. ZIP CODE 9. DESTINATION a. NAME OF CONSIGNEE b. STREET ADDRESS c. CITY d. STATE e. ZIP CODE 7. DELIVERY FOB DESTINATION OTHER (See Schedule) 10. PLEASE FURNISH QUOTATIONS TO THE ISSUING OFFICE IN BLOCK 5a ON OR BEFORE CLOSE OF BUSINESS (Date) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (Include applicable Federal, State and local taxes) ITEM NO. (a) SUPPLIES/ SERVICES (b) QUANTITY (c) UNIT (d) UNIT PRICE (e) AMOUNT (f) 12. DISCOUNT FOR PROMPT PAYMENT a. 10 CALENDAR DAYS (%) b. 20 CALENDAR DAYS (%) c. 30 CALENDAR DAYS (%) d. CALENDAR DAYS NUMBER PERCENTAGE NOTE: Additional provisions and representations are are not attached. 13. NAME AND ADDRESS OF QUOTER a. NAME OF QUOTER b. STREET ADDRESS c. COUNTY d. CITY e. STATE f. ZIP CODE 14. SIGNATURE OF PERSON AUTHORIZED TO SIGN QUOTATION PAGE OF PAGES 1. REQUEST NO. 2. DATE ISSUED 3.",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 22975,
+            "match": "Schedule)\n10. PLEASE FURNISH QUOTATIONS TO THE \nISSUING OFFICE IN BLOCK 5a ON OR\nBEFORE CLOSE OF BUSINESS (Date) \nIMPORT"
+          }
+        ],
+        "submission": [
+          {
+            "text": "Section F - Deliveries or Performance Overall Contract Delivery Period Ship To DoDAAC: N3555A Contractor Destination Line Item Delivery Schedule Quantity Address and POC 0001 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each 0002 Period of Performance From 01 Sep 2026 To 31 Aug 2027 1 Each FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.247-34 F.o.b. Destination. Jan 1991 N0042126Q1329 Page 6 of 15 Section G - Contract Administration Data DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.232-7003 Electronic Submission of Payment Requests and Receiving Reports. Dec 2018 252.232-7008 Assignment of Claims (Overseas). Jun 1997 DFARS Clauses Incorporated by Full Text 252.232-7006 Wide Area WorkFlow Payment Instructions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office respon",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5455,
+            "corpus_end": 6776,
+            "match": "Electronic Submission"
+          },
+          {
+            "text": "ctions. (Tailored) (Jan 2023) WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023) (a) As used in this clause- Definitions. \"Department of Defense Activity Address Code (DoDAAC)\" is a six position code that uniquely identifies a unit, activity, or organization. \"Document type\" means the type of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for s",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6320,
+            "corpus_end": 7641,
+            "match": "Electronic Submission"
+          },
+          {
+            "text": "of payment request or receiving report available for creation in Wide Area WorkFlow (WAWF). \"Local processing office (LPO)\" is the office responsible for payment certification when payment certification is done external to the entitlement system. \"Payment request\" and \"receiving report\" are defined in the clause at 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (b) The WAWF system provides the method to electronically process vendor payment requests and receiving reports, as Electronic invoicing. authorized by Defense Federal Acquisition Regulation Supplement (DFARS) 252.232-7003, Electronic Submission of Payment Requests and Receiving Reports. (c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available at this web site. (d) The Contractor should follow the training instructions of the WAWF Web-Based Training Course and use the Practice WAWF training. Training Site before submitting payment requests through WAWF. Both can be accessed by selecting the \"",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6626,
+            "corpus_end": 7947,
+            "match": "Electronic Submission"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "sic Safeguarding of Covered Contractor Information Systems. (Deviation 2026-O0038) Feb 2026 52.244-6 Subcontracts for Commercial Products and Commercial Services. (Deviation 2026- O0038) Apr 2026 DFARS Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 252.203-7000 Requirements Relating to Compensation of Former DoD Officials. Sep 2011 252.203-7002 Requirement to Inform Employees of Whistleblower Rights. Dec 2022 252.204-7000 Disclosure of Information. Oct 2016 252.204-7003 Control of Government Personnel Work Product. Apr 1992 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting (DEVIATION 2026-O0025) May 2024 Deviation 2026-O0025 Jun 2026 252.204-7018 Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services. Jan 2023 252.225-7013 Duty-Free Entry. Aug 2025 252.225-7048 Export-Controlled Items. Jun 2013 252.225-7056 Prohibition Regarding Business Operations with the Maduro Regime. Jan 2023 252.225-7060 Prohibition on Certain Procurements from the Xinjiang Uyghur Autonomous Region. Jun 2023 252.232-7010 Levies on Contract Payments. Dec 2006 252.233-7001 Choice of Law (Overseas). Jun 1997 252.237-7010 Prohibition on Interrogation of Detainees by Contractor Personn",
+            "source": "files/Solicitation_-_N0042126Q1329.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/97f/97f8105ee86744da998bb1270e076b05.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation%2B-%2BN0042126Q1329.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260823T174507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=26992aef9b532a43481feed2dfeacb09be2001d6a59a2d39943148139823f618",
+            "source_sha256": "1e5a08bedba9b78232fc4a32722ef1560eeeb385dea866dd26a9fc6cf8c95a15",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13947,
+            "corpus_end": 15252,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 32655795592,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-23T17:45:10.550849+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 37,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "software-maintenance",
+        "training-course"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c64da7611cb4396ce031ebbbce177e6c9ba6fc50d08a8433a6fb623d474b3edc",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 37,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32655795592,
+        "shard": 1,
+        "candidate_id": "US-SAM:ac620a8758db4388a102b21ae7967fee",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -62070,7 +62844,7 @@
       "gpt_priority_score": 35,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32647850099,
         "shard": 3,
@@ -77329,23 +78103,23 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 26,
+      "GPT_PRIORITY": 27,
       "DCE_AUTHENTICITY_REPAIR": 4,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 13
     },
     "selected_by_stage": {
-      "BUSINESS_GATES": 59,
+      "BUSINESS_GATES": 60,
       "DCE_AUTHENTICITY": 4
     },
     "selected_by_band": {
       "HOT": 1,
       "GOOD": 6,
-      "MAYBE": 19,
+      "MAYBE": 20,
       "LOW": 37
     },
     "selected_by_portal": {
-      "US_SAM": 14,
+      "US_SAM": 15,
       "IRELAND_ETENDERS": 3,
       "TED": 31,
       "SCOTLAND_PCS": 3,
@@ -77356,17 +78130,17 @@
     }
   },
   "counts": {
-    "pending_gpt_web_review": 63,
+    "pending_gpt_web_review": 64,
     "reviewed_ticks_total": 506,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 63,
+    "pending_before_visible_cap": 64,
     "pending_by_stage": {
-      "BUSINESS_GATES": 59,
+      "BUSINESS_GATES": 60,
       "DCE_AUTHENTICITY": 4
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 26,
+      "GPT_PRIORITY": 27,
       "DCE_AUTHENTICITY_REPAIR": 4,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 13
@@ -77374,11 +78148,11 @@
     "pending_by_fit_band": {
       "HOT": 1,
       "GOOD": 6,
-      "MAYBE": 19,
+      "MAYBE": 20,
       "LOW": 37
     },
     "pending_by_portal": {
-      "US_SAM": 14,
+      "US_SAM": 15,
       "IRELAND_ETENDERS": 3,
       "TED": 31,
       "SCOTLAND_PCS": 3,
