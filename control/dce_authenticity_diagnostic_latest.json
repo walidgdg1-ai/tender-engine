@@ -1,23 +1,32 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32637415262,
-  "total_inbox_rows": 35,
-  "dce_authenticity_rows": 3,
+  "latest_source_dce_run_id": 32640060195,
+  "total_inbox_rows": 55,
+  "dce_authenticity_rows": 4,
   "portal_counts": {
+    "GENERIC_PUBLIC_PAGE": 1,
     "PL_EZAMOWIENIA": 1,
     "TED": 1,
     "US_SAM": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 2,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 3,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 2,
+    "NON_AUTHORITATIVE": 3,
     "AUTH_REQUIRED": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
+    {
+      "portal": "GENERIC_PUBLIC_PAGE",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
     {
       "portal": "PL_EZAMOWIENIA",
       "blocked": 1,
@@ -45,6 +54,14 @@
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
+      {
+        "candidate_id": "IT-PVL:863fb0bb-a1fc-40ed-8954-a2764639b8ac",
+        "portal": "GENERIC_PUBLIC_PAGE",
+        "title": "Servizio di fornitura del software del portale integrato con CRM per la gestione delle domande di ammissione di studenti internazionali UE e non-UE con titolo di studio conseguito all'estero, per l'accesso ai corsi di primo, secondo e terzo livello universitario dell'Università degli Studi Milano - Bicocca",
+        "buyer": "UNIVERSITA' DEGLI STUDI DI MILANO - BICOCCA",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/863fb0bb-a1fc-40ed-8954-a2764639b8ac?ricercaArchivio=false"
+      },
       {
         "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
         "portal": "PL_EZAMOWIENIA",
