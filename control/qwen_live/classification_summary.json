@@ -1,13 +1,13 @@
 {
   "schema": "NOTICE_CLASSIFICATION_STATE_MERGE_SUMMARY_V5_REQUEUE_SAFE",
-  "generated_at": "2026-08-23T12:46:13+00:00",
+  "generated_at": "2026-08-23T12:56:10+00:00",
   "target_classifier_version": "qwen3-4b-q4km-batch-selfheal-v1",
   "required_classifier_prompt_version": "qwen-batch-high-recall-business-fit-v3-rich",
   "required_business_calibration_version": "spm-business-fit-v2",
   "ledger_notices": 126459,
   "snapshot_context_rows": 126459,
-  "previous_state_rows": 69656,
-  "result_rows_seen": 5372,
+  "previous_state_rows": 70161,
+  "result_rows_seen": 2181,
   "state_rows_after_merge": 70161,
   "input_queue_rows": 49473,
   "remaining_classification_queue": 47814,
@@ -19,16 +19,12 @@
   "forced_reclassification_reasons": {},
   "synthetic_integrity_requeue_ids": [],
   "stats": {
-    "duplicate_equivalent_candidates_collapsed": 505,
-    "duplicate_valid_result_rows": 505,
-    "previous_carried": 69656,
+    "previous_carried": 70161,
     "queue_already_classified": 1659,
-    "queue_remaining": 47814,
-    "results_accepted": 505,
-    "valid_result_rows": 1010
+    "queue_remaining": 47814
   },
   "rejected_result_reasons": {
-    "parse_or_fallback_error": 4362
+    "parse_or_fallback_error": 2181
   },
   "safety": {
     "exact_material_hash_required": true,
