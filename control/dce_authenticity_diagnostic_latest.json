@@ -1,20 +1,21 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32661766215,
-  "total_inbox_rows": 105,
-  "dce_authenticity_rows": 7,
+  "latest_source_dce_run_id": 32664729357,
+  "total_inbox_rows": 115,
+  "dce_authenticity_rows": 9,
   "portal_counts": {
     "TED": 4,
+    "ZA_ETENDERS": 2,
     "GENERIC_PUBLIC_PAGE": 1,
     "PL_EZAMOWIENIA": 1,
     "US_SAM": 1
   },
   "status_counts": {
     "UNKNOWN_RETRIEVED_DOCUMENT": 6,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 3
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 6,
+    "NON_AUTHORITATIVE": 8,
     "AUTH_REQUIRED": 1
   },
   "method_counts": {},
@@ -26,6 +27,14 @@
       "reason_counts": {
         "NON_AUTHORITATIVE": 3,
         "AUTH_REQUIRED": 1
+      }
+    },
+    {
+      "portal": "ZA_ETENDERS",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
       }
     },
     {
@@ -66,6 +75,14 @@
     ],
     "NON_AUTHORITATIVE": [
       {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166377-2026-08-20",
+        "portal": "ZA_ETENDERS",
+        "title": "RFP/2021/001473",
+        "buyer": "Public Service Sector Education and Training Authority",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-166377"
+      },
+      {
         "candidate_id": "IT-PVL:863fb0bb-a1fc-40ed-8954-a2764639b8ac",
         "portal": "GENERIC_PUBLIC_PAGE",
         "title": "Servizio di fornitura del software del portale integrato con CRM per la gestione delle domande di ammissione di studenti internazionali UE e non-UE con titolo di studio conseguito all'estero, per l'accesso ai corsi di primo, secondo e terzo livello universitario dell'Università degli Studi Milano - Bicocca",
@@ -96,14 +113,6 @@
         "buyer": "Mesto Turčianske Teplice",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/522255-2026"
-      },
-      {
-        "candidate_id": "TED:476036-2026",
-        "portal": "TED",
-        "title": "Spain – Installation services (except software) – Servicio de alquiler y montaje de infraestructuras y mobiliario para la Academia Vasca de Policía y Emergencias.",
-        "buyer": "Gobierno Vasco - Academia Vasca de Policía y Emergencias",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/476036-2026"
       }
     ]
   },
