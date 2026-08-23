@@ -1,18 +1,18 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32661422266,
-  "generated_at": "2026-08-23T19:52:18.715947+00:00",
-  "snapshot_rows": 120879,
-  "current_materialized_rows": 98080,
-  "carried_forward_rows": 22799,
+  "source_discovery_run": 32664730569,
+  "generated_at": "2026-08-23T21:04:05.837773+00:00",
+  "snapshot_rows": 120903,
+  "current_materialized_rows": 96816,
+  "carried_forward_rows": 24087,
   "carried_forward_by_source": {
     "DE": 5509,
     "PL": 3065,
-    "UK_PCS_OCDS": 2565,
-    "ZA_ETENDERS_OCDS": 1757,
+    "UK_PCS_OCDS": 2610,
+    "GR_KHMDHS": 2472,
+    "ZA_ETENDERS_OCDS": 1758,
     "FR": 1753,
     "WORLD_BANK_PROCUREMENT": 1445,
-    "GR_KHMDHS": 1235,
     "ES_PLACSP": 1131,
     "UK_FTS_OCDS": 930,
     "UNGM_PUBLIC": 883,
@@ -28,7 +28,7 @@
     "IE": 25,
     "MT": 22,
     "FI": 22,
-    "DK": 10,
+    "DK": 15,
     "EE_RHR": 3,
     "SI_EJN": 2,
     "LU": 2,
@@ -38,14 +38,15 @@
     "TED": 1
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 105888,
-    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 14991
+    "OPEN_CONFIRMED_BY_DEADLINE": 105911,
+    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 14992
   },
   "packet_count": 242,
   "coverage_status": "PARTIAL_WORLD_COVERAGE",
   "failed_sources": [
     "discovery-global-au-austender",
     "discovery-global-cyprus-epps",
+    "discovery-global-gr-khmdhs",
     "discovery-global-it-anac-delta",
     "discovery-global-malta-epps",
     "discovery-global-uk-pcs-ocds",
@@ -57,7 +58,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32661422266",
+  "immutable_release_tag": "live-world-snapshot-32664730569",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
