@@ -1,17 +1,17 @@
 {
   "schema": "NOTICE_CLASSIFICATION_STATE_MERGE_SUMMARY_V5_REQUEUE_SAFE",
-  "generated_at": "2026-08-23T08:40:44+00:00",
+  "generated_at": "2026-08-23T09:08:04+00:00",
   "target_classifier_version": "qwen3-4b-q4km-batch-selfheal-v1",
   "required_classifier_prompt_version": "qwen-batch-high-recall-business-fit-v3-rich",
   "required_business_calibration_version": "spm-business-fit-v2",
   "ledger_notices": 126459,
   "snapshot_context_rows": 126459,
-  "previous_state_rows": 64081,
-  "result_rows_seen": 1171,
-  "state_rows_after_merge": 64963,
+  "previous_state_rows": 64963,
+  "result_rows_seen": 1665,
+  "state_rows_after_merge": 66013,
   "input_queue_rows": 53894,
-  "remaining_classification_queue": 53012,
-  "classified_fraction_of_ledger": 0.513708,
+  "remaining_classification_queue": 51962,
+  "classified_fraction_of_ledger": 0.52201109,
   "legacy_guard_drift_requeue_ids": [],
   "legacy_guard_drift_actions": {},
   "conflicting_candidate_ids": [],
@@ -19,14 +19,14 @@
   "forced_reclassification_reasons": {},
   "synthetic_integrity_requeue_ids": [],
   "stats": {
-    "previous_carried": 64081,
-    "queue_already_classified": 882,
-    "queue_remaining": 53012,
-    "results_accepted": 882,
-    "valid_result_rows": 882
+    "previous_carried": 64963,
+    "queue_already_classified": 1932,
+    "queue_remaining": 51962,
+    "results_accepted": 1050,
+    "valid_result_rows": 1050
   },
   "rejected_result_reasons": {
-    "parse_or_fallback_error": 289
+    "parse_or_fallback_error": 615
   },
   "safety": {
     "exact_material_hash_required": true,
