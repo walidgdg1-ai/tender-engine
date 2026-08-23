@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-08-23T10:19:24.366005+00:00",
+  "updated_at": "2026-08-23T10:19:52.746482+00:00",
   "latest_source_dce_run_id": 32633337209,
   "review_queue": [
     {
@@ -895,7 +895,7 @@
       },
       "source_dce_run_id": 32626332452,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:45:09.621269+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 30,
       "spm_fit_band": "MAYBE",
@@ -903,20 +903,91 @@
         "it-services"
       ],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32626332452,
+        "shard": 0,
+        "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
+        "release_tag": "dce-harvest-32626332452"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 16530,
+        "documents_indexed": 2,
+        "documents_with_text": 2,
+        "source_urls": [
+          "https://www.millstream.eu/guides/en-gb/Scotland/Postbox%20-%20Supplier%20Guide.pdf"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [
+          "Postbox_20-_20Supplier_20Guide.pdf"
+        ],
+        "access_guide_hits": [],
+        "interest_required_hits": [
+          "record your interest"
+        ],
+        "substantive_marker_hits": [
+          "Request for Tender",
+          "deadline for submission"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "2026",
+            "refit",
+            "thorsvoe"
+          ],
+          "hits": [
+            "2026",
+            "refit",
+            "thorsvoe"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 11,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "e2345cff4ba3bb45171ac8fd3f3db7d513444dadcdf65228732522f0959b594f",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 30,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32626332452,
         "shard": 0,
         "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
-        "release_tag": null
+        "release_tag": "dce-harvest-32626332452"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -1747,26 +1818,110 @@
       },
       "source_dce_run_id": 32626332452,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:45:09.621269+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 21,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32626332452,
+        "shard": 0,
+        "candidate_id": "TED:579174-2026",
+        "release_tag": "dce-harvest-32626332452"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:579174-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 262522,
+        "documents_indexed": 17,
+        "documents_with_text": 14,
+        "source_urls": [
+          "https://www.marches-publics.gouv.fr/index.php?page=Entreprise.EntrepriseDemandeTelechargementDce&id=3056479&orgAcronyme=x7c"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [
+          "créer un compte"
+        ],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "règlement de consultation",
+          "Cahier des Clauses",
+          "cahier des charges",
+          "spécifications techniques",
+          "Date limite de remise",
+          "date limite de réception",
+          "Acte d'Engagement",
+          "mémoire technique"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "business",
+            "consulting",
+            "darpem",
+            "france",
+            "infomed",
+            "marketing",
+            "pharmacovigilance",
+            "printing",
+            "recruitment",
+            "security"
+          ],
+          "hits": [
+            "darpem",
+            "france",
+            "infomed",
+            "marketing",
+            "pharmacovigilance"
+          ],
+          "ratio": 0.5
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 50,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "6f18f705df2ebc7cada6a5e39b5fc023ce1c714c790f2e226e478fa6e525ccd7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 21,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32626332452,
         "shard": 0,
         "candidate_id": "TED:579174-2026",
-        "release_tag": null
+        "release_tag": "dce-harvest-32626332452"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -2407,26 +2562,100 @@
       },
       "source_dce_run_id": 32627186167,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T08:03:42.541650+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 21,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32627186167,
+        "shard": 1,
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
+        "release_tag": "dce-harvest-32627186167"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 104213,
+        "documents_indexed": 1,
+        "documents_with_text": 1,
+        "source_urls": [
+          "https://www.etenders.gov.za/home/Download?blobName=49ca0858-38e1-46f3-aeed-568c70d018ce.pdf&downloadedFileName=PANEL%20OF%20ACCREDITED%20SUPPLIERS%20TO%20SUPPLY%20AND%20DELIVER%20CHEMICALS%20FOR%20PURIFICATION%20OF%20WATER%20AND%20WASTE%20WATER%20OF%20UTHUKELA%20%281%29.pdf"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "ocid": "ocds-9t57fa-163368",
+          "official_release_match": false,
+          "trusted_downloads": [],
+          "documents_with_usable_text": 1,
+          "authority": "South Africa eTenders official OCDS release and typed tender-document chain"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "Terms of Reference",
+          "Scope of Work",
+          "statement of work",
+          "EVALUATION CRITERIA",
+          "pricing schedule",
+          "Conditions of Contract"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "2025"
+          ],
+          "hits": [
+            "2025"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 41,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [
+        "ocds:ocds-9t57fa-163368",
+        "ocds:ocds-9t57fa-163368-2026-07-24"
+      ],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "1c2aaf1318cfb746e5e14a86eb90da9da1419d43d866cf19294cd7baef39f734",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 21,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32627186167,
         "shard": 1,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
-        "release_tag": null
+        "release_tag": "dce-harvest-32627186167"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -2464,9 +2693,9 @@
         "submission": [],
         "ip_data_security": []
       },
-      "source_dce_run_id": 32624675274,
+      "source_dce_run_id": 32627186167,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 9,
       "spm_fit_band": "LOW",
@@ -2477,10 +2706,10 @@
       "dce_authenticity_review_required": true,
       "finalization_allowed": false,
       "artifact_locator": {
-        "dce_run_id": 32624675274,
+        "dce_run_id": 32627186167,
         "shard": 0,
         "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
-        "release_tag": "dce-harvest-32624675274"
+        "release_tag": "dce-harvest-32627186167"
       },
       "evidence_quality_summary": {
         "contract": "DCE_EVIDENCE_QUALITY_V2",
@@ -2562,17 +2791,277 @@
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "6af96325837370b96d8336cb6f3fcfc049ad8041155b600c4fdf3a363f74e98e",
+      "review_key": "92e914273de91d1ee4c88333af4e224d0ed5662064b11c4f2772f07a002e394e",
       "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
       "gpt_priority_score": 9,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 32624675274,
+        "dce_run_id": 32627186167,
         "shard": 0,
         "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
-        "release_tag": "dce-harvest-32624675274"
+        "release_tag": "dce-harvest-32627186167"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
+      "candidate_id": "TED:489821-2026",
+      "title": "Norway – Information technology services – Learning Platform",
+      "buyer": "The Norwegian Directorate of Immigration",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026",
+      "deadline": "2026-08-31T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 76,
+      "priority_score": 76,
+      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+      "gate_readiness": false,
+      "deadline_authority": {},
+      "deadline_authority_status": "MISSING",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 3,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "n Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get access) Name Size 1.1 Vedlegg A - Tilbudsskjema.docx 39 KB 1.2 Vedlegg B - Forpliktelseserklæring.docx 89 KB 1.3 Vedlegg C Prisliste og simulering.xlsx 29 KB 1.4 Vedlegg D - Tekniske og faglige kvalifikasjoner.docx 34 KB 1.5 Vedlegg E - Begrunnelse for sladding av tilbud.docx 82 KB 2. ssa-l_generell_avtaletekst.docx 147 KB 2.1 ssa-l_bilag_2018.docx.docx 186 KB 3. Databehandleravtale.docx 116 KB 3.1 DBA Bilag A Kontaktinformasjon.docx 34 KB 3.2 DBA Bilag B Endringslogg.docx 29 KB 3.3 DBA Bilag C Underleverandører.docx 29 KB 1. Regler for konkurransen - Del II og del III.pdf 325 KB Mercell Holding AS Part of the Mercell Group, one of Europe’s leading providers of e tender systems and information between buyers and suppliers in the professional market. Mercell Holding AS | Askekroken 11, 0277 OSLO, Norway Privacy policy | Cookie info | Terms & conditions |Contact us | Sign in ===== FILE: files/p",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 324853,
+            "corpus_end": 326156,
+            "match": "sla"
+          },
+          {
+            "text": "on Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get access) Name Size 1.1 Vedlegg A - Tilbudsskjema.docx 39 KB 1.2 Vedlegg B - Forpliktelseserklæring.docx 89 KB 1.3 Vedlegg C Prisliste og simulering.xlsx 29 KB 1.4 Vedlegg D - Tekniske og faglige kvalifikasjoner.docx 34 KB 1.5 Vedlegg E - Begrunnelse for sladding av tilbud.docx 82 KB 2. ssa-l_generell_avtaletekst.docx 147 KB 2.1 ssa-l_bilag_2018.docx.docx 186 KB 3. Databehandleravtale.docx 116 KB 3.1 DBA Bilag A Kontaktinformasjon.docx 34 KB 3.2 DBA Bilag B Endringslogg.docx 29 KB 3.3 DBA Bilag C Underleverandører.docx 29 KB 1. Regler for konkurransen - Del II og del III.pdf 325 KB Mercell Holding AS Part of the Mercell Group, one of Europe’s leading providers of e tender systems and information between buyers and suppliers in the professional market. Mercell Holding AS | Askekroken 11 , 0277 OSLO , Norway Privacy policy | Cookie info | Terms & conditions | Contact us | Sign in",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 327161,
+            "corpus_end": 328447,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [
+          {
+            "text": "mt\\x3d3\\x26is_vtc\\x3d1\\x26cid\\x3dCAQS4gEAQM4h3DK8h2O0C4wL35ep0lmsslOZnESTPKWrZYaBYGRJH4RTlKWJnGmzttfqW6k2CPnFCbsGaxZr-hC7KWTwGhCYXX3Sy9L0yXNlgYuBv0A8W5mZpnYlc2KO8J8tMvL68APbzxLGqST74BojMigFc7IrJjyQrXnXpCkijqsFvU62pztCCz88tpmsajSVJ4Nm5tPQG5zscF9wlee_PLBUv-MLpzYUoIXiJMUVxc0jn1Sjd2FuMIjPvwPpYMU7BYUetgrDoH0B0odBIFDXKS2tE2bIRmhURqBny9Ab9C1PS1OO\\x26random\\x3d450595489\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/portal_page.txt ===== Sign in Tender access Contact us World Support Læringsplattform Information Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Department Contact Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 323888,
+            "corpus_end": 325200,
+            "match": "Closing date"
+          },
+          {
+            "text": "4wL35ep0lmsslOZnESTPKWrZYaBYGRJH4RTlKWJnGmzttfqW6k2CPnFCbsGaxZr-hC7KWTwGhCYXX3Sy9L0yXNlgYuBv0A8W5mZpnYlc2KO8J8tMvL68APbzxLGqST74BojMigFc7IrJjyQrXnXpCkijqsFvU62pztCCz88tpmsajSVJ4Nm5tPQG5zscF9wlee_PLBUv-MLpzYUoIXiJMUVxc0jn1Sjd2FuMIjPvwPpYMU7BYUetgrDoH0B0odBIFDXKS2tE2bIRmhURqBny9Ab9C1PS1OO\\x26random\\x3d450595489\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/portal_page.txt ===== Sign in Tender access Contact us World Support Læringsplattform Information Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Department Contact Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get acce",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 323942,
+            "corpus_end": 325254,
+            "match": "closing date"
+          },
+          {
+            "text": "ivacy policy | Cookie info | Terms & conditions |Contact us | Sign in ===== FILE: files/portal_page_http.txt ===== Læringsplattform Sign in Tender access Contact us World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България Contact us Sign in Toggle navigation Support Website Tenders Læringsplattform Information Notice type Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Estimated tendering starting date Estimated tendering closing date Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Recommended document due date Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Utlendingsdirektoratet Department Contact Erik Rye Petersen Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseu",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 326066,
+            "corpus_end": 327378,
+            "match": "closing date"
+          },
+          {
+            "text": "| Sign in ===== FILE: files/portal_page_http.txt ===== Læringsplattform Sign in Tender access Contact us World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България Contact us Sign in Toggle navigation Support Website Tenders Læringsplattform Information Notice type Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Estimated tendering starting date Estimated tendering closing date Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Recommended document due date Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Utlendingsdirektoratet Department Contact Erik Rye Petersen Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om ansk",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 326126,
+            "corpus_end": 327438,
+            "match": "Closing date"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===void 0&&(b=Math.random()*1E9>>>0,t[c]=q?p.Symbol(c):\"$jscp$\"+b+\"$\"+c),k(f,t[c],{configurable:!0,writable:!0,value:d})))}}function w(b){var d=0;return function(){return d<b.length?{done:!1,value:b[d++]}:{done:!0}}} var x=q&&typeof u(Object,\"assign\")==\"function\"?u(Object,\"assign\"):function(b,d){if(b==null)throw new TypeError(\"No nullish arg\");b=Object(b);for(var a=1;a<arguments.length;a++){var c=arguments[a];if(c)for(var e in c)Object.prototype.hasOwnProperty.call(c,e)&&(b[e]=c[e])}return b};v(\"Object.assign\",function(b){return b||x},\"es6\");function y(){for(var b=Number(this),d=[],a=b;a<arguments.length;a++)d[a-b]=arguments[a];return d};/* Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ var z=this||self;var A={};function B(b,d){for(var a in b)Object.prototype.hasOwnProperty.call(b,a)&&d(a,b[a])};var C=window,E=document,F=navigator;function G(b,d){var a={};d&&B(d,function(c,e){c=c.toLowerCase();a.hasOwnProperty(c)||b.setAttribute(c,e)})}function H(){var b=I.i,d=b.apply,a=y.apply(0,arguments);if(!(a instanceof Array)){var c=typeof Symbol!=\"undefined\"&&Symbol.iterator&&a[Symbol.iterator];if(c)a=c.call(a);else if(typeof a.length==\"number\")a={next:w(a)};else throw Error(String(a)+\" is not an iterable or ArrayLike\");for(var e=[];!(c=a.next()).done;)e.push(c.value",
+            "source": "files/f.txt",
+            "source_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480317674&cv=11&fst=1787480317674&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~119793972~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+            "source_sha256": "97901c0f0d6ca14e4a191594f534c838790f945f6e7ca1fa8802bf4c4d48a6e2",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 946,
+            "corpus_end": 2255,
+            "match": "Copyright"
+          },
+          {
+            "text": "3d5\\x26frm\\x3d0\\x26tiba\\x3dL%C3%A6ringsplattform\\x26did\\x3ddZTQ1Zm\\x26gdid\\x3ddZTQ1Zm\\x26hn\\x3dwww.googleadservices.com\\x26npa\\x3d0\\x26pscdl\\x3dnoapi\\x26auid\\x3d274800803.1787480318\\x26uaa\\x3dx86\\x26uab\\x3d64\\x26uafvl\\x3dNot%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137\\x26uamb\\x3d0\\x26uam\\x3d\\x26uap\\x3dLinux\\x26uapv\\x3d\\x26uaw\\x3d0\\x26data\\x3devent%3Dgtag.config\\x26ept\\x3d9\\x26rfmt\\x3d3\\x26fmt\\x3d3\\x26is_vtc\\x3d1\\x26cid\\x3dCAQS4gEAQM4h3DQ3lbNt8tAPBkvwPKU0Y5tGdtg04nE9AsAMq48EhZrvFH5hkuqWl73cNefOum2rpGl3ipg3tT6QBU2kF-8o6Nj445dHyXin_s5YVsqEr2lYl6XyoSkqKCNsZG_qoY0ZAVIRz_GwwCJIigs_-M_j38ZLdSY9KJ71Xz57aVgbAql3GFfDgOpU8RhocXzOO-kup_UWo0RNWw18-sv_kqPskjRH2HQXozx1eJeWlJC_WYjb8TolEh2Y6pzAQjszrhbsMx1NVHozrI42xz9AGzawdJyqGsvVALknyTFlGf8i\\x26random\\x3d164698752\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/f_24.txt ===== (function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(b,d,a){if(b==Array.prototype||b==Object.prototype)return b;b[d]=a.value;return b};function l(b){b=[\"object\"==typeof globalThis&&globalThis,b,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var d=0;d<b.length;++d){var a=b[d];if(a&&a.Math==Math)return a}throw",
+            "source": "files/f_23.txt",
+            "source_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480325541&cv=11&fst=1787480325541&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+            "source_sha256": "784616a9d7f700d737edef7908b9020607a0d07f8314b7397b0fed68cbe33386",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 85631,
+            "corpus_end": 86934,
+            "match": "aVg"
+          }
+        ]
+      },
+      "source_dce_run_id": 32633337209,
+      "source_shard": 0,
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "upstream_classification": "YELLOW",
+      "review_stage": "DCE_AUTHENTICITY",
+      "dce_authenticity_review_required": true,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 0,
+        "candidate_id": "TED:489821-2026",
+        "release_tag": "dce-harvest-32633337209"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:489821-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 328447,
+        "documents_indexed": 62,
+        "documents_with_text": 62,
+        "source_urls": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480317674&cv=11&fst=1787480317674&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~119793972~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480317854&cv=11&fst=1787480317854&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=15&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480317971&cv=11&fst=1787480317971&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480318066&cv=11&fst=1787480318066&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480318154&cv=11&fst=1787480318154&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=0&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480318241&cv=11&fst=1787480318241&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480320981&cv=11&fst=1787480320981&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=16&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480321004&cv=11&fst=1787480321004&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=9&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480321038&cv=11&fst=1787480321038&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=3&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480321072&cv=11&fst=1787480321072&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131808~118897920~118897930~119367802~119367810~119381662~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=8&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480321102&cv=11&fst=1787480321102&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480321131&cv=11&fst=1787480321131&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=15&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480324301&cv=11&fst=1787480324301&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480324324&cv=11&fst=1787480324324&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=14&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480324349&cv=11&fst=1787480324349&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423~120474862&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480324370&cv=11&fst=1787480324370&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422~120412528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=6&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480324392&cv=11&fst=1787480324392&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480324414&cv=11&fst=1787480324414&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=18&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480325450&cv=11&fst=1787480325450&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=9&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480325478&cv=11&fst=1787480325478&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423~120412527&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=12&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480325501&cv=11&fst=1787480325501&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=1&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480325520&cv=11&fst=1787480325520&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=2&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480325541&cv=11&fst=1787480325541&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480325562&cv=11&fst=1787480325562&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480328908&cv=11&fst=1787480328908&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480328933&cv=11&fst=1787480328933&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=16&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480328954&cv=11&fst=1787480328954&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=1&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480328975&cv=11&fst=1787480328975&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422~120420414&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=19&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480328996&cv=11&fst=1787480328996&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480329018&cv=11&fst=1787480329018&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=0&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [],
+        "candidate_title_overlap": {
+          "tokens": [
+            "information",
+            "learning",
+            "norway",
+            "platform",
+            "technology"
+          ],
+          "hits": [
+            "information",
+            "norway"
+          ],
+          "ratio": 0.4
+        },
+        "reasons": [
+          "strong_candidate_specificity_in_retrieved_text"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 8,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "79560cedfd3fa62c52088df9d8a81fd1c9fd87ec132b4fc376d6eb1fc81ef22b",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 12,
+      "upstream_signal": "YELLOW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 0,
+        "candidate_id": "TED:489821-2026",
+        "release_tag": "dce-harvest-32633337209"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -2975,7 +3464,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -3094,7 +3583,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -3391,7 +3880,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 12,
       "spm_fit_band": "LOW",
@@ -3480,7 +3969,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 0,
@@ -3569,28 +4058,102 @@
       },
       "source_dce_run_id": 32633337209,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T10:18:02.631127+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "release_tag": "dce-harvest-32633337209"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 4653,
+        "documents_indexed": 1,
+        "documents_with_text": 1,
+        "source_urls": [
+          "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "Terms of Reference"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "alternatives",
+            "calculation",
+            "cmsf",
+            "financing",
+            "model",
+            "selecting",
+            "sustainable"
+          ],
+          "hits": [
+            "alternatives",
+            "calculation",
+            "cmsf",
+            "financing",
+            "model",
+            "selecting",
+            "sustainable"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "strong_candidate_specificity_in_retrieved_text"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 2,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "9016c6a3349b2c5083ee3681c1fc59343e44ab00f4fb93c37bd623382e1040fc",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 10,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32633337209,
         "shard": 1,
         "candidate_id": "WORLD-BANK:OP00463402",
-        "release_tag": null
+        "release_tag": "dce-harvest-32633337209"
       },
-      "upstream_review_lane": "SPM_PRIORITY",
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -3809,7 +4372,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -3898,7 +4461,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 1,
@@ -4197,7 +4760,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -4301,7 +4864,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -4543,7 +5106,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 11,
       "spm_fit_band": "LOW",
@@ -4629,7 +5192,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -4850,7 +5413,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
@@ -4968,7 +5531,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 0,
@@ -5083,7 +5646,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
@@ -5182,7 +5745,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -6086,7 +6649,7 @@
       },
       "source_dce_run_id": 32626332452,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:45:09.621269+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 30,
       "spm_fit_band": "MAYBE",
@@ -6094,20 +6657,91 @@
         "it-services"
       ],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32626332452,
+        "shard": 0,
+        "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
+        "release_tag": "dce-harvest-32626332452"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 16530,
+        "documents_indexed": 2,
+        "documents_with_text": 2,
+        "source_urls": [
+          "https://www.millstream.eu/guides/en-gb/Scotland/Postbox%20-%20Supplier%20Guide.pdf"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [
+          "Postbox_20-_20Supplier_20Guide.pdf"
+        ],
+        "access_guide_hits": [],
+        "interest_required_hits": [
+          "record your interest"
+        ],
+        "substantive_marker_hits": [
+          "Request for Tender",
+          "deadline for submission"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "2026",
+            "refit",
+            "thorsvoe"
+          ],
+          "hits": [
+            "2026",
+            "refit",
+            "thorsvoe"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 11,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "e2345cff4ba3bb45171ac8fd3f3db7d513444dadcdf65228732522f0959b594f",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 30,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32626332452,
         "shard": 0,
         "candidate_id": "UK_PCS_OCDS:rls-85-AUG561570",
-        "release_tag": null
+        "release_tag": "dce-harvest-32626332452"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -6938,26 +7572,110 @@
       },
       "source_dce_run_id": 32626332452,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:45:09.621269+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 21,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32626332452,
+        "shard": 0,
+        "candidate_id": "TED:579174-2026",
+        "release_tag": "dce-harvest-32626332452"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:579174-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 262522,
+        "documents_indexed": 17,
+        "documents_with_text": 14,
+        "source_urls": [
+          "https://www.marches-publics.gouv.fr/index.php?page=Entreprise.EntrepriseDemandeTelechargementDce&id=3056479&orgAcronyme=x7c"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [
+          "créer un compte"
+        ],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "règlement de consultation",
+          "Cahier des Clauses",
+          "cahier des charges",
+          "spécifications techniques",
+          "Date limite de remise",
+          "date limite de réception",
+          "Acte d'Engagement",
+          "mémoire technique"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "business",
+            "consulting",
+            "darpem",
+            "france",
+            "infomed",
+            "marketing",
+            "pharmacovigilance",
+            "printing",
+            "recruitment",
+            "security"
+          ],
+          "hits": [
+            "darpem",
+            "france",
+            "infomed",
+            "marketing",
+            "pharmacovigilance"
+          ],
+          "ratio": 0.5
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 50,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "6f18f705df2ebc7cada6a5e39b5fc023ce1c714c790f2e226e478fa6e525ccd7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 21,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32626332452,
         "shard": 0,
         "candidate_id": "TED:579174-2026",
-        "release_tag": null
+        "release_tag": "dce-harvest-32626332452"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -7598,26 +8316,100 @@
       },
       "source_dce_run_id": 32627186167,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T08:03:42.541650+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 21,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32627186167,
+        "shard": 1,
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
+        "release_tag": "dce-harvest-32627186167"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 104213,
+        "documents_indexed": 1,
+        "documents_with_text": 1,
+        "source_urls": [
+          "https://www.etenders.gov.za/home/Download?blobName=49ca0858-38e1-46f3-aeed-568c70d018ce.pdf&downloadedFileName=PANEL%20OF%20ACCREDITED%20SUPPLIERS%20TO%20SUPPLY%20AND%20DELIVER%20CHEMICALS%20FOR%20PURIFICATION%20OF%20WATER%20AND%20WASTE%20WATER%20OF%20UTHUKELA%20%281%29.pdf"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "ocid": "ocds-9t57fa-163368",
+          "official_release_match": false,
+          "trusted_downloads": [],
+          "documents_with_usable_text": 1,
+          "authority": "South Africa eTenders official OCDS release and typed tender-document chain"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "Terms of Reference",
+          "Scope of Work",
+          "statement of work",
+          "EVALUATION CRITERIA",
+          "pricing schedule",
+          "Conditions of Contract"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "2025"
+          ],
+          "hits": [
+            "2025"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "multiple_authoritative_procurement_markers_detected"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 41,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [
+        "ocds:ocds-9t57fa-163368",
+        "ocds:ocds-9t57fa-163368-2026-07-24"
+      ],
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "1c2aaf1318cfb746e5e14a86eb90da9da1419d43d866cf19294cd7baef39f734",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 21,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32627186167,
         "shard": 1,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-163368-2026-07-24",
-        "release_tag": null
+        "release_tag": "dce-harvest-32627186167"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -7655,9 +8447,9 @@
         "submission": [],
         "ip_data_security": []
       },
-      "source_dce_run_id": 32624675274,
+      "source_dce_run_id": 32627186167,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 9,
       "spm_fit_band": "LOW",
@@ -7668,10 +8460,10 @@
       "dce_authenticity_review_required": true,
       "finalization_allowed": false,
       "artifact_locator": {
-        "dce_run_id": 32624675274,
+        "dce_run_id": 32627186167,
         "shard": 0,
         "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
-        "release_tag": "dce-harvest-32624675274"
+        "release_tag": "dce-harvest-32627186167"
       },
       "evidence_quality_summary": {
         "contract": "DCE_EVIDENCE_QUALITY_V2",
@@ -7753,17 +8545,277 @@
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "6af96325837370b96d8336cb6f3fcfc049ad8041155b600c4fdf3a363f74e98e",
+      "review_key": "92e914273de91d1ee4c88333af4e224d0ed5662064b11c4f2772f07a002e394e",
       "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
       "gpt_priority_score": 9,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 32624675274,
+        "dce_run_id": 32627186167,
         "shard": 0,
         "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
-        "release_tag": "dce-harvest-32624675274"
+        "release_tag": "dce-harvest-32627186167"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
+      "candidate_id": "TED:489821-2026",
+      "title": "Norway – Information technology services – Learning Platform",
+      "buyer": "The Norwegian Directorate of Immigration",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026",
+      "deadline": "2026-08-31T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 76,
+      "priority_score": 76,
+      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+      "gate_readiness": false,
+      "deadline_authority": {},
+      "deadline_authority_status": "MISSING",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 3,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "n Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get access) Name Size 1.1 Vedlegg A - Tilbudsskjema.docx 39 KB 1.2 Vedlegg B - Forpliktelseserklæring.docx 89 KB 1.3 Vedlegg C Prisliste og simulering.xlsx 29 KB 1.4 Vedlegg D - Tekniske og faglige kvalifikasjoner.docx 34 KB 1.5 Vedlegg E - Begrunnelse for sladding av tilbud.docx 82 KB 2. ssa-l_generell_avtaletekst.docx 147 KB 2.1 ssa-l_bilag_2018.docx.docx 186 KB 3. Databehandleravtale.docx 116 KB 3.1 DBA Bilag A Kontaktinformasjon.docx 34 KB 3.2 DBA Bilag B Endringslogg.docx 29 KB 3.3 DBA Bilag C Underleverandører.docx 29 KB 1. Regler for konkurransen - Del II og del III.pdf 325 KB Mercell Holding AS Part of the Mercell Group, one of Europe’s leading providers of e tender systems and information between buyers and suppliers in the professional market. Mercell Holding AS | Askekroken 11, 0277 OSLO, Norway Privacy policy | Cookie info | Terms & conditions |Contact us | Sign in ===== FILE: files/p",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 324853,
+            "corpus_end": 326156,
+            "match": "sla"
+          },
+          {
+            "text": "on Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get access) Name Size 1.1 Vedlegg A - Tilbudsskjema.docx 39 KB 1.2 Vedlegg B - Forpliktelseserklæring.docx 89 KB 1.3 Vedlegg C Prisliste og simulering.xlsx 29 KB 1.4 Vedlegg D - Tekniske og faglige kvalifikasjoner.docx 34 KB 1.5 Vedlegg E - Begrunnelse for sladding av tilbud.docx 82 KB 2. ssa-l_generell_avtaletekst.docx 147 KB 2.1 ssa-l_bilag_2018.docx.docx 186 KB 3. Databehandleravtale.docx 116 KB 3.1 DBA Bilag A Kontaktinformasjon.docx 34 KB 3.2 DBA Bilag B Endringslogg.docx 29 KB 3.3 DBA Bilag C Underleverandører.docx 29 KB 1. Regler for konkurransen - Del II og del III.pdf 325 KB Mercell Holding AS Part of the Mercell Group, one of Europe’s leading providers of e tender systems and information between buyers and suppliers in the professional market. Mercell Holding AS | Askekroken 11 , 0277 OSLO , Norway Privacy policy | Cookie info | Terms & conditions | Contact us | Sign in",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 327161,
+            "corpus_end": 328447,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [
+          {
+            "text": "mt\\x3d3\\x26is_vtc\\x3d1\\x26cid\\x3dCAQS4gEAQM4h3DK8h2O0C4wL35ep0lmsslOZnESTPKWrZYaBYGRJH4RTlKWJnGmzttfqW6k2CPnFCbsGaxZr-hC7KWTwGhCYXX3Sy9L0yXNlgYuBv0A8W5mZpnYlc2KO8J8tMvL68APbzxLGqST74BojMigFc7IrJjyQrXnXpCkijqsFvU62pztCCz88tpmsajSVJ4Nm5tPQG5zscF9wlee_PLBUv-MLpzYUoIXiJMUVxc0jn1Sjd2FuMIjPvwPpYMU7BYUetgrDoH0B0odBIFDXKS2tE2bIRmhURqBny9Ab9C1PS1OO\\x26random\\x3d450595489\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/portal_page.txt ===== Sign in Tender access Contact us World Support Læringsplattform Information Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Department Contact Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 323888,
+            "corpus_end": 325200,
+            "match": "Closing date"
+          },
+          {
+            "text": "4wL35ep0lmsslOZnESTPKWrZYaBYGRJH4RTlKWJnGmzttfqW6k2CPnFCbsGaxZr-hC7KWTwGhCYXX3Sy9L0yXNlgYuBv0A8W5mZpnYlc2KO8J8tMvL68APbzxLGqST74BojMigFc7IrJjyQrXnXpCkijqsFvU62pztCCz88tpmsajSVJ4Nm5tPQG5zscF9wlee_PLBUv-MLpzYUoIXiJMUVxc0jn1Sjd2FuMIjPvwPpYMU7BYUetgrDoH0B0odBIFDXKS2tE2bIRmhURqBny9Ab9C1PS1OO\\x26random\\x3d450595489\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/portal_page.txt ===== Sign in Tender access Contact us World Support Læringsplattform Information Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Department Contact Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om anskaffelsen følger av vedlagte regler for anskaffelsen og kontraktsutkast med vedlegg. Files (click \"Show interest\" to get acce",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3370965511805e18600684e9f95b92b83da6f2e16137d9f14068f5817061a05b",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 323942,
+            "corpus_end": 325254,
+            "match": "closing date"
+          },
+          {
+            "text": "ivacy policy | Cookie info | Terms & conditions |Contact us | Sign in ===== FILE: files/portal_page_http.txt ===== Læringsplattform Sign in Tender access Contact us World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България Contact us Sign in Toggle navigation Support Website Tenders Læringsplattform Information Notice type Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Estimated tendering starting date Estimated tendering closing date Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Recommended document due date Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Utlendingsdirektoratet Department Contact Erik Rye Petersen Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseu",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 326066,
+            "corpus_end": 327378,
+            "match": "closing date"
+          },
+          {
+            "text": "| Sign in ===== FILE: files/portal_page_http.txt ===== Læringsplattform Sign in Tender access Contact us World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България World Danmark Deutschland Eesti Latvija Lietuva Norge Polska Russia Suomi Sverige World UK & Ireland USA Nederland България Contact us Sign in Toggle navigation Support Website Tenders Læringsplattform Information Notice type Tender type eForm 16 Contract notice — standard regime Procedure Open procedure Estimated tendering starting date Estimated tendering closing date Publication date 7/15/2026 8:16 AM (GMT+02:00) Closing date 8/31/2026 12:00 PM (GMT+02:00) Questions closing date 8/20/2026 12:00 PM (GMT+02:00) Recommended document due date Accepts parallel bids No Accepts variant bids No Buyer Name Utlendingsdirektoratet Utlendingsdirektoratet Department Contact Erik Rye Petersen Erik Rye Petersen Address Innspurten 11D 0663 OSLO Norway Org. number 974760746 Website www.udi.no Short description Utlendingsdirektoratet (UDI) skal inngå en kontrakt om læringsplattform som skytjeneste. Formålet med anskaffelsen er å sikre en moderne og brukervennlig læringsplattform som støtter UDI sitt arbeid med kompetanseutvikling og kunnskapsdeling. Ytterligere informasjon om ansk",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "6afa6fdc8e1bbaf2bc07ada3b7d351c7c17ca64102506be1fb5b2c33ff038806",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 326126,
+            "corpus_end": 327438,
+            "match": "Closing date"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===void 0&&(b=Math.random()*1E9>>>0,t[c]=q?p.Symbol(c):\"$jscp$\"+b+\"$\"+c),k(f,t[c],{configurable:!0,writable:!0,value:d})))}}function w(b){var d=0;return function(){return d<b.length?{done:!1,value:b[d++]}:{done:!0}}} var x=q&&typeof u(Object,\"assign\")==\"function\"?u(Object,\"assign\"):function(b,d){if(b==null)throw new TypeError(\"No nullish arg\");b=Object(b);for(var a=1;a<arguments.length;a++){var c=arguments[a];if(c)for(var e in c)Object.prototype.hasOwnProperty.call(c,e)&&(b[e]=c[e])}return b};v(\"Object.assign\",function(b){return b||x},\"es6\");function y(){for(var b=Number(this),d=[],a=b;a<arguments.length;a++)d[a-b]=arguments[a];return d};/* Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ var z=this||self;var A={};function B(b,d){for(var a in b)Object.prototype.hasOwnProperty.call(b,a)&&d(a,b[a])};var C=window,E=document,F=navigator;function G(b,d){var a={};d&&B(d,function(c,e){c=c.toLowerCase();a.hasOwnProperty(c)||b.setAttribute(c,e)})}function H(){var b=I.i,d=b.apply,a=y.apply(0,arguments);if(!(a instanceof Array)){var c=typeof Symbol!=\"undefined\"&&Symbol.iterator&&a[Symbol.iterator];if(c)a=c.call(a);else if(typeof a.length==\"number\")a={next:w(a)};else throw Error(String(a)+\" is not an iterable or ArrayLike\");for(var e=[];!(c=a.next()).done;)e.push(c.value",
+            "source": "files/f.txt",
+            "source_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480317674&cv=11&fst=1787480317674&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~119793972~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+            "source_sha256": "97901c0f0d6ca14e4a191594f534c838790f945f6e7ca1fa8802bf4c4d48a6e2",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 946,
+            "corpus_end": 2255,
+            "match": "Copyright"
+          },
+          {
+            "text": "3d5\\x26frm\\x3d0\\x26tiba\\x3dL%C3%A6ringsplattform\\x26did\\x3ddZTQ1Zm\\x26gdid\\x3ddZTQ1Zm\\x26hn\\x3dwww.googleadservices.com\\x26npa\\x3d0\\x26pscdl\\x3dnoapi\\x26auid\\x3d274800803.1787480318\\x26uaa\\x3dx86\\x26uab\\x3d64\\x26uafvl\\x3dNot%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137\\x26uamb\\x3d0\\x26uam\\x3d\\x26uap\\x3dLinux\\x26uapv\\x3d\\x26uaw\\x3d0\\x26data\\x3devent%3Dgtag.config\\x26ept\\x3d9\\x26rfmt\\x3d3\\x26fmt\\x3d3\\x26is_vtc\\x3d1\\x26cid\\x3dCAQS4gEAQM4h3DQ3lbNt8tAPBkvwPKU0Y5tGdtg04nE9AsAMq48EhZrvFH5hkuqWl73cNefOum2rpGl3ipg3tT6QBU2kF-8o6Nj445dHyXin_s5YVsqEr2lYl6XyoSkqKCNsZG_qoY0ZAVIRz_GwwCJIigs_-M_j38ZLdSY9KJ71Xz57aVgbAql3GFfDgOpU8RhocXzOO-kup_UWo0RNWw18-sv_kqPskjRH2HQXozx1eJeWlJC_WYjb8TolEh2Y6pzAQjszrhbsMx1NVHozrI42xz9AGzawdJyqGsvVALknyTFlGf8i\\x26random\\x3d164698752\\x26rmt_tld\\x3d0\\x26ipr\\x3dy'], []);})(); ===== FILE: files/f_24.txt ===== (function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(b,d,a){if(b==Array.prototype||b==Object.prototype)return b;b[d]=a.value;return b};function l(b){b=[\"object\"==typeof globalThis&&globalThis,b,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var d=0;d<b.length;++d){var a=b[d];if(a&&a.Math==Math)return a}throw",
+            "source": "files/f_23.txt",
+            "source_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480325541&cv=11&fst=1787480325541&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+            "source_sha256": "784616a9d7f700d737edef7908b9020607a0d07f8314b7397b0fed68cbe33386",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 85631,
+            "corpus_end": 86934,
+            "match": "aVg"
+          }
+        ]
+      },
+      "source_dce_run_id": 32633337209,
+      "source_shard": 0,
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "upstream_classification": "YELLOW",
+      "review_stage": "DCE_AUTHENTICITY",
+      "dce_authenticity_review_required": true,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 0,
+        "candidate_id": "TED:489821-2026",
+        "release_tag": "dce-harvest-32633337209"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:489821-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 328447,
+        "documents_indexed": 62,
+        "documents_with_text": 62,
+        "source_urls": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480317674&cv=11&fst=1787480317674&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~119793972~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480317854&cv=11&fst=1787480317854&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=15&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480317971&cv=11&fst=1787480317971&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480318066&cv=11&fst=1787480318066&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480318154&cv=11&fst=1787480318154&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=0&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480318241&cv=11&fst=1787480318241&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480320981&cv=11&fst=1787480320981&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=16&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480321004&cv=11&fst=1787480321004&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=9&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480321038&cv=11&fst=1787480321038&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=3&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480321072&cv=11&fst=1787480321072&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131808~118897920~118897930~119367802~119367810~119381662~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=8&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480321102&cv=11&fst=1787480321102&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480321131&cv=11&fst=1787480321131&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=15&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480324301&cv=11&fst=1787480324301&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480324324&cv=11&fst=1787480324324&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=14&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480324349&cv=11&fst=1787480324349&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423~120474862&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480324370&cv=11&fst=1787480324370&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422~120412528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=6&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480324392&cv=11&fst=1787480324392&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=11&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480324414&cv=11&fst=1787480324414&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=18&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480325450&cv=11&fst=1787480325450&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=9&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480325478&cv=11&fst=1787480325478&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423~120412527&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=12&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480325501&cv=11&fst=1787480325501&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=1&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480325520&cv=11&fst=1787480325520&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=2&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480325541&cv=11&fst=1787480325541&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480325562&cv=11&fst=1787480325562&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=5&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10826390764/?random=1787480328908&cv=11&fst=1787480328908&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9179231066za200zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071968720/?random=1787480328933&cv=11&fst=1787480328933&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181773414za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120213116~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=16&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/780834548/?random=1787480328954&cv=11&fst=1787480328954&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181632172za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=1&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070617256/?random=1787480328975&cv=11&fst=1787480328975&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v899983675za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385422~120420414&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=19&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861570351/?random=1787480328996&cv=11&fst=1787480328996&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9181622848za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~119367802~119367810~120315471~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=4&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939035632/?random=1787480329018&cv=11&fst=1787480329018&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be68j0v9209977874za200zb9179231066zd9179231066xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~119367802~119367810~120315470~120385423&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&ref=https%3A%2F%2Fwww.mercell.com%2Fen%2Ftender%2F287776027%2Flaeringsplattform-tender.aspx&rcb=0&frm=0&tiba=L%C3%A6ringsplattform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=274800803.1787480318&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B151.0.7922.137%7CChromium%3B151.0.7922.137&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [],
+        "candidate_title_overlap": {
+          "tokens": [
+            "information",
+            "learning",
+            "norway",
+            "platform",
+            "technology"
+          ],
+          "hits": [
+            "information",
+            "norway"
+          ],
+          "ratio": 0.4
+        },
+        "reasons": [
+          "strong_candidate_specificity_in_retrieved_text"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 8,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "79560cedfd3fa62c52088df9d8a81fd1c9fd87ec132b4fc376d6eb1fc81ef22b",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 12,
+      "upstream_signal": "YELLOW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 0,
+        "candidate_id": "TED:489821-2026",
+        "release_tag": "dce-harvest-32633337209"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -8166,7 +9218,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -8285,7 +9337,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -8582,7 +9634,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 12,
       "spm_fit_band": "LOW",
@@ -8671,7 +9723,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 0,
@@ -8760,28 +9812,102 @@
       },
       "source_dce_run_id": 32633337209,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T10:18:02.631127+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
+      "upstream_classification": "MODEL_REVIEW_REQUIRED",
+      "review_stage": "BUSINESS_GATES",
+      "dce_authenticity_review_required": false,
+      "finalization_allowed": false,
+      "artifact_locator": {
+        "dce_run_id": 32633337209,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "release_tag": "dce-harvest-32633337209"
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "WORLD-BANK:OP00463402",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC",
+        "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "gate_readiness": true,
+        "text_chars": 4653,
+        "documents_indexed": 1,
+        "documents_with_text": 1,
+        "source_urls": [
+          "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00463402"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [
+          "Terms of Reference"
+        ],
+        "candidate_title_overlap": {
+          "tokens": [
+            "alternatives",
+            "calculation",
+            "cmsf",
+            "financing",
+            "model",
+            "selecting",
+            "sustainable"
+          ],
+          "hits": [
+            "alternatives",
+            "calculation",
+            "cmsf",
+            "financing",
+            "model",
+            "selecting",
+            "sustainable"
+          ],
+          "ratio": 1.0
+        },
+        "reasons": [
+          "strong_candidate_specificity_in_retrieved_text"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed_snippets": 2,
+        "unattributed_snippets": 0,
+        "all_review_snippets_attributed": true
+      },
+      "procedure_aliases": [],
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
       "review_key": "9016c6a3349b2c5083ee3681c1fc59343e44ab00f4fb93c37bd623382e1040fc",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 10,
-      "upstream_signal": "DCE_REVIEW_READY",
+      "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32633337209,
         "shard": 1,
         "candidate_id": "WORLD-BANK:OP00463402",
-        "release_tag": null
+        "release_tag": "dce-harvest-32633337209"
       },
-      "upstream_review_lane": "SPM_PRIORITY",
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -9000,7 +10126,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 1,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -9089,7 +10215,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 1,
@@ -9388,7 +10514,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
       "spm_fit_band": "LOW",
@@ -9492,7 +10618,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -9734,7 +10860,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 11,
       "spm_fit_band": "LOW",
@@ -9820,7 +10946,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -10041,7 +11167,7 @@
       },
       "source_dce_run_id": 32624675274,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
@@ -10159,7 +11285,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32624675274,
         "shard": 0,
@@ -10274,7 +11400,7 @@
       },
       "source_dce_run_id": 32621423799,
       "source_shard": 0,
-      "hot_ready_at": "2026-08-23T07:08:17.040052+00:00",
+      "hot_ready_at": "2026-08-23T10:19:52.554410+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
@@ -10373,7 +11499,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32621423799,
         "shard": 0,
@@ -10390,51 +11516,51 @@
     "low_surveillance_target": 20,
     "selected_by_lane": {
       "GPT_PRIORITY": 4,
-      "DCE_AUTHENTICITY_REPAIR": 1,
+      "DCE_AUTHENTICITY_REPAIR": 2,
       "LOW_PORTAL_SURVEILLANCE": 8
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 12,
-      "DCE_AUTHENTICITY": 1
+      "DCE_AUTHENTICITY": 2
     },
     "selected_by_band": {
       "HOT": 1,
       "MAYBE": 3,
-      "LOW": 9
+      "LOW": 10
     },
     "selected_by_portal": {
       "US_SAM": 1,
       "SCOTLAND_PCS": 2,
-      "TED": 1,
+      "TED": 2,
       "ZA_ETENDERS": 2,
       "PL_EZAMOWIENIA": 6,
       "WORLD_BANK": 1
     }
   },
   "counts": {
-    "pending_gpt_web_review": 13,
+    "pending_gpt_web_review": 14,
     "reviewed_ticks_total": 506,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 13,
+    "pending_before_visible_cap": 14,
     "pending_by_stage": {
       "BUSINESS_GATES": 12,
-      "DCE_AUTHENTICITY": 1
+      "DCE_AUTHENTICITY": 2
     },
     "pending_by_inbox_lane": {
       "GPT_PRIORITY": 4,
-      "DCE_AUTHENTICITY_REPAIR": 1,
+      "DCE_AUTHENTICITY_REPAIR": 2,
       "LOW_PORTAL_SURVEILLANCE": 8
     },
     "pending_by_fit_band": {
       "HOT": 1,
       "MAYBE": 3,
-      "LOW": 9
+      "LOW": 10
     },
     "pending_by_portal": {
       "US_SAM": 1,
       "SCOTLAND_PCS": 2,
-      "TED": 1,
+      "TED": 2,
       "ZA_ETENDERS": 2,
       "PL_EZAMOWIENIA": 6,
       "WORLD_BANK": 1
