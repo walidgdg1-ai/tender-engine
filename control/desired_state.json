@@ -17,23 +17,23 @@
   },
   "dce": {
     "enabled": true,
-    "max_candidates_per_cycle": 4,
+    "max_candidates_per_cycle": 20,
     "minimum_retrieval_priority": 0,
     "minimum_free_github_slots": 3,
     "latency_policy": {
       "goal": "prioritize Qwen semantic backfill while preserving a bounded continuous DCE lane; automatically restore deeper DCE throughput as classification backlog falls",
-      "target_candidates_per_batch": 4,
-      "expected_github_parallel_slots": 2,
+      "target_candidates_per_batch": 20,
+      "expected_github_parallel_slots": 4,
       "target_browser_candidates_per_shard": 2,
       "target_http_candidates_per_shard": 8,
-      "mode": "qwen_backfill_guarded_thin_dce"
+      "mode": "qwen_backfill_dce_low"
     },
     "benchmark_basis": {
       "previous_batch_candidates": 640,
       "previous_batch_gate_ready": 100,
       "previous_runner_minutes_exact": 16.883333,
       "previous_useful_per_runner_minute_exact": 5.923001,
-      "decision": "auto_qwen_backlog_50921_dce_candidates_4"
+      "decision": "auto_qwen_backlog_49473_dce_candidates_20"
     }
   },
   "circleci": {
