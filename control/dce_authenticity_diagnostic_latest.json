@@ -1,18 +1,19 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32634576943,
-  "total_inbox_rows": 19,
-  "dce_authenticity_rows": 2,
+  "latest_source_dce_run_id": 32635348498,
+  "total_inbox_rows": 26,
+  "dce_authenticity_rows": 3,
   "portal_counts": {
     "PL_EZAMOWIENIA": 1,
-    "TED": 1
+    "TED": 1,
+    "US_SAM": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 1,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 2,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 1,
+    "NON_AUTHORITATIVE": 2,
     "AUTH_REQUIRED": 1
   },
   "method_counts": {},
@@ -32,6 +33,14 @@
       "reason_counts": {
         "AUTH_REQUIRED": 1
       }
+    },
+    {
+      "portal": "US_SAM",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
     }
   ],
   "samples_by_reason": {
@@ -43,6 +52,14 @@
         "buyer": "Gmina Zakrzewo",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defe9f-cf8b-f550-b346-0300019cc174"
+      },
+      {
+        "candidate_id": "US-SAM:558e4c105d204401912b1d6fdccf1088",
+        "portal": "US_SAM",
+        "title": "D--WebKnossos Enterprise Software License",
+        "buyer": "INTERIOR, DEPARTMENT OF THE",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://sam.gov/opp/558e4c105d204401912b1d6fdccf1088/view"
       }
     ],
     "AUTH_REQUIRED": [
