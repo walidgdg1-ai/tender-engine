@@ -1,24 +1,33 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32657942714,
-  "total_inbox_rows": 88,
-  "dce_authenticity_rows": 4,
+  "latest_source_dce_run_id": 32660612818,
+  "total_inbox_rows": 100,
+  "dce_authenticity_rows": 7,
   "portal_counts": {
+    "TED": 4,
     "GENERIC_PUBLIC_PAGE": 1,
     "PL_EZAMOWIENIA": 1,
-    "TED": 1,
     "US_SAM": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 3,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 6,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 3,
+    "NON_AUTHORITATIVE": 6,
     "AUTH_REQUIRED": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
+    {
+      "portal": "TED",
+      "blocked": 4,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 3,
+        "AUTH_REQUIRED": 1
+      }
+    },
     {
       "portal": "GENERIC_PUBLIC_PAGE",
       "blocked": 1,
@@ -36,14 +45,6 @@
       }
     },
     {
-      "portal": "TED",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "AUTH_REQUIRED": 1
-      }
-    },
-    {
       "portal": "US_SAM",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -53,6 +54,16 @@
     }
   ],
   "samples_by_reason": {
+    "AUTH_REQUIRED": [
+      {
+        "candidate_id": "TED:489821-2026",
+        "portal": "TED",
+        "title": "Norway – Information technology services – Learning Platform",
+        "buyer": "The Norwegian Directorate of Immigration",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026"
+      }
+    ],
     "NON_AUTHORITATIVE": [
       {
         "candidate_id": "IT-PVL:863fb0bb-a1fc-40ed-8954-a2764639b8ac",
@@ -77,16 +88,22 @@
         "buyer": "INTERIOR, DEPARTMENT OF THE",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://sam.gov/opp/558e4c105d204401912b1d6fdccf1088/view"
-      }
-    ],
-    "AUTH_REQUIRED": [
+      },
       {
-        "candidate_id": "TED:489821-2026",
+        "candidate_id": "TED:522255-2026",
         "portal": "TED",
-        "title": "Norway – Information technology services – Learning Platform",
-        "buyer": "The Norwegian Directorate of Immigration",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/489821-2026"
+        "title": "Slovakia – Software package and information systems – Technické vybavenie pre zavedenie množstvového zberu zmesového komunálneho odpadu na území mesta Turčianske Teplice",
+        "buyer": "Mesto Turčianske Teplice",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/522255-2026"
+      },
+      {
+        "candidate_id": "TED:476036-2026",
+        "portal": "TED",
+        "title": "Spain – Installation services (except software) – Servicio de alquiler y montaje de infraestructuras y mobiliario para la Academia Vasca de Policía y Emergencias.",
+        "buyer": "Gobierno Vasco - Academia Vasca de Policía y Emergencias",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/476036-2026"
       }
     ]
   },
