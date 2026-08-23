@@ -36,7 +36,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 ## automation_data
 - **TED:570364-2026** · IRL · p=54 · deadline=2026-09-16T12:00:00+00:00 · blockers=none · Ireland – Global navigation and positioning systems (GPS or equivalent) – National Geodetic Surveying Infrastructure Upgrade for Tailte Éireann
 - **TED:366748-2026** · NLD · p=48 · deadline=2026-09-03T02:00:00+00:00 · blockers=none · Netherlands – World wide web (www) site design services – Onderhoud, beheer en doorontwikkeling websites
-- **US-SAM:87741a447d254f82ad888d4ea141e067** · US · p=46 · deadline=2026-08-22T21:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM,SOURCES_SOUGHT_OR_RFI · Mouse Digital Ventilated Cage (DVC) Individually Ventilated Rack System � Pilot Expansion and Software License
 - **US-SAM:46a21c9bca2046769d7910b295e9a6a5** · US · p=46 · deadline=2026-08-26T17:30:00+00:00 · blockers=none · Rail Gear - Front & Rear Installation
 - **US-SAM:0ecc5ec9a4724a338802fc244a6c8d8a** · US · p=46 · deadline=2026-08-31T13:00:00+00:00 · blockers=none · FPC Yankton - Above Ground Storage Tanks Project 26Z4AH3
 - **US-SAM:6767ca3244cc4caaa5f4b8dd5c9b5a98** · US · p=46 · deadline=2026-08-31T13:00:00+00:00 · blockers=none · FPC Yankton - Above Ground Storage Tanks Project 26Z4AH3
@@ -54,6 +53,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:a801e89d66f248519a2804ca5eb352d7** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:a8ab5f1c79ee48e9b146103674403aae** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:bd1e3a237d18479490f8a593e5c579c8** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
+- **US-SAM:c5fbcadbb9b84f46b2546536f7e93ebb** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 
 ## design_dtp
 - **TED:522221-2026** · FRA · p=86 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Graphic design services – Prestations graphiques, vidéos, podcasts, impression et rédaction
@@ -130,10 +130,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:483697-2026** · FRA · p=68 · deadline=2026-09-04T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression de documents municipaux pour la ville de Sarcelles et son CCAS
 - **TED:549444-2026** · FRA · p=68 · deadline=2026-09-10T02:00:00+00:00 · blockers=none · France – Printing and related services – IMPRESSION ET DISTRIBUTION DE SUPPORTS DE COMMUNICATION / EVENEMENTIEL ET PAPETERIE
 - **TED:494111-2026** · FRA · p=68 · deadline=2026-10-12T01:00:00+00:00 · blockers=none · France – Printing services – Prestations d'impression pour l'Institut de France
-- **TED:525177-2026** · FRA · p=66 · deadline=2026-08-22T10:00:00+00:00 · blockers=none · France – Services related to printing – Accord-cadre mono-attributaire relatif à la fusion publipostage, la mise sous pli et l'affranchissement de documents pour le compte de la SEMADER
 - **TED:444398-2026** · FRA · p=66 · deadline=2026-08-23T22:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation et livraison des travaux d’impression destinés aux Caisses Primaires d’Assurance Maladie d’Ile de France
 - **TED:511071-2026** · FRA · p=66 · deadline=2026-08-24T02:00:00+00:00 · blockers=none · France – Printing and related services – 26SERV01 - ACCORD CADRE A BONS DE COMMANDE RELATIF AUX PRESTATIONS D'IMPRESSION ET D'AFFICHAGE DE PRODUITS DE COMMUNICATION POUR L'EPCC OPERA TOULON PROVENCE MEDITERRANEE - Relance suite à déclaration sans suite du lot 1 de la procédure 25SERV03
 - **TED:476581-2026** · FRA · p=66 · deadline=2026-08-28T02:00:00+00:00 · blockers=none · France – Printing services – Impression des supports de Communication de la Ville de Beaucaire
+- **TED:525177-2026** · FRA · p=66 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Services related to printing – Accord-cadre mono-attributaire relatif à la fusion publipostage, la mise sous pli et l'affranchissement de documents pour le compte de la SEMADER
 - **TED:504248-2026** · FRA · p=66 · deadline=2026-09-11T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Travaux d'impression et de façonnage de supports de communication
 - **TED:511690-2026** · FRA · p=66 · deadline=2026-09-17T02:00:00+00:00 · blockers=none · France – Postal services related to parcels – Impression, pliage, mise sous pli de documents, colisage et manoeuvre d'affranchissement
 - **TED:427198-2026** · FRA · p=64 · deadline=2026-08-26T01:00:00+00:00 · blockers=none · France – Printing and distribution services – PRESTATION D’EDITIQUE ET DE ROUTAGE POUR LA FOURNITURE DE DOCUMENTS PAPIER POUR LE GHT VAL RHÔNE CENTRE
@@ -159,8 +159,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:29daee56de8744ffa8bd226a9ad8211b** · US · p=47 · deadline=2026-09-10T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · eQUIP Software Licenses
 - **US-SAM:f568b8a1118a4e0b80fbf2481e8129d5** · US · p=47 · deadline=2026-09-12T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · Rail Traffic Controller (RTC) License and Maintenance Plan
 - **US-SAM:bd6a6a2d514b44d5bd194be8ba7f6cf3** · US · p=47 · deadline=2026-09-19T00:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · EFOJ for Cribl Software Licenses
-- **US-SAM:7d0eabb8413f4024a3f1652737fdeddc** · US · p=46 · deadline=2026-08-22T18:00:00+00:00 · blockers=none · (2) Surgery Registered Nurse service provided to the Pine Ridge Indian Health Service Hospital
-- **US-SAM:87741a447d254f82ad888d4ea141e067** · US · p=46 · deadline=2026-08-22T21:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM,SOURCES_SOUGHT_OR_RFI · Mouse Digital Ventilated Cage (DVC) Individually Ventilated Rack System � Pilot Expansion and Software License
 - **US-SAM:388d5752e34e45bf824000249306bc09** · US · p=46 · deadline=2026-08-24T04:00:00+00:00 · blockers=none · 49--CABLE ASSY,HIGH VOL, IN REPAIR/MODIFICATION OF
 - **US-SAM:6b0c8bb9af994faf9b85eebe88b96342** · US · p=46 · deadline=2026-08-24T04:00:00+00:00 · blockers=none · 66--CURRENT-VOLTAGE STA
 - **US-SAM:75bc815c46e44659a56c37b9d36cb103** · US · p=46 · deadline=2026-08-24T04:00:00+00:00 · blockers=none · 43--PUMP,CENTRIFUGAL, IN REPAIR/MODIFICATION OF
@@ -171,6 +169,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:a3c1cbc0f86d463182d1ee4fcaac5854** · US · p=46 · deadline=2026-08-26T20:30:00+00:00 · blockers=none · 16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF
 - **US-SAM:17e8df2916ef4d8296fdd36292e60ce1** · US · p=46 · deadline=2026-08-26T21:00:00+00:00 · blockers=none · NATO Business Opportunity: Commercial Cloud Service Provider Marketplace � Protected Business Network
 - **US-SAM:3cdd2d564fce49ea9ea16423f43a1456** · US · p=46 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Construction of Fire Protection System at Building C2 at Naval Weapons Station Earle, NJ
+- **US-SAM:f71f30f8da1e4d95b1e8a868805e49bb** · US · p=46 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Construction of Fire Protection System at Building C2 at Naval Weapons Station Earle, NJ
+- **US-SAM:70f7d6b96d4c42d5b8b40d9935729e0a** · US · p=46 · deadline=2026-08-31T04:00:00+00:00 · blockers=none · 58--PROCESSOR RADAR, IN REPAIR/MODIFICATION OF
 
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
@@ -197,7 +197,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:455081-2026** · FRA · p=50 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Network equipment – Appel d'offres ouvert
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **CA:BPM026338/34461** · CA · p=48 · deadline=2026-08-22T14:00:00+00:00 · blockers=none · Dynatrace – Department of Employment and Social Development
 - **TED:512568-2026** · CHE · p=48 · deadline=2026-08-24T02:00:00+00:00 · blockers=none · Switzerland – Time accounting or human resources software package – Leapsome Licenses
 - **US-SAM:fd0852967918430e9244ad12923c1dc8** · US · p=48 · deadline=2026-08-24T19:00:00+00:00 · blockers=none · Berla iVe Automobile Forensic License Support
 - **US-SAM:461881533a864d538a707fcf6aa0fbc0** · US · p=48 · deadline=2026-08-27T16:00:00+00:00 · blockers=none · Monarch Software Licenses Renewal
@@ -207,6 +206,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:817b975f38f14798b302e88415cfc31f** · US · p=48 · deadline=2026-08-31T14:00:00+00:00 · blockers=none · Magnet Forensics Axiom Cyber Software Subscription & Support
 - **US-SAM:3f814d8a4b2e487c9e6d01ea0e80ffcf** · US · p=48 · deadline=2026-09-03T00:00:00+00:00 · blockers=none · Navisworks Manage Government Annual Subscription Renewal
 - **US-SAM:3cedfd0ad17b4f8aa5e7daefcd5ef103** · US · p=48 · deadline=2026-09-04T00:00:00+00:00 · blockers=none · Mirantis and Zimperium Software License Subscription Renewals
+- **US-SAM:f75643b110264313b8fa69feae99eeed** · US · p=48 · deadline=2026-09-05T09:00:00+00:00 · blockers=none · WATER SYSTEM FAULTY PROGRAMMABLE LOGIC CONTROLER REPLACEMENT
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -219,6 +219,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:562938-2026** · FRA · p=59 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Translation services – Accord cadre de prestations de traduction et contrôle (relecture et corrections) en différentes langues pour le compte de l'EPMO-VGE
 - **FR-BOAMP:26-79795** · FR · p=59 · deadline=2026-09-25T10:00:00+00:00 · blockers=none · Accord cadre de prestations de traduction et contrôle (relecture et corrections) en différentes langues pour le compte de l'EPMO-VGE
 - **TED:620189-2024** · FRA · p=57 · deadline=UNKNOWN · blockers=none · France – Other community, social and personal services – Système de Qualification pour la réalisation de prestations de médiation sociale et numérique, ateliers numériques et prestations d’interprétariat pour les clientèles en situation vulnérable des bureaux de Poste situés dans les régions de : 971-LA GUADELOUPE – 972 LA MARTINIQUE – 973 LA GUYANE
+- **CA:WS5822187753** · CA · p=53 · deadline=2026-09-04T14:00:00+00:00 · blockers=none · Solicitation of Offers - EN-FR Translation Services - Weapons Systems Field - Tier 1
+- **CA:WS5825539909** · CA · p=53 · deadline=2026-09-04T14:00:00+00:00 · blockers=none · Solicitation of Offers - English-to-French Translation Services - Political Sciences and Diplomacy Field - Tier 2
+- **CA:WS5838724577** · CA · p=53 · deadline=2026-09-04T14:00:00+00:00 · blockers=none · Solicitation of Offers - English-French Translation Services - Courts and Administrative Law Field - Tier 2
+- **CA:WS5825536011** · CA · p=53 · deadline=2026-09-07T14:00:00+00:00 · blockers=none · Solicitation of Offers - English-French Translation Services - Boat and Ship Building and Marine Engineering Field - Tier 2
 - **CA:26-106** · CA · p=53 · deadline=2026-10-02T13:00:00+00:00 · blockers=none · EDC Translation Services
 - **CA:WS5665734815** · CA · p=53 · deadline=2031-04-29T14:00:00+00:00 · blockers=none · RFSA - Translation Services
 - **TED:534404-2026** · BGR · p=40 · deadline=2026-08-31T03:00:00+00:00 · blockers=none · Bulgaria – Translation services – „Извършване на писмени и устни (консекутивни и симултанни) специализирани преводи за нуждите на Българската национална телевизия, включително във връзка с домакинството на конкурса „Песен на Евровизия 2027“
