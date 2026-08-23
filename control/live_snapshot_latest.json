@@ -1,14 +1,14 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32611573486,
-  "generated_at": "2026-08-23T03:05:35.491371+00:00",
-  "snapshot_rows": 119094,
-  "current_materialized_rows": 98274,
-  "carried_forward_rows": 20820,
+  "source_discovery_run": 32614754565,
+  "generated_at": "2026-08-23T03:59:20.507968+00:00",
+  "snapshot_rows": 119105,
+  "current_materialized_rows": 98282,
+  "carried_forward_rows": 20823,
   "carried_forward_by_source": {
     "DE": 5710,
     "PL": 3065,
-    "UK_PCS_OCDS": 1894,
+    "UK_PCS_OCDS": 1902,
     "FR": 1757,
     "WORLD_BANK_PROCUREMENT": 1444,
     "GR_KHMDHS": 1262,
@@ -23,13 +23,13 @@
     "CZ_ZAKAZKY_GOV": 259,
     "CH_SIMAP": 253,
     "UK": 88,
-    "NL": 52,
+    "NL": 53,
     "US_SAM": 26,
     "IE": 25,
     "MT": 22,
     "UNGM_PUBLIC": 19,
-    "DK": 19,
     "FI": 13,
+    "DK": 13,
     "EE_RHR": 3,
     "SI_EJN": 2,
     "LU": 2,
@@ -39,7 +39,7 @@
     "TED": 1
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 104868,
+    "OPEN_CONFIRMED_BY_DEADLINE": 104879,
     "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 14226
   },
   "packet_count": 239,
@@ -50,7 +50,6 @@
     "discovery-global-it-anac-delta",
     "discovery-global-malta-epps",
     "discovery-global-uk-pcs-ocds",
-    "discovery-global-ungm-public",
     "discovery-ted"
   ],
   "world_exhaustive_claim_allowed": false,
@@ -58,7 +57,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32611573486",
+  "immutable_release_tag": "live-world-snapshot-32614754565",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
