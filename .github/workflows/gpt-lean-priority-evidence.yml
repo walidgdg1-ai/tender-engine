@@ -1,0 +1,83 @@
+name: GPT Lean Priority Evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-lean-priority-evidence.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compact attributed evidence for selected lean priorities
+        run: |
+          python - <<'PY'
+          import json,glob,pathlib,re
+          targets={
+            'TED:574301-2026','TED:584175-2026','TED:581702-2026','TED:537925-2026',
+            'TED:537532-2026','TED:527162-2026','TED:511904-2026','TED:533200-2026'
+          }
+          outdir=pathlib.Path('control/evidence/lean_priority')
+          outdir.mkdir(parents=True,exist_ok=True)
+          found={}
+          for fn in sorted(glob.glob('control/gpt_web_read_batches/batch-*.json')):
+            try:data=json.load(open(fn,encoding='utf-8'))
+            except Exception:continue
+            for item in data.get('items',[]):
+              cid=str(item.get('candidate_id') or '')
+              if cid not in targets:continue
+              ev={}
+              for gate,rows in (item.get('evidence') or {}).items():
+                slim=[]
+                for r in rows or []:
+                  slim.append({
+                    'text':str(r.get('text') or '')[:5000],
+                    'source':r.get('source'),'source_url':r.get('source_url'),
+                    'source_sha256':r.get('source_sha256'),'source_kind':r.get('source_kind'),
+                    'provenance_strength':r.get('provenance_strength'),'artifact_lookup_required':r.get('artifact_lookup_required')
+                  })
+                if slim:ev[gate]=slim
+              payload={k:item.get(k) for k in [
+                'candidate_id','title','buyer','portal','notice_url','deadline','estimated_value','currency',
+                'review_stage','gate_readiness','content_quality','evidence_gate_coverage','spm_post_dce_score',
+                'spm_fit_band','spm_fit_reasons','spm_friction_signals','deadline_authority_status',
+                'deadline_conflict','authoritative_submission_date','source_dce_run_id','source_shard','artifact_locator','evidence_quality'
+              ]}
+              payload['evidence']=ev
+              payload['source_read_batch']=fn
+              safe=re.sub(r'[^A-Za-z0-9]+','_',cid).strip('_')
+              p=outdir/(safe+'.json')
+              p.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              found[cid]=str(p)
+          index={'schema':'GPT_LEAN_PRIORITY_EVIDENCE_V1','requested':sorted(targets),'found':found,'missing':sorted(targets-set(found))}
+          (outdir/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(index,ensure_ascii=False,indent=2))
+          PY
+      - name: Persist evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/lean_priority
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist lean priority evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
