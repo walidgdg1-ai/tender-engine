@@ -1,0 +1,915 @@
+{
+  "schema": "DCE_LEDGER_RELEASE_RECONCILIATION_V1",
+  "updated_at": "2026-08-24T22:57:15.720469+00:00",
+  "ledger_rows": 34201,
+  "ledger_unique_candidate_ids": 33251,
+  "ledger_unique_candidate_run_pairs": 34201,
+  "ledger_attempt_status_counts": {
+    "DCE_RUN_SUCCESS_OR_TERMINAL_SKIP": 152,
+    "DCE_RUN_SUCCESS_MATERIALIZED": 32218,
+    "SOURCE_SCOPED_TERMINAL_SKIP": 1831
+  },
+  "ledger_provider_counts": {
+    "US_SAM": 4877,
+    "SI_EJN": 138,
+    "QC_SEAO": 217,
+    "TED": 14911,
+    "FR_BOAMP": 489,
+    "GR_KHMDHS": 1114,
+    "PUBLIC_CONTRACTS_SCOTLAND": 1416,
+    "WORLD_BANK": 544,
+    "EE_RHR": 218,
+    "FI_HILMA": 228,
+    "DK_UDBUD": 177,
+    "CA_CANADABUYS": 149,
+    "NL_TENDERNED": 48,
+    "CH_SIMAP": 87,
+    "ES_PLACSP": 1338,
+    "NZ_GETS": 61,
+    "DE_DOE": 1641,
+    "PT_BASE": 87,
+    "UK_PCS_OCDS": 556,
+    "IRELAND_ETENDERS": 177,
+    "LUX_PMP": 1,
+    "UNKNOWN": 2,
+    "SK_UVO": 316,
+    "LV_IUB": 75,
+    "PL_EZAMOWIENIA": 798,
+    "ZA_ETENDERS": 783,
+    "NO_DOFFIN": 177,
+    "UK_FIND_A_TENDER": 181,
+    "CZ_NIPEZ": 203,
+    "LT_CVP_IS": 647,
+    "UK_CONTRACTS_FINDER": 14,
+    "PL_BZP": 21,
+    "DK_UDBUD_PUBLIC": 2,
+    "ZA_ETENDERS_OCDS": 645,
+    "LT_CVP_API": 274,
+    "MALTA_EPPS": 123,
+    "ANAC_PVL": 940,
+    "CYPRUS_EPPS": 17,
+    "PT_BASE_OPEN": 2,
+    "WORLD_BANK_PROCUREMENT": 40,
+    "UK_FTS_OCDS": 28,
+    "UNGM": 366,
+    "UNGM_PUBLIC": 65,
+    "NL_TENDERNED_RSS": 7,
+    "US_SAM_BULK": 1
+  },
+  "success_materialized_rows": 32218,
+  "success_materialized_unique_candidate_ids": 31774,
+  "success_materialized_unique_candidate_run_pairs": 32218,
+  "fast_adjudication_rows": 0,
+  "fast_adjudication_unique_candidate_ids": 0,
+  "fast_adjudication_unique_candidate_run_pairs": 0,
+  "fast_adjudication_classification_counts": {},
+  "success_pairs_present_in_fast_adjudication": 0,
+  "success_pairs_missing_from_fast_adjudication": 32218,
+  "success_candidate_ids_missing_from_all_fast_adjudication": 31774,
+  "release_pairs_without_matching_ledger_pair": 0,
+  "missing_success_pairs_by_provider": {
+    "US_SAM": 4789,
+    "DE_DOE": 1610,
+    "IRELAND_ETENDERS": 176,
+    "LUX_PMP": 1,
+    "TED": 14892,
+    "EE_RHR": 210,
+    "FI_HILMA": 219,
+    "FR_BOAMP": 472,
+    "GR_KHMDHS": 1104,
+    "NZ_GETS": 54,
+    "QC_SEAO": 216,
+    "SI_EJN": 125,
+    "PUBLIC_CONTRACTS_SCOTLAND": 1408,
+    "WORLD_BANK": 537,
+    "CA_CANADABUYS": 148,
+    "DK_UDBUD": 175,
+    "PT_BASE": 86,
+    "SK_UVO": 310,
+    "ES_PLACSP": 1278,
+    "LV_IUB": 74,
+    "PL_EZAMOWIENIA": 798,
+    "CH_SIMAP": 86,
+    "ZA_ETENDERS": 783,
+    "NO_DOFFIN": 176,
+    "NL_TENDERNED": 47,
+    "UK_FIND_A_TENDER": 181,
+    "CZ_NIPEZ": 203,
+    "LT_CVP_IS": 647,
+    "UK_CONTRACTS_FINDER": 14,
+    "ANAC_PVL": 940,
+    "MALTA_EPPS": 76,
+    "CYPRUS_EPPS": 17,
+    "UNGM": 366
+  },
+  "missing_success_pairs_by_qwen_classification": {
+    "MAYBE": 25697,
+    "FIT": 1245,
+    "UNKNOWN": 3458,
+    "REJECT_OBVIOUS": 1815,
+    "STRONG_FIT": 3
+  },
+  "missing_success_pair_examples": [
+    {
+      "candidate_id": "US-SAM:69bd72ad3e45437b86a57ab4cc89b208",
+      "dce_run_id": 31972611859,
+      "title": "48--VALVE,SAFETY RELIEF",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:8069bc74cbad4c7bb3cdfdd61dd725c5",
+      "dce_run_id": 31972611859,
+      "title": "59--SWITCH,PUSH",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:88b75a7158794fca85f32ff1061dc561",
+      "dce_run_id": 31972611859,
+      "title": "30--SHAFT,SHOULDERED",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:922c1f9349490e1e7a45444f19eeecfe",
+      "dce_run_id": 31972611859,
+      "title": "F--099 All Other Professional, Scientific, and Technical Service",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "FIT"
+    },
+    {
+      "candidate_id": "DE-DOE:25713798:1",
+      "dce_run_id": 31972866150,
+      "title": "Filmproduktion und Beratung im Helene Weber-Kolleg",
+      "buyer": "Service.Bund.de",
+      "provider": "DE_DOE",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "DE-DOE:7f668cf3-04ae-43de-9386-127b3570f58c:01",
+      "dce_run_id": 31972866150,
+      "title": "Rahmenvereinbarung Digitalagentur",
+      "buyer": "Tourismus-Agentur Schleswig-Holstein GmbH",
+      "provider": "DE_DOE",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8670172",
+      "dce_run_id": 31972866150,
+      "title": "Animation and Software Development",
+      "buyer": "Barnagh Greenway Hub",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "LU-PMP:529396",
+      "dce_run_id": 31972866150,
+      "title": "ESPON Call for expression of interest to establish a pool of editors to develop content",
+      "buyer": "PMP.LU / O GECT - Groupement européen de coopération territoriale \"ESPON\"",
+      "provider": "LUX_PMP",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:547749-2026",
+      "dce_run_id": 31972866150,
+      "title": "France – Graphic design services – PRESTATIONS DE MISE EN PAGE, DE RÉDACTION ET D'IMPRESSION",
+      "buyer": "Ville de Caluire et Cuire",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:549250-2026",
+      "dce_run_id": 31972866150,
+      "title": "Poland – IT services: consulting, software development, Internet and support – Zaprojektowanie, wykonanie i wdrożenie systemu informatycznego „Narratio\" Cyfrowe Repozytorium Historii Mówionej”",
+      "buyer": "Muzeum Historii Polski w Warszawie",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:551522-2026",
+      "dce_run_id": 31972866150,
+      "title": "North Macedonia – Translation services – Procurement of services for professional editing, prepress preparation, and publication in the Catalogue of Approved Textbooks of approved textbooks for secondary vocational education that are approved for use in the language of instruction or textbooks that are not subject to translation, as well as translation from Macedonian into Albanian and Turkish of textbooks for secondary vocational educat",
+      "buyer": "Ministry of Education and Science",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:554073-2026",
+      "dce_run_id": 31972866150,
+      "title": "Germany – Training and entertainment software development services – Digitales Lernen für die Deutsche Bahn AG",
+      "buyer": "DB Global Business Services (Bukr 1S)",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:564841-2026",
+      "dce_run_id": 31972866150,
+      "title": "Germany – IT services: consulting, software development, Internet and support – Betreuung und Weiterentwicklung Websites",
+      "buyer": "Kulturveranstaltungen des Bundes in Berlin GmbH (KBB GmbH)",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:564864-2026",
+      "dce_run_id": 31972866150,
+      "title": "Romania – Programming services of application software – Achiziția de servicii de implementare software RPA - Robotic Process Automation şi AI",
+      "buyer": "Municipiul Blaj",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "TED:565587-2026",
+      "dce_run_id": 31972866150,
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Single Party Framework for the ongoing support, maintenance, and development of YourSpace Portals, associated websites, associated systems and associated services.",
+      "buyer": "University of Galway (ID 1400)",
+      "provider": "TED",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8704981",
+      "dce_run_id": 31975449482,
+      "title": "Single-Supplier Framework Agreement for the Creative Design of Flagship Public-Awareness Campaigns, 2026 to 2029",
+      "buyer": "Dublin Rape Crisis Centre (CA)",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8749146",
+      "dce_run_id": 31975449482,
+      "title": "AHRRA Website design and development Services",
+      "buyer": "Assisted Human Reproduction Regulatory Authority",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8766381",
+      "dce_run_id": 31975449482,
+      "title": "HRB 2026 – Design and Print Services",
+      "buyer": "The Health Research Board",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8804003",
+      "dce_run_id": 31975449482,
+      "title": "Tender for The Supply and Delivery of Health and Safety Software Services at Mary Immaculate College (MIC)",
+      "buyer": "Mary Immaculate College",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8829345",
+      "dce_run_id": 31975449482,
+      "title": "Provision of a Single Party Framework for the ongoing support, maintenance, and development of YourSpace Portals, associated websites, associated systems and associated services.",
+      "buyer": "University of Galway (ID 1400)",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8840246",
+      "dce_run_id": 31975449482,
+      "title": "Supply, Installation and Support of a Learning Management System for Clare Tourism Development DAC",
+      "buyer": "Clare Tourism Development DAC",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "IE:8841473",
+      "dce_run_id": 31975449482,
+      "title": "Preliminary Market Consultation - Digital Marketing Expertise to Support Delivery of Stop Food Waste",
+      "buyer": "Environmental Protection Agency",
+      "provider": "IRELAND_ETENDERS",
+      "qwen_classification": null
+    },
+    {
+      "candidate_id": "DE-DOE:35383c12-4fe0-4756-ab6f-9748bbf506ed:01",
+      "dce_run_id": 31975985612,
+      "title": "Fahrradleasing",
+      "buyer": "AOK-Bundesverband eGbR - Arbeitsgemeinschaft von Körperschaften des öffentlichen Rechts",
+      "provider": "DE_DOE",
+      "qwen_classification": "FIT"
+    },
+    {
+      "candidate_id": "EE-RHR:05404e27-bfe9-4729-af65-48df1e68cf0b",
+      "dce_run_id": 31975985612,
+      "title": "Ida-Viru maakond, Kohtla-Järve linn, Kase tänav 5 liitumispunkti asukoha muutmine ja peakaitsme nimivoolu suurendamine (LC4978, IK1787)",
+      "buyer": "Elektrilevi OÜ",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "EE-RHR:274bd008-41b1-42c2-bfcd-a82b587180ae",
+      "dce_run_id": 31975985612,
+      "title": "IT-seadmete ostmine",
+      "buyer": "Eesti Energia AS",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "EE-RHR:68f26f83-3d20-4d64-87a4-0a66f44c4be0",
+      "dce_run_id": 31975985612,
+      "title": "Erinevate puitmaterjalide ostmine Tallinna Vanglale",
+      "buyer": "Tallinna Vangla",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "EE-RHR:ad5fc25b-51a2-4a0e-8ffe-fa5e391ca5fc",
+      "dce_run_id": 31975985612,
+      "title": "Kestlikkuse aruande audit",
+      "buyer": "Eesti Energia AS",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "EE-RHR:d3294dad-642b-4d13-8354-04a733fd6c18",
+      "dce_run_id": 31975985612,
+      "title": "Vedelgaasi ostmine",
+      "buyer": "Osaühing OSK GRUPP",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "EE-RHR:facc5912-6ca4-46f9-9ce8-b1f5f9214294",
+      "dce_run_id": 31975985612,
+      "title": "Ukraine Recovery Conference 2027 (URC 2027) Eesti",
+      "buyer": "Sihtasutus Eesti Rahvusvahelise Arengukoostöö Keskus",
+      "provider": "EE_RHR",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "FI-HILMA:54159",
+      "dce_run_id": 31975985612,
+      "title": "Länsi-Säkylän uuden yritysalueen vesihuollon sekä runkoviemärin 3 rakentaminen",
+      "buyer": "Säkylän kunta",
+      "provider": "FI_HILMA",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "FI-HILMA:54680",
+      "dce_run_id": 31975985612,
+      "title": "Asianhallintajärjestelmän sähköinen arkisto, Joensuun kaupunki",
+      "buyer": "Pohjois-Karjalan hankintatoimi",
+      "provider": "FI_HILMA",
+      "qwen_classification": "FIT"
+    },
+    {
+      "candidate_id": "FR-BOAMP:26-80662",
+      "dce_run_id": 31975985612,
+      "title": "Séjour enfance Hiver 2027",
+      "buyer": "Commune de Magny-les-Hameaux",
+      "provider": "FR_BOAMP",
+      "qwen_classification": "FIT"
+    },
+    {
+      "candidate_id": "GR-KHMDHS:26PROC019624192",
+      "dce_run_id": 31975985612,
+      "title": "ΠΡΟΣΚΛΗΣΗ ΥΠΟΒΟΛΗΣ ΠΡΟΣΦΟΡΑΣ ΓΙΑ ΤΟ ΟΧΗΜΑ ΚΗΗ 1493",
+      "buyer": "ΔΗΜΟΣ ΕΛΑΣΣΟΝΑΣ",
+      "provider": "GR_KHMDHS",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "GR-KHMDHS:26PROC019631911",
+      "dce_run_id": 31975985612,
+      "title": "Εργασίες αποκατάστασης βλαβών λιμένα Αγίου Ανδρέα Αστυπάλαιας",
+      "buyer": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΚΩ",
+      "provider": "GR_KHMDHS",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "GR-KHMDHS:26PROC019633791",
+      "dce_run_id": 31975985612,
+      "title": "Κατάθεση προσφοράς σε διαδικασία διαπραγμάτευσης για μουσικοχορευτική παράσταση στις 25/9/2026",
+      "buyer": "ΔΗΜΟΣ ΚΑΛΛΙΘΕΑΣ",
+      "provider": "GR_KHMDHS",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "NZ-GETS:34617394",
+      "dce_run_id": 31975985612,
+      "title": "RFT for Main Contractor for Drainage Project at Mangakahia Area School",
+      "buyer": "Ministry of Education - School Infrastructure",
+      "provider": "NZ_GETS",
+      "qwen_classification": "FIT"
+    },
+    {
+      "candidate_id": "NZ-GETS:34645793",
+      "dce_run_id": 31975985612,
+      "title": "Strengthening of Tahuna Road Bridges",
+      "buyer": "Waikato District Council",
+      "provider": "NZ_GETS",
+      "qwen_classification": "REJECT_OBVIOUS"
+    },
+    {
+      "candidate_id": "QC-SEAO:ocds-ec9k95-20162044",
+      "dce_run_id": 31975985612,
+      "title": "Réfection du chemin David et de la rue du Moulin",
+      "buyer": "Municipalité du Lac-Supérieur",
+      "provider": "QC_SEAO",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "QC-SEAO:ocds-ec9k95-20162235",
+      "dce_run_id": 31975985612,
+      "title": "6517-26-PZ01 - Gestion des barrages et castors nuisibles sur diverses routes. (Bas-Saint-Laurent-Gaspésie-Îles-de-la-Madeleine)",
+      "buyer": "Ministère des Transports et de la Mobilité durable (Direction générale de la gestion contractuelle)",
+      "provider": "QC_SEAO",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "QC-SEAO:ocds-ec9k95-20162266",
+      "dce_run_id": 31975985612,
+      "title": "Achat d'un camion de déneigement neuf avec ses équipements",
+      "buyer": "Municipalité de Barraute.",
+      "provider": "QC_SEAO",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:430-220/2026",
+      "dce_run_id": 31975985612,
+      "title": "Revizija poslovanja Javnega zavoda GO!2025 – Evropska prestolnica kulture, Nova Gorica",
+      "buyer": "MESTNA OBČINA NOVA GORICA",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:ENLJ-SPV-158/26 (JN-77495)",
+      "dce_run_id": 31975985612,
+      "title": "ENLJ-SPV-158/26 - Vzdrževanje gorilnikov vročevodnih kotlov",
+      "buyer": "JAVNO PODJETJE ENERGETIKA LJUBLJANA d.o.o.",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:JN 7-7/2026",
+      "dce_run_id": 31975985612,
+      "title": "Nakup in dobava pnevmatik z boljšim izkoristkom za tovorna in delovna vozila za obdobje enega leta",
+      "buyer": "KOCEROD, družba za ravnanje z odpadki d.o.o.",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:JN-76928",
+      "dce_run_id": 31975985612,
+      "title": "Preventivno in korektivno vzdrževanje sortirnih sistemov",
+      "buyer": "BANKA SLOVENIJE",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:JN-77697",
+      "dce_run_id": 31975985612,
+      "title": "Nakup električnega osebnega vozila",
+      "buyer": "DOM STAREJŠIH OBČANOV TREBNJE",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "SI-EJN:JN-78197",
+      "dce_run_id": 31975985612,
+      "title": "Izvedba GOI del za ureditev prostorov za specialistične ambulante v ZD Velenje",
+      "buyer": "MESTNA OBČINA VELENJE",
+      "provider": "SI_EJN",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "TED:564482-2026",
+      "dce_run_id": 31975985612,
+      "title": "Slovenia – Technical testing, analysis and consultancy services – Storitve strokovnega sodelovanja na projektih",
+      "buyer": "ELEKTRO GORENJSKA, podjetje za distribucijo električne energije, d.d.",
+      "provider": "TED",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "UK_PCS_OCDS:rls-67-JUL559455",
+      "dce_run_id": 31975985612,
+      "title": "Building Standards Research and Technical Services Framework",
+      "buyer": "Scottish Government",
+      "provider": "PUBLIC_CONTRACTS_SCOTLAND",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:0256c0cc382f45e3920ce52fe36b8e7c",
+      "dce_run_id": 31975985612,
+      "title": "31--BEARING,PLAIN,SELF-",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:04bb86b8686e4536a886d915dcdeff6e",
+      "dce_run_id": 31975985612,
+      "title": "45--HEATER,WATER,ELECTR",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:07baad1bdd4c47be8b7732df5a804b39",
+      "dce_run_id": 31975985612,
+      "title": "81--COLLAPSIBLE EQUIPME",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:09a6cd734c0440a299a3216828810d25",
+      "dce_run_id": 31975985612,
+      "title": "48--VALVE,GLOBE",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:12cf4c62dad84435a75d268bd24e23ae",
+      "dce_run_id": 31975985612,
+      "title": "Noise Tested Bearings IDIQ Amendment 0003",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:12e163c151064c55b4ef2df19cabef63",
+      "dce_run_id": 31975985612,
+      "title": "Z--WA-QUILCENE NFH-INTAKE GENERATOR",
+      "buyer": "INTERIOR, DEPARTMENT OF THE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:149606782dc34b14996800ed526f4d79",
+      "dce_run_id": 31975985612,
+      "title": "BEQ BB200-BB300 Area Paint & Flooring Repairs",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:1a70e29c3d95489e91044865e68bdc1b",
+      "dce_run_id": 31975985612,
+      "title": "FY26 National Defense University (NDU) BLDG 61 and 62 Classroom Renovation, Fort McNair, Washington, DC",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:1dbc416398cd476f89cbcb9af084b617",
+      "dce_run_id": 31975985612,
+      "title": "15--PLATE,STRUCTURAL,AI",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:1e0c7be48f7347558d0e00877ec94c9a",
+      "dce_run_id": 31975985612,
+      "title": "Pros on the Mall August Event - AMENDED SOLICITATION",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:204134e1564b4dec9f4c20f79f9c4a71",
+      "dce_run_id": 31975985612,
+      "title": "53--RETAINER,NUT AND BOLT",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:209ac5ce0d1941e9a1f37cdcdd24020b",
+      "dce_run_id": 31975985612,
+      "title": "Trailer",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:25f24979bb914c6cb22a2a0787991424",
+      "dce_run_id": 31975985612,
+      "title": "48 SFS Overhead Protection Kits",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:2620d7f2c1a346bfacf8d5f03c71549c",
+      "dce_run_id": 31975985612,
+      "title": "17--ACTUATOR,UPLOCK, IN REPAIR/MODIFICATION OF",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:2bf24bd002774ef6af4c12d97423b0c0",
+      "dce_run_id": 31975985612,
+      "title": "Portable Aerosol Particle Counter",
+      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:30d25f07b8e54a2583e8a6917ec2529d",
+      "dce_run_id": 31975985612,
+      "title": "PURCHASE POLES FOR FORTIFICATION FLAGS",
+      "buyer": "INTERIOR, DEPARTMENT OF THE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:367b06b78cf642bf946d0e41c6e49bf2",
+      "dce_run_id": 31975985612,
+      "title": "INTENT TO SOLICIT ONLY ONE SOURCE: The Government requires a service and maintenance agreement with Renishaw, Inc. to maintain the Renishaw machine",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:36e673b23bef4831845df0c6f10851e9",
+      "dce_run_id": 31975985612,
+      "title": "Catering Services",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:37ada978d83e47cf84a9fdf19d0d4ab4",
+      "dce_run_id": 31975985612,
+      "title": "RFI-Drone CLT",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:42ba0b133948413da6bf9a1f37a2decd",
+      "dce_run_id": 31975985612,
+      "title": "V225--New: 3-Year Indefinite Quantity Contract: 9/1/2026 through 8/31/2029. Non-Emergency Ambulance Transport Services at the Edward Hines Jr VA Hospital in Hines, IL, and its affiliated clinics.",
+      "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:43d1b0afc6c647d181a206c5a32f4e5d",
+      "dce_run_id": 31975985612,
+      "title": "41--FAN ASSEMBLY",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:4aa52f8b9cac410a8b78085c73ab0297",
+      "dce_run_id": 31975985612,
+      "title": "30--CYLINDER ASSEMBLY,ACTU",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:4ecb813288b04226b1b9c8193e119d40",
+      "dce_run_id": 31975985612,
+      "title": "59--ELECTRONIC COMPONEN",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:50f8c2034eaf4469931523259cd8273a",
+      "dce_run_id": 31975985612,
+      "title": "Multi-Spectral Sensing Technologies Research and Development (MUSTER)",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:54426e2bb3f44f49bd02ce039d6475a6",
+      "dce_run_id": 31975985612,
+      "title": "Official RFP - NSWCDD Range Support Services",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:55ae17ab93a441f8ad905b74652ea805",
+      "dce_run_id": 31975985612,
+      "title": "59--ANTENNA",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:57dfda9589a44c82afa9340bdfa99565",
+      "dce_run_id": 31975985612,
+      "title": "66--R7 Lab: Flow Controllers & Fittings for Summas",
+      "buyer": "ENVIRONMENTAL PROTECTION AGENCY",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:5b9b79b2ccd44c50834bcda7155cabfe",
+      "dce_run_id": 31975985612,
+      "title": "66--THERMOMETER,INDICAT",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:5c1ef6d360ef4c359ed746878f4c6c97",
+      "dce_run_id": 31975985612,
+      "title": "6520--Dental Mixer, Amalgamator and Prophylaxis unit",
+      "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:5e11f6b4d15841948356cdfd707d121b",
+      "dce_run_id": 31975985612,
+      "title": "49--NOZZLE,FUEL AND OIL",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:60870410dd864221a6903aa51e5cb2e0",
+      "dce_run_id": 31975985612,
+      "title": "48--VALVE,SOLENOID",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:636573941f0a4cf381bfdf6ffebf9678",
+      "dce_run_id": 31975985612,
+      "title": "STEEL BAR",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:637c4598bf7847318f9c5d817c70139c",
+      "dce_run_id": 31975985612,
+      "title": "5-Year Sprinkler Inspection",
+      "buyer": "AGRICULTURE, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:63d79a08b8314879bd6ca774eec1a3cc",
+      "dce_run_id": 31975985612,
+      "title": "40--FIBER ROPE ASSEMBLY,SINGLE LEG",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:673497135e194b2c8a752d01399461c0",
+      "dce_run_id": 31975985612,
+      "title": "Handheld Communication Service Monitor",
+      "buyer": "AGRICULTURE, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:67be155b82e74a69bd33e0995bb718aa",
+      "dce_run_id": 31975985612,
+      "title": "Dose Calibrator - Atlanta VA Medical Center",
+      "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:6a58ab29005c4817b5b68415fda857f7",
+      "dce_run_id": 31975985612,
+      "title": "CGC MACKINAW FACILITY MAINTENANCE",
+      "buyer": "HOMELAND SECURITY, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:773431af004f42e0b25784b9d857dfef",
+      "dce_run_id": 31975985612,
+      "title": "Combined Chapel Services (Protestant Religious Education Coordinator, Catholic Mass Music Director and Traditional Protestant Service Musician)",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:8109a19d5cb840fd9f2b7076ff6cbdec",
+      "dce_run_id": 31975985612,
+      "title": "Worldwide Environmental Engineering Services",
+      "buyer": "STATE, DEPARTMENT OF",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:8dfe94ed1dd84f43ab1407210a9f4c05",
+      "dce_run_id": 31975985612,
+      "title": "48--VALVE,REGULATING,FL",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:93a74964566e4dea925d8cb8358b10d4",
+      "dce_run_id": 31975985612,
+      "title": "66--PANEL,INDICATOR",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9647c80c06ad45ac98b8bf1828821953",
+      "dce_run_id": 31975985612,
+      "title": "42--FACE PLATE STOWAGE",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:96c38a451694455ca76877a97f3d7637",
+      "dce_run_id": 31975985612,
+      "title": "62--FLASHLIGHT",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9900f29fcfdd45788111f583bc15cbed",
+      "dce_run_id": 31975985612,
+      "title": "FY 26 Facility Upgrades for Western Upstate New York Recruiting Stations",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9907579dc42b41a3b63d242130e645e9",
+      "dce_run_id": 31975985612,
+      "title": "59--SWITCH,THERMOSTATIC",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9a24738b176840fda8a12ed16279bdea",
+      "dce_run_id": 31975985612,
+      "title": "SV26.2 Linehaul, MHE, AGWASH Services",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9cf09e0704af48b2a55ec307d224a110",
+      "dce_run_id": 31975985612,
+      "title": "FA480926Q0071 - FY26_PKA_Bay Hoist Repair Bldg. 2202 for 4 MUNS",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9e28ed0fe06949c387cd0be502c7bf3d",
+      "dce_run_id": 31975985612,
+      "title": "66--OHMMETER",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:9ebeb7f91c6f47108797f22a92b31c4d",
+      "dce_run_id": 31975985612,
+      "title": "48--VALVE,LINEAR,DIRECTION",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:a1129cd15f8b4f3ca0f0b3bec4ec1501",
+      "dce_run_id": 31975985612,
+      "title": "62--FLOODLIGHT,ELECTRIC",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:a32f3216dc3d4cfc8b55910d43ede859",
+      "dce_run_id": 31975985612,
+      "title": "53--PADLOCK",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    },
+    {
+      "candidate_id": "US-SAM:a435173794c445db9ff6945c2e629def",
+      "dce_run_id": 31975985612,
+      "title": "30--GEARCASE-MOTOR",
+      "buyer": "DEPT OF DEFENSE",
+      "provider": "US_SAM",
+      "qwen_classification": "MAYBE"
+    }
+  ],
+  "contract": "Exact reconciliation of durable DCE attempt ledger against every durable fast-adjudication shard. Pair-level grain is (candidate_id,dce_run_id); candidate-level counts are also reported to separate reruns/version churn from genuinely absent review output."
+}
