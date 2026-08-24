@@ -1,14 +1,14 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32720759060,
+  "latest_source_dce_run_id": 32730781779,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
-    "TED": 12,
+    "TED": 11,
     "US_SAM": 3,
     "ZA_ETENDERS": 3,
-    "GENERIC_PUBLIC_PAGE": 1,
-    "PL_EZAMOWIENIA": 1
+    "PL_EZAMOWIENIA": 2,
+    "GENERIC_PUBLIC_PAGE": 1
   },
   "status_counts": {
     "UNKNOWN_RETRIEVED_DOCUMENT": 13,
@@ -22,10 +22,10 @@
   "recovery_opportunities": [
     {
       "portal": "TED",
-      "blocked": 12,
+      "blocked": 11,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 11,
+        "NON_AUTHORITATIVE": 10,
         "AUTH_REQUIRED": 1
       }
     },
@@ -46,15 +46,15 @@
       }
     },
     {
-      "portal": "GENERIC_PUBLIC_PAGE",
-      "blocked": 1,
+      "portal": "PL_EZAMOWIENIA",
+      "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 1
+        "NON_AUTHORITATIVE": 2
       }
     },
     {
-      "portal": "PL_EZAMOWIENIA",
+      "portal": "GENERIC_PUBLIC_PAGE",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -89,20 +89,20 @@
         "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-163598"
       },
       {
+        "candidate_id": "PL-BZP:08df01c8-40b2-452e-b346-0300018cdf1d",
+        "portal": "PL_EZAMOWIENIA",
+        "title": "Wzmocnienie cyberbezpieczeństwa infrastruktury wodociągowej w Gminie Gorzyce - Cyberbezpieczny Wodociąg.",
+        "buyer": "GMINA GORZYCE",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df01c8-40b2-452e-b346-0300018cdf1d"
+      },
+      {
         "candidate_id": "IT-PVL:863fb0bb-a1fc-40ed-8954-a2764639b8ac",
         "portal": "GENERIC_PUBLIC_PAGE",
         "title": "Servizio di fornitura del software del portale integrato con CRM per la gestione delle domande di ammissione di studenti internazionali UE e non-UE con titolo di studio conseguito all'estero, per l'accesso ai corsi di primo, secondo e terzo livello universitario dell'Università degli Studi Milano - Bicocca",
         "buyer": "UNIVERSITA' DEGLI STUDI DI MILANO - BICOCCA",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/863fb0bb-a1fc-40ed-8954-a2764639b8ac?ricercaArchivio=false"
-      },
-      {
-        "candidate_id": "PL-BZP:08defe9f-cf8b-f550-b346-0300019cc174",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Dostawa i wdrożenie infrastruktury sprzętowo-systemowej wraz z przeprowadzeniem szkoleń w ramach: Inwestycja C3. 1. 1. Konkurs Grantowy – Cyberbezpieczne Wodociągi",
-        "buyer": "Gmina Zakrzewo",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defe9f-cf8b-f550-b346-0300019cc174"
       }
     ],
     "AUTH_REQUIRED": [
