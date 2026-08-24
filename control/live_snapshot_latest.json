@@ -1,17 +1,17 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32690139462,
-  "generated_at": "2026-08-24T05:05:12.918181+00:00",
-  "snapshot_rows": 123195,
-  "current_materialized_rows": 97945,
-  "carried_forward_rows": 25250,
+  "source_discovery_run": 32691806009,
+  "generated_at": "2026-08-24T05:51:54.404271+00:00",
+  "snapshot_rows": 123191,
+  "current_materialized_rows": 97967,
+  "carried_forward_rows": 25224,
   "carried_forward_by_source": {
     "DE": 6154,
     "PL": 3578,
-    "UK_PCS_OCDS": 3070,
+    "UK_PCS_OCDS": 3071,
     "FR": 1977,
     "ZA_ETENDERS_OCDS": 1961,
-    "GR_KHMDHS": 1706,
+    "GR_KHMDHS": 1705,
     "WORLD_BANK_PROCUREMENT": 1445,
     "ES_PLACSP": 1115,
     "UK_FTS_OCDS": 899,
@@ -25,11 +25,10 @@
     "UK": 95,
     "NL": 92,
     "US_SAM": 29,
-    "DK": 29,
     "IE": 25,
     "FI": 22,
     "MT": 21,
-    "UNGM_PUBLIC": 12,
+    "UNGM_PUBLIC": 15,
     "EE_RHR": 3,
     "SI_EJN": 2,
     "LU": 2,
@@ -39,7 +38,7 @@
     "CA": 1
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 107495,
+    "OPEN_CONFIRMED_BY_DEADLINE": 107491,
     "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 15700
   },
   "packet_count": 247,
@@ -57,7 +56,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32690139462",
+  "immutable_release_tag": "live-world-snapshot-32691806009",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
