@@ -1,0 +1,144 @@
+name: GPT Review Full Historical Backfill
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-review-full-backfill.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gpt-review-full-historical-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install recovery dependency
+        run: python -m pip install --disable-pip-version-check -q requests
+
+      - name: Recover every durable DCE fast-adjudication shard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          root=/tmp/dce-review-full
+          rm -rf "$root"
+          mkdir -p "$root"
+
+          mapfile -t tags < <(
+            gh release list --limit 5000 --json tagName \
+              --jq '.[] | select(.tagName | startswith("dce-harvest-")) | .tagName'
+          )
+          if [ "${#tags[@]}" -eq 0 ]; then
+            echo 'No durable DCE releases found.' >&2
+            exit 1
+          fi
+
+          printf '%s\n' "${tags[@]}" > /tmp/dce-release-tags.txt
+          export root
+          cat /tmp/dce-release-tags.txt | xargs -r -P 8 -I{} bash -c '
+            tag="$1"
+            rid="${tag#dce-harvest-}"
+            dir="$root/$rid"
+            mkdir -p "$dir"
+            gh release download "$tag" \
+              --pattern "fast-adjudication-shard-*.jsonl" \
+              --dir "$dir" >/dev/null 2>&1 || true
+          ' _ {}
+
+          release_count="${#tags[@]}"
+          shard_count="$(find "$root" -type f -name 'fast-adjudication-shard-*.jsonl' | wc -l | tr -d ' ')"
+          echo "Recovered DCE releases=$release_count fast_adjudication_shards=$shard_count"
+          test "$shard_count" -gt 0
+          printf '%s\n' "$release_count" > /tmp/dce-release-count.txt
+          printf '%s\n' "$shard_count" > /tmp/dce-shard-count.txt
+
+      - name: Rebuild the true persistent GPT review universe
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+
+          for n in 1 2 3 4 5 6; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Consume durable GPT decisions first, then rebuild from ALL durable DCE
+            # fast-adjudication shards. The ordinary live refresh only re-reads a
+            # recent window; this one-shot backfill closes the historical gap.
+            python pipeline/merge_gpt_adjudications_into_final_bank.py
+            python pipeline/build_gpt_review_index.py \
+              --release-root /tmp/dce-review-full \
+              --existing control/gpt_review_index.json \
+              --final-bank control/final_supergreen_bank.json \
+              --review-ledger control/gpt_web_review_ledger.json \
+              --out control/gpt_review_index.json
+
+            python pipeline/rebuild_gpt_review_bank_from_release.py \
+              --release-root /tmp/dce-review-full \
+              --existing control/gpt_review_hot.json \
+              --out control/gpt_review_hot.json \
+              --max-items 160
+
+            python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          idx=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          release_count=int(Path('/tmp/dce-release-count.txt').read_text().strip())
+          shard_count=int(Path('/tmp/dce-shard-count.txt').read_text().strip())
+          payload={
+              'schema':'GPT_REVIEW_FULL_BACKFILL_STATE_V1',
+              'updated_at':datetime.now(timezone.utc).isoformat(),
+              'backfill_complete':True,
+              'dce_releases_enumerated':release_count,
+              'fast_adjudication_shards_recovered':shard_count,
+              'review_index_count_after_backfill':int(idx.get('count') or 0),
+              'review_index_counts_after_backfill':idx.get('counts') or {},
+              'contract':'Full durable dce-harvest release sweep. This closes the historical recovery gap left by the normal 10-release incremental refresh; existing final/reviewed/expired filters still apply.',
+          }
+          Path('control/gpt_review_backfill_state.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(payload,indent=2))
+          PY
+
+            git add \
+              control/final_supergreen_bank.json \
+              control/gpt_review_index.json \
+              control/gpt_review_hot.json \
+              control/gpt_review_backfill_state.json
+
+            if git diff --cached --quiet; then
+              echo 'Full historical GPT review universe already current.'
+              break
+            fi
+
+            git commit -m "review: full historical DCE backfill ${GITHUB_RUN_ID}"
+            if git push origin HEAD:main; then
+              break
+            fi
+            if [ "$n" -eq 6 ]; then
+              echo 'Failed to persist full historical review backfill after retries.' >&2
+              exit 1
+            fi
+            sleep "$((n * 2))"
+          done
