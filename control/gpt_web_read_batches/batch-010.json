@@ -1,13 +1,55 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-24T12:05:16.762756+00:00",
-  "source_inbox_updated_at": "2026-08-24T12:05:15.810951+00:00",
-  "latest_source_dce_run_id": 32724996473,
+  "generated_at": "2026-08-24T13:10:10.991017+00:00",
+  "source_inbox_updated_at": "2026-08-24T13:10:10.041664+00:00",
+  "latest_source_dce_run_id": 32730781779,
   "batch_index": 10,
   "start_rank": 101,
   "end_rank": 110,
   "count": 10,
   "items": [
+    {
+      "candidate_id": "US-SAM:8cbdcaaaec9d40bf822a05a240406f8c",
+      "title": "20--eDNA AUTOSAMPLER",
+      "buyer": "INTERIOR, DEPARTMENT OF THE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/8cbdcaaaec9d40bf822a05a240406f8c/view",
+      "deadline": "2026-08-26T14:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "evidence_gate_coverage": 0,
+      "spm_post_dce_score": 8,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32666624892,
+      "source_shard": 1,
+      "review_key": "ae2347f3a6cf53b011b12ef14d81ab76604b6bf37e5e719bfa7e83f1b82daa84",
+      "artifact_locator": {
+        "dce_run_id": 32666624892,
+        "shard": 1,
+        "candidate_id": "US-SAM:8cbdcaaaec9d40bf822a05a240406f8c",
+        "release_tag": "dce-harvest-32666624892"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 1416,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
     {
       "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166376-2026-08-20",
       "title": "RFP/2021/001472",
@@ -646,6 +688,61 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "TED:582976-2026",
+      "title": "Poland – Software package and information systems – Odnowienie subskrypcji Red Hat",
+      "buyer": "Polskie Sieci Elektroenergetyczne S.A.",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/582976-2026",
+      "deadline": "2026-09-07T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+      "evidence_gate_coverage": 1,
+      "spm_post_dce_score": 9,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32730781779,
+      "source_shard": 0,
+      "review_key": "92849f702fb2966b818b2ac47f4b4a9908ff297bd60ced13170a5a381c3b2b62",
+      "artifact_locator": {
+        "dce_run_id": 32730781779,
+        "shard": 0,
+        "candidate_id": "TED:582976-2026",
+        "release_tag": "dce-harvest-32730781779"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 39825,
+        "attributed_compact_snippets": 1,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": true
+      },
+      "evidence": {
+        "ip_data_security": [
+          {
+            "text": "ofert, 9.9. oferta ostateczna jest nieważna na podstawie odrębnych przepisów, 9.10. oferta nie została sporządzona lub przekazana w sposób zgodny z wymaganiami technicznymi, 9.11. oferta została złożona w warunkach czynu nieuczciwej konkurencji, 9.12. oferta wariantowa nie została złożona lub nie spełnia minimalnych wymagań określonych przez Zamawiającego, 9.13. przyjęcie oferty naruszałoby bezpieczeństwo publiczne lub istotny interes bezpieczeństwa państwa, 9.14. oferta obejmuje urządzenia informatyczne lub oprog…",
+            "source": "files/Instrukcja_udzielania_zamowien_w_PSE_S_A_18_02_2026.pdf",
+            "source_url": "https://www.pse.pl/documents/20182/20962663/Instrukcja_udzielania_zamowien_w_PSE_S_A_18_02_2026.pdf",
+            "source_sha256": "4d00a8f2cf76d2611daf9cd3ee1b1df03aeb0be95f450dba7295e53f4fc00825",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "TED:580842-2026",
       "title": "Austria – Mathematical or forecasting software package – Software für Prognose zukünftiger Strompreisentwicklungen",
       "buyer": "TIWAG-Tiroler Wasserkraft AG",
@@ -851,367 +948,6 @@
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:535033-2026",
-      "title": "Czechia – Data-processing services – Software IBM včetně technické podpory na 36 měsíců",
-      "buyer": "Ministerstvo obrany",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/535033-2026",
-      "deadline": "2026-08-31T02:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "evidence_gate_coverage": 0,
-      "spm_post_dce_score": 8,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32695077541,
-      "source_shard": 3,
-      "review_key": "7549f75728fe8abacb9381345978756d4a8cf81de062571e6924282feb3d1b0e",
-      "artifact_locator": {
-        "dce_run_id": 32695077541,
-        "shard": 3,
-        "candidate_id": "TED:535033-2026",
-        "release_tag": "dce-harvest-32695077541"
-      },
-      "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 3,
-        "text_chars": 9932,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:539429-2026",
-      "title": "Germany – Software package and information systems – Lieferung von Softwarelizenzen der Hersteller Broadcom und Omnissa",
-      "buyer": "Landratsamt Weilheim-Schongau",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/539429-2026",
-      "deadline": "2026-08-27T00:00:00+02:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": true,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32670834104,
-      "source_shard": 4,
-      "review_key": "9694176d86a25103ce3f95a62058b2ee36ea71c235de266ffaaa9c20ee587518",
-      "artifact_locator": {
-        "dce_run_id": 32670834104,
-        "shard": 4,
-        "candidate_id": "TED:539429-2026",
-        "release_tag": "dce-harvest-32670834104"
-      },
-      "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 25,
-        "text_chars": 357210,
-        "attributed_compact_snippets": 25,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": true
-      },
-      "evidence": {
-        "entity_geography": [
-          {
-            "text": "on 2 Eigenerklärung Bezug Russland Entsprechend der Verordnung (EU) 2022/576 dürfen öffentliche Aufträge und Konzessionen nach dem 9. April 2022 nicht an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland im Sinne der Vor- schrift aufweisen. Dies umfasst sowohl unmittelbar als Bewerber, Bieter oder Auftragnehmer auftretende Per- sonen oder Unternehmen als auch mittelbar, mit mehr als zehn Prozent, gemessen am Auftragswert, beteiligte Unterauftragnehmer, Lieferanten oder Eignungsverleiher. E in …",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Zwingend erforderliche Angebotsdateien/1_VU mit Rücksendeverpflichtung_unpacked/1_VU mit Rücksendeverpflichtung/Anlage 02  - Erklärung Bezug Russland - L 127.pdf",
-            "source_url": null,
-            "source_sha256": "58f2e90bce5d4a605ecddcf4e4bc08cfc8f8858df36bd05708870a735db0eddd",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "turnover_financial": [
-          {
-            "text": "Angebote ......................................................................... 13 4.1 Auswahlverfahren ......................................................................................................... 13 4.2 Prüfung der Eignung allgemein ................................................................................... 13 4.2.1 Hinweise für den Nachweis der Eignung bei Bietergemeinschaften und dem Einsatz von Unterauftragnehmern .........................................................................…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Sonstige Vergabeunterlagen/2_VU ohne Rücksendeverpflichtung_unpacked/2_VU ohne Rücksendeverpflichtung/Verfahrens- und Vertragsunterlagen.pdf",
-            "source_url": null,
-            "source_sha256": "d6da2c41f1e5ebfeaa81f1465f81322e3d6fd22358430b9879f2c222b5a7a910",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "nem oder mehreren Unterauftragnehmern zu erbringen. Die Erklärung zum beabsichtigten Unterauftragnehmereinsatz (Art und Umfang) liegt bei. Ich werde Kapazitäten anderer Unternehmen zur Erfüllung der Eignungskriterien in Anspruch nehmen (Eignungsleihe). Die Erklärung zur Eignungsleihe/ Verpflichtungserklärung/Haftung liegt bei. Ort, Datum Unterzeichner* * Textform, d.h. lesbare Erklärung, in der die für den Bieter handelnde Person namentlich genannt wird. (¹) Bitte dieses Formular in der erforderlichen Anzahl vervi…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Zwingend erforderliche Angebotsdateien/1_VU mit Rücksendeverpflichtung_unpacked/1_VU mit Rücksendeverpflichtung/Anlage 06 - Eigenerklärung Ausschlussgründe.docx",
-            "source_url": null,
-            "source_sha256": "06304eeffed5c77176d0f7ae795d3112c9c65c2476a03ad0536febc350cf9e8a",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "references_experience": [
-          {
-            "text": "lung vorgelegt wird. 4.2.4 Technische und berufliche Leistungsfähigkeit Zum Nachweis der technischen und beruflichen Leistungsfähigkeit müssen folgende Unterlagen vorgelegt werden: Landratsamt Weilheim - Schongau 15 Seite 34 VMware Broadcom und Omnissa Horizon Lizenzen Vergabenummer: 2026_Z2.2_02  A4.1 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung der angebotenen Produkte des Herstellers Broadcom oder gleichwertiger Nachweis.  A4.2 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "eis.  A4.2 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung der angebotenen Produkte des Herstellers Omnissa oder gleichwertiger Nachweis.  A4.3 - Nachweis von zwei Referenzprojekten über die Lieferung von Softwarelizenzen in den vergangenen drei Jahren (nicht älter als 2023). Die Referenz muss zwingend folgendes beinhalten: • Angabe des Referenzgebers • Angabe des Ansprechpartners und der Kontaktdaten des Ansprechpartners • Angabe des Referenzzeitraums • Angabe des Auftragsvolumens • Kurze Beschr…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "certifications_partner": [
-          {
-            "text": "min. 5.000.000 € Deckungssumme pro Schadensfall oder o Einreichung einer Eigenerklärung, dass im Auftragsfall ggf. bestehende Unterdeckungen an die oben aufgeführten Deckungssummen angepasst werden und der Nachweis dieser Anpassung der Auftraggeberin innerhalb von 4 Wochen nach Zuschlagserteilung vorgelegt wird. 4.2.4 Technische und berufliche Leistungsfähigkeit Zum Nachweis der technischen und beruflichen Leistungsfähigkeit müssen folgende Unterlagen vorgelegt werden: Landratsamt Weilheim - Schongau 15 Seite 34 V…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ben aufgeführten Deckungssummen angepasst werden und der Nachweis dieser Anpassung der Auftraggeberin innerhalb von 4 Wochen nach Zuschlagserteilung vorgelegt wird. 4.2.4 Technische und berufliche Leistungsfähigkeit Zum Nachweis der technischen und beruflichen Leistungsfähigkeit müssen folgende Unterlagen vorgelegt werden: Landratsamt Weilheim - Schongau 15 Seite 34 VMware Broadcom und Omnissa Horizon Lizenzen Vergabenummer: 2026_Z2.2_02  A4.1 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung der an…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "insurance_bonds": [
-          {
-            "text": "4.2.4 zur „ technischen und beruflichen Leistungsfähigkeit“ müssen vom Bieter für die geplanten Unterauftragnehmer gemäß den Angaben in Kapitel 3.4.2 vorgelegt werden. 4.2.2 Befähigung und Erlaubnis zur Berufsausübung A2.1 - Zum Nachweis der Befähigung und Erlaubnis zur Berufsausübung muss ein Nachweis vorgelegt werden, dass der Bieter im Berufs- oder Handelsregister eingetragen ist (Handelsregisterauszug, nicht älter als 1 Jahr). 4.2.3 Wirtschaftliche und finanzielle Leistungsfähigkeit Zum Nachweis der wirtschaft…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "an: 12.2 Annahme der Störungsmeldung, Ergänzende Vereinbarungen zu Bereitschafts- und Reaktionszeiten Die Störungsmeldung wird während folgender üblicher Geschäftszeit des Auftragnehmers angenommen: _____ Ergänzende Vereinbarung zu Bereitschafts- und Reaktionszeiten gemäß Anlage Nr. _____. Telefonische Unterstützung Telefonische Unterstützung des Auftraggebers erfolgt nach gesonderter Vereinbarung gemäß Anlage Nr. _____. Versicherung Der Auftragnehmer weist nach, dass die Haftungshöchstsummen gemäß Ziffer 9.2.1 EV…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Sonstige Vergabeunterlagen/2_VU ohne Rücksendeverpflichtung_unpacked/2_VU ohne Rücksendeverpflichtung/Anlage 08 - EVB-IT Softwareüberlassungsvertrag.docx",
-            "source_url": null,
-            "source_sha256": "4a1b0cdf4be19c88cded81d52051ec396fe8eefdf1db80fe73cfd4793196b2f0",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "subcontracting_consortium": [
-          {
-            "text": "....................... 8 3.3 Form der Angebote und deren Einreichung ................................................................. 9 3.3.1 Einreichung...................................................................................................................... 9 3.3.2 Inhalt und Aufbau des Angebots ................................................................................... 9 3.3.3 Mehrere Hauptangebote ............................................................................................…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "................ 9 3.3.1 Einreichung...................................................................................................................... 9 3.3.2 Inhalt und Aufbau des Angebots ................................................................................... 9 3.3.3 Mehrere Hauptangebote ............................................................................................... 11 3.3.4 Nebenangebote / Änderungsvorschläge .................................................................... 1…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "deliverables_scope": [
-          {
-            "text": "glich eingesetzte Unterauftragnehmer .......................................................... 23 5.14 Kündigung ..................................................................................................................... 23 5.15 Optionen ......................................................................................................................... 24 5.16 Veröffentlichung ............................................................................................................ 24 5.17 Gerich…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "1 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung der angebotenen Produkte des Herstellers Broadcom oder gleichwertiger Nachweis.  A4.2 - Nachweis einer gültigen Herstellerautorisierung zur Lieferung der angebotenen Produkte des Herstellers Omnissa oder gleichwertiger Nachweis.  A4.3 - Nachweis von zwei Referenzprojekten über die Lieferung von Softwarelizenzen in den vergangenen drei Jahren (nicht älter als 2023). Die Referenz muss zwingend folgendes beinhalten: • Angabe des Referenzgebers • Anga…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "sla_onsite": [
-          {
-            "text": "stungserbringung ist mindestens ein fachlich verantwortlicher Ansprechpartner zu benennen. Für diesen Ansprechpartner sind folgende Nachweise vorzulegen: -mindestens 2 Jahre nachweisbare praktische Erfahrung im Bereich Lizenzmanagement, insbesondere im Umgang mit Lizenzmodellen von Broadcom und/oder Omnissa, -nachweisbare praktische Erfahrung in mindestens einem Projekt mit Bezug zu Lizenzmanagement, Lizenzoptimierung oder Lizenzberatung im Enterprise-Umfeld, -Kenntnisse in der Anwendung herstellerspezifischer Liz…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "prise-Umfeld, -Kenntnisse in der Anwendung herstellerspezifischer Lizenzbedingungen, Lizenzmetriken und Vertragsmodelle. Die Nachweise sind durch geeignete Unterlagen zu belegen, insbesondere: -Lebenslauf mit Darstellung einschlägiger Projekte, -Projektübersichten oder Referenzen, -Herstellerzertifikate oder vergleichbare Qualifikationsnachweise. Das Kriterium gilt als erfüllt, wenn alle genannten Mindestanforderungen vollständig und nachvollziehbar nachgewiesen sind. Bitte rechts eintragen und auf die Anlagen ver…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "term_value": [
-          {
-            "text": "m Enterprise-Umfeld, -Kenntnisse in der Anwendung herstellerspezifischer Lizenzbedingungen, Lizenzmetriken und Vertragsmodelle. Die Nachweise sind durch geeignete Unterlagen zu belegen, insbesondere: -Lebenslauf mit Darstellung einschlägiger Projekte, -Projektübersichten oder Referenzen, -Herstellerzertifikate oder vergleichbare Qualifikationsnachweise. Das Kriterium gilt als erfüllt, wenn alle genannten Mindestanforderungen vollständig und nachvollziehbar nachgewiesen sind. Bitte rechts eintragen und auf die Anla…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "tät der Bereitstellung des Änderungsprozesses | Beschreiben Sie Ihren Prozess zur Erstbereitstellung von Lizenzen sowie zur Durchführung unterjähriger Änderungen (insbesondere Aufstockungen, Anpassungen oder Ergänzungen von Lizenzen). Gehen Sie dabei insbesondere ein auf: – die Bereitstellung und Übergabe aller erforderlichen Herstellerinformationen und Aktivierungsdaten, – die Unterstützung bei der Installation und Inbetriebnahme (z. B. Anleitung, Dokumentation, Hilfestellung), – den Umgang mit unterjährigen Ände…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "award_criteria": [
-          {
-            "text": "– sowie die Verwaltung und Nachverfolgbarkeit von Lizenzschlüsseln und Aktivierungscodes über die gesamte Vertragslaufzeit. Bitte rechts eintragen oder auf Anlage verweisen: | | 10 Punkte | Ein vollständiger Prozess für die Erstbereitstellung UND für unterjährige Änderungen zu den im Auftragsumfang enthaltenen SW-Produkten (insbesondere Aufstockung von Lizenzen) ist beschrieben: - Übergabe aller Herstellerinformationen und Aktivierungsdaten - Unterstützung bei der Installation (z. B. über Anleitung/Handbuch/Online…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "perten. Bitte rechts eintragen oder auf Anlage verweisen: | | 10 Punkte | Die administrative Unterstützung bei herstellerbezogenenen Anfragen zu den im Auftragsumfang enthaltenen SW-Produkten ist beschrieben: - Unterstützung bei Portalthemen (einschließlich herstellerseitiger Portal- und Prozessumstellungen) - Lizenzzuordnungen - Unterstützung bei herstellerseitigen Lizenz-/Compliance-Prüfungen (Audits). - Ein fester Ansprechpartner sowie eine Vertretung sind benannt, die Zugriff auf eigene Lizenzexperten des Anbi…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Anlage 13 - Leistungs- und Preisblatt  V3.1.xlsx",
-            "source_url": null,
-            "source_sha256": "cb0d8dcd7295ca299ebae3e7e2efd7d61271683518c8e8b5d4f1259d1d2b4c26",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "forms_signatures": [
-          {
-            "text": "als Vertragsbestandteil aufgenommen wurden? • Ziff. 2: Laut den Vergabeunterlagen sind „Teile der Lizenzbedingungen des Soft- wareherstellers“ Vertragsbestandteil genannt. Die Bezeichnung ist aus Sicht zu unge- nau. Wir bitten daher um Klarstellung: Ist es zutreffend, dass die vertraglichen Bedin- gungen des Herstellers (EULA), insbesondere im Hinblick auf die Nutzungsrechte (z.B. EULA) sowie Pflege- und Wartungsbedingungen den zwingenden Herstellervorgaben fol- gen und diese vorrangig vor anderen Bestimmungen sin…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Antwortkatalog-Bieterfragen_2026_Z2.2_02-2.pdf",
-            "source_url": null,
-            "source_sha256": "77a0fc7393ba5132c29be22d976a2f14bf4cc49a700892a68ab3caf8c9cb0135",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "utzungsrechte (z.B. EULA) sowie Pflege- und Wartungsbedingungen den zwingenden Herstellervorgaben fol- gen und diese vorrangig vor anderen Bestimmungen sind? • Ziff. 2: Der Hersteller für VMware sieht neben den jeweiligen Endnutzer-Lizenzbedin- gungen (EULA) zusätzliche sogenannte „Mandatory Flow-Down Terms“ vor, die zwin- gend Bestandteil der vertraglichen Nutzung sind und entlang der Vertriebskette unver- ändert an den jeweiligen Endkunden weitergegeben werden müssen. Als Reseller sind wir verpflichtet, diese Be…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Antwortkatalog-Bieterfragen_2026_Z2.2_02-2.pdf",
-            "source_url": null,
-            "source_sha256": "77a0fc7393ba5132c29be22d976a2f14bf4cc49a700892a68ab3caf8c9cb0135",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "submission": [
-          {
-            "text": "......................................................... 6 3 Verfahrensgrundlagen ............................................................................ 7 3.1 Meilensteine der Ausschreibung und der Leistungserbringung ............................... 7 3.1.1 Fristen zur Einlegung von Rechtsbehelfen .................................................................. 7 3.1.2 Zuständige Stelle für behauptete Vergaberechtsverstöße ......................................... 8 3.2 Kommunikation .....................…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "......................................................................... 7 3.1 Meilensteine der Ausschreibung und der Leistungserbringung ............................... 7 3.1.1 Fristen zur Einlegung von Rechtsbehelfen .................................................................. 7 3.1.2 Zuständige Stelle für behauptete Vergaberechtsverstöße ......................................... 8 3.2 Kommunikation ...........................................................................................................…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "ip_data_security": [
-          {
-            "text": "............................................................................................................................ 19 5.7 Rechnungsstellung an den Auftraggeber .................................................................. 19 5.8 Preisanpassungen ........................................................................................................ 20 5.9 Ansprechpartner ........................................................................................................... 21 5.10 Haftung ......…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "dteil der Vergabeunterlagen, verbleibt jedoch beim Bieter (Anlage 08 EVB-IT Softwareüberlassungsvertrag (vorausgefüllt)). Ergänzend gelten die dazugehörigen AGB (Anlage 09 EVB-IT Softwareüberlassung AGB) Noch nicht ausgefüllte, jedoch erforderliche Bestandteile des o.a. EVB-IT Vertrages werden nach Zuschlagserteilung vom Auftraggeber auf Grundlage der Vergabeunter-lagen sowie des Angebots des Auftragnehmers ausgefüllt und dann vom Auftragnehmer gegengezeichnet 8. EVB-IT Dienstleistung AGB Die EVB-IT Dienstleistung…",
-            "source": "files/Alle_20Vergabeunterlagen_20AV281851-EU_unpacked/Nachträge/Verfahrens- und Vertragsunterlagen v2.pdf",
-            "source_url": null,
-            "source_sha256": "e10287fd2e025ea58edea34ee89cd179225053c4307fe1f2389b6de7e90af456",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ]
-      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
