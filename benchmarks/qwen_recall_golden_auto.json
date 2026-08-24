@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-24T22:37:57+00:00",
-  "case_count": 52,
-  "positive_recall_cases": 51,
-  "frozen_input_cases": 52,
+  "generated_at": "2026-08-24T23:41:43+00:00",
+  "case_count": 55,
+  "positive_recall_cases": 54,
+  "frozen_input_cases": 55,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -156,6 +156,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-18T22:30:05+00:00"
+      }
+    },
+    {
+      "candidate_id": "IE:8869645",
+      "label": "DCE/GPT positive (YELLOW): IE:8869645",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 64,
+        "why": "This national eTenders record is the same Trócaire procedure already adjudicated under TED:574380-2026. Native WordPress/web-maintenance scope is attractive, but the RFT requires at least three websites designed and delivered in the prior 24 months with actual references, plus large e-commerce/payment-provider and heavily customised Salesforce integration experience, multiple environments, security and adequate insurance. It is partnerable but not lean-direct GREEN.",
+        "action": "CARRY_EXISTING_YELLOW_ACROSS_PORTAL_ALIAS_AND_ONLY_PURSUUE_WITH_WEB_AGENCY_REFERENCE_AND_SALESFORCE_PARTNER",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_CROSS_PORTAL_ALIAS_ALREADY_ADJUDICATED",
+        "provenance_file": "control/adjudications/gpt-priority-hot-backfill-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "IE:8869645",
+        "material_fields_hash": "683e126ae0ab6fb11fcb37d0e01adff1cbd5af97163f23392cdfb3c433f53aed",
+        "notice": {
+          "candidate_id": "IE:8869645",
+          "source_family": "IE",
+          "source": "IRELAND_ETENDERS",
+          "country": "IE",
+          "buyer": "Trócaire_166765",
+          "title": "Trócaire RFT Website Development and Maintenance Services",
+          "description": "99 Trócaire RFT Website Development and Maintenance Services 8869645 Trócaire_166765 18/08/2026 11:53:31 15/09/2026 13:00:00 Open Tender Submission 1",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": "EUR",
+          "publication_date": null,
+          "deadline": "2026-09-15T13:00:00+01:00",
+          "deadline_utc": "2026-09-15T12:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": null,
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8869645"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:41:43+00:00"
       }
     },
     {
@@ -810,6 +857,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-18T22:30:05+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:566207-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:566207-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 72,
+        "why": "The opportunity includes graphic design and social-content production, but its real scope is substantially broader: integrated strategic and crisis communications, rapid-response comments/op-eds, press-release distribution, strategic consulting, project management and public presentations over a 24-month contract. The DCE includes mandatory supplier-requirements material, specialist-list forms and qualitative specialist evaluation, and the tender must be submitted in Lithuanian. This is a credible local-agency partner opportunity, not a clean AI/graphic-design GREEN.",
+        "action": "PARTNER_ROUTE_WITH_LITHUANIAN_PR_AGENCY_AND_VERIFY_SPECIALIST_REFERENCE_THRESHOLDS_BEFORE_BID",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_WITH_PUBLIC_DOCUMENT_INVENTORY",
+        "provenance_file": "control/adjudications/gpt-priority-hot-backfill-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:566207-2026",
+        "material_fields_hash": "d17060d9f279cda00a373f4f30b2244d924053328b340f6fa0c93dd699571691",
+        "notice": {
+          "candidate_id": "TED:566207-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "LTU",
+          "buyer": "Akcinė bendrovė „Oro navigacija“ (PV)",
+          "title": "Lithuania – Graphic design services – Integruotos, strateginės ir krizių komunikacijos paslaugos",
+          "description": "Integruotos, strateginės ir krizių komunikacijos paslaugos, perkamos pagal poreikį. Detalus paslaugų aprašymas - Techninėje specifikacijoje.",
+          "cpv_or_category": null,
+          "estimated_value": 0.0,
+          "currency": "EUR",
+          "publication_date": "2026-08-17+02:00",
+          "deadline": "2026-09-02T03:00:00+00:00",
+          "deadline_utc": "2026-09-02T03:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/566207-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:41:43+00:00"
       }
     },
     {
@@ -2310,6 +2404,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-22T11:19:47+00:00"
+      }
+    },
+    {
+      "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+      "label": "DCE/GPT positive (YELLOW): US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 67,
+        "why": "The creative scope is a strong video-production fit, but execution is not lean-direct. TACOM expects full pre-production, production and post-production, prior experience supporting DoD/defense contractors, contractor-funded personnel/travel/equipment/materials, potential filming across multiple US Army-related sites, insurance coverage and SAM registration for award. A qualified US defense-video production partner could make it actionable.",
+        "action": "PARTNER_ONLY_FIND_US_DOD_VIDEO_PRIME_WITH_SAM_AND_MULTI_SITE_PRODUCTION_CAPABILITY",
+        "evidence_quality": "SUBSTANTIVE_PUBLIC_SOLICITATION_SUMMARY_AND_DCE_PRESENT",
+        "provenance_file": "control/adjudications/gpt-priority-hot-backfill-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+        "material_fields_hash": "d708720918cb007c44104dd86280080ad2b2ef603c20438ea234f2f6728d3088",
+        "notice": {
+          "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+          "source_family": "US_SAM",
+          "source": "US_SAM_BULK",
+          "country": "US",
+          "buyer": "DEPT OF DEFENSE",
+          "title": "TACOM - Command Video Production",
+          "description": "Federal Agency: Army Office: Army Contracting Command � Detroit Arsenal (ACC-DTA) AoI Title: TACOM- Command Video Production CSO AoI Number: AoI 19 AoI Release Date: 20 August 2026 Responses: See W912CH-25-S-C001, Amendment 01 for Procedure Details 1. General Information 1.1 Introduction This Area of Interest (AoI) is issued utilizing the ACC-DTA Commercial Solutions Opening (CSO) W912CH-25-S-C001, Amendment 01. The U.S. Army Tank Automotive and Armaments Command (TACOM) seeks innovative video production solutions for the TACOM command overview video. This AoI seeks commercial solutions that meet the objectives detailed in Sections 1.2 and 1.3 below. In accordance with Revolutionary FAR Overhaul (RFO) Defense Federal Acquisition Regulation Supplement (DFARS) 212.70, the term innovative is defined as any technology, process, or method, including research and development, that is new as of the date of proposal submission, or any new application of an existing technology, process, or method as of the proposal date. CSOs may only be used to obtain innovative solutions or potential capabilities that fulfill requirements; to close capability gaps or provide potential innovative technological advancements; and when meaningful proposals with varying technical or scientific approaches can be reasonably anticipated. ACC-DTA is not obliged to extend a request for proposal or make an award because of this CSO AoI; all awards are subject to the availability of funds and successful negotiations. This CSO AoI is not an authorization to begin performance, and in no way obligates the Government for any costs incurred by the Offeror associated with developing a response. Prior to commencement of any activities associated with performance under this CSO AoI, the Government will issue a written directive or contractual document signed by the Contracting Officer with appropriate consideration established. ACC-DTA reserves the right to modify the requirements of this CSO AoI. The authority to issue this CSO AoI is derived from ACC-DTA CSO W912CH-25-S-C001, Amendment 01, dated 10 July 2025. The CSO authority is permanently codified at 10 U.S.C. � 3458, implemented via DFARS Subpart 212.70, and expanded by Section 1823 of the National Defense Authorization Act (NDAA) for FY2026. 1.2. AoI Background TACOM, a Major Subordinate Command of Army Materiel Command, manages the Army's ground equipment supply chain, which constitutes about 60 percent of the Army's total equipment. The workforce includes highly skilled and uniquely qualified professionals, from engineers and industrial artisans to senior logisticians and business analysts. This largely civilian workforce is critical to building Army readiness around the world. TACOM is located at the Detroit Arsenal (Warren, MI), approximately 20 miles north of downtown Detroit. TACOM requires an updated command overview video showcasing the functions of TACOM Headquarters and the six Depots & Arsenals across the United States. 1.3 Identify AoI Solution The proposed solution should provide comprehensive capabilities including all personnel, travel, equipment, tools, facilities, materials, supervision, supplies, and non-personal services necessary to produce a professional video. Offeror shall understand the capabilities of TACOM and be able to create an engaging video that showcases the TACOM enterprise. The proposed solutions brief shall address all tasks of a production to include pre-production, production and post-production. Additionally, the proposed solutions shall discuss project vision, areas of focus, and identify and address challenges and opportunities. Proposed solutions shall include the offeror�s capabilities to produce videos. Offerors should have prior experience working with Dept of War and/or Defense contractors. This project may require the offeror to visit TACOM�s depots and arsenals to capture b-roll. Locations are as follows: US Army TACOM HQ (Warren, MI) Lima Tank Plant (Lima, OH) Watervliet Arsenal (Watervliet, NY) JMTC-Rock Island (Rock Island, IL) Anniston Army Depot (Anniston, AL) Red River Army Depot (Texarkana, TX) Sierra Army Depot (Herlong, CA) To assist with budgetary planning, offerors shall provide a non-binding Rough Order of Magnitude (ROM) for the total estimated cost of this project. Additionally, briefly describe your insurance coverages i.e., comprehensive general liability, workmen�s compensation, and employers� liability coverage. This information will be used for planning purposes only and does not constitute a formal pricing proposal. 2. AoI Constraints Any selected company/companies will be required to be registered in the System for Award Management (sam.gov). 3. Requirements a) Submission: A written solution must be sent via e-mail submission by 10:00 A.M. (EDT); 27 August 2026 with subject line stating INNOVATIVE SOLUTION FOR AoI 019 TACOM-Command Video Production to POCs listed below. This deadline supersedes the date listed in CSO W912CH-25-S-C001 Amendment 01 Section 1.3 CSO Procedure. Solutions received after the deadline may be discarded and not be evaluated by the Government. b) Point of contact(s): AoI questions can be sent to: CSO AoI POC: Carl Jones, carl.l.jones22.civ@army.mil Contract Specialist: Rory Thelen, rory.g.thelen.civ@army.mil Contracting Officer: Elida Kellezi, elida.kellezi.civ@army.mil",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-20T00:00:00+00:00",
+          "deadline": "2026-08-27T14:00:00+00:00",
+          "deadline_utc": "2026-08-27T14:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": null,
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://sam.gov/opp/f5f0b7889f354ec4b5620f73a518f9be/view"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:41:43+00:00"
       }
     },
     {
