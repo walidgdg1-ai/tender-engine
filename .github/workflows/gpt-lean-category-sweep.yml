@@ -1,0 +1,77 @@
+name: GPT Lean Category Sweep
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-lean-category-sweep.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Sweep all open candidates for lean service categories
+        run: |
+          python - <<'PY'
+          import json,re,pathlib
+          d=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          items=d.get('items') or []
+          CATS={
+            'WEB_CMS_APP':['website','web site','webportal','web portal','web application','web app','webapp','wordpress','drupal','typo3','cms','frontend','front-end','internet site','site internet','site web','portail web','accessibility audit','accessibility testing'],
+            'DESIGN_CREATIVE':['graphic design','grafikdesign','design graphique','creative services','branding','brand design','visual identity','communication design','layout design','illustration'],
+            'VIDEO_AUDIO':['video production','videoproduktion','production vidéo','audiovisual','audio-visual','post-production','post production','animation services','motion graphics','subtitling','captioning','transcription'],
+            'PRINT_MAIL':['printing services','print services','impression','druckdienst','printing and delivery','mailing services','routage','fulfilment printing','print production'],
+            'SEO_CONTENT':['seo','search engine optimisation','search engine optimization','generative engine','content creation','content production','editorial services','copywriting','social media','digital marketing'],
+            'AI_AUTOMATION':['artificial intelligence','generative ai',' ai/',' ai ','llm','chatbot','machine learning','automation platform','hyperautomation']
+          }
+          NEG=['printer rental','printing equipment','multifunctional printing','multifunkcion','copier rental','hardware','construction work','road works','medical equipment']
+          def blob(x):
+            return ' '.join([str(x.get('title') or ''),str(x.get('buyer') or ''),' '.join(map(str,x.get('spm_fit_reasons') or [])),' '.join(map(str,x.get('spm_friction_signals') or []))]).lower()
+          bands={'HOT':4,'GOOD':3,'MAYBE':2,'LOW':1}
+          cats={k:[] for k in CATS}
+          for x in items:
+            t=' '+blob(x)+' '
+            if any(n in t for n in NEG): continue
+            for cat,terms in CATS.items():
+              matches=[q for q in terms if q in t]
+              if not matches: continue
+              score=20*bands.get(str(x.get('spm_fit_band','')).upper(),0)+5*len(matches)
+              if x.get('gate_readiness') is True: score+=12
+              if str(x.get('review_stage'))=='BUSINESS_GATES':score+=8
+              if x.get('estimated_value') not in (None,0,0.0):score+=4
+              y={k:x.get(k) for k in ['candidate_id','title','buyer','portal','notice_url','deadline','estimated_value','currency','review_stage','gate_readiness','content_quality','priority_score','spm_post_dce_score','spm_fit_band','spm_fit_reasons','spm_friction_signals','source_dce_run_id','source_shard','artifact_locator','procedure_aliases']}
+              y['category_score']=score;y['matched_terms']=matches
+              cats[cat].append(y)
+          for k,v in cats.items():
+            v.sort(key=lambda z:(z['category_score'],z.get('spm_post_dce_score') or 0,z.get('priority_score') or 0),reverse=True)
+          payload={'schema':'GPT_LEAN_CATEGORY_SWEEP_V1','source_open_count':d.get('count',len(items)),'counts':{k:len(v) for k,v in cats.items()},'categories':{k:v[:40] for k,v in cats.items()}}
+          pathlib.Path('control/gpt_lean_category_sweep.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'source_open_count':payload['source_open_count'],'counts':payload['counts'],'top':{k:[(z['candidate_id'],z['spm_fit_band'],z['title']) for z in v[:10]] for k,v in cats.items()}},ensure_ascii=False,indent=2))
+          PY
+      - name: Persist sweep
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_lean_category_sweep.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: sweep full backlog for lean categories ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
