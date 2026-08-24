@@ -1,0 +1,150 @@
+name: GPT HOT Compact Evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-hot-compact-summary.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build compact evidence files for HOT candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, re
+          src=json.load(open('control/gpt_priority_evidence_v2.json',encoding='utf-8'))
+          outdir=pathlib.Path('control/evidence/hot')
+          outdir.mkdir(parents=True,exist_ok=True)
+
+          KEYWORDS=(
+              'minimum','maximum','turnover','revenue','reference','experience','similar',
+              'insurance','liability','certificate','certification','iso','team','expert',
+              'specialist','qualification','eligib','selection','capacity','financial',
+              'economic','subcontract','consortium','joint','rely','reliance','language',
+              'location','site visit','onsite','on-site','travel','deadline','submission',
+              'award','criterion','criteria','mandatory','shall','must','required','requirement',
+              'security','clearance','sam.gov','sap','salesforce','wordpress','payment',
+              'duration','framework','estimated value','value','budget'
+          )
+
+          def safe_id(cid):
+              return re.sub(r'[^A-Za-z0-9]+','_',cid).strip('_')
+
+          def slim_obj(obj,depth=0):
+              if depth>5: return None
+              if isinstance(obj,dict):
+                  keep={}
+                  preferred={
+                      'candidate_id','title','buyer','deadline','deadline_at','notice_url','source_url',
+                      'classification','status','reason','why','action','score','spm_fit_score','spm_fit_band',
+                      'gate_ready','gate_readiness','gates','mandatory_gates','eligibility','references',
+                      'financial_capacity','technical_capacity','professional_capacity','team','certifications',
+                      'insurance','subcontracting','joint_tender','language','location','estimated_value',
+                      'procedure_aliases','source_dce_run_id','source_shard','review_stage','dce_status',
+                      'review_provider','model_review_reason','selection_criteria','award_criteria'
+                  }
+                  for k,v in obj.items():
+                      lk=str(k).lower()
+                      if k in preferred or any(w in lk for w in KEYWORDS):
+                          sv=slim_obj(v,depth+1)
+                          if sv not in (None,{},[],""): keep[k]=sv
+                  # If nothing matched at a shallow level, retain small scalar metadata.
+                  if not keep and depth<=1:
+                      for k,v in obj.items():
+                          if isinstance(v,(str,int,float,bool)) and len(str(v))<1200:
+                              keep[k]=v
+                  return keep
+              if isinstance(obj,list):
+                  vals=[]
+                  for v in obj[:50]:
+                      sv=slim_obj(v,depth+1)
+                      if sv not in (None,{},[],""): vals.append(sv)
+                  return vals
+              if isinstance(obj,str):
+                  return obj[:10000]
+              return obj
+
+          def relevant_snippets(text,maxn=36):
+              if not text: return []
+              text=str(text).replace('\x00',' ')
+              chunks=re.split(r'(?<=[.!?;:\n])\s+|\n+',text)
+              scored=[]
+              for c in chunks:
+                  c=' '.join(c.split())
+                  if len(c)<25: continue
+                  lc=c.lower()
+                  hits=sum(1 for w in KEYWORDS if w in lc)
+                  if hits:
+                      scored.append((hits,min(len(c),800),c[:1200]))
+              scored.sort(key=lambda x:(x[0],x[1]),reverse=True)
+              seen=set(); out=[]
+              for _,__,c in scored:
+                  key=c[:180].lower()
+                  if key in seen: continue
+                  seen.add(key); out.append(c)
+                  if len(out)>=maxn: break
+              return out
+
+          hot=[]
+          for entry in src.get('items',[]):
+              cand=entry.get('candidate') or {}
+              if str(cand.get('spm_fit_band','')).upper()!='HOT':
+                  continue
+              cid=str(cand.get('candidate_id') or 'UNKNOWN')
+              deep=[]
+              for hit in entry.get('deep_review_best_hits') or []:
+                  deep.append({
+                      'path':hit.get('path'),
+                      'match_score':hit.get('match_score'),
+                      'matched':hit.get('matched'),
+                      'relevant_snippets':relevant_snippets(hit.get('text')),
+                  })
+              payload={
+                  'schema':'GPT_HOT_COMPACT_EVIDENCE_V1',
+                  'candidate':cand,
+                  'fast_adjudication':slim_obj((entry.get('fast_adjudication_best_match') or {}).get('row')),
+                  'fast_match_score':(entry.get('fast_adjudication_best_match') or {}).get('match_score'),
+                  'dce_adjudication':slim_obj((entry.get('dce_adjudication_best_match') or {}).get('row')),
+                  'dce_match_score':(entry.get('dce_adjudication_best_match') or {}).get('match_score'),
+                  'gpt_inbox_matches':slim_obj(entry.get('gpt_inbox_best_matches')),
+                  'canonical_manifest_matches':slim_obj(entry.get('canonical_manifest_best_matches')),
+                  'deep_review':deep,
+                  'deep_file_count':entry.get('deep_file_count'),
+              }
+              p=outdir/(safe_id(cid)+'.json')
+              p.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              hot.append({'candidate_id':cid,'path':str(p),'deep_hits':len(deep)})
+          pathlib.Path('control/evidence/hot/index.json').write_text(json.dumps({'schema':'GPT_HOT_COMPACT_INDEX_V1','count':len(hot),'items':hot},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'hot_files':hot},indent=2))
+          PY
+      - name: Persist compact HOT evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/hot
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist compact HOT evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
