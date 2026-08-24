@@ -1,8 +1,8 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-24T22:01:09.037914+00:00",
+  "updated_at": "2026-08-24T22:30:43.779722+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 32782323482,
+  "latest_source_dce_run_id": 32784567105,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 506,
@@ -14,16 +14,16 @@
       "DCE_AUTHENTICITY": 20
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 114,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 6
     },
     "pending_by_fit_band": {
       "HOT": 1,
       "GOOD": 25,
-      "MAYBE": 94,
-      "LOW": 40
+      "MAYBE": 97,
+      "LOW": 37
     },
     "pending_by_portal": {
       "US_SAM": 21,
@@ -43,10 +43,10 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 114,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 6
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 140,
@@ -55,8 +55,8 @@
     "selected_by_band": {
       "HOT": 1,
       "GOOD": 25,
-      "MAYBE": 94,
-      "LOW": 40
+      "MAYBE": 97,
+      "LOW": 37
     },
     "selected_by_portal": {
       "US_SAM": 21,
@@ -71,7 +71,7 @@
       "CYPRUS_EPPS": 1
     }
   },
-  "review_bank_count": 59,
+  "review_bank_count": 60,
   "review_bank_schema": "GPT_REVIEW_HOT_V7_FAIR_SHARE",
   "review_bank_window_selection": {
     "priority_target": 120,
@@ -79,49 +79,49 @@
     "low_surveillance_target": 20,
     "selected_by_lane": {
       "SPM_PRIORITY": 16,
-      "DCE_AUTHENTICITY_REPAIR": 13,
+      "DCE_AUTHENTICITY_REPAIR": 14,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 10
     },
     "selected_by_band": {
-      "GOOD": 5,
-      "MAYBE": 13,
+      "GOOD": 3,
+      "MAYBE": 16,
       "LOW": 41
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 46,
-      "DCE_AUTHENTICITY": 13
+      "DCE_AUTHENTICITY": 14
     },
     "selected_by_portal": {
-      "TED": 37,
-      "ZA_ETENDERS": 2,
+      "TED": 40,
       "PL_EZAMOWIENIA": 10,
       "GENERIC_PUBLIC_PAGE": 1,
-      "US_SAM": 5,
+      "US_SAM": 4,
       "SCOTLAND_PCS": 2,
       "ES_PLACSP": 1,
-      "IRELAND_ETENDERS": 1
+      "IRELAND_ETENDERS": 1,
+      "ZA_ETENDERS": 1
     }
   },
-  "review_index_count": 4044,
+  "review_index_count": 4050,
   "review_index_counts": {
-    "pending_total_uncapped": 4044,
+    "pending_total_uncapped": 4050,
     "by_stage": {
-      "BUSINESS_GATES": 2875,
-      "DCE_AUTHENTICITY": 1169
+      "BUSINESS_GATES": 2880,
+      "DCE_AUTHENTICITY": 1170
     },
     "by_spm_fit_band": {
       "HOT": 1,
-      "GOOD": 72,
-      "MAYBE": 255,
-      "LOW": 3716
+      "GOOD": 70,
+      "MAYBE": 259,
+      "LOW": 3720
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 3884,
+    "overflow_beyond_hot_160": 3890,
     "cross_portal_duplicates_collapsed": 0
   },
-  "true_pending_before_hot_cap": 4044,
-  "overflow_beyond_hot_160": 3884,
+  "true_pending_before_hot_cap": 4050,
+  "overflow_beyond_hot_160": 3890,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
@@ -134,8 +134,8 @@
     "scope_auto_rejected": 0,
     "scope_auto_reject_reason_counts": {},
     "cross_portal_duplicates_collapsed": 0,
-    "uncapped_unique_pending_before_hot_window": 59,
-    "rich_hot_window_count": 59,
+    "uncapped_unique_pending_before_hot_window": 60,
+    "rich_hot_window_count": 60,
     "overflow_beyond_hot_window": 0
   },
   "index_recovery": {
@@ -144,6 +144,7 @@
     "gate_rows_seen_this_refresh": 46,
     "authenticity_rows_seen_this_refresh": 21,
     "source_runs_seen_this_refresh": [
+      32784567105,
       32782323482,
       32780541374,
       32777346195,
@@ -152,8 +153,7 @@
       32769327348,
       32766031013,
       32761602129,
-      32758889172,
-      32755778263
+      32758889172
     ]
   },
   "healthy": true,
