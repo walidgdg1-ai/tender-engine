@@ -1,0 +1,177 @@
+name: GPT Lean Target Deep Evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-lean-target-deep-evidence.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parsers
+        run: python -m pip install --disable-pip-version-check -q pypdf python-docx openpyxl
+      - name: Recover targeted DCE releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: walidgdg1-ai/tender-engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/lean-targets
+          mkdir -p /tmp/lean-targets
+          cat > /tmp/targets.json <<'JSON'
+          [
+            {"candidate_id":"TED:580238-2026","title":"Aquisição de serviços de desenvolvimento do novo website do INFARMED","run":32766031013,"shard":0},
+            {"candidate_id":"TED:576504-2026","title":"Raamovereenkomst voor hosting, onderhoud en uitbouw van de corporate website","run":32333373390,"shard":16},
+            {"candidate_id":"IE:8749146","title":"AHRRA Website design and development Services","run":31975449482,"shard":0},
+            {"candidate_id":"IE:8766381","title":"HRB 2026 – Design and Print Services","run":31975449482,"shard":0},
+            {"candidate_id":"TED:574733-2026","title":"TRAVAUX D'IMPRESSION ET DE REPROGRAPHIE","run":32333373390,"shard":40},
+            {"candidate_id":"TED:537532-2026","title":"Valsts administrācijas skolas mācību digitālie risinājumi","run":32262216923,"shard":9}
+          ]
+          JSON
+          python - <<'PY' > /tmp/runs.txt
+          import json
+          print('\n'.join(map(str,sorted({x['run'] for x in json.load(open('/tmp/targets.json'))}))))
+          PY
+          for run in $(cat /tmp/runs.txt); do
+            d="/tmp/lean-targets/$run"; mkdir -p "$d"
+            gh release download "dce-harvest-$run" --pattern 'fast-adjudication-shard-*.jsonl' --dir "$d" >/dev/null 2>&1 || true
+            gh release download "dce-harvest-$run" --pattern "dce-adjudication-$run.jsonl" --dir "$d" >/dev/null 2>&1 || true
+            gh release download "dce-harvest-$run" --pattern "dce-deep-review-$run.tar.gz" --dir "$d" >/dev/null 2>&1 || true
+            gh release download "dce-harvest-$run" --pattern 'dce-canonical-packs-manifest.json' --dir "$d" >/dev/null 2>&1 || true
+            gh release download "dce-harvest-$run" --pattern "gpt-supergreen-inbox-$run.json" --dir "$d" >/dev/null 2>&1 || true
+            if [ -s "$d/dce-deep-review-$run.tar.gz" ]; then mkdir -p "$d/deep"; tar -xzf "$d/dce-deep-review-$run.tar.gz" -C "$d/deep" || true; fi
+          done
+      - name: Build attributed compact target evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,pathlib,re,unicodedata,glob
+          from pypdf import PdfReader
+          from docx import Document
+          import openpyxl
+          targets=json.load(open('/tmp/targets.json'))
+          root=pathlib.Path('/tmp/lean-targets')
+          outdir=pathlib.Path('control/evidence/lean_targets')
+          outdir.mkdir(parents=True,exist_ok=True)
+          KEY=('turnover','chiffre','fatur','reference','référence','referenc','experience','expérience','insurance','assurance','seguro','certif','iso','soc2','soc 2','team','équipe','equipa','staff','expert','subcontract','sous-trait','consortium','language','langue','idioma','award','criterion','critère','criteria','price','prix','preço','deadline','submission','soumission','prazo','mandatory','obligatoire','minimum','website','web site','cms','hosting','maintenance','accessib','wcag','security','sécurité','segurança','gdpr','rgpd','design','printing','impression','print','e-learning','digital learning','training')
+          STOP={'services','service','website','design','development','maintenance','support','hosting','printing','travaux','digital','nouveau','corporate','provision','acquisition','aquisição','serviços','service','pour','and','the','for','van','voor','een','het','web','site'}
+          def norm(s):
+            s=unicodedata.normalize('NFKD',str(s or '')).encode('ascii','ignore').decode().lower()
+            return re.sub(r'[^a-z0-9]+',' ',s).strip()
+          def toks(t): return [z for z in norm(t).split() if len(z)>=4 and z not in STOP][:20]
+          def score(t,text):
+            h=norm(text); s=0
+            cid=str(t['candidate_id']).lower()
+            if cid in str(text).lower(): s+=100
+            nums=re.findall(r'\d{6,}',cid)
+            if any(n in str(text) for n in nums): s+=60
+            for z in toks(t['title']):
+              if z in h:s+=5
+            return s
+          def read(p):
+            try:
+              if p.stat().st_size>25_000_000:return ''
+              ext=p.suffix.lower()
+              if ext=='.pdf':
+                r=PdfReader(str(p)); return '\n'.join((pg.extract_text() or '') for pg in r.pages[:100])[:250000]
+              if ext=='.docx':
+                d=Document(str(p)); return '\n'.join(x.text for x in d.paragraphs)[:250000]
+              if ext=='.xlsx':
+                wb=openpyxl.load_workbook(p,read_only=True,data_only=True); arr=[]
+                for ws in wb.worksheets:
+                  arr.append('SHEET '+ws.title)
+                  for row in ws.iter_rows(values_only=True): arr.append(' | '.join('' if x is None else str(x) for x in row))
+                  if sum(map(len,arr))>250000:break
+                return '\n'.join(arr)[:250000]
+              if ext in {'.txt','.md','.json','.jsonl','.xml','.html','.htm','.csv','.tsv','.yml','.yaml'}:
+                return p.read_text(encoding='utf-8',errors='ignore')[:250000]
+            except Exception:return ''
+            return ''
+          def snippets(text):
+            chunks=re.split(r'\n+|(?<=[.!?;])\s+',text or '')
+            a=[]
+            for c in chunks:
+              c=' '.join(c.split())
+              if len(c)<30:continue
+              lc=c.lower(); hits=sum(1 for k in KEY if k in lc)
+              if hits:a.append((hits,min(len(c),1200),c[:1800]))
+            a.sort(reverse=True); seen=set(); out=[]
+            for _,__,c in a:
+              k=c[:160].lower()
+              if k in seen:continue
+              seen.add(k);out.append(c)
+              if len(out)>=50:break
+            return out
+          def best_jsonl(t,files):
+            best=(-1,None,None)
+            for p in files:
+              try: lines=p.read_text(encoding='utf-8',errors='ignore').splitlines()
+              except:continue
+              for line in lines:
+                try:o=json.loads(line)
+                except:continue
+                raw=json.dumps(o,ensure_ascii=False)
+                sc=score(t,raw)
+                if sc>best[0]:best=(sc,o,str(p))
+            return {'score':best[0],'source':best[2],'row':best[1]} if best[1] is not None else None
+          # Current read-batches can contain already-attributed evidence; use it first.
+          read_items={}
+          for fn in glob.glob('control/gpt_web_read_batches/batch-*.json'):
+            try:d=json.load(open(fn,encoding='utf-8'))
+            except:continue
+            for x in d.get('items',[]): read_items[str(x.get('candidate_id'))]=(fn,x)
+          idx=[]
+          for t in targets:
+            d=root/str(t['run']); deep=d/'deep'
+            fast=best_jsonl(t,list(d.glob('fast-adjudication-shard-*.jsonl')))
+            adjud=best_jsonl(t,list(d.glob('dce-adjudication-*.jsonl')))
+            hits=[]
+            if deep.exists():
+              for p in deep.rglob('*'):
+                if not p.is_file():continue
+                txt=read(p)
+                if not txt:continue
+                sc=score(t,str(p)+'\n'+txt)
+                if sc>0:hits.append((sc,p,txt))
+            hits.sort(key=lambda z:(z[0],len(z[2])),reverse=True)
+            deepout=[]
+            for sc,p,txt in hits[:12]: deepout.append({'score':sc,'path':str(p.relative_to(deep)),'snippets':snippets(txt)})
+            batch=read_items.get(t['candidate_id'])
+            payload={'schema':'GPT_LEAN_TARGET_EVIDENCE_V1','target':t,'fast_adjudication':fast,'dce_adjudication':adjud,'current_read_batch':({'source':batch[0],'item':batch[1]} if batch else None),'deep_review_hits':deepout}
+            safe=re.sub(r'[^A-Za-z0-9]+','_',t['candidate_id']).strip('_')
+            p=outdir/(safe+'.json');p.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            idx.append({'candidate_id':t['candidate_id'],'path':str(p),'has_read_batch':bool(batch),'deep_hits':len(deepout),'fast_score':fast['score'] if fast else None})
+          (outdir/'index.json').write_text(json.dumps({'schema':'GPT_LEAN_TARGET_EVIDENCE_INDEX_V1','items':idx},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(idx,ensure_ascii=False,indent=2))
+          PY
+      - name: Persist evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/lean_targets
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist lean target deep evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
