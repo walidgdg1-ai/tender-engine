@@ -1,0 +1,226 @@
+name: GPT Priority Evidence V2
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-priority-evidence-v2.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gpt-priority-evidence-v2
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install text extraction helpers
+        run: python -m pip install --disable-pip-version-check -q pypdf python-docx
+      - name: Recover source releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: walidgdg1-ai/tender-engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/priority-evidence
+          mkdir -p /tmp/priority-evidence
+          python - <<'PY'
+          import json, pathlib
+          data=json.load(open('control/gpt_review_priority_extract.json',encoding='utf-8'))
+          items=data.get('items',[])
+          hot=[x for x in items if str(x.get('spm_fit_band','')).upper()=='HOT']
+          good=[x for x in items if str(x.get('spm_fit_band','')).upper()=='GOOD'][:20]
+          sel=hot+good
+          pathlib.Path('/tmp/priority-items.json').write_text(json.dumps(sel,ensure_ascii=False,indent=2),encoding='utf-8')
+          runs={}
+          for x in sel:
+              runs.setdefault(str(x['source_dce_run_id']),set()).add(str(x['source_shard']))
+          with open('/tmp/priority-runs.tsv','w',encoding='utf-8') as f:
+              for run,shards in runs.items():
+                  f.write(run+'\t'+','.join(sorted(shards,key=int))+'\n')
+          print(json.dumps({'selected':len(sel),'hot':len(hot),'good':len(good),'runs':len(runs)},indent=2))
+          PY
+
+          download_asset() {
+            local rel="$1" name="$2" out="$3"
+            local aid
+            aid="$(jq -r --arg n "$name" '.assets[] | select(.name==$n) | .id' "$rel" | head -n1)"
+            if [ -z "$aid" ] || [ "$aid" = null ]; then return 1; fi
+            gh api -H 'Accept: application/octet-stream' "repos/$GH_REPO/releases/assets/$aid" > "$out"
+            test -s "$out"
+          }
+
+          while IFS=$'\t' read -r run shards; do
+            d="/tmp/priority-evidence/$run"
+            mkdir -p "$d"
+            rel="$d/release.json"
+            gh api "repos/$GH_REPO/releases/tags/dce-harvest-$run" > "$rel"
+            IFS=',' read -ra arr <<< "$shards"
+            for shard in "${arr[@]}"; do
+              download_asset "$rel" "fast-adjudication-shard-$shard.jsonl" "$d/fast-adjudication-shard-$shard.jsonl" || true
+            done
+            download_asset "$rel" "dce-adjudication-$run.jsonl" "$d/dce-adjudication-$run.jsonl" || true
+            download_asset "$rel" "gpt-supergreen-inbox-$run.json" "$d/gpt-supergreen-inbox-$run.json" || true
+            download_asset "$rel" 'dce-canonical-packs-manifest.json' "$d/dce-canonical-packs-manifest.json" || true
+            download_asset "$rel" "dce-deep-review-$run.tar.gz" "$d/dce-deep-review-$run.tar.gz" || true
+            if [ -s "$d/dce-deep-review-$run.tar.gz" ]; then
+              mkdir -p "$d/deep"
+              tar -xzf "$d/dce-deep-review-$run.tar.gz" -C "$d/deep" || true
+            fi
+          done < /tmp/priority-runs.tsv
+      - name: Reconcile aliases and extract candidate evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, re, unicodedata, zipfile
+          from pypdf import PdfReader
+          from docx import Document
+
+          items=json.load(open('/tmp/priority-items.json',encoding='utf-8'))
+          root=pathlib.Path('/tmp/priority-evidence')
+          STOP={'germany','france','belgium','ireland','lithuania','services','service','support','software','development','consulting','internet','and','the','for','with','from','und','der','die','das','des','für','pour','de','la','les','et','du','des','prestations','provision'}
+
+          def norm(s):
+              s=unicodedata.normalize('NFKD',str(s or '')).encode('ascii','ignore').decode().lower()
+              return re.sub(r'[^a-z0-9]+',' ',s).strip()
+
+          def sig_tokens(x):
+              toks=[t for t in norm(x.get('title')).split() if len(t)>=4 and t not in STOP]
+              return toks[:18]
+
+          def ids(x):
+              vals=[str(x.get('candidate_id') or ''),str(x.get('notice_url') or '')]
+              vals += [str(z) for z in x.get('procedure_aliases',[]) or []]
+              raw=' '.join(vals)
+              nums=re.findall(r'\b\d{6,}\b',raw)
+              hexes=re.findall(r'\b[a-f0-9]{24,}\b',raw.lower())
+              return [z.lower() for z in vals if z]+nums+hexes
+
+          def score(x,text):
+              h=norm(text)
+              raw=str(text).lower()
+              s=0
+              matched=[]
+              for z in ids(x):
+                  zz=z.lower().strip()
+                  if zz and zz in raw:
+                      s+=80 if len(zz)>12 else 35
+                      matched.append(zz)
+              for t in sig_tokens(x):
+                  if t in h:
+                      s+=5; matched.append(t)
+              b=[t for t in norm(x.get('buyer')).split() if len(t)>=4 and t not in STOP]
+              for t in b[:8]:
+                  if t in h: s+=3
+              return s,matched
+
+          def read_any(p,limit=120000):
+              try:
+                  if p.stat().st_size>20_000_000: return ''
+                  ext=p.suffix.lower()
+                  if ext=='.pdf':
+                      r=PdfReader(str(p)); out=[]
+                      for pg in r.pages[:80]:
+                          try: out.append(pg.extract_text() or '')
+                          except Exception: pass
+                      return '\n'.join(out)[:limit]
+                  if ext=='.docx':
+                      d=Document(str(p)); return '\n'.join(q.text for q in d.paragraphs)[:limit]
+                  if ext in {'.txt','.md','.json','.jsonl','.xml','.html','.htm','.csv','.tsv','.yaml','.yml'}:
+                      return p.read_text(encoding='utf-8',errors='ignore')[:limit]
+              except Exception:
+                  return ''
+              return ''
+
+          def best_jsonl(x,p):
+              if not p.exists(): return None
+              best=(-1,None,[])
+              for line in p.read_text(encoding='utf-8',errors='ignore').splitlines():
+                  try: obj=json.loads(line)
+                  except Exception: continue
+                  raw=json.dumps(obj,ensure_ascii=False)
+                  sc,mt=score(x,raw)
+                  if sc>best[0]: best=(sc,obj,mt)
+              if best[1] is None: return None
+              return {'match_score':best[0],'matched':best[2][:30],'row':best[1]}
+
+          def best_json_objects(x,p):
+              if not p.exists(): return []
+              try: data=json.load(open(p,encoding='utf-8'))
+              except Exception: return []
+              found=[]
+              def walk(v,path='root'):
+                  if isinstance(v,dict):
+                      raw=json.dumps(v,ensure_ascii=False)
+                      sc,mt=score(x,raw)
+                      if sc>0: found.append((sc,path,mt,v))
+                      for k,z in v.items(): walk(z,path+'/'+str(k))
+                  elif isinstance(v,list):
+                      for i,z in enumerate(v): walk(z,path+'/'+str(i))
+              walk(data)
+              found.sort(key=lambda z:z[0],reverse=True)
+              return [{'match_score':a,'path':b,'matched':c[:30],'object':d} for a,b,c,d in found[:3]]
+
+          out=[]
+          for x in items:
+              run=str(x['source_dce_run_id']); shard=str(x['source_shard']); d=root/run
+              fast=best_jsonl(x,d/f'fast-adjudication-shard-{shard}.jsonl')
+              adjud=best_jsonl(x,d/f'dce-adjudication-{run}.jsonl')
+              inbox=best_json_objects(x,d/f'gpt-supergreen-inbox-{run}.json')
+              manifest=best_json_objects(x,d/'dce-canonical-packs-manifest.json')
+              hits=[]
+              deep=d/'deep'
+              if deep.exists():
+                  for p in deep.rglob('*'):
+                      if not p.is_file(): continue
+                      txt=read_any(p)
+                      hay=str(p.relative_to(deep))+'\n'+txt
+                      sc,mt=score(x,hay)
+                      if sc>0:
+                          hits.append((sc,p,mt,txt))
+              hits.sort(key=lambda z:(z[0],len(z[3])),reverse=True)
+              deep_hits=[]
+              for sc,p,mt,txt in hits[:8]:
+                  deep_hits.append({'match_score':sc,'path':str(p.relative_to(deep)),'matched':mt[:30],'size':p.stat().st_size,'text':txt[:18000]})
+              out.append({
+                  'candidate':x,
+                  'fast_adjudication_best_match':fast,
+                  'dce_adjudication_best_match':adjud,
+                  'gpt_inbox_best_matches':inbox,
+                  'canonical_manifest_best_matches':manifest,
+                  'deep_review_best_hits':deep_hits,
+                  'deep_file_count':sum(1 for p in deep.rglob('*') if p.is_file()) if deep.exists() else 0,
+              })
+          payload={'schema':'GPT_PRIORITY_EVIDENCE_V2','count':len(out),'selection':'all HOT + first 20 GOOD','items':out}
+          pathlib.Path('control/gpt_priority_evidence_v2.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'items':len(out),'fast_matches':sum(bool(z['fast_adjudication_best_match']) for z in out),'adjud_matches':sum(bool(z['dce_adjudication_best_match']) for z in out),'deep_hits':sum(len(z['deep_review_best_hits']) for z in out)},indent=2))
+          PY
+      - name: Persist compact evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_priority_evidence_v2.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist priority DCE evidence v2 ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
