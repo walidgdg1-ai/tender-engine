@@ -1,0 +1,69 @@
+name: GPT Priority Extract
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-priority-extract.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gpt-priority-extract
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract all HOT and top GOOD candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          idx=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          items=[x for x in (idx.get('items') or []) if isinstance(x,dict)]
+          hot=[x for x in items if str(x.get('spm_fit_band') or '').upper()=='HOT']
+          good=[x for x in items if str(x.get('spm_fit_band') or '').upper()=='GOOD']
+          out={
+            'schema':'GPT_PRIORITY_EXTRACT_V1',
+            'generated_at':datetime.now(timezone.utc).isoformat(),
+            'source_index_count':idx.get('count'),
+            'hot_total':len(hot),
+            'good_total':len(good),
+            'selection':'all HOT plus first 60 GOOD in review-index priority order',
+            'items':hot+good[:60],
+          }
+          Path('control/gpt_review_priority_extract.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'hot':len(hot),'good':len(good),'written':len(out['items'])},indent=2))
+          PY
+      - name: Persist extract
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_review_priority_extract.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "review: persist HOT GOOD priority extract ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
