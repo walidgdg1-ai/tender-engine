@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-24T23:44:30+00:00",
-  "case_count": 61,
-  "positive_recall_cases": 60,
-  "frozen_input_cases": 61,
+  "generated_at": "2026-08-24T23:51:18+00:00",
+  "case_count": 69,
+  "positive_recall_cases": 68,
+  "frozen_input_cases": 69,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -348,6 +348,53 @@
       }
     },
     {
+      "candidate_id": "TED:364578-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:364578-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 72,
+        "why": "Official eTenders confirms an established EUR 20m DPS covering Research Data Management tools, licensing, maintenance, technical support, implementation support and associated professional services through May 2030. This is strategically attractive because admission remains available, but the natural SPM route is vendor/reseller/integrator rather than custom-build direct delivery.",
+        "action": "LONG_HORIZON_PARTNER_ROUTE_IDENTIFY_RDM_VENDORS_THEN_QUALIFY_TO_DPS",
+        "evidence_quality": "OFFICIAL_ETENDERS_DPS_AND_TENDER_DOCUMENT_INDEX_CONFIRMED",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:364578-2026",
+        "material_fields_hash": "366a094be16cef8ee42cf9ba6d8529131f51a0e87adddb26acaaa6323c8ccac5",
+        "notice": {
+          "candidate_id": "TED:364578-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "IRL",
+          "buyer": "Asiera CLG",
+          "title": "Ireland – IT services: consulting, software development, Internet and support – DPS for Research Data Management Tools, Support, Maintenance and Associated Services",
+          "description": "This DPS is for the provision of Research Data Management Tools, Support, Maintenance and Associated Services. The solution offered as part of any service may include licensing, maintenance, technical support, implementation support and other professional services.",
+          "cpv_or_category": null,
+          "estimated_value": 20000000.0,
+          "currency": "EUR",
+          "publication_date": "2026-05-28+02:00",
+          "deadline": "2030-05-25T15:00:00+01:00",
+          "deadline_utc": "2030-05-25T14:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "restricted",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/364578-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
+      }
+    },
+    {
       "candidate_id": "TED:441757-2026",
       "label": "DCE/GPT positive (YELLOW): TED:441757-2026",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -630,6 +677,53 @@
       }
     },
     {
+      "candidate_id": "TED:508381-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:508381-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 52,
+        "why": "This is not a small portal project. The requirement is operational support, adaptive development and conception for ISGA Classic/Web and interfaces, estimated at roughly 4,800 hours per year in 2027-2029 and 4,000 hours in 2030 with extension options. Public procurement metadata marks it not SME-suitable. The official portal also corrected the deadline to 1 September 2026. Only viable through an established German public-sector IT prime.",
+        "action": "LOW_PRIORITY_PARTNER_ONLY_NO_DIRECT_BID",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_CURRENT_OFFICIAL_PROCUREMENT_PORTAL",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:508381-2026",
+        "material_fields_hash": "5db9ab3361b2dbcf828252a4bb64ae764589a005488ec2f4b5507fe90f30f189",
+        "notice": {
+          "candidate_id": "TED:508381-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "DEU",
+          "buyer": "Landesamt für Umwelt",
+          "title": "Germany – IT services: consulting, software development, Internet and support – ISGA-Portal Weiterentwicklung und Support",
+          "description": "Das Landesamt für Umwelt (LfU) (nachfolgend AG genannt) beabsichtigt, im Rahmen eines offenen Verfahrens eine Rahmenvereinbarung auf Grundlage des EVB-IT Erstellungsvertrages abzuschließen. Gegenstand der Rahmenvereinbarung sind die Anpassung, Weiterentwicklung und Betriebsunterstützung des Informationssystems der Gewerbeaufsicht (ISGA) in Rheinland-Pfalz. Die zu vergebenden Leistungen umfassen insbesondere die fortlaufende Weiterentwicklung bestehender Funktionalitäten, die Konzeptionsunterstützung für neue Funktionen und Module, die Anpassung an geänderte rechtliche und fachliche Anforderungen, die Sicherstellung der Betriebsfähigkeit sowie die Unterstützung bei Betrieb und Pflege dieses Fachverfahrens.",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-07-22+02:00",
+          "deadline": "2026-08-28T02:00:00+00:00",
+          "deadline_utc": "2026-08-28T02:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/508381-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
+      }
+    },
+    {
       "candidate_id": "TED:516871-2026",
       "label": "DCE/GPT positive (YELLOW): TED:516871-2026",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -768,6 +862,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-22T11:42:09+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:537925-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:537925-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 70,
+        "why": "GIZ is buying an awareness-raising campaign for Economic Empowerment of Women in Kosovo, with performance expected from October 2026 through end-2027. The DCE weights technical quality 70% and price 30%, so this is not a commodity creative-production buy. It is viable only with strong strategic communications/SBC and Kosovo-local delivery capability.",
+        "action": "PARTNER_WITH_KOSOVO_STRATEGIC_COMMUNICATIONS_AGENCY_AND_USE_AI_VIDEO_DESIGN_AS_PRODUCTION_LEVER",
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_SOURCE_URL_AND_HASH_ATTRIBUTED_EVIDENCE",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:537925-2026",
+        "material_fields_hash": "e80eba90f0fe8accdf3c76d0d8dbebe0226aa7aabdbbfdb4b2fd5b5cedec3a9a",
+        "notice": {
+          "candidate_id": "TED:537925-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "DEU",
+          "buyer": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+          "title": "Germany – Advertising campaign services – 10010807-Communication Campaign",
+          "description": "Women in Kosovo have less education and training opportunities than men and are therefore limited in their professional development. They are underrepresented in basic and general education, vocational training and labour market-oriented training, on the labour market and as start-up entrepreneurs. Around 20 per cent of women only have an income. This exacerbates economic inequality in rural areas, above all. Women from minority backgrounds, such as the Serbian minority in northern Kosovo, are particularly affected. The project aims to expand economic opportunities for disadvantaged women in rural Kosovo. This particularly affects the 35 to 55 age group and women who have dropped out of education or have completed it and are unable to find initial or continuing training. The project supports women in improving their employability and setting up and expanding small businesses in rural areas. Among other things, it provides training, advisory services and assistance with the regulation of unregulated work. It also develops gender-just financial support programmes. The project works with representatives of government and civil society. At the same time, the project is promoting a (nationwide) communication campaign with the aim of changing the views of Kosovan society and making it more open to women\"s participation in vocational training and work. The overall module objective is that the employment prospects for disadvantaged women in rural areas in Kosovo have improved. The term \"communication campaign\" shall be used in a broadest sense of all measures that can enable a change of societal values, social norms, perceptions, attitudes and behaviour, i.e. social and behavior change (SBC). Output 1 strengthens the capacities and competences of selected public labour market service providers to pilot new labour market initiatives for disadvantaged women. Output 2 cooperates with civil society organisations to ensure that disadvantaged women in rural rooms benefit from gender-responsive labour market services to improve their employability. Output 3 initiates gender-transformative changes in the perception of women's participation in vocational training and employment in parts of Kosovan society.",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-04+02:00",
+          "deadline": "2026-09-01T02:00:00+00:00",
+          "deadline_utc": "2026-09-01T02:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/537925-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
       }
     },
     {
@@ -1001,6 +1142,53 @@
       }
     },
     {
+      "candidate_id": "TED:566507-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:566507-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 62,
+        "why": "The official source confirms this is acquisition of an existing cloud-based CDE SaaS for roughly 90 BIM projects over four years, not a greenfield website/software build. It is SME-suitable and therefore commercially interesting as a reseller/integration route, but requires a proven CDE SaaS vendor. The authoritative offer deadline is 15 September 2026 at 10:00, not the earlier reconstructed 7 September date.",
+        "action": "RESELLER_PARTNER_ROUTE_FIND_CDE_BIM_SAAS_VENDOR",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_OFFICIAL_NRW_PROCUREMENT_PORTAL",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:566507-2026",
+        "material_fields_hash": "36c6cba978376afa7785bc900df3aacebefe2e36832aed7324e0ad6babeca58a",
+        "notice": {
+          "candidate_id": "TED:566507-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "DEU",
+          "buyer": "Betriebssitz Gelsenkirchen",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Common Data Environment (CDE) - cloudbasiert als SaaS_NEU",
+          "description": "Neuanschaffung Common Data Environment (CDE) - cloudbasiert als SaaS",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-17+02:00",
+          "deadline": "2026-09-07T23:59:59+02:00",
+          "deadline_utc": "2026-09-07T21:59:59+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/566507-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
+      }
+    },
+    {
       "candidate_id": "TED:567139-2026",
       "label": "DCE/GPT positive (YELLOW): TED:567139-2026",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -1092,6 +1280,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-24T23:44:30+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:568813-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:568813-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 55,
+        "why": "EUR 578,214.88 over 36 months for maintenance, support and upgrades of an existing Lithuanian Customs inspection-management system. This is a legacy-system continuity engagement rather than a greenfield build, so incumbent/system knowledge and public-sector maintenance credentials are likely commercially material even though exact thresholds remain UNKNOWN.",
+        "action": "PARTNER_ONLY_WITH_LITHUANIAN_LEGACY_SYSTEM_INTEGRATOR",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_PUBLIC_NOTICE_SCOPE",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:568813-2026",
+        "material_fields_hash": "041385077e30a65d59ee620e91d19b111ddd0a0edd10af8df591ee4dd3f693e9",
+        "notice": {
+          "candidate_id": "TED:568813-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "LTU",
+          "buyer": "Muitinės departamentas prie Lietuvos Respublikos finansų ministerijos",
+          "title": "Lithuania – Software development services – Tikrinimų valdymo sistemos (toliau – Komandoras) atnaujinimo, priežiūros ir palaikymo paslaugos",
+          "description": "Tikrinimų valdymo sistemos (toliau – KOMANDORAS) atnaujinimo, priežiūros ir palaikymo paslaugos",
+          "cpv_or_category": null,
+          "estimated_value": 578214.88,
+          "currency": "EUR",
+          "publication_date": "2026-08-17+02:00",
+          "deadline": "2026-09-21T03:00:00+00:00",
+          "deadline_utc": "2026-09-21T03:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/568813-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
       }
     },
     {
@@ -1988,6 +2223,53 @@
       }
     },
     {
+      "candidate_id": "TED:574301-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:574301-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 66,
+        "why": "The title looks exceptionally lean, but the DCE shows a specialised supervisory solution for the Slovenian insurance regulator: structured regulatory data, supervisory controls, portfolio analytics and anomaly detection, with AI/LLM functionality embedded into a wider supervisory workflow. Joint bids, reliance on capacities and subcontracting are supported by the ESPD. This is a credible specialist-partner opportunity, not a generic LLM deployment.",
+        "action": "PARTNER_WITH_INSURTECH_REGTECH_VENDOR_OR_SKIP_DIRECT",
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_DOCUMENT_HASH_ATTRIBUTED_EVIDENCE",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:574301-2026",
+        "material_fields_hash": "e8dff47d5b0f9c8dc0b9cb6a537582905641603cfefec75d012f98ae06fc5aa5",
+        "notice": {
+          "candidate_id": "TED:574301-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "SVN",
+          "buyer": "AGENCIJA ZA ZAVAROVALNI NADZOR",
+          "title": "Slovenia – IT services: consulting, software development, Internet and support – NAKUP PROGRAMSKE REŠITVE AI/LLM",
+          "description": "Predmet javnega naročila je nabava, implementacija in vzdrževanje programske rešitve na področju umetne inteligence za potrebe nadzorniških procesov Agencije za zavarovalni nadzor (naročnik). Rešitev temelji na odprtem ali odprto-licenčnem velikem jezikovnem modelu (LLM) z RAG (Retrieval-Augmented Generation) tehnologijo, strukturiranimi pipeline-i za obdelavo tabelaričnih podatkov ter namensko aplikacijo za redno oceno tveganj posameznega subjekta nadzora.",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-19+02:00",
+          "deadline": "2026-09-04T02:00:00+00:00",
+          "deadline_utc": "2026-09-04T02:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/574301-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
+      }
+    },
+    {
       "candidate_id": "TED:574380-2026",
       "label": "DCE/GPT positive (YELLOW): TED:574380-2026",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -2220,6 +2502,100 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-22T10:32:34+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:581702-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:581702-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 76,
+        "why": "Strong content/CMS opportunity rather than generic PR. The DCE requires online public-relations/content experience and SixCMS or comparable CMS knowledge for project personnel. The price sheet exposes a 2027 annual gross budget of EUR 194,800. The DCE also corrects the submission date to 22 September 2026 at 12:00. Technically lean, but a credible German editorial/CMS team must be evidenced before promotion.",
+        "action": "HIGH_PRIORITY_PARTNER_ROUTE_FIND_GERMAN_EDITORIAL_CMS_PERSONNEL_AND_VERIFY_EIGNUNG_FORMS",
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_SOURCE_URL_AND_HASH_ATTRIBUTED_EVIDENCE",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:581702-2026",
+        "material_fields_hash": "2acff037c8cb70033a32198b5df1963701be5d04d5bc051dc05fa87c6672db64",
+        "notice": {
+          "candidate_id": "TED:581702-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "DEU",
+          "buyer": "Ministerium für Arbeit, Soziales, Gesundheit und gesellschaftlichen Zusammenhalt des Landes Brandenburg",
+          "title": "Germany – Public relations services – Zweite inhaltliche Ausbauphase des Familienportals des MASGZ",
+          "description": "Das Ministerium für Arbeit, Soziales, Gesundheit und gesellschaftlichen Zusammenhalt (MASGZ) des Landes Brandenburg baut aktuell das Onlineangebot \"Familienportal Brandenburg\" auf. Vor diesem Hintergrund vergibt das MASGZ den Auftrag zur inhaltlichen Gestaltung, Pflege, Weiterentwicklung und Öffentlichkeitsarbeit des Familienportals Brandenburg. Das Onlineangebot ist auf Dauer angelegt, wobei der zu vergebender Auftrag bis maximal zum 31.12.2030 befristet ist.",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-24+02:00",
+          "deadline": "2026-09-14T23:59:59+02:00",
+          "deadline_utc": "2026-09-14T21:59:59+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/581702-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:584175-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:584175-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 68,
+        "why": "This is a genuine web-application build/maintenance opportunity, but it replaces the fund's existing e-rsklad system and the DCE explicitly addresses NIS2, information security, personal data and continuity. Award scoring is 50% price, 20% early implementation of desired functions and 25% team references/certifications, including project-management, information-security and DPO credentials. Subcontracting/reliance on other entities is contemplated, making it partnerable but not direct GREEN.",
+        "action": "PARTNER_WITH_SLOVENIAN_PUBLIC_SECTOR_DEV_SECURITY_TEAM_IF_MARGIN_SUPPORTS_IT",
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_DOCUMENT_HASH_ATTRIBUTED_EVIDENCE",
+        "provenance_file": "control/adjudications/gpt-priority-good-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:584175-2026",
+        "material_fields_hash": "e3852cf6a570fac05e0af458d8da54dfc4249bedb9522b77fae97efce3bebb21",
+        "notice": {
+          "candidate_id": "TED:584175-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "SVN",
+          "buyer": "JAVNI SKLAD REPUBLIKE SLOVENIJE ZA REGIONALNI RAZVOJ IN RAZVOJ PODEŽELJA",
+          "title": "Slovenia – IT services: consulting, software development, Internet and support – Izgradnja, vzdrževanje in nadgradnje informacijskega sistema eSRRS",
+          "description": "Predmet naročila je izgradnja, vzdrževanje in nadgradnje informacijskega sistema eSRRS (v nadaljevanju eSRRS), ki bo nadomestil obstoječo aplikacijo r-Sklad. Sistem je sestavljen iz zunanje aplikacije (portal za stranke/vlagatelje) in notranje aplikacije (za zaposlene SRRS). Celoten projekt bo izveden v fazah, kot je podrobno opisano v »Tehnični specifikaciji« (poglavje IV. tega dokumenta).",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-24+02:00",
+          "deadline": "2026-09-11T12:00:00+02:00",
+          "deadline_utc": "2026-09-11T10:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/584175-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-24T23:51:18+00:00"
       }
     },
     {
