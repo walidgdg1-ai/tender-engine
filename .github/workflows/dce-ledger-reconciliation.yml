@@ -1,0 +1,172 @@
+name: DCE Ledger Release Reconciliation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/dce-ledger-reconciliation.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dce-ledger-release-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Recover every durable fast-adjudication shard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          root=/tmp/dce-reconcile
+          rm -rf "$root"
+          mkdir -p "$root"
+          mapfile -t tags < <(
+            gh release list --limit 5000 --json tagName \
+              --jq '.[] | select(.tagName | startswith("dce-harvest-")) | .tagName'
+          )
+          printf '%s\n' "${tags[@]}" > /tmp/dce-release-tags.txt
+          export root
+          cat /tmp/dce-release-tags.txt | xargs -r -P 8 -I{} bash -c '
+            tag="$1"
+            rid="${tag#dce-harvest-}"
+            dir="$root/$rid"
+            mkdir -p "$dir"
+            gh release download "$tag" --pattern "fast-adjudication-shard-*.jsonl" --dir "$dir" >/dev/null 2>&1 || true
+          ' _ {}
+          echo "releases=${#tags[@]} shards=$(find "$root" -type f -name 'fast-adjudication-shard-*.jsonl' | wc -l)"
+
+      - name: Reconcile ledger against durable review outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          def load_jsonl(path):
+              with open(path, encoding='utf-8', errors='replace') as f:
+                  for line in f:
+                      line=line.strip()
+                      if not line:
+                          continue
+                      try:
+                          x=json.loads(line)
+                      except Exception:
+                          continue
+                      if isinstance(x,dict):
+                          yield x
+
+          ledger_path=Path('control/dce_attempt_ledger.jsonl')
+          ledger=list(load_jsonl(ledger_path))
+          status_counts=Counter(str(x.get('attempt_status') or 'UNKNOWN') for x in ledger)
+          providers=Counter(str(x.get('provider') or 'UNKNOWN') for x in ledger)
+
+          def cid(x): return str(x.get('candidate_id') or '').strip()
+          def rid(x):
+              try: return int(x.get('dce_run_id') or 0)
+              except Exception: return 0
+
+          ledger_pairs={(cid(x),rid(x)) for x in ledger if cid(x) and rid(x)}
+          ledger_ids={cid(x) for x in ledger if cid(x)}
+          success=[x for x in ledger if str(x.get('attempt_status') or '').upper()=='DCE_RUN_SUCCESS_MATERIALIZED']
+          success_pairs={(cid(x),rid(x)) for x in success if cid(x) and rid(x)}
+          success_ids={cid(x) for x in success if cid(x)}
+
+          release_rows=[]
+          release_pairs=set()
+          release_ids=set()
+          release_class=Counter()
+          for path in Path('/tmp/dce-reconcile').rglob('fast-adjudication-shard-*.jsonl'):
+              try: run_id=int(path.parent.name)
+              except Exception: run_id=0
+              for x in load_jsonl(path):
+                  release_rows.append(x)
+                  c=cid(x)
+                  if c:
+                      release_ids.add(c)
+                      if run_id:
+                          release_pairs.add((c,run_id))
+                  release_class[str(x.get('classification') or 'UNKNOWN').upper()] += 1
+
+          success_missing_pairs=success_pairs-release_pairs
+          success_missing_ids=success_ids-release_ids
+          release_without_ledger_pairs=release_pairs-ledger_pairs
+
+          latest_by_pair={(cid(x),rid(x)):x for x in ledger if cid(x) and rid(x)}
+          missing_provider=Counter()
+          missing_qwen=Counter()
+          missing_examples=[]
+          for pair in sorted(success_missing_pairs, key=lambda z:(z[1],z[0])):
+              x=latest_by_pair.get(pair,{})
+              missing_provider[str(x.get('provider') or 'UNKNOWN')] += 1
+              missing_qwen[str(x.get('qwen_classification') or 'UNKNOWN')] += 1
+              if len(missing_examples)<100:
+                  missing_examples.append({
+                      'candidate_id':pair[0], 'dce_run_id':pair[1],
+                      'title':x.get('title'), 'buyer':x.get('buyer'),
+                      'provider':x.get('provider'), 'qwen_classification':x.get('qwen_classification')
+                  })
+
+          payload={
+              'schema':'DCE_LEDGER_RELEASE_RECONCILIATION_V1',
+              'updated_at':datetime.now(timezone.utc).isoformat(),
+              'ledger_rows':len(ledger),
+              'ledger_unique_candidate_ids':len(ledger_ids),
+              'ledger_unique_candidate_run_pairs':len(ledger_pairs),
+              'ledger_attempt_status_counts':dict(status_counts),
+              'ledger_provider_counts':dict(providers),
+              'success_materialized_rows':len(success),
+              'success_materialized_unique_candidate_ids':len(success_ids),
+              'success_materialized_unique_candidate_run_pairs':len(success_pairs),
+              'fast_adjudication_rows':len(release_rows),
+              'fast_adjudication_unique_candidate_ids':len(release_ids),
+              'fast_adjudication_unique_candidate_run_pairs':len(release_pairs),
+              'fast_adjudication_classification_counts':dict(release_class),
+              'success_pairs_present_in_fast_adjudication':len(success_pairs & release_pairs),
+              'success_pairs_missing_from_fast_adjudication':len(success_missing_pairs),
+              'success_candidate_ids_missing_from_all_fast_adjudication':len(success_missing_ids),
+              'release_pairs_without_matching_ledger_pair':len(release_without_ledger_pairs),
+              'missing_success_pairs_by_provider':dict(missing_provider),
+              'missing_success_pairs_by_qwen_classification':dict(missing_qwen),
+              'missing_success_pair_examples':missing_examples,
+              'contract':'Exact reconciliation of durable DCE attempt ledger against every durable fast-adjudication shard. Pair-level grain is (candidate_id,dce_run_id); candidate-level counts are also reported to separate reruns/version churn from genuinely absent review output.'
+          }
+          Path('control/dce_ledger_release_reconciliation.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({k:v for k,v in payload.items() if k not in ('missing_success_pair_examples','ledger_provider_counts')},ensure_ascii=False,indent=2))
+          PY
+
+      - name: Persist reconciliation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          for n in 1 2 3 4 5 6; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; git reset --hard origin/main; }
+            git add control/dce_ledger_release_reconciliation.json
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m "audit: reconcile DCE ledger and durable review releases ${GITHUB_RUN_ID}"
+            if git push origin HEAD:main; then exit 0; fi
+            if [ "$n" -eq 6 ]; then exit 1; fi
+            sleep "$((n*2))"
+          done
