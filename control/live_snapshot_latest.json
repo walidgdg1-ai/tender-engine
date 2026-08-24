@@ -1,20 +1,20 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32747395432,
-  "generated_at": "2026-08-24T16:27:21.447265+00:00",
-  "snapshot_rows": 120836,
-  "current_materialized_rows": 95401,
-  "carried_forward_rows": 25435,
+  "source_discovery_run": 32752627764,
+  "generated_at": "2026-08-24T17:47:13.091864+00:00",
+  "snapshot_rows": 120697,
+  "current_materialized_rows": 95328,
+  "carried_forward_rows": 25369,
   "carried_forward_by_source": {
     "DE": 6130,
     "PL": 3300,
-    "UK_PCS_OCDS": 3074,
-    "FR": 1984,
-    "ZA_ETENDERS_OCDS": 1925,
+    "UK_PCS_OCDS": 3060,
+    "FR": 1977,
+    "ZA_ETENDERS_OCDS": 1876,
     "ES_PLACSP": 1824,
     "WORLD_BANK_PROCUREMENT": 1445,
-    "GR_KHMDHS": 1395,
-    "UK_FTS_OCDS": 933,
+    "GR_KHMDHS": 1394,
+    "UK_FTS_OCDS": 937,
     "UNKNOWN": 593,
     "SK_UVO": 544,
     "PT_BASE_OPEN": 532,
@@ -22,9 +22,9 @@
     "LV_IUB": 292,
     "CH_SIMAP": 265,
     "CZ_ZAKAZKY_GOV": 263,
-    "QC": 171,
-    "NL": 116,
-    "UK": 94,
+    "QC": 170,
+    "NL": 117,
+    "UK": 95,
     "US_SAM": 26,
     "FI": 26,
     "IE": 25,
@@ -39,8 +39,8 @@
     "SI_EJN": 1
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 104968,
-    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 15868
+    "OPEN_CONFIRMED_BY_DEADLINE": 104820,
+    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 15877
   },
   "packet_count": 242,
   "coverage_status": "PARTIAL_WORLD_COVERAGE",
@@ -57,7 +57,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32747395432",
+  "immutable_release_tag": "live-world-snapshot-32752627764",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
