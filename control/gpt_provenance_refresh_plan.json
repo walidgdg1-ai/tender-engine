@@ -1,10 +1,69 @@
 {
   "schema": "DCE_PROVENANCE_REFRESH_PLAN_V4_REAL_SHARD_ARTIFACT_NAME",
-  "source_inbox_updated_at": "2026-08-23T04:58:36.256142+00:00",
-  "eligible_legacy_reviews": 0,
-  "selected": 0,
-  "release_count": 0,
-  "release_tags": [],
-  "items": [],
+  "source_inbox_updated_at": "2026-08-24T05:15:40.754526+00:00",
+  "eligible_legacy_reviews": 6,
+  "selected": 5,
+  "release_count": 2,
+  "release_tags": [
+    "dce-harvest-32637415262",
+    "dce-harvest-32692654172"
+  ],
+  "items": [
+    {
+      "candidate_id": "TED:580561-2026",
+      "dce_run_id": 32637415262,
+      "source_shard": 2,
+      "workflow_artifact_name": "dce-shard-2",
+      "release_tag": "dce-harvest-32637415262",
+      "archive_name": "candidate-TED-580561-2026.tar.gz",
+      "spm_fit_band": "GOOD",
+      "score": 50,
+      "portal": "TED"
+    },
+    {
+      "candidate_id": "TED:522247-2026",
+      "dce_run_id": 32692654172,
+      "source_shard": 0,
+      "workflow_artifact_name": "dce-shard-0",
+      "release_tag": "dce-harvest-32692654172",
+      "archive_name": "candidate-TED-522247-2026.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 29,
+      "portal": "TED"
+    },
+    {
+      "candidate_id": "TED:416136-2026",
+      "dce_run_id": 32692654172,
+      "source_shard": 3,
+      "workflow_artifact_name": "dce-shard-3",
+      "release_tag": "dce-harvest-32692654172",
+      "archive_name": "candidate-TED-416136-2026.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 20,
+      "portal": "TED"
+    },
+    {
+      "candidate_id": "TED:485874-2026",
+      "dce_run_id": 32692654172,
+      "source_shard": 0,
+      "workflow_artifact_name": "dce-shard-0",
+      "release_tag": "dce-harvest-32692654172",
+      "archive_name": "candidate-TED-485874-2026.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 20,
+      "portal": "TED"
+    },
+    {
+      "candidate_id": "TED:515868-2026",
+      "dce_run_id": 32692654172,
+      "source_shard": 0,
+      "workflow_artifact_name": "dce-shard-0",
+      "release_tag": "dce-harvest-32692654172",
+      "archive_name": "candidate-TED-515868-2026.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 20,
+      "portal": "TED"
+    }
+  ],
   "policy": "HOT/GOOD/MAYBE legacy evidence only. Exact dce-shard-<source_shard> workflow artifact is preferred because it contains the original worker output; immutable canonical release bundle is fallback. No procurement fact or verdict is changed."
 }
