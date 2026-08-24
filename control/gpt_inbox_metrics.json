@@ -1,36 +1,36 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-24T23:44:45.794783+00:00",
+  "updated_at": "2026-08-24T23:51:44.807810+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 32789925117,
   "counts": {
     "pending_gpt_web_review": 160,
-    "reviewed_ticks_total": 518,
+    "reviewed_ticks_total": 526,
     "excluded_already_reviewed": 0,
-    "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 177,
+    "excluded_already_in_final_bank": 5,
+    "pending_before_visible_cap": 173,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 108,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 12
     },
     "pending_by_fit_band": {
-      "GOOD": 24,
+      "GOOD": 20,
       "MAYBE": 97,
-      "LOW": 39
+      "LOW": 43
     },
     "pending_by_portal": {
-      "TED": 101,
+      "TED": 100,
       "IRELAND_ETENDERS": 7,
       "US_SAM": 20,
       "PL_EZAMOWIENIA": 8,
       "GENERIC_PUBLIC_PAGE": 5,
-      "SCOTLAND_PCS": 5,
+      "SCOTLAND_PCS": 6,
       "ZA_ETENDERS": 9,
       "ES_PLACSP": 2,
       "WORLD_BANK": 2,
@@ -42,27 +42,27 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 108,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 12
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "GOOD": 24,
+      "GOOD": 20,
       "MAYBE": 97,
-      "LOW": 39
+      "LOW": 43
     },
     "selected_by_portal": {
-      "TED": 101,
+      "TED": 100,
       "IRELAND_ETENDERS": 7,
       "US_SAM": 20,
       "PL_EZAMOWIENIA": 8,
       "GENERIC_PUBLIC_PAGE": 5,
-      "SCOTLAND_PCS": 5,
+      "SCOTLAND_PCS": 6,
       "ZA_ETENDERS": 9,
       "ES_PLACSP": 2,
       "WORLD_BANK": 2,
@@ -101,24 +101,24 @@
       "ZA_ETENDERS": 1
     }
   },
-  "review_index_count": 5302,
+  "review_index_count": 5294,
   "review_index_counts": {
-    "pending_total_uncapped": 5302,
+    "pending_total_uncapped": 5294,
     "by_stage": {
-      "BUSINESS_GATES": 3811,
+      "BUSINESS_GATES": 3803,
       "DCE_AUTHENTICITY": 1491
     },
     "by_spm_fit_band": {
-      "GOOD": 76,
+      "GOOD": 68,
       "MAYBE": 323,
       "LOW": 4903
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 5142,
+    "overflow_beyond_hot_160": 5134,
     "cross_portal_duplicates_collapsed": 0
   },
-  "true_pending_before_hot_cap": 5302,
-  "overflow_beyond_hot_160": 5142,
+  "true_pending_before_hot_cap": 5294,
+  "overflow_beyond_hot_160": 5134,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
