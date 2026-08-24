@@ -43,24 +43,33 @@ jobs:
               print(f"{x['source_dce_run_id']}\t{x['source_shard']}\t{x['candidate_id']}")
           PY
 
+          download_asset() {
+            local rel_json="$1" name="$2" out="$3"
+            local aid
+            aid="$(jq -r --arg n "$name" '.assets[] | select(.name==$n) | .id' "$rel_json" | head -n1)"
+            if [ -z "$aid" ] || [ "$aid" = null ]; then
+              echo "asset missing: $name"
+              return 1
+            fi
+            echo "asset $name id=$aid"
+            gh api -H 'Accept: application/octet-stream' "repos/$GH_REPO/releases/assets/$aid" > "$out"
+            test -s "$out"
+          }
+
           while IFS=$'\t' read -r run shard cid; do
             d="/tmp/hot-evidence/$run"
             mkdir -p "$d"
+            rel="$d/release.json"
             tag="dce-harvest-$run"
             echo "Recovering $cid from $tag shard=$shard"
-            gh release view "$tag" --repo "$GH_REPO" --json tagName >/dev/null
+            gh api "repos/$GH_REPO/releases/tags/$tag" > "$rel"
 
-            # Recover every fast-adjudication shard for this source run. This avoids
-            # trusting a stale shard locator and lets the parser resolve by candidate_id.
-            gh release download "$tag" --repo "$GH_REPO" \
-              --pattern 'fast-adjudication-shard-*.jsonl' --dir "$d" --clobber
+            download_asset "$rel" "fast-adjudication-shard-$shard.jsonl" "$d/fast-adjudication-shard-$shard.jsonl" || true
+            download_asset "$rel" 'dce-canonical-packs-manifest.json' "$d/dce-canonical-packs-manifest.json" || true
+            download_asset "$rel" "gpt-supergreen-inbox-$run.json" "$d/gpt-supergreen-inbox-$run.json" || true
+            download_asset "$rel" "dce-deep-review-$run.tar.gz" "$d/dce-deep-review-$run.tar.gz" || true
 
-            gh release download "$tag" --repo "$GH_REPO" \
-              --pattern 'dce-canonical-packs-manifest.json' --dir "$d" --clobber || true
-
-            gh release download "$tag" --repo "$GH_REPO" \
-              --pattern "dce-deep-review-$run.tar.gz" --dir "$d" --clobber || true
-            if [ -f "$d/dce-deep-review-$run.tar.gz" ]; then
+            if [ -s "$d/dce-deep-review-$run.tar.gz" ]; then
               mkdir -p "$d/deep"
               tar -xzf "$d/dce-deep-review-$run.tar.gz" -C "$d/deep" || true
             fi
@@ -73,46 +82,47 @@ jobs:
           root=pathlib.Path('/tmp/hot-evidence')
           out=[]
 
-          def read_text(p, limit=120000):
+          def read_text(p, limit=160000):
               try:
-                  if p.stat().st_size > 12_000_000: return ''
+                  if p.stat().st_size > 15_000_000: return ''
                   return p.read_text(encoding='utf-8',errors='ignore')[:limit]
               except Exception: return ''
 
+          def object_hits(v, needles, found, cap=30):
+              if len(found)>=cap: return
+              if isinstance(v,dict):
+                  raw=json.dumps(v,ensure_ascii=False)
+                  if any(n and n in raw for n in needles):
+                      found.append(v); return
+                  for z in v.values(): object_hits(z,needles,found,cap)
+              elif isinstance(v,list):
+                  for z in v: object_hits(z,needles,found,cap)
+
           for x in hot:
-              run=str(x['source_dce_run_id']); cid=str(x['candidate_id'])
+              run=str(x['source_dce_run_id']); shard=str(x['source_shard']); cid=str(x['candidate_id'])
               d=root/run
-              row=None; row_file=None
-              for fp in sorted(d.glob('fast-adjudication-shard-*.jsonl')):
+              row=None
+              fp=d/f'fast-adjudication-shard-{shard}.jsonl'
+              if fp.exists():
                   for line in fp.read_text(encoding='utf-8',errors='ignore').splitlines():
                       if cid not in line: continue
-                      try: obj=json.loads(line)
-                      except Exception: continue
-                      row=obj; row_file=fp.name; break
-                  if row is not None: break
+                      try: row=json.loads(line)
+                      except Exception: pass
+                      if row is not None: break
 
-              manifest_hits=[]
+              needles=[cid,cid.split(':',1)[-1]]
+              manifest_hits=[]; inbox_hits=[]
               mp=d/'dce-canonical-packs-manifest.json'
               if mp.exists():
-                  try:
-                      m=json.load(open(mp,encoding='utf-8'))
-                      stack=[m]
-                      while stack:
-                          v=stack.pop()
-                          if isinstance(v,dict):
-                              raw=json.dumps(v,ensure_ascii=False)
-                              if cid in raw or cid.split(':',1)[-1] in raw:
-                                  manifest_hits.append(v)
-                              else:
-                                  stack.extend(v.values())
-                          elif isinstance(v,list): stack.extend(v)
-                      manifest_hits=manifest_hits[:20]
-                  except Exception as e:
-                      manifest_hits=[{'parse_error':str(e)}]
+                  try: object_hits(json.load(open(mp,encoding='utf-8')),needles,manifest_hits)
+                  except Exception as e: manifest_hits=[{'parse_error':str(e)}]
+              ip=d/f'gpt-supergreen-inbox-{run}.json'
+              if ip.exists():
+                  try: object_hits(json.load(open(ip,encoding='utf-8')),needles,inbox_hits)
+                  except Exception as e: inbox_hits=[{'parse_error':str(e)}]
 
               title=str(x.get('title') or '')
-              needles=[cid,cid.split(':',1)[-1],title]
-              needles += re.findall(r'[A-Za-zÀ-ž0-9_-]{6,}',title)[:10]
+              text_needles=needles+[title]+re.findall(r'[A-Za-zÀ-ž0-9_-]{7,}',title)[:8]
               deep_hits=[]
               deep=d/'deep'
               if deep.exists():
@@ -120,25 +130,26 @@ jobs:
                       if not p.is_file(): continue
                       txt=read_text(p)
                       hay=(str(p)+'\n'+txt).lower()
-                      if any(n and n.lower() in hay for n in needles[:5]):
-                          deep_hits.append({'path':str(p.relative_to(deep)),'size':p.stat().st_size,'text':txt[:60000]})
-                          if len(deep_hits)>=16: break
+                      if any(n and n.lower() in hay for n in text_needles[:6]):
+                          deep_hits.append({'path':str(p.relative_to(deep)),'size':p.stat().st_size,'text':txt[:80000]})
+                          if len(deep_hits)>=20: break
 
               out.append({
                   'candidate':x,
-                  'fast_adjudication_source_file':row_file,
                   'fast_adjudication_row':row,
                   'canonical_manifest_hits':manifest_hits,
+                  'gpt_inbox_hits':inbox_hits,
                   'deep_review_hits':deep_hits,
                   'source_files':sorted(str(p.relative_to(d)) for p in d.rglob('*') if p.is_file())[:1000]
               })
 
-          payload={'schema':'GPT_HOT_EVIDENCE_BUNDLE_V2','count':len(out),'items':out}
+          payload={'schema':'GPT_HOT_EVIDENCE_BUNDLE_V3','count':len(out),'items':out}
           pathlib.Path('control/gpt_hot_evidence_bundle.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print(json.dumps({
             'items':len(out),
             'fast_rows':sum(bool(x['fast_adjudication_row']) for x in out),
             'manifest_hits':sum(len(x['canonical_manifest_hits']) for x in out),
+            'inbox_hits':sum(len(x['gpt_inbox_hits']) for x in out),
             'deep_hits':sum(len(x['deep_review_hits']) for x in out),
             'source_files':sum(len(x['source_files']) for x in out)
           },indent=2))
