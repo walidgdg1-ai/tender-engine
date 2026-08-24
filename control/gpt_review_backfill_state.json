@@ -1,0 +1,25 @@
+{
+  "schema": "GPT_REVIEW_FULL_BACKFILL_STATE_V1",
+  "updated_at": "2026-08-24T22:52:24.905058+00:00",
+  "backfill_complete": true,
+  "dce_releases_enumerated": 518,
+  "fast_adjudication_shards_recovered": 4413,
+  "review_index_count_after_backfill": 5311,
+  "review_index_counts_after_backfill": {
+    "pending_total_uncapped": 5311,
+    "by_stage": {
+      "BUSINESS_GATES": 3818,
+      "DCE_AUTHENTICITY": 1493
+    },
+    "by_spm_fit_band": {
+      "HOT": 4,
+      "GOOD": 198,
+      "MAYBE": 455,
+      "LOW": 4654
+    },
+    "rich_hot_window_target": 160,
+    "overflow_beyond_hot_160": 5151,
+    "cross_portal_duplicates_collapsed": 68
+  },
+  "contract": "Full durable dce-harvest release sweep. This closes the historical recovery gap left by the normal 10-release incremental refresh; existing final/reviewed/expired filters still apply."
+}
