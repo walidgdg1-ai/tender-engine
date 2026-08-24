@@ -1,0 +1,91 @@
+name: GPT GOOD Lean Shortlist
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-good-lean-shortlist.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rank full current GOOD backlog for lean SPM fit
+        run: |
+          python - <<'PY'
+          import json,re,pathlib
+          data=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          items=data.get('items') or data.get('pending') or []
+          POS={
+            'website':22,'web site':22,'webapp':22,'web app':22,'web application':22,'wordpress':24,'cms':18,
+            'frontend':18,'front-end':18,'ux':15,'ui':15,'accessibility':14,'seo':22,'search engine':18,
+            'generative engine':24,'geo services':18,'graphic design':22,'design services':14,'communication design':14,
+            'video':20,'audiovisual':20,'post-production':22,'motion':17,'animation':18,'transcription':24,'translation':10,
+            'printing':20,'print':16,'impression':18,'routage':18,'mailing':14,'database':12,'data base':12,
+            'content':10,'digital platform':12,'portal':12,'social media':12,'campaign':10,'creative':16,'branding':16,
+            'application development':14,'software development':8,'e-learning':12,'elearning':12,'mobile app':16,
+            'artificial intelligence':16,' ai ':12,'llm':18,'chatbot':18,'generative ai':20
+          }
+          NEG={
+            'sap':-35,'s/4hana':-40,'oracle':-25,'erp':-25,'infrastructure':-16,'network':-18,'cybersecurity':-12,
+            'managed service':-16,'helpdesk':-16,'help desk':-16,'desktop support':-22,'hardware':-25,'server':-14,
+            'construction':-30,'building':-18,'road':-35,'hvac':-40,'engineering works':-30,'dredging':-45,
+            'scanning':-12,'scan service':-14,'archive digitisation':-10,'telephony':-22,'radio communication':-24,
+            'medical device':-25,'laboratory':-20,'defence':-12,'defense':-12,'military':-15
+          }
+          def text(x):
+            vals=[x.get('title'),x.get('buyer'),x.get('portal'),x.get('review_stage')]
+            vals+=list(x.get('spm_fit_reasons') or [])+list(x.get('spm_friction_signals') or [])
+            return ' '.join(str(v or '') for v in vals).lower()
+          def score(x):
+            t=' '+text(x)+' '
+            s=0; why=[]; bad=[]
+            for k,v in POS.items():
+              if k in t:s+=v;why.append(k)
+            for k,v in NEG.items():
+              if k in t:s+=v;bad.append(k)
+            if str(x.get('review_stage'))=='BUSINESS_GATES':s+=6
+            if x.get('gate_readiness') is True:s+=8
+            if x.get('estimated_value') not in (None,0,0.0):s+=3
+            d=str(x.get('deadline') or '')
+            if d.startswith('2026-08-'):s-=4
+            return s,why,bad
+          out=[]
+          for x in items:
+            if str(x.get('spm_fit_band','')).upper()!='GOOD':continue
+            s,why,bad=score(x)
+            y={k:x.get(k) for k in ['candidate_id','title','buyer','portal','notice_url','deadline','estimated_value','currency','review_stage','gate_readiness','content_quality','priority_score','spm_post_dce_score','spm_fit_band','spm_fit_reasons','spm_friction_signals','source_dce_run_id','source_shard','procedure_aliases']}
+            y['lean_score']=s;y['lean_positive_matches']=why;y['lean_negative_matches']=bad
+            out.append(y)
+          out.sort(key=lambda x:(x['lean_score'],x.get('spm_post_dce_score') or 0,x.get('priority_score') or 0),reverse=True)
+          payload={'schema':'GPT_GOOD_LEAN_SHORTLIST_V1','source_index_count':data.get('count',len(items)),'good_count':len(out),'ranking':'heuristic SPM lean-fit ranking; mandatory gates remain UNKNOWN until adjudicated','items':out}
+          pathlib.Path('control/gpt_good_lean_shortlist.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'good_count':len(out),'top':[(z['candidate_id'],z['lean_score'],z['title']) for z in out[:20]]},ensure_ascii=False,indent=2))
+          PY
+      - name: Persist shortlist
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_good_lean_shortlist.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: rank full GOOD backlog by lean fit ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
