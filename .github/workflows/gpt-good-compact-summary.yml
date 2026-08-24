@@ -1,0 +1,112 @@
+name: GPT GOOD Compact Evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-good-compact-summary.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build compact evidence files for first 20 GOOD candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, re
+          src=json.load(open('control/gpt_priority_evidence_v2.json',encoding='utf-8'))
+          outdir=pathlib.Path('control/evidence/good')
+          outdir.mkdir(parents=True,exist_ok=True)
+          KEYWORDS=(
+              'minimum','maximum','turnover','revenue','reference','experience','similar',
+              'insurance','liability','certificate','certification','iso','team','expert',
+              'specialist','qualification','eligib','selection','capacity','financial',
+              'economic','subcontract','consortium','joint','rely','reliance','language',
+              'location','site visit','onsite','on-site','travel','deadline','submission',
+              'award','criterion','criteria','mandatory','shall','must','required','requirement',
+              'security','clearance','sam.gov','sap','salesforce','wordpress','cms','website',
+              'hosting','accessibility','gdpr','payment','duration','framework','estimated value','value','budget'
+          )
+          def safe_id(cid): return re.sub(r'[^A-Za-z0-9]+','_',cid).strip('_')
+          def slim(obj,depth=0):
+              if depth>5:return None
+              if isinstance(obj,dict):
+                  keep={}
+                  preferred={'candidate_id','title','buyer','deadline','deadline_at','notice_url','classification','status','reason','why','action','score','spm_fit_score','spm_fit_band','gate_ready','gate_readiness','gates','mandatory_gates','eligibility','references','financial_capacity','technical_capacity','professional_capacity','team','certifications','insurance','subcontracting','joint_tender','language','location','estimated_value','procedure_aliases','source_dce_run_id','source_shard','review_stage','dce_status','review_provider','model_review_reason','selection_criteria','award_criteria'}
+                  for k,v in obj.items():
+                      lk=str(k).lower()
+                      if k in preferred or any(w in lk for w in KEYWORDS):
+                          sv=slim(v,depth+1)
+                          if sv not in (None,{},[],""): keep[k]=sv
+                  return keep
+              if isinstance(obj,list):
+                  vals=[]
+                  for v in obj[:40]:
+                      sv=slim(v,depth+1)
+                      if sv not in (None,{},[],""):vals.append(sv)
+                  return vals
+              if isinstance(obj,str): return obj[:8000]
+              return obj
+          def snippets(text,maxn=28):
+              if not text:return []
+              chunks=re.split(r'(?<=[.!?;:\n])\s+|\n+',str(text).replace('\x00',' '))
+              rows=[]
+              for c in chunks:
+                  c=' '.join(c.split())
+                  if len(c)<25:continue
+                  lc=c.lower(); hits=sum(1 for w in KEYWORDS if w in lc)
+                  if hits: rows.append((hits,min(len(c),1000),c[:1200]))
+              rows.sort(key=lambda z:(z[0],z[1]),reverse=True)
+              seen=set(); out=[]
+              for _,__,c in rows:
+                  k=c[:180].lower()
+                  if k in seen:continue
+                  seen.add(k);out.append(c)
+                  if len(out)>=maxn:break
+              return out
+          good=[]
+          rank=0
+          for entry in src.get('items',[]):
+              cand=entry.get('candidate') or {}
+              if str(cand.get('spm_fit_band','')).upper()!='GOOD':continue
+              rank+=1
+              cid=str(cand.get('candidate_id') or 'UNKNOWN')
+              deep=[]
+              for hit in entry.get('deep_review_best_hits') or []:
+                  deep.append({'path':hit.get('path'),'match_score':hit.get('match_score'),'matched':hit.get('matched'),'relevant_snippets':snippets(hit.get('text'))})
+              payload={'schema':'GPT_GOOD_COMPACT_EVIDENCE_V1','good_rank':rank,'candidate':cand,'fast_adjudication':slim((entry.get('fast_adjudication_best_match') or {}).get('row')),'dce_adjudication':slim((entry.get('dce_adjudication_best_match') or {}).get('row')),'gpt_inbox_matches':slim(entry.get('gpt_inbox_best_matches')),'canonical_manifest_matches':slim(entry.get('canonical_manifest_best_matches')),'deep_review':deep,'deep_file_count':entry.get('deep_file_count')}
+              p=outdir/(f'{rank:02d}_'+safe_id(cid)+'.json')
+              p.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              good.append({'rank':rank,'candidate_id':cid,'title':cand.get('title'),'buyer':cand.get('buyer'),'deadline':cand.get('deadline'),'estimated_value':cand.get('estimated_value'),'currency':cand.get('currency'),'review_stage':cand.get('review_stage'),'spm_post_dce_score':cand.get('spm_post_dce_score'),'spm_fit_reasons':cand.get('spm_fit_reasons'),'path':str(p),'deep_hits':len(deep)})
+          pathlib.Path('control/evidence/good/index.json').write_text(json.dumps({'schema':'GPT_GOOD_COMPACT_INDEX_V1','count':len(good),'items':good},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'good_files':len(good)},indent=2))
+          PY
+      - name: Persist compact GOOD evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/good
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist compact GOOD evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
