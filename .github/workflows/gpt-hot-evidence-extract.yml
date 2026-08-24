@@ -29,73 +29,68 @@ jobs:
       - name: Recover HOT source assets and evidence
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: walidgdg1-ai/tender-engine
         shell: bash
         run: |
           set -euo pipefail
           rm -rf /tmp/hot-evidence && mkdir -p /tmp/hot-evidence
-          python - <<'PY'
-          import json, pathlib
-          idx=json.load(open('control/gpt_review_priority_extract.json',encoding='utf-8'))
-          hot=[x for x in idx.get('items',[]) if str(x.get('spm_fit_band','')).upper()=='HOT']
-          pathlib.Path('/tmp/hot-items.json').write_text(json.dumps(hot,ensure_ascii=False,indent=2),encoding='utf-8')
-          for x in hot:
-              print(f"{x['source_dce_run_id']}\t{x['source_shard']}\t{x['candidate_id']}")
-          PY
           python - <<'PY' > /tmp/hot-sources.tsv
           import json
-          hot=json.load(open('/tmp/hot-items.json'))
+          idx=json.load(open('control/gpt_review_priority_extract.json',encoding='utf-8'))
+          hot=[x for x in idx.get('items',[]) if str(x.get('spm_fit_band','')).upper()=='HOT']
+          open('/tmp/hot-items.json','w',encoding='utf-8').write(json.dumps(hot,ensure_ascii=False,indent=2))
           for x in hot:
               print(f"{x['source_dce_run_id']}\t{x['source_shard']}\t{x['candidate_id']}")
           PY
+
           while IFS=$'\t' read -r run shard cid; do
             d="/tmp/hot-evidence/$run"
             mkdir -p "$d"
-            gh release download "dce-harvest-$run" --pattern "fast-adjudication-shard-$shard.jsonl" --dir "$d" >/dev/null 2>&1 || true
-            if [ ! -f "$d/dce-canonical-packs-manifest.json" ]; then
-              gh release download "dce-harvest-$run" --pattern 'dce-canonical-packs-manifest.json' --dir "$d" >/dev/null 2>&1 || true
+            tag="dce-harvest-$run"
+            echo "Recovering $cid from $tag shard=$shard"
+            gh release view "$tag" --repo "$GH_REPO" --json tagName >/dev/null
+
+            # Recover every fast-adjudication shard for this source run. This avoids
+            # trusting a stale shard locator and lets the parser resolve by candidate_id.
+            gh release download "$tag" --repo "$GH_REPO" \
+              --pattern 'fast-adjudication-shard-*.jsonl' --dir "$d" --clobber
+
+            gh release download "$tag" --repo "$GH_REPO" \
+              --pattern 'dce-canonical-packs-manifest.json' --dir "$d" --clobber || true
+
+            gh release download "$tag" --repo "$GH_REPO" \
+              --pattern "dce-deep-review-$run.tar.gz" --dir "$d" --clobber || true
+            if [ -f "$d/dce-deep-review-$run.tar.gz" ]; then
+              mkdir -p "$d/deep"
+              tar -xzf "$d/dce-deep-review-$run.tar.gz" -C "$d/deep" || true
             fi
-            if [ ! -f "$d/deep.tar.gz" ]; then
-              gh release download "dce-harvest-$run" --pattern "dce-deep-review-$run.tar.gz" --dir "$d" >/dev/null 2>&1 || true
-              [ -f "$d/dce-deep-review-$run.tar.gz" ] && mv "$d/dce-deep-review-$run.tar.gz" "$d/deep.tar.gz" || true
-              if [ -f "$d/deep.tar.gz" ]; then
-                mkdir -p "$d/deep"
-                tar -xzf "$d/deep.tar.gz" -C "$d/deep" || true
-              fi
-            fi
+            echo "Recovered files for $run: $(find "$d" -type f | wc -l)"
           done < /tmp/hot-sources.tsv
 
           python - <<'PY'
           import json, pathlib, re
-          hot=json.load(open('/tmp/hot-items.json'))
+          hot=json.load(open('/tmp/hot-items.json',encoding='utf-8'))
           root=pathlib.Path('/tmp/hot-evidence')
           out=[]
-          def read_text(p):
+
+          def read_text(p, limit=120000):
               try:
-                  if p.stat().st_size>8_000_000: return ''
-                  return p.read_text(encoding='utf-8',errors='ignore')
+                  if p.stat().st_size > 12_000_000: return ''
+                  return p.read_text(encoding='utf-8',errors='ignore')[:limit]
               except Exception: return ''
-          def snippets(text, needles, radius=3500, cap=24000):
-              spans=[]
-              low=text.lower()
-              for n in needles:
-                  if not n: continue
-                  i=low.find(n.lower())
-                  if i>=0: spans.append(text[max(0,i-radius):min(len(text),i+len(n)+radius)])
-              s='\n\n--- HIT ---\n\n'.join(spans)
-              return s[:cap]
+
           for x in hot:
-              run=str(x['source_dce_run_id']); shard=str(x['source_shard']); cid=x['candidate_id']
+              run=str(x['source_dce_run_id']); cid=str(x['candidate_id'])
               d=root/run
-              row=None
-              fp=d/f'fast-adjudication-shard-{shard}.jsonl'
-              if fp.exists():
+              row=None; row_file=None
+              for fp in sorted(d.glob('fast-adjudication-shard-*.jsonl')):
                   for line in fp.read_text(encoding='utf-8',errors='ignore').splitlines():
+                      if cid not in line: continue
                       try: obj=json.loads(line)
-                      except: continue
-                      if str(obj.get('candidate_id') or (obj.get('raw') or {}).get('candidate_id') or '')==cid:
-                          row=obj; break
-                      if cid in line:
-                          row=obj; break
+                      except Exception: continue
+                      row=obj; row_file=fp.name; break
+                  if row is not None: break
+
               manifest_hits=[]
               mp=d/'dce-canonical-packs-manifest.json'
               if mp.exists():
@@ -105,35 +100,48 @@ jobs:
                       while stack:
                           v=stack.pop()
                           if isinstance(v,dict):
-                              if cid in json.dumps(v,ensure_ascii=False): manifest_hits.append(v)
-                              else: stack.extend(v.values())
+                              raw=json.dumps(v,ensure_ascii=False)
+                              if cid in raw or cid.split(':',1)[-1] in raw:
+                                  manifest_hits.append(v)
+                              else:
+                                  stack.extend(v.values())
                           elif isinstance(v,list): stack.extend(v)
                       manifest_hits=manifest_hits[:20]
-                  except Exception as e: manifest_hits=[{'parse_error':str(e)}]
-              title=x.get('title','')
-              tokens=[cid, cid.split(':',1)[-1], title]
-              for w in re.findall(r'[A-Za-zÀ-ž0-9_-]{5,}',title)[:8]: tokens.append(w)
+                  except Exception as e:
+                      manifest_hits=[{'parse_error':str(e)}]
+
+              title=str(x.get('title') or '')
+              needles=[cid,cid.split(':',1)[-1],title]
+              needles += re.findall(r'[A-Za-zÀ-ž0-9_-]{6,}',title)[:10]
               deep_hits=[]
               deep=d/'deep'
               if deep.exists():
                   for p in deep.rglob('*'):
                       if not p.is_file(): continue
-                      path_hit=any(n and n.lower() in str(p).lower() for n in tokens[:3])
                       txt=read_text(p)
-                      content_hit=any(n and n.lower() in txt.lower() for n in tokens[:3]) if txt else False
-                      if path_hit or content_hit:
-                          deep_hits.append({'path':str(p.relative_to(deep)),'size':p.stat().st_size,'text':txt[:50000]})
-                          if len(deep_hits)>=12: break
+                      hay=(str(p)+'\n'+txt).lower()
+                      if any(n and n.lower() in hay for n in needles[:5]):
+                          deep_hits.append({'path':str(p.relative_to(deep)),'size':p.stat().st_size,'text':txt[:60000]})
+                          if len(deep_hits)>=16: break
+
               out.append({
                   'candidate':x,
+                  'fast_adjudication_source_file':row_file,
                   'fast_adjudication_row':row,
                   'canonical_manifest_hits':manifest_hits,
                   'deep_review_hits':deep_hits,
-                  'source_files':sorted(str(p.relative_to(d)) for p in d.rglob('*') if p.is_file())[:500]
+                  'source_files':sorted(str(p.relative_to(d)) for p in d.rglob('*') if p.is_file())[:1000]
               })
-          payload={'schema':'GPT_HOT_EVIDENCE_BUNDLE_V1','count':len(out),'items':out}
+
+          payload={'schema':'GPT_HOT_EVIDENCE_BUNDLE_V2','count':len(out),'items':out}
           pathlib.Path('control/gpt_hot_evidence_bundle.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps({'items':len(out),'fast_rows':sum(bool(x['fast_adjudication_row']) for x in out),'deep_hits':sum(len(x['deep_review_hits']) for x in out)},indent=2))
+          print(json.dumps({
+            'items':len(out),
+            'fast_rows':sum(bool(x['fast_adjudication_row']) for x in out),
+            'manifest_hits':sum(len(x['canonical_manifest_hits']) for x in out),
+            'deep_hits':sum(len(x['deep_review_hits']) for x in out),
+            'source_files':sum(len(x['source_files']) for x in out)
+          },indent=2))
           PY
       - name: Persist evidence bundle
         shell: bash
