@@ -1,0 +1,63 @@
+{
+  "schema": "GPT_DCE_ADJUDICATION_V1",
+  "source": "GPT Web exact-match deep review of reconstructed GOOD candidates",
+  "source_queue_count": 3,
+  "created_at": "2026-08-25T00:48:00Z",
+  "mode": "FULL_BACKFILL_GOOD_DEEP_03",
+  "persist_to_final_bank": true,
+  "doctrine": {
+    "missing_evidence": "UNKNOWN_NEVER_PASS",
+    "final_super_green": "FORBIDDEN_UNLESS_ALL_MANDATORY_GATES_AND_BIDDER_FACTS_VERIFIED",
+    "green": "ONLY_WHEN_REMAINING_UNKNOWNS_ARE_NON_FATAL_AND_NO_MATERIAL_PARTNER_OR_CAPACITY_DEPENDENCY_REMAINS"
+  },
+  "results": [
+    {
+      "candidate_id": "TED:522354-2026",
+      "title": "Estonia – Custom software development services – Veebikeskkonna toitumine.ee arendus- ja hooldustööd",
+      "classification": "YELLOW",
+      "final_score": 82,
+      "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_19_TEXT_DOCUMENTS_ALL_COMPACT_SNIPPETS_ATTRIBUTED",
+      "deadline_authority": "NOTICE_DEADLINE_2026_08_31_DCE_TIMESTAMP_NOT_YET_RECONCILED",
+      "blockers": [],
+      "unknowns": [
+        "Exact minimum years/experience thresholds inside the four role-specific CV forms still need full-form extraction",
+        "Authoritative submission timestamp must be reconciled before finality"
+      ],
+      "why": "This is one of the strongest hidden digital fits found in the backfill: EUR 72,000 for development and maintenance of toitumine.ee, with open-source/free-software requirements, interactive calculators/charts, GDPR, multilingual support and UX testing. However the authoritative procurement requires named team CV forms for a project manager, analyst, web developer and UX/UI designer, and the buyer explicitly validates those CVs and can reject a non-compliant team. Joint bidding/subcontracting is available, so this is highly partnerable but not a clean solo GREEN for SPM today.",
+      "action": "HIGH_PRIORITY_FIND_4_PROFILE_WEB_TEAM_OR_AGENCY_AND_EXTRACT_ROLE_MINIMUMS",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/522354-2026"
+    },
+    {
+      "candidate_id": "TED:527162-2026",
+      "title": "Lithuania – Miscellaneous software development services and computer systems – Sumanių kaimų programa (platforma)",
+      "classification": "UNKNOWN/PENDING_DCE",
+      "final_score": 80,
+      "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_12_TEXT_DOCUMENTS_ALL_COMPACT_SNIPPETS_ATTRIBUTED",
+      "deadline_authority": "NOTICE_DEADLINE_2026_09_02_DCE_TIMESTAMP_NOT_YET_RECONCILED",
+      "blockers": [],
+      "unknowns": [
+        "Exact bidder-reference, staffing and qualification thresholds are not yet resolved from attributed candidate-specific selection clauses",
+        "Authoritative submission timestamp remains unresolved"
+      ],
+      "why": "Commercially attractive EUR 82,892.56 platform build with modern API security, audit logging, GDPR and WCAG 2.1 AA requirements that are technically feasible with a lean software stack. The DCE expressly permits reliance on other entities' capacities, but the current extracted evidence does not reliably resolve the mandatory selection thresholds. Under the no-assumption rule it cannot yet be promoted to GREEN.",
+      "action": "TARGETED_LITHUANIAN_SELECTION_CRITERIA_EXTRACTION_BEFORE_BID_DECISION",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/527162-2026"
+    },
+    {
+      "candidate_id": "TED:574301-2026",
+      "title": "Slovenia – IT services: consulting, software development, Internet and support – NAKUP PROGRAMSKE REŠITVE AI/LLM",
+      "classification": "YELLOW",
+      "final_score": 66,
+      "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_13_TEXT_DOCUMENTS_ALL_COMPACT_SNIPPETS_ATTRIBUTED",
+      "deadline_authority": "NOTICE_DEADLINE_2026_09_04_DCE_TIMESTAMP_NOT_YET_RECONCILED",
+      "blockers": [],
+      "unknowns": [
+        "Exact numeric bidder/staff reference thresholds require form-level extraction",
+        "Exact financial guarantee amount and full operational support burden remain to be reconciled"
+      ],
+      "why": "The AI/LLM scope is strategically aligned but this is not a lightweight API wrapper procurement. Mandatory submission includes staff-reference forms and certificates plus bidder reference lists/certificates, a bank-guarantee template, subcontractor declarations, and a compliance declaration. The contract also imposes GDPR, DORA, AI Act, encryption, auditability, secure deletion and security testing, with an anticipated 1,800-hour service envelope. This is credible only with a qualified software/security partner and verified references.",
+      "action": "PARTNER_ONLY_WITH_REFERENCE_HOLDER_AND_SECURITY_COMPLIANT_AI_VENDOR",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/574301-2026"
+    }
+  ]
+}
