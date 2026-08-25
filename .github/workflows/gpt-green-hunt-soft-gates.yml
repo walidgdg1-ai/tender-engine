@@ -1,0 +1,96 @@
+name: GPT Green Hunt Soft Gates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-green-hunt-soft-gates.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Rank current DCE-rich candidates by lean fit and observed gate softness
+        run: |
+          python - <<'PY'
+          import json,pathlib,re,datetime
+          files=sorted(pathlib.Path('control/gpt_web_read_batches').glob('batch-*.json'))
+          pos={
+            'website':25,'web site':25,'web development':25,'web-development':25,'cms':18,'wordpress':22,'drupal':16,
+            'graphic design':22,'graphic-design':22,'layout':15,'printing':18,'print':10,'video':18,'animation':18,'motion':16,
+            'transcription':22,'translation':16,'subtitl':16,'copywriting':15,'editorial':16,'content':12,'digital marketing':18,
+            'e-learning':16,'learning management':18,'lms':18,'portal':12,'web application':18,'web-application':18,'accessibility':12
+          }
+          neg_title={'sap':40,'oracle':28,'erp':35,'infrastructure':18,'cybersecurity':22,'network':18,'hardware':25,'hospital':18,'legacy':16,'construction':45,'engineering works':35,'maintenance of':8}
+          hard_patterns=[
+            (r'(turnover|annual turnover).{0,120}(€|eur|million|[0-9]{2,})',18,'numeric_turnover'),
+            (r'(at least|minimum|not less than).{0,100}(reference|contract|project|year)',14,'minimum_reference'),
+            (r'(at least|minimum|not less than).{0,100}(staff|personnel|expert|team|employee)',14,'minimum_team'),
+            (r'(iso\s*27001|nis2|dora|security clearance|oracle cert|sap cert)',14,'special_cert_security'),
+            (r'(on[- ]site|onsite|at the premises|physical presence)',12,'onsite'),
+            (r'(professional indemnity|employer.?s liability|public liability|cyber liability).{0,120}(€|eur|million|[0-9]{2,})',10,'high_insurance'),
+            (r'(three|3|four|4|five|5).{0,40}(references|contracts|projects)',15,'multi_references')
+          ]
+          soft_patterns=[
+            (r'no minimum turnover',12,'no_turnover_floor'),(r'no mandatory reference',12,'no_reference_floor'),
+            (r'no mandatory staffing',10,'no_staff_floor'),(r'subcontract|consortium|rely on.{0,40}(other|third)',8,'partner_allowed'),
+            (r'electronic submission|esubmission|e-tenders|etenders',3,'electronic')
+          ]
+          seen={}; rows=[]
+          for f in files:
+            try:p=json.load(open(f,encoding='utf-8'))
+            except:continue
+            for x in p.get('items',[]):
+              cid=str(x.get('candidate_id') or '')
+              if not cid or cid in seen: continue
+              seen[cid]=1
+              title=str(x.get('title') or '')
+              hay=(title+' '+' '.join(x.get('spm_fit_reasons') or [])).lower()
+              lean=sum(v for k,v in pos.items() if k in hay)-sum(v for k,v in neg_title.items() if k in hay)
+              if lean<=0: continue
+              ev=json.dumps(x.get('evidence') or {},ensure_ascii=False).lower()
+              hard=[]; soft=[]; gate_score=0
+              for pat,w,label in hard_patterns:
+                if re.search(pat,ev,re.S): hard.append(label); gate_score-=w
+              for pat,w,label in soft_patterns:
+                if re.search(pat,ev,re.S): soft.append(label); gate_score+=w
+              final=lean+gate_score+max(0,min(12,int(x.get('spm_post_dce_score') or 0)-40))
+              rows.append({
+                'green_hunt_score':final,'lean_scope_score':lean,'gate_softness_score':gate_score,
+                'candidate_id':cid,'title':title,'buyer':x.get('buyer'),'portal':x.get('portal'),'deadline':x.get('deadline'),
+                'estimated_value':x.get('estimated_value'),'currency':x.get('currency'),'spm_post_dce_score':x.get('spm_post_dce_score'),
+                'spm_fit_band':x.get('spm_fit_band'),'hard_signals':hard,'soft_signals':soft,
+                'source_dce_run_id':x.get('source_dce_run_id'),'source_shard':x.get('source_shard'),'artifact_locator':x.get('artifact_locator'),
+                'evidence_quality':x.get('evidence_quality'),'evidence':x.get('evidence'),'notice_url':x.get('notice_url')
+              })
+          rows.sort(key=lambda z:(z['green_hunt_score'],z['lean_scope_score'],z.get('spm_post_dce_score') or 0),reverse=True)
+          out={'schema':'GPT_GREEN_HUNT_SOFT_GATES_V1','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'batches_scanned':len(files),'candidates_considered':len(seen),'lean_candidates':len(rows),'items':rows[:25]}
+          pathlib.Path('control/gpt_green_hunt_soft_gates.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          lines=['rank\tscore\tlean\tgate\tband\tdeadline\tvalue\tcandidate\ttitle\thard\tsoft']
+          for i,x in enumerate(rows[:25],1):
+            lines.append('\t'.join(str(v if v is not None else '') for v in [i,x['green_hunt_score'],x['lean_scope_score'],x['gate_softness_score'],x.get('spm_fit_band'),x.get('deadline'),x.get('estimated_value'),x['candidate_id'],x['title'],','.join(x['hard_signals']),','.join(x['soft_signals'])]))
+          pathlib.Path('control/gpt_green_hunt_soft_gates.tsv').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(json.dumps({'batches':len(files),'seen':len(seen),'lean':len(rows),'top':[(x['candidate_id'],x['green_hunt_score']) for x in rows[:10]]},ensure_ascii=False,indent=2))
+          PY
+      - name: Persist green-hunt view
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_green_hunt_soft_gates.json control/gpt_green_hunt_soft_gates.tsv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist soft-gate green hunt ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
