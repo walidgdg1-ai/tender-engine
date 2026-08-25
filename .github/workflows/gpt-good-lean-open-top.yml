@@ -1,0 +1,85 @@
+name: GPT Open GOOD Lean Top
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-good-lean-open-top.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  select:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Select best open lean GOODs
+        run: |
+          python - <<'PY'
+          import json,re,pathlib,datetime
+          idx=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          items=idx.get('items') or []
+          POS={
+            'website':22,'web site':22,'wordpress':24,'drupal':18,'cms':16,'web development':22,'web-development':22,
+            'graphic design':20,'graphic-design':20,'design services':12,'visual identity':17,'brand identity':16,'layout':14,
+            'printing':18,'print services':18,'impression':18,'reprograph':17,'brochure':14,'publication':10,
+            'transcription':20,'caption':16,'subtitl':16,'translation':14,'copywriting':14,'editorial':12,
+            'video production':18,'video-production':18,'post-production':16,'motion':14,'photograph':10,
+            'e-learning':12,'lms':12,'content':9,'digital resource':14,'portal':9,'web application':14
+          }
+          NEG={
+            'sap':35,'erp':30,'s/4hana':40,'cybersecurity':20,'cyber security':20,'network':16,'infrastructure':14,
+            'hardware':25,'installation':18,'radar':35,'gis':12,'arcgis':24,'hospital':15,'medical':12,
+            '24x7':25,'24/7':25,'enterprise agreement':30,'data center':25,'datacenter':25,'migration':18,
+            'debt collection':14,'tax':12,'financial system':15,'maritime single window':25
+          }
+          now=datetime.datetime(2026,8,25,tzinfo=datetime.timezone.utc)
+          out=[]
+          for x in items:
+            if str(x.get('spm_fit_band','')).upper()!='GOOD': continue
+            s=' '.join([str(x.get('title') or ''),str(x.get('buyer') or ''),' '.join(x.get('spm_fit_reasons') or []),' '.join(x.get('spm_friction_signals') or [])]).lower()
+            score=sum(v for k,v in POS.items() if k in s)-sum(v for k,v in NEG.items() if k in s)
+            score+=max(0,min(15,int(x.get('spm_post_dce_score') or 0)-45))
+            dl=x.get('deadline')
+            expired=False
+            if dl:
+              try: expired=datetime.datetime.fromisoformat(str(dl).replace('Z','+00:00')).astimezone(datetime.timezone.utc)<now
+              except: pass
+            if expired: score-=100
+            if score<=0: continue
+            out.append({
+              'lean_open_score':score,
+              'candidate_id':x.get('candidate_id'),'title':x.get('title'),'buyer':x.get('buyer'),'portal':x.get('portal'),
+              'deadline':x.get('deadline'),'estimated_value':x.get('estimated_value'),'currency':x.get('currency'),
+              'review_stage':x.get('review_stage'),'gate_readiness':x.get('gate_readiness'),'content_quality':x.get('content_quality'),
+              'spm_post_dce_score':x.get('spm_post_dce_score'),'priority_score':x.get('priority_score'),
+              'fit_reasons':x.get('spm_fit_reasons') or [],'friction_signals':x.get('spm_friction_signals') or [],
+              'source_dce_run_id':x.get('source_dce_run_id'),'source_shard':x.get('source_shard'),'notice_url':x.get('notice_url')
+            })
+          out.sort(key=lambda z:(z['lean_open_score'],z.get('spm_post_dce_score') or 0,z.get('priority_score') or 0),reverse=True)
+          payload={'schema':'GPT_OPEN_GOOD_LEAN_TOP_V1','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_open_index_count':len(items),'selected_count':len(out),'items':out[:40]}
+          pathlib.Path('control/gpt_open_good_lean_top.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'selected':len(out),'persisted':min(40,len(out)),'top':[(z['candidate_id'],z['lean_open_score']) for z in out[:10]]},ensure_ascii=False,indent=2))
+          PY
+      - name: Persist selection
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_open_good_lean_top.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist open GOOD lean top ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
