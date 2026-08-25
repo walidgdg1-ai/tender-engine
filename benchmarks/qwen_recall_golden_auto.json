@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-25T00:42:04+00:00",
-  "case_count": 74,
-  "positive_recall_cases": 73,
-  "frozen_input_cases": 74,
+  "generated_at": "2026-08-25T00:48:16+00:00",
+  "case_count": 75,
+  "positive_recall_cases": 74,
+  "frozen_input_cases": 75,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -956,6 +956,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-22T11:42:09+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:522354-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:522354-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 82,
+        "why": "This is one of the strongest hidden digital fits found in the backfill: EUR 72,000 for development and maintenance of toitumine.ee, with open-source/free-software requirements, interactive calculators/charts, GDPR, multilingual support and UX testing. However the authoritative procurement requires named team CV forms for a project manager, analyst, web developer and UX/UI designer, and the buyer explicitly validates those CVs and can reject a non-compliant team. Joint bidding/subcontracting is available, so this is highly partnerable but not a clean solo GREEN for SPM today.",
+        "action": "HIGH_PRIORITY_FIND_4_PROFILE_WEB_TEAM_OR_AGENCY_AND_EXTRACT_ROLE_MINIMUMS",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_19_TEXT_DOCUMENTS_ALL_COMPACT_SNIPPETS_ATTRIBUTED",
+        "provenance_file": "control/adjudications/gpt-good-deep-03-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:522354-2026",
+        "material_fields_hash": "b140f5f2e1ba83ec7a5f361d68bc01517d03db312c7ac8ad72e4490f155a7f7e",
+        "notice": {
+          "candidate_id": "TED:522354-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "EST",
+          "buyer": "Tervise Arengu Instituut",
+          "title": "Estonia – Custom software development services – Veebikeskkonna toitumine.ee arendus- ja hooldustööd",
+          "description": "Hanke eesmärgiks on sõlmida hankeleping (edaspidi leping) ühe pakkujaga Tervise Arengu Instituudi poolt loodud ja hallatavale veebikeskkonnale toitumine.ee uue lahenduse kavandamiseks, disainimiseks, arendamiseks, juurutamiseks ja hooldustööde tellimiseks. Tellitavate tööde tehniline kirjeldus on toodud riigihanke alusdokumentide Lisas 1 „Tehniline kirjeldus“. / Kõrvaldamise alused ja kvalifitseerimistingimused: Vaata hanke alusdokumentidest",
+          "cpv_or_category": null,
+          "estimated_value": 72000.0,
+          "currency": "EUR",
+          "publication_date": "2026-07-28+02:00",
+          "deadline": "2026-08-31T03:00:00+00:00",
+          "deadline_utc": "2026-08-31T03:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/522354-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:48:16+00:00"
       }
     },
     {
