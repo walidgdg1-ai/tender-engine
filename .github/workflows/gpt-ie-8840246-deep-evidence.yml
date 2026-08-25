@@ -1,0 +1,140 @@
+name: GPT IE 8840246 Deep Evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-ie-8840246-deep-evidence.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RUN_ID_DCE: '31975449482'
+      CANDIDATE_ID: 'IE:8840246'
+      TITLE_NEEDLE: 'Supply, Installation and Support of a Learning Management System for Clare Tourism Development DAC'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recover durable DCE review assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          root=/tmp/ie8840246
+          rm -rf "$root" && mkdir -p "$root/deep"
+          tag="dce-harvest-${RUN_ID_DCE}"
+          gh release download "$tag" --pattern 'fast-adjudication-shard-1.jsonl' --dir "$root" >/dev/null 2>&1 || true
+          gh release download "$tag" --pattern "dce-adjudication-${RUN_ID_DCE}.jsonl" --dir "$root" >/dev/null 2>&1 || true
+          gh release download "$tag" --pattern "gpt-supergreen-inbox-${RUN_ID_DCE}.json" --dir "$root" >/dev/null 2>&1 || true
+          gh release download "$tag" --pattern "dce-deep-review-${RUN_ID_DCE}.tar.gz" --dir "$root" >/dev/null 2>&1 || true
+          if [ -s "$root/dce-deep-review-${RUN_ID_DCE}.tar.gz" ]; then
+            tar -xzf "$root/dce-deep-review-${RUN_ID_DCE}.tar.gz" -C "$root/deep" || true
+          fi
+          echo "Recovered $(find "$root" -type f | wc -l) files"
+      - name: Build candidate-specific evidence packet
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,pathlib,re,unicodedata,os
+          root=pathlib.Path('/tmp/ie8840246')
+          cid=os.environ['CANDIDATE_ID']; title=os.environ['TITLE_NEEDLE']; run=os.environ['RUN_ID_DCE']
+          def norm(s):
+            return re.sub(r'[^a-z0-9]+',' ',unicodedata.normalize('NFKD',str(s or '')).encode('ascii','ignore').decode().lower()).strip()
+          title_tokens=[z for z in norm(title).split() if len(z)>=5]
+          def best_jsonl(glob):
+            best=(-1,None,None)
+            for p in root.glob(glob):
+              for line in p.read_text(encoding='utf-8',errors='ignore').splitlines():
+                try:o=json.loads(line)
+                except:continue
+                raw=json.dumps(o,ensure_ascii=False); nr=norm(raw); sc=0
+                if str(o.get('candidate_id'))==cid: sc+=10000
+                if cid in raw: sc+=5000
+                sc+=sum(10 for z in title_tokens if z in nr)
+                if sc>best[0]: best=(sc,o,str(p))
+            return {'score':best[0],'source':best[2],'row':best[1]}
+          fast=best_jsonl('fast-adjudication-shard-*.jsonl')
+          adjud=best_jsonl('dce-adjudication-*.jsonl')
+
+          # Search extracted durable deep-review content for candidate/title-specific files and snippets.
+          hits=[]
+          deep=root/'deep'
+          for p in deep.rglob('*') if deep.exists() else []:
+            if not p.is_file() or p.stat().st_size>12_000_000: continue
+            try: txt=p.read_text(encoding='utf-8',errors='ignore')
+            except: continue
+            n=norm(txt); score=(5000 if cid in txt else 0)+sum(20 for z in title_tokens if z in n)
+            if score<=40: continue
+            # retain bounded candidate-specific text around useful mandatory-gate terms
+            windows=[]
+            terms=['turnover','reference','experience','insurance','subcontract','consortium','staff','team','cv','qualification','selection criteria','award criteria','hosting','support','service level','sla','security','gdpr','moodle','learning management','implementation','training','deadline']
+            low=txt.lower()
+            spans=[]
+            for term in terms:
+              start=0
+              while True:
+                j=low.find(term,start)
+                if j<0: break
+                spans.append((j,term)); start=j+len(term)
+                if len(spans)>=120: break
+              if len(spans)>=120: break
+            for j,term in spans[:60]:
+              a=max(0,j-900); b=min(len(txt),j+1800)
+              windows.append({'term':term,'text':txt[a:b]})
+            hits.append({'path':str(p.relative_to(deep)),'size':p.stat().st_size,'score':score,'windows':windows[:40]})
+          hits.sort(key=lambda x:x['score'],reverse=True)
+          # Search inbox JSON recursively too.
+          inbox=[]
+          ip=root/f'gpt-supergreen-inbox-{run}.json'
+          if ip.exists():
+            try:
+              data=json.load(open(ip,encoding='utf-8'))
+              def walk(v):
+                if isinstance(v,dict):
+                  raw=json.dumps(v,ensure_ascii=False)
+                  if cid in raw or sum(1 for z in title_tokens if z in norm(raw))>=4:
+                    inbox.append(v); return
+                  for q in v.values(): walk(q)
+                elif isinstance(v,list):
+                  for q in v: walk(q)
+              walk(data)
+            except Exception as e: inbox=[{'error':str(e)}]
+          payload={
+            'schema':'GPT_IE_8840246_DEEP_EVIDENCE_V1',
+            'candidate_id':cid,'title':title,'source_dce_run_id':int(run),'source_shard':1,
+            'fast_adjudication':fast,'dce_adjudication':adjud,
+            'deep_review_hits':hits[:12],'gpt_inbox_hits':inbox[:12],
+            'recovered_file_count':sum(1 for p in root.rglob('*') if p.is_file())
+          }
+          out=pathlib.Path('control/evidence/IE_8840246_deep.json')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          out.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'fast_score':fast['score'],'adjud_score':adjud['score'],'deep_hits':len(hits),'inbox_hits':len(inbox),'files':payload['recovered_file_count']},indent=2))
+          PY
+      - name: Persist evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/IE_8840246_deep.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist Clare Tourism LMS DCE evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
