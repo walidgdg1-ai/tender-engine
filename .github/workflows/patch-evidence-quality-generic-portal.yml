@@ -1,0 +1,87 @@
+name: Patch DCE Evidence Quality Generic Portal Guard
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-evidence-quality-generic-portal.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Patch deterministic generic-document filename guards
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('pipeline/dce_evidence_quality.py')
+          s=p.read_text(encoding='utf-8')
+          old='    r"manual.*utilizador", r"guia.*utilizador", r"cgu.*march", r"depot[-_ ]?pli",\n'
+          new='    r"manual.*utilizador", r"guia.*utilizador", r"cgu.*march", r"depot[-_ ]?pli",\n    # Generic transport/support documents can contain procurement words and even the\n    # candidate title, but they are not the consultation package itself. Keep these\n    # deterministic filename guards fail-closed before semantic title-overlap logic.\n    r"portal[_ .-]?page", r"(?:^|[/_.-])cgu(?:[/_.-]|$)", r"bieterunterst.*tzung",\n'
+          if new not in s:
+            if old not in s: raise SystemExit('patch anchor not found')
+            s=s.replace(old,new,1)
+            p.write_text(s,encoding='utf-8')
+          PY
+      - name: Add regression tests for observed false positives
+        run: |
+          cat > tests/test_dce_evidence_quality_generic_portal.py <<'PY'
+          import json
+          from pathlib import Path
+          from pipeline.dce_evidence_quality import classify_candidate
+
+          def _write_case(root: Path, title: str, names, corpus: str):
+              root.mkdir(parents=True, exist_ok=True)
+              manifest={
+                  'status':'DOWNLOADED_PUBLIC',
+                  'candidate_id':'TEST:1',
+                  'candidate':{'candidate_id':'TEST:1','title':title,'portal':'GENERIC_PUBLIC_PAGE'},
+                  'files':[{'source_url':'https://example.invalid/'+n} for n in names],
+              }
+              docs=[{'name':n,'text_chars':max(500,len(corpus)//max(1,len(names)))} for n in names]
+              (root/'manifest.json').write_text(json.dumps(manifest),encoding='utf-8')
+              (root/'document_index.json').write_text(json.dumps(docs),encoding='utf-8')
+              (root/'corpus.txt').write_text(corpus,encoding='utf-8')
+
+          def test_xmarches_portal_and_cgu_are_not_gate_ready(tmp_path):
+              title='Conseil en stratégie partenariale et promotion du territoire Révéler Saint-Dizier'
+              corpus=(title+' award criteria selection criteria submission deadline form of tender ')*80
+              root=tmp_path/'xmarche'
+              _write_case(root,title,['portal_page.txt','cgu_1-1.pdf'],corpus)
+              q=classify_candidate(root)
+              assert q['gate_readiness'] is False
+              assert q['content_quality'] in {'PORTAL_GENERIC_ONLY','ACCESS_GUIDE_ONLY'}
+
+          def test_fraunhofer_bidder_support_guide_and_portal_are_not_gate_ready(tmp_path):
+              title='Content-Marketing und Public Relations für das Lernlabor Cybersicherheit'
+              corpus=(title+' Vergabeunterlagen Zuschlagskriterien Eignungskriterien Angebotsfrist Preisblatt ')*80
+              root=tmp_path/'fraunhofer'
+              _write_case(root,title,['portal_page_http.txt','FHG_Bieterunterstuetzung_Wissen_Geraete_u_Dienstleistungen.pdf'],corpus)
+              q=classify_candidate(root)
+              assert q['gate_readiness'] is False
+              assert q['content_quality'] in {'PORTAL_GENERIC_ONLY','ACCESS_GUIDE_ONLY'}
+          PY
+      - name: Run evidence-quality tests
+        run: python -m pytest -q tests/test_dce_evidence_quality.py tests/test_dce_evidence_quality_generic_portal.py
+      - name: Persist patch
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add pipeline/dce_evidence_quality.py tests/test_dce_evidence_quality_generic_portal.py
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "quality: reject portal-page and bidder-guide pseudo DCEs"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
