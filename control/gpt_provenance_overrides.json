@@ -1,13 +1,13 @@
 {
   "schema": "GPT_DCE_PROVENANCE_OVERRIDES_V3_EXACT_SHARD_PACK",
-  "updated_at": "2026-08-24T05:23:59.950012+00:00",
-  "override_count": 22,
+  "updated_at": "2026-08-25T05:16:32.866412+00:00",
+  "override_count": 23,
   "refreshed_this_run": [
     {
       "candidate_id": "TED:580561-2026",
       "source_dce_run_id": 32637415262,
       "source_shard": 2,
-      "transport": "WORKFLOW_ARTIFACT",
+      "transport": "CANONICAL_RELEASE_BUNDLE",
       "attributed": 281,
       "unattributed": 0,
       "raw_machine_snippets": 1,
@@ -15,48 +15,15 @@
       "documents_with_source_url": 1
     },
     {
-      "candidate_id": "TED:522247-2026",
-      "source_dce_run_id": 32692654172,
-      "source_shard": 0,
-      "transport": "WORKFLOW_ARTIFACT",
-      "attributed": 5,
-      "unattributed": 0,
-      "raw_machine_snippets": 0,
-      "documents": 9,
-      "documents_with_source_url": 9
-    },
-    {
-      "candidate_id": "TED:416136-2026",
-      "source_dce_run_id": 32692654172,
-      "source_shard": 3,
-      "transport": "WORKFLOW_ARTIFACT",
-      "attributed": 94,
+      "candidate_id": "TED:533952-2026",
+      "source_dce_run_id": 32666624892,
+      "source_shard": 2,
+      "transport": "CANONICAL_RELEASE_BUNDLE",
+      "attributed": 0,
       "unattributed": 0,
       "raw_machine_snippets": 0,
       "documents": 1,
       "documents_with_source_url": 1
-    },
-    {
-      "candidate_id": "TED:485874-2026",
-      "source_dce_run_id": 32692654172,
-      "source_shard": 0,
-      "transport": "WORKFLOW_ARTIFACT",
-      "attributed": 185,
-      "unattributed": 0,
-      "raw_machine_snippets": 0,
-      "documents": 5,
-      "documents_with_source_url": 1
-    },
-    {
-      "candidate_id": "TED:515868-2026",
-      "source_dce_run_id": 32692654172,
-      "source_shard": 0,
-      "transport": "WORKFLOW_ARTIFACT",
-      "attributed": 199,
-      "unattributed": 0,
-      "raw_machine_snippets": 0,
-      "documents": 23,
-      "documents_with_source_url": 23
     }
   ],
   "failures_this_run": [],
@@ -53185,13 +53152,12 @@
       "candidate_id": "TED:580561-2026",
       "source_dce_run_id": 32637415262,
       "source_shard": 2,
-      "refreshed_at": "2026-08-24T05:23:43.097582+00:00",
-      "provenance_transport": "WORKFLOW_ARTIFACT",
+      "refreshed_at": "2026-08-25T05:16:31.026578+00:00",
+      "provenance_transport": "CANONICAL_RELEASE_BUNDLE",
       "provenance_locator": {
-        "workflow_run_id": 32637415262,
-        "artifact_name": "dce-shard-2",
-        "source_shard": 2,
-        "candidate_archive": "candidate-TED-580561-2026.tar.gz"
+        "release_tag": "dce-harvest-32637415262",
+        "archive_name": "candidate-TED-580561-2026.tar.gz",
+        "bundle_asset": "dce-canonical-packs-part-000.tar"
       },
       "evidence_by_gate": {
         "entity_geography": [
@@ -65234,6 +65200,99 @@
       "document_count": 23,
       "documents_with_source_url": 23,
       "raw_machine_documents": 0,
+      "policy": "Re-extracted only from immutable DCE worker/canonical artifacts for the exact candidate and source run. This override changes evidence provenance/presentation only; it is not a new procurement verdict."
+    },
+    "TED:533952-2026": {
+      "candidate_id": "TED:533952-2026",
+      "source_dce_run_id": 32666624892,
+      "source_shard": 2,
+      "refreshed_at": "2026-08-25T05:16:32.850808+00:00",
+      "provenance_transport": "CANONICAL_RELEASE_BUNDLE",
+      "provenance_locator": {
+        "release_tag": "dce-harvest-32666624892",
+        "archive_name": "candidate-TED-533952-2026.tar.gz",
+        "bundle_asset": "dce-canonical-packs-part-000.tar"
+      },
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [],
+        "payment_tax": []
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:533952-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DCE_CONTENT_UNVERIFIED",
+        "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "gate_readiness": false,
+        "text_chars": 4896,
+        "documents_indexed": 1,
+        "documents_with_text": 1,
+        "source_urls": [
+          "https://contractaciopublica.cat/portal-api/documents-publicacio/evidencies-document-organ/113018478"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [],
+        "candidate_title_overlap": {
+          "tokens": [
+            "català",
+            "espoq",
+            "gestión",
+            "institut",
+            "maintenance",
+            "mantenimiento",
+            "oncologia",
+            "proceso",
+            "programario",
+            "quimioterapia",
+            "repair",
+            "servicio",
+            "software",
+            "spain"
+          ],
+          "hits": [],
+          "ratio": 0.0
+        },
+        "reasons": [
+          "download_succeeded_but_authoritative_dce_content_not_proven"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed": 0,
+        "unattributed": 0,
+        "raw_machine_format": 0
+      },
+      "document_count": 1,
+      "documents_with_source_url": 1,
+      "raw_machine_documents": 1,
       "policy": "Re-extracted only from immutable DCE worker/canonical artifacts for the exact candidate and source run. This override changes evidence provenance/presentation only; it is not a new procurement verdict."
     }
   },
