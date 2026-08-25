@@ -1,0 +1,34 @@
+{
+  "schema": "GPT_DCE_ADJUDICATION_V1",
+  "source": "GPT Web evidence-quality correction during reconstructed soft-gate green hunt",
+  "source_queue_count": 2,
+  "created_at": "2026-08-25T01:02:00Z",
+  "mode": "DCE_AUTHENTICITY_CORRECTION",
+  "persist_to_final_bank": true,
+  "results": [
+    {
+      "candidate_id": "TED:511245-2026",
+      "title": "Conseil en stratégie partenariale et promotion du territoire dans le cadre du projet Révéler Saint-Dizier",
+      "classification": "UNKNOWN/PENDING_DCE",
+      "final_score": 55,
+      "evidence_quality": "GUIDE_AND_PORTAL_ONLY_NOT_SUBSTANTIVE_TENDER_DCE",
+      "blockers": [],
+      "unknowns": ["Actual consultation regulations/specification and bidder qualification requirements were not recovered"],
+      "why": "Recovered evidence consists of the xMarchés generic platform terms/CGU plus a portal-page description. Those sources establish the procedure and scope but cannot resolve turnover, references, staffing, award methodology or delivery obligations. The prior BUSINESS_GATES routing was too permissive.",
+      "action": "REFETCH_ACTUAL_XMARCHES_CONSULTATION_DOCUMENTS_THEN_REVIEW",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/511245-2026"
+    },
+    {
+      "candidate_id": "TED:584979-2026",
+      "title": "Content-Marketing und Public Relations für das Lernlabor Cybersicherheit - PR1242887-2800-I",
+      "classification": "UNKNOWN/PENDING_DCE",
+      "final_score": 55,
+      "evidence_quality": "FRAUNHOFER_GENERIC_BIDDER_GUIDE_AND_PORTAL_ONLY_NOT_SUBSTANTIVE_TENDER_DCE",
+      "blockers": [],
+      "unknowns": ["Actual technical specification, suitability criteria, references, pricing model and award criteria were not recovered"],
+      "why": "The three recovered documents expose a generic Fraunhofer bidder-support guide and portal page/news, not the candidate-specific procurement specification. The package must not be treated as business-gate-ready.",
+      "action": "REFETCH_FRAUNHOFER_CANDIDATE_SPECIFIC_TENDER_FILES_THEN_REVIEW",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/584979-2026"
+    }
+  ]
+}
