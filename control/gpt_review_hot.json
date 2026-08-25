@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-08-25T07:55:50.326794+00:00",
+  "updated_at": "2026-08-25T07:55:52.157196+00:00",
   "latest_dce_run_id": 32823707896,
-  "latest_shard": 3,
+  "latest_shard": 2,
   "generation_reset": false,
-  "count": 2,
+  "count": 4,
   "items": [
     {
       "candidate_id": "TED:519889-2026",
@@ -921,6 +921,612 @@
       "hot_ready_at": "2026-08-25T07:55:50.147368+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "TED:178908-2026",
+      "title": "Slovenia – Office and computing machinery, equipment and supplies except furniture and software packages – Nabava računalniške strojne opreme z garancijskim vzdrževanjem",
+      "buyer": "DRI upravljanje investicij, Družba za razvoj infrastrukture, d.o.o.",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/178908-2026",
+      "deadline": "2027-04-14T00:00:00+01:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 60,
+      "priority_score": 60,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2027-04-14T00:00:00+01:00",
+        "notice_deadline_date": "2027-04-14",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 1,
+          "unique_contexts": 1
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 8,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">c27b7c4e-c837-4529-b867-ed55ce639db5</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</CriterionTypeCode> <Name>Corruption</Name> <Description>The economic operator itself or any person who is a member of its administrative, management or supervisory body or powers of representation, decision or control therein has been the subject of a conviction by final judgement for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable. Corruption, as defined in the relevant legislation.</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public p",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 14632,
+            "corpus_end": 15949,
+            "match": "economic operator"
+          },
+          {
+            "text": "DENCE_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">47112079-6fec-47a3-988f-e561668c3aef</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</CriterionTypeCode> <Name>Money laundering or terrorist financing</Name> <Description>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgement for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 1",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 41490,
+            "corpus_end": 42807,
+            "match": "economic operator"
+          },
+          {
+            "text": "VersionID=\"2.1.1\">EVIDENCE_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</CriterionTypeCode> <Name>Payment of taxes</Name> <Description>Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(2) / Article 57; Paragraph 2</Article> <",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 59789,
+            "corpus_end": 61106,
+            "match": "economic operator"
+          },
+          {
+            "text": "p> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</CriterionTypeCode> <Name>Payment of taxes</Name> <Description>Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(2) / Article 57; Paragraph 2</Article> <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG</URI> </ns3:Legislation> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" sch",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 60002,
+            "corpus_end": 61326,
+            "match": "country of establishment"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "tration or certification is available electronically, please state where</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">URL</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">072d31cf-5aee-4045-bac0-f791c7072a10</ID> <Description>Please state the references on which the registration or certification is based, and, where applicable, the classification obtained in the official list</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">DESCRIPTION</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:SubsidiaryTenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">92e44d3b-af8e-4a29-91a8-24d27aa27fee</ID>",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 159071,
+            "corpus_end": 160381,
+            "match": "references"
+          },
+          {
+            "text": "VersionID=\"2.1.1\">0523fa7d-dbcd-43d7-97ed-410792755d70</ID> <Description>Maximum number of lots that may be awarded to one tenderer</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">REQUIREMENT</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUANTITY_INTEGER</ValueDataTypeCode> <ExpectedValueNumeric>9</ExpectedValueNumeric> </ns3:TenderingCriterionProperty> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:AdditionalDocumentReference> <ID schemeAgencyID=\"EU-COM-GROW\" schemeAgencyName=\"DG GROW (European Commission)\" schemeVersionID=\"1.1\">0000/S 000-000000</ID> <DocumentTypeCode listID=\"ReferencesTypeCodes\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\"></DocumentTypeCode> <ns3:Attachment> <ns3:ExternalReference> <URI></URI> <FileName>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</FileName> <Description>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</Description> <Description></Description> </ns3:ExternalReference> </ns3",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 185031,
+            "corpus_end": 186340,
+            "match": "Reference"
+          },
+          {
+            "text": "ypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">REQUIREMENT</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUANTITY_INTEGER</ValueDataTypeCode> <ExpectedValueNumeric>9</ExpectedValueNumeric> </ns3:TenderingCriterionProperty> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:AdditionalDocumentReference> <ID schemeAgencyID=\"EU-COM-GROW\" schemeAgencyName=\"DG GROW (European Commission)\" schemeVersionID=\"1.1\">0000/S 000-000000</ID> <DocumentTypeCode listID=\"ReferencesTypeCodes\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\"></DocumentTypeCode> <ns3:Attachment> <ns3:ExternalReference> <URI></URI> <FileName>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</FileName> <Description>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</Description> <Description></Description> </ns3:ExternalReference> </ns3:Attachment> </ns3:AdditionalDocumentReference> </ns4:QualificationApplicationRequest>",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 185211,
+            "corpus_end": 186432,
+            "match": "References"
+          },
+          {
+            "text": "Code listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUANTITY_INTEGER</ValueDataTypeCode> <ExpectedValueNumeric>9</ExpectedValueNumeric> </ns3:TenderingCriterionProperty> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:AdditionalDocumentReference> <ID schemeAgencyID=\"EU-COM-GROW\" schemeAgencyName=\"DG GROW (European Commission)\" schemeVersionID=\"1.1\">0000/S 000-000000</ID> <DocumentTypeCode listID=\"ReferencesTypeCodes\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\"></DocumentTypeCode> <ns3:Attachment> <ns3:ExternalReference> <URI></URI> <FileName>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</FileName> <Description>Nabava računalniške strojne opreme z garancijskim vzdrževanjem</Description> <Description></Description> </ns3:ExternalReference> </ns3:Attachment> </ns3:AdditionalDocumentReference> </ns4:QualificationApplicationRequest>",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 185351,
+            "corpus_end": 186432,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "diaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">9b19e869-6c89-4cc4-bd6c-ac9ca8602165</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</CriterionTypeCode> <Name>EO registered in a PQS</Name> <Description>If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?</Description> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">ecb5127b-9018-4fb8-8327-a6a7a2c73195</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ON*</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">b188993f-a5b2-4875-822b-8eb05c1efd16</ID> <Description>Your answer?</Description> <TypeCode listID=\"CriterionE",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 156228,
+            "corpus_end": 157539,
+            "match": "certificate"
+          },
+          {
+            "text": "eDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:SubsidiaryTenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">dc4acf0c-c761-40d0-b031-4ee1f224be5c</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ONTRUE</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">d82469c6-9513-44b6-8dfb-05880c5de2af</ID> <Description>Please provide the name of the list or certificate and the relevant registration or certification number, if applicable</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">DESCRIPTION</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">e9805850-2061-4f94-9020-b5b14426dfdf</ID> <Description>If the certi",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 157745,
+            "corpus_end": 159056,
+            "match": "certificate"
+          },
+          {
+            "text": "terionProperty> <ns3:SubsidiaryTenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">dc4acf0c-c761-40d0-b031-4ee1f224be5c</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ONTRUE</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">d82469c6-9513-44b6-8dfb-05880c5de2af</ID> <Description>Please provide the name of the list or certificate and the relevant registration or certification number, if applicable</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">DESCRIPTION</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">e9805850-2061-4f94-9020-b5b14426dfdf</ID> <Description>If the certificate of registration or certification is avai",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 157790,
+            "corpus_end": 159103,
+            "match": "certification"
+          },
+          {
+            "text": "icate and the relevant registration or certification number, if applicable</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">DESCRIPTION</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">e9805850-2061-4f94-9020-b5b14426dfdf</ID> <Description>If the certificate of registration or certification is available electronically, please state where</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">URL</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">072d31cf-5aee-4045-bac0-f791c7072a10</ID> <Description>Please s",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 158401,
+            "corpus_end": 159712,
+            "match": "certificate"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "DENCE_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">0d62c6ed-f074-4fcf-8e9f-f691351d52ad</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES</CriterionTypeCode> <Name>Relied on entities</Name> <Description>Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below?</Description> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">289f39b3-2a15-421a-8050-a29858031f35</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ON*</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">cc28d1fb-da96-4a75-9663-e8bb442e2696</ID>",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 170027,
+            "corpus_end": 171349,
+            "match": "rely on the capacities"
+          },
+          {
+            "text": "ESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">72c0c4b1-ca50-4667-9487-461f3eed4ed7</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</CriterionTypeCode> <Name>Not relied on entities</Name> <Description>Does the economic operator intend to subcontract any share of the contract to third parties?</Description> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">289f39b3-2a15-421a-8050-a29858031f35</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ON*</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 175518,
+            "corpus_end": 176829,
+            "match": "SUBCONTRACT"
+          },
+          {
+            "text": "alueDataTypeCode> </ns3:TenderingCriterionProperty> </ns3:SubsidiaryTenderingCriterionPropertyGroup> </ns3:TenderingCriterionPropertyGroup> </ns3:TenderingCriterion> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">72c0c4b1-ca50-4667-9487-461f3eed4ed7</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</CriterionTypeCode> <Name>Not relied on entities</Name> <Description>Does the economic operator intend to subcontract any share of the contract to third parties?</Description> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">289f39b3-2a15-421a-8050-a29858031f35</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ON*</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">3216fd75-e69d-43f3-acc6-d1ae742ae5c3</ID> <Description>Your answer?</Description> <TypeCode listID=\"CriterionElementT",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 175672,
+            "corpus_end": 176983,
+            "match": "subcontract"
+          },
+          {
+            "text": "8-e0884745a5de</ID> <Description>Name of the entity</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">DESCRIPTION</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">248f917e-1c59-48e8-834b-7e3d61915bda</ID> <Description>ID of the subcontractor</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">QUESTION</TypeCode> <ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ECONOMIC_OPERATOR_IDENTIFIER</ValueDataTypeCode> </ns3:TenderingCriterionProperty> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">5c4f0b34-da07-43e2-bc69-b81315bd2093</ID> <Description>Activity of the entity (for this specific procedure)</Descript",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 177740,
+            "corpus_end": 179051,
+            "match": "subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "zec, objavljen kot del tega Dodatka št. 2, izdelan v novi storitvi ESPD, dostopni na spletni povezavi https://ejn.gov.si/espd/, dopušča pa tudi možnost , da kandidat priloži ESPD obrazec, kot je objavljen v prvotni objavi predmetnega javnega naročila, izdelan v stari storitvi ESPD, dostopni na spletni povezavi https://www.enarocanje.si/#/espd/espd. DRI upravljanje investicij, Družba za razvoj infrastrukture, d. o. o. ===== FILE: files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ns2=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:ns3=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:ns4=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\"> <UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</UBLVersionID> <CustomizationID schemeName=\"CustomizationID\" schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID> <ProfileID schemeAgencyID=\"CEN-BII\">4.1</ProfileID> <ProfileExecutionID schemeAgencyID=\"EU-COM-GROW\" schemeVe",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 2062,
+            "corpus_end": 3375,
+            "match": "specification"
+          },
+          {
+            "text": "i na spletni povezavi https://ejn.gov.si/espd/, dopušča pa tudi možnost , da kandidat priloži ESPD obrazec, kot je objavljen v prvotni objavi predmetnega javnega naročila, izdelan v stari storitvi ESPD, dostopni na spletni povezavi https://www.enarocanje.si/#/espd/espd. DRI upravljanje investicij, Družba za razvoj infrastrukture, d. o. o. ===== FILE: files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ns2=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:ns3=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:ns4=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\"> <UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</UBLVersionID> <CustomizationID schemeName=\"CustomizationID\" schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID> <ProfileID schemeAgencyID=\"CEN-BII\">4.1</ProfileID> <ProfileExecutionID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">ESPD-EDMv2.1.1-EXTENDED</ProfileExecutionID> <ID schemeID=\"IS",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 2143,
+            "corpus_end": 3456,
+            "match": "specification"
+          },
+          {
+            "text": "t priloži ESPD obrazec, kot je objavljen v prvotni objavi predmetnega javnega naročila, izdelan v stari storitvi ESPD, dostopni na spletni povezavi https://www.enarocanje.si/#/espd/espd. DRI upravljanje investicij, Družba za razvoj infrastrukture, d. o. o. ===== FILE: files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ns2=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:ns3=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:ns4=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\"> <UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</UBLVersionID> <CustomizationID schemeName=\"CustomizationID\" schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID> <ProfileID schemeAgencyID=\"CEN-BII\">4.1</ProfileID> <ProfileExecutionID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">ESPD-EDMv2.1.1-EXTENDED</ProfileExecutionID> <ID schemeID=\"ISO/IEC 9834-8:2008 - 4UUID\" schemeAgencyID=\"DGPE\">4f280a9e-0d87-4384-9dec-b94738d10a68",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 2228,
+            "corpus_end": 3541,
+            "match": "specification"
+          },
+          {
+            "text": "la, izdelan v stari storitvi ESPD, dostopni na spletni povezavi https://www.enarocanje.si/#/espd/espd. DRI upravljanje investicij, Družba za razvoj infrastrukture, d. o. o. ===== FILE: files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ns2=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:ns3=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:ns4=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\"> <UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</UBLVersionID> <CustomizationID schemeName=\"CustomizationID\" schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID> <ProfileID schemeAgencyID=\"CEN-BII\">4.1</ProfileID> <ProfileExecutionID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">ESPD-EDMv2.1.1-EXTENDED</ProfileExecutionID> <ID schemeID=\"ISO/IEC 9834-8:2008 - 4UUID\" schemeAgencyID=\"DGPE\">4f280a9e-0d87-4384-9dec-b94738d10a68</ID> <CopyIndicator>false</CopyIndicator> <UUID schemeID=\"ISO/IEC 9834-8:200",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 2313,
+            "corpus_end": 3626,
+            "match": "specification"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ementProject> <ns3:TenderingCriterion> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</ID> <CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</CriterionTypeCode> <Name>Participation in a criminal organisation</Name> <Description>Participation in a criminal organisation, as defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(1) / Article 57; Paragraph 1; Point a</Article> <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG</URI> </ns3:Legislation> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">7c637c",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 6046,
+            "corpus_end": 7349,
+            "match": "sla"
+          },
+          {
+            "text": "Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(1) / Article 57; Paragraph 1; Point a</Article> <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG</URI> </ns3:Legislation> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">7c637c0c-7703-4389-ba52-02997a055bd7</ID> <PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">ON*</PropertyGroupTypeCode> <ns3:TenderingCriterionProperty> <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">0d0802e7-cb49-40ba-af98-77d4f2f260b9</ID> <Description>Your answer</Description> <TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 6569,
+            "corpus_end": 7872,
+            "match": "sla"
+          },
+          {
+            "text": "<CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</CriterionTypeCode> <Name>Corruption</Name> <Description>The economic operator itself or any person who is a member of its administrative, management or supervisory body or powers of representation, decision or control therein has been the subject of a conviction by final judgement for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable. Corruption, as defined in the relevant legislation.</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(1) / Article 57; Paragraph 1; Point b</Article> <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG</URI> </ns3:Legislation> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15060,
+            "corpus_end": 16363,
+            "match": "sla"
+          },
+          {
+            "text": "riaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</CriterionTypeCode> <Name>Corruption</Name> <Description>The economic operator itself or any person who is a member of its administrative, management or supervisory body or powers of representation, decision or control therein has been the subject of a conviction by final judgement for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable. Corruption, as defined in the relevant legislation.</Description> <ns3:Legislation> <Title>Public Procurement Directive 2014/24/EU</Title> <Description>Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Description> <JurisdictionLevel>eu</JurisdictionLevel> <Article>Article 57(1) / Article 57; Paragraph 1; Point b</Article> <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG</URI> </ns3:Legislation> <ns3:TenderingCriterionPropertyGroup> <ID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">7c637c",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15100,
+            "corpus_end": 16403,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "gov.si/espd/, dopušča pa tudi možnost , da kandidat priloži ESPD obrazec, kot je objavljen v prvotni objavi predmetnega javnega naročila, izdelan v stari storitvi ESPD, dostopni na spletni povezavi https://www.enarocanje.si/#/espd/espd. DRI upravljanje investicij, Družba za razvoj infrastrukture, d. o. o. ===== FILE: files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:ns2=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:ns3=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:ns4=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\"> <UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</UBLVersionID> <CustomizationID schemeName=\"CustomizationID\" schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID> <ProfileID schemeAgencyID=\"CEN-BII\">4.1</ProfileID> <ProfileExecutionID schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">ESPD-EDMv2.1.1-EXTENDED</ProfileExecutionID> <ID schemeID=\"ISO/IEC 9834-8:2008 - 4UUID\" sche",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/espd_request_54-2022_NOV.xml",
+            "source_url": null,
+            "source_sha256": "c0c2b0b58336495357b0a1383d062f98b6799c73d6df89bd844be2b5dfc729b8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 2178,
+            "corpus_end": 3487,
+            "match": "Extension"
+          }
+        ],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "entaciji v zvezi z oddajo javnega naročila za Nabava računalniške strojne opreme z garancijskim vzdrževanjem Ljubljana, marec 2026 2 V skladu s členom 8. Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik objavlja spremembo dokumentacije v zvezi z oddajo javnega naročila. Sprememba: Skladno z določilom podčlena 1.2 . Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik z objavo te spremembe podaljšuje veljavnost dinamičnega nabavnega sistema za 12 mesecev. Hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema naročnik objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na portalu e-JN. Pojasnilo: Predmetno javno naročilo je bilo objavljeno na portalu javnih naročil pod št. JN002541/2022-B01 dne 15. 4. 2022 in na portalu TED pod št. 202 2/S 076-207217 dne 19. 4. 2022. Kot del dokumentacije v zvezi z oddajo javnega naročila je bil objavljen tudi ESPD obrazec v html obliki, izdelan na stari storitvi ESPD na portalu javnih naročil. Za predmetn o javno naročilo, ki je objavljeno kot dinamični nabavni sistem, morajo kandidati ob prijavi izpolniti in predložiti ESPD obrazec, ki je objavljen v okviru dokumentacije v postopku oddaje javnega naročila, na način,",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/Dodatek-2-54-22.pdf",
+            "source_url": null,
+            "source_sha256": "a02a26115fe207e9e34356fc8587ac8468cd2d1b59829af0876b053303cca3a6",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 220,
+            "corpus_end": 1524,
+            "match": "ESPD"
+          },
+          {
+            "text": "čila za Nabava računalniške strojne opreme z garancijskim vzdrževanjem Ljubljana, marec 2026 2 V skladu s členom 8. Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik objavlja spremembo dokumentacije v zvezi z oddajo javnega naročila. Sprememba: Skladno z določilom podčlena 1.2 . Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik z objavo te spremembe podaljšuje veljavnost dinamičnega nabavnega sistema za 12 mesecev. Hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema naročnik objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na portalu e-JN. Pojasnilo: Predmetno javno naročilo je bilo objavljeno na portalu javnih naročil pod št. JN002541/2022-B01 dne 15. 4. 2022 in na portalu TED pod št. 202 2/S 076-207217 dne 19. 4. 2022. Kot del dokumentacije v zvezi z oddajo javnega naročila je bil objavljen tudi ESPD obrazec v html obliki, izdelan na stari storitvi ESPD na portalu javnih naročil. Za predmetn o javno naročilo, ki je objavljeno kot dinamični nabavni sistem, morajo kandidati ob prijavi izpolniti in predložiti ESPD obrazec, ki je objavljen v okviru dokumentacije v postopku oddaje javnega naročila, na način, kot je naveden v podčlenu 10.1 Navod",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/Dodatek-2-54-22.pdf",
+            "source_url": null,
+            "source_sha256": "a02a26115fe207e9e34356fc8587ac8468cd2d1b59829af0876b053303cca3a6",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 258,
+            "corpus_end": 1562,
+            "match": "ESPD"
+          },
+          {
+            "text": "čila. Sprememba: Skladno z določilom podčlena 1.2 . Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik z objavo te spremembe podaljšuje veljavnost dinamičnega nabavnega sistema za 12 mesecev. Hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema naročnik objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na portalu e-JN. Pojasnilo: Predmetno javno naročilo je bilo objavljeno na portalu javnih naročil pod št. JN002541/2022-B01 dne 15. 4. 2022 in na portalu TED pod št. 202 2/S 076-207217 dne 19. 4. 2022. Kot del dokumentacije v zvezi z oddajo javnega naročila je bil objavljen tudi ESPD obrazec v html obliki, izdelan na stari storitvi ESPD na portalu javnih naročil. Za predmetn o javno naročilo, ki je objavljeno kot dinamični nabavni sistem, morajo kandidati ob prijavi izpolniti in predložiti ESPD obrazec, ki je objavljen v okviru dokumentacije v postopku oddaje javnega naročila, na način, kot je naveden v podčlenu 10.1 Navodil gospodarskim subjektom za izdelavo prijave/ponudbe. V izogib težavam pri izpolnjevanju ESPD obrazca v stari storitvi ESPD na portalu javnih naročil naročnik hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na port",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/Dodatek-2-54-22.pdf",
+            "source_url": null,
+            "source_sha256": "a02a26115fe207e9e34356fc8587ac8468cd2d1b59829af0876b053303cca3a6",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 555,
+            "corpus_end": 1859,
+            "match": "ESPD"
+          },
+          {
+            "text": "1.2 . Navodil gospodarskim subjektom za izdelavo prijave/ponudbe naročnik z objavo te spremembe podaljšuje veljavnost dinamičnega nabavnega sistema za 12 mesecev. Hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema naročnik objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na portalu e-JN. Pojasnilo: Predmetno javno naročilo je bilo objavljeno na portalu javnih naročil pod št. JN002541/2022-B01 dne 15. 4. 2022 in na portalu TED pod št. 202 2/S 076-207217 dne 19. 4. 2022. Kot del dokumentacije v zvezi z oddajo javnega naročila je bil objavljen tudi ESPD obrazec v html obliki, izdelan na stari storitvi ESPD na portalu javnih naročil. Za predmetn o javno naročilo, ki je objavljeno kot dinamični nabavni sistem, morajo kandidati ob prijavi izpolniti in predložiti ESPD obrazec, ki je objavljen v okviru dokumentacije v postopku oddaje javnega naročila, na način, kot je naveden v podčlenu 10.1 Navodil gospodarskim subjektom za izdelavo prijave/ponudbe. V izogib težavam pri izpolnjevanju ESPD obrazca v stari storitvi ESPD na portalu javnih naročil naročnik hkrati s podaljšanjem veljavnosti dinamičnega nabavnega sistema objavlja tudi nov ESPD obrazec, izdelan v novi storitvi ESPD na portalu e -JN, ki je po vsebini skladen z zahtevami iz ES",
+            "source": "files/Dodatek-2-Portal_unpacked/Dodatek-2-Portal/Dodatek-2-54-22.pdf",
+            "source_url": null,
+            "source_sha256": "a02a26115fe207e9e34356fc8587ac8468cd2d1b59829af0876b053303cca3a6",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 609,
+            "corpus_end": 1913,
+            "match": "ESPD"
+          }
+        ],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32823707896,
+      "source_shard": 2,
+      "hot_ready_at": "2026-08-25T07:55:48.905783+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df026f-969d-804a-ab56-940001e5a39a",
+      "title": "Wymiana wodomierzy na wodomierze ze zdalnym odczytem wraz z wdrożeniem systemu zdalnego odczytu",
+      "buyer": "Gminny Zakład Gospodarki Komunalnej w Teresinie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df026f-969d-804a-ab56-940001e5a39a",
+      "deadline": "2026-09-03T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 76,
+      "priority_score": 76,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-03T08:00:00+00:00",
+        "notice_deadline_date": "2026-09-03",
+        "authoritative_submission_date": "2026-09-03",
+        "submission_deadline_candidates": [
+          "2026-09-03"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2014-07-23",
+          "2022-04-13",
+          "2026-08-25",
+          "2026-09-03",
+          "2026-10-02"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "ia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n8.1.) Termin składania ofert: \n2026-09-03 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem:\nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: \n2026-09-03 10:30\n8.4.) Termin związania ofertą: \ndo 2"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: 2026-09-03 10:30\n8.4.) Termin związania ofertą: do 2026"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": " wymagania opisane zostały w Rozdziale 21 SWZ.\nOgłoszenie nr 2026/BZP 00404967 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\nSEKCJA IV – PRZEDMIOT ZAMÓWIENIA\n4.1.) Informacje ogólne od"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": " wymagania opisane zostały w Rozdziale 21 SWZ.\nOgłoszenie nr 2026/BZP 00404967 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\nSEKCJA IV – PRZEDMIOT ZAMÓWIENIA\n4.1.) Informacje ogólne odnoszące się"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": "tępujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\nOgłoszenie nr 2026/BZP 00404967 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n8.1.) Termin składania ofert: \n2026-09-03 10:00\n8.2.) Miejs"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": "magania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\nOgłoszenie nr 2026/BZP 00404967 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n8.1.) Termin składania ofert: \n2026-09-03 10:00\n8.2.) Miejsce składani"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "P 00404967 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n8.1.) Termin składania ofert: \n2026-09-03 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem:\nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "nia ofert: \nWykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem:\nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: \n2026-09-03 10:30\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nSEKCJA IX – POZOSTAŁE INFORMACJE\n1. \nPostanowienia niniejszego ogłoszenia o zamówieniu dotyczą również Wykonawców mających siedzibę poza terytorium\nRzeczypospolitej Po"
+          },
+          {
+            "date": "2026-10-02",
+            "match": "2026-10-02",
+            "context": "rmy e-Zamówienia dostępnej pod adresem:\nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: \n2026-09-03 10:30\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nSEKCJA IX – POZOSTAŁE INFORMACJE\n1. \nPostanowienia niniejszego ogłoszenia o zamówieniu dotyczą również Wykonawców mających siedzibę poza terytorium\nRzeczypospolitej Polskiej. \n2. \nZamawiający dodaje nową obligatoryjną p"
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "mówieniu dotyczą również Wykonawców mających siedzibę poza terytorium\nRzeczypospolitej Polskiej. \n2. \nZamawiający dodaje nową obligatoryjną przesłankę wykluczenia z postępowania: na podstawie art. 7 ust. 1 ustawy z dnia\n13 kwietnia 2022 roku o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz\nsłużących ochronie bezpieczeństwa narodowego (t.j.: Dz. U. 2025 r., poz. 514) z postępowania o udzielenie zamówienia\nwyklu"
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "ach określonych w rozporządzeniu 765/2006 i rozporządzeniu 269/2014 albo\nwpisanego na listę na podstawie decyzji w sprawie wpisu na listę rozstrzygającej o zastosowaniu środka, o którym mowa w\nart. 1 pkt 3 ustawy z dnia 13 kwietnia 2022 roku o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu\nagresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz. U. 2025 r.\ny realizuje obowiązek informacyjny, o którym mowa w art"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3."
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "dania ofert: Wykonawca składa ofertę za pomocą Platformy e-Zamówienia dostępnej pod adresem: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: 2026-09-03 10:30\n8.4.) Termin związania ofertą: do 2026-10-02\nSEKCJA IX – POZOSTAŁE INFORMACJE\n1. Postanowienia niniejszego ogłoszenia o zamówieniu dotyczą również Wykonawców mających siedzibę poza terytorium Rzeczypospolitej Pols"
+          },
+          {
+            "date": "2026-10-02",
+            "match": "2026-10-02",
+            "context": "formy e-Zamówienia dostępnej pod adresem: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-cf6ed1d8-73df-4da4-962e-9c5858e597ac\n8.3.) Termin otwarcia ofert: 2026-09-03 10:30\n8.4.) Termin związania ofertą: do 2026-10-02\nSEKCJA IX – POZOSTAŁE INFORMACJE\n1. Postanowienia niniejszego ogłoszenia o zamówieniu dotyczą również Wykonawców mających siedzibę poza terytorium Rzeczypospolitej Polskiej.\n2. Zamawiający dodaje nową obligatoryjną prze"
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "zamówieniu dotyczą również Wykonawców mających siedzibę poza terytorium Rzeczypospolitej Polskiej.\n2. Zamawiający dodaje nową obligatoryjną przesłankę wykluczenia z postępowania: na podstawie art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 roku o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz. U. 2025 r., poz. 514) z postępowania o udzielenie zamówienia wyklu"
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "ach określonych w rozporządzeniu 765/2006 i rozporządzeniu 269/2014 albo wpisanego na listę na podstawie decyzji w sprawie wpisu na listę rozstrzygającej o zastosowaniu środka, o którym mowa w art. 1 pkt 3 ustawy z dnia 13 kwietnia 2022 roku o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz. U. 2025 r., poz. 5\nnistrator Systemu – Prezes Urzędu Zamówień Publ"
+          },
+          {
+            "date": "2014-07-23",
+            "match": "23 lipca 2014",
+            "context": "czny, składany za pomocą kwalifikowanego urządzenia do składania podpisu elektronicznego, który opiera się na kwalifikowanym certyfikacie zgodnie z rozporządzeniem Parlamentu Europejskiego i Rady (UE) nr 910/2014 z dnia 23 lipca 2014 r. w sprawie identyfikacji elektronicznej i usług zaufania w odniesieniu do transakcji elektronicznych na rynku wewnętrznym oraz uchylającego dyrektywę 1999/93/WE. Pieczęć elektroniczna – dane w postaci elektronicznej d"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 5,
+          "unique_contexts": 5
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32823707896,
+      "source_shard": 2,
+      "hot_ready_at": "2026-08-25T07:55:48.905783+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 9,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
