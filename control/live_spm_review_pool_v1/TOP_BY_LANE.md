@@ -3,7 +3,6 @@
 Review-order evidence only. No candidate is GREEN before DCE.
 
 ## NO_ONTOLOGY
-- **TED:477659-2026** · FRA · p=62 · deadline=2026-08-24T08:00:00+00:00 · blockers=none · France – Topography equipment – Acquisition de scanners de numérisation topographique 3D, maintien en condition opérationnelle et prestations associées
 - **TED:474287-2026** · FRA · p=62 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Services related to printing – Impression de supports de communication institutionnelle : Magazine départemental
 - **TED:460960-2026** · FRA · p=62 · deadline=2026-09-09T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et diffusion d'un tabloïd « Fiers d'être Ardéchois » Impression et façonnage format 297 x 400 mm
 - **TED:518468-2026** · FRA · p=62 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Printing and related services – IMPRESSION DES SUPPORTS DE COMMUNICATION ET DE LA SIGNALETIQUE RELATIFS A LA GESTION DES DECHETS
@@ -18,18 +17,16 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:552726-2026** · FRA · p=58 · deadline=2026-09-08T01:00:00+00:00 · blockers=none · France – Photocopying and offset printing equipment – Acquisition, location maintenance de solutions d’impression et exécution de prestations associées pour les services de l’Etat, les établissements publics et autres organismes (Solimp 5)
 - **TED:547376-2026** · FRA · p=58 · deadline=2026-09-11T14:00:00+00:00 · blockers=none · France – Printing paper – FOURNITURE DE PAPIER POUR LA REPROGRAPHIE, L’IMPRESSION ET LA PHOTOCOPIE
 - **TED:552977-2026** · FRA · p=57 · deadline=2026-09-23T02:00:00+00:00 · blockers=none · France – Interpretation services – Groupement de commandes pour des prestations d'interprétariat en langues étrangères et de traduction écrite pour le Département des Yvelines et le Département des Hauts-de-Seine
-- **TED:462095-2026** · FRA · p=56 · deadline=2026-08-24T10:00:00+00:00 · blockers=none · France – Printing and related services – FOURNITURE ET IMPRESSION DE SUPPORTS EVENEMENTIELS PETITS ET MOYENS FORMATS
 - **FR-BOAMP:26-78860** · FR · p=56 · deadline=2026-09-08T11:30:00+00:00 · blockers=none · Acquisition, location et maintenance de solutions d'impression et exécution de prestations associées pour les services de l'Etat, les établissements publics et autres organismes (Solimp 5)
 - **TED:499240-2026** · FRA · p=56 · deadline=2026-09-09T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et livraison de supports de communication
 - **TED:575989-2026** · FRA · p=56 · deadline=2026-09-10T02:00:00+00:00 · blockers=none · France – Printing paper – Impression de documents - Relance des lots 2 et 3
 - **TED:579313-2026** · FRA · p=56 · deadline=2026-09-10T02:00:00+00:00 · blockers=none · France – Printing paper – Impression de documents - Relance des lots 2 et 3
+- **FR-BOAMP:26-81415** · FR · p=56 · deadline=2026-09-10T10:00:00+00:00 · blockers=none · Impression de documents - Relance des lots 2 et 3
+- **FR-BOAMP:26-81816** · FR · p=56 · deadline=2026-09-10T10:00:00+00:00 · blockers=none · Impression de documents - Relance des lots 2 et 3
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
-- **TED:536941-2026** · IRL · p=63 · deadline=2026-08-24T16:30:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Provision of Website Design, Development, Hosting, Maintenance and Digital Resource Portal Services – Primary Mathematics Hub
 - **TED:573577-2026** · IRL · p=63 · deadline=2026-09-07T01:00:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Provision of Website Design, Development, Hosting, Maintenance and Digital Resource Portal Services – Primary Mathematics Hub
-- **TED:536204-2026** · IRL · p=40 · deadline=2026-08-24T16:30:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Soláthar Dearadh Suíomh Gréasáin, Forbairt, Óstáil, Cothabháil agus Seirbhísí Tairsí d’Acmhainní Digiteacha – Mol Matamaitice Bunscoile
-- **TED:573397-2026** · IRL · p=40 · deadline=2026-08-24T16:30:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Soláthar Dearadh Suíomh Gréasáin, Forbairt, Óstáil, Cothabháil agus Seirbhísí Tairsí d’Acmhainní Digiteacha – Mol Matamaitice Bunscoile
 - **TED:534365-2026** · FRA · p=40 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Software development services – Accompagnement sur la Solution Oktotis - Développement, Tierce Maintenance Applicative (TMA), conformité RGAA et design UX-UI
 - **TED:568438-2026** · POL · p=40 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · Poland – Advertising campaign services – Usługa opracowania i przeprowadzenia drugiej edycji kampanii promocyjnej oraz obsługi medialnej w ramach projektu „PPO WSL 2030. Utworzenie Regionalnego Obserwatorium Innowacji
 - **TED:582557-2026** · POL · p=40 · deadline=2026-09-22T02:00:00+00:00 · blockers=none · Poland – Advertising campaign services – Opracowanie i realizacja kampanii informacyjno-edukacyjnej na terenie województwa śląskiego dotyczącej zmian klimatu w ramach projektu strategicznego pn. „Śląskie Centrum Klimatu – Etap I”
@@ -86,7 +83,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:523734-2026** · DEU · p=38 · deadline=2026-08-28T02:00:00+00:00 · blockers=none · Germany – Scanning services – Digitalisierung von Dokumenten und technischen Zeichnungen - Konvertierungs- und Scanarbeiten zur Aktendigitalisierung
 
 ## hosting_support
-- **TED:375337-2026** · FRA · p=71 · deadline=2026-08-24T14:00:00+00:00 · blockers=none · France – IT services: consulting, software development, Internet and support – Marché pour la maintenance applicative, corrective et évolutive, hébergement et infogérance du site internet de diffusion cinéma de l'Institut français " ifcinema.institutfrancais.com ", de toutes ses fonctionnalités et de son lecteur vidéo
 - **TED:383716-2026** · FRA · p=71 · deadline=2026-08-26T02:00:00+00:00 · blockers=none · France – Software maintenance and repair services – Tierce maintenance d’applications AMP VIGIE – BIOVIGIE – POPP – Site web www.registrenationaldesrefus.fr – QUESTIONNEURS - HORUS pour le compte de l’Agence de la biomédecine.
 - **TED:582458-2026** · FRA · p=69 · deadline=2026-09-21T02:00:00+00:00 · blockers=none · France – System maintenance services – Renouvellement de la Tierce Maintenance Applicative (TMA) et de l'hébergement du site internet de l'observatoire des métiers de l'expertise comptable, du commissariat aux comptes et de l'audit (OMECA)
 - **FR-BOAMP:26-82285** · FR · p=67 · deadline=2026-09-15T12:00:00+00:00 · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
@@ -98,8 +94,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:576206-2026** · DEU · p=46 · deadline=2026-09-08T21:59:59+00:00 · blockers=none · Germany – World wide web (www) site design services – Internet-Webdienstleistung
 - **CA:305-379-026** · CA · p=46 · deadline=2026-09-14T13:00:00+00:00 · blockers=none · Drydocking & Refit Services for the M.V. Highlanders
 - **TED:566599-2026** · BEL · p=46 · deadline=2026-09-17T02:00:00+00:00 · blockers=none · Belgium – Software maintenance and repair services – Maintenance site internet & SAP MCF (SWDE)
-- **TED:484052-2026** · FRA · p=40 · deadline=2026-08-25T02:00:00+00:00 · blockers=none · France – Special-purpose road passenger-transport services – Prestations de services de transport pour la Ville, le CCAS et l'Office de Tourisme de Biot
-- **TED:518089-2026** · FRA · p=40 · deadline=2026-08-25T02:00:00+00:00 · blockers=none · France – School-meal services – Fourniture et livraison de repas en liaison froide pour le restaurant scolaire et l'accueil de loisirs sans hébergement de la ville de Lignan sur Orb
+- **TED:484052-2026** · FRA · p=40 · deadline=2026-08-25T10:00:00+00:00 · blockers=none · France – Special-purpose road passenger-transport services – Prestations de services de transport pour la Ville, le CCAS et l'Office de Tourisme de Biot
+- **TED:518089-2026** · FRA · p=40 · deadline=2026-08-25T10:00:00+00:00 · blockers=none · France – School-meal services – Fourniture et livraison de repas en liaison froide pour le restaurant scolaire et l'accueil de loisirs sans hébergement de la ville de Lignan sur Orb
 - **TED:448172-2026** · FRA · p=40 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Camping sites and other non-hotel accommodation – Concession de service public pour l'exploitation du camping de Strasbourg
 - **TED:476899-2026** · FRA · p=40 · deadline=2026-09-11T02:00:00+00:00 · blockers=none · France – Meal-preparation services – Fourniture et livraison de repas en liaison froide et de goûters pour les Accueils de Loisirs Sans Hébergement et les structures petite enfance de la Communauté Alès Agglomération
 - **TED:572826-2026** · FRA · p=40 · deadline=2026-09-18T02:00:00+00:00 · blockers=none · France – Accommodation, building and window cleaning services – Accord-cadre à bons de commande relatif au nettoyage des locaux et des vitres des bâtiments départementaux et au nettoyage partiel de certains collèges du Val d'Oise (8 lots)
@@ -128,13 +124,13 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:512573-2026** · FRA · p=70 · deadline=2026-08-28T10:00:00+00:00 · blockers=none · France – Storage and warehousing services – Prestations d’enlèvement, stockage, routage de documents, matériels & services associés pour le compte de l’Agence de la biomédecine
 - **TED:516591-2026** · FRA · p=70 · deadline=2026-09-04T15:00:00+00:00 · blockers=none · France – Printing services – PRESTATION D’IMPRESSION DE SUPPORTS DE COMMUNICATION, DE REALISATION D’HABILLAGES ADHESIFS POUR LA SIGNALETIQUE INTERIEURE ET EXTERIEURE ET DE FOURNITURE DE MATERIELS DE PAVOISEMENT DESTINES A LA COMMUNICATION DU DEPARTEMENT DE L’OISE
 - **TED:508185-2026** · FRA · p=70 · deadline=2026-09-16T02:00:00+00:00 · blockers=none · France – Reprographic services – Prestations de reprographie et d'imprimerie
+- **TED:587003-2026** · FRA · p=70 · deadline=2026-10-01T02:00:00+00:00 · blockers=none · France – Printing services – ACCORD-CADRE A BONS DE COMMANDE POUR L’IMPRESSION ET LA LIVRAISON DES IMPRIMES DE COMMUNICATION POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DES BOUCHES-DU- RHONE – DIVERS SUPPORTS
 - **TED:499280-2026** · FRA · p=68 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Printing and related services – IMPRESSION ET DISTRIBUTION DE SUPPORTS DE COMMUNICATION / EVENEMENTIEL ET PAPETERIE
 - **TED:477782-2026** · FRA · p=68 · deadline=2026-09-01T01:00:00+00:00 · blockers=none · France – Printing and related services – PRESTATIONS D’IMPRESSION OFFSET SUR MACHINES ROTATIVES POUR LE COMPTE DE L'ETABLISSEMENT PUBLIC DU MUSEE DU LOUVRE
 - **TED:483697-2026** · FRA · p=68 · deadline=2026-09-04T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression de documents municipaux pour la ville de Sarcelles et son CCAS
 - **TED:549444-2026** · FRA · p=68 · deadline=2026-09-10T02:00:00+00:00 · blockers=none · France – Printing and related services – IMPRESSION ET DISTRIBUTION DE SUPPORTS DE COMMUNICATION / EVENEMENTIEL ET PAPETERIE
 - **TED:582794-2026** · FRA · p=68 · deadline=2026-09-28T02:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **TED:494111-2026** · FRA · p=68 · deadline=2026-10-12T01:00:00+00:00 · blockers=none · France – Printing services – Prestations d'impression pour l'Institut de France
-- **TED:511071-2026** · FRA · p=66 · deadline=2026-08-24T14:00:00+00:00 · blockers=none · France – Printing and related services – 26SERV01 - ACCORD CADRE A BONS DE COMMANDE RELATIF AUX PRESTATIONS D'IMPRESSION ET D'AFFICHAGE DE PRODUITS DE COMMUNICATION POUR L'EPCC OPERA TOULON PROVENCE MEDITERRANEE - Relance suite à déclaration sans suite du lot 1 de la procédure 25SERV03
 - **TED:476581-2026** · FRA · p=66 · deadline=2026-08-28T02:00:00+00:00 · blockers=none · France – Printing services – Impression des supports de Communication de la Ville de Beaucaire
 - **TED:525177-2026** · FRA · p=66 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Services related to printing – Accord-cadre mono-attributaire relatif à la fusion publipostage, la mise sous pli et l'affranchissement de documents pour le compte de la SEMADER
 - **TED:444398-2026** · FRA · p=66 · deadline=2026-09-03T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation et livraison des travaux d’impression destinés aux Caisses Primaires d’Assurance Maladie d’Ile de France
@@ -149,7 +145,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
 - **TED:424272-2026** · FRA · p=54 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Information and promotion products – 2026-FA0081 Fourniture d'articles promotionnels aux couleurs du Département de la Moselle
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
-- **ZA_ETENDERS_OCDS:ocds-9t57fa-166181-2026-08-19** · ZA · p=46 · deadline=2026-08-24T09:00:00+00:00 · blockers=none · IM1222026
 - **TED:513158-2026** · MLT · p=46 · deadline=2026-08-28T21:59:59+00:00 · blockers=none · Malta – Clothing, footwear, luggage articles and accessories – Provision of EUAA Branded Merchandise and Operational Clothing
 - **TED:564438-2026** · FRA · p=46 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Information and promotion products – PROCUREMENT OF PROMOTIONAL ITEMS AND ELECTRONIC ACCESSORIES AND RELATED ITEMS
 
@@ -162,7 +157,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:29daee56de8744ffa8bd226a9ad8211b** · US · p=47 · deadline=2026-09-10T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · eQUIP Software Licenses
 - **US-SAM:f568b8a1118a4e0b80fbf2481e8129d5** · US · p=47 · deadline=2026-09-12T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · Rail Traffic Controller (RTC) License and Maintenance Plan
 - **US-SAM:bd6a6a2d514b44d5bd194be8ba7f6cf3** · US · p=47 · deadline=2026-09-19T00:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · EFOJ for Cribl Software Licenses
-- **US-SAM:dd1ebf7964d140f5968fa7e131745be9** · US · p=46 · deadline=2026-08-24T20:30:00+00:00 · blockers=none · 5835- Mini Stock Point Program
 - **US-SAM:83bfded640f44e85a9d5e984165a4ac3** · US · p=46 · deadline=2026-08-25T04:00:00+00:00 · blockers=none · 48--MANIFOLD,PRESSURE
 - **US-SAM:a3c1cbc0f86d463182d1ee4fcaac5854** · US · p=46 · deadline=2026-08-26T20:30:00+00:00 · blockers=none · 16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF
 - **US-SAM:17e8df2916ef4d8296fdd36292e60ce1** · US · p=46 · deadline=2026-08-26T21:00:00+00:00 · blockers=none · NATO Business Opportunity: Commercial Cloud Service Provider Marketplace � Protected Business Network
@@ -174,10 +168,12 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:6147fc7a4c0645adbbb8817593232204** · US · p=46 · deadline=2026-08-31T20:30:00+00:00 · blockers=none · 43--PUMP,CENTRIFUGAL, IN REPAIR/MODIFICATION OF
 - **US-SAM:69fb65c7537d43e298b7e253f556183e** · US · p=46 · deadline=2026-08-31T20:30:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
 - **US-SAM:bce663367a46429c9866e147679ccc70** · US · p=46 · deadline=2026-09-01T04:00:00+00:00 · blockers=none · 59--CAPACITOR ASSEMBLY, IN REPAIR/MODIFICATION OF
+- **US-SAM:83482a4654c34370b736522a9ac3d1ef** · US · p=46 · deadline=2026-09-03T04:00:00+00:00 · blockers=none · 61--POWER SUPPLY, IN REPAIR/MODIFICATION OF
 
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
 - **TED:424903-2026** · FRA · p=69 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Survey services – Accord-cadre portant sur un soutien éditorial et digital au programme européen URBACT- 2 lots.
+- **TED:586373-2026** · FRA · p=63 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Advertising and marketing services – Accord-cadre à bons de commande multi-attributaire relatif à des prestations de communication
 - **TED:431809-2026** · FRA · p=61 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Survey services – Accord-cadre portant sur un soutien éditorial et digital au programme européen URBACT- 2 lots.
 - **TED:480012-2026** · FRA · p=49 · deadline=2026-09-01T02:00:00+00:00 · blockers=none · France – Content management software package – Outil de gestion des réseaux sociaux et d’un programme ambassadeurs
 - **TED:497425-2026** · FRA · p=49 · deadline=2026-09-01T02:00:00+00:00 · blockers=none · France – Content management software package – Outil de gestion des réseaux sociaux et d’un programme ambassadeurs
@@ -186,22 +182,15 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **GR-KHMDHS:26PROC019655206** · GR · p=40 · deadline=2026-08-28T00:00:00+00:00 · blockers=none · ΠΡΟΣΚΛΗΣΗ ΕΚΔΗΛΩΣΗΣ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΓΙΑ ΔΙΑΧΕΙΡΙΣΗ ΤΩΝ ΚΟΙΝΩΝΙΚΩΝ ΜΕΣΩΝ ΤΗΣ ΠNAI (Π.Ε. ΚΥΚΛΑΔΩΝ)
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-166479-2026-08-21** · ZA · p=40 · deadline=2026-08-28T12:00:00+00:00 · blockers=none · HO/INTERSITE/55/08/2026
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
-- **CA:WS5612173135** · CA · p=38 · deadline=2026-08-24T14:00:00+00:00 · blockers=none · Request for Proposal - Government of Canada Social Media Management Service (SMMS) -
-- **UNGM:306507** · CANADA · p=38 · deadline=2026-08-25T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## software_resale
-- **US-SAM:248b15ee8a474879a914216999cdfb96** · US · p=56 · deadline=2026-08-24T14:00:00+00:00 · blockers=none · 5965--WAYA HEALTH VR HEADSET W/SOFTWARE LICENSE
 - **US-SAM:b0006a53c0d54778a4d6841f7cf5eee2** · US · p=56 · deadline=2026-08-28T17:00:00+00:00 · blockers=none · TCG BOSS Equipment and Link-16 Related Products
-- **ZA_ETENDERS_OCDS:ocds-9t57fa-165925-2026-08-18** · ZA · p=54 · deadline=2026-08-24T11:00:00+00:00 · blockers=none · POS9919
 - **TED:570364-2026** · IRL · p=54 · deadline=2026-09-16T12:00:00+00:00 · blockers=none · Ireland – Global navigation and positioning systems (GPS or equivalent) – National Geodetic Surveying Infrastructure Upgrade for Tailte Éireann
-- **TED:460390-2026** · NOR · p=50 · deadline=2026-08-24T10:00:00+00:00 · blockers=none · Norway – Software package and information systems – Framework agreement for the procurement of software licences
 - **TED:530112-2026** · IRL · p=50 · deadline=2026-08-26T01:00:00+00:00 · blockers=none · Ireland – Business transaction and personal business software package – Self-Service Kiosk Terminals, Kiosk OS Integration, and Associated Software Licensing
 - **TED:527326-2026** · IRL · p=50 · deadline=2026-08-28T01:00:00+00:00 · blockers=none · Ireland – Desktop-publishing software package – Adobe (Acrobat Pro and Creative Cloud) Software Licensing and Product Support
 - **TED:455081-2026** · FRA · p=50 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Network equipment – Appel d'offres ouvert
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **TED:512568-2026** · CHE · p=48 · deadline=2026-08-24T10:00:00+00:00 · blockers=none · Switzerland – Time accounting or human resources software package – Leapsome Licenses
-- **US-SAM:fd0852967918430e9244ad12923c1dc8** · US · p=48 · deadline=2026-08-24T19:00:00+00:00 · blockers=none · Berla iVe Automobile Forensic License Support
 - **US-SAM:461881533a864d538a707fcf6aa0fbc0** · US · p=48 · deadline=2026-08-27T16:00:00+00:00 · blockers=none · Monarch Software Licenses Renewal
 - **US-SAM:df47f48189ca4007b30d6ba47fc5edb2** · US · p=48 · deadline=2026-08-28T16:00:00+00:00 · blockers=none · Radiation Therapy Quality Management System Deployment and Training
 - **UNGM:311414** · PAKISTAN · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Open in a new window
@@ -210,6 +199,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:3f814d8a4b2e487c9e6d01ea0e80ffcf** · US · p=48 · deadline=2026-09-03T00:00:00+00:00 · blockers=none · Navisworks Manage Government Annual Subscription Renewal
 - **US-SAM:3cedfd0ad17b4f8aa5e7daefcd5ef103** · US · p=48 · deadline=2026-09-04T00:00:00+00:00 · blockers=none · Mirantis and Zimperium Software License Subscription Renewals
 - **US-SAM:f75643b110264313b8fa69feae99eeed** · US · p=48 · deadline=2026-09-05T09:00:00+00:00 · blockers=none · WATER SYSTEM FAULTY PROGRAMMABLE LOGIC CONTROLER REPLACEMENT
+- **US-SAM:e9571c5b0419428b857d739433b2bac8** · US · p=48 · deadline=2026-09-06T00:00:00+00:00 · blockers=none · Autodesk Subscription Licenses for USACE Engineering Research and Development Center (ERDC) ITL
+- **US-SAM:841f0f9adffc47ee9099dce3943615e4** · US · p=48 · deadline=2026-09-14T18:00:00+00:00 · blockers=none · FDIC Software Subscription renewal (SUB) - Copado
+- **TED:582050-2026** · FRA · p=48 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Document creation, drawing, imaging, scheduling and productivity software package – Acquisition de licences pour les logiciels Autodesk
+- **US-SAM:bb3419168e1045c099a42fe19d43fdf6** · US · p=48 · deadline=2026-09-16T00:00:00+00:00 · blockers=none · ArcGIS
+- **UNGM:309483** · MULTIPLE DESTINATIONS · p=48 · deadline=2026-09-21T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -235,7 +229,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:561889-2026** · SWE · p=40 · deadline=2026-09-21T22:00:00+00:00 · blockers=none · Sweden – Translation services – Översättnings- och språkgranskningstjänster
 - **TED:583203-2026** · ROU · p=40 · deadline=2026-09-30T03:00:00+00:00 · blockers=none · Romania – Translation services – Achiziționarea serviciilor de traducere autorizată a documentelor aferente Programului Interreg VI-B NEXT Bazinul Mării Negre
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
-- **UNGM:311541** · UNITED STATES OF AMERICA · p=38 · deadline=2026-08-25T00:00:00+00:00 · blockers=none · Open in a new window
+- **UNGM:311355** · SRI LANKA · p=38 · deadline=2026-08-27T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## video_media
 - **TED:567440-2026** · NOR · p=48 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · Norway – Advertising campaign services – Stage 1 - Prequalification for a Framework agreement advertising, campaigns and graphic design.
@@ -248,8 +242,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:541115-2026** · POL · p=40 · deadline=2026-09-04T02:00:00+00:00 · blockers=none · Poland – Motion picture and video production services – Produkcja oraz emisja spotu reklamowego w ramach projektu "Ecomarinas"
 - **TED:524448-2026** · NOR · p=40 · deadline=2026-09-04T10:00:00+00:00 · blockers=none · Norway – Advertising and marketing services – Framework agreement, Communication and Marketing Services.
 - **TED:534361-2026** · NLD · p=40 · deadline=2026-09-21T10:00:00+00:00 · blockers=none · Netherlands – Services in connection with motion-picture and video-tape production – Video en animatie
-- **UNGM:310961** · ARMENIA · p=38 · deadline=2026-08-25T00:00:00+00:00 · blockers=none · Open in a new window
-- **UNGM:311390** · SAUDI ARABIA · p=38 · deadline=2026-08-25T00:00:00+00:00 · blockers=none · Open in a new window
 - **UNGM:311625** · BOSNIA AND HERZEGOVINA · p=38 · deadline=2026-08-26T00:00:00+00:00 · blockers=none · Open in a new window
 - **US-SAM:f5f0b7889f354ec4b5620f73a518f9be** · US · p=38 · deadline=2026-08-27T14:00:00+00:00 · blockers=none · TACOM - Command Video Production
 
@@ -257,7 +249,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:522221-2026** · FRA · p=86 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Graphic design services – Prestations graphiques, vidéos, podcasts, impression et rédaction
 - **TED:576609-2026** · FRA · p=78 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Graphic design services – CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
 - **FR-BOAMP:26-81475** · FR · p=72 · deadline=2026-09-25T13:00:00+00:00 · blockers=none · CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
-- **TED:375337-2026** · FRA · p=71 · deadline=2026-08-24T14:00:00+00:00 · blockers=none · France – IT services: consulting, software development, Internet and support – Marché pour la maintenance applicative, corrective et évolutive, hébergement et infogérance du site internet de diffusion cinéma de l'Institut français " ifcinema.institutfrancais.com ", de toutes ses fonctionnalités et de son lecteur vidéo
 - **TED:383716-2026** · FRA · p=71 · deadline=2026-08-26T02:00:00+00:00 · blockers=none · France – Software maintenance and repair services – Tierce maintenance d’applications AMP VIGIE – BIOVIGIE – POPP – Site web www.registrenationaldesrefus.fr – QUESTIONNEURS - HORUS pour le compte de l’Agence de la biomédecine.
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
 - **TED:424903-2026** · FRA · p=69 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Survey services – Accord-cadre portant sur un soutien éditorial et digital au programme européen URBACT- 2 lots.
@@ -266,7 +257,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-81351** · FR · p=67 · deadline=2026-09-17T12:00:00+00:00 · blockers=none · La refonte du site internet de Centrale Lille Institut et notamment la conception et la tierce maintenance applicative (TMA) sur 5 ans
 - **FR-BOAMP:26-82264** · FR · p=67 · deadline=2026-09-21T10:00:00+00:00 · blockers=none · Renouvellement de la Tierce Maintenance Applicative (TMA) et de l'hébergement du site internet de l'observatoire des métiers de l'expertise comptable, du commissariat aux comptes et de l'audit (OME...
 - **TED:533051-2026** · DEU · p=65 · deadline=2026-08-31T09:00:00+00:00 · blockers=none · Germany – World wide web (www) site design services – Rahmenvereinbarung Websitebetreuung
-- **TED:536941-2026** · IRL · p=63 · deadline=2026-08-24T16:30:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Provision of Website Design, Development, Hosting, Maintenance and Digital Resource Portal Services – Primary Mathematics Hub
 - **TED:564841-2026** · DEU · p=63 · deadline=2026-08-31T21:59:59+00:00 · blockers=none · Germany – IT services: consulting, software development, Internet and support – Betreuung und Weiterentwicklung Websites
 - **TED:573577-2026** · IRL · p=63 · deadline=2026-09-07T01:00:00+00:00 · blockers=none · Ireland – World wide web (www) site design services – Provision of Website Design, Development, Hosting, Maintenance and Digital Resource Portal Services – Primary Mathematics Hub
 - **TED:531296-2026** · DEU · p=63 · deadline=2026-09-08T02:00:00+00:00 · blockers=none · Germany – Internet services – Entwicklung, Betrieb, Support und Hosting der Websites
@@ -274,4 +264,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:431809-2026** · FRA · p=61 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Survey services – Accord-cadre portant sur un soutien éditorial et digital au programme européen URBACT- 2 lots.
 - **TED:514389-2026** · DEU · p=59 · deadline=2026-08-25T09:00:00+00:00 · blockers=none · Germany – Software programming and consultancy services – Relaunch Website
 - **TED:473281-2026** · DEU · p=59 · deadline=2026-08-26T10:00:00+00:00 · blockers=none · Germany – IT services: consulting, software development, Internet and support – Support und Relaunch der Website www.frankfurt-inklusive.de und des Stadtführers für Menschen mit Behinderungen
+- **DE-DOE:05138de1-05ff-4c84-a705-3c266411df32:01** · DE · p=57 · deadline=UNKNOWN · blockers=none · SV-KWA-260819-002, Weiterentwicklung Unternehmenswebsite
+- **DE-DOE:25720470:1** · DE · p=57 · deadline=UNKNOWN · blockers=none · Website-Neuentwicklung Girls'Day und Boys'Day (TYPO3)
 
