@@ -1,28 +1,28 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-25T00:57:53.527109+00:00",
+  "updated_at": "2026-08-25T01:00:52.090750+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 32793633927,
   "counts": {
     "pending_gpt_web_review": 160,
-    "reviewed_ticks_total": 538,
-    "excluded_already_reviewed": 0,
+    "reviewed_ticks_total": 540,
+    "excluded_already_reviewed": 3,
     "excluded_already_in_final_bank": 1,
-    "pending_before_visible_cap": 175,
+    "pending_before_visible_cap": 173,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 110,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 10
     },
     "pending_by_fit_band": {
       "GOOD": 21,
-      "MAYBE": 100,
-      "LOW": 39
+      "MAYBE": 98,
+      "LOW": 41
     },
     "pending_by_portal": {
       "TED": 100,
@@ -43,10 +43,10 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 112,
+      "GPT_PRIORITY": 110,
       "DCE_AUTHENTICITY_REPAIR": 20,
       "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 8
+      "ELASTIC_FILL": 10
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 140,
@@ -54,8 +54,8 @@
     },
     "selected_by_band": {
       "GOOD": 21,
-      "MAYBE": 100,
-      "LOW": 39
+      "MAYBE": 98,
+      "LOW": 41
     },
     "selected_by_portal": {
       "TED": 100,
@@ -102,24 +102,24 @@
       "ZA_ETENDERS": 1
     }
   },
-  "review_index_count": 4816,
+  "review_index_count": 4814,
   "review_index_counts": {
-    "pending_total_uncapped": 4816,
+    "pending_total_uncapped": 4814,
     "by_stage": {
-      "BUSINESS_GATES": 3535,
+      "BUSINESS_GATES": 3533,
       "DCE_AUTHENTICITY": 1281
     },
     "by_spm_fit_band": {
       "GOOD": 56,
-      "MAYBE": 298,
+      "MAYBE": 296,
       "LOW": 4462
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 4656,
+    "overflow_beyond_hot_160": 4654,
     "cross_portal_duplicates_collapsed": 0
   },
-  "true_pending_before_hot_cap": 4816,
-  "overflow_beyond_hot_160": 4656,
+  "true_pending_before_hot_cap": 4814,
+  "overflow_beyond_hot_160": 4654,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
