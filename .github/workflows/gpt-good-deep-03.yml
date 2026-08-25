@@ -1,0 +1,90 @@
+name: GPT GOOD Deep 03
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-good-deep-03.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Recover exact adjudication rows
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/good03 && mkdir -p /tmp/good03 control/evidence/good_deep_03
+          cat > /tmp/targets.json <<'JSON'
+          [
+            {"candidate_id":"TED:527162-2026","title":"Sumanių kaimų programa (platforma)","run":32213968608,"shard":37},
+            {"candidate_id":"TED:522354-2026","title":"Veebikeskkonna toitumine.ee arendus- ja hooldustööd","run":32213968608,"shard":36},
+            {"candidate_id":"TED:574301-2026","title":"NAKUP PROGRAMSKE REŠITVE AI/LLM","run":32710132524,"shard":0}
+          ]
+          JSON
+          python - <<'PY' > /tmp/runs.txt
+          import json
+          print('\n'.join(map(str,sorted({x['run'] for x in json.load(open('/tmp/targets.json'))}))))
+          PY
+          for run in $(cat /tmp/runs.txt); do
+            d=/tmp/good03/$run; mkdir -p "$d"
+            gh release download "dce-harvest-$run" --pattern 'fast-adjudication-shard-*.jsonl' --dir "$d" >/dev/null 2>&1 || true
+            gh release download "dce-harvest-$run" --pattern "dce-adjudication-$run.jsonl" --dir "$d" >/dev/null 2>&1 || true
+          done
+          python - <<'PY'
+          import json,pathlib,re,unicodedata
+          T=json.load(open('/tmp/targets.json'))
+          root=pathlib.Path('/tmp/good03'); out=pathlib.Path('control/evidence/good_deep_03')
+          def norm(s):
+            return re.sub(r'[^a-z0-9]+',' ',unicodedata.normalize('NFKD',str(s or '')).encode('ascii','ignore').decode().lower()).strip()
+          def pick(t, files):
+            best=(-1,None,None)
+            title_tokens=[z for z in norm(t['title']).split() if len(z)>=5]
+            for p in files:
+              for line in p.read_text(encoding='utf-8',errors='ignore').splitlines():
+                try:o=json.loads(line)
+                except:continue
+                raw=json.dumps(o,ensure_ascii=False); sc=0
+                if str(o.get('candidate_id'))==t['candidate_id']: sc+=1000
+                nr=norm(raw)
+                sc+=sum(10 for z in title_tokens if z in nr)
+                if sc>best[0]: best=(sc,o,str(p))
+            return {'match_score':best[0],'source':best[2],'row':best[1]}
+          idx=[]
+          for t in T:
+            d=root/str(t['run'])
+            fast=pick(t,list(d.glob('fast-adjudication-shard-*.jsonl')))
+            adjud=pick(t,list(d.glob('dce-adjudication-*.jsonl')))
+            payload={'schema':'GPT_GOOD_DEEP_03_V1','target':t,'fast_adjudication':fast,'dce_adjudication':adjud}
+            safe=re.sub(r'[^A-Za-z0-9]+','_',t['candidate_id']).strip('_')
+            fp=out/(safe+'.json'); fp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            idx.append({'candidate_id':t['candidate_id'],'path':str(fp),'fast_match_score':fast['match_score'],'adjud_match_score':adjud['match_score']})
+          (out/'index.json').write_text(json.dumps({'schema':'GPT_GOOD_DEEP_03_INDEX_V1','items':idx},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(idx,indent=2))
+          PY
+      - name: Persist evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/good_deep_03
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist GOOD deep-03 evidence ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
