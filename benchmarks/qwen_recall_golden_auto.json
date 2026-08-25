@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-24T23:51:18+00:00",
-  "case_count": 69,
-  "positive_recall_cases": 68,
-  "frozen_input_cases": 69,
+  "generated_at": "2026-08-25T00:42:04+00:00",
+  "case_count": 74,
+  "positive_recall_cases": 73,
+  "frozen_input_cases": 74,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -62,6 +62,100 @@
           "carry_forward_previous_source_run": 32225601083
         },
         "calibration_input_frozen_at": "2026-08-19T10:24:45+00:00"
+      }
+    },
+    {
+      "candidate_id": "IE:8749146",
+      "label": "DCE/GPT positive (YELLOW): IE:8749146",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 71,
+        "why": "Strong EUR 200,000 website design/development opportunity with English electronic submission and a two-year contract, but the RFT makes selection criteria pass/fail and explicitly requires at least EUR 250,000 annual turnover in each of the last three financial years, potentially supported by an auditor statement/accounts. Reliance on other entities/subcontractors is contemplated, so a capacity partner route is possible, but it is not a clean direct bid.",
+        "action": "ONLY_PURSUE_WITH_VERIFIED_FINANCIAL_CAPACITY_PARTNER_AND_FINAL_INSURANCE_REFERENCE_CHECK",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_RFT_32_TEXT_DOCUMENTS",
+        "provenance_file": "control/adjudications/gpt-lean-targets-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "IE:8749146",
+        "material_fields_hash": "e99d5f77b145e7ce673d3029d3971f10f1137798bf9b62b748771a425809aa4d",
+        "notice": {
+          "candidate_id": "IE:8749146",
+          "source_family": "IE",
+          "source": "IRELAND_ETENDERS",
+          "country": "IE",
+          "buyer": "Assisted Human Reproduction Regulatory Authority",
+          "title": "AHRRA Website design and development Services",
+          "description": "461 AHRRA Website design and development Services 8749146 Assisted Human Reproduction Regulatory Authority 29/07/2026 12:38:52 02/09/2026 15:00:00 Open Tender Submission 200,000.00 1",
+          "cpv_or_category": null,
+          "estimated_value": 200000.0,
+          "currency": "EUR",
+          "publication_date": null,
+          "deadline": "2026-09-02T15:00:00+01:00",
+          "deadline_utc": "2026-09-02T14:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": null,
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8749146"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
+      }
+    },
+    {
+      "candidate_id": "IE:8766381",
+      "label": "DCE/GPT positive (YELLOW): IE:8766381",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 69,
+        "why": "Commercially attractive design/print scope and subcontracting capacity mechanisms are available, but qualification is not solo-lean: proof of an industry-standard graphic-design qualification is required, attendance at HRB project-management meetings must be available, and the minimum delivery team is one qualified project manager plus at least four qualified designers. This is feasible through an established design/print partner, not SPM alone.",
+        "action": "PARTNER_WITH_QUALIFIED_DESIGN_STUDIO_AND_PRINT_SUPPLIER_IF_MARGIN_IS_ATTRACTIVE",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_77_TEXT_DOCUMENTS",
+        "provenance_file": "control/adjudications/gpt-lean-targets-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "IE:8766381",
+        "material_fields_hash": "74c3260d8ce3fcb1ea55e6a55aba459e9de9301382f854c42f708534a8175986",
+        "notice": {
+          "candidate_id": "IE:8766381",
+          "source_family": "IE",
+          "source": "IRELAND_ETENDERS",
+          "country": "IE",
+          "buyer": "The Health Research Board",
+          "title": "HRB 2026 – Design and Print Services",
+          "description": "396 HRB 2026 – Design and Print Services 8766381 The Health Research Board 04/08/2026 22:57:45 01/09/2026 10:00:00 Restricted Tender Submission 300,000.00 1",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": "EUR",
+          "publication_date": null,
+          "deadline": "2026-09-01T10:00:00+01:00",
+          "deadline_utc": "2026-09-01T09:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": null,
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8766381"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
       }
     },
     {
@@ -2317,6 +2411,100 @@
       }
     },
     {
+      "candidate_id": "TED:574733-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:574733-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 78,
+        "why": "Strong print-broker candidate with electronic submission and individual or consortium bidding expressly allowed. The RC requests three-year turnover information, recent service references, staffing/equipment declarations and an Imprim'Vert or equivalent certificate for each lot, but the recovered evidence does not expose a numeric turnover minimum. Physical samples are required for several lots and delivered to Melun by the bid deadline. With a certified printer/group member this becomes credible, but supplier economics and sample execution remain material.",
+        "action": "HIGH_PRIORITY_CERTIFIED_PRINTER_PARTNER_PRICE_SHOP_AND_SAMPLE_PLAN",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_RC",
+        "provenance_file": "control/adjudications/gpt-lean-targets-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:574733-2026",
+        "material_fields_hash": "a5aa5fb9b69008e54d1fb79caea1999d013cc2f1a96e1f6c1f683260e025824a",
+        "notice": {
+          "candidate_id": "TED:574733-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "FRA",
+          "buyer": "Département de Seine-et-Marne",
+          "title": "France – Printing and related services – TRAVAUX D'IMPRESSION ET DE REPROGRAPHIE",
+          "description": "Réalisation de travaux d’impression et de reprographie pour répondre aux besoins des services départementaux.",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-19+02:00",
+          "deadline": "2026-09-24T02:00:00+00:00",
+          "deadline_utc": "2026-09-24T02:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/574733-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:576504-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:576504-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 68,
+        "why": "Excellent Belgian website/hosting/maintenance scope, but the selection guide requires a real agency team: at least three employees each with at least three years demonstrable Drupal experience, plus a senior profile who materially worked on at least one submitted reference project. Team CVs/LinkedIn profiles and reference evidence are mandatory. A specialist Drupal partner can make the route viable; SPM alone cannot presently clear the gate.",
+        "action": "PARTNER_WITH_BELGIAN_DRUPAL_AGENCY_HOLDING_TEAM_AND_REFERENCE_GATES",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_BELGIAN_DCE",
+        "provenance_file": "control/adjudications/gpt-lean-targets-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:576504-2026",
+        "material_fields_hash": "fb7cab6d6f9590a8f69240862eaa89ca39398c65e373b911a535748d0e53d44a",
+        "notice": {
+          "candidate_id": "TED:576504-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "BEL",
+          "buyer": "Thomas More Mechelen-Antwerpen",
+          "title": "Belgium – World wide web (www) site design services – Raamovereenkomst voor hosting, onderhoud en uitbouw van de corporate website",
+          "description": "Raamovereenkomst voor hosting, onderhoud en uitbouw van de corporate website",
+          "cpv_or_category": null,
+          "estimated_value": null,
+          "currency": null,
+          "publication_date": "2026-08-20+02:00",
+          "deadline": "2026-09-21T11:00:00+02:00",
+          "deadline_utc": "2026-09-21T09:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "neg-w-call",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/576504-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
+      }
+    },
+    {
       "candidate_id": "TED:577961-2026",
       "label": "DCE/GPT positive (YELLOW): TED:577961-2026",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -2502,6 +2690,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-22T10:32:34+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:580238-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:580238-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 57,
+        "why": "Native website-development scope and EUR 400,930 base price, with subcontracting/reliance mechanisms visible in the ESPD. However the authoritative specification imposes enterprise-grade delivery: ITIL/ISO-20000 style service management, Agile/CMMI/ISO-27001 practices, full team CVs/certificates, Portuguese C1 for accessibility profiles, weekly architecture coordination, and resources must perform services at INFARMED premises unless telework is specifically approved. This is not lean-direct execution.",
+        "action": "PARTNER_ONLY_WITH_PORTUGUESE_ENTERPRISE_WEB_TEAM_IF_MARGIN_SUPPORTS_ONSITE_DELIVERY",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_16_TEXT_DOCUMENTS",
+        "provenance_file": "control/adjudications/gpt-lean-targets-batch-02-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:580238-2026",
+        "material_fields_hash": "02348eebc7ba24f7b923f8bf8f2f3ab92a75671c16896b7fb7d5963d76830210",
+        "notice": {
+          "candidate_id": "TED:580238-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "PRT",
+          "buyer": "Serviços Partilhados do Ministério da Saúde, EPE",
+          "title": "Portugal – Computer-related services – (DAG) Aquisição de serviços de desenvolvimento do novo website do INFARMED, I.P. (PRR) (20260267)",
+          "description": "(DAG) Aquisição de serviços de desenvolvimento do novo website do INFARMED, I.P. (PRR) (20260267)",
+          "cpv_or_category": null,
+          "estimated_value": 400930.0,
+          "currency": "EUR",
+          "publication_date": "2026-08-21+02:00",
+          "deadline": "2026-08-31T00:00:00+00:00",
+          "deadline_utc": "2026-08-31T00:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/580238-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
       }
     },
     {
