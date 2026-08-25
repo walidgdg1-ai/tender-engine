@@ -1,0 +1,55 @@
+name: GPT Softgate Candidate Extract
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-softgate-candidate-extract.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          python - <<'PY'
+          import json,pathlib,re
+          targets={'TED:511245-2026','TED:584979-2026','TED:421844-2026','TED:425617-2026'}
+          found={}
+          for p in pathlib.Path('control/gpt_web_read_batches').glob('batch-*.json'):
+            try:d=json.load(open(p,encoding='utf-8'))
+            except:continue
+            for x in d.get('items',[]):
+              cid=str(x.get('candidate_id') or '')
+              if cid in targets and cid not in found:
+                found[cid]={'source_batch':str(p),'item':x}
+          outdir=pathlib.Path('control/evidence/softgate_candidates');outdir.mkdir(parents=True,exist_ok=True)
+          idx=[]
+          for cid,z in found.items():
+            safe=re.sub(r'[^A-Za-z0-9]+','_',cid).strip('_')+'.json'
+            fp=outdir/safe
+            fp.write_text(json.dumps({'schema':'GPT_SOFTGATE_CANDIDATE_V1','candidate_id':cid,**z},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            idx.append({'candidate_id':cid,'path':str(fp),'source_batch':z['source_batch']})
+          (outdir/'index.json').write_text(json.dumps({'schema':'GPT_SOFTGATE_CANDIDATE_INDEX_V1','items':idx},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(idx,indent=2))
+          PY
+      - run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/softgate_candidates
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist exact soft-gate candidates ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
