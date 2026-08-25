@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-25T00:48:16+00:00",
-  "case_count": 75,
-  "positive_recall_cases": 74,
-  "frozen_input_cases": 75,
+  "generated_at": "2026-08-25T00:52:40+00:00",
+  "case_count": 78,
+  "positive_recall_cases": 77,
+  "frozen_input_cases": 78,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -1003,6 +1003,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-25T00:48:16+00:00"
+      }
+    },
+    {
+      "candidate_id": "TED:533200-2026",
+      "label": "DCE/GPT positive (YELLOW): TED:533200-2026",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 61,
+        "why": "The title was misleadingly scored as software development. The live procurement is for an existing SaaS digital learning-content library for approximately 16,000 licensed employees, including a large German/English on-demand catalogue, REST/OpenAPI integration, Microsoft Entra ID SSO, accessibility and recurring content updates. Turnover disclosures and references are required. This is a vendor/reseller route, not a lean custom-build opportunity.",
+        "action": "ONLY_PURSUE_AS_RESELLER_OR_CHANNEL_PARTNER_WITH_EXISTING_CONTENT_LIBRARY_VENDOR",
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_IN_REPO_PLUS_CURRENT_TK_PROCUREMENT_PORTAL_CORROBORATION",
+        "provenance_file": "control/adjudications/gpt-open-good-lean-batch-04-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "TED:533200-2026",
+        "material_fields_hash": "a0971b85390bd6fd049501e89132dbab41daa5876af013f775d5cf226e1e01ce",
+        "notice": {
+          "candidate_id": "TED:533200-2026",
+          "source_family": "TED",
+          "source": "TED",
+          "country": "DEU",
+          "buyer": "Techniker Krankenkasse",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Content Bibliothek",
+          "description": "Gegenstand dieser Beschaffung ist die Bereitstellung einer digitalen Bibliothek als Software-as-a-Service (SaaS) zur Weiterbildung der Mitarbeitenden der TK, einschließlich der zur Anbindung an die bestehende Learning Experience Plattform der TK erforderlichen Schnittstellen. Die digitale Bibliothek besteht aus einer umfangreichen Sammlung digitaler On-Demand-Lernangebote (z. B. Videos, Sandbox-Umgebungen) in deutscher und englischer Sprache für unterschiedliche Themen und Lernniveaus. Für weitere Einzelheiten wird auf die Vergabeunterlagen verwiesen.",
+          "cpv_or_category": null,
+          "estimated_value": 1.0,
+          "currency": "EUR",
+          "publication_date": "2026-07-31+02:00",
+          "deadline": "2026-08-31T02:00:00+00:00",
+          "deadline_utc": "2026-08-31T02:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ted.europa.eu/en/notice/-/detail/533200-2026"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:52:40+00:00"
       }
     },
     {
@@ -3441,6 +3488,57 @@
       }
     },
     {
+      "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+      "label": "DCE/GPT positive (YELLOW): ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 67,
+        "why": "The creative scope itself is lean and attractive: graphic design/layout of approved exhibition content with print-ready output over roughly 12 weeks. But the RFQ requires South African supplier compliance documents including CSD registration, tax-status PIN and B-BBEE evidence, and a minimum functionality threshold applies. This is a good local-partner/white-label opportunity, not a direct Belgian-company GREEN.",
+        "action": "PARTNER_WITH_SOUTH_AFRICAN_REGISTERED_DESIGN_STUDIO_AND_WHITE_LABEL_PRODUCTION_IF_MARGIN_WORKS",
+        "evidence_quality": "OFFICIAL_ETENDERS_SOURCE_BACKED_RFQ_WITH_CURRENT_DOCUMENT_SUMMARY",
+        "provenance_file": "control/adjudications/gpt-open-good-lean-batch-04-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+        "material_fields_hash": "380e4dec18af5130894a2cea7fb82a76f3d803bcbffc7de8df6cead44323f04f",
+        "notice": {
+          "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+          "source_family": "ZA_ETENDERS_OCDS",
+          "source": "ZA_ETENDERS_OCDS",
+          "country": "ZA",
+          "buyer": "Iziko Museums of Cape Town",
+          "title": "IZIKO RFQ R-E 26/04/2026",
+          "description": "REQUEST FOR QUOTATION (RFQ) FOR APPOINTMENT OF A SERVICE PROVIDER TO UNDERTAKE THE GRAPHIC DESIGN AND LAYOUT OF THE EXHIBITION FOR THE NELSON MANDELA PRISON HOUSE.",
+          "cpv_or_category": null,
+          "estimated_value": 0.0,
+          "currency": "ZAR",
+          "publication_date": "2026-08-12T00:00:00+00:00",
+          "deadline": "2026-08-31T11:00:00+00:00",
+          "deadline_utc": "2026-08-31T11:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-165327",
+            "https://www.etenders.gov.za/home/Download?blobName=d717357e-dd91-4699-96e1-71e96063ff19.pdf&downloadedFileName=IZIKO-RFQ-NMPH%202026%20final.pdf"
+          ],
+          "carried_forward_from_previous_snapshot": true,
+          "carry_forward_reason": "FUTURE_DEADLINE_NOT_REOBSERVED",
+          "carry_forward_previous_source_run": 32784569307
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:52:40+00:00"
+      }
+    },
+    {
       "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165372-2026-08-13",
       "label": "DCE/GPT positive (YELLOW): ZA_ETENDERS_OCDS:ocds-9t57fa-165372-2026-08-13",
       "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
@@ -3534,6 +3632,57 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-18T22:30:05+00:00"
+      }
+    },
+    {
+      "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+      "label": "DCE/GPT positive (YELLOW): ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 54,
+        "why": "Transcription alone looked highly lean, but the actual RFQ bundles transcription with translation, live interpretation, South African Sign Language and Braille, including onsite delivery as required. The bidder must be on the Johannesburg supplier database and affiliated with a professional body; local tax/B-BBEE/CSD documentation is also material. A specialised local language-services prime is required.",
+        "action": "LOCAL_LANGUAGE_AGENCY_PARTNER_ONLY_SKIP_DIRECT",
+        "evidence_quality": "OFFICIAL_CITY_OF_JOHANNESBURG_RFQ_CORROBORATED_WITH_DOCUMENT_BACKED_CURRENT SOURCES",
+        "provenance_file": "control/adjudications/gpt-open-good-lean-batch-04-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+        "material_fields_hash": "46142cd3ec1cd08b2125fe51067f483a42303fb612eb0ea927655ece50a8960c",
+        "notice": {
+          "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+          "source_family": "ZA_ETENDERS_OCDS",
+          "source": "ZA_ETENDERS_OCDS",
+          "country": "ZA",
+          "buyer": "City Council of Johannesburg",
+          "title": "COJ0001-26/27",
+          "description": "APPOINTMENT OF A SERVICE PROVIDER FOR PROVISION OF TRANSCRIPTION, TRANSLATION, INTERPRETATION, SIGN LANGUAGE AND BRAILLE SERVICES",
+          "cpv_or_category": null,
+          "estimated_value": 0.0,
+          "currency": "ZAR",
+          "publication_date": "2026-08-19T00:00:00+00:00",
+          "deadline": "2026-08-26T10:30:00+00:00",
+          "deadline_utc": "2026-08-26T10:30:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": "open",
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-166202",
+            "https://www.etenders.gov.za/home/Download?blobName=bea0121c-6b7f-4aa8-9741-8507a467fa44.pdf&downloadedFileName=COJ0001-26-27.pdf"
+          ],
+          "carried_forward_from_previous_snapshot": true,
+          "carry_forward_reason": "FUTURE_DEADLINE_NOT_REOBSERVED",
+          "carry_forward_previous_source_run": 32784569307
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:52:40+00:00"
       }
     }
   ]
