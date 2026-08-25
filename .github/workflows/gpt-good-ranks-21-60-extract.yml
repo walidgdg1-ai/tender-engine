@@ -1,0 +1,73 @@
+name: GPT GOOD Ranks 21-60 Extract
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-good-ranks-21-60-extract.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gpt-good-ranks-21-60-extract
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build compact ranked extract
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=json.load(open('control/gpt_review_priority_extract.json',encoding='utf-8'))
+          goods=[x for x in p.get('items',[]) if str(x.get('spm_fit_band','')).upper()=='GOOD']
+          rows=[]
+          for rank,x in enumerate(goods,1):
+              if 21 <= rank <= 60:
+                  rows.append({
+                    'good_rank':rank,
+                    'candidate_id':x.get('candidate_id'),
+                    'title':x.get('title'),
+                    'buyer':x.get('buyer'),
+                    'portal':x.get('portal'),
+                    'deadline':x.get('deadline'),
+                    'estimated_value':x.get('estimated_value'),
+                    'currency':x.get('currency'),
+                    'spm_post_dce_score':x.get('spm_post_dce_score'),
+                    'priority_score':x.get('priority_score'),
+                    'fit_reasons':x.get('spm_fit_reasons') or [],
+                    'friction_signals':x.get('spm_friction_signals') or [],
+                    'review_stage':x.get('review_stage'),
+                    'gate_readiness':x.get('gate_readiness'),
+                    'source_dce_run_id':x.get('source_dce_run_id'),
+                    'source_shard':x.get('source_shard'),
+                    'notice_url':x.get('notice_url')
+                  })
+          out={'schema':'GPT_GOOD_RANKS_21_60_V1','source_good_total':len(goods),'count':len(rows),'items':rows}
+          pathlib.Path('control/gpt_good_ranks_21_60.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'count':len(rows),'ranks':[r['good_rank'] for r in rows]},indent=2))
+          PY
+      - name: Persist
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/gpt_good_ranks_21_60.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist compact GOOD ranks 21-60 ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
