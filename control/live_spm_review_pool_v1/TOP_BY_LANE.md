@@ -157,7 +157,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:29daee56de8744ffa8bd226a9ad8211b** · US · p=47 · deadline=2026-09-10T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · eQUIP Software Licenses
 - **US-SAM:f568b8a1118a4e0b80fbf2481e8129d5** · US · p=47 · deadline=2026-09-12T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · Rail Traffic Controller (RTC) License and Maintenance Plan
 - **US-SAM:bd6a6a2d514b44d5bd194be8ba7f6cf3** · US · p=47 · deadline=2026-09-19T00:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · EFOJ for Cribl Software Licenses
-- **US-SAM:83bfded640f44e85a9d5e984165a4ac3** · US · p=46 · deadline=2026-08-25T04:00:00+00:00 · blockers=none · 48--MANIFOLD,PRESSURE
 - **US-SAM:a3c1cbc0f86d463182d1ee4fcaac5854** · US · p=46 · deadline=2026-08-26T20:30:00+00:00 · blockers=none · 16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF
 - **US-SAM:17e8df2916ef4d8296fdd36292e60ce1** · US · p=46 · deadline=2026-08-26T21:00:00+00:00 · blockers=none · NATO Business Opportunity: Commercial Cloud Service Provider Marketplace � Protected Business Network
 - **US-SAM:3cdd2d564fce49ea9ea16423f43a1456** · US · p=46 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Construction of Fire Protection System at Building C2 at Naval Weapons Station Earle, NJ
@@ -169,6 +168,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:69fb65c7537d43e298b7e253f556183e** · US · p=46 · deadline=2026-08-31T20:30:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
 - **US-SAM:bce663367a46429c9866e147679ccc70** · US · p=46 · deadline=2026-09-01T04:00:00+00:00 · blockers=none · 59--CAPACITOR ASSEMBLY, IN REPAIR/MODIFICATION OF
 - **US-SAM:83482a4654c34370b736522a9ac3d1ef** · US · p=46 · deadline=2026-09-03T04:00:00+00:00 · blockers=none · 61--POWER SUPPLY, IN REPAIR/MODIFICATION OF
+- **US-SAM:1b384e4783824ffe999c8ca766f54f7b** · US · p=46 · deadline=2026-09-03T17:00:00+00:00 · blockers=none · Second Industry Day Announcement: Low Profile Mast (LPM) Program
 
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
