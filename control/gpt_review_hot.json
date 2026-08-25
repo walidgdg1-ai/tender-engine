@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-08-25T15:31:58.057737+00:00",
+  "updated_at": "2026-08-25T15:32:20.824053+00:00",
   "latest_dce_run_id": 32866227394,
-  "latest_shard": 0,
+  "latest_shard": 3,
   "generation_reset": false,
-  "count": 1,
+  "count": 3,
   "items": [
     {
       "candidate_id": "TED:460867-2026",
@@ -767,6 +767,567 @@
       "spm_fit_reasons": [
         "training-services"
       ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "TED:576706-2026",
+      "title": "Germany – Education and training services – Ausbildungsschießen OPEX der Marine 2026",
+      "buyer": "Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/576706-2026",
+      "deadline": "2026-09-10T13:00:00+02:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 60,
+      "priority_score": 60,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-09-10T13:00:00+02:00",
+        "notice_deadline_date": "2026-09-10",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-10"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-09-10",
+            "match": "10/09/2026",
+            "context": "eanträge eingereicht werden \nkönnen: Deutsch\nElektronischer Katalog: Nicht zulässig\nNebenangebote: Nicht zulässig\nDie Bieter können mehrere Angebote einreichen: Nicht zulässig\nFrist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00\nInformationen, die nach Ablauf der Einreichungsfrist ergänzt werden können:\nDie Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nich\nine.de/tenderdetails.html?id=884138\n5.1.12 Bedingungen für die Auft"
+          },
+          {
+            "date": "2026-09-10",
+            "match": "10/09/2026",
+            "context": "eanträge eingereicht werden \nkönnen: Deutsch\nElektronischer Katalog: Nicht zulässig\nNebenangebote: Nicht zulässig\nDie Bieter können mehrere Angebote einreichen: Nicht zulässig\nFrist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00\nInformationen, die nach Ablauf der Einreichungsfrist ergänzt werden können:\nDie Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nicht \nausgeschlossen.\nZusätzliche Informationen: keine\nAuftragsbedingun"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 4,
+          "corpus_contexts": 1,
+          "unique_contexts": 2
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 8,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "e listName=\"language\">DEU</cbc:NoticeLanguageCode> <cac:ContractingParty> <cac:ContractingPartyType> <cbc:PartyTypeCode listName=\"buyer-legal-type\">omu-bbeh</cbc:PartyTypeCode> </cac:ContractingPartyType> <cac:ContractingActivity> <cbc:ActivityTypeCode listName=\"authority-activity\">defence</cbc:ActivityTypeCode> </cac:ContractingActivity> <cac:Party> <cac:PartyIdentification> <cbc:ID schemeName=\"organization\">ORG-7001</cbc:ID> </cac:PartyIdentification> </cac:Party> </cac:ContractingParty> <cac:TenderingTerms> <cac:ProcurementLegislationDocumentReference> <cbc:ID>vsvgv</cbc:ID> </cac:ProcurementLegislationDocumentReference> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-grounds-source\">epo-notice</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> </cac:TendererQualificationRequest> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-ground\">bankr-nat</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> <cac:Specific",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15109,
+            "corpus_end": 16418,
+            "match": "Reference"
+          },
+          {
+            "text": "ac:ContractingPartyType> <cbc:PartyTypeCode listName=\"buyer-legal-type\">omu-bbeh</cbc:PartyTypeCode> </cac:ContractingPartyType> <cac:ContractingActivity> <cbc:ActivityTypeCode listName=\"authority-activity\">defence</cbc:ActivityTypeCode> </cac:ContractingActivity> <cac:Party> <cac:PartyIdentification> <cbc:ID schemeName=\"organization\">ORG-7001</cbc:ID> </cac:PartyIdentification> </cac:Party> </cac:ContractingParty> <cac:TenderingTerms> <cac:ProcurementLegislationDocumentReference> <cbc:ID>vsvgv</cbc:ID> </cac:ProcurementLegislationDocumentReference> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-grounds-source\">epo-notice</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> </cac:TendererQualificationRequest> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-ground\">bankr-nat</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15194,
+            "corpus_end": 16503,
+            "match": "Reference"
+          },
+          {
+            "text": "=\"permission\">not-allowed</cbc:VariantConstraintCode> <cbc:FundingProgramCode listName=\"eu-funded\">no-eu-funds</cbc:FundingProgramCode> <cbc:RequiredCurriculaCode listName=\"requirement-stage\">not-requ</cbc:RequiredCurriculaCode> <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator> <cbc:MultipleTendersCode listName=\"permission\">not-allowed</cbc:MultipleTendersCode> <cac:RequiredFinancialGuarantee> <cbc:GuaranteeTypeCode listName=\"tender-guarantee-required\">false</cbc:GuaranteeTypeCode> </cac:RequiredFinancialGuarantee> <cac:CallForTendersDocumentReference> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:OfficialLanguages> <cac:Language> <cbc:ID>DEU</cbc:ID> </cac:Language> </efac:OfficialLanguages> </efext:EformsExtension> </ext:ExtensionContent> </ext:UBLExtension> </ext:UBLExtensions> <cbc:ID>TenderDoc</cbc:ID> <cbc:DocumentType>restricted-document</cbc:DocumentTyp",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 24842,
+            "corpus_end": 26151,
+            "match": "Reference"
+          },
+          {
+            "text": "ension> <ext:ExtensionContent> <efext:EformsExtension> <efac:OfficialLanguages> <cac:Language> <cbc:ID>DEU</cbc:ID> </cac:Language> </efac:OfficialLanguages> </efext:EformsExtension> </ext:ExtensionContent> </ext:UBLExtension> </ext:UBLExtensions> <cbc:ID>TenderDoc</cbc:ID> <cbc:DocumentType>restricted-document</cbc:DocumentType> <cac:Attachment> <cac:ExternalReference> <cbc:URI>https://www.evergabe-online.de/tenderdetails.html?id=884138</cbc:URI> </cac:ExternalReference> </cac:Attachment> </cac:CallForTendersDocumentReference> <cac:PaymentTerms> <cbc:Note languageID=\"DEU\">Gemäß Bewerbungsbedingungen (Abschlags- und Schlusszahlungen im Rahmen der Verdingungsordnung für Leistungen Teil B (VOL/B))</cbc:Note> </cac:PaymentTerms> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"selection-criteria-source\">epo-notice</cbc:TendererRe",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 25561,
+            "corpus_end": 26870,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "n. Die Namen und beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals sind anzugeben: Nicht erforderlich Auftragsvergabeprojekt nicht aus EU-Mitteln finanziert Diese Auftragsvergabe ist besonders auch geeignet für kleinste, kleine und mittlere Unternehmen (KMU): nein 5.1.7 Strategische Auftragsvergabe Art der strategischen Beschaffung: Keine strategische Beschaffung 5.1.9 Eignungskriterien Quellen der Auswahlkriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung: Vorlage eines Auszuges aus dem Handelsregister (oder vergleichbar für den Bewerber sowie etwaiger vom Bewerber eingesetzter Unterauftragnehmer. Der Auszug aus dem Handelsregister (oder vergleichbar) ist nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bewerber seinen Sitz hat, vorzulegen, und darf nicht älter als ein Jahr sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge). 5.1.10 Zuschlagskriterien Kriterium: Art: Preis Bezeichnung: Preis Beschreibung: Einziges Zuschlagskriterium ist der Preis. Kategorie des Schwellen-Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl : 100 5.1.11 Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Verbindliche Sprachfassung der Vergabeunterlagen: Deuts",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3816,
+            "corpus_end": 5128,
+            "match": "Unterauftrag"
+          },
+          {
+            "text": "ion> </cac:ProcurementProject> <cac:ProcurementProjectLot> <cbc:ID schemeName=\"Lot\">LOT-0000</cbc:ID> <cac:TenderingTerms> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:SelectionCriteria> <cbc:TendererRequirementTypeCode listName=\"selection-criterion\">slc-suit-reg-trade</cbc:TendererRequirementTypeCode> <cbc:Description languageID=\"DEU\">Vorlage eines Auszuges aus dem Handelsregister (oder vergleichbar für den Bewerber sowie etwaiger vom Bewerber eingesetzter Unterauftragnehmer. Der Auszug aus dem Handelsregister (oder vergleichbar) ist nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bewerber seinen Sitz hat, vorzulegen, und darf nicht älter als ein Jahr sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge).</cbc:Description> </efac:SelectionCriteria> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listName=\"cvd-scope\">false</efbc:ApplicableLegalBasis> </efac:StrategicProcurement> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listNa",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 22967,
+            "corpus_end": 24279,
+            "match": "Unterauftrag"
+          },
+          {
+            "text": "er seinen Sitz hat, vorzulegen, und darf nicht älter als ein Jahr sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge).</cbc:Description> </efac:SelectionCriteria> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listName=\"cvd-scope\">false</efbc:ApplicableLegalBasis> </efac:StrategicProcurement> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listName=\"eed-scope\">false</efbc:ApplicableLegalBasis> </efac:StrategicProcurement> <efac:TenderSubcontractingRequirements> <efbc:TenderSubcontractingRequirementsCode listName=\"subcontracting-indication\">none</efbc:TenderSubcontractingRequirementsCode> </efac:TenderSubcontractingRequirements> </efext:EformsExtension> </ext:ExtensionContent> </ext:UBLExtension> </ext:UBLExtensions> <cbc:VariantConstraintCode listName=\"permission\">not-allowed</cbc:VariantConstraintCode> <cbc:FundingProgramCode listName=\"eu-funded\">no-eu-funds</cbc:FundingProgramCode> <cbc:RequiredCurriculaCode listName=\"requirement-stage\">not-requ</cbc:Requir",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 23761,
+            "corpus_end": 25072,
+            "match": "Subcontract"
+          },
+          {
+            "text": "r sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge).</cbc:Description> </efac:SelectionCriteria> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listName=\"cvd-scope\">false</efbc:ApplicableLegalBasis> </efac:StrategicProcurement> <efac:StrategicProcurement> <efbc:ApplicableLegalBasis listName=\"eed-scope\">false</efbc:ApplicableLegalBasis> </efac:StrategicProcurement> <efac:TenderSubcontractingRequirements> <efbc:TenderSubcontractingRequirementsCode listName=\"subcontracting-indication\">none</efbc:TenderSubcontractingRequirementsCode> </efac:TenderSubcontractingRequirements> </efext:EformsExtension> </ext:ExtensionContent> </ext:UBLExtension> </ext:UBLExtensions> <cbc:VariantConstraintCode listName=\"permission\">not-allowed</cbc:VariantConstraintCode> <cbc:FundingProgramCode listName=\"eu-funded\">no-eu-funds</cbc:FundingProgramCode> <cbc:RequiredCurriculaCode listName=\"requirement-stage\">not-requ</cbc:RequiredCurriculaCode> <cbc:RecurringProcurementIndicator>fal",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 23825,
+            "corpus_end": 25136,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "l: 53113 NUTS-3-Code: Bonn, Kreisfreie Stadt (DEA22) Land: Deutschland Internet-Adresse: www.bundeskartellamt.de Rollen dieser Organisation: Überprüfungsstelle Informationen zur Bekanntmachung Kennung/Fassung der Bekanntmachung: 3ee103c0-dab5-4406-b626-308dfe9dd918 - 01 Formulartyp: Wettbewerb Art der Bekanntmachung: Auftrags- oder Konzessionsbekanntmachung – Standardregelung Datum der Übermittlung der Bekanntmachung: 19/08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent>",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9532,
+            "corpus_end": 10845,
+            "match": "specification"
+          },
+          {
+            "text": "ernet-Adresse: www.bundeskartellamt.de Rollen dieser Organisation: Überprüfungsstelle Informationen zur Bekanntmachung Kennung/Fassung der Bekanntmachung: 3ee103c0-dab5-4406-b626-308dfe9dd918 - 01 Formulartyp: Wettbewerb Art der Bekanntmachung: Auftrags- oder Konzessionsbekanntmachung – Standardregelung Datum der Übermittlung der Bekanntmachung: 19/08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType>",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9606,
+            "corpus_end": 10919,
+            "match": "specification"
+          },
+          {
+            "text": "Informationen zur Bekanntmachung Kennung/Fassung der Bekanntmachung: 3ee103c0-dab5-4406-b626-308dfe9dd918 - 01 Formulartyp: Wettbewerb Art der Bekanntmachung: Auftrags- oder Konzessionsbekanntmachung – Standardregelung Datum der Übermittlung der Bekanntmachung: 19/08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode>",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9691,
+            "corpus_end": 11004,
+            "match": "specification"
+          },
+          {
+            "text": "kanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode> </efac:NoticeSubType> <efac:Organizations> <efac:Organization> <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator> <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator> <efac:Company>",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9998,
+            "corpus_end": 11311,
+            "match": "specification"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ticeLanguageCode listName=\"language\">DEU</cbc:NoticeLanguageCode> <cac:ContractingParty> <cac:ContractingPartyType> <cbc:PartyTypeCode listName=\"buyer-legal-type\">omu-bbeh</cbc:PartyTypeCode> </cac:ContractingPartyType> <cac:ContractingActivity> <cbc:ActivityTypeCode listName=\"authority-activity\">defence</cbc:ActivityTypeCode> </cac:ContractingActivity> <cac:Party> <cac:PartyIdentification> <cbc:ID schemeName=\"organization\">ORG-7001</cbc:ID> </cac:PartyIdentification> </cac:Party> </cac:ContractingParty> <cac:TenderingTerms> <cac:ProcurementLegislationDocumentReference> <cbc:ID>vsvgv</cbc:ID> </cac:ProcurementLegislationDocumentReference> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-grounds-source\">epo-notice</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> </cac:TendererQualificationRequest> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-ground\">bankr-nat</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement>",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15094,
+            "corpus_end": 16397,
+            "match": "sla"
+          },
+          {
+            "text": "Party> <cac:ContractingPartyType> <cbc:PartyTypeCode listName=\"buyer-legal-type\">omu-bbeh</cbc:PartyTypeCode> </cac:ContractingPartyType> <cac:ContractingActivity> <cbc:ActivityTypeCode listName=\"authority-activity\">defence</cbc:ActivityTypeCode> </cac:ContractingActivity> <cac:Party> <cac:PartyIdentification> <cbc:ID schemeName=\"organization\">ORG-7001</cbc:ID> </cac:PartyIdentification> </cac:Party> </cac:ContractingParty> <cac:TenderingTerms> <cac:ProcurementLegislationDocumentReference> <cbc:ID>vsvgv</cbc:ID> </cac:ProcurementLegislationDocumentReference> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-grounds-source\">epo-notice</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> </cac:TendererQualificationRequest> <cac:TendererQualificationRequest> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCode listName=\"exclusion-ground\">bankr-nat</cbc:TendererRequirementTypeCode> </cac:SpecificTendererRequirement> <cac:SpecificTendererRequirement> <cbc:TendererRequirementTypeCod",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 15179,
+            "corpus_end": 16482,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "918 - 01 Formulartyp: Wettbewerb Art der Bekanntmachung: Auftrags- oder Konzessionsbekanntmachung – Standardregelung Datum der Übermittlung der Bekanntmachung: 19/08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode> </efac:NoticeSubType> <efac:Organizations> <efac:Organizatio",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9794,
+            "corpus_end": 11103,
+            "match": "extension"
+          },
+          {
+            "text": "bekanntmachung – Standardregelung Datum der Übermittlung der Bekanntmachung: 19/08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode> </efac:NoticeSubType> <efac:Organizations> <efac:Organization> <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicat",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9877,
+            "corpus_end": 11186,
+            "match": "extension"
+          },
+          {
+            "text": "08/2026 08:24 Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode> </efac:NoticeSubType> <efac:Organizations> <efac:Organization> <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator> <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndic",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9957,
+            "corpus_end": 11266,
+            "match": "extension"
+          },
+          {
+            "text": "t: Deutsch ===== FILE: files/Bekanntmachung.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><ContractNotice xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\" xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <ext:UBLExtensions> <ext:UBLExtension> <ext:ExtensionContent> <efext:EformsExtension> <efac:NoticeSubType> <cbc:SubTypeCode listName=\"notice-subtype\">18</cbc:SubTypeCode> </efac:NoticeSubType> <efac:Organizations> <efac:Organization> <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator> <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator> <efac:Company> <cbc:Websi",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 10033,
+            "corpus_end": 11342,
+            "match": "Extension"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "1.7 Strategische Auftragsvergabe Art der strategischen Beschaffung: Keine strategische Beschaffung 5.1.9 Eignungskriterien Quellen der Auswahlkriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung: Vorlage eines Auszuges aus dem Handelsregister (oder vergleichbar für den Bewerber sowie etwaiger vom Bewerber eingesetzter Unterauftragnehmer. Der Auszug aus dem Handelsregister (oder vergleichbar) ist nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bewerber seinen Sitz hat, vorzulegen, und darf nicht älter als ein Jahr sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge). 5.1.10 Zuschlagskriterien Kriterium: Art: Preis Bezeichnung: Preis Beschreibung: Einziges Zuschlagskriterium ist der Preis. Kategorie des Schwellen-Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl : 100 5.1.11 Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Verbindliche Sprachfassung der Vergabeunterlagen: Deutsch Informationen über zugangsbeschränkte Dokumente einsehbar unter: https://www.evergabe-online.de/tenderdetails.html?id=884138 5.1.12 Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Obligatorische Angabe der Vergabe von Unteraufträgen: Keine Angabe der Vergabe von Unteraufträgen",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4113,
+            "corpus_end": 5431,
+            "match": "Zuschlagskriterien"
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "izierungscode (cpv): 80000000 Allgemeine und berufliche Bildung 2.1.2 Erfüllungsort Ort: Todendorf Postleitzahl: 22965 NUTS-3-Code: Stormarn (DEF0F) Land: Deutschland 2.1.4 Allgemeine Informationen Zusätzliche Informationen: Die zur Nutzung der e-Vergabe-Plattform einzusetzenden elektronischen Mittel sind die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform. Diese werden über die mit \"Anwendungen\" bezeichneten Menüpunkte auf www.evergabe-online.de zur Verfügung gestellt. Hierzu gehören für Unternehmen der Angebots- Assistenten (AnA) und der Signatur-Client für Bieter (Sig-Client) für elektronische Signaturen sowie das LV-Cockpit (www.lv-cockpit.de). Die technischen Parameter zur Einreichung von Teilnahmeanträgen, Angeboten und Interessensbestätigungen verwendeten elektronischen Mittel sind durch die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e- Vergabe-Plattform bestimmt. Verwendete Verschlüsselungs- und Zeiterfassungsverfahren sind Bestandteil der Clients der e-Vergabe-Plattform sowie der Plattform selber und der elektronischen Werkzeuge der e-Vergabe- Plattform. Weitergehende Informationen stehen auf https://www.evergabe-online.info bereit. Rechtsgrundlage: Richtlinie 2009/81/EG vsvgv - 2.1.6 Ausschlussgründe Qu",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 798,
+            "corpus_end": 2107,
+            "match": "Signature"
+          },
+          {
+            "text": "Auftragsvergabe Bedingungen für die Einreichung: Obligatorische Angabe der Vergabe von Unteraufträgen: Keine Angabe der Vergabe von Unteraufträgen Elektronische Einreichung: Zulässig Adresse für die Einreichung: https://www.evergabe-online.de/tenderdetails. html?id=884138 Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Deutsch Elektronischer Katalog: Nicht zulässig Nebenangebote: Nicht zulässig Die Bieter können mehrere Angebote einreichen: Nicht zulässig Frist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00 Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können: Die Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nicht ausgeschlossen. Zusätzliche Informationen: keine Auftragsbedingungen: Die Auftragsausführung ist bestimmten Auftragnehmern vorbehalten: Nein Bedingungen für die Ausführung des Auftrags: keine Besonderen Elektronische Rechnungsstellung: Zulässig Aufträge werden elektronisch erteilt: nein Zahlungen werden elektronisch geleistet: nein Wesentliche Finanzierungs- und Zahlungsbedingungen.: Gemäß Bewerbungsbedingungen (Abschlags- und Schlusszahlungen im Rahmen der Verdingungsordnung für Leistungen Teil B (VOL/B)) Vergabe von Unteraufträgen: Es gilt keine Verpflichtung zur Vergabe von Unteraufträgen. 5.1.15",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5284,
+            "corpus_end": 6593,
+            "match": "Erklärung"
+          },
+          {
+            "text": "dung der Bediener-, Richt-, Schieß- und Feuerleitausbildung gegen Seeziele der Marine.</cbc:Description> <cbc:ProcurementTypeCode listName=\"contract-nature\">services</cbc:ProcurementTypeCode> <cbc:Note languageID=\"DEU\">Die zur Nutzung der e-Vergabe-Plattform einzusetzenden elektronischen Mittel sind die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform. Diese werden über die mit \"Anwendungen\" bezeichneten Menüpunkte auf www.evergabe-online.de zur Verfügung gestellt. Hierzu gehören für Unternehmen der Angebots-Assistenten (AnA) und der Signatur-Client für Bieter (Sig-Client) für elektronische Signaturen sowie das LV-Cockpit (www.lv-cockpit.de). Die technischen Parameter zur Einreichung von Teilnahmeanträgen, Angeboten und Interessensbestätigungen verwendeten elektronischen Mittel sind durch die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform bestimmt. Verwendete Verschlüsselungs- und Zeiterfassungsverfahren sind Bestandteil der Clients der e-Vergabe-Plattform sowie der Plattform selber und der elektronischen Werkzeuge der e-Vergabe-Plattform. Weitergehende Informationen stehen auf https://www.evergabe-online.info bereit.</cbc:Note> <cac:MainCommodityClassification> <cbc:ItemClassifi",
+            "source": "files/Bekanntmachung.xml",
+            "source_url": "https://www.evergabe-online.de/download/Bekanntmachung.xml?id=884138&cookieCheck",
+            "source_sha256": "441293324b4d7a6e7765f26f79c84eb933c2035d6ce1accbdf94de5b2910d7b8",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 21123,
+            "corpus_end": 22432,
+            "match": "Signature"
+          }
+        ],
+        "submission": [
+          {
+            "text": "Ort: Todendorf Postleitzahl: 22965 NUTS-3-Code: Stormarn (DEF0F) Land: Deutschland 2.1.4 Allgemeine Informationen Zusätzliche Informationen: Die zur Nutzung der e-Vergabe-Plattform einzusetzenden elektronischen Mittel sind die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e-Vergabe-Plattform. Diese werden über die mit \"Anwendungen\" bezeichneten Menüpunkte auf www.evergabe-online.de zur Verfügung gestellt. Hierzu gehören für Unternehmen der Angebots- Assistenten (AnA) und der Signatur-Client für Bieter (Sig-Client) für elektronische Signaturen sowie das LV-Cockpit (www.lv-cockpit.de). Die technischen Parameter zur Einreichung von Teilnahmeanträgen, Angeboten und Interessensbestätigungen verwendeten elektronischen Mittel sind durch die Clients der e-Vergabe-Plattform und die elektronischen Werkzeuge der e- Vergabe-Plattform bestimmt. Verwendete Verschlüsselungs- und Zeiterfassungsverfahren sind Bestandteil der Clients der e-Vergabe-Plattform sowie der Plattform selber und der elektronischen Werkzeuge der e-Vergabe- Plattform. Weitergehende Informationen stehen auf https://www.evergabe-online.info bereit. Rechtsgrundlage: Richtlinie 2009/81/EG vsvgv - 2.1.6 Ausschlussgründe Quellen der Ausschlussgründe: Bekanntmachung Mit Insolvenz vergleichbares Verfahren: B",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 881,
+            "corpus_end": 2192,
+            "match": "Einreichung"
+          },
+          {
+            "text": "in Jahr sein (gerechnet ab dem Schlusstermin für den Eingang der Teilnahmeanträge). 5.1.10 Zuschlagskriterien Kriterium: Art: Preis Bezeichnung: Preis Beschreibung: Einziges Zuschlagskriterium ist der Preis. Kategorie des Schwellen-Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl : 100 5.1.11 Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Verbindliche Sprachfassung der Vergabeunterlagen: Deutsch Informationen über zugangsbeschränkte Dokumente einsehbar unter: https://www.evergabe-online.de/tenderdetails.html?id=884138 5.1.12 Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Obligatorische Angabe der Vergabe von Unteraufträgen: Keine Angabe der Vergabe von Unteraufträgen Elektronische Einreichung: Zulässig Adresse für die Einreichung: https://www.evergabe-online.de/tenderdetails. html?id=884138 Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Deutsch Elektronischer Katalog: Nicht zulässig Nebenangebote: Nicht zulässig Die Bieter können mehrere Angebote einreichen: Nicht zulässig Frist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00 Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können: Die Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nich",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4670,
+            "corpus_end": 5981,
+            "match": "Einreichung"
+          },
+          {
+            "text": ": Preis Bezeichnung: Preis Beschreibung: Einziges Zuschlagskriterium ist der Preis. Kategorie des Schwellen-Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl : 100 5.1.11 Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Verbindliche Sprachfassung der Vergabeunterlagen: Deutsch Informationen über zugangsbeschränkte Dokumente einsehbar unter: https://www.evergabe-online.de/tenderdetails.html?id=884138 5.1.12 Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Obligatorische Angabe der Vergabe von Unteraufträgen: Keine Angabe der Vergabe von Unteraufträgen Elektronische Einreichung: Zulässig Adresse für die Einreichung: https://www.evergabe-online.de/tenderdetails. html?id=884138 Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Deutsch Elektronischer Katalog: Nicht zulässig Nebenangebote: Nicht zulässig Die Bieter können mehrere Angebote einreichen: Nicht zulässig Frist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00 Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können: Die Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nicht ausgeschlossen. Zusätzliche Informationen: keine Auftragsbedingungen: Die Auftragsausführung ist bestimmten Auftragnehmern",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4796,
+            "corpus_end": 6107,
+            "match": "Einreichung"
+          },
+          {
+            "text": "g: Einziges Zuschlagskriterium ist der Preis. Kategorie des Schwellen-Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl : 100 5.1.11 Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Verbindliche Sprachfassung der Vergabeunterlagen: Deutsch Informationen über zugangsbeschränkte Dokumente einsehbar unter: https://www.evergabe-online.de/tenderdetails.html?id=884138 5.1.12 Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Obligatorische Angabe der Vergabe von Unteraufträgen: Keine Angabe der Vergabe von Unteraufträgen Elektronische Einreichung: Zulässig Adresse für die Einreichung: https://www.evergabe-online.de/tenderdetails. html?id=884138 Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Deutsch Elektronischer Katalog: Nicht zulässig Nebenangebote: Nicht zulässig Die Bieter können mehrere Angebote einreichen: Nicht zulässig Frist für den Eingang der Teilnahmeanträge: 10/09/2026 13:00 Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können: Die Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nicht ausgeschlossen. Zusätzliche Informationen: keine Auftragsbedingungen: Die Auftragsausführung ist bestimmten Auftragnehmern vorbehalten: Nein Bedingungen für die",
+            "source": "files/Bekanntmachung.pdf",
+            "source_url": "https://www.evergabe-online.de/Bekanntmachung.pdf?id=884138&cookieCheck",
+            "source_sha256": "afba82037a4b025107ca3c0a1932355f39215246935696f2e9a0acd285bae7ab",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4834,
+            "corpus_end": 6145,
+            "match": "Einreichung"
+          }
+        ],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32866227394,
+      "source_shard": 3,
+      "hot_ready_at": "2026-08-25T15:32:20.347612+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 29,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "training-services"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df0299-cdb2-10e5-ab56-940001e5a9fb",
+      "title": "„Zorganizowanie i przeprowadzenie kursu urządzeń energetyczno – eksploatacyjnych”",
+      "buyer": "Zespół Szkół Rolniczych Centrum Kształcenia Zawodowego im. Stefana Żeromskiego w Świdwinie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0299-cdb2-10e5-ab56-940001e5a9fb",
+      "deadline": "2026-09-03T07:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 54,
+      "priority_score": 54,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-03T07:00:00+00:00",
+        "notice_deadline_date": "2026-09-03",
+        "authoritative_submission_date": "2026-09-03",
+        "submission_deadline_candidates": [
+          "2026-09-03"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-08-25",
+          "2026-08-27",
+          "2026-09-03",
+          "2026-10-02"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": ": \nTak\n7.6.) Zamawiający przewiduje następujące wymagania związane z realizacją zamówienia:\nobejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane je"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": " Tak\n7.6.) Zamawiający przewiduje następujące wymagania związane z realizacją zamówienia:\n\nobejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 09:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: 2026-09-03 09:10\n8.4.) Termin związania ofertą: do 2026-10-02\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfina"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": "wy ramowej: \n20 miesiące\n4.2.11.) Zamawiający przewiduje wznowienia: \nNie\n4.2.13.) Zamawiający przewiduje udzielenie dotychczasowemu wykonawcy zamówień na podobne usługi lub roboty\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nbudowlane: \nNie\n4.3.) Kryteria oceny ofert\n4.3.1.) Sposób oc"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": " \n20 miesiące\n4.2.11.) Zamawiający przewiduje wznowienia: \nNie\n4.2.13.) Zamawiający przewiduje udzielenie dotychczasowemu wykonawcy zamówień na podobne usługi lub roboty\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nbudowlane: \nNie\n4.3.) Kryteria oceny ofert\n4.3.1.) Sposób oceny ofert: "
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "acją\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wymagania związane z realizacją zamówienia:\nobejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "obejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na "
+          },
+          {
+            "date": "2026-10-02",
+            "match": "2026-10-02",
+            "context": "eczne\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FIL"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": "ia ofert: \n2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszeni"
+          },
+          {
+            "date": "2026-08-25",
+            "match": "2026-08-25",
+            "context": "2026-09-03 09:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-03 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-02\nOgłoszenie nr 2026/BZP 00406209 z dnia 2026-08-25\n2026-08-25 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamów"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "acją zamówienia: Tak\n7.6.) Zamawiający przewiduje następujące wymagania związane z realizacją zamówienia:\n\nobejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 09:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: 2026-09-03 09:10\n8.4.) Termin związania ofertą: do 2026-10-02\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "\n\nobejmujące, zgodnie z art. 96 ustawy: - aspekty społeczne\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 09:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: 2026-09-03 09:10\n8.4.) Termin związania ofertą: do 2026-10-02\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europe"
+          },
+          {
+            "date": "2026-10-02",
+            "match": "2026-10-02",
+            "context": "połeczne\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-03 09:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/\n8.3.) Termin otwarcia ofert: 2026-09-03 09:10\n8.4.) Termin związania ofertą: do 2026-10-02\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramach Prog"
+          },
+          {
+            "date": "2026-08-27",
+            "match": "27 sierpnia 2026",
+            "context": "Zmiana kontrastu Rozmiar Czcionki A A A Język Pomoc kontekstowa Pomoc kontekstowa Moje Konto Moje Konto Moje Konto Zaloguj się Zarejestruj się × MT Jesteś tutaj: Strona główna Przerwa techniczna w dostępie do TED W dniu 27 sierpnia 2026 r. w godzinach 6:30-9:30 planowana jest przerwa techniczna w dostępnie do systemu TED Więcej Jak odzyskać dostęp do konta"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32866227394,
+      "source_shard": 3,
+      "hot_ready_at": "2026-08-25T15:32:20.347612+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 6,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
     }
