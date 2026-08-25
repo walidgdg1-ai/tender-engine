@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-25T08:31:16.215737+00:00",
+  "updated_at": "2026-08-25T09:12:00.651489+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 32826540090,
+  "latest_source_dce_run_id": 32830196866,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
-    "excluded_already_reviewed": 1,
+    "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 181,
+    "pending_before_visible_cap": 182,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -19,14 +19,14 @@
       "LOW_PORTAL_SURVEILLANCE": 20
     },
     "pending_by_fit_band": {
-      "GOOD": 21,
-      "MAYBE": 108,
+      "GOOD": 22,
+      "MAYBE": 107,
       "LOW": 31
     },
     "pending_by_portal": {
-      "TED": 100,
+      "TED": 102,
       "IRELAND_ETENDERS": 5,
-      "US_SAM": 20,
+      "US_SAM": 18,
       "PL_EZAMOWIENIA": 8,
       "GENERIC_PUBLIC_PAGE": 5,
       "SCOTLAND_PCS": 6,
@@ -52,14 +52,14 @@
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "GOOD": 21,
-      "MAYBE": 108,
+      "GOOD": 22,
+      "MAYBE": 107,
       "LOW": 31
     },
     "selected_by_portal": {
-      "TED": 100,
+      "TED": 102,
       "IRELAND_ETENDERS": 5,
-      "US_SAM": 20,
+      "US_SAM": 18,
       "PL_EZAMOWIENIA": 8,
       "GENERIC_PUBLIC_PAGE": 5,
       "SCOTLAND_PCS": 6,
@@ -78,54 +78,53 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "SPM_PRIORITY": 16,
+      "SPM_PRIORITY": 17,
       "DCE_AUTHENTICITY_REPAIR": 4,
-      "LOW_PORTAL_SURVEILLANCE": 20,
-      "ELASTIC_FILL": 1
+      "LOW_PORTAL_SURVEILLANCE": 20
     },
     "selected_by_band": {
       "GOOD": 2,
-      "MAYBE": 14,
-      "LOW": 25
+      "MAYBE": 15,
+      "LOW": 24
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 37,
       "DCE_AUTHENTICITY": 4
     },
     "selected_by_portal": {
-      "TED": 31,
+      "TED": 30,
       "SCOTLAND_PCS": 6,
       "MALTA_EPPS": 1,
-      "EE_RHR": 1,
+      "PL_EZAMOWIENIA": 2,
       "IRELAND_ETENDERS": 1,
-      "PL_EZAMOWIENIA": 1
+      "US_SAM": 1
     }
   },
-  "review_index_count": 4847,
+  "review_index_count": 4853,
   "review_index_counts": {
-    "pending_total_uncapped": 4847,
+    "pending_total_uncapped": 4853,
     "by_stage": {
-      "BUSINESS_GATES": 3562,
+      "BUSINESS_GATES": 3568,
       "DCE_AUTHENTICITY": 1285
     },
     "by_spm_fit_band": {
       "GOOD": 56,
-      "MAYBE": 308,
-      "LOW": 4483
+      "MAYBE": 312,
+      "LOW": 4485
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 4687,
-    "cross_portal_duplicates_collapsed": 0
+    "overflow_beyond_hot_160": 4693,
+    "cross_portal_duplicates_collapsed": 1
   },
-  "true_pending_before_hot_cap": 4847,
-  "overflow_beyond_hot_160": 4687,
+  "true_pending_before_hot_cap": 4853,
+  "overflow_beyond_hot_160": 4693,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 5,
   "recovery_metrics": {
-    "shard_files_scanned": 41,
-    "adjudication_rows_scanned": 162,
+    "shard_files_scanned": 42,
+    "adjudication_rows_scanned": 161,
     "model_review_rows_seen": 37,
     "dce_authenticity_rows_seen": 4,
     "scope_auto_rejected": 0,
@@ -136,11 +135,12 @@
     "overflow_beyond_hot_window": 0
   },
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 41,
-    "adjudication_rows_scanned_this_refresh": 162,
+    "shard_files_scanned_this_refresh": 42,
+    "adjudication_rows_scanned_this_refresh": 161,
     "gate_rows_seen_this_refresh": 37,
     "authenticity_rows_seen_this_refresh": 4,
     "source_runs_seen_this_refresh": [
+      32830196866,
       32826540090,
       32823707896,
       32819700225,
@@ -149,8 +149,7 @@
       32808931494,
       32806550298,
       32803409567,
-      32799627710,
-      32793633927
+      32799627710
     ]
   },
   "healthy": true,
