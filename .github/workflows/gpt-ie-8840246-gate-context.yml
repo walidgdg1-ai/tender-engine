@@ -1,0 +1,92 @@
+name: GPT IE 8840246 Gate Context
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gpt-ie-8840246-gate-context.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Download exact adjudication and extract contexts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/lmsgate && mkdir -p /tmp/lmsgate
+          gh release download dce-harvest-31975449482 --pattern 'dce-adjudication-31975449482.jsonl' --dir /tmp/lmsgate >/dev/null 2>&1
+          python - <<'PY'
+          import json,pathlib,re
+          cid='IE:8840246'
+          fp=pathlib.Path('/tmp/lmsgate/dce-adjudication-31975449482.jsonl')
+          row=None
+          for line in fp.read_text(encoding='utf-8',errors='ignore').splitlines():
+            try:o=json.loads(line)
+            except:continue
+            if str(o.get('candidate_id'))==cid or cid in line:
+              row=o; break
+          if row is None: raise SystemExit('candidate row not found')
+          strings=[]
+          def walk(v,path='root'):
+            if isinstance(v,dict):
+              for k,z in v.items(): walk(z,path+'.'+str(k))
+            elif isinstance(v,list):
+              for i,z in enumerate(v): walk(z,path+f'[{i}]')
+            elif isinstance(v,str) and len(v)>30:
+              strings.append((path,v))
+          walk(row)
+          needles=[
+            'Previous Contracts / Experience','Technical Capacity Requirements','Previous Contracts','Experience – Pass/Fail',
+            'Award Criteria','Personnel','Key Personnel','Team','Qualifications','Insurance','Financial Standing',
+            'turnover exceeded','Implementation','Training','Support and Maintenance','hosting','Learning Management System'
+          ]
+          contexts=[]
+          seen=set()
+          for path,text in strings:
+            low=text.lower()
+            for nd in needles:
+              start=0
+              while True:
+                j=low.find(nd.lower(),start)
+                if j<0: break
+                a=max(0,j-1800); b=min(len(text),j+6500)
+                ctx=text[a:b]
+                key=(nd,ctx[:500])
+                if key not in seen:
+                  seen.add(key); contexts.append({'needle':nd,'path':path,'text':ctx})
+                start=j+max(1,len(nd))
+                if len(contexts)>160: break
+              if len(contexts)>160: break
+            if len(contexts)>160: break
+          payload={'schema':'GPT_IE_8840246_GATE_CONTEXT_V1','candidate_id':cid,'contexts':contexts,'context_count':len(contexts)}
+          out=pathlib.Path('control/evidence/IE_8840246_gate_context.json')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          out.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'contexts':len(contexts)},indent=2))
+          PY
+      - name: Persist
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/evidence/IE_8840246_gate_context.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "review: persist exact Clare LMS gate contexts ${GITHUB_RUN_ID}"
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*2))"
+          done
+          exit 1
