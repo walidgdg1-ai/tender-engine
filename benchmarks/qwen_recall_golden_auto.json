@@ -1,9 +1,9 @@
 {
   "schema": "QWEN_RECALL_CALIBRATION_CORPUS_V1",
-  "generated_at": "2026-08-25T00:52:40+00:00",
-  "case_count": 78,
-  "positive_recall_cases": 77,
-  "frozen_input_cases": 78,
+  "generated_at": "2026-08-25T00:57:41+00:00",
+  "case_count": 79,
+  "positive_recall_cases": 78,
+  "frozen_input_cases": 79,
   "missing_input_candidate_ids": [
     "IE:8623183",
     "IE:8670172",
@@ -156,6 +156,53 @@
           ]
         },
         "calibration_input_frozen_at": "2026-08-25T00:42:04+00:00"
+      }
+    },
+    {
+      "candidate_id": "IE:8840246",
+      "label": "DCE/GPT positive (YELLOW): IE:8840246",
+      "truth_kind": "DCE_GPT_ADJUDICATED_POSITIVE",
+      "expected": {
+        "must_not_reject": true,
+        "min_rank": "MAYBE"
+      },
+      "adjudication": {
+        "classification": "YELLOW",
+        "final_score": 81,
+        "why": "One of the strongest reconstructed lean opportunities: a EUR 160,000 four-year LMS supply, installation and support contract with an authoritative September 18 deadline. However eligibility is not lightweight: the RFT requires turnover above EUR 80,000 in each of the last three years, substantial employer/public/product/cyber insurance, and makes previous-contract experience pass/fail. The major positive is that the RFT explicitly permits consortium/joint venture and reliance on other entities to satisfy turnover, personnel and previous-experience capacity. Strong partner route, but bidder-specific capacity prevents a clean GREEN today.",
+        "action": "HIGH_PRIORITY_FIND_LMS_MOODLE_PARTNER_WITH_REFERENCES_AND_CAPACITY_THEN_BID",
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_85_DOCUMENTS_60_WITH_TEXT_1166845_CHARS",
+        "provenance_file": "control/adjudications/gpt-clare-tourism-lms-20260825.json",
+        "adjudication_schema": "GPT_DCE_ADJUDICATION_V1"
+      },
+      "input_envelope": {
+        "canonical_notice_id": "IE:8840246",
+        "material_fields_hash": "fde3ad6146b3beb2fc724fb51c2d60d69dbe9788fbf19c6a04fc1bc555b6d6dd",
+        "notice": {
+          "candidate_id": "IE:8840246",
+          "source_family": "IE",
+          "source": "IRELAND_ETENDERS",
+          "country": "IE",
+          "buyer": "Clare Tourism Development DAC",
+          "title": "Supply, Installation and Support of a Learning Management System for Clare Tourism Development DAC",
+          "description": "184 Supply, Installation and Support of a Learning Management System for Clare Tourism Development DAC 8840246 Clare Tourism Development DAC 13/08/2026 09:06:17 18/09/2026 13:00:00 Open Tender Submission 160,000.00 1",
+          "cpv_or_category": null,
+          "estimated_value": 160000.0,
+          "currency": "EUR",
+          "publication_date": null,
+          "deadline": "2026-09-18T13:00:00+01:00",
+          "deadline_utc": "2026-09-18T12:00:00+00:00",
+          "open_state": "OPEN_CONFIRMED_BY_DEADLINE",
+          "procedure": null,
+          "lots": null,
+          "notice_eligibility": null,
+          "award_criteria": null,
+          "subcontracting": null,
+          "urls": [
+            "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8840246"
+          ]
+        },
+        "calibration_input_frozen_at": "2026-08-25T00:57:41+00:00"
       }
     },
     {
