@@ -1,23 +1,23 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32915176464,
-  "generated_at": "2026-08-26T01:52:19.123261+00:00",
-  "snapshot_rows": 124070,
-  "current_materialized_rows": 95926,
-  "carried_forward_rows": 28144,
+  "source_discovery_run": 32920692968,
+  "generated_at": "2026-08-26T03:02:09.489288+00:00",
+  "snapshot_rows": 123524,
+  "current_materialized_rows": 95347,
+  "carried_forward_rows": 28177,
   "carried_forward_by_source": {
     "DE": 6367,
-    "UK_PCS_OCDS": 3788,
+    "UK_PCS_OCDS": 3832,
     "PL": 3439,
     "ZA_ETENDERS_OCDS": 2355,
-    "ES_PLACSP": 2311,
+    "ES_PLACSP": 2289,
     "FR": 2157,
-    "GR_KHMDHS": 1516,
+    "GR_KHMDHS": 1512,
     "WORLD_BANK_PROCUREMENT": 1446,
     "UK_FTS_OCDS": 982,
     "PT_BASE_OPEN": 638,
     "UNKNOWN": 576,
-    "SK_UVO": 517,
+    "SK_UVO": 518,
     "NO_DOFFIN": 507,
     "CZ_ZAKAZKY_GOV": 363,
     "CH_SIMAP": 317,
@@ -29,6 +29,7 @@
     "MT": 31,
     "US_SAM": 30,
     "IE": 25,
+    "DK": 14,
     "CA": 4,
     "UNGM_PUBLIC": 2,
     "EE_RHR": 2,
@@ -37,10 +38,10 @@
     "TED": 2
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 107847,
-    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 16223
+    "OPEN_CONFIRMED_BY_DEADLINE": 107263,
+    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 16261
   },
-  "packet_count": 249,
+  "packet_count": 248,
   "coverage_status": "PARTIAL_WORLD_COVERAGE",
   "failed_sources": [
     "discovery-global-au-austender",
@@ -55,7 +56,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32915176464",
+  "immutable_release_tag": "live-world-snapshot-32920692968",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
