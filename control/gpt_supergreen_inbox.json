@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-08-26T10:22:29.093373+00:00",
-  "latest_source_dce_run_id": 32957539964,
+  "updated_at": "2026-08-26T10:55:38.120069+00:00",
+  "latest_source_dce_run_id": 32960617634,
   "review_queue": [
     {
       "candidate_id": "IE:8913321",
@@ -2100,7 +2100,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 0,
@@ -2406,7 +2406,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 0,
@@ -3009,7 +3009,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 1,
@@ -3820,7 +3820,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -4889,7 +4889,7 @@
       "gpt_priority_score": 44,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 0,
@@ -5933,7 +5933,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -6781,7 +6781,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 3,
@@ -8065,7 +8065,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -8519,7 +8519,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 2,
@@ -9837,12 +9837,499 @@
       "gpt_priority_score": 20,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
         "candidate_id": "TED:572508-2026",
         "release_tag": "dce-harvest-32950555022"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:1967c44910f849f8835486d88b276c97",
+      "title": "6515--Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections at Base Plus Four Option Years",
+      "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/1967c44910f849f8835486d88b276c97/view",
+      "deadline": "2026-09-09T22:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-09-09T22:00:00+00:00",
+        "notice_deadline_date": "2026-09-09",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-03-13",
+          "2026-08-31",
+          "2026-09-09"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any a\nt to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-03-13",
+            "match": "March 13th, 2026",
+            "context": "awarding a firm-fixed price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. \nThe North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business si\n\n===== FILE: files/36C25926Q0797.docx =====\nGENERAL INF"
+          },
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-03-13",
+            "match": "March 13th, 2026",
+            "context": "awarding a firm-fixed price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. \nThe North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unr"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 3,
+          "corpus_contexts": 3,
+          "unique_contexts": 5
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 10,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "acting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements (DEVIATION NOV 2025) | Other X | 52.222-54 | Employment Eligibility Verification (DEVIATION NOV 2025) | EO X | 52.222-62 | Paid Sick Leave Under Executive Order 13706 (DEVIATION NOV 2025) | EO X | 52.222-90 | Addressing DEI Discrimination by Federal Contractors (APR 2026) | EO X | 52.223-20 | Aerosols (MAY 2024) | Statute | 52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute X | 52.224-3 with Alt I | Privacy Training, with Alternate I (JAN 2017) | Statute X | 52.225-3 | Buy American-Free Trade Agreements-Israeli Trade Act (DEVIATION NOV 2025) | Statute X | 52.226-8 | Encouraging Contractor Policies to Ban Text Messaging While Driving (MAY",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12966,
+            "corpus_end": 14277,
+            "match": "Eligibility"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "ess of price. The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement. The Government may determine that an offer is unacceptable if the option prices are significantly unbalanced. The evaluation of options does not obligate the Government to exercise the option(s) (End of Addendum to 52.212-2) 52.212-4, Contract Terms and Conditions--Commercial Items – applies to this acquisition Any inconsistencies in this solicitation or contract shall be resolved by giving precedence IAW 52.212-4(r). By submitting a quote, the offeror understands that quotes will not be referenced in 1449 and clauses incorporated in the solicitation will dictate the contract. All offerors shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under the contract IAW RFO 52.212-4(q). The Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7041,
+            "corpus_end": 8350,
+            "match": "reference"
+          },
+          {
+            "text": "his solicitation or contract shall be resolved by giving precedence IAW 52.212-4(r). By submitting a quote, the offeror understands that quotes will not be referenced in 1449 and clauses incorporated in the solicitation will dictate the contract. All offerors shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under the contract IAW RFO 52.212-4(q). The Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to the prevailing labor rates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7535,
+            "corpus_end": 8844,
+            "match": "reference"
+          },
+          {
+            "text": "m of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted with the quotation or offer. Copies of these provisions or clauses are available on the Internet at the web sites provided in the provision at RFO 52.252-1, Solicitation Provisions Incorporated by Reference. Copies may also be obtained from the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 htt",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8883,
+            "corpus_end": 10192,
+            "match": "reference"
+          },
+          {
+            "text": "preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted with the quotation or offer. Copies of these provisions or clauses are available on the Internet at the web sites provided in the provision at RFO 52.252-1, Solicitation Provisions Incorporated by Reference. Copies may also be obtained from the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 https://www.acquisition.gov/vaar The following RFO provisions are to be incorporated by reference: The Defense Priorities a",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9004,
+            "corpus_end": 10313,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2336,
+            "corpus_end": 3649,
+            "match": "Certification"
+          },
+          {
+            "text": "ce are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2373,
+            "corpus_end": 3686,
+            "match": "certification"
+          },
+          {
+            "text": "om the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 https://www.acquisition.gov/vaar The following RFO provisions are to be incorporated by reference: The Defense Priorities and Allocations System (DPAS) does not apply. Date and Time offers are due to Ernest.Appiah@va.gov by 16:00 (4:00PM) MT, September 9th, 2026. Name and email of the individual to contact for information regarding the solicitation: Ernest Appiah Ernest.Appiah@va.gov See attached document: Statement of Need 36C25926Q0797. See attached document: FAR 52.225-4 Free Trade Agreement-Israeli Trade Act Certificate. SUBJECT* | Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections at Base Plus Four Option Years CONTRACTING OFFICE’S ZIP CODE* | 80111 SOLICITATION NUMBER* | 36C25926Q0797 RESPONSE DATE/TIME/ZONE | 09-09-2026 16:00 MOUNTAIN TIME, DENVER, USA ARCHIVE | 90 DAYS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS | N SET-ASIDE | PRODUCT SERVICE CODE* | 6515 NAICS CODE* | 334516 CONTRACTING OFFICE ADDRESS | Department of Veterans Affairs Network Contracting Office NCO 19 6162 South Willow Drive, Suite 300 Greenwood Village CO 80111 POINT OF CONTACT* | Contract Specialist (CS) Ernest A",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10060,
+            "corpus_end": 11371,
+            "match": "Certificate"
+          },
+          {
+            "text": "247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 | Notice of Intent to Re-solicit (OCT 2019) Applicable (X) | Number | Title | Source X | 52.203-18 | Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation (JAN 2017) | Statute X | 52.204-7 | System for Award Management—Registration (DEVIATION NOV 2025) | Statute X | 52.222-48 | Exemption from Application of the Service Contract Labor Standards for Maintenance, Calibration, or Repair of Certain Equipment–Certification (DEVIATION NOV 2025) | Other X | 52.225-4 | Buy American-Free Trade Agreements-Israeli Trade Act Certificate (DEVIATION NOV 2025) | Statute X | 52.229-11 | Tax on Certain Foreign Procurements—Notice and Representation (DEVIATION SEP 2025) | Statute X | 52.240-90 | Security Prohibitions and Exclusions Representations and Certifications (DEVIATION NOV 2025) | Statute ===== FILE: files/FAR_52.225-4_Free_Trade_Agreement-Israeli_Trade_Act_Certificate.docx ===== 52.225-4 Buy American-Free Trade Agreements-Israeli Trade Act Certificate. As prescribed in 25.601(b)(2)(i), insert the following provision: Buy American-Free Trade Agreements-Israeli Tra",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 15423,
+            "corpus_end": 16736,
+            "match": "Certification"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "n Year Two (2)- 9/30/2028 to 9/28/2029 | 1 | YR | | 3001 | Instrument Maintenance Option Year Three (3)- 9/30/2029 to 9/28/2030 | 1 | YR | | 4001 | Instrument Maintenance Option Year Four (4)- 9/30/2030 to 9/28/2031 | 1 | YR | | | | | | Grand Total ($) | Applicable (X) | Number | Title | Source X | 52.203-17 | Contractor Employee Whistleblower Rights (NOV 2023) | Statute X | 52.203-19 | Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (JAN 2017) | Statute X | 52.204-13 | System for Award Management—Maintenance (DEVIATION NOV 2025) | Statute X | 52.209-6 | Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment (DEVIATION NOV 2025) | Statute X | 52.209-10 | Prohibition on Contracting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contr",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12170,
+            "corpus_end": 13481,
+            "match": "Subcontract"
+          },
+          {
+            "text": "52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute X | 52.224-3 with Alt I | Privacy Training, with Alternate I (JAN 2017) | Statute X | 52.225-3 | Buy American-Free Trade Agreements-Israeli Trade Act (DEVIATION NOV 2025) | Statute X | 52.226-8 | Encouraging Contractor Policies to Ban Text Messaging While Driving (MAY 2024) | EO X | 52.229-12 | Tax on Certain Foreign Procurements (DEVIATION SEP 2025) | Statute X | 52.232-33 | Payment by Electronic Funds Transfer—System for Award Management (OCT 2018) | Statute X | 52.232-40 | Providing Accelerated Payments to Small Business Subcontractors (MAR 2023) | Statute X | 52.233-3 | Protest After Award (DEVIATION NOV 2025) | Statute X | 52.233-4 | Applicable Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimburseme",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13888,
+            "corpus_end": 15199,
+            "match": "Subcontract"
+          },
+          {
+            "text": "| EO X | 52.229-12 | Tax on Certain Foreign Procurements (DEVIATION SEP 2025) | Statute X | 52.232-33 | Payment by Electronic Funds Transfer—System for Award Management (OCT 2018) | Statute X | 52.232-40 | Providing Accelerated Payments to Small Business Subcontractors (MAR 2023) | Statute X | 52.233-3 | Protest After Award (DEVIATION NOV 2025) | Statute X | 52.233-4 | Applicable Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimbursement for Data Breach Costs (FEB 2023) VAAR 852.212-72 | Gray Market and Counterfeit Items (FEB 2023) VAAR 852.232-72 | Electronic Submission of Payment Requests (NOV 2018) VAAR 852.246-71 | Rejected Goods (OCT 2018) VAAR 852.247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 |",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14283,
+            "corpus_end": 15594,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "lure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unrestricted. List of Line Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide A",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1520,
+            "corpus_end": 2832,
+            "match": "Requirements"
+          },
+          {
+            "text": "nd will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3129,
+            "corpus_end": 4435,
+            "match": "volume"
+          },
+          {
+            "text": "ion, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3603,
+            "corpus_end": 4909,
+            "match": "volume"
+          },
+          {
+            "text": "Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided in Section (v) above: Price/Cost Schedule. The offeror shall price the base and all option year line item",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3708,
+            "corpus_end": 5014,
+            "match": "Volume"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "for Award Management—Maintenance (DEVIATION NOV 2025) | Statute X | 52.209-6 | Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment (DEVIATION NOV 2025) | Statute X | 52.209-10 | Prohibition on Contracting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements (DEVIATION NOV 2025) | Other X | 52.222-54 | Employment Eligibility Verification (DEVIATION NOV 2025) | EO X | 52.222-62 | Paid Sick Leave Under Executive Order 13706 (DEVIATION NOV 2025) | EO X | 52.222-90 | Addressing DEI Discrimination by Federal Contractors (APR 2026) | EO X | 52.223-20 | Aerosols (MAY 2024) | Statute | 52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12698,
+            "corpus_end": 14007,
+            "match": "in Person"
+          },
+          {
+            "text": "). The POC monitors all technical aspects of the contract and assists in contract administration. The POC is authorized to perform the following functions: assure that the Contractor performs the technical requirements of the contract: perform inspections necessary in connection with contract performance: maintain written and oral communications with the Contractor concerning technical aspects of the contract: issue written interpretations of technical requirements, including Government drawings, designs, specifications: monitor Contractor's performance and notifies both the Contracting Officer and Contractor of any deficiencies; coordinate availability of government furnished property, and provide site entry of Contractor personnel. The POC is not authorized to change any of the terms and conditions of the resulting order. (End of Statement of Need) ===== FILE: files/sam_http_resources.json ===== { \"notice_id\": \"1967c44910f849f8835486d88b276c97\", \"resources\": [ { \"resource_id\": \"40b561a0ecb34199b549cb920e381541\", \"name\": \"FAR 52.225-4 Free Trade Agreement-Israeli Trade Act Certificate.docx\", \"access\": \"0\", \"deleted\": null, \"path\": \"root._embedded.opportunityAttachmentList[0].attachments[0]\" }, { \"resource_id\": \"9d11527cac0f4bcd99013183",
+            "source": "files/Statement_of_Need_36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/9d1/9d11527cac0f4bcd9901318306836cbd.docx?response-content-disposition=attachment%3B%20filename%3DStatement%2Bof%2BNeed%2B36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a3fb4dbe1a6b27871c8ee74dae5e796544a8b5ee964015dc16188fd9dba04a92",
+            "source_sha256": "90c6e914d461a6c2126d366358f3eb5b0fc8de0de63dbafb998c1f615fdaf8c0",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22304,
+            "corpus_end": 23616,
+            "match": "availability"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/36C25926Q0797.docx ===== GENERAL INFORMATION PLACE OF PERFORMANCE ADDITIONAL INFORMATION DESCRIPTION Request for Quote (RFQ) #: 36C25926Q0797 Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument with Maintenance for Bloodstream Infections-Base plus four option years This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Revolutionary FAR Overhaul (RFO) Part 12. This announcement constitutes only solicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. * The deadline for all questions is 10:00 AM MT August 31st, 2026. All questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Er",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 967,
+            "match": "option year"
+          },
+          {
+            "text": "d (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided in Section (v) above: Price/Cost Schedule. The offeror shall price the base and all option year line items. (End of Addendum to 52.212-1) 52.212-2, Evaluation--Commercial Items applies to this acquisition. ADDENDUM to RFO 52.212-2 EVALUATION—COMMERCIAL ITEMS: The Government will award a contract resulting from this solicitation to the offeror responsible whose offer conforming to the solicitation will be most advantageous to the Government considering price and other factors. The following factors shall be used to evaluate quotations: Factor I. Technical capability or quality offered to meet the Government requirement Factor II. Price Evaluation Approach. The Government will award a contract resulting from this solicitation",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4343,
+            "corpus_end": 5654,
+            "match": "option year"
+          },
+          {
+            "text": "e Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to the prevailing labor rates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000) (a) The Government may extend the term of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this opti",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7971,
+            "corpus_end": 9280,
+            "match": "extension"
+          },
+          {
+            "text": "ates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000) (a) The Government may extend the term of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8512,
+            "corpus_end": 9821,
+            "match": "extension"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any authorized amendments) reach the designated office before the deadline specified in the solicitation. This RFQ shall be completed in its entirety, and signed and dated, failure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unrestricted. List of Line Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition ",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1040,
+            "corpus_end": 7585,
+            "match": "price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are"
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ne Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define th",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2145,
+            "corpus_end": 22924,
+            "match": "Schedule (MAS) contract, or VA-wide Acquisition Contract.\nIf the acquisition is set-aside for SDVOSBs/VOSBs, their socio"
+          }
+        ],
+        "submission": [
+          {
+            "text": "== GENERAL INFORMATION PLACE OF PERFORMANCE ADDITIONAL INFORMATION DESCRIPTION Request for Quote (RFQ) #: 36C25926Q0797 Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument with Maintenance for Bloodstream Infections-Base plus four option years This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Revolutionary FAR Overhaul (RFO) Part 12. This announcement constitutes only solicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. * The deadline for all questions is 10:00 AM MT August 31st, 2026. All questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026. Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any a",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 41,
+            "corpus_end": 1349,
+            "match": "deadline"
+          },
+          {
+            "text": "tions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026. Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any authorized amendments) reach the designated office before the deadline specified in the solicitation. This RFQ shall be completed in its entirety, and signed and dated, failure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business si",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 760,
+            "corpus_end": 2068,
+            "match": "deadline"
+          },
+          {
+            "text": "Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimbursement for Data Breach Costs (FEB 2023) VAAR 852.212-72 | Gray Market and Counterfeit Items (FEB 2023) VAAR 852.232-72 | Electronic Submission of Payment Requests (NOV 2018) VAAR 852.246-71 | Rejected Goods (OCT 2018) VAAR 852.247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 | Notice of Intent to Re-solicit (OCT 2019) Applicable (X) | Number | Title | Source X | 52.203-18 | Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation (JAN 2017) | Statute X | 52.204-7 | System for Award Management—Registration (DEVIATION NOV 2025) | Statute X | 52.222-48 | Exemption from Application of the Service",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14666,
+            "corpus_end": 15987,
+            "match": "Electronic Submission"
+          }
+        ],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32960617634,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-26T10:55:33.005511+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 20,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "b79af4cfbb24d851303695f992e6457bb7883b3bda69809209c75cc041a6a3cd",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 20,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32960617634,
+        "shard": 1,
+        "candidate_id": "US-SAM:1967c44910f849f8835486d88b276c97",
+        "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -10094,7 +10581,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -10781,7 +11268,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -10949,7 +11436,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -11093,7 +11580,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -11235,7 +11722,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -11360,7 +11847,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -12276,7 +12763,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 3,
@@ -12664,7 +13151,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 0,
@@ -13126,7 +13613,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 1,
@@ -13490,7 +13977,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 3,
@@ -14390,7 +14877,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -15240,7 +15727,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 1,
@@ -16184,7 +16671,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -20133,7 +20620,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 3,
@@ -20529,7 +21016,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 2,
@@ -21443,7 +21930,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 4,
@@ -21829,7 +22316,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 0,
@@ -23209,7 +23696,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 3,
@@ -23711,7 +24198,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 4,
@@ -24188,7 +24675,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -24802,7 +25289,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 3,
@@ -25240,7 +25727,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 3,
@@ -25737,7 +26224,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
@@ -26240,7 +26727,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 2,
@@ -26718,7 +27205,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -27363,7 +27850,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 2,
@@ -27968,7 +28455,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 4,
@@ -28590,7 +29077,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 0,
@@ -28756,7 +29243,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -30865,7 +31352,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 0,
@@ -31171,7 +31658,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 0,
@@ -31774,7 +32261,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 1,
@@ -32585,7 +33072,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -33654,7 +34141,7 @@
       "gpt_priority_score": 44,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 0,
@@ -34698,7 +35185,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -35546,7 +36033,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 3,
@@ -36830,7 +37317,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -37284,7 +37771,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 2,
@@ -38602,12 +39089,499 @@
       "gpt_priority_score": 20,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
         "candidate_id": "TED:572508-2026",
         "release_tag": "dce-harvest-32950555022"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:1967c44910f849f8835486d88b276c97",
+      "title": "6515--Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections at Base Plus Four Option Years",
+      "buyer": "VETERANS AFFAIRS, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/1967c44910f849f8835486d88b276c97/view",
+      "deadline": "2026-09-09T22:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-09-09T22:00:00+00:00",
+        "notice_deadline_date": "2026-09-09",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-03-13",
+          "2026-08-31",
+          "2026-09-09"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any a\nt to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-03-13",
+            "match": "March 13th, 2026",
+            "context": "awarding a firm-fixed price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. \nThe North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business si\n\n===== FILE: files/36C25926Q0797.docx =====\nGENERAL INF"
+          },
+          {
+            "date": "2026-08-31",
+            "match": "August 31st, 2026",
+            "context": "olicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. \n* The deadline for all questions is 10:00 AM MT August 31st, 2026.\nAll questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernes"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-09-09",
+            "match": "September 9th, 2026",
+            "context": "ater than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation.\n** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026.\nQuotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quot"
+          },
+          {
+            "date": "2026-03-13",
+            "match": "March 13th, 2026",
+            "context": "awarding a firm-fixed price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. \nThe North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unr"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 3,
+          "corpus_contexts": 3,
+          "unique_contexts": 5
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 10,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "acting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements (DEVIATION NOV 2025) | Other X | 52.222-54 | Employment Eligibility Verification (DEVIATION NOV 2025) | EO X | 52.222-62 | Paid Sick Leave Under Executive Order 13706 (DEVIATION NOV 2025) | EO X | 52.222-90 | Addressing DEI Discrimination by Federal Contractors (APR 2026) | EO X | 52.223-20 | Aerosols (MAY 2024) | Statute | 52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute X | 52.224-3 with Alt I | Privacy Training, with Alternate I (JAN 2017) | Statute X | 52.225-3 | Buy American-Free Trade Agreements-Israeli Trade Act (DEVIATION NOV 2025) | Statute X | 52.226-8 | Encouraging Contractor Policies to Ban Text Messaging While Driving (MAY",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12966,
+            "corpus_end": 14277,
+            "match": "Eligibility"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "ess of price. The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement. The Government may determine that an offer is unacceptable if the option prices are significantly unbalanced. The evaluation of options does not obligate the Government to exercise the option(s) (End of Addendum to 52.212-2) 52.212-4, Contract Terms and Conditions--Commercial Items – applies to this acquisition Any inconsistencies in this solicitation or contract shall be resolved by giving precedence IAW 52.212-4(r). By submitting a quote, the offeror understands that quotes will not be referenced in 1449 and clauses incorporated in the solicitation will dictate the contract. All offerors shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under the contract IAW RFO 52.212-4(q). The Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7041,
+            "corpus_end": 8350,
+            "match": "reference"
+          },
+          {
+            "text": "his solicitation or contract shall be resolved by giving precedence IAW 52.212-4(r). By submitting a quote, the offeror understands that quotes will not be referenced in 1449 and clauses incorporated in the solicitation will dictate the contract. All offerors shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under the contract IAW RFO 52.212-4(q). The Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to the prevailing labor rates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7535,
+            "corpus_end": 8844,
+            "match": "reference"
+          },
+          {
+            "text": "m of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted with the quotation or offer. Copies of these provisions or clauses are available on the Internet at the web sites provided in the provision at RFO 52.252-1, Solicitation Provisions Incorporated by Reference. Copies may also be obtained from the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 htt",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8883,
+            "corpus_end": 10192,
+            "match": "reference"
+          },
+          {
+            "text": "preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted with the quotation or offer. Copies of these provisions or clauses are available on the Internet at the web sites provided in the provision at RFO 52.252-1, Solicitation Provisions Incorporated by Reference. Copies may also be obtained from the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 https://www.acquisition.gov/vaar The following RFO provisions are to be incorporated by reference: The Defense Priorities a",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9004,
+            "corpus_end": 10313,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2336,
+            "corpus_end": 3649,
+            "match": "Certification"
+          },
+          {
+            "text": "ce are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2373,
+            "corpus_end": 3686,
+            "match": "certification"
+          },
+          {
+            "text": "om the contracting officer. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52#FAR_52_252_1 https://www.acquisition.gov/vaar The following RFO provisions are to be incorporated by reference: The Defense Priorities and Allocations System (DPAS) does not apply. Date and Time offers are due to Ernest.Appiah@va.gov by 16:00 (4:00PM) MT, September 9th, 2026. Name and email of the individual to contact for information regarding the solicitation: Ernest Appiah Ernest.Appiah@va.gov See attached document: Statement of Need 36C25926Q0797. See attached document: FAR 52.225-4 Free Trade Agreement-Israeli Trade Act Certificate. SUBJECT* | Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections at Base Plus Four Option Years CONTRACTING OFFICE’S ZIP CODE* | 80111 SOLICITATION NUMBER* | 36C25926Q0797 RESPONSE DATE/TIME/ZONE | 09-09-2026 16:00 MOUNTAIN TIME, DENVER, USA ARCHIVE | 90 DAYS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS | N SET-ASIDE | PRODUCT SERVICE CODE* | 6515 NAICS CODE* | 334516 CONTRACTING OFFICE ADDRESS | Department of Veterans Affairs Network Contracting Office NCO 19 6162 South Willow Drive, Suite 300 Greenwood Village CO 80111 POINT OF CONTACT* | Contract Specialist (CS) Ernest A",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10060,
+            "corpus_end": 11371,
+            "match": "Certificate"
+          },
+          {
+            "text": "247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 | Notice of Intent to Re-solicit (OCT 2019) Applicable (X) | Number | Title | Source X | 52.203-18 | Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation (JAN 2017) | Statute X | 52.204-7 | System for Award Management—Registration (DEVIATION NOV 2025) | Statute X | 52.222-48 | Exemption from Application of the Service Contract Labor Standards for Maintenance, Calibration, or Repair of Certain Equipment–Certification (DEVIATION NOV 2025) | Other X | 52.225-4 | Buy American-Free Trade Agreements-Israeli Trade Act Certificate (DEVIATION NOV 2025) | Statute X | 52.229-11 | Tax on Certain Foreign Procurements—Notice and Representation (DEVIATION SEP 2025) | Statute X | 52.240-90 | Security Prohibitions and Exclusions Representations and Certifications (DEVIATION NOV 2025) | Statute ===== FILE: files/FAR_52.225-4_Free_Trade_Agreement-Israeli_Trade_Act_Certificate.docx ===== 52.225-4 Buy American-Free Trade Agreements-Israeli Trade Act Certificate. As prescribed in 25.601(b)(2)(i), insert the following provision: Buy American-Free Trade Agreements-Israeli Tra",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 15423,
+            "corpus_end": 16736,
+            "match": "Certification"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "n Year Two (2)- 9/30/2028 to 9/28/2029 | 1 | YR | | 3001 | Instrument Maintenance Option Year Three (3)- 9/30/2029 to 9/28/2030 | 1 | YR | | 4001 | Instrument Maintenance Option Year Four (4)- 9/30/2030 to 9/28/2031 | 1 | YR | | | | | | Grand Total ($) | Applicable (X) | Number | Title | Source X | 52.203-17 | Contractor Employee Whistleblower Rights (NOV 2023) | Statute X | 52.203-19 | Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (JAN 2017) | Statute X | 52.204-13 | System for Award Management—Maintenance (DEVIATION NOV 2025) | Statute X | 52.209-6 | Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment (DEVIATION NOV 2025) | Statute X | 52.209-10 | Prohibition on Contracting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contr",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12170,
+            "corpus_end": 13481,
+            "match": "Subcontract"
+          },
+          {
+            "text": "52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute X | 52.224-3 with Alt I | Privacy Training, with Alternate I (JAN 2017) | Statute X | 52.225-3 | Buy American-Free Trade Agreements-Israeli Trade Act (DEVIATION NOV 2025) | Statute X | 52.226-8 | Encouraging Contractor Policies to Ban Text Messaging While Driving (MAY 2024) | EO X | 52.229-12 | Tax on Certain Foreign Procurements (DEVIATION SEP 2025) | Statute X | 52.232-33 | Payment by Electronic Funds Transfer—System for Award Management (OCT 2018) | Statute X | 52.232-40 | Providing Accelerated Payments to Small Business Subcontractors (MAR 2023) | Statute X | 52.233-3 | Protest After Award (DEVIATION NOV 2025) | Statute X | 52.233-4 | Applicable Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimburseme",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13888,
+            "corpus_end": 15199,
+            "match": "Subcontract"
+          },
+          {
+            "text": "| EO X | 52.229-12 | Tax on Certain Foreign Procurements (DEVIATION SEP 2025) | Statute X | 52.232-33 | Payment by Electronic Funds Transfer—System for Award Management (OCT 2018) | Statute X | 52.232-40 | Providing Accelerated Payments to Small Business Subcontractors (MAR 2023) | Statute X | 52.233-3 | Protest After Award (DEVIATION NOV 2025) | Statute X | 52.233-4 | Applicable Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimbursement for Data Breach Costs (FEB 2023) VAAR 852.212-72 | Gray Market and Counterfeit Items (FEB 2023) VAAR 852.232-72 | Electronic Submission of Payment Requests (NOV 2018) VAAR 852.246-71 | Rejected Goods (OCT 2018) VAAR 852.247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 |",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14283,
+            "corpus_end": 15594,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "lure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unrestricted. List of Line Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide A",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1520,
+            "corpus_end": 2832,
+            "match": "Requirements"
+          },
+          {
+            "text": "nd will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3129,
+            "corpus_end": 4435,
+            "match": "volume"
+          },
+          {
+            "text": "ion, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3603,
+            "corpus_end": 4909,
+            "match": "volume"
+          },
+          {
+            "text": "Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define the quote and provide an adequate basis for evaluation. Offerors are responsible for including sufficient details, in a concise manner, to permit a complete and accurate evaluation of each quote. ADDENDUM to RFO 52.212-1 INSTRUCTIONS TO OFFERORS—COMMERCIAL Submission of quote shall include the following volumes: (I) Technical capability or quality offered to meet the Government requirement and (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided in Section (v) above: Price/Cost Schedule. The offeror shall price the base and all option year line item",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3708,
+            "corpus_end": 5014,
+            "match": "Volume"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "for Award Management—Maintenance (DEVIATION NOV 2025) | Statute X | 52.209-6 | Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment (DEVIATION NOV 2025) | Statute X | 52.209-10 | Prohibition on Contracting with Inverted Domestic Corporations DEVIATION NOV 2025) | Statute X | 52.219-4 | Notice of Price Evaluation Preference for HUBZone Small Business Concerns (DEVIATION NOV 2025) | Statute X | 52.222-3 | Convict Labor (DEVIATION NOV 2025) | EO X | 52.222-19 | Child Labor—Cooperation with Authorities and Remedies (DEVIATION NOV 2025) | EO X | 52.222-50 | Combating Trafficking in Persons (DEVIATION NOV 2025) | Statute X | 52.222-51 | Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements (DEVIATION NOV 2025) | Other X | 52.222-54 | Employment Eligibility Verification (DEVIATION NOV 2025) | EO X | 52.222-62 | Paid Sick Leave Under Executive Order 13706 (DEVIATION NOV 2025) | EO X | 52.222-90 | Addressing DEI Discrimination by Federal Contractors (APR 2026) | EO X | 52.223-20 | Aerosols (MAY 2024) | Statute | 52.223-21 | Foams (MAY 2024) | Statute X | 52.223-23 | Sustainable Products and Services (DEVIATION NOV 2025) | Statute",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12698,
+            "corpus_end": 14007,
+            "match": "in Person"
+          },
+          {
+            "text": "). The POC monitors all technical aspects of the contract and assists in contract administration. The POC is authorized to perform the following functions: assure that the Contractor performs the technical requirements of the contract: perform inspections necessary in connection with contract performance: maintain written and oral communications with the Contractor concerning technical aspects of the contract: issue written interpretations of technical requirements, including Government drawings, designs, specifications: monitor Contractor's performance and notifies both the Contracting Officer and Contractor of any deficiencies; coordinate availability of government furnished property, and provide site entry of Contractor personnel. The POC is not authorized to change any of the terms and conditions of the resulting order. (End of Statement of Need) ===== FILE: files/sam_http_resources.json ===== { \"notice_id\": \"1967c44910f849f8835486d88b276c97\", \"resources\": [ { \"resource_id\": \"40b561a0ecb34199b549cb920e381541\", \"name\": \"FAR 52.225-4 Free Trade Agreement-Israeli Trade Act Certificate.docx\", \"access\": \"0\", \"deleted\": null, \"path\": \"root._embedded.opportunityAttachmentList[0].attachments[0]\" }, { \"resource_id\": \"9d11527cac0f4bcd99013183",
+            "source": "files/Statement_of_Need_36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/9d1/9d11527cac0f4bcd9901318306836cbd.docx?response-content-disposition=attachment%3B%20filename%3DStatement%2Bof%2BNeed%2B36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a3fb4dbe1a6b27871c8ee74dae5e796544a8b5ee964015dc16188fd9dba04a92",
+            "source_sha256": "90c6e914d461a6c2126d366358f3eb5b0fc8de0de63dbafb998c1f615fdaf8c0",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22304,
+            "corpus_end": 23616,
+            "match": "availability"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/36C25926Q0797.docx ===== GENERAL INFORMATION PLACE OF PERFORMANCE ADDITIONAL INFORMATION DESCRIPTION Request for Quote (RFQ) #: 36C25926Q0797 Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument with Maintenance for Bloodstream Infections-Base plus four option years This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Revolutionary FAR Overhaul (RFO) Part 12. This announcement constitutes only solicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. * The deadline for all questions is 10:00 AM MT August 31st, 2026. All questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Er",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 967,
+            "match": "option year"
+          },
+          {
+            "text": "d (II) Price. Volume I - Technical capability or quality to meet the Government requirement. The offeror shall submit a comprehensive quote that clearly demonstrates its ability to meet the requirements outlined in the Statement of Need and the solicitation, including Section II (Description-page 1). The submission must include all relevant brochures, pamphlets, and supporting documents necessary to substantiate the offeror’s capability to meet or exceed the Statement of Need. Volume II – Price Price - The offeror shall complete the pricing schedule provided in Section (v) above: Price/Cost Schedule. The offeror shall price the base and all option year line items. (End of Addendum to 52.212-1) 52.212-2, Evaluation--Commercial Items applies to this acquisition. ADDENDUM to RFO 52.212-2 EVALUATION—COMMERCIAL ITEMS: The Government will award a contract resulting from this solicitation to the offeror responsible whose offer conforming to the solicitation will be most advantageous to the Government considering price and other factors. The following factors shall be used to evaluate quotations: Factor I. Technical capability or quality offered to meet the Government requirement Factor II. Price Evaluation Approach. The Government will award a contract resulting from this solicitation",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4343,
+            "corpus_end": 5654,
+            "match": "option year"
+          },
+          {
+            "text": "e Government reserves the right to deny requests for clause changes that are not included in this solicitation should the request be inconsistent with the RFO or VAAR. The following RFO clauses are incorporated by reference: Additional contract requirements or terms and conditions: 52.217-8 Option to Extend Services (NOV 1999) The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to the prevailing labor rates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000) (a) The Government may extend the term of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this opti",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7971,
+            "corpus_end": 9280,
+            "match": "extension"
+          },
+          {
+            "text": "ates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days. 52.217-9 Option to Extend the Term of the Contract (MAR 2000) (a) The Government may extend the term of this contract by written notice to the Contractor within 30 days provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension. (b) If the Government exercises this option, the extended contract shall be considered to include this option clause. (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years. 852.252-70, Provisions and Clauses Applicable to VA Acquisition of Commercial Items: VAAR Clauses are incorporated by reference as follows: VAAR Provisions are incorporated as follows: RFO 52.252-1 Solicitation Provisions Incorporated by Reference The following provisions or clauses incorporated by reference in this solicitation must be completed by the offeror or prospective contractor and submitted",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8512,
+            "corpus_end": 9821,
+            "match": "extension"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any authorized amendments) reach the designated office before the deadline specified in the solicitation. This RFQ shall be completed in its entirety, and signed and dated, failure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business size standard of 1,000 employees. This solicitation is unrestricted. List of Line Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition ",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1040,
+            "corpus_end": 7585,
+            "match": "price contract resulting from this solicitation. \nThis solicitation document and incorporated provisions and clauses are"
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ne Items; Description of Requirements for the items/Services to be acquired: One (1) Antimicrobial Susceptibility Testing (AST) Instrument for Bloodstream Infections with maintenance per Statement of Need. Delivery and acceptance are to be F.O.B Destination (RFO 52.247-34): Jack C. Montgomery VAMC 1011 Honor Heights Drive Muskogee, OK 74401 52.212-1, Instructions to Offerors-Commercial Items applies to this acquisition Any award made as a result of this solicitation will be made on an All or Nothing Basis. State if quoted items are available and priced through offerors existing Government-wide Acquisition Contract (GWAC), GSA Multiple Award Schedule (MAS) contract, or VA-wide Acquisition Contract. If the acquisition is set-aside for SDVOSBs/VOSBs, their socioeconomic status must be verified and visible in the SBA Small Business Certification (SBS): https://search.certifications.sba.gov/ at the time of quote submission AND award, or will be considered non-responsive, and will NOT be considered for award. Offerors are warned against contacting any VA personnel other than the Contracting Officer and Contract Specialist prior to placement of any award made resulting from this RFQ. If such contact occurs and found to be prejudicial to competing contactors, the offeror making such contact may be excluded from award considerations. All proprietary information shall be clearly and properly marked. If the Offeror submits annexes, documentation, attachments or the like, not specifically required by this solicitation, such will count against the Offeror’s page limitations unless otherwise indicated in the specific volume instructions below. All information shall be confined to the appropriate file. The offeror shall confine submissions to essential matters, sufficient to define th",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2145,
+            "corpus_end": 22924,
+            "match": "Schedule (MAS) contract, or VA-wide Acquisition Contract.\nIf the acquisition is set-aside for SDVOSBs/VOSBs, their socio"
+          }
+        ],
+        "submission": [
+          {
+            "text": "== GENERAL INFORMATION PLACE OF PERFORMANCE ADDITIONAL INFORMATION DESCRIPTION Request for Quote (RFQ) #: 36C25926Q0797 Request for Quote (RFQ)-One (1) Antimicrobial Susceptibility Testing (AST) Instrument with Maintenance for Bloodstream Infections-Base plus four option years This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Revolutionary FAR Overhaul (RFO) Part 12. This announcement constitutes only solicitation. Offers are being requested and a separate written solicitation will not be issued. The Government reserves the right to make no award from this solicitation. * The deadline for all questions is 10:00 AM MT August 31st, 2026. All questions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026. Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any a",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 41,
+            "corpus_end": 1349,
+            "match": "deadline"
+          },
+          {
+            "text": "tions must be submitted in writing no later than the question cut-off date marked above. All questions will be answered officially through an amendment to the solicitation. ** Quotes are to be provided to Ernest.Appiah@va.gov no later than 16:00 (4:00PM) MT, September 9th, 2026. Quotes shall not be hand carried. Faxed quotes shall not be accepted. Emailed quotes are the only method of submitted quotes (4MB email limit). The Government reserves the right to make the award solely on initial Quotes received. Offerors bear the burden of ensuring that all portions of the offer (and any authorized amendments) reach the designated office before the deadline specified in the solicitation. This RFQ shall be completed in its entirety, and signed and dated, failure shall not be considered for award. This is a Request for Quote (RFQ), and the solicitation number is 36C25926Q0797. The government anticipates awarding a firm-fixed price contract resulting from this solicitation. This solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01 effective March 13th, 2026. The North American Industrial Classification System (NAICS) code for this procurement is 334516 Analytical Laboratory Instrument Manufacturing with a business si",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 760,
+            "corpus_end": 2068,
+            "match": "deadline"
+          },
+          {
+            "text": "Law for Breach of Contract Claim (DEVIAITON NOV 2025) | Statute X | 52.240-91 | Security Prohibitions and Exclusions (DEVIATION NOV 2025) | Statute X | 52.240-93 | Basic Safeguarding of Covered Contractor Information Systems (DEVIATION NOV 2025) | X | 52.244-6 | Subcontracts for Commercial Products and Commercial Services (DEVIATION APR 2026) | Statute VAAR 852.203-70 | Commercial Advertising (MAY 2018) VAAR 852.211-70 | Equipment Operation and Maintenance Manuals (NOV 2018) VAAR 852.211-76 | Liquidated Damages-Reimbursement for Data Breach Costs (FEB 2023) VAAR 852.212-72 | Gray Market and Counterfeit Items (FEB 2023) VAAR 852.232-72 | Electronic Submission of Payment Requests (NOV 2018) VAAR 852.246-71 | Rejected Goods (OCT 2018) VAAR 852.247-71 | Delivery Location (OCT 2018) VAAR 852.247-72 | Marking Deliverables (OCT 2018) VAAR 852.209-70 | Organizational Conflicts f Interest (OCT 2020) VAAR 852.215-72 | Notice of Intent to Re-solicit (OCT 2019) Applicable (X) | Number | Title | Source X | 52.203-18 | Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation (JAN 2017) | Statute X | 52.204-7 | System for Award Management—Registration (DEVIATION NOV 2025) | Statute X | 52.222-48 | Exemption from Application of the Service",
+            "source": "files/36C25926Q0797.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/db9/db9593a11df44ac39659f5b1dabedd3d.docx?response-content-disposition=attachment%3B%20filename%3D36C25926Q0797.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T105529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7c4fed30a1b02068e4272a1fdc8e6a4992428a3032ffe960891998494ace2",
+            "source_sha256": "4780441d5971d9b1d3ed3c685361d2f6525ac71bb3fb4aadea2073ebde771371",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14666,
+            "corpus_end": 15987,
+            "match": "Electronic Submission"
+          }
+        ],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32960617634,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-26T10:55:33.005511+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 20,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "b79af4cfbb24d851303695f992e6457bb7883b3bda69809209c75cc041a6a3cd",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 20,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32960617634,
+        "shard": 1,
+        "candidate_id": "US-SAM:1967c44910f849f8835486d88b276c97",
+        "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -38859,7 +39833,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -39546,7 +40520,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -39714,7 +40688,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -39858,7 +40832,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -40000,7 +40974,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -40125,7 +41099,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -41041,7 +42015,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 3,
@@ -41429,7 +42403,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 0,
@@ -41891,7 +42865,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 1,
@@ -42255,7 +43229,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 3,
@@ -43155,7 +44129,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -44005,7 +44979,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 1,
@@ -44949,7 +45923,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -48898,7 +49872,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 3,
@@ -49294,7 +50268,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 2,
@@ -50208,7 +51182,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 4,
@@ -50594,7 +51568,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 0,
@@ -51974,7 +52948,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 3,
@@ -52476,7 +53450,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 4,
@@ -52953,7 +53927,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -53567,7 +54541,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 3,
@@ -54005,7 +54979,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 3,
@@ -54502,7 +55476,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
@@ -55005,7 +55979,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 2,
@@ -55483,7 +56457,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -56128,7 +57102,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 2,
@@ -56733,7 +57707,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 4,
@@ -57355,7 +58329,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32957539964,
         "shard": 0,
@@ -57521,7 +58495,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -57537,25 +58511,25 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 12,
+      "GPT_PRIORITY": 13,
       "DCE_AUTHENTICITY_REPAIR": 7,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 11
     },
     "selected_by_stage": {
-      "BUSINESS_GATES": 43,
+      "BUSINESS_GATES": 44,
       "DCE_AUTHENTICITY": 7
     },
     "selected_by_band": {
       "HOT": 1,
       "GOOD": 6,
-      "MAYBE": 9,
+      "MAYBE": 10,
       "LOW": 34
     },
     "selected_by_portal": {
       "IRELAND_ETENDERS": 2,
       "TED": 32,
-      "US_SAM": 3,
+      "US_SAM": 4,
       "MALTA_EPPS": 1,
       "SCOTLAND_PCS": 9,
       "PL_EZAMOWIENIA": 2,
@@ -57563,17 +58537,17 @@
     }
   },
   "counts": {
-    "pending_gpt_web_review": 50,
+    "pending_gpt_web_review": 51,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 50,
+    "pending_before_visible_cap": 51,
     "pending_by_stage": {
-      "BUSINESS_GATES": 43,
+      "BUSINESS_GATES": 44,
       "DCE_AUTHENTICITY": 7
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 12,
+      "GPT_PRIORITY": 13,
       "DCE_AUTHENTICITY_REPAIR": 7,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 11
@@ -57581,13 +58555,13 @@
     "pending_by_fit_band": {
       "HOT": 1,
       "GOOD": 6,
-      "MAYBE": 9,
+      "MAYBE": 10,
       "LOW": 34
     },
     "pending_by_portal": {
       "IRELAND_ETENDERS": 2,
       "TED": 32,
-      "US_SAM": 3,
+      "US_SAM": 4,
       "MALTA_EPPS": 1,
       "SCOTLAND_PCS": 9,
       "PL_EZAMOWIENIA": 2,
