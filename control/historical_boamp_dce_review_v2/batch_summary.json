@@ -21,9 +21,27 @@
   "retryable_final": 0,
   "retries": 0,
   "rate_limited": 0,
-  "wall_seconds": 61.545,
+  "wall_seconds": 48.802,
   "local_concurrency": 4,
+  "browser_concurrency": 4,
+  "http_concurrency": 1,
+  "placsp_concurrency": 1,
+  "http_probe_concurrency": 12,
+  "http_probe_timeout_seconds": 5,
+  "http_probe_attempted": 15,
+  "http_probe_promoted": 1,
+  "browser_fallback": 14,
+  "http_probe_hit_rate": 0.0667,
+  "http_probe_candidate_seconds": 38.481,
   "lane_counts": {
-    "browser_fast_lane": 15
+    "browser_fast_lane": 14,
+    "http_probe_promoted": 1
+  },
+  "scheduler_counts": {
+    "native_http": 0,
+    "placsp_http": 0,
+    "http_probe_candidates": 15,
+    "http_probe_promoted": 1,
+    "browser_fallback": 14
   }
 }
