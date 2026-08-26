@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-08-26T09:45:40.288542+00:00",
-  "latest_source_dce_run_id": 32954255767,
+  "updated_at": "2026-08-26T10:19:04.110188+00:00",
+  "latest_source_dce_run_id": 32957539964,
   "review_queue": [
     {
       "candidate_id": "IE:8913321",
@@ -2100,7 +2100,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 0,
@@ -2406,7 +2406,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 0,
@@ -3217,7 +3217,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -4286,7 +4286,7 @@
       "gpt_priority_score": 44,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 0,
@@ -5330,7 +5330,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -6178,7 +6178,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 3,
@@ -7462,7 +7462,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -7916,7 +7916,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 2,
@@ -9234,12 +9234,543 @@
       "gpt_priority_score": 20,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
         "candidate_id": "TED:572508-2026",
         "release_tag": "dce-harvest-32950555022"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:cdef8f58d0314f54a65e0eb3bb772d80",
+      "title": "19ES6026Q0038 Social Media Influencers Program",
+      "buyer": "STATE, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/cdef8f58d0314f54a65e0eb3bb772d80/view",
+      "deadline": "2026-09-03T14:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-03T14:00:00+00:00",
+        "notice_deadline_date": "2026-09-03",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 11,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "qual Opportunity for Veterans (Jun 2020) ( 38 U.S.C. 4212). _(ii) Alternate I (Jul 2014) of 52.222-35. _(36) (i) 52.222-36. Equal Opportunity for Workers with Disabilities (Jun 2020) ( 29 U.S.C. 793). _ (ii) Alternate I (Jul 2014) of 52.222-36. (37) 52.222-37. Employment Reports on Veterans (Jun 2020) ( 38 U.S.C. 4212). (38) 52.222-40. Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496). _X(39) n't 52.222-50, Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O. 13627). _(ii) Alternate I (Mar 20151 of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (40) 52.222-54, Employment Eligibility Verification (Jan 2025) ( Executive Order 12989). (Not applicable to the acquisition of commercially available off-the-shelf items or certain other types of commercial products or commercial services as prescribed in FAR 22.1803.) _(41) (i) 52.223-9. Estimate of Percentage of Recovered Material Content for EPA-Designated Items (May 2008) ( 42 U.S.C. 6962(c)(3)(A)(ii)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (ii) Alternate 1 (May 2008) of 52.223-9 (42 U.S.C. 6962(i)(2)(C)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (42) 52.223-11. Ozone-Depleting Substances",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9482,
+            "corpus_end": 10793,
+            "match": "Eligibility"
+          },
+          {
+            "text": "ice Contract Labor Standards (Aug 2018) ( 41 U.S.C. chapter 67). (xvi) (A) 52.222-50. Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O 13627). (B) Alternate I (Mar 2015) of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (xvii) 52.222-51. Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment-Requirements (May 2014) (41 U.S.C. chapter 67). (xviii) 52.222-53. Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services-Requirements (May 2014) (41 U.S.C. chapter 67). (xix) 52.222-54. Employment Eligibility Verification (Jan 2025) ( E.O. 12989). (xx) 52.222-55. Minimum Wages for Contractor Workers Under Executive Order 14026 (Jan 2022). (xxi) 52.222-62. Paid Sick Leave Under Executive Order 13706 (Jan 2022) (E.O. 13706). (xxii) (A) 52.224-3. Privacy Training (Jan 2017) ( 5 U.S.C. 552a). (B) Alternate I (Jan 2017) of 52.224-3. (xxiii) 52.225-26. Contractors Performing Private Security Functions Outside the United States (Oct 2016) (Section 862, as amended, of the National Defense Authorization Act for Fiscal Year 2008; 10 U.S.C. Subtitle A, Part V, Subpart G Note), (xxiv) 52,226-6. Promoting Excess Food Donation to Nonprofit Organizations (Jun 2",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 20102,
+            "corpus_end": 21413,
+            "match": "Eligibility"
+          },
+          {
+            "text": ".-Flag Commercial Vessels (Nov 2021) ( 46 U.S.C. 55305 and 10 U.S.C. 2631). Flow down required in accordance with paragraph (d) of FAR clause 52.247-64. (2) While not required, the Contractor may include in its subcontracts for commercial products and commercial services a minimal number of additional clauses necessary to satisfy its contractual obligations. (End of clause) 52.229-12 TAX ON CERTAIN FOREIGN PROCUREMENTS—NOTICE AND REPRESENTATION (FEB 2021) (a) Defmitions. As used in this clause— Foreign person means any person other than a United States person. United Slates person, as defined in 26 U.S.C. 7701(a)(30), means- (1) A citizen or resident of the United States; (2) A domestic partnership; (3) A domestic corporation; (4) Any estate (other than a foreign estate, within the meaning of 26 U.S.C. 7701(a)(31)); and (5) Any trust if- (i) A court within the United States is able to exercise primary supervision over the administration of the trust; and (ii) One or more United States persons have the authority to control all substantial decisions of the trust. (b) This clause applies only to foreign persons. It implements 26 U.S.C. 5000C and its implementing regulations at 26 CFR 1.5000C-1 through 1.5000C-7. (c) (1) If the Contractor is a foreign person and has only a partial or no exem",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 21976,
+            "corpus_end": 23284,
+            "match": "resident"
+          },
+          {
+            "text": "Consist of providing goods or services to an internationally recognized peacekeeping force or humanitarian organization; (5) Consist of providing goods or services that are used only to promote health or education; or (6) Have been voluntarily suspended.\"Sensitive technology\"— Sensitive technology— (1) Means hardware, software, telecommunications equipment, or any other technology that is to be used specifically— (i) To restrict the free flow of unbiased information in Iran; or (ii) To disrupt, monitor, or otherwise restrict speech of the people of Iran; and (2) Does not include information or informational materials the export of which the President does not have the authority to regulate or prohibit pursuant to section 203(b)(3)of the International Emergency Economic Powers Act (SOU.S.C. 1702fby3^V Service-disabled veteran-owned small business (SDVOSB) concern means a small business concern— (1) (i) Not less than 51 percent of which is owned and controlled by one or more service-disabled veterans or, in the case of any publicly owned business, not less than 51 percent of the stock of which is owned by one or more service-disabled veterans; and (ii) The management and daily business operations of which are controlled by one or more seiwice-disabled veterans or, in the case of a service-",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 57209,
+            "corpus_end": 58517,
+            "match": "resident"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at the time deliveries are made. Prior notice of at least 48 hours will be required. II. PRICING VALUE ADDED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2572,
+            "corpus_end": 3881,
+            "match": "REFERENCE"
+          },
+          {
+            "text": "DED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continuing Appropriations Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)). (2) 52.204-23. Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities (Dec 2023) (Section 1634 of Pub. L. 115-91).",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2907,
+            "corpus_end": 4216,
+            "match": "reference"
+          },
+          {
+            "text": "llance Services or Equipment. (Nov 2021) (Section 889(a)(1)(A) of Pub. L. 115-232). (4) 52.209-10. Prohibition on Contracting with Inverted Domestic Corporations (Nov 2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41 U.S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Ri",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4306,
+            "corpus_end": 5615,
+            "match": "reference"
+          },
+          {
+            "text": "II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debaiment, or Voluntarily Excluded. (Jan 2025) ( 31 U.S.C. 6101 note). (13) 52.209-9. Updates of Publicly Available Information Regarding Responsibility Matters (Oct 2018)(41 U.S.C. 2313). (14) [Reserved]. (15) 52.219-3. Notice of HUBZone Set-Aside or Sole-Source Award (Oct 2022) ( 15 U.S.C. 657a). (16) 52.219-4. Notice of Price Evaluation Preference for HUBZone Small Business Concerns (Oct 2022) (if the offeror elects to waive the preference, it shall so indicate in its otfer) (15 U.S.C. 657a). (17) [Reserved] _(18) (i) 52.219-6. Notice of Total Small Business Set-Aside (Nov 2020) (15 U.S.C. 644). _ (ii) Alternate 1 (Mar 2020) of52.219-6. _(19) (i) 52.219-7. Notice of Partial Small Business Set-Aside (Nov 2020) (15 U.S.C. 644). (ii) Alternate 1 (Mar 2020) of 52,219-7. (20) 52.219-8. Utilization of Small Business Concerns (Jan 2025)( 15 U.S.C. 637fd)(2) and (3)). _(21) (i) 52.219-9. Small Business Subcontracting Plan (Jan 2025) ( 15 U.S.C. 637(d)(4)). (ii) Alternate 1 (Nov 2016) of 5",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6522,
+            "corpus_end": 7831,
+            "match": "reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "Contractor shall deliver all items not later than 30 days after date of contract award or as required by the requesting office. C. Any Contractor personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at the time deliveries are made. Prior notice of at least 48 hours will be required. II. PRICING VALUE ADDED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Ce",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2425,
+            "corpus_end": 3736,
+            "match": "certificate"
+          },
+          {
+            "text": ", within the meaning of 26 U.S.C. 7701(a)(31)); and (5) Any trust if- (i) A court within the United States is able to exercise primary supervision over the administration of the trust; and (ii) One or more United States persons have the authority to control all substantial decisions of the trust. (b) This clause applies only to foreign persons. It implements 26 U.S.C. 5000C and its implementing regulations at 26 CFR 1.5000C-1 through 1.5000C-7. (c) (1) If the Contractor is a foreign person and has only a partial or no exemption to the withholding, the Contractor shall include the Department of the Treasury Internal Revenue Service Form W-14, Certificate of Foreign Contracting Party Receiving Federal Procurement Payments, with each voucher or invoice submitted under this contract throughout the period in which this status is applicable. The excise tax withholding is applied at the payment level, not at the contract level. The Contractor should revise each IRS Form W-14 submission to reflect the exemption (if any) that applies to that particular invoice, such as a different exemption applying. In the absence of a completed IRS Form W-14 accompanying a payment request, the default withholding percentage is 2 percent for the section 5000C withholding for that payment request. Information about",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22756,
+            "corpus_end": 24067,
+            "match": "Certificate"
+          },
+          {
+            "text": "n in force (RIF) services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If th",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37300,
+            "corpus_end": 38611,
+            "match": "Certificate"
+          },
+          {
+            "text": "skills or the ability to obtain them; ● Necessary equipment and facilities or the ability to obtain them; and ● Be otherwise qualified and eligible to receive an award under applicable laws and regulations. ADDENDUM TO EVALUATION FACTORS FAR AND DOSAR PROVISION(S) NOT PRESCRIBED IN PART 12 THE FOLLOWING FAR PROVISION(S) IS/ARE PROVIDED IN FULL TEXT: EVALUATION OF OPTIONS (JUL 1990)52.217-5 The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement. Evaluation of options will not obligate the Government to exercise the option(s). SECTION 5 - REPRESENTATIONS AND CERTIFICATIONS REPRESENTATION REGARDING CERTAIN TELECOMMUNICATIONS52.204-24 AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT rNOV 2021) The Offeror shall not complete the representation at paragraph (d)( 1) of this provision if the Offeror has represented that it \"does not provide covered telecommunications equipment or services as a part of its offered products or services to the Government in the performance of any contract, subcontract, or other contractual instrument\" in paragraph (c)(1) in the provision at 52.204-26. Covered Telecommunications Equipment or Services— Representation, or in paragraph (v)(2)(i) of the provision at 52.212-3. Offeror Represent",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 42966,
+            "corpus_end": 44279,
+            "match": "CERTIFICATION"
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "o the contract must be made in writing by the Contracting Officer. SECTION 3 - SOLICITATION PROVISIONS 52.212-1 INSTRUCTIONS TO OFFERORS - COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (SEP 2023) IS INCORPORATED BY REFERENCE (SEE SF-I449, BLOCK 27A) ADDENDUM TO 52.212-1 A. Summary oF Instructions. Each offer must consist of the following: A.1. A completed solicitation, in which the SF-1449 cover page (blocks 12, 17, 19-24, and 30 as appropriate), and Section 1 has been filled out. A.2. Information demonstrating the ofFeror’s/quoter’s ability to perform, including: Company brochure, Technical proposal, Client list, financial statement Name of a Project Manager (who understands written and spoken English) (2) Evidence that the offeror/quoter operates an established business with a permanent address and telephone listing; in El Salvador or plans to establish an office within 30 days of contract award. (3) The offeror shall provide proof of SAM registration to include the SAM UEl number. List of clients over the past 3 years, demonstrating prior experience with relevant past performance information and references (provide dates of contracts, places of performance, value of contracts, contact names, telephone and fax numbers and email addresses). If the offeror has not performed comparable services in",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 34459,
+            "corpus_end": 35774,
+            "match": "Project Manager"
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ITION REGULATIONS (FAR) CLAUSES ARE INCORPORATED BY REFERENCE: CLAUSE TITLE AND DATE CONTRACTOR EMPLOYEE WHISTLEBLOWER RIGHTS (NOV 2023)52.203-17 SYSTEM FOR AWARD MANAGEMENT MAINTENANCE (OCT 2018)52.204-13 COMMERCIAL AND GOVERNMENT ENTITY CODE MAINTENANCE (AUG 2020) 52.204-18 PROHIBITION ON CONTRACTING FOR CERTAIN TELECOMMUNICATIONS AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT (NOV 2021) 52.204-25 PROHIBITION ON A BYTEDANCE COVERED APPLICATION (JUN 2023)52.204-27 CHILD LABOR-COOPERATION WITH AUTHORITIES AND REMEDIES (JAN 2025)52.222-19 INCONSISTENCY BETWEEN ENGLISH VERSION AND TRANSLATION OF CONTRACT (FEB 2000) 52.225-14 WORKERS’COMPENSATION INSURANCE (DEFENSE BASEACT) (JUL2014)52.228-3 TAXES - FOREIGN FIXED PRICE CONTRACTS (FEB 2013)52.229-6 UNENFORCEABILITY OF UNAUTHORIZED OBLIGATIONS (JUNE 2013)52.232-39 PROVIDING ACCELERATED PAYMENTS TO SMALL BUSINESS SUBCONTRACTORS (MAR 2023) 52.232-40 SUBCONTRACTS FOR COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (JAN 2025) 52.244-6 THE FOLLOWING FAR CLAUSES ARE PROVIDED IN FULL TEXT: 52.216-18 ORDERING (AUG 2020) Any supplies and services to be furnished under this contract shall be ordered by issuance of delivery orders or task orders by the individuals or activities designated in the Schedule. Such orders may be issued from June 23, 2025, through J",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 27412,
+            "corpus_end": 28721,
+            "match": "INSURANCE"
+          },
+          {
+            "text": "preparing for new job opportunities following a reduction in force (RIF) services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37243,
+            "corpus_end": 38552,
+            "match": "insurance"
+          },
+          {
+            "text": ") services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If the Federal Acq",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37315,
+            "corpus_end": 38624,
+            "match": "Insurance"
+          },
+          {
+            "text": "nt all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If the Federal Acquisition Regulation (FAR) is not available at the location indicated above,",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37390,
+            "corpus_end": 38699,
+            "match": "insurance"
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "tions Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)). (2) 52.204-23. Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities (Dec 2023) (Section 1634 of Pub. L. 115-91). (3) 52.204-25. Prohibition on Contracting for Certain Telecommunications and Video Surveillance Services or Equipment. (Nov 2021) (Section 889(a)(1)(A) of Pub. L. 115-232). (4) 52.209-10. Prohibition on Contracting with Inverted Domestic Corporations (Nov 2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3894,
+            "corpus_end": 5205,
+            "match": "Subcontract"
+          },
+          {
+            "text": "2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41 U.S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.9",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4473,
+            "corpus_end": 5784,
+            "match": "Subcontract"
+          },
+          {
+            "text": "S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. ti",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5207,
+            "corpus_end": 6518,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ts for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debaiment, or Voluntarily Excluded. (Jan 2025) ( 31 U.S.C. 6101 note). (13) 52.209-9. Updates of Publicly Available Information Regarding Responsibility Matters (Oct 2018)(41 U.S.C. 2313). (14) [Reserved]. (15) 52.219-3. Notice of HUBZone Set-Aside or Sole-Source Award (Oct 2022) ( 15 U.S.C. 657a). (16) 52.219-4. Notice of Price Evaluation Preference for HUBZone Small Business Concerns (Oct 2022) (if the offeror elects to waive the preference, it shall so indicate in its otfer) (15 U.S.C. 657a). (17) [Reserved] _(18) (i) 52.219-6. Notice of Total Small Business Set-Aside (Nov 2020) (",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6109,
+            "corpus_end": 7420,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ny will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos,",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 211,
+            "corpus_end": 1522,
+            "match": "Deliverable"
+          },
+          {
+            "text": "luding reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publication, including campaign monitoring and analytics reporting. Final Campaign Reporting Delivery of a comprehensive final performance report summarizing campaign insights, outcomes, and impact. CONTINUATION TO SF-1449 RFQ NUMBER l 9ES6026Q0038 SCHEDULE OF SUPPLIES/SERVICES, BLOCK 20 DESCRIPTION/SPECIFICATIONS/WORK STATEMENT II. DELIVERY LOCATION AND TIME A. The Contractor shall deliver all ordered items to American Embassy San Salvador. The address is: American Embassy San Salvador Final Blvd. Santa Elena Urbanizaci6n Santa Elena, Antigua Cuscatlan, La Libertad B. The Contractor shall deliver all items not later than 30 days after date of contract award or as required by the requesting office. C. Any Contractor personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1492,
+            "corpus_end": 2805,
+            "match": "SPECIFICATION"
+          },
+          {
+            "text": "03-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title I",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5340,
+            "corpus_end": 6652,
+            "match": "Requirements"
+          },
+          {
+            "text": "1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Su",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5449,
+            "corpus_end": 6761,
+            "match": "Requirements"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, inclu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 188,
+            "corpus_end": 1494,
+            "match": "travel"
+          },
+          {
+            "text": "The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after pu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 522,
+            "corpus_end": 1834,
+            "match": "availability"
+          },
+          {
+            "text": "ort at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publication, including campaign monitoring and analytics reporting. Final Campaign Reporting Delivery of a comprehensive final performance report summarizing campaign insights, outcomes, and impact. CONTINUATION TO SF-1449 RFQ NUMBER l 9ES6026Q0038 SCHEDULE OF SUPPLIES/SERVICES, BLOCK 20 DESCRIPTION/SPECIFICATIONS/WORK STATEMENT II. DELIVERY LOCATION AND TIME A. The Contractor shall deliver all ordered items to American Embassy San Salvador. The address is: American Embassy San Salvador Final Blvd. Santa",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1047,
+            "corpus_end": 2353,
+            "match": "travel"
+          },
+          {
+            "text": "on of Segregated Facilities (Apr 2015). _(34) (i) 52.222-26. Equal Opportunity (Sep 2016) (E.O. 11246). _ (ii) Alternate 1 (Feb 1999) of 52.222-26. _(35) (i) 52.222-35. Equal Opportunity for Veterans (Jun 2020) ( 38 U.S.C. 4212). _(ii) Alternate I (Jul 2014) of 52.222-35. _(36) (i) 52.222-36. Equal Opportunity for Workers with Disabilities (Jun 2020) ( 29 U.S.C. 793). _ (ii) Alternate I (Jul 2014) of 52.222-36. (37) 52.222-37. Employment Reports on Veterans (Jun 2020) ( 38 U.S.C. 4212). (38) 52.222-40. Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496). _X(39) n't 52.222-50, Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O. 13627). _(ii) Alternate I (Mar 20151 of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (40) 52.222-54, Employment Eligibility Verification (Jan 2025) ( Executive Order 12989). (Not applicable to the acquisition of commercially available off-the-shelf items or certain other types of commercial products or commercial services as prescribed in FAR 22.1803.) _(41) (i) 52.223-9. Estimate of Percentage of Recovered Material Content for EPA-Designated Items (May 2008) ( 42 U.S.C. 6962(c)(3)(A)(ii)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (ii) Alternate 1 (May",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9312,
+            "corpus_end": 10621,
+            "match": "in Person"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [
+          {
+            "text": "===== FILE: files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf ===== SECTION I - THE SCHEDULE CONTINUATION TO SF-1449 RFQ NUMBER 19ES6026Q0038 PRICES, BLOCK 23 I. SCOPE OF SERVICES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publi",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 38447,
+            "match": "PRICES, BLOCK 23 \nI. SCOPE OF SERVICES\nThe contracted company will design and implement a 12 month strategic influencer "
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf ===== SECTION I - THE SCHEDULE CONTINUATION TO SF-1449 RFQ NUMBER 19ES6026Q0038 PRICES, BLOCK 23 I. SCOPE OF SERVICES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publi",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 99728,
+            "match": "SCHEDULE \nCONTINUATION TO SF-1449 \nRFQ NUMBER 19ES6026Q0038\nPRICES, BLOCK 23 \nI. SCOPE OF SERVICES\nThe contracted compan"
+          }
+        ],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "erformance and for which the worker does not offer himself voluntarily; or (2) Performed by any person under the age of 18 pursuant to a contract the enforcement of which can be accomplished by process or penalties. Highest-level owner means the entity that owns or controls an immediate owner of the offeror, or that owns or controls one or more entities that control an immediate owner of the offeror. No entity owns or exercises control of the highest level owner. Immediate owner means an entity, other than the offeror, that has direct control of the offeror. Indicators of control include, but are not limited to, one or more of the following: ownership or interlocking management, identity of interests among family members, shared facilities and equipment, and the common use of employees. Inverted domestic corporation, means a foreign incorporated entity that meets the definition of an inverted domestic corporation under 6 U.S.C. 395(bf applied in accordance with the rules and definitions of 6 U.S.C. 395(c). Manufactured end product means any end product in product and service codes (PSCs) 1000-9999, except— (1) PSC 5510, Lumber and Related Basic Wood Materials; (2) Product or Service Group (PSG) 87, Agricultural Supplies; (3) PSG 88, Live Animals; (4) PSG 89, Subsistence; (5) PSC 9410, Cru",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 54083,
+            "corpus_end": 55392,
+            "match": "ownership"
+          },
+          {
+            "text": "concerns eligible under the SDVOSB Program. Small business concern— (1) Means a concern, including its affiliates, that is independently owned and operated, not dominant in its field of operation, and qualified as a small business under the criteria in 13 CFR part 121 and size standards in this solicitation. {1) Affiliates, as used in this definition, means business concerns, one of whom directly or indirectly controls or has the power to control the others, or a third party or parties control or have the power to control the others. In determining whether affiliation exists, consideration is given to all appropriate factors including common ownership, common management, and contractual relationships. SBA determines affiliation based on the factors set forth at 13 CFR 121.103. Small disadvantaged business concern, consistent with 13 CFR 124.1001, means a small business concern under the size standard applicable to the acquisition, that— (1) Is at least 51 percent unconditionally and directly owned (as defined at 13 CFR 124.105) by— (1) One or more socially disadvantaged (as defined atl3 CFR 124.103) and economically disadvantaged (as defined at 13 CFR 124.104) individuals who are citizens of the United States; and (ii) Each individual claiming economic disadvantage has a net worth not exc",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 59804,
+            "corpus_end": 61113,
+            "match": "ownership"
+          },
+          {
+            "text": "ts, or affiliates, the property and interests in property of which are blocked pursuant to the International Emergency Economic Powers Act (et seq.) (see OFAC’s Specially Designated Nationals and Blocked Persons List at https://www.treasurv.gov/resource-center/sanctions/SDN-List/Pages/default.aspx). (3) The representation and certification requirements of paragraph (o)(2) of this provision do not apply if- (i) This solicitation includes a trade agreements certification (e.g.. 52.212-3(g~) or a comparable agency provision); and (ii) The offeror has certified that all the offered products to be supplied are designated country end products, (p) Ownership or Control of Offeror. (Applies in all solicitations when there is a requirement to be registered in SAM or a requirement to have a unique entity identifier in the solicitation). (1) The Offeror represents that it □ has or □ does not have an immediate owner. If the Offeror has more than one immediate owner (such as a joint venture), then the Offeror shall respond to paragraph (2) and if applicable, paragraph (3) of this provision for each participant in the joint venture. (2) If the Offeror indicates \"has\" in paragraph (p)(I) of this provision, enter the following infoiTnation: Immediate owner CAGE code: . Immediate owner legal name: . (Do n",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 90487,
+            "corpus_end": 91796,
+            "match": "Ownership"
+          }
+        ]
+      },
+      "source_dce_run_id": 32957539964,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-26T10:18:59.396814+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 47,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "content-creation"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c71a19df7a0d945b0884aaa71e38883f6309d69c9571fd41f46c1548f30370a6",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 47,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32957539964,
+        "shard": 1,
+        "candidate_id": "US-SAM:cdef8f58d0314f54a65e0eb3bb772d80",
+        "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -9491,7 +10022,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -10178,7 +10709,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -10346,7 +10877,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -10490,7 +11021,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -10632,7 +11163,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -10757,7 +11288,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -11673,7 +12204,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 3,
@@ -12061,7 +12592,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 0,
@@ -12523,7 +13054,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 1,
@@ -12887,7 +13418,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 3,
@@ -13787,7 +14318,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -14637,7 +15168,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 1,
@@ -15581,7 +16112,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -18150,7 +18681,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 0,
@@ -18546,7 +19077,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 2,
@@ -19538,7 +20069,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 3,
@@ -19924,7 +20455,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 0,
@@ -20838,7 +21369,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 4,
@@ -21223,7 +21754,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 3,
@@ -22218,7 +22749,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 1,
@@ -22720,7 +23251,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 4,
@@ -23197,7 +23728,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -23811,7 +24342,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 3,
@@ -24249,7 +24780,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 3,
@@ -24746,7 +25277,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
@@ -25249,7 +25780,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 2,
@@ -25727,7 +26258,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -26372,7 +26903,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 2,
@@ -26538,7 +27069,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -28647,7 +29178,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 0,
@@ -28953,7 +29484,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 0,
@@ -29764,7 +30295,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -30833,7 +31364,7 @@
       "gpt_priority_score": 44,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 0,
@@ -31877,7 +32408,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -32725,7 +33256,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 3,
@@ -34009,7 +34540,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 2,
@@ -34463,7 +34994,7 @@
       "gpt_priority_score": 30,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 2,
@@ -35781,12 +36312,543 @@
       "gpt_priority_score": 20,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
         "candidate_id": "TED:572508-2026",
         "release_tag": "dce-harvest-32950555022"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "US-SAM:cdef8f58d0314f54a65e0eb3bb772d80",
+      "title": "19ES6026Q0038 Social Media Influencers Program",
+      "buyer": "STATE, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/cdef8f58d0314f54a65e0eb3bb772d80/view",
+      "deadline": "2026-09-03T14:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-03T14:00:00+00:00",
+        "notice_deadline_date": "2026-09-03",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 11,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "qual Opportunity for Veterans (Jun 2020) ( 38 U.S.C. 4212). _(ii) Alternate I (Jul 2014) of 52.222-35. _(36) (i) 52.222-36. Equal Opportunity for Workers with Disabilities (Jun 2020) ( 29 U.S.C. 793). _ (ii) Alternate I (Jul 2014) of 52.222-36. (37) 52.222-37. Employment Reports on Veterans (Jun 2020) ( 38 U.S.C. 4212). (38) 52.222-40. Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496). _X(39) n't 52.222-50, Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O. 13627). _(ii) Alternate I (Mar 20151 of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (40) 52.222-54, Employment Eligibility Verification (Jan 2025) ( Executive Order 12989). (Not applicable to the acquisition of commercially available off-the-shelf items or certain other types of commercial products or commercial services as prescribed in FAR 22.1803.) _(41) (i) 52.223-9. Estimate of Percentage of Recovered Material Content for EPA-Designated Items (May 2008) ( 42 U.S.C. 6962(c)(3)(A)(ii)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (ii) Alternate 1 (May 2008) of 52.223-9 (42 U.S.C. 6962(i)(2)(C)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (42) 52.223-11. Ozone-Depleting Substances",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9482,
+            "corpus_end": 10793,
+            "match": "Eligibility"
+          },
+          {
+            "text": "ice Contract Labor Standards (Aug 2018) ( 41 U.S.C. chapter 67). (xvi) (A) 52.222-50. Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O 13627). (B) Alternate I (Mar 2015) of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (xvii) 52.222-51. Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment-Requirements (May 2014) (41 U.S.C. chapter 67). (xviii) 52.222-53. Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services-Requirements (May 2014) (41 U.S.C. chapter 67). (xix) 52.222-54. Employment Eligibility Verification (Jan 2025) ( E.O. 12989). (xx) 52.222-55. Minimum Wages for Contractor Workers Under Executive Order 14026 (Jan 2022). (xxi) 52.222-62. Paid Sick Leave Under Executive Order 13706 (Jan 2022) (E.O. 13706). (xxii) (A) 52.224-3. Privacy Training (Jan 2017) ( 5 U.S.C. 552a). (B) Alternate I (Jan 2017) of 52.224-3. (xxiii) 52.225-26. Contractors Performing Private Security Functions Outside the United States (Oct 2016) (Section 862, as amended, of the National Defense Authorization Act for Fiscal Year 2008; 10 U.S.C. Subtitle A, Part V, Subpart G Note), (xxiv) 52,226-6. Promoting Excess Food Donation to Nonprofit Organizations (Jun 2",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 20102,
+            "corpus_end": 21413,
+            "match": "Eligibility"
+          },
+          {
+            "text": ".-Flag Commercial Vessels (Nov 2021) ( 46 U.S.C. 55305 and 10 U.S.C. 2631). Flow down required in accordance with paragraph (d) of FAR clause 52.247-64. (2) While not required, the Contractor may include in its subcontracts for commercial products and commercial services a minimal number of additional clauses necessary to satisfy its contractual obligations. (End of clause) 52.229-12 TAX ON CERTAIN FOREIGN PROCUREMENTS—NOTICE AND REPRESENTATION (FEB 2021) (a) Defmitions. As used in this clause— Foreign person means any person other than a United States person. United Slates person, as defined in 26 U.S.C. 7701(a)(30), means- (1) A citizen or resident of the United States; (2) A domestic partnership; (3) A domestic corporation; (4) Any estate (other than a foreign estate, within the meaning of 26 U.S.C. 7701(a)(31)); and (5) Any trust if- (i) A court within the United States is able to exercise primary supervision over the administration of the trust; and (ii) One or more United States persons have the authority to control all substantial decisions of the trust. (b) This clause applies only to foreign persons. It implements 26 U.S.C. 5000C and its implementing regulations at 26 CFR 1.5000C-1 through 1.5000C-7. (c) (1) If the Contractor is a foreign person and has only a partial or no exem",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 21976,
+            "corpus_end": 23284,
+            "match": "resident"
+          },
+          {
+            "text": "Consist of providing goods or services to an internationally recognized peacekeeping force or humanitarian organization; (5) Consist of providing goods or services that are used only to promote health or education; or (6) Have been voluntarily suspended.\"Sensitive technology\"— Sensitive technology— (1) Means hardware, software, telecommunications equipment, or any other technology that is to be used specifically— (i) To restrict the free flow of unbiased information in Iran; or (ii) To disrupt, monitor, or otherwise restrict speech of the people of Iran; and (2) Does not include information or informational materials the export of which the President does not have the authority to regulate or prohibit pursuant to section 203(b)(3)of the International Emergency Economic Powers Act (SOU.S.C. 1702fby3^V Service-disabled veteran-owned small business (SDVOSB) concern means a small business concern— (1) (i) Not less than 51 percent of which is owned and controlled by one or more service-disabled veterans or, in the case of any publicly owned business, not less than 51 percent of the stock of which is owned by one or more service-disabled veterans; and (ii) The management and daily business operations of which are controlled by one or more seiwice-disabled veterans or, in the case of a service-",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 57209,
+            "corpus_end": 58517,
+            "match": "resident"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at the time deliveries are made. Prior notice of at least 48 hours will be required. II. PRICING VALUE ADDED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2572,
+            "corpus_end": 3881,
+            "match": "REFERENCE"
+          },
+          {
+            "text": "DED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continuing Appropriations Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)). (2) 52.204-23. Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities (Dec 2023) (Section 1634 of Pub. L. 115-91).",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2907,
+            "corpus_end": 4216,
+            "match": "reference"
+          },
+          {
+            "text": "llance Services or Equipment. (Nov 2021) (Section 889(a)(1)(A) of Pub. L. 115-232). (4) 52.209-10. Prohibition on Contracting with Inverted Domestic Corporations (Nov 2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41 U.S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Ri",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4306,
+            "corpus_end": 5615,
+            "match": "reference"
+          },
+          {
+            "text": "II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debaiment, or Voluntarily Excluded. (Jan 2025) ( 31 U.S.C. 6101 note). (13) 52.209-9. Updates of Publicly Available Information Regarding Responsibility Matters (Oct 2018)(41 U.S.C. 2313). (14) [Reserved]. (15) 52.219-3. Notice of HUBZone Set-Aside or Sole-Source Award (Oct 2022) ( 15 U.S.C. 657a). (16) 52.219-4. Notice of Price Evaluation Preference for HUBZone Small Business Concerns (Oct 2022) (if the offeror elects to waive the preference, it shall so indicate in its otfer) (15 U.S.C. 657a). (17) [Reserved] _(18) (i) 52.219-6. Notice of Total Small Business Set-Aside (Nov 2020) (15 U.S.C. 644). _ (ii) Alternate 1 (Mar 2020) of52.219-6. _(19) (i) 52.219-7. Notice of Partial Small Business Set-Aside (Nov 2020) (15 U.S.C. 644). (ii) Alternate 1 (Mar 2020) of 52,219-7. (20) 52.219-8. Utilization of Small Business Concerns (Jan 2025)( 15 U.S.C. 637fd)(2) and (3)). _(21) (i) 52.219-9. Small Business Subcontracting Plan (Jan 2025) ( 15 U.S.C. 637(d)(4)). (ii) Alternate 1 (Nov 2016) of 5",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6522,
+            "corpus_end": 7831,
+            "match": "reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "Contractor shall deliver all items not later than 30 days after date of contract award or as required by the requesting office. C. Any Contractor personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at the time deliveries are made. Prior notice of at least 48 hours will be required. II. PRICING VALUE ADDED TAX. Value Added Tax (VAT) is not applicable to this contract and shall not be included in the CLIN rates or Invoices because the U.S. Embassy has a tax exemption certificate from the host government. SECTION 2 - CONTRACT CLAUSES CONTRACT TERMS AND CONDITIONS - COMMERCIAL ITEMS (NOV 2023) IS INCORPORATED BY REFERENCE. (SEE SF-1449, BLOCK 27A) 52.212-4 FAR 52.212-5 Contract Terms and Conditions Required to Implement Statutes or Executive Orders— Commercial Products and Commercial Services (JAN 2025) (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-19> Prohibition on Requiring Ce",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2425,
+            "corpus_end": 3736,
+            "match": "certificate"
+          },
+          {
+            "text": ", within the meaning of 26 U.S.C. 7701(a)(31)); and (5) Any trust if- (i) A court within the United States is able to exercise primary supervision over the administration of the trust; and (ii) One or more United States persons have the authority to control all substantial decisions of the trust. (b) This clause applies only to foreign persons. It implements 26 U.S.C. 5000C and its implementing regulations at 26 CFR 1.5000C-1 through 1.5000C-7. (c) (1) If the Contractor is a foreign person and has only a partial or no exemption to the withholding, the Contractor shall include the Department of the Treasury Internal Revenue Service Form W-14, Certificate of Foreign Contracting Party Receiving Federal Procurement Payments, with each voucher or invoice submitted under this contract throughout the period in which this status is applicable. The excise tax withholding is applied at the payment level, not at the contract level. The Contractor should revise each IRS Form W-14 submission to reflect the exemption (if any) that applies to that particular invoice, such as a different exemption applying. In the absence of a completed IRS Form W-14 accompanying a payment request, the default withholding percentage is 2 percent for the section 5000C withholding for that payment request. Information about",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22756,
+            "corpus_end": 24067,
+            "match": "Certificate"
+          },
+          {
+            "text": "n in force (RIF) services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If th",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37300,
+            "corpus_end": 38611,
+            "match": "Certificate"
+          },
+          {
+            "text": "skills or the ability to obtain them; ● Necessary equipment and facilities or the ability to obtain them; and ● Be otherwise qualified and eligible to receive an award under applicable laws and regulations. ADDENDUM TO EVALUATION FACTORS FAR AND DOSAR PROVISION(S) NOT PRESCRIBED IN PART 12 THE FOLLOWING FAR PROVISION(S) IS/ARE PROVIDED IN FULL TEXT: EVALUATION OF OPTIONS (JUL 1990)52.217-5 The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement. Evaluation of options will not obligate the Government to exercise the option(s). SECTION 5 - REPRESENTATIONS AND CERTIFICATIONS REPRESENTATION REGARDING CERTAIN TELECOMMUNICATIONS52.204-24 AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT rNOV 2021) The Offeror shall not complete the representation at paragraph (d)( 1) of this provision if the Offeror has represented that it \"does not provide covered telecommunications equipment or services as a part of its offered products or services to the Government in the performance of any contract, subcontract, or other contractual instrument\" in paragraph (c)(1) in the provision at 52.204-26. Covered Telecommunications Equipment or Services— Representation, or in paragraph (v)(2)(i) of the provision at 52.212-3. Offeror Represent",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 42966,
+            "corpus_end": 44279,
+            "match": "CERTIFICATION"
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "o the contract must be made in writing by the Contracting Officer. SECTION 3 - SOLICITATION PROVISIONS 52.212-1 INSTRUCTIONS TO OFFERORS - COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (SEP 2023) IS INCORPORATED BY REFERENCE (SEE SF-I449, BLOCK 27A) ADDENDUM TO 52.212-1 A. Summary oF Instructions. Each offer must consist of the following: A.1. A completed solicitation, in which the SF-1449 cover page (blocks 12, 17, 19-24, and 30 as appropriate), and Section 1 has been filled out. A.2. Information demonstrating the ofFeror’s/quoter’s ability to perform, including: Company brochure, Technical proposal, Client list, financial statement Name of a Project Manager (who understands written and spoken English) (2) Evidence that the offeror/quoter operates an established business with a permanent address and telephone listing; in El Salvador or plans to establish an office within 30 days of contract award. (3) The offeror shall provide proof of SAM registration to include the SAM UEl number. List of clients over the past 3 years, demonstrating prior experience with relevant past performance information and references (provide dates of contracts, places of performance, value of contracts, contact names, telephone and fax numbers and email addresses). If the offeror has not performed comparable services in",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 34459,
+            "corpus_end": 35774,
+            "match": "Project Manager"
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ITION REGULATIONS (FAR) CLAUSES ARE INCORPORATED BY REFERENCE: CLAUSE TITLE AND DATE CONTRACTOR EMPLOYEE WHISTLEBLOWER RIGHTS (NOV 2023)52.203-17 SYSTEM FOR AWARD MANAGEMENT MAINTENANCE (OCT 2018)52.204-13 COMMERCIAL AND GOVERNMENT ENTITY CODE MAINTENANCE (AUG 2020) 52.204-18 PROHIBITION ON CONTRACTING FOR CERTAIN TELECOMMUNICATIONS AND VIDEO SURVEILLANCE SERVICES OR EQUIPMENT (NOV 2021) 52.204-25 PROHIBITION ON A BYTEDANCE COVERED APPLICATION (JUN 2023)52.204-27 CHILD LABOR-COOPERATION WITH AUTHORITIES AND REMEDIES (JAN 2025)52.222-19 INCONSISTENCY BETWEEN ENGLISH VERSION AND TRANSLATION OF CONTRACT (FEB 2000) 52.225-14 WORKERS’COMPENSATION INSURANCE (DEFENSE BASEACT) (JUL2014)52.228-3 TAXES - FOREIGN FIXED PRICE CONTRACTS (FEB 2013)52.229-6 UNENFORCEABILITY OF UNAUTHORIZED OBLIGATIONS (JUNE 2013)52.232-39 PROVIDING ACCELERATED PAYMENTS TO SMALL BUSINESS SUBCONTRACTORS (MAR 2023) 52.232-40 SUBCONTRACTS FOR COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (JAN 2025) 52.244-6 THE FOLLOWING FAR CLAUSES ARE PROVIDED IN FULL TEXT: 52.216-18 ORDERING (AUG 2020) Any supplies and services to be furnished under this contract shall be ordered by issuance of delivery orders or task orders by the individuals or activities designated in the Schedule. Such orders may be issued from June 23, 2025, through J",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 27412,
+            "corpus_end": 28721,
+            "match": "INSURANCE"
+          },
+          {
+            "text": "preparing for new job opportunities following a reduction in force (RIF) services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37243,
+            "corpus_end": 38552,
+            "match": "insurance"
+          },
+          {
+            "text": ") services to include but not limited to: (a) A work plan taking into account all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If the Federal Acq",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37315,
+            "corpus_end": 38624,
+            "match": "Insurance"
+          },
+          {
+            "text": "nt all work elements in Section 1, Performance Work Statement, (b) Identify types and quantities of equipment, supplies and materials required for performance of services under this contract. Identify if the offeror already possesses the listed items and their condition for suitability and if not already possessed or inadequate for use how and when the items will be obtained; (c) Plan of ensuring quality of services including but not limited to contract administration and oversight; and (d) (1) If insurance is required by the solicitation, a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used. ADDENDUM TO SOLICITATION PROVISIONS FAR AND DOSAR PROVISIONS NOT PRESCRIBED IN PART 12 52.252-1 SOLICITATION PROVISIONS INCORPORATED BY REFERENCE (FEB 19981 This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. In addition, the full text of a clause may be accessed electronically at Acquisition.gov this address is subject to change. If the Federal Acquisition Regulation (FAR) is not available at the location indicated above,",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37390,
+            "corpus_end": 38699,
+            "match": "insurance"
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "tions Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)). (2) 52.204-23. Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities (Dec 2023) (Section 1634 of Pub. L. 115-91). (3) 52.204-25. Prohibition on Contracting for Certain Telecommunications and Video Surveillance Services or Equipment. (Nov 2021) (Section 889(a)(1)(A) of Pub. L. 115-232). (4) 52.209-10. Prohibition on Contracting with Inverted Domestic Corporations (Nov 2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3894,
+            "corpus_end": 5205,
+            "match": "Subcontract"
+          },
+          {
+            "text": "2015). (5) 52.232-40. Providing Accelerated Payments to Small Business Subcontractors (Mar 2023) ( 31 U.S.C. 3903 and 10 U.S.C. 3801). (6) 52.233-3. Protest After Award (Aug 1996) (31 U.S.C. 3553). (7) 52.233-4. Applicable Law for Breach of Contract Claim (Oct 2004) (Public Laws 108-77 and 108-78 ( 19 U.S.C. 3805 note)). (b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services: (1) 52.203-6. Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate / (Nov 2021) (41 U.S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.9",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4473,
+            "corpus_end": 5784,
+            "match": "Subcontract"
+          },
+          {
+            "text": "S.C. 4704 and 10 U.S.C. 4655). (2) 52.203-13. Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C. 3509)). (3) 52.203-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. ti",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5207,
+            "corpus_end": 6518,
+            "match": "Subcontract"
+          },
+          {
+            "text": "ts for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Subcontracting With Contractors Debarred, Suspended, Proposed for Debaiment, or Voluntarily Excluded. (Jan 2025) ( 31 U.S.C. 6101 note). (13) 52.209-9. Updates of Publicly Available Information Regarding Responsibility Matters (Oct 2018)(41 U.S.C. 2313). (14) [Reserved]. (15) 52.219-3. Notice of HUBZone Set-Aside or Sole-Source Award (Oct 2022) ( 15 U.S.C. 657a). (16) 52.219-4. Notice of Price Evaluation Preference for HUBZone Small Business Concerns (Oct 2022) (if the offeror elects to waive the preference, it shall so indicate in its otfer) (15 U.S.C. 657a). (17) [Reserved] _(18) (i) 52.219-6. Notice of Total Small Business Set-Aside (Nov 2020) (",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6109,
+            "corpus_end": 7420,
+            "match": "Subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ny will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos,",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 211,
+            "corpus_end": 1522,
+            "match": "Deliverable"
+          },
+          {
+            "text": "luding reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publication, including campaign monitoring and analytics reporting. Final Campaign Reporting Delivery of a comprehensive final performance report summarizing campaign insights, outcomes, and impact. CONTINUATION TO SF-1449 RFQ NUMBER l 9ES6026Q0038 SCHEDULE OF SUPPLIES/SERVICES, BLOCK 20 DESCRIPTION/SPECIFICATIONS/WORK STATEMENT II. DELIVERY LOCATION AND TIME A. The Contractor shall deliver all ordered items to American Embassy San Salvador. The address is: American Embassy San Salvador Final Blvd. Santa Elena Urbanizaci6n Santa Elena, Antigua Cuscatlan, La Libertad B. The Contractor shall deliver all items not later than 30 days after date of contract award or as required by the requesting office. C. Any Contractor personnel involved with the delivery of the items shall comply with standard U.S. Embassy regulations for receiving supplies. The Contracting Officer's Representative (COR) will be responsible for instructing contractor personnel at",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1492,
+            "corpus_end": 2805,
+            "match": "SPECIFICATION"
+          },
+          {
+            "text": "03-15. Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2010) (Section 1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title I",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5340,
+            "corpus_end": 6652,
+            "match": "Requirements"
+          },
+          {
+            "text": "1553 of Pub. L. 111 -5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.) _X_ (4) 52.203-17. Contractor Employee Whistleblower Rights (Nov 2023) ( 41 U.S.C. 4712): this clause does not apply to contracts of DoD, NASA, the Coast Guard, or applicable elements of the intelligence community—see FAR3.90Qfa). _X (5) 52.204-10. Reporting Executive Compensation and First-Tier Subcontract Awards (Jun 2020) (Pub. L. 109- 282) ( 31 U.S.C. 6101 note). (6) [Reserved]. (7) 52.204-14. Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). (8) 52.204-15. Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C). _X (9) 52.204-27. Prohibition on a ByteDance Covered Application (Jun 2023) (Section 102 of Division R of Pub. L. 117-328). (10) 52.204-28. Federal Acquisition Supply Chain Security Act Orders—Federal Supply Schedules, Governmentwide Acquisition (Contracts, and Multi-Agency Contracts. (Dec 2023) ( Pub. L. 115-390. title II). _X(ll) (i) 52.204-30. Federal Acquisition Supply Chain Security Act Orders—Prohibition. (Dec 2023) ( Pub. L. 115-390. title II). _ (ii) Alternate I (Dec 2023) of52.204-30. _X (12) 52.209-6. Protecting the Government’s Interest When Su",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5449,
+            "corpus_end": 6761,
+            "match": "Requirements"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, inclu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 188,
+            "corpus_end": 1494,
+            "match": "travel"
+          },
+          {
+            "text": "The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after pu",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 522,
+            "corpus_end": 1834,
+            "match": "availability"
+          },
+          {
+            "text": "ort at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publication, including campaign monitoring and analytics reporting. Final Campaign Reporting Delivery of a comprehensive final performance report summarizing campaign insights, outcomes, and impact. CONTINUATION TO SF-1449 RFQ NUMBER l 9ES6026Q0038 SCHEDULE OF SUPPLIES/SERVICES, BLOCK 20 DESCRIPTION/SPECIFICATIONS/WORK STATEMENT II. DELIVERY LOCATION AND TIME A. The Contractor shall deliver all ordered items to American Embassy San Salvador. The address is: American Embassy San Salvador Final Blvd. Santa",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1047,
+            "corpus_end": 2353,
+            "match": "travel"
+          },
+          {
+            "text": "on of Segregated Facilities (Apr 2015). _(34) (i) 52.222-26. Equal Opportunity (Sep 2016) (E.O. 11246). _ (ii) Alternate 1 (Feb 1999) of 52.222-26. _(35) (i) 52.222-35. Equal Opportunity for Veterans (Jun 2020) ( 38 U.S.C. 4212). _(ii) Alternate I (Jul 2014) of 52.222-35. _(36) (i) 52.222-36. Equal Opportunity for Workers with Disabilities (Jun 2020) ( 29 U.S.C. 793). _ (ii) Alternate I (Jul 2014) of 52.222-36. (37) 52.222-37. Employment Reports on Veterans (Jun 2020) ( 38 U.S.C. 4212). (38) 52.222-40. Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496). _X(39) n't 52.222-50, Combating Trafficking in Persons (Nov 2021) (22 U.S.C. chapter 78 and E.O. 13627). _(ii) Alternate I (Mar 20151 of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627). (40) 52.222-54, Employment Eligibility Verification (Jan 2025) ( Executive Order 12989). (Not applicable to the acquisition of commercially available off-the-shelf items or certain other types of commercial products or commercial services as prescribed in FAR 22.1803.) _(41) (i) 52.223-9. Estimate of Percentage of Recovered Material Content for EPA-Designated Items (May 2008) ( 42 U.S.C. 6962(c)(3)(A)(ii)). (Not applicable to the acquisition of commercially available off-the-shelf items.) (ii) Alternate 1 (May",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9312,
+            "corpus_end": 10621,
+            "match": "in Person"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [
+          {
+            "text": "===== FILE: files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf ===== SECTION I - THE SCHEDULE CONTINUATION TO SF-1449 RFQ NUMBER 19ES6026Q0038 PRICES, BLOCK 23 I. SCOPE OF SERVICES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publi",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 38447,
+            "match": "PRICES, BLOCK 23 \nI. SCOPE OF SERVICES\nThe contracted company will design and implement a 12 month strategic influencer "
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf ===== SECTION I - THE SCHEDULE CONTINUATION TO SF-1449 RFQ NUMBER 19ES6026Q0038 PRICES, BLOCK 23 I. SCOPE OF SERVICES The contracted company will design and implement a 12 month strategic influencer engagement campaign to strengthen economic ties between the United States and El Salvador by increasing awareness of U.S. investment opportunities, promoting bilateral economic cooperation, and supporting U.S. commercial interests in the country. The cont ractor shall recruit and manage digital influencers to develop Embassy approved content across multiple platforms highlighting the United States as El Salvador’ s preferred economic partner, and will coordinate all logistics for influencer participation in the Foreign Commercial Service fair, including travel arrangeme nts. Deliverables include comprehensive content pack ages for each platform, daily story coverage during the fair, monitoring and analytics following publication, and a full performance report at the conclusion of the campaign, all ex ecuted within the contract period and subject to Embassy approval and funding availability. II. PRICING Category Description Influencer Recruitment and Management Identification, contracting, coordination, and oversight of digital influencers for all campaign activities. Content Creation and Production Development and production of Embassy-approved content across multiple platforms, including reels, TikTok videos, carousels, static posts, and stories. FCS Fair Participation Support Logistics coordination for influencer participation in the Foreign Commercial Service fair, including travel arrangements and creation of content packages. Monitoring and Analytics Tracking and analysis of content performance after publi",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 99728,
+            "match": "SCHEDULE \nCONTINUATION TO SF-1449 \nRFQ NUMBER 19ES6026Q0038\nPRICES, BLOCK 23 \nI. SCOPE OF SERVICES\nThe contracted compan"
+          }
+        ],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "erformance and for which the worker does not offer himself voluntarily; or (2) Performed by any person under the age of 18 pursuant to a contract the enforcement of which can be accomplished by process or penalties. Highest-level owner means the entity that owns or controls an immediate owner of the offeror, or that owns or controls one or more entities that control an immediate owner of the offeror. No entity owns or exercises control of the highest level owner. Immediate owner means an entity, other than the offeror, that has direct control of the offeror. Indicators of control include, but are not limited to, one or more of the following: ownership or interlocking management, identity of interests among family members, shared facilities and equipment, and the common use of employees. Inverted domestic corporation, means a foreign incorporated entity that meets the definition of an inverted domestic corporation under 6 U.S.C. 395(bf applied in accordance with the rules and definitions of 6 U.S.C. 395(c). Manufactured end product means any end product in product and service codes (PSCs) 1000-9999, except— (1) PSC 5510, Lumber and Related Basic Wood Materials; (2) Product or Service Group (PSG) 87, Agricultural Supplies; (3) PSG 88, Live Animals; (4) PSG 89, Subsistence; (5) PSC 9410, Cru",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 54083,
+            "corpus_end": 55392,
+            "match": "ownership"
+          },
+          {
+            "text": "concerns eligible under the SDVOSB Program. Small business concern— (1) Means a concern, including its affiliates, that is independently owned and operated, not dominant in its field of operation, and qualified as a small business under the criteria in 13 CFR part 121 and size standards in this solicitation. {1) Affiliates, as used in this definition, means business concerns, one of whom directly or indirectly controls or has the power to control the others, or a third party or parties control or have the power to control the others. In determining whether affiliation exists, consideration is given to all appropriate factors including common ownership, common management, and contractual relationships. SBA determines affiliation based on the factors set forth at 13 CFR 121.103. Small disadvantaged business concern, consistent with 13 CFR 124.1001, means a small business concern under the size standard applicable to the acquisition, that— (1) Is at least 51 percent unconditionally and directly owned (as defined at 13 CFR 124.105) by— (1) One or more socially disadvantaged (as defined atl3 CFR 124.103) and economically disadvantaged (as defined at 13 CFR 124.104) individuals who are citizens of the United States; and (ii) Each individual claiming economic disadvantage has a net worth not exc",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 59804,
+            "corpus_end": 61113,
+            "match": "ownership"
+          },
+          {
+            "text": "ts, or affiliates, the property and interests in property of which are blocked pursuant to the International Emergency Economic Powers Act (et seq.) (see OFAC’s Specially Designated Nationals and Blocked Persons List at https://www.treasurv.gov/resource-center/sanctions/SDN-List/Pages/default.aspx). (3) The representation and certification requirements of paragraph (o)(2) of this provision do not apply if- (i) This solicitation includes a trade agreements certification (e.g.. 52.212-3(g~) or a comparable agency provision); and (ii) The offeror has certified that all the offered products to be supplied are designated country end products, (p) Ownership or Control of Offeror. (Applies in all solicitations when there is a requirement to be registered in SAM or a requirement to have a unique entity identifier in the solicitation). (1) The Offeror represents that it □ has or □ does not have an immediate owner. If the Offeror has more than one immediate owner (such as a joint venture), then the Offeror shall respond to paragraph (2) and if applicable, paragraph (3) of this provision for each participant in the joint venture. (2) If the Offeror indicates \"has\" in paragraph (p)(I) of this provision, enter the following infoiTnation: Immediate owner CAGE code: . Immediate owner legal name: . (Do n",
+            "source": "files/19ES6026Q0038-RFQ-Social_Media_Influencers.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/7aa/7aad13f15ace4a009e500c591ec7afa5.pdf?response-content-disposition=attachment%3B%20filename%3D19ES6026Q0038-RFQ-Social%2BMedia%2BInfluencers.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260826T101855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=56554d47e80d014deb28a89c1d398c9b11eacb8ba9e0f42597ae9a671a5ea5ab",
+            "source_sha256": "323d6357cc8bad8c0d4ef6cb2f2f6211b9ce75024178325eb5457c071bae44f9",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 90487,
+            "corpus_end": 91796,
+            "match": "Ownership"
+          }
+        ]
+      },
+      "source_dce_run_id": 32957539964,
+      "source_shard": 1,
+      "hot_ready_at": "2026-08-26T10:18:59.396814+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 47,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "content-creation"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c71a19df7a0d945b0884aaa71e38883f6309d69c9571fd41f46c1548f30370a6",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 47,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32957539964,
+        "shard": 1,
+        "candidate_id": "US-SAM:cdef8f58d0314f54a65e0eb3bb772d80",
+        "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -36038,7 +37100,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -36725,7 +37787,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -36893,7 +37955,7 @@
       "gpt_priority_score": 10,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -37037,7 +38099,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -37179,7 +38241,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 2,
@@ -37304,7 +38366,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "YELLOW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -38220,7 +39282,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 3,
@@ -38608,7 +39670,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 0,
@@ -39070,7 +40132,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 1,
@@ -39434,7 +40496,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 3,
@@ -40334,7 +41396,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -41184,7 +42246,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 1,
@@ -42128,7 +43190,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 1,
@@ -44697,7 +45759,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 0,
@@ -45093,7 +46155,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32942796520,
         "shard": 2,
@@ -46085,7 +47147,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 3,
@@ -46471,7 +47533,7 @@
       "gpt_priority_score": 12,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 0,
@@ -47385,7 +48447,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 4,
@@ -47770,7 +48832,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32946130375,
         "shard": 3,
@@ -48765,7 +49827,7 @@
       "gpt_priority_score": 18,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32921650184,
         "shard": 1,
@@ -49267,7 +50329,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 4,
@@ -49744,7 +50806,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32931842956,
         "shard": 0,
@@ -50358,7 +51420,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32928958732,
         "shard": 3,
@@ -50796,7 +51858,7 @@
       "gpt_priority_score": 17,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 3,
@@ -51293,7 +52355,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 2,
@@ -51796,7 +52858,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32954255767,
         "shard": 2,
@@ -52274,7 +53336,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32950555022,
         "shard": 0,
@@ -52919,7 +53981,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32935959502,
         "shard": 2,
@@ -53085,7 +54147,7 @@
       "gpt_priority_score": 7,
       "upstream_signal": "MODEL_REVIEW_REQUIRED",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 32938363135,
         "shard": 0,
@@ -53101,18 +54163,18 @@
     "authenticity_target": 20,
     "low_surveillance_target": 20,
     "selected_by_lane": {
-      "GPT_PRIORITY": 11,
+      "GPT_PRIORITY": 12,
       "DCE_AUTHENTICITY_REPAIR": 7,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 8
     },
     "selected_by_stage": {
-      "BUSINESS_GATES": 39,
+      "BUSINESS_GATES": 40,
       "DCE_AUTHENTICITY": 7
     },
     "selected_by_band": {
       "HOT": 1,
-      "GOOD": 5,
+      "GOOD": 6,
       "MAYBE": 9,
       "LOW": 31
     },
@@ -53121,30 +54183,30 @@
       "TED": 30,
       "MALTA_EPPS": 1,
       "SCOTLAND_PCS": 8,
+      "US_SAM": 3,
       "PL_EZAMOWIENIA": 2,
-      "US_SAM": 2,
       "GENERIC_PUBLIC_PAGE": 1
     }
   },
   "counts": {
-    "pending_gpt_web_review": 46,
+    "pending_gpt_web_review": 47,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 46,
+    "pending_before_visible_cap": 47,
     "pending_by_stage": {
-      "BUSINESS_GATES": 39,
+      "BUSINESS_GATES": 40,
       "DCE_AUTHENTICITY": 7
     },
     "pending_by_inbox_lane": {
-      "GPT_PRIORITY": 11,
+      "GPT_PRIORITY": 12,
       "DCE_AUTHENTICITY_REPAIR": 7,
       "LOW_PORTAL_SURVEILLANCE": 20,
       "ELASTIC_FILL": 8
     },
     "pending_by_fit_band": {
       "HOT": 1,
-      "GOOD": 5,
+      "GOOD": 6,
       "MAYBE": 9,
       "LOW": 31
     },
@@ -53153,8 +54215,8 @@
       "TED": 30,
       "MALTA_EPPS": 1,
       "SCOTLAND_PCS": 8,
+      "US_SAM": 3,
       "PL_EZAMOWIENIA": 2,
-      "US_SAM": 2,
       "GENERIC_PUBLIC_PAGE": 1
     }
   },
