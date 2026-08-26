@@ -1,0 +1,65 @@
+name: Pipeline Loss Summary
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pipeline-loss-summary.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          def load(p):
+              try:return json.load(open(p,encoding='utf-8'))
+              except:return {}
+          bank=load('control/final_supergreen_bank.json')
+          ledger=load('control/gpt_web_review_ledger.json')
+          idx=load('control/gpt_review_index.json')
+          metrics=load('control/gpt_inbox_metrics.json')
+          items=[x for x in bank.get('items',[]) if isinstance(x,dict)]
+          ticks=[x for x in (ledger.get('ticks') or {}).values() if isinstance(x,dict)]
+          c=Counter(str(x.get('classification') or 'UNKNOWN').upper() for x in items)
+          v=Counter(str(x.get('verdict') or 'UNKNOWN').upper() for x in ticks)
+          yellow=[x for x in items if str(x.get('classification') or '').upper()=='YELLOW']
+          yellow_unknown=[x for x in yellow if x.get('unknowns')]
+          nullrun=[x for x in ticks if x.get('source_dce_run_id') in (None,'',0,'0')]
+          ynull=[x for x in nullrun if str(x.get('verdict') or '').upper()=='YELLOW']
+          out={
+            'bank_total':len(items),'bank_by_class':dict(c),
+            'yellow_with_unknowns':len(yellow_unknown),
+            'ledger_ticks_total':len(ticks),'ledger_by_verdict':dict(v),
+            'ticks_missing_source_run':len(nullrun),'yellow_ticks_missing_source_run':len(ynull),
+            'review_index_count':int(idx.get('count') or 0),
+            'review_index_by_stage':(idx.get('counts') or {}).get('by_stage') or {},
+            'review_index_by_fit_band':(idx.get('counts') or {}).get('by_spm_fit_band') or {},
+            'visible_pending':int(((metrics.get('counts') or {}).get('pending_gpt_web_review')) or 0),
+            'overflow_beyond_hot_160':int(metrics.get('overflow_beyond_hot_160') or 0),
+            'latest_inbox_source_run':metrics.get('latest_source_dce_run_id'),
+            'latest_recovered_runs':((idx.get('recovery') or {}).get('source_runs_seen_this_refresh') or [])[:10],
+          }
+          Path('control/pipeline_loss_summary.json').write_text(json.dumps(out,indent=2)+'\n')
+          print(json.dumps(out,indent=2))
+          PY
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/pipeline_loss_summary.json
+          git commit -m "audit: persist compact loss summary ${GITHUB_RUN_ID}" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
