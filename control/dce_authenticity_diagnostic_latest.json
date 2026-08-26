@@ -1,27 +1,28 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32957539964,
-  "total_inbox_rows": 50,
-  "dce_authenticity_rows": 7,
+  "latest_source_dce_run_id": 32962689546,
+  "total_inbox_rows": 57,
+  "dce_authenticity_rows": 10,
   "portal_counts": {
-    "TED": 5,
-    "PL_EZAMOWIENIA": 2
+    "TED": 7,
+    "PL_EZAMOWIENIA": 2,
+    "CA_CANADABUYS": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 6,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
+    "UNKNOWN_RETRIEVED_DOCUMENT": 7,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 3
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 7
+    "NON_AUTHORITATIVE": 10
   },
   "method_counts": {},
   "recovery_opportunities": [
     {
       "portal": "TED",
-      "blocked": 5,
+      "blocked": 7,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 5
+        "NON_AUTHORITATIVE": 7
       }
     },
     {
@@ -30,6 +31,14 @@
       "likely_public_recovery_target": 0,
       "reason_counts": {
         "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "CA_CANADABUYS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
       }
     }
   ],
@@ -52,6 +61,14 @@
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0346-c0d5-a207-ab56-9400012837ef"
       },
       {
+        "candidate_id": "CA:BPM026432/34593",
+        "portal": "CA_CANADABUYS",
+        "title": "RFQ – FB-S200-D-1735TB - 1MO,ADV,GOLD Hardware and Software Maintenance and Support Renewal, or equivalent for DFO",
+        "buyer": null,
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": null
+      },
+      {
         "candidate_id": "TED:505229-2026",
         "portal": "TED",
         "title": "Germany – Education and training services – Aufsuchendes Coaching (ACo)",
@@ -66,14 +83,6 @@
         "buyer": "Przedsiębiorstwo Gospodarki Komunalnej i Mieszkaniowej Łęczna sp. z o.o.",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0334-7745-6f82-ab56-9400015d7438"
-      },
-      {
-        "candidate_id": "TED:534178-2026",
-        "portal": "TED",
-        "title": "Spain – Training services – SERVICIO PARA LA EJECUCIÓN DEL PROYECTO CONTRA LA FEMINIZACIÓN DE LA POBREZA EN EL MARCO DEL PLAN DE BARRIOS DE BARCELONA, CON MEDIDAS DE CONTRATACIÓN PÚBLICA SOSTENIBLE Y CON EL APOYO DEL PLAN DE BARRIOS Y VILLAS DE CATALUÑA DE LA GENERALIDAD DE CATALUÑA (LOTES 1 A 16).",
-        "buyer": "Foment de Ciutat SA",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/534178-2026"
       }
     ]
   },
