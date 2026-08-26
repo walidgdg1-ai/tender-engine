@@ -1,13 +1,13 @@
 {
   "schema": "LIVE_WORLD_SNAPSHOT_POINTER_V2",
-  "source_discovery_run": 32920692968,
-  "generated_at": "2026-08-26T03:02:09.489288+00:00",
-  "snapshot_rows": 123524,
-  "current_materialized_rows": 95347,
-  "carried_forward_rows": 28177,
+  "source_discovery_run": 32925719274,
+  "generated_at": "2026-08-26T04:00:10.019635+00:00",
+  "snapshot_rows": 124477,
+  "current_materialized_rows": 96262,
+  "carried_forward_rows": 28215,
   "carried_forward_by_source": {
     "DE": 6367,
-    "UK_PCS_OCDS": 3832,
+    "UK_PCS_OCDS": 3842,
     "PL": 3439,
     "ZA_ETENDERS_OCDS": 2355,
     "ES_PLACSP": 2289,
@@ -22,14 +22,14 @@
     "CZ_ZAKAZKY_GOV": 363,
     "CH_SIMAP": 317,
     "LV_IUB": 306,
-    "NL": 168,
+    "NL": 188,
     "QC": 157,
     "UK": 96,
-    "FI": 38,
-    "MT": 31,
+    "FI": 48,
+    "MT": 34,
     "US_SAM": 30,
     "IE": 25,
-    "DK": 14,
+    "DK": 9,
     "CA": 4,
     "UNGM_PUBLIC": 2,
     "EE_RHR": 2,
@@ -38,10 +38,10 @@
     "TED": 2
   },
   "open_state_counts": {
-    "OPEN_CONFIRMED_BY_DEADLINE": 107263,
-    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 16261
+    "OPEN_CONFIRMED_BY_DEADLINE": 108204,
+    "OPEN_UNVERIFIED_NO_PARSEABLE_DEADLINE": 16273
   },
-  "packet_count": 248,
+  "packet_count": 249,
   "coverage_status": "PARTIAL_WORLD_COVERAGE",
   "failed_sources": [
     "discovery-global-au-austender",
@@ -56,7 +56,7 @@
   "packet_path_template": "gpt-packets/packet-XXXX.jsonl",
   "coverage_path": "discovery_coverage.json",
   "stable_release_tag": "live-world-snapshot-latest",
-  "immutable_release_tag": "live-world-snapshot-32920692968",
+  "immutable_release_tag": "live-world-snapshot-32925719274",
   "dce_request_path": "control/gpt_dce_request.json",
   "rule": "GPT selects candidate IDs semantically; GitHub retrieves DCE only after selection. Coverage gaps stay explicit even when prior still-live rows are carried forward for recall. No notice-only FINAL_SUPER_GREEN."
 }
