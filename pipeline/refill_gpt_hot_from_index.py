@@ -143,7 +143,12 @@ def main() -> None:
     final_bank = load_json(Path(args.final_bank), {})
     ledger = load_json(Path(args.review_ledger), {})
     ticks = ledger_ticks(ledger)
-    final_ids = {key(x) for x in (final_bank.get("items") or []) if isinstance(x, dict) and key(x)}
+    # Repairable YELLOW rows must remain eligible for a newer DCE/review pass.
+    final_ids = {
+        key(x) for x in (final_bank.get("items") or [])
+        if isinstance(x, dict) and key(x)
+        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}
+    }
 
     rows = []
     for row in index.get("items") or []:

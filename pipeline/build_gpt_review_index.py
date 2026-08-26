@@ -68,9 +68,12 @@ def main() -> None:
     final_bank = load_json(Path(args.final_bank), {})
     review_ledger = load_json(Path(args.review_ledger), {})
     ticks = ledger_ticks(review_ledger)
+    # YELLOW is not terminal: it frequently means unresolved/reparable evidence.
+    # Only truly decided outcomes suppress future review.
     final_ids = {
         candidate_key(x) for x in (final_bank.get("items") or [])
         if isinstance(x, dict) and candidate_key(x)
+        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}
     }
 
     merged: dict[str, dict[str, Any]] = {}

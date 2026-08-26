@@ -181,7 +181,11 @@ def main() -> None:
     inbox = load(Path(args.inbox))
     bank = load(Path(args.final_bank))
     ledger = load(Path(args.ledger))
-    final_ids = {norm(x.get("candidate_id")) for x in bank.get("items", []) if isinstance(x, dict)}
+    final_ids = {
+        norm(x.get("candidate_id")) for x in bank.get("items", [])
+        if isinstance(x, dict)
+        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}
+    }
     ticks = ledger.get("ticks") if isinstance(ledger.get("ticks"), dict) else {}
     reviewed_ids = {norm(v.get("candidate_id")) for v in ticks.values() if isinstance(v, dict) and v.get("reviewed")}
 

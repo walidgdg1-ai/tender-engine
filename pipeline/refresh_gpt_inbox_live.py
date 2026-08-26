@@ -144,7 +144,9 @@ def is_reviewed(row: dict[str, Any], ticks: dict[str, dict[str, Any]]) -> bool:
     reviewed_run = run_id(tick.get('source_dce_run_id'))
     if current_run is not None and reviewed_run is not None:
         return current_run <= reviewed_run
-    return True
+    # Legacy ticks without a source DCE run cannot prove they cover a later DCE
+    # version. Only an exact review_key may suppress in that case.
+    return False
 
 
 def pending_rank(row: dict[str, Any]):
@@ -343,7 +345,12 @@ def main() -> None:
     ledger = load_live_review_ledger(Path(args.review_ledger))
     ticks = ledger_ticks(ledger)
 
-    final_items = [x for x in final_bank.get('items', []) if isinstance(x, dict) and key(x)]
+    # YELLOW is a repair/review state, not a terminal resolution.
+    final_items = [
+        x for x in final_bank.get('items', [])
+        if isinstance(x, dict) and key(x)
+        and str(x.get('classification') or '').upper() in {'FINAL_SUPER_GREEN', 'GREEN', 'RED'}
+    ]
     resolved = {key(x) for x in final_items}
 
     pending: dict[str, dict[str, Any]] = {}
