@@ -1,0 +1,35 @@
+name: Pipeline Loss Summary Tiny
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pipeline-loss-summary-tiny.yml']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          def L(p):
+            try:return json.load(open(p,encoding='utf-8'))
+            except:return {}
+          b=L('control/final_supergreen_bank.json'); l=L('control/gpt_web_review_ledger.json'); i=L('control/gpt_review_index.json'); m=L('control/gpt_inbox_metrics.json')
+          items=[x for x in b.get('items',[]) if isinstance(x,dict)]; ticks=[x for x in (l.get('ticks') or {}).values() if isinstance(x,dict)]
+          y=[x for x in items if str(x.get('classification') or '').upper()=='YELLOW']
+          out={'bank_total':len(items),'green':sum(str(x.get('classification') or '').upper()=='GREEN' for x in items),'yellow':len(y),'red':sum(str(x.get('classification') or '').upper()=='RED' for x in items),'yellow_with_unknowns':sum(bool(x.get('unknowns')) for x in y),'ticks_total':len(ticks),'ticks_missing_source_run':sum(x.get('source_dce_run_id') in (None,'',0,'0') for x in ticks),'yellow_ticks_missing_source_run':sum(str(x.get('verdict') or '').upper()=='YELLOW' and x.get('source_dce_run_id') in (None,'',0,'0') for x in ticks),'index_pending':int(i.get('count') or 0),'business_gate_pending':int(((i.get('counts') or {}).get('by_stage') or {}).get('BUSINESS_GATES') or 0),'auth_pending':int(((i.get('counts') or {}).get('by_stage') or {}).get('DCE_AUTHENTICITY') or 0),'hot':int(((i.get('counts') or {}).get('by_spm_fit_band') or {}).get('HOT') or 0),'good':int(((i.get('counts') or {}).get('by_spm_fit_band') or {}).get('GOOD') or 0),'maybe':int(((i.get('counts') or {}).get('by_spm_fit_band') or {}).get('MAYBE') or 0),'low':int(((i.get('counts') or {}).get('by_spm_fit_band') or {}).get('LOW') or 0),'visible_pending':int(((m.get('counts') or {}).get('pending_gpt_web_review')) or 0),'overflow':int(m.get('overflow_beyond_hot_160') or 0)}
+          Path('control/pipeline_loss_summary_tiny.json').write_text(json.dumps(out,indent=2)+'\n')
+          print(json.dumps(out,indent=2))
+          PY
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add control/pipeline_loss_summary_tiny.json
+          git commit -m "audit: tiny loss counters ${GITHUB_RUN_ID}" || exit 0
+          git pull --rebase origin main && git push origin HEAD:main
