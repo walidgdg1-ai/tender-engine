@@ -21,6 +21,7 @@ on:
       - 'pipeline/merge_gpt_adjudications_into_final_bank.py'
       - 'pipeline/rebuild_gpt_review_bank_from_release.py'
       - 'pipeline/build_gpt_review_index.py'
+      - 'pipeline/refill_gpt_hot_from_index.py'
       - 'pipeline/build_gpt_web_read_batches.py'
       - 'pipeline/extract_corpus.py'
       - 'pipeline/extract_gates.py'
@@ -139,11 +140,24 @@ jobs:
               --review-ledger control/gpt_web_review_ledger.json \
               --out control/gpt_review_index.json
 
+            # Recent releases are still useful for a first hydrated bank, but they are
+            # not the authoritative candidate universe.
             python pipeline/rebuild_gpt_review_bank_from_release.py \
               --release-root /tmp/dce-review-recovery \
               --existing control/gpt_review_hot.json \
               --out control/gpt_review_hot.json \
               --max-items 160
+
+            # Starvation guard: refill the visible bank from the durable uncapped index
+            # every pass. Older HOT/GOOD rows can no longer disappear merely because
+            # their DCE release is outside the 10-release recovery window.
+            python pipeline/refill_gpt_hot_from_index.py \
+              --index control/gpt_review_index.json \
+              --final-bank control/final_supergreen_bank.json \
+              --review-ledger control/gpt_web_review_ledger.json \
+              --out control/gpt_review_hot.json \
+              --max-items 160 \
+              --max-release-downloads 80
 
             # Force the refresh to read the just-updated LOCAL ledger rather than the
             # stale remote copy. The durable ledger is committed below in the same run.
