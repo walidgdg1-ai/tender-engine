@@ -11,6 +11,9 @@ ACCESS_GUIDE_FILENAME_PATTERNS = [
     r"guide.*utilisateur", r"notice.*utilisation", r"mode.*emploi", r"nutzungsbedingungen", r"bedienungsanleitung", r"benutzerhandbuch", r"datenschutz",
     r"gebruikershandleiding", r"instrukcja", r"podręcznik użytkownika", r"manual.*usuario", r"gu[ií]a.*usuario", r"manuale.*utente", r"guida.*utente",
     r"manual.*utilizador", r"guia.*utilizador", r"cgu.*march", r"depot[-_ ]?pli",
+    # Generic portal/support files can contain the candidate title, deadline and
+    # procurement vocabulary. They are transport/access evidence, not the DCE.
+    r"portal[_ .-]?page", r"(?:^|[/_.-])cgu(?:[/_.-]|$)", r"bieterunterst.*tzung",
 ]
 
 ACCESS_GUIDE_TEXT_PATTERNS = [
