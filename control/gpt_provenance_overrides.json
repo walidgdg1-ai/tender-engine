@@ -1,17 +1,17 @@
 {
   "schema": "GPT_DCE_PROVENANCE_OVERRIDES_V3_EXACT_SHARD_PACK",
-  "updated_at": "2026-08-25T05:16:32.866412+00:00",
-  "override_count": 23,
+  "updated_at": "2026-08-26T05:15:53.837755+00:00",
+  "override_count": 24,
   "refreshed_this_run": [
     {
-      "candidate_id": "TED:580561-2026",
-      "source_dce_run_id": 32637415262,
-      "source_shard": 2,
-      "transport": "CANONICAL_RELEASE_BUNDLE",
-      "attributed": 281,
+      "candidate_id": "TED:587130-2026",
+      "source_dce_run_id": 32911368999,
+      "source_shard": 0,
+      "transport": "WORKFLOW_ARTIFACT",
+      "attributed": 0,
       "unattributed": 0,
-      "raw_machine_snippets": 1,
-      "documents": 11,
+      "raw_machine_snippets": 0,
+      "documents": 1,
       "documents_with_source_url": 1
     },
     {
@@ -65206,7 +65206,7 @@
       "candidate_id": "TED:533952-2026",
       "source_dce_run_id": 32666624892,
       "source_shard": 2,
-      "refreshed_at": "2026-08-25T05:16:32.850808+00:00",
+      "refreshed_at": "2026-08-26T05:15:53.834859+00:00",
       "provenance_transport": "CANONICAL_RELEASE_BUNDLE",
       "provenance_locator": {
         "release_tag": "dce-harvest-32666624892",
@@ -65293,6 +65293,90 @@
       "document_count": 1,
       "documents_with_source_url": 1,
       "raw_machine_documents": 1,
+      "policy": "Re-extracted only from immutable DCE worker/canonical artifacts for the exact candidate and source run. This override changes evidence provenance/presentation only; it is not a new procurement verdict."
+    },
+    "TED:587130-2026": {
+      "candidate_id": "TED:587130-2026",
+      "source_dce_run_id": 32911368999,
+      "source_shard": 0,
+      "refreshed_at": "2026-08-26T05:15:52.191111+00:00",
+      "provenance_transport": "WORKFLOW_ARTIFACT",
+      "provenance_locator": {
+        "workflow_run_id": 32911368999,
+        "artifact_name": "dce-shard-0",
+        "source_shard": 0,
+        "candidate_archive": "candidate-TED-587130-2026.tar.gz"
+      },
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [],
+        "payment_tax": []
+      },
+      "evidence_quality_summary": {
+        "contract": "DCE_EVIDENCE_QUALITY_V2",
+        "candidate_id": "TED:587130-2026",
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "derived_status": "DOWNLOADED_PUBLIC_EMPTY",
+        "content_quality": "EXTRACTION_EMPTY",
+        "gate_readiness": false,
+        "text_chars": 0,
+        "documents_indexed": 1,
+        "documents_with_text": 0,
+        "source_urls": [
+          "https://centraleacquisti.regione.lazio.it/documents/d/guest/bando-gara-dettaglio-styles?t=1781283067258"
+        ],
+        "all_source_files_notice_only": false,
+        "official_khmdhs_provenance": {
+          "matched": false,
+          "reason": "not_gr_khmdhs"
+        },
+        "official_placsp_provenance": {
+          "matched": false,
+          "reason": "not_es_placsp"
+        },
+        "official_za_ocds_provenance": {
+          "matched": false,
+          "reason": "not_za_etenders"
+        },
+        "generic_filename_hits": [],
+        "access_guide_hits": [],
+        "interest_required_hits": [],
+        "substantive_marker_hits": [],
+        "candidate_title_overlap": {
+          "tokens": [
+            "centro",
+            "italy",
+            "printing",
+            "stampa"
+          ],
+          "hits": [],
+          "ratio": 0.0
+        },
+        "reasons": [
+          "downloaded_files_but_no_extractable_authoritative_text"
+        ],
+        "rule": "DOWNLOADED_PUBLIC is transport success only. Gate review requires semantic candidate specificity or exact trusted official attachment provenance; publication notice PDFs are never promoted. Provenance proves authority, not eligibility, and mandatory-gate UNKNOWN remains UNKNOWN."
+      },
+      "evidence_provenance_summary": {
+        "attributed": 0,
+        "unattributed": 0,
+        "raw_machine_format": 0
+      },
+      "document_count": 1,
+      "documents_with_source_url": 1,
+      "raw_machine_documents": 0,
       "policy": "Re-extracted only from immutable DCE worker/canonical artifacts for the exact candidate and source run. This override changes evidence provenance/presentation only; it is not a new procurement verdict."
     }
   },
