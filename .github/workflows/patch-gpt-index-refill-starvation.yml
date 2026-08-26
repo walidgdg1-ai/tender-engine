@@ -1,0 +1,89 @@
+name: Patch GPT Index Refill Starvation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-gpt-index-refill-starvation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main, fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Make the visible hot bank refill from the durable uncapped index
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('.github/workflows/gpt-inbox-live-refresh.yml')
+          s=p.read_text(encoding='utf-8')
+          anchor="""            python pipeline/rebuild_gpt_review_bank_from_release.py \\
+              --release-root /tmp/dce-review-recovery \\
+              --existing control/gpt_review_hot.json \\
+              --out control/gpt_review_hot.json \\
+              --max-items 160
+
+            # Force the refresh to read the just-updated LOCAL ledger rather than the
+"""
+          replacement="""            python pipeline/rebuild_gpt_review_bank_from_release.py \\
+              --release-root /tmp/dce-review-recovery \\
+              --existing control/gpt_review_hot.json \\
+              --out control/gpt_review_hot.json \\
+              --max-items 160
+
+            # Critical starvation guard: the recent-release rebuild above is only a
+            # hydration aid. The authoritative candidate universe is the durable,
+            # uncapped index. Refill the visible hot bank from that index every pass
+            # so older HOT/GOOD rows cannot disappear behind the recent-release window.
+            python pipeline/refill_gpt_hot_from_index.py \\
+              --index control/gpt_review_index.json \\
+              --final-bank control/final_supergreen_bank.json \\
+              --review-ledger control/gpt_web_review_ledger.json \\
+              --out control/gpt_review_hot.json \\
+              --max-items 160 \\
+              --max-release-downloads 80
+
+            # Force the refresh to read the just-updated LOCAL ledger rather than the
+"""
+          if 'Critical starvation guard:' not in s:
+              if anchor not in s:
+                  raise SystemExit('starvation patch anchor not found')
+              s=s.replace(anchor,replacement,1)
+              p.write_text(s,encoding='utf-8')
+          PY
+      - name: Assert refill is wired after index rebuild
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('.github/workflows/gpt-inbox-live-refresh.yml').read_text(encoding='utf-8')
+          a=s.index('python pipeline/build_gpt_review_index.py')
+          b=s.index('python pipeline/refill_gpt_hot_from_index.py')
+          c=s.index('python pipeline/refresh_gpt_inbox_live.py')
+          assert a < b < c
+          print('index -> refill -> inbox order verified')
+          PY
+      - name: Persist starvation repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add .github/workflows/gpt-inbox-live-refresh.yml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'review: refill hot window from uncapped index'
+          for n in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+            sleep "$((n*3))"
+          done
+          exit 1
