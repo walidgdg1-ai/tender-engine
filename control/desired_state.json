@@ -17,23 +17,40 @@
   },
   "dce": {
     "enabled": true,
-    "max_candidates_per_cycle": 20,
+    "max_candidates_per_cycle": 320,
     "minimum_retrieval_priority": 0,
     "minimum_free_github_slots": 3,
     "latency_policy": {
-      "goal": "prioritize Qwen semantic backfill while preserving a bounded continuous DCE lane; automatically restore deeper DCE throughput as classification backlog falls",
-      "target_candidates_per_batch": 20,
-      "expected_github_parallel_slots": 4,
+      "goal": "maximize guarded or ChatGPT-ready supergreen candidates per runner-minute; stale/broken Qwen state is never allowed to throttle authoritative DCE retrieval",
+      "target_candidates_per_batch": 320,
+      "expected_github_parallel_slots": 20,
       "target_browser_candidates_per_shard": 2,
       "target_http_candidates_per_shard": 8,
-      "mode": "qwen_backfill_dce_low"
+      "mode": "deep_queue_streaming_hotpath"
     },
     "benchmark_basis": {
       "previous_batch_candidates": 640,
       "previous_batch_gate_ready": 100,
       "previous_runner_minutes_exact": 16.883333,
       "previous_useful_per_runner_minute_exact": 5.923001,
-      "decision": "auto_qwen_backlog_39602_dce_candidates_20"
+      "decision": "auto_qwen_backlog_39602_effective_0_dce_candidates_320",
+      "qwen_throttle_health": {
+        "reported_remaining": 39602,
+        "effective_remaining_for_dce_throttle": 0,
+        "state_max_age_hours": 6,
+        "generated_at": "2026-08-24T14:07:17+00:00",
+        "age_hours": 58.0,
+        "result_rows_seen": 1417,
+        "parse_or_fallback_rejected": 1417,
+        "stale": true,
+        "all_recent_results_invalid": true,
+        "healthy_for_throttling": false,
+        "reasons": [
+          "classification_summary_stale",
+          "last_merge_100pct_parse_or_fallback_error"
+        ],
+        "rule": "Qwen is a prioritisation aid. Stale or 100%-invalid Qwen checkpoints fail open for DCE throughput."
+      }
     }
   },
   "circleci": {
