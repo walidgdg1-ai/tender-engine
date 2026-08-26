@@ -35,6 +35,7 @@ ORPHAN_RECONCILE_INTERVAL_MINUTES = 30
 RETRY_BASE_MINUTES = 5
 RETRY_MAX_MINUTES = 360
 MAX_RETRY_STATE = 100_000
+TRUSTED_DCE_CONTENT_QUALITIES = {"SUBSTANTIVE_DCE_PRESENT", "MIXED_SUBSTANTIVE_AND_GUIDE"}
 
 _HISTORICAL_PRIORS = historical_priors.load()
 _ORIGINAL_RETRIEVAL_SCORE = selector_mod.retrieval_score
@@ -181,10 +182,9 @@ _original_reconcile_pending = v3._reconcile_pending
 def _semantic_resolution(dce_run_id: str, executed_ids: list[str]) -> dict | None:
     """Read aggregate truth already persisted in the DCE Release.
 
-    The deep-review tar is produced by aggregate_dce.py after content-quality and
-    candidate-specific relevance checks. It is therefore a semantic execution
-    index: gate_readiness=true means the DCE is sufficiently resolved for review;
-    everything else is a retrieval miss to retry, not a permanently processed ID.
+    Permanent processing is fail-closed: gate_readiness must be true AND the
+    evidence-quality classifier must identify substantive candidate-specific DCE
+    content. A portal page, guide, notice or unknown retrieval remains retryable.
     """
     try:
         rel, assets = v4._release_assets(dce_run_id)
@@ -223,11 +223,17 @@ def _semantic_resolution(dce_run_id: str, executed_ids: list[str]) -> dict | Non
         retry_reasons: dict[str, str] = {}
         for cid in executed_ids:
             row = by_id.get(str(cid).casefold())
-            if row and bool(row.get("gate_readiness")):
+            summary = (row or {}).get("evidence_quality_summary") or {}
+            quality = str((row or {}).get("content_quality") or summary.get("content_quality") or "").upper()
+            trusted_quality = quality in TRUSTED_DCE_CONTENT_QUALITIES
+            if row and bool(row.get("gate_readiness")) and trusted_quality:
                 resolved.append(cid)
             else:
                 retryable.append(cid)
-                retry_reasons[cid] = str((row or {}).get("status") or (row or {}).get("raw_status") or "SEMANTIC_RESULT_MISSING")
+                base_reason = str((row or {}).get("status") or (row or {}).get("raw_status") or "SEMANTIC_RESULT_MISSING")
+                if row and bool(row.get("gate_readiness")) and not trusted_quality:
+                    base_reason = f"UNTRUSTED_GATE_READY_CONTENT_QUALITY:{quality or 'MISSING'}"
+                retry_reasons[cid] = base_reason
         return {
             "resolved_ids": resolved,
             "retryable_ids": retryable,
@@ -263,7 +269,6 @@ def _expire_retry_cooldowns(state: dict, actions: list[dict]) -> None:
             "candidates_released": len(expired),
             "sample": expired[:12],
         })
-    # Bound retry bookkeeping independently from the permanent processed set.
     if len(attempts) > MAX_RETRY_STATE:
         keep = set(list(attempts)[-MAX_RETRY_STATE:])
         state["dce_retry_attempts"] = {k: v for k, v in attempts.items() if k in keep}
@@ -291,8 +296,6 @@ def _semantic_commit_durable_batch(
                 "rule": "execution archive alone never makes a candidate processed",
             })
             return True
-        # High-recall fallback: if semantic truth never materializes, requeue rather
-        # than permanently losing every executed candidate.
         actions.append({
             "type": "dce_batch_semantic_resolution_missing_requeued",
             "workflow_run_id": run_id,
@@ -309,9 +312,6 @@ def _semantic_commit_durable_batch(
     attempts = state.setdefault("dce_retry_attempts", {})
 
     processed = list(state.get("processed_candidate_ids", []))
-    # Resolved DCEs are permanent. Retryable misses are temporarily added to the
-    # same blocked set only until their cooldown expires, so the existing selector
-    # remains unchanged and cannot immediately thrash the same portals.
     processed.extend(resolved_ids)
     now = fc.NOW
     cooldowns = []
@@ -345,7 +345,7 @@ def _semantic_commit_durable_batch(
         "semantic_asset": semantic.get("asset"),
         "semantic_rows": semantic.get("semantic_rows"),
         "retry_sample": cooldowns[:12],
-        "rule": "ATTEMPTED != PROCESSED; only candidate-specific gate-ready DCE becomes permanent",
+        "rule": "ATTEMPTED != PROCESSED; only trusted substantive candidate-specific gate-ready DCE becomes permanent",
     })
     state["pending_dce_batch"] = None
     if run_id and executed_ids:
@@ -353,8 +353,6 @@ def _semantic_commit_durable_batch(
     return False
 
 
-# v4._reconcile_pending resolves this global function dynamically, so replacing it
-# here upgrades old and new DCE batches without duplicating the reconciliation code.
 v4._commit_durable_batch = _semantic_commit_durable_batch
 
 
