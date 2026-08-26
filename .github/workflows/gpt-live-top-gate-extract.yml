@@ -1,0 +1,77 @@
+name: GPT live top gate extract
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/gpt-live-top-gate-extract.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Extract exact gate evidence for top live candidates
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          inbox = json.loads(Path('control/gpt_supergreen_inbox.json').read_text(encoding='utf-8'))
+          batch = json.loads(Path('control/gpt_live_review_batch.json').read_text(encoding='utf-8'))
+          wanted = [x.get('candidate_id') for x in batch.get('items', [])[:10] if isinstance(x, dict)]
+          by_id = {x.get('candidate_id'): x for x in inbox.get('review_queue', []) if isinstance(x, dict)}
+          gate_keys = [
+              'entity_geography','turnover_financial','references_experience','certifications_partner',
+              'staffing_team','insurance_bonds','subcontracting_consortium','deliverables_scope','sla_onsite',
+              'term_value','award_criteria','forms_signatures','submission','ip_data_security','payment_tax'
+          ]
+          trigger = re.compile(r'\b(?:minimum|must|shall|required|requirement|turnover|reference|experience|case stud|insurance|liability|quality assurance|environmental|health|safety|team|staff|personnel|cv\b|certif|subcontract|consortium|rely on|other entit|site visit|on[- ]?site|award|price|deadline|submission)\b', re.I)
+          def text(v):
+              if isinstance(v, dict): return str(v.get('text') or v.get('snippet') or v.get('evidence') or '')
+              return str(v or '')
+          out=[]
+          for cid in wanted:
+              row=by_id.get(cid)
+              if not row: continue
+              src=row.get('evidence_by_gate') if isinstance(row.get('evidence_by_gate'), dict) else row.get('evidence') if isinstance(row.get('evidence'), dict) else {}
+              gates={}
+              for k in gate_keys:
+                  vals=src.get(k) if isinstance(src, dict) else None
+                  if not isinstance(vals,list): continue
+                  picked=[]
+                  for v in vals:
+                      t=' '.join(text(v).split())
+                      if not t: continue
+                      # keep richer mandatory/threshold snippets first, then fill up to 8
+                      score=len(trigger.findall(t))*100 + min(len(t),2000)
+                      picked.append((score,t[:2200],v.get('source') if isinstance(v,dict) else None,v.get('source_sha256') if isinstance(v,dict) else None))
+                  picked.sort(reverse=True,key=lambda x:x[0])
+                  if picked:
+                      gates[k]=[{'text':t,'source':s,'sha256':h} for _,t,s,h in picked[:8]]
+              out.append({
+                  'candidate_id': cid,
+                  'title': row.get('title'), 'buyer': row.get('buyer'), 'deadline': row.get('deadline'),
+                  'estimated_value': row.get('estimated_value'), 'currency': row.get('currency'),
+                  'source_dce_run_id': row.get('source_dce_run_id'), 'source_shard': row.get('source_shard'),
+                  'content_quality': row.get('content_quality'), 'gate_readiness': row.get('gate_readiness'),
+                  'deadline_authority': row.get('deadline_authority'), 'gates': gates
+              })
+          p=Path('control/evidence/live_top_gate_extract.json')
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text(json.dumps({'schema':'GPT_LIVE_TOP_GATE_EXTRACT_V1','source_inbox_updated_at':inbox.get('updated_at'),'count':len(out),'items':out},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'wanted':wanted,'written':len(out)},ensure_ascii=False))
+          PY
+      - name: Commit extract
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add control/evidence/live_top_gate_extract.json
+          git diff --cached --quiet && exit 0
+          git commit -m "review: persist exact live top gate extract ${GITHUB_RUN_ID}"
+          git push
