@@ -1,17 +1,18 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32935959502,
-  "total_inbox_rows": 23,
-  "dce_authenticity_rows": 3,
+  "latest_source_dce_run_id": 32938363135,
+  "total_inbox_rows": 29,
+  "dce_authenticity_rows": 4,
   "portal_counts": {
-    "TED": 3
+    "TED": 3,
+    "PL_EZAMOWIENIA": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 2,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 3,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 1
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 3
+    "NON_AUTHORITATIVE": 4
   },
   "method_counts": {},
   "recovery_opportunities": [
@@ -21,6 +22,14 @@
       "likely_public_recovery_target": 0,
       "reason_counts": {
         "NON_AUTHORITATIVE": 3
+      }
+    },
+    {
+      "portal": "PL_EZAMOWIENIA",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
       }
     }
   ],
@@ -33,6 +42,14 @@
         "buyer": "ASL Roma 2",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/587130-2026"
+      },
+      {
+        "candidate_id": "PL-BZP:08df0334-7745-6f82-ab56-9400015d7438",
+        "portal": "PL_EZAMOWIENIA",
+        "title": "Przeprowadzenie testów bezpieczeństwa infrastruktury sieciowej , szkoleń oraz dostawa sprzętu, usług i oprogramowania w ramach projektu „Cyberbezpieczne Wodociągi”",
+        "buyer": "Przedsiębiorstwo Gospodarki Komunalnej i Mieszkaniowej Łęczna sp. z o.o.",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0334-7745-6f82-ab56-9400015d7438"
       },
       {
         "candidate_id": "TED:505229-2026",
