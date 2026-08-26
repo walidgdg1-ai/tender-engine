@@ -1,0 +1,67 @@
+name: Patch Review Terminality
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/patch-review-terminality.yml']
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Patch terminal semantics
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          terminal_expr = "str(x.get(\"classification\") or \"\").upper() in {\"FINAL_SUPER_GREEN\", \"GREEN\", \"RED\"}"
+
+          p=Path('pipeline/build_gpt_review_index.py')
+          s=p.read_text()
+          old='''    final_ids = {\n        candidate_key(x) for x in (final_bank.get("items") or [])\n        if isinstance(x, dict) and candidate_key(x)\n    }'''
+          new='''    # YELLOW is not terminal: it frequently means unresolved/reparable evidence.\n    # Only truly decided outcomes suppress future review.\n    final_ids = {\n        candidate_key(x) for x in (final_bank.get("items") or [])\n        if isinstance(x, dict) and candidate_key(x)\n        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}\n    }'''
+          assert old in s
+          p.write_text(s.replace(old,new))
+
+          p=Path('pipeline/refill_gpt_hot_from_index.py')
+          s=p.read_text()
+          old='''    final_ids = {key(x) for x in (final_bank.get("items") or []) if isinstance(x, dict) and key(x)}'''
+          new='''    # Repairable YELLOW rows must remain eligible for a newer DCE/review pass.\n    final_ids = {\n        key(x) for x in (final_bank.get("items") or [])\n        if isinstance(x, dict) and key(x)\n        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}\n    }'''
+          assert old in s
+          p.write_text(s.replace(old,new))
+
+          p=Path('pipeline/build_live_business_review_batch.py')
+          s=p.read_text()
+          old='''    final_ids = {norm(x.get("candidate_id")) for x in bank.get("items", []) if isinstance(x, dict)}'''
+          new='''    final_ids = {\n        norm(x.get("candidate_id")) for x in bank.get("items", [])\n        if isinstance(x, dict)\n        and str(x.get("classification") or "").upper() in {"FINAL_SUPER_GREEN", "GREEN", "RED"}\n    }'''
+          assert old in s
+          p.write_text(s.replace(old,new))
+
+          p=Path('pipeline/refresh_gpt_inbox_live.py')
+          s=p.read_text()
+          old='''    final_items = [x for x in final_bank.get('items', []) if isinstance(x, dict) and key(x)]\n    resolved = {key(x) for x in final_items}'''
+          new='''    # YELLOW is a repair/review state, not a terminal resolution.\n    final_items = [\n        x for x in final_bank.get('items', [])\n        if isinstance(x, dict) and key(x)\n        and str(x.get('classification') or '').upper() in {'FINAL_SUPER_GREEN', 'GREEN', 'RED'}\n    ]\n    resolved = {key(x) for x in final_items}'''
+          assert old in s
+          s=s.replace(old,new)
+
+          old2='''    if current_run is not None and reviewed_run is not None:\n        return current_run <= reviewed_run\n    return True'''
+          new2='''    if current_run is not None and reviewed_run is not None:\n        return current_run <= reviewed_run\n    # Legacy ticks without a source DCE run cannot prove they cover a later DCE\n    # version. Only an exact review_key may suppress in that case.\n    return False'''
+          assert old2 in s
+          p.write_text(s.replace(old2,new2))
+          PY
+      - name: Smoke tests
+        run: |
+          python -m py_compile pipeline/build_gpt_review_index.py pipeline/refill_gpt_hot_from_index.py pipeline/build_live_business_review_batch.py pipeline/refresh_gpt_inbox_live.py
+      - name: Commit patch
+        run: |
+          git config user.name tender-engine-bot
+          git config user.email tender-engine-bot@users.noreply.github.com
+          git add pipeline/build_gpt_review_index.py pipeline/refill_gpt_hot_from_index.py pipeline/build_live_business_review_batch.py pipeline/refresh_gpt_inbox_live.py
+          git commit -m "fix: keep repairable yellows and stale ticks reviewable"
+          git pull --rebase origin main
+          git push origin HEAD:main
