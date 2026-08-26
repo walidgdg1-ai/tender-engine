@@ -1,0 +1,1916 @@
+{
+  "schema": "TENDER_PIPELINE_LOSS_AUDIT_V1",
+  "generated_at": "2026-08-26T23:48:42.630241+00:00",
+  "final_bank": {
+    "total": 101,
+    "classification_counts": {
+      "GREEN": 5,
+      "YELLOW": 71,
+      "RED": 25
+    },
+    "yellow_total": 71,
+    "suspicious_repairable_yellow_count": 71,
+    "suspicious_repairable_yellow_reasons": {
+      "not_yet": 2,
+      "authenticity": 1,
+      "public_dce_not_canonical": 1,
+      "review_required": 6,
+      "conflict": 2,
+      "unresolved": 17,
+      "legacy_provenance": 2,
+      "incomplete": 2,
+      "unknown": 7
+    },
+    "suspicious_repairable_yellow_examples": [
+      {
+        "candidate_id": "TED:452120-2026",
+        "title": "France – Motion picture and video services – Prestations de captation vidéo, de production audiovisuelle (avec ou sans scénarisation), de post-production et de réalisation de supports vidéo accessibles pour le compte de l’université de Montpellier Paul-Valéry",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_AND_OFFICIAL_PORTAL_DEADLINE_2026_09_04",
+        "unknowns": [
+          "Exact minimum level, if any, attached to professional references/capacity must be confirmed",
+          "SPM needs a credible local/on-site capture crew and civil-liability insurance evidence"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:476581-2026",
+        "title": "France – Printing services – Impression des supports de Communication de la Ville de Beaucaire",
+        "source_dce_run_id": null,
+        "evidence_quality": "PUBLIC_DCE_AND_NOTICE_AVAILABLE_DCE_AUTHENTICITY_NOT_YET_CANONICALLY_LINKED",
+        "deadline_authority": "PUBLIC_BUYER_PLATFORM_DEADLINE_2026_08_28_12_00_LOCAL",
+        "unknowns": [
+          "Exact lot-by-lot candidate qualification/reference requirements from the RC still require canonical DCE linkage",
+          "Compliant printer pricing, production capacity, samples if any and delivery economics are not yet locked"
+        ],
+        "reasons": [
+          "authenticity",
+          "not_yet",
+          "public_dce_not_canonical"
+        ]
+      },
+      {
+        "candidate_id": "TED:522354-2026",
+        "title": "Estonia – Custom software development services – Veebikeskkonna toitumine.ee arendus- ja hooldustööd",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_19_TEXT_DOCUMENTS_ALL_COMPACT_SNIPPETS_ATTRIBUTED",
+        "deadline_authority": "NOTICE_DEADLINE_2026_08_31_DCE_TIMESTAMP_NOT_YET_RECONCILED",
+        "unknowns": [
+          "Exact minimum years/experience thresholds inside the four role-specific CV forms still need full-form extraction",
+          "Authoritative submission timestamp must be reconciled before finality"
+        ],
+        "reasons": [
+          "not_yet"
+        ]
+      },
+      {
+        "candidate_id": "US-SAM:7a9f7abad2cb447f9e4ce601e7cfe773",
+        "title": "Inventory Management Software",
+        "source_dce_run_id": 32568452706,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+        "unknowns": [
+          "Federal/SAM/CAGE and any set-aside or foreign-entity eligibility constraints need final confirmation.",
+          "Past-performance minimums and scoring thresholds must be resolved from the solicitation instructions.",
+          "Local ATO, DISA STIG and ongoing IAVA/security-patch obligations must be demonstrably supportable.",
+          "Authoritative proposal deadline requires final reconciliation."
+        ],
+        "reasons": [
+          "conflict",
+          "review_required"
+        ]
+      },
+      {
+        "candidate_id": "IE:8840246",
+        "title": "Supply, Installation and Support of a Learning Management System for Clare Tourism Development DAC",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_85_DOCUMENTS_60_WITH_TEXT_1166845_CHARS",
+        "deadline_authority": "RFT_CLOSING_DATE_FOR_TENDER_SUBMISSIONS_2026_09_18_13_00_IRELAND",
+        "unknowns": [
+          "Whether SPM itself satisfies the EUR 80,000 turnover gate in each relevant year",
+          "Whether the required insurance levels can be evidenced or bound for award",
+          "Exact pass/fail number/scale of previous LMS or comparable contracts",
+          "Exact mandatory technical personnel threshold"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:482302-2026",
+        "title": "France – Graphic design services – Réalisation, impression et routage du journal interne Filieris",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "CONSISTENT_NOTICE_DEADLINE_2026_09_04",
+        "unknowns": [
+          "Exact lot-level technical/reference requirements need final verification",
+          "Compliant printing/routing supplier, pricing and delivery economics are not yet evidenced"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:578395-2026",
+        "title": "France – Graphic design services – ACCORD CADRE RELATIF A LA CONCEPTION DE SUPPORTS DE COMMUNICATION – 3 LOTS",
+        "source_dce_run_id": 32454041762,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_BUT_LEGACY_PROVENANCE_UNRESOLVED",
+        "deadline_authority": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "unknowns": [
+          "Exact lot-level financial-capacity threshold from source-attributed DCE",
+          "Exact professional/reference minimums per lot",
+          "Any insurance or administrative eligibility threshold not source-attributed in the current compact evidence"
+        ],
+        "reasons": [
+          "legacy_provenance",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:571964-2026",
+        "title": "Ireland – Website and App Accessibility Audit Solution",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_AUTHORITATIVE_SUBMISSION_DATE_2026_09_18",
+        "unknowns": [
+          "Exact economic/financial standing threshold",
+          "Exact prior-experience/reference threshold",
+          "Exact insurance levels"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "IE:8860090",
+        "title": "Website and App Accessibility Audit Solution",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE_2026_09_18",
+        "unknowns": [
+          "Exact economic/financial standing threshold",
+          "Exact prior-experience/reference threshold",
+          "Exact insurance levels"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:494111-2026",
+        "title": "France – Printing services – Prestations d’impression pour l’Institut de France",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "NOTICE_DEADLINE_PREVIOUSLY_IDENTIFIED_2026_10_12_REQUIRES_FINAL_DCE_RECONCILIATION",
+        "unknowns": [
+          "Exact technical/reference and sample requirements per lot need final verification",
+          "Compliant print supplier, BPU economics and delivery logistics are not yet locked"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:577961-2026",
+        "title": "Germany – IT services: consulting, software development, Internet and support – Entwicklung einer integrierten Webanwendung mit Fokus auf erweiterter Realität (AR) für Sport- und Kulturthemen",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_SCOPE_CONFIRMED_PUBLICLY_MANDATORY_GATES_INCOMPLETE",
+        "deadline_authority": "PUBLIC_NOTICE_DEADLINE_2026_09_22",
+        "unknowns": [
+          "Exact reference, turnover, team and insurance thresholds are not yet resolved from authoritative tender documents",
+          "Integration constraints of the existing Hildesheim Smart-City platform and required German-language stakeholder delivery are not yet fully resolved"
+        ],
+        "reasons": [
+          "incomplete",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "US-SAM:5974a1901b8c49799aa86e0d6b352055",
+        "title": "Call for Solutions: Fog Tester Analysis Software Application",
+        "source_dce_run_id": 32568452706,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "unknowns": [
+          "Federal/SAM/CAGE eligibility and any foreign-entity participation constraints are not conclusively resolved in the exposed DCE evidence.",
+          "Authoritative submission deadline remains semantically unresolved.",
+          "SPM must be able to satisfy DoD software-assurance deliverables including SAST, SCA, SBOM, ASD STIG checklist, remediation/POA&M and source/build reproducibility.",
+          "OCI analysis and any Phase 2 requirements must be reviewed before bid commitment."
+        ],
+        "reasons": [
+          "review_required",
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:352987-2026",
+        "title": "Ireland – 0041 - Qualification System for the Provision of Search and Generative Engine Optimisation (SEO and GEO) Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "AUTHORITATIVE_ETENDERS_QUALIFICATION_SYSTEM_SCOPE_CONFIRMED",
+        "deadline_authority": "QUALIFICATION_SYSTEM_EXPIRY_2036_12_02_12_00",
+        "unknowns": [
+          "Qualification-stage financial, reference and team thresholds are not exposed in the recovered compact DCE and remain unverified",
+          "SPM has not yet demonstrated the buyer-specific SEO/GEO track record required for panel qualification"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:574733-2026",
+        "title": "France – Printing and related services – TRAVAUX D'IMPRESSION ET DE REPROGRAPHIE",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_RC",
+        "deadline_authority": "RC_DEADLINE_2026_09_24_12_00_FRANCE",
+        "unknowns": [
+          "No numeric turnover floor was found in the recovered RC, but SPM alone does not evidence the requested recent printing references, equipment or Imprim'Vert-equivalent status",
+          "Compliant printer pricing and sample logistics are not yet locked"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165449-2026-08-13",
+        "title": "Design, layout and printing of Department of Agriculture five-year report",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Foreign bidder/CSD administrative route",
+          "Physical Pretoria submission logistics",
+          "Exact reference requirement"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:441757-2026",
+        "title": "Belgium – Graphic design services – Provision of graphic design services and image-related services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "CONSISTENT_NOTICE_DEADLINE_2026_08_31",
+        "unknowns": [
+          "Exact minimum-turnover amount and lot-specific financial-capacity proof must be fully reconciled",
+          "SPM/partners must demonstrate the required professional capacity for the selected lot"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "PL-BZP:08deffac-1cd8-bab3-b346-03000188e0e6",
+        "title": "Opracowanie spójnej koncepcji kreatywnej i realizacja kampanii medialnej dotyczącej profilaktyki zachowań samobójczych",
+        "source_dce_run_id": 32560652323,
+        "evidence_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "deadline_authority": "MISSING",
+        "unknowns": [
+          "The current DCE has no attributed compact gate evidence and has not authenticated the retrieved substantive tender documents.",
+          "Exact references, team qualifications, media-buy obligations, Polish-language requirements, budget structure and submission deadline authority remain unresolved."
+        ],
+        "reasons": [
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:522037-2026",
+        "title": "Ireland – Request for Tenders for the Provision of Pharmacovigilance Safety Database and Case Management System",
+        "source_dce_run_id": 32213968608,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_AUTHORITATIVE_SUBMISSION_DATE_2026_09_25_OVERRIDES_QUERY_DATE_2026_09_11",
+        "unknowns": [
+          "Tenderer must satisfy the requirement for three relevant case studies comparable in nature, scale and complexity, including pharmacovigilance/medicines-safety or comparable regulatory technology experience.",
+          "Required security/operation certifications for the hosted solution and bidder-specific insurance levels must be evidenced.",
+          "Irish tax clearance or the applicable non-resident evidence must be available before award."
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:581702-2026",
+        "title": "Zweite inhaltliche Ausbauphase des Familienportals des MASGZ",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_SOURCE_URL_AND_HASH_ATTRIBUTED_EVIDENCE",
+        "deadline_authority": "DCE_GENERAL_TERMS_STATE_ELECTRONIC_SUBMISSION_2026_09_22_12_00_GERMANY; THIS OVERRIDES THE EARLIER INDEX METADATA DATE",
+        "unknowns": [
+          "SPM has not evidenced German-language editorial/public-relations staffing with SixCMS or comparable CMS experience",
+          "Exact insurance and corporate-eignung values remain incompletely extracted"
+        ],
+        "reasons": [
+          "incomplete"
+        ]
+      },
+      {
+        "candidate_id": "US-SAM:ff9d55d6a268428081b54dc02f5bf2c1",
+        "title": "AI Technologies for Procurement Modernization Commercial Solutions Opening",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "SAM/UEI and federal eligibility readiness",
+          "DHS cybersecurity compliance evidence",
+          "Commercial-solution maturity expected"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:570412-2026",
+        "title": "France – Impression des supports de communication de Beaucaire Terre d'Argence",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Exact print volumes/specifications",
+          "Reference/sample requirements",
+          "Delivery cadence/logistics"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:506353-2026",
+        "title": "France – Graphic design services – Prestations de conseil en communication, conception graphique et editoriale, fabrication de supports et totems de communication, dans le cadre du projet ecocampus",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "unknowns": [
+          "Exact lot-specific technical/reference minimums and fabrication logistics remain to be proven",
+          "SPM needs a credible physical fabrication/installation route for supports and totems"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165372-2026-08-13",
+        "title": "RFP-HO-06-2026 – Brand Strategist",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Exact minimum brand-strategy track record",
+          "Local supplier/preference impact",
+          "Staff qualification requirements"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:556867-2026",
+        "title": "Poland – Modernizacja systemów ochrony środowiska z API i udostępnieniem danych",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Technical/reference thresholds",
+          "Polish-language team requirement",
+          "Security and acceptance burden"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:579225-2026",
+        "title": "Slovenia – IT services: consulting, software development, Internet and support – Operativno spremljanje stanja izvajanje GJPS JPP – sledenje vozil",
+        "source_dce_run_id": 32454041762,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_BUT_LEGACY_PROVENANCE_UNRESOLVED",
+        "deadline_authority": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "unknowns": [
+          "Authoritative tender deadline reconciliation",
+          "Exact financial and prior-experience thresholds",
+          "Any named technical certifications, staffing or local-language requirements",
+          "Submission and contracting eligibility details"
+        ],
+        "reasons": [
+          "legacy_provenance",
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "UK_PCS_OCDS:rls-7-AUG562839",
+        "title": "ITT Details - Industrial Investment Marketing Strategy and Materials",
+        "source_dce_run_id": 32557566063,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_BUT_TENDER_GATES_UNRESOLVED",
+        "deadline_authority": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "unknowns": [
+          "Actual ITT qualification, reference and insurance gates are not exposed in the current compact evidence.",
+          "The current DCE is dominated by generic PCS postbox guidance rather than the substantive marketing brief.",
+          "Authoritative submission deadline needs final reconciliation."
+        ],
+        "reasons": [
+          "review_required",
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:566207-2026",
+        "title": "Lithuania – Graphic design services – Integruotos, strateginės ir krizių komunikacijos paslaugos",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_WITH_PUBLIC_DOCUMENT_INVENTORY",
+        "deadline_authority": "CONSISTENT_PUBLIC_PORTAL_DEADLINE_2026_09_02_09_00_EEST",
+        "unknowns": [
+          "Exact minimum professional experience/reference thresholds in the supplier-requirements document remain to be resolved candidate-by-candidate",
+          "Exact mandatory specialist profile thresholds in the specialist-list workbooks remain to be resolved",
+          "SPM does not yet have a verified Lithuanian-language strategic/crisis-communications delivery team"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:364578-2026",
+        "title": "DPS for Research Data Management Tools, Support, Maintenance and Associated Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "OFFICIAL_ETENDERS_DPS_AND_TENDER_DOCUMENT_INDEX_CONFIRMED",
+        "deadline_authority": "DPS_OPEN_UNTIL_2030_05_25_15_00_IRELAND",
+        "unknowns": [
+          "Admission questionnaire qualification thresholds have not yet been adjudicated",
+          "SPM does not currently own a research-data-management product"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "IE:8749146",
+        "title": "AHRRA Website design and development Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_RFT_32_TEXT_DOCUMENTS",
+        "deadline_authority": "RFT_DEADLINE_2026_09_02_15_00_IRELAND",
+        "unknowns": [
+          "SPM bidder facts do not establish EUR 250,000 annual turnover in each of the last three financial years",
+          "Exact insurance limits and technical-reference minimums still require final reconciliation"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:569364-2026",
+        "title": "Ireland – Unit4 ERP Implementation, Hypercare And Application Support Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_AUTHORITATIVE_SUBMISSION_DATE_2026_08_31",
+        "unknowns": [
+          "Exact prior Unit4/reference threshold",
+          "Insurance levels",
+          "Resource plan"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "UK_PCS_OCDS:rls-84-AUG561571",
+        "title": "River Tweed Trail, Brand Positioning and Audience Development",
+        "source_dce_run_id": 32559253485,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_BUT_TENDER_GATES_UNRESOLVED",
+        "deadline_authority": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "unknowns": [
+          "The current evidence pack is dominated by generic PCS postbox guidance rather than the substantive branding brief.",
+          "Exact qualification/reference requirements and buyer evaluation criteria are unresolved.",
+          "Authoritative submission deadline requires final reconciliation."
+        ],
+        "reasons": [
+          "review_required",
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:578082-2026",
+        "title": "Germany – IT services: consulting, software development, Internet and support – SV-KWA-260819-002, Weiterentwicklung Unternehmenswebsite",
+        "source_dce_run_id": null,
+        "evidence_quality": "AUTHORITATIVE_BUYER_AND_PUBLIC_NOTICE_SCOPE_CONFIRMED",
+        "deadline_authority": "BUYER_DEADLINE_2026_09_21_10_00_CEST",
+        "unknowns": [
+          "SPM alone does not evidence the exact three mandatory enterprise-grade reference cases",
+          "Required staffing depth and comparable critical-infrastructure/enterprise delivery history are not evidenced for SPM"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:537925-2026",
+        "title": "10010807-Communication Campaign",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_SOURCE_URL_AND_HASH_ATTRIBUTED_EVIDENCE",
+        "deadline_authority": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE_2026_09_01",
+        "unknowns": [
+          "SPM has not evidenced Kosovo-local campaign execution capacity and social/behaviour-change campaign references",
+          "Required expert profile/reference thresholds remain to be fully resolved from the technical assessment documents"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:516871-2026",
+        "title": "Ireland – World wide web (www) site design services – Web development support services - 210901/7828",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEW_REQUIRED_NOTICE_DATE_APPEARS_TO_MATCH_QUERY_DATE",
+        "unknowns": [
+          "Authoritative submission deadline still requires reconciliation",
+          "SPM alone has not evidenced the required qualifying web-project reference and complete key-profile set"
+        ],
+        "reasons": [
+          "review_required"
+        ]
+      },
+      {
+        "candidate_id": "IE:8766381",
+        "title": "HRB 2026 – Design and Print Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_77_TEXT_DOCUMENTS",
+        "deadline_authority": "OFFICIAL_NOTICE_DEADLINE_2026_09_01_10_00_IRELAND",
+        "unknowns": [
+          "Exact insurance amounts and any additional reference thresholds remain to be reconciled",
+          "SPM alone has not evidenced the required qualified multi-person design team"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:571314-2026",
+        "title": "Belgium – Développement d’un outil de prévision et de notification de risques de crues soudaines",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Whether SPM/partner can evidence qualifying EUR 100k comparable missions",
+          "Exact team qualification burden"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:571625-2026",
+        "title": "Belgium – Supply chain traceability services and forced labour risk detection pilots",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Required domain references",
+          "Data/source licensing requirements",
+          "Team expertise threshold"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:584175-2026",
+        "title": "Izgradnja, vzdrževanje in nadgradnje informacijskega sistema eSRRS",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_DOCUMENT_HASH_ATTRIBUTED_EVIDENCE",
+        "deadline_authority": "NOTICE_DEADLINE_2026_09_11; AUTHORITATIVE_DCE_SUBMISSION_DATE_NOT_PARSED",
+        "unknowns": [
+          "Numeric average-turnover threshold is referenced by ESPD but not resolved in compact evidence",
+          "Minimum mandatory company/team reference thresholds remain unresolved",
+          "SPM has not evidenced NIS2-grade public-system security delivery"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:576504-2026",
+        "title": "Belgium – World wide web (www) site design services – Raamovereenkomst voor hosting, onderhoud en uitbouw van de corporate website",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_BELGIAN_DCE",
+        "deadline_authority": "DCE_REQUEST_TO_PARTICIPATE_DEADLINE_2026_09_21_11_00",
+        "unknowns": [
+          "Any numeric financial-capacity minimum beyond turnover disclosure remains to be confirmed",
+          "SPM alone has not evidenced the mandatory Drupal team and qualifying reference history"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "US-SAM:54764ad67d6d4cd9a6bfc5cc06eeb26f",
+        "title": "TEGUC communications / outreach requirement",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "SAM/UEI readiness",
+          "Local Honduras execution partners",
+          "Exact past-performance requirement"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+        "title": "TACOM - Command Video Production",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_PUBLIC_SOLICITATION_SUMMARY_AND_DCE_PRESENT",
+        "deadline_authority": "PUBLIC_SOLICITATION_DEADLINE_2026_08_27_10_00_EDT",
+        "unknowns": [
+          "SPM has not evidenced prior DoD/defense-contractor production experience",
+          "US SAM registration and award eligibility are not yet established for SPM",
+          "Multi-site US production logistics and required insurance coverage are not yet locked"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+        "title": "IZIKO RFQ R-E 26/04/2026 – Graphic design and layout of Nelson Mandela Prison House exhibition",
+        "source_dce_run_id": null,
+        "evidence_quality": "OFFICIAL_ETENDERS_SOURCE_BACKED_RFQ_WITH_CURRENT_DOCUMENT_SUMMARY",
+        "deadline_authority": "OFFICIAL_SOURCE_2026_08_31_11_00_SOUTH_AFRICA",
+        "unknowns": [
+          "SPM does not currently evidence South African CSD/tax/B-BBEE compliance or local exhibition-delivery references",
+          "Exact functionality scoring evidence requirements remain to be fully reconciled"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:574301-2026",
+        "title": "NAKUP PROGRAMSKE REŠITVE AI/LLM",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_WITH_DOCUMENT_HASH_ATTRIBUTED_EVIDENCE",
+        "deadline_authority": "NOTICE_DEADLINE_2026_09_04; AUTHORITATIVE_DCE_SUBMISSION_DATE_NOT_PARSED",
+        "unknowns": [
+          "Exact mandatory reference and financial thresholds are not resolved from the compact evidence",
+          "SPM has not evidenced insurance-supervision domain implementation references"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:574380-2026",
+        "title": "Ireland – Internet services – Trócaire RFT Website Development and Maintenance Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "CROSS_PORTAL_DEADLINE_RECONCILIATION_REQUIRED",
+        "unknowns": [
+          "TED and national eTenders deadline metadata require reconciliation",
+          "SPM alone has not evidenced the required recent website references, large e-commerce/Salesforce experience and insurance"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "IE:8869645",
+        "title": "Trócaire RFT Website Development and Maintenance Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_CROSS_PORTAL_ALIAS_ALREADY_ADJUDICATED",
+        "deadline_authority": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE_2026_09_15_13_00_IRELAND",
+        "unknowns": [
+          "SPM alone has not evidenced the required recent website references, large e-commerce/payment-provider experience, heavily customised Salesforce integration experience and adequate insurance"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:567844-2026",
+        "title": "Germany – IT services: consulting, software development, Internet and support – HIL Internetseite",
+        "source_dce_run_id": null,
+        "evidence_quality": "PUBLIC_NOTICE_AND_TENDER_DOCUMENT_REQUIREMENTS_INDEXED",
+        "deadline_authority": "PUBLIC_PARTICIPATION_DEADLINE_2026_09_15",
+        "unknowns": [
+          "SPM alone does not evidence the three highly specific comparable references",
+          "Required TYPO3-certified project-team capability and insurance are not evidenced for SPM"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:569485-2026",
+        "title": "Germany – Wartung, Support und Weiterentwicklung der bestehenden Jitsi-Umgebung bei IT.NRW",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Comparable Jitsi references",
+          "Exact SLA and staffing burden",
+          "Bidder insurance/operational evidence"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:566507-2026",
+        "title": "Common Data Environment (CDE) - cloudbasiert als SaaS_NEU",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_OFFICIAL_NRW_PROCUREMENT_PORTAL",
+        "deadline_authority": "OFFICIAL_NRW_PORTAL_DEADLINE_2026_09_15_10_00_GERMANY; EARLIER INDEX DATE WAS A QUERY_DEADLINE_CONFLICT",
+        "unknowns": [
+          "SPM does not own a proven CDE/BIM SaaS product",
+          "Exact vendor/product qualification requirements remain unresolved"
+        ],
+        "reasons": [
+          "conflict",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:570451-2026",
+        "title": "Ireland – 9191 INTERNAL COMMUNICATIONS PLATFORM",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Exact turnover threshold",
+          "Required comparable enterprise-software references",
+          "Insurance/security requirements"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:533200-2026",
+        "title": "Content Bibliothek",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_IN_REPO_PLUS_CURRENT_TK_PROCUREMENT_PORTAL_CORROBORATION",
+        "deadline_authority": "TK_PROCUREMENT_PORTAL_2026_08_31_12_00_GERMANY",
+        "unknowns": [
+          "Exact numeric eligibility thresholds in E1 remain to be reconciled",
+          "SPM does not own an existing bilingual enterprise learning-content SaaS library"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:571338-2026",
+        "title": "Germany – ISGA-Portal Weiterentwicklung und Support",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Exact turnover threshold",
+          "Comparable portal references",
+          "Operational support/team requirements"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:570031-2026",
+        "title": "Ireland – Contract Lifecycle Management solution for An Post",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Product/reference thresholds",
+          "Security certification evidence",
+          "Enterprise implementation capacity"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:565587-2026",
+        "title": "Provision of a Single Party Framework for the ongoing support, maintenance, and development of YourSpace Portals, associated websites, associated systems and associated services.",
+        "source_dce_run_id": 31955485422,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_SUBMISSION_DEADLINE_OVERRIDES_NOTICE_QUERY_DATE",
+        "unknowns": [
+          "Whether SPM alone meets EUR 100k turnover in each of the last three financial years",
+          "Whether SPM/partners can evidence three comparable contracts at the required scale",
+          "Whether required insurance levels or broker confirmations can be arranged",
+          "Whether two EU/EEA hosting facilities and required resources can be demonstrated"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:572152-2026",
+        "title": "Belgium – Facility Management Information System",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Product/reference requirements",
+          "Implementation and integration burden",
+          "Support/SLA requirements"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:571373-2026",
+        "title": "Ireland – Veterinary Clinical Skills, Simulation and Immersive Learning Platform",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Comparable platform references",
+          "Insurance and tax-clearance evidence",
+          "Enterprise delivery capacity"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "IE:8853905",
+        "title": "369-26 Veterinary Clinical Skills, Simulation and Immersive Learning Platform",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_AUTHORITATIVE_SUBMISSION_DATE_2026_09_16",
+        "unknowns": [
+          "Comparable scale/complexity references",
+          "Tax clearance",
+          "Cyber insurance amount"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:522195-2026",
+        "title": "Germany – Unterstützung der Öffentlichkeitsarbeit des attoworld-Teams",
+        "source_dce_run_id": 32213968608,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "NOTICE_DEADLINE_NOT_FULLY_RECONCILED_IN_DCE",
+        "unknowns": [
+          "Exact current submission deadline must be reconciled because retrieved procurement documents contain legacy 2022 dates.",
+          "Bidder/team must satisfy strict personal experience and reference requirements exposed in the participation documents, including named personnel evidence.",
+          "German-language and delivery-team requirements must be demonstrably covered."
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:567139-2026",
+        "title": "Germany – IT services: consulting, software development, Internet and support – Support für die rbb-Onlinedienste",
+        "source_dce_run_id": null,
+        "evidence_quality": "PUBLIC_PROCUREMENT_DOCUMENT_SUMMARIES_AND_NOTICE",
+        "deadline_authority": "PUBLIC_NOTICE_DEADLINE_2026_09_23",
+        "unknowns": [
+          "SPM alone has not evidenced two comparable operational-support references",
+          "Required Adobe AEM, Linux administration and related personnel certifications/knowledge are not evidenced for SPM"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:580238-2026",
+        "title": "Portugal – Computer-related services – (DAG) Aquisição de serviços de desenvolvimento do novo website do INFARMED, I.P. (PRR) (20260267)",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_AUTHORITATIVE_DCE_16_TEXT_DOCUMENTS",
+        "deadline_authority": "PUBLIC_PORTAL_DEADLINE_2026_08_31_18_00_LOCAL",
+        "unknowns": [
+          "Exact financial/reference thresholds and professional-indemnity amount remain unresolved",
+          "SPM alone has not evidenced the required multi-profile Portuguese-speaking enterprise delivery team"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "UK_PCS_OCDS:rls-28-AUG562550",
+        "title": "CT1483 Letter Distribution and Installation",
+        "source_dce_run_id": 32550613010,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_BUT_TENDER_GATES_UNRESOLVED",
+        "deadline_authority": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "unknowns": [
+          "Actual distribution/installation volumes, service geography, response times and local workforce requirements are not exposed in the current evidence.",
+          "Qualification, insurance and subcontracting gates remain unresolved.",
+          "The current DCE is largely generic PCS postbox material rather than the substantive contract pack."
+        ],
+        "reasons": [
+          "review_required",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "US-SAM:6534d1ca38cc4c00a13f07aa1f9680df",
+        "title": "Manufacturing Execution System software requirement",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Compatible commercial MES supplier",
+          "Federal eligibility",
+          "OEM/integration support route"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:568813-2026",
+        "title": "KOMANDORAS inspection-management system upgrade, maintenance and support",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_PUBLIC_NOTICE_SCOPE",
+        "deadline_authority": "NOTICE_DEADLINE_2026_09_21_14_00_LITHUANIA",
+        "unknowns": [
+          "Exact legacy-stack, reference, staffing and security qualification requirements remain unresolved",
+          "SPM has no verified prior knowledge of the Lithuanian Customs KOMANDORAS system"
+        ],
+        "reasons": [
+          "unknown",
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+        "title": "COJ0001-26/27 – Transcription, Translation, Interpretation, Sign Language and Braille Services",
+        "source_dce_run_id": null,
+        "evidence_quality": "OFFICIAL_CITY_OF_JOHANNESBURG_RFQ_CORROBORATED_WITH_DOCUMENT_BACKED_CURRENT SOURCES",
+        "deadline_authority": "CITY_OF_JOHANNESBURG_2026_08_26_10_30_SAST",
+        "unknowns": [
+          "Exact pricing volumes and all returnable compliance documents require final RFQ review"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:570642-2026",
+        "title": "Germany – Erneuerung Citrix NetScaler WAF im SAP-Kontext",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "DCE_SUBMISSION_DEADLINE_2026_09_15_12_00",
+        "unknowns": [
+          "SPM/partner Citrix authorization and certifications",
+          "Qualifying SAP/NetScaler references"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:508381-2026",
+        "title": "ISGA-Portal Weiterentwicklung und Support",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT_PLUS_CURRENT_OFFICIAL_PROCUREMENT_PORTAL",
+        "deadline_authority": "OFFICIAL_PORTAL_CORRECTION_EXTENDS_DEADLINE_TO_2026_09_01",
+        "unknowns": [
+          "Exact qualification/reference thresholds remain unresolved"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:570312-2026",
+        "title": "VMware / Broadcom licensing and support procurement",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Authorized Broadcom/VMware reseller status",
+          "Supplier quote and margin",
+          "Channel restrictions"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:564841-2026",
+        "title": "Germany – IT services: consulting, software development, Internet and support – Betreuung und Weiterentwicklung Websites",
+        "source_dce_run_id": 31955485422,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "UNRESOLVED_DCE_DEADLINE_AUTHORITY_KEEP_NOTICE_PROVISIONAL",
+        "unknowns": [
+          "Authoritative participation/submission deadline reconciliation",
+          "Whether SPM/partners have three sufficiently strong Magnolia CMS references",
+          "Whether required ISMS/security capability and operational staffing can be demonstrated",
+          "Whether insurance requirements can be met"
+        ],
+        "reasons": [
+          "unresolved"
+        ]
+      },
+      {
+        "candidate_id": "TED:571982-2026",
+        "title": "Belgium – GitLab Enterprise Premium Self-Managed licensing",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Authorized GitLab reseller route",
+          "Commercial margin",
+          "Bidder/channel requirements"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:569366-2026",
+        "title": "Belgium – Oracle licensing/support procurement for SPW",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Oracle partner/reseller authorization",
+          "Supplier pricing",
+          "Contractual support obligations"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "TED:572169-2026",
+        "title": "Poland – software support / maintenance requirement",
+        "source_dce_run_id": null,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "REVIEWED_BY_GPT_WEB",
+        "unknowns": [
+          "Required manufacturer authorization",
+          "Local support obligations",
+          "Commercial margin"
+        ],
+        "reasons": []
+      },
+      {
+        "candidate_id": "US-SAM:5bae2dec64c84bf0b728d64be977d6d7",
+        "title": "BPA - Pipe, Hose & Tubing PSC 4710, 4720, 4730",
+        "source_dce_run_id": 31988581735,
+        "evidence_quality": "SUBSTANTIVE_DCE_PRESENT",
+        "deadline_authority": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "unknowns": [
+          "Authoritative current submission timing is not resolved from the recovered DCE.",
+          "SPM has not evidenced relevant federal past performance or a compliant pipe/hose/tubing supplier route.",
+          "Domestic-content/origin and other federal supply clauses require item-level supplier validation."
+        ],
+        "reasons": [
+          "unknown"
+        ]
+      }
+    ]
+  },
+  "review_ledger": {
+    "ticks_total": 540,
+    "verdict_counts": {
+      "NO_SCOPE": 34,
+      "WATCH_PRETENDER": 14,
+      "NO_SCOPE_NO_COMPETE": 1,
+      "REVIEW_BIDABLE_LOT2": 1,
+      "NO_CLOSED_AWARD": 1,
+      "NO_SCOPE_DEFENSE_HARDWARE": 1,
+      "REVIEW_STRONG_RADAR": 1,
+      "NO_SCOPE_US_SMALL_BUSINESS_HARDWARE_INSTALL": 1,
+      "REVIEW_PARTNER_HEAVY_USACE": 1,
+      "WATCH_UMBRELLA_CSO": 2,
+      "NO_DEFENSE_RND_OR_HARD_TECH": 8,
+      "NO_SCOPE_PHYSICAL": 57,
+      "BROKER_ONLY": 15,
+      "WATCH_PRETENDER_DIGITAL": 2,
+      "REVIEW_SCOPE_NEEDS_CONFIRMATION": 1,
+      "NO_SOLE_SOURCE": 3,
+      "REVIEW_SCOPE_AMBIGUOUS": 3,
+      "REVIEW_PARTNER_CYBER_HEAVY": 2,
+      "WATCH_RFI_AI": 1,
+      "NO_HEAVY_TELECOM": 1,
+      "REVIEW_BIDABLE_TECH_US_FEDERAL": 1,
+      "NO_HARDWARE_SECURITY_INSTALL": 2,
+      "REVIEW_BIDABLE_CREATIVE": 1,
+      "WATCH_RFI_NONCORE": 2,
+      "REVIEW_DATA_SUPPLY": 1,
+      "REVIEW_PARTNER_SAAS": 1,
+      "REVIEW_BIDABLE_CONSULTING": 2,
+      "REVIEW_PARTNER_SAAS_URGENT": 1,
+      "WATCH_UMBRELLA_CSO_SECURITY": 1,
+      "BROKER_ONLY_DCE_UNVERIFIED": 1,
+      "NO_SCOPE_DCE_UNVERIFIED": 3,
+      "NO_DEFENSE_HARDWARE": 2,
+      "NO_SCOPE_FIELD_ENGINEERING": 1,
+      "NO_SCOPE_CONSTRUCTION": 1,
+      "BROKER_ONLY_UNSPECIFIED": 1,
+      "RED": 27,
+      "YELLOW": 69,
+      "GREEN": 4,
+      "REVIEW_PARTNER_HEAVY_LOCAL_TECH_TEAM": 1,
+      "REVIEW_ENTERPRISE_SOFTWARE_GATES": 1,
+      "REVIEW_ENTERPRISE_BWI_SECURITY_QUALITY": 1,
+      "REVIEW_EC_ENTERPRISE_FRAMEWORK": 1,
+      "REVIEW_HIGH_PRIORITY_HRI_SOFTWARE_RESOURCES": 1,
+      "REVIEW_DOMAIN_FORECASTING_PARTNER": 1,
+      "REVIEW_VENDOR_SUPPORT_RESELLER_ONLY": 1,
+      "REVIEW_COPERNICUS_ENTERPRISE_PARTNER": 1,
+      "REVIEW_ENTERPRISE_NIS2_39M": 1,
+      "REVIEW_DG_MARE_SOFTWARE_PARTNER": 1,
+      "REVIEW_SAP_ENTERPRISE_CERTIFIED_TEAM": 1,
+      "REVIEW_HIGH_PRIORITY_ENABEL_C4D": 1,
+      "REVIEW_PKI_SECURITY_ENTERPRISE": 1,
+      "REVIEW_CEDEFOP_ICT_ENTERPRISE": 1,
+      "REVIEW_ERP_ENTERPRISE_VENDOR": 1,
+      "REVIEW_HIGH_PRIORITY_ANPOST_AI_QUALIFICATION": 1,
+      "REVIEW_ANPOST_WEB_ANALYTICS_QUALIFICATION": 1,
+      "PENDING_DCE_EIT_PLATFORM_DEADLINE_UNRESOLVED": 1,
+      "PENDING_DCE_EIT_WORKPLACE_DEADLINE_UNRESOLVED": 1,
+      "REVIEW_CUSTOM_SOFTWARE_LARGE_LEGACY_CODEBASE": 1,
+      "REVIEW_TEST_AUTOMATION_GATES": 1,
+      "PENDING_DCE_EIT_DIGITAL_MARKETING_NO_ACTIONABLE_DEADLINE": 1,
+      "NO_LEAN_SCOPE_NATIONWIDE_HOUSEHOLD_FIELD_PROGRAM": 1,
+      "NO_LEAN_SCOPE_EMERGENCY_DISPATCH_INNOVATION_PARTNERSHIP": 1,
+      "PENDING_DCE_EIT_CAMPUS_PLATFORM_NO_ACTIONABLE_DEADLINE": 1,
+      "REVIEW_SAP_ISU_S4HANA_PARTNER_ONLY": 1,
+      "REVIEW_SOC_SIEM_SECURITY_SPECIALIST": 1,
+      "REVIEW_BOSA_DIGITAL_IDENTITY_ENTERPRISE": 1,
+      "REVIEW_CYPRUS_2_8M_INFORMATION_SYSTEM": 1,
+      "REVIEW_HIGH_PRIORITY_PFORZHEIM_CITY_APP_STELES": 1,
+      "REVIEW_INFRABEL_QUALIFICATION_SYSTEM": 1,
+      "REVIEW_TUM_DASHBOARD_GATES": 1,
+      "REVIEW_DIGITAL_PRESERVATION_SPECIALIST": 1,
+      "REVIEW_RESERVATION_SOFTWARE_PRODUCT_ROUTE": 1,
+      "REVIEW_ARCHIVE_DIGITIZATION_LOCAL_DELIVERY": 1,
+      "PENDING_DCE_SCHOOL_CATERING_SOFTWARE_ONLY_TWO_DOCS": 1,
+      "REVIEW_WAN_INFRASTRUCTURE_SPECIALIST": 1,
+      "REVIEW_FULL_IT_OPERATIONS_DATACENTER_MIGRATION": 1,
+      "REVIEW_HIGH_PRIORITY_ML_ELECTRONIC_MONITORING_FEDERAL_GATES": 1,
+      "REVIEW_BITBW_DYNAMIC_PURCHASING_SYSTEM": 1,
+      "REVIEW_HIGH_PRIORITY_YPTO_QUALIFICATION_5Y": 1,
+      "REVIEW_RECYCLING_PARK_SOFTWARE_PRODUCT_GATES": 1,
+      "REVIEW_LECTURE_ROOM_PLANNING_PRODUCT_ROUTE": 1,
+      "REVIEW_ROMANIA_TICKET_WORKFLOW_SOFTWARE": 1,
+      "PENDING_DCE_DIGITAL_TRANSFORMATION_ONLY_TWO_DOCS": 1,
+      "REVIEW_WEB_PLATFORM_EDITORIAL_SYSTEM_SLOVENIA": 1,
+      "REVIEW_AJPES_SYSTEMS_MAINTENANCE": 1,
+      "PENDING_DCE_INFRASTRUCTURE_MAINTENANCE_ONLY_TWO_DOCS": 1,
+      "REVIEW_POLAND_EXISTING_SYSTEM_MAINTENANCE": 1,
+      "REVIEW_ROMANIA_CITIZEN_DIGITAL_SOLUTIONS": 1,
+      "REVIEW_FERSERVIZI_QUALIFICATION_SYSTEM": 1,
+      "REVIEW_FERSERVIZI_ICT_QUALIFICATION_SYSTEM": 1,
+      "REVIEW_INTRIX_INCUMBENT_SOFTWARE_MAINTENANCE": 1,
+      "REVIEW_COPERNICUS_MARINE_DOMAIN_PARTNER": 1,
+      "REVIEW_HOSPITAL_BIRPIS21_INCUMBENT_PRODUCT": 1,
+      "REVIEW_APG_SAP_QUALIFICATION_SYSTEM": 1,
+      "REVIEW_ITALY_CLOUD_SAAS_CATALOGUE_ROUTE": 1,
+      "REVIEW_HEALTH_REGISTRY_SOFTWARE_DEDICATED_STAFF": 1,
+      "REVIEW_VERIFIABLE_CREDENTIALS_SECURITY_PLATFORM": 1,
+      "REVIEW_HIGH_PRIORITY_INRS_WEB_MAGNOLIA_AI_ALLOWED": 1,
+      "RED_DISCONTINUED_PROCUREMENT": 1,
+      "REVIEW_GREEN_CANDIDATE_AN_TOBAR_QUALIFICATION_SECTION": 1,
+      "PENDING_DCE_INFORMATION_SECURITY_CONSULTING_ONLY_TWO_DOCS": 1,
+      "REVIEW_SIEM_SOC_SECURITY_SPECIALIST_FRAMEWORK": 1,
+      "REVIEW_LOCAL_NETWORK_SURVEY_TECHNICAL_FIELDWORK": 1,
+      "REVIEW_HEANET_ESM_DPS_TURNOVER_500K_GATE": 1,
+      "PENDING_NONCURRENT_ENABEL_VSAT_QUALIFICATION": 1,
+      "REVIEW_UNI_ASSIST_IT_DPS_LONG_TERM": 1,
+      "NO_LEAN_SCOPE_VR_HARDWARE_LICENSE_PURCHASE": 1,
+      "REVIEW_USACE_DATABASE_AUTHORIZATION_SECURITY_FEDERAL_GATES": 1,
+      "NO_LEAN_SCOPE_HARDWARE_MONITORS_USDA_SECURITY": 1,
+      "RED_BUY_INDIAN_ACT_ELIGIBILITY_PUBLIC_HEALTH_CONTENT": 1,
+      "NO_LEAN_SCOPE_UTILITY_CONTROL_SYSTEMS_DOD": 1,
+      "REVIEW_DIGITAL_LEARNING_BOOTCAMPS_LOCAL_TRAINER_GATES": 1,
+      "RED_RESTRICTED_TO_EXISTING_FERM_BPA_HOLDERS": 1,
+      "NO_LEAN_SCOPE_ARMY_FOUNDATIONAL_RND_BAA": 1,
+      "NO_LEAN_SCOPE_DLA_DEFENSE_RND_PROGRAM": 1,
+      "RED_PROPRIETARY_TRIMAX_UPGRADE_SOURCE_DEPENDENCY": 1,
+      "NO_LEAN_SCOPE_QUANTUM_COMPUTER_HARDWARE_MAINTENANCE": 1,
+      "NO_LEAN_SCOPE_DUPLICATE_DLA_DEFENSE_RND_PROGRAM": 1,
+      "NO_LEAN_SCOPE_AIR_CONDITIONER_RENTAL": 1,
+      "NO_REVENUE_TENDER_NASA_TECHNICAL_LIBRARY_INFORMATION_NOTICE": 1,
+      "REVIEW_TEIS_IV_ONRAMP_ENTERPRISE_DOD_VEHICLE": 1,
+      "NO_LEAN_SCOPE_FIELD_SANITATION_SERVICES": 1,
+      "REVIEW_EUDIW_ENTERPRISE_DIGITAL_IDENTITY_SECURITY": 1,
+      "REVIEW_EMAIL_SECURITY_LICENSE_RESELLER_CHANNEL": 1,
+      "REVIEW_RTLS_HARDWARE_SOFTWARE_FEDERAL_HEALTHCARE": 1,
+      "REVIEW_FUEL_MANAGEMENT_SAAS_FEDERAL_PRODUCT_ROUTE": 1,
+      "REVIEW_GPO_HOSTING_SERVICE_FEDERAL_SECURITY_GATES": 1,
+      "NO_LEAN_SCOPE_ATOMIC_CONTINUUM_SCIENTIFIC_SIMULATION_RND": 1,
+      "PENDING_DCE_AUTHENTICITY_STALE_2024_PROCUREMENT_PORTAL_EVIDENCE_POLLUTED": 1,
+      "PENDING_DCE_AUTHENTICITY_SOCIAL_HOUSING_SAAS_ONLY_PORTAL_EVIDENCE": 1,
+      "PENDING_DCE_AUTHENTICITY_ITELAZPI_NETWORK_OPERATIONS_ONLY_TWO_DOCS": 1,
+      "NO_LEAN_SCOPE_ELECTRIC_VEHICLE_EDUCATIONAL_HARDWARE_PLATFORM": 1,
+      "NO_LEAN_SCOPE_MOTOROLA_CONSOLES_DOD_HARDWARE": 1,
+      "REVIEW_TRAINING_PANEL_REQUIRES_TUTOR_EXPERIENCE_AND_FINANCIAL_STABILITY": 1,
+      "REVIEW_PARTNERABLE_LEO_TRAINING_PANEL_20K_TURNOVER_2Y_SME_EXPERIENCE": 1,
+      "NO_LEAN_SCOPE_ALARIS_VENDOR_MEDICAL_SYSTEM_MAINTENANCE": 1,
+      "YELLOW_PARTNERABLE_CARO_TURNOVER_210K_EACH_3Y_3_COMPARABLE_REFS_HIGH_INSURANCE": 1,
+      "NO_LEAN_SCOPE_INTRUSION_DETECTION_EQUIPMENT_DOD": 1,
+      "REVIEW_FDA_FARM_IDIQ_ENTERPRISE_FEDERAL_SECURITY": 1,
+      "NO_LEAN_SCOPE_SHIP_REFIT_PHYSICAL_SERVICES": 1,
+      "REVIEW_PHYSNA_LICENSE_RESELLER_FEDERAL_CHANNEL": 1,
+      "NO_LEAN_SCOPE_SPECIALIST_LEGO_PLAY_THERAPY_WORKSHOP": 1,
+      "REVIEW_TRAINING_PLATFORM_FEDERAL_PRODUCT_ROUTE": 1,
+      "NO_LEAN_SCOPE_DEFENSE_CLUTCH_ASSEMBLY_SUPPLY": 1,
+      "NO_LEAN_SCOPE_VIDEO_SECURITY_CAMERA_REPAIR_FIELD_SERVICE": 1,
+      "NO_LEAN_SCOPE_DESK_WORKSTATION_HARDWARE": 1,
+      "NO_LEAN_SCOPE_ARMORY_TRACKING_HARDWARE_SECURITY_SYSTEM": 1,
+      "NO_LEAN_SCOPE_REGULATED_PORTUGAL_LEGAL_SERVICES": 1,
+      "NO_LEAN_SCOPE_ARCHITECTURE_ENGINEERING_SCHOOL_PROJECT": 1,
+      "NO_LEAN_SCOPE_BULK_LIQUID_OXYGEN_MEDICAL_SUPPLY": 1,
+      "RED_NOTICE_OF_INTENT_TO_SOLE_SOURCE_ANET": 1,
+      "RED_ANET_INTEGRATION_SOLE_SOURCE_DUPLICATE": 1,
+      "REVIEW_MALTA_PAYROLL_SOFTWARE_LOCAL_PAYROLL_KEY_EXPERT_GATES": 1,
+      "REVIEW_CINEA_LIFE_61M_ENTERPRISE_COMMUNICATIONS_FRAMEWORK": 1,
+      "YELLOW_REFERENCE_HEAVY_TYPO3_RELAUNCH_MANDATORY_TYPO3_UX_ACCESSIBILITY_REFS": 1,
+      "YELLOW_BROKER_FRONTLIT_CANVAS_PRINT_INSTALL_LOCAL_EXECUTION_DEADLINE_UNRESOLVED": 1,
+      "NO_LEAN_SCOPE_FIRE_BURN_TRAINER_PHYSICAL_RENOVATION": 1,
+      "NO_LEAN_SCOPE_CATERING_SERVICE_WORKSHOP": 1,
+      "REVIEW_CISIONONE_MEDIA_MONITORING_LICENSE_FEDERAL_RESELLER_ROUTE": 1,
+      "NO_LEAN_SCOPE_ROLLING_TOOL_WORK_BENCHES": 1,
+      "REVIEW_MALTA_LEADERSHIP_HEALTHY_WORK_CULTURE_TRAINING_CONSULTING": 1,
+      "YELLOW_PARTNERABLE_TURNOVER_150K_COMPARABLE_REFERENCES_AND_TEAM": 1,
+      "YELLOW_ENTERPRISE_IT_CONSULTANCY": 1,
+      "YELLOW_ENTERPRISE_MANAGED_IT": 1,
+      "YELLOW_DPS_CYBER_SECURITY_SPECIALIST": 1,
+      "YELLOW_ENTERPRISE_EHDS_IT": 1,
+      "YELLOW_ENTERPRISE_TIME_AND_MEANS_IT": 1,
+      "YELLOW_ENTERPRISE_REGIONAL_INFRACTIONS_SYSTEM": 1,
+      "YELLOW_PARTNERABLE_TURNOVER_400K_AND_THREE_SIMILAR_REFERENCES": 1,
+      "YELLOW_ENTERPRISE_CMMS": 1,
+      "PENDING_DCE_AUTHENTICITY_ONLY_TWO_DOCUMENTS_AND_NO_RESOLVED_DEADLINE": 1,
+      "YELLOW_DPS_TURNOVER_300K_EACH_OF_LAST_THREE_YEARS": 1,
+      "YELLOW_ENTERPRISE_FACILITIES_MANAGEMENT_SYSTEM": 1,
+      "RED_US_SMALL_BUSINESS_SET_ASIDE": 1,
+      "YELLOW_STRATEGY_CONSULTING_ENTERPRISE": 1,
+      "YELLOW_PARTNERABLE_LMS_PUBLIC_ADMINISTRATION_REQUIRES_VENDOR_CAPACITY": 1,
+      "RED_US_SMALL_BUSINESS_SET_ASIDE_SPECIALIZED_TRAINING": 1,
+      "YELLOW_REVIEW_EIT_FOOD_COMMUNICATIONS_CAPACITY_GATES": 1,
+      "YELLOW_ENTERPRISE_MICROSOFT_DIGITAL_WORKPLACE": 1,
+      "YELLOW_REVIEW_NORWAY_DIGITAL_CONTENT_AND_DISTRIBUTION": 1,
+      "RED_US_SMALL_BUSINESS_HARDWARE": 1,
+      "YELLOW_US_FEDERAL_STAFFING_AND_TECHNICAL_CAPABILITY": 1,
+      "YELLOW_ENTERPRISE_CLIENT_CENTRICITY_SERVICES": 1,
+      "YELLOW_US_FEDERAL_FLIGHT_PLANNING_SOFTWARE": 1,
+      "RED_NO_LEAN_SCOPE_AFRL_ENTERPRISE_IT_PROTOTYPE": 1,
+      "YELLOW_ENTERPRISE_HEALTHCARE_VIRTUAL_SERVICES_PLATFORM": 1,
+      "RED_US_SMALL_BUSINESS_SET_ASIDE_NETWORK_UPGRADE": 1,
+      "YELLOW_PARTNERABLE_EUROPEAN_PARLIAMENT_WEB_SERVICES_HEAVY_CAPACITY": 1,
+      "YELLOW_ENTERPRISE_GEODATA_INFRASTRUCTURE": 1,
+      "YELLOW_RESELLER_NVIDIA_OEM_CHANNEL_STATUS_UNKNOWN": 1,
+      "YELLOW_REVIEW_CULTURAL_CONTENT_SERVICES": 1,
+      "PENDING_DCE_AUTHENTICITY_EIT_STEM_MARKETING_ONLY_TWO_DOCUMENTS_NO_RESOLVED_DEADLINE": 1,
+      "RED_SPECIALIZED_ONSITE_THERAPY_WORKSHOP": 1,
+      "RED_NO_LEAN_SCOPE_AIRCRAFT_COMPONENT_REPAIR": 1,
+      "RED_NO_LEAN_SCOPE_CRANE_JACK_INSPECTION_REPAIR": 1,
+      "RED_NO_LEAN_SCOPE_CO2_TANK_INSTALLATION_MAINTENANCE": 1,
+      "RED_NO_LEAN_SCOPE_US_FEDERAL_PHYSICAL_SUPPLY_SERVICE": 1,
+      "RED_NO_LEAN_SCOPE_MOTOR_IMPELLER_ASSEMBLY": 1,
+      "RED_NO_LEAN_SCOPE_SHIP_AIR_COMPRESSOR": 1,
+      "RED_NO_LEAN_SCOPE_BUILDING_CEILING_REPLACEMENT": 1,
+      "YELLOW_US_FEDERAL_MISSION_SUPPORT_BPA_ENTERPRISE": 1,
+      "RED_NO_LEAN_SCOPE_CUSTOM_PHYSICAL_BOARDS_PLAQUES": 1,
+      "RED_NO_LEAN_SCOPE_TACTICAL_SUPPLIES": 1,
+      "RED_NO_LEAN_SCOPE_FURNITURE_EQUIPMENT": 1,
+      "RED_NO_LEAN_SCOPE_HANDSETS_MOBILE_BASE_HARDWARE": 1,
+      "RED_NO_LEAN_SCOPE_CONTAINER_HOUSING_UNITS": 1,
+      "RED_NO_LEAN_SCOPE_US_FEDERAL_PHYSICAL_SUPPLY": 1,
+      "RED_NO_LEAN_SCOPE_TRANSFORMERS": 1,
+      "RED_NO_LEAN_SCOPE_CRANE_BOOM_REPAIR": 1,
+      "RED_NO_LEAN_SCOPE_MECHANICAL_PART": 1,
+      "RED_NO_LEAN_SCOPE_EMBOSSING_MACHINE_AND_TAGS": 1,
+      "YELLOW_PARTNERABLE_INFARMED_WEBSITE_PORTUGUESE_C1_TEAM_AND_ENTERPRISE_DELIVERY_GATES": 1,
+      "GREEN_PARTNERABLE_PRINT_CPAM_NO_NUMERIC_TURNOVER_THRESHOLD_REFS_AND_CAPACITY_CAN_RELY_ON_OTHER_OPERATOR": 1,
+      "GREEN_PARTNERABLE_LOUVRE_PRINT_NO_NUMERIC_TURNOVER_THRESHOLD_GROUPING_ALLOWED_PRINTER_REQUIRES_FSC_OR_PEFC_AND_IMPRIMVERT_EQUIVALENT": 1,
+      "YELLOW_TECHNICAL_DISTRICT_HEATING_CONSULTING_NOT_LEAN_PRIME": 1,
+      "YELLOW_ORGANISATIONAL_REVIEW_CONSULTING_EXPERIENCE_GATES": 1,
+      "YELLOW_REVIEW_PRINT_DELIVERY_SUPPORTS_COMMUNICATION_CAPACITY_GATES": 1,
+      "YELLOW_REVIEW_EVENT_PRINT_SUPPORTS_CAPACITY_GATES": 1,
+      "PENDING_DCE_PRINT_CMA_ONLY_TWO_DOCUMENTS_IN_HANDOFF": 1,
+      "YELLOW_SPECIALIZED_PRINTING_MACHINERY_RESELLER_NOT_LEAN_SERVICE": 1,
+      "RED_NO_LEAN_SCOPE_GREASE_TRAP_LIFT_STATION_MAINTENANCE": 1,
+      "RED_NO_LEAN_SCOPE_FIRE_TRUCK_TANK_REPLACEMENT": 1,
+      "RED_NO_LEAN_SCOPE_TRANSFER_CASE_HARDWARE": 1,
+      "RED_NO_LEAN_SCOPE_MEDICAL_MONITOR_HARDWARE": 1,
+      "RED_NO_LEAN_SCOPE_CHEMICAL_DETECTOR_HARDWARE": 1,
+      "RED_NO_LEAN_SCOPE_TEST_WEIGHT_HARDWARE": 1,
+      "YELLOW_SPECIALIZED_INKJET_3D_PRINTING_EQUIPMENT_RESELLER": 1,
+      "RED_FALSE_POSITIVE_PROPERTY_FOLLOWUP_ANIMATION_NOT_MEDIA": 1,
+      "YELLOW_ENTERPRISE_HR_PAYROLL_SOFTWARE": 1,
+      "YELLOW_REVIEW_BG_KLINIKEN_WEBSITE_RELAUNCH_CAPACITY_GATES": 1,
+      "RED_NO_LEAN_SCOPE_FLOWMETER_HARDWARE": 1,
+      "GREEN_PARTNERABLE_AUBERVILLIERS_PRINT_UP_TO_250K_PER_YEAR_NO_NUMERIC_TURNOVER_THRESHOLD_GROUPING_AND_CAPACITY_RELIANCE_ALLOWED": 1,
+      "YELLOW_US_FEDERAL_PROJECT_MANAGEMENT_ENTERPRISE": 1,
+      "YELLOW_REVIEW_SLOVENIA_PRINT_PACKING_POSTING_CAPACITY_GATES": 1,
+      "RED_NO_LEAN_SCOPE_FIRE_TRUCK_REPAIR": 1,
+      "RED_INDIAN_ECONOMIC_ENTERPRISE_SET_ASIDE_MEDICAL_CODING": 1,
+      "PENDING_DCE_SCOPE_LEGACY_UNATTRIBUTED": 1,
+      "RED_ONLY_SOURCE_HIGH_POWER_CO2_LASER": 1,
+      "YELLOW_ENTERPRISE_CUSTOM_SOFTWARE_PUBLIC_ADMINISTRATION": 1,
+      "RED_NO_LEAN_SCOPE_HOSPITAL_STERILIZATION": 1,
+      "RED_NO_LEAN_SCOPE_ARCHITECTURE_ENGINEERING": 1,
+      "RED_SPECIALIZED_AUDIT_IFAC_AFFILIATION_10_YEARS_AND_TWO_SIMILAR_ASSIGNMENTS": 1,
+      "RED_USER_SCOPE_EXCLUDED_PRINTING_SERVICES": 1,
+      "YELLOW_PARTNERABLE_AI_ML_TRAINING_REQUIRES_PROVEN_EXPERIENCE_REFERENCE_LETTERS_AND_3_YEAR_FACILITATOR": 1,
+      "YELLOW_REVIEW_SA_MUNICIPAL_DIGITAL_COMMS_CAPACITY_AND_LOCAL_PROCUREMENT_GATES": 1,
+      "YELLOW_REVIEW_IEC_APPLICATION_DEVELOPMENT_CAPACITY_GATES": 1,
+      "YELLOW_EUAA_EXTERNAL_EXPERT_POOL_SPECIALIST_CV_EXPERIENCE_ROUTE": 1,
+      "YELLOW_STRATEGIC_DIGITAL_LEARNING_PANEL_RELIANCE_ON_OTHER_ENTITIES_ALLOWED_CAPACITY_AND_THEME_EXPERIENCE_REQUIRED": 1,
+      "RED_SPECIALIZED_AUDIT_QUALIFICATION_SYSTEM": 1,
+      "YELLOW_SPECIALIZED_TRAINING_REVIEW_AIRPORT_AUTHORITY_CAPACITY_GATES": 1,
+      "YELLOW_PARTNERABLE_ENTREPRENEUR_TRAINING_PANEL_REQUIRES_TRAINER_EXPERIENCE": 1,
+      "RED_OUT_OF_CORE_SPECIALIZED_MODERN_METHODS_OF_CONSTRUCTION_TRAINING_AND_HEAVY_INSURANCE": 1,
+      "YELLOW_ENTERPRISE_HSE_COMPLIANCE_MANAGEMENT_INFORMATION_SYSTEM": 1,
+      "YELLOW_US_FEDERAL_ENTERPRISE_SERVICE_MANAGEMENT_DEPLOYMENT_PROFESSIONAL_SERVICES": 1,
+      "RED_NO_LEAN_SCOPE_TELECOMMUNICATIONS_QUALIFICATION_SYSTEM": 1,
+      "RED_NO_LEAN_SCOPE_SMART_METER_COMMUNICATION_AND_METER_MANAGEMENT_SYSTEM": 1,
+      "RED_SPECIALIZED_AUDIT_SERVICES": 1,
+      "RED_SPECIALIZED_STATUTORY_AUDIT_SERVICES": 1,
+      "YELLOW_PARTNERABLE_LEO_BUSINESS_TRAINING_REQUIRES_SUBJECT_MATTER_TRAINER_REFERENCES": 1,
+      "YELLOW_STRATEGIC_SKILLNET_TRAINING_DPS_PARTNERABLE_BY_CATEGORY": 1,
+      "YELLOW_INCUMBENT_SPECIFIC_TICKETING_SHOPS_CAFETERIA_SOFTWARE_MAINTENANCE": 1,
+      "PENDING_DCE_SPECIFIC_TENDER_GATES_NOT_ESTABLISHED_GENERIC_EIT_PROCUREMENT_MANUAL_DOMINATES_HANDOFF": 1,
+      "RED_NO_LEAN_SCOPE_VESSEL_REFIT": 1,
+      "RED_NO_REVENUE_CORE_SCOPE_DONATION_OF_DECOMMISSIONED_ICT_ASSETS": 1,
+      "YELLOW_REVIEW_SA_SOFTWARE_RESALE_OR_SERVICE_SCOPE_VENDOR_AND_LOCAL_GATES": 2,
+      "YELLOW_REVIEW_PRASA_SERVICE_OR_SOFTWARE_SCOPE_ENTERPRISE_AND_LOCAL_GATES": 1,
+      "YELLOW_SPECIALIZED_LOGISTICS_AND_SUPPLY_CHAIN_TRAINING_US_FEDERAL": 1,
+      "RED_NO_LEAN_SCOPE_TENANT_ALTERATIONS_AND_HVAC": 1,
+      "YELLOW_SPECIALIZED_TRAINING_REVIEW_LOCAL_MUNICIPAL_GATES": 1,
+      "YELLOW_ENTERPRISE_CONSULTANCY_QUALIFICATION_SYSTEM_TUC_RAIL": 1,
+      "RED_FALSE_POSITIVE_FLEET_REPAIRS_MAINTENANCE_RMI_OR_OEM_ACCREDITATION": 1,
+      "YELLOW_ENTERPRISE_ESM_CONSULTANCY_FRAMEWORK": 1,
+      "RED_NO_LEAN_SCOPE_MOLD_ABATEMENT_AND_RESTORATION": 1,
+      "YELLOW_STRATEGIC_ANALYTICS_MACHINE_LEARNING_DATA_MANAGEMENT_FRAMEWORK_ENTERPRISE_CAPACITY_REVIEW": 1,
+      "YELLOW_REVIEW_SA_MUNICIPAL_SCOPE_REQUIRES_EXACT_SERVICE_AND_CAPACITY_CONFIRMATION": 1,
+      "RED_NO_LEAN_SCOPE_FUEL_SUPPLY": 1,
+      "RED_NO_LEAN_SCOPE_CNG_FUEL_SUPPLY": 1,
+      "RED_NO_LEAN_SCOPE_FIRE_ALARM_SYSTEM_SUPPLY_INSTALLATION": 1,
+      "YELLOW_REVIEW_ALUMNI_FUNDRAISING_POTENTIAL_CRM_DIGITAL_SCOPE_EXACT_DCE_GATES_REQUIRED": 1,
+      "YELLOW_STRATEGIC_DIGITAL_LEARNING_AND_MEDIA_PRODUCTION_FRAMEWORK_ENTERPRISE_CAPACITY_REVIEW": 1,
+      "YELLOW_PARTNERABLE_GIZ_SME_COACHING_DPS_CATEGORY3_SPECIALIST_METHODOLOGY_AND_REFERENCE_GATES": 1,
+      "YELLOW_PARTNERABLE_GIZ_SME_TRAINING_DPS_CATEGORY2_SPECIALIST_METHODOLOGY_AND_REFERENCE_GATES": 1,
+      "YELLOW_PARTNERABLE_GIZ_SME_TRAINING_DPS_CATEGORY1_SPECIALIST_METHODOLOGY_AND_REFERENCE_GATES": 1,
+      "YELLOW_SPECIALIZED_TRANSPORT_EXPERT_GLOBAL_ADVISOR_TRAINING": 1,
+      "YELLOW_STRATEGIC_TECH_NORTHWEST_SKILLNET_3M_DPS_ICT_AND_TECHNOLOGY_TRAINING_PARTNERABLE_BY_LOT": 1,
+      "YELLOW_SPECIALIZED_ERASMUS_HOSTING_ORGANISATION_PANEL_OPERATIONAL_DELIVERY_GATES": 1,
+      "YELLOW_SPECIALIZED_PERSONAL_DEVELOPMENT_TRAINING_LITHUANIA_LOCAL_LANGUAGE_AND_TRAINER_GATES": 1,
+      "PENDING_DCE_AUTHENTICITY_NORWAY_AGILE_CUSTOM_SOFTWARE_DPS_RETRIEVED_DOCS_NOT_GATE_VERIFIED": 1,
+      "PENDING_DCE_AUTHENTICITY_METROBUS_13_MEDIA_PLAYER_LICENSES_24_MONTHS_POTENTIAL_RESELLER_SA_LOCAL_COMPLIANCE": 1,
+      "PENDING_DCE_AUTHENTICITY_NORWAY_CUSTOM_SOFTWARE_DPS_BUSINESS_ROLES_RETRIEVED_DOCS_NOT_GATE_VERIFIED": 1,
+      "PENDING_DCE_AUTHENTICITY_NORWAY_CUSTOM_SOFTWARE_DPS_SYSTEM_DEVELOPMENT_RETRIEVED_DOCS_NOT_GATE_VERIFIED": 1,
+      "RED_OUT_OF_CORE_EASA_INDIVIDUAL_AVIATION_EXPERT_DATABASE_REQUIRES_AVIATION_PROFESSIONAL_EXPERTISE": 1,
+      "YELLOW_PARTNERABLE_GIZ_FARMER_BUSINESS_SCHOOL_DPS_SPECIALIST_AGRICULTURE_TRAINER_AND_REFERENCE_GATES": 1,
+      "YELLOW_STRATEGIC_RESTAURANT_HOSPITALITY_SKILLNET_1_3M_TRAINING_PANEL_PARTNERABLE_BY_TRAINING_CATEGORY": 1,
+      "YELLOW_PARTNERABLE_BWI_TRAINING_CATEGORY1_GERMAN_ENTERPRISE_TRAINER_AND_REFERENCE_GATES": 1,
+      "YELLOW_PARTNERABLE_BWI_TRAINING_CATEGORY2_GERMAN_ENTERPRISE_TRAINER_AND_REFERENCE_GATES": 1,
+      "RED_OUT_OF_CORE_OBERSTOWN_PART_TIME_TUTOR_PANEL_ONSITE_EDUCATIONAL_SUPPORT": 1,
+      "RED_OUT_OF_CORE_FRANCE_POEC_VOCATIONAL_TRAINING_PROVIDER_PROGRAMME_REGULATED_DELIVERY": 1,
+      "YELLOW_PARTNERABLE_BWI_TRAINING_CATEGORY4_REQUIRES_REFERENCES_INSURANCE_QM_ISO9001_AND_GERMAN_LANGUAGE_TRAINERS": 1,
+      "YELLOW_PARTNERABLE_BWI_TRAINING_CATEGORY3_REQUIRES_REFERENCES_INSURANCE_QM_ISO9001_AND_GERMAN_LANGUAGE_TRAINERS": 1,
+      "RED_OUT_OF_CORE_FIRE_RISK_ASSESSMENT_PROTECTED_AREAS_SPECIALIST_ENVIRONMENTAL_SCOPE": 1,
+      "GREEN_SOLO_CANDIDATE": 1,
+      "UNKNOWN/PENDING_DCE": 4
+    },
+    "ticks_missing_source_dce_run": 71,
+    "yellow_ticks": 69,
+    "yellow_ticks_missing_source_dce_run": 58,
+    "null_run_examples": [
+      {
+        "candidate_id": "TED:569485-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:571338-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:570031-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:54764ad67d6d4cd9a6bfc5cc06eeb26f",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:6534d1ca38cc4c00a13f07aa1f9680df",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:572152-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:571982-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:570312-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:572169-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:569366-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:571373-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:e2808a005aa340e2bbff9b670ea21fd5",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "TED:570386-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "TED:559457-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T19:02:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818-part2",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "TED:571964-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8860090",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:571314-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:570451-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8853905",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:570642-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:569364-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165372-2026-08-13",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165449-2026-08-13",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:ff9d55d6a268428081b54dc02f5bf2c1",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:556867-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:570412-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:571625-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:3f7fef3cc8a0419e96d234b9eac368d4",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165796-2026-08-17",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "US-SAM:567967df0d8441948217f01fd22135ec",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165790-2026-08-17",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165330-2026-08-12",
+        "reviewed": true,
+        "reviewed_at": "2026-08-18T18:49:00+02:00",
+        "review_pass_id": "persisted-adjudication:gpt-web-full-queue-20260818",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "TED:516871-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:441757-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:506353-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:482302-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:574380-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:494111-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:452120-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-19T10:20:30Z",
+        "review_pass_id": "persisted-adjudication:gpt-web-hot-sweep-32240495352",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8869645",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:45:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-hot-backfill-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:563289-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:45:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-hot-backfill-20260825",
+        "source_dce_run_id": null,
+        "verdict": "RED"
+      },
+      {
+        "candidate_id": "TED:566207-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:45:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-hot-backfill-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "US-SAM:f5f0b7889f354ec4b5620f73a518f9be",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:45:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-hot-backfill-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:476581-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:567139-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:567844-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:578082-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:352987-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:577961-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-01-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:581702-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:537925-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:584175-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:574301-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:508381-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:566507-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:364578-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:568813-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-24T23:55:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-priority-good-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:580238-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:576504-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8749146",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8766381",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:574733-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:537532-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:40:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-lean-targets-batch-02-20260825",
+        "source_dce_run_id": null,
+        "verdict": "UNKNOWN/PENDING_DCE"
+      },
+      {
+        "candidate_id": "TED:522354-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:48:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-good-deep-03-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:527162-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:48:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-good-deep-03-20260825",
+        "source_dce_run_id": null,
+        "verdict": "UNKNOWN/PENDING_DCE"
+      },
+      {
+        "candidate_id": "TED:533200-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:58:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-open-good-lean-batch-04-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165327-2026-08-12",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:58:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-open-good-lean-batch-04-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166202-2026-08-19",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T00:58:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-open-good-lean-batch-04-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "IE:8840246",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T01:00:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-clare-tourism-lms-20260825",
+        "source_dce_run_id": null,
+        "verdict": "YELLOW"
+      },
+      {
+        "candidate_id": "TED:511245-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T01:02:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-softgate-authenticity-fix-20260825",
+        "source_dce_run_id": null,
+        "verdict": "UNKNOWN/PENDING_DCE"
+      },
+      {
+        "candidate_id": "TED:584979-2026",
+        "reviewed": true,
+        "reviewed_at": "2026-08-25T01:02:00Z",
+        "review_pass_id": "persisted-adjudication:gpt-softgate-authenticity-fix-20260825",
+        "source_dce_run_id": null,
+        "verdict": "UNKNOWN/PENDING_DCE"
+      }
+    ]
+  },
+  "review_index": {
+    "count": 4719,
+    "counts": {
+      "pending_total_uncapped": 4719,
+      "by_stage": {
+        "BUSINESS_GATES": 3526,
+        "DCE_AUTHENTICITY": 1193
+      },
+      "by_spm_fit_band": {
+        "HOT": 1,
+        "GOOD": 63,
+        "MAYBE": 381,
+        "LOW": 4274
+      },
+      "rich_hot_window_target": 160,
+      "overflow_beyond_hot_160": 4559,
+      "cross_portal_duplicates_collapsed": 0
+    },
+    "recovery": {
+      "shard_files_scanned_this_refresh": 39,
+      "adjudication_rows_scanned_this_refresh": 144,
+      "gate_rows_seen_this_refresh": 41,
+      "authenticity_rows_seen_this_refresh": 8,
+      "source_runs_seen_this_refresh": [
+        33023802414,
+        33009403547,
+        32999332964,
+        32989660471,
+        32986253433,
+        32978812066,
+        32974441813,
+        32968066967,
+        32965366983,
+        32962689546
+      ]
+    }
+  },
+  "visible_inbox": {
+    "pending": 160,
+    "pending_before_visible_cap": 172,
+    "latest_source_dce_run_id": 32999332964,
+    "latest_recovered_dce_run_id": 33023802414,
+    "source_run_lag_detected": true
+  },
+  "known_structural_risks": [
+    "GitHub Actions never performs final business adjudication; GPT_WEB_HANDOFF requires an active assistant pass.",
+    "Normal inbox refresh recovers only the newest 10 DCE releases and uses cancel-in-progress=true, creating a burst-loss risk.",
+    "All final-bank classes, including YELLOW, are excluded from the review index.",
+    "Ledger ticks without source_dce_run_id can suppress all future versions because freshness cannot be compared.",
+    "Historical immutable fast-adjudication rows are not re-evaluated with the current dce_evidence_quality rules during index rebuild.",
+    "Visible review surface is capped at 160 while the uncapped backlog is thousands of rows."
+  ]
+}
