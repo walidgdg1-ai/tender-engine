@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-26T04:54:45.806212+00:00",
-  "source_inbox_updated_at": "2026-08-26T04:54:44.832856+00:00",
+  "generated_at": "2026-08-26T05:15:57.928235+00:00",
+  "source_inbox_updated_at": "2026-08-26T04:55:52.394859+00:00",
   "latest_source_dce_run_id": 32931842956,
   "batch_index": 12,
   "start_rank": 121,
@@ -42,14 +42,22 @@
       },
       "evidence_quality": {
         "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 1,
-        "text_chars": 1870,
+        "documents_with_text": 0,
+        "text_chars": 0,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": null,
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-08-26T05:15:52.191111+00:00",
+        "source_dce_run_id": 32911368999,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
