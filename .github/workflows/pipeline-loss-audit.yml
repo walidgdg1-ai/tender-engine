@@ -1,0 +1,50 @@
+name: Pipeline Loss Audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'pipeline/audit_pipeline_loss.py'
+      - '.github/workflows/pipeline-loss-audit.yml'
+      - 'control/final_supergreen_bank.json'
+      - 'control/gpt_web_review_ledger.json'
+      - 'control/gpt_review_index.json'
+      - 'control/gpt_inbox_metrics.json'
+      - 'control/gpt_supergreen_inbox.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline-loss-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build loss audit
+        run: python pipeline/audit_pipeline_loss.py
+      - name: Persist audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          git add control/pipeline_loss_audit.json
+          git commit -m "audit: persist pipeline loss ${GITHUB_RUN_ID}" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort >/dev/null 2>&1 || true
+            sleep $((i*2))
+          done
+          exit 1
