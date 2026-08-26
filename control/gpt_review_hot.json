@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-08-26T14:16:42.053959+00:00",
+  "updated_at": "2026-08-26T14:17:19.967120+00:00",
   "latest_dce_run_id": 32978812066,
-  "latest_shard": 2,
+  "latest_shard": 0,
   "generation_reset": false,
-  "count": 8,
+  "count": 11,
   "items": [
     {
       "candidate_id": "US-SAM:ae68a8700983483b815ed1322b7f4f76",
@@ -1427,6 +1427,715 @@
       "review_lane": "SPM_PRIORITY"
     },
     {
+      "candidate_id": "EE-RHR:bfe84e81-f8da-49e7-a7a9-e8b0224758a4",
+      "title": "Tehisintellekti alased arendusteenused",
+      "buyer": "Sihtasutus Tallinna Teaduspark TEHNOPOL",
+      "portal": "EE_RHR",
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10611986/general-info",
+      "deadline": "2026-08-31T07:30:00+00:00",
+      "estimated_value": 150000.0,
+      "currency": "EUR",
+      "preliminary_score": 89,
+      "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-08-31T07:30:00+00:00",
+        "notice_deadline_date": "2026-08-31",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 9,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [
+          {
+            "text": "alueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">074f6031-55f9-4e99-b9a4-c4363e8bc315</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_YEARLY</cbc:CriterionTypeCode> <cbc:Name>Konkreetne aastakäive</cbc:Name> <cbc:Description languageID=\"ET\">Ettevõtja konkreetne aastakäive lepinguga hõlmatud valdkonnas on asjaomases teates, hankedokumentides või hankepassis nõutud majandusaastate jooksul järgmine:</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\">RHS § 100 lg 1 p 4 „andmed pakkuja või taotleja netokäibe kohta hankelepinguga seotud valdkonnas või selle esemele vastavas osas",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 222947,
+            "corpus_end": 224255,
+            "match": "TURNOVER"
+          }
+        ],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "<cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">5a8dea31-5db9-4e03-862b-07810aa6a7fd</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.OTHER.EO_DATA.CONTRIBUTIONS_CERTIFICATES</cbc:CriterionTypeCode> <cbc:Name>Ettevõtja kinnitused maksude tasumise kohta</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja saab esitada tõendi sotsiaalkindlustusmaksete ja maksude tasumise kohta või esitada teabe, mis võimaldaks avaliku sektori hankijal või võrgustiku sektori hankijal saada sellise teabe otse ükskõik millise liikmesriigi tasuta andmebaasist?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\"/> <cbc:Descripti",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 275969,
+            "corpus_end": 277280,
+            "match": "CERTIFICATE"
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "ojektide arendamisel, olles läbi viinud või olnud seotud vähemalt 1 projektiga, mis on määratletud kui IT projekt, sh tarkvara rakendamine, digitaliseerimine, tehisintellekti alane arendustöö, andmete analüüs vmt. 3. Eksperdi teadmised peavad hõlmama teadmust infotehnoloogiast: ekspert peab omama arusaama masinõppemudelite treenimisest, andmetöötlusest ja -haldusest, generatiivse tehisaru ja automatiseerimise lahendustest, operatsioonitarkvaradest ja infotehnoloogia omavahelisest seotusest teiste süsteemidega, sh omama teadmisi riistvarast ja selle kasutamisjuhtudest. 4. Valdab inglise keelt tasemel B2.1 5. Pakkuja esitab pakkumuses eksperdi CV lisas 2 toodud vormil, mis on eksperdi poolt allkirjastatud. Küsimused ettevõtjale: 1. Lisa 2 (Dokumendi vorm / LISA 2 – Eksperdi CV vorm; Meeskonna kirjeldus.docx) OSA 2: GENERATIIVSE AI PÕHISED RAKENDUSED JA TEENUSED. ÜHISPAKKUJATE VOLIKIRI Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud toimingute tegemiseks endi seast volitatud esindaja. Küsimused ettevõtjale: 1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega \"Jah/Ei\") 2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse \"Lisadokumentide\" lehele ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake \"Ei\"\". (Raadionup",
+            "source": "files/files_unpacked/313550_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "524405a4655d04c1e4fea17f6ccfbe1653641c255f86a84d0577ef3a46d9b0fa",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 354891,
+            "corpus_end": 356193,
+            "match": "CV"
+          },
+          {
+            "text": "amine, digitaliseerimine, tehisintellekti alane arendustöö, andmete analüüs vmt. 3. Eksperdi teadmised peavad hõlmama teadmust infotehnoloogiast: ekspert peab omama arusaama masinõppemudelite treenimisest, andmetöötlusest ja -haldusest, generatiivse tehisaru ja automatiseerimise lahendustest, operatsioonitarkvaradest ja infotehnoloogia omavahelisest seotusest teiste süsteemidega, sh omama teadmisi riistvarast ja selle kasutamisjuhtudest. 4. Valdab inglise keelt tasemel B2.1 5. Pakkuja esitab pakkumuses eksperdi CV lisas 2 toodud vormil, mis on eksperdi poolt allkirjastatud. Küsimused ettevõtjale: 1. Lisa 2 (Dokumendi vorm / LISA 2 – Eksperdi CV vorm; Meeskonna kirjeldus.docx) OSA 2: GENERATIIVSE AI PÕHISED RAKENDUSED JA TEENUSED. ÜHISPAKKUJATE VOLIKIRI Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud toimingute tegemiseks endi seast volitatud esindaja. Küsimused ettevõtjale: 1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega \"Jah/Ei\") 2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse \"Lisadokumentide\" lehele ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake \"Ei\"\". (Raadionupp valikutega \"Jah/Ei\") ÄRISALADUS Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe määramist ärisa",
+            "source": "files/files_unpacked/313550_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "524405a4655d04c1e4fea17f6ccfbe1653641c255f86a84d0577ef3a46d9b0fa",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 355024,
+            "corpus_end": 356326,
+            "match": "CV"
+          },
+          {
+            "text": "ust IT projektide arendamisel, olles läbi viinud või olnud seotud vähemalt 1 projektiga, mis on määratletud kui IT projekt, sh tarkvara rakendamine, digitaliseerimine, tehisintellekti alane arendustöö, andmete analüüs vmt. Eksperdi teadmised peavad hõlmama teadmust infotehnoloogiast: ekspert peab omama arusaama masinõppemudelite treenimisest, andmetöötlusest ja -haldusest, generatiivse tehisaru ja automatiseerimise lahendustest, operatsioonitarkvaradest ja infotehnoloogia omavahelisest seotusest teiste süsteemidega, sh omama teadmisi riistvarast ja selle kasutamisjuhtudest. Valdab inglise keelt tasemel B2. Pakkuja esitab pakkumuses eksperdi CV lisas 2 toodud vormil, mis on eksperdi poolt allkirjastatud. Pakkuja esitab pakkumuses andmed meeskonnaliikmete kohta lisas 2 toodud vormil. Vormi allkirjastab pakkumuse esitaja. Pakkuja esitab vabas vormis töömetoodika kirjelduse. Töömetoodika kirjeldus peab olema masinloetavas kirjas Word või PDF vormingus. Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe ärisaladuseks määramist. Pakkuja ei või ärisaladusena märkida: 1) pakkumuse maksumust ega osamaksumusi; 2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise kriteeriumitele vastavaid pakkumust iseloomustavaid numbrilis",
+            "source": "files/files_unpacked/Hankedokument Tehisintellekti alased arendusteenused.docx",
+            "source_url": null,
+            "source_sha256": "c9eb074d68063f49e365ca874ecaf7273ba1116831659062781b2c494de49e10",
+            "source_kind": "docx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 372227,
+            "corpus_end": 373529,
+            "match": "CV"
+          },
+          {
+            "text": "võib põhjendatud vajaduse korral omal algatusel hankemenetluse kehtetuks tunnistada. Põhjendatud vajaduseks võib olla eelkõige, kuid mitte ainult: 7.2.1 kui tekib vajadus raamlepingu eset olulisel määral muuta; 7.2.2 kui riigihanke läbiviimise aluseks olevad tingimused on oluliselt muutunud ja seetõttu osutub raamlepingu sõlmimine mittevajalikuks või võimatuks; 7.2.3 kui hankemenetluses ilmnenud ebakõlasid ei ole võimalik kõrvaldada ega hankemenetlust seetõttu ka õiguspäraselt lõpule viia; 7.2.4 kui hankijal puuduvad raamlepingu täitmiseks vajalikud rahalised vahendid; LISAD RHAD LISA 1 – Pakkumuse maksumuse vorm; RHAD LISA 2 – Eksperdi CV vorm; Meeskonna kirjeldus RHAD LISA 3 – Ühispakkujate volikirja vorm; RHAD LISA 4 – Tehniline kirjeldus; RHAD LISA 5 – Näidisleping riigiabi andmise korral ettevõttele; RHAD LISA 6 – Raamleping ja hankeleping RHAD LISA 7 - Turukonsultatsiooni protokoll, kutse Nr | Hindamiskriteerium | Osakaal | Hindamiskriteeriumi sisu 6.1.3.1 | Hind (vähim on parim) | 30% (max 30 p) | Vastavalt punktile 6.1.4 6.1.3.2 | Meeskonna kompetents, rollijaotus ja referentsid | 40% (max 40 p) | Vastavalt punktile 6.1.5 Skaala: 1 punkt- Pakkumuses esitatud meeskonna koosseisus või tööjaotuses esinevad olulised puudujäägid või vastuolud. Meeskonnaliikmete va",
+            "source": "files/files_unpacked/Hankedokument Tehisintellekti alased arendusteenused.docx",
+            "source_url": null,
+            "source_sha256": "c9eb074d68063f49e365ca874ecaf7273ba1116831659062781b2c494de49e10",
+            "source_kind": "docx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 383229,
+            "corpus_end": 384531,
+            "match": "CV"
+          }
+        ],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "<cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">72c0c4b1-ca50-4667-9487-461f3eed4ed7</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</cbc:CriterionTypeCode> <cbc:Name>Teave nende allhankijate kohta, kelle näitajatele ettevõtja ei tugine</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja kavatseb sõlmida lepingu mis tahes osa kohta allhanke kolmanda isikuga?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\"/> <cbc:Description languageID=\"ET\"/> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"E",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 265373,
+            "corpus_end": 266684,
+            "match": "SUBCONTRACT"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\"",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 834,
+            "match": "specification"
+          },
+          {
+            "text": ">LOT_ONE_MORE</cbc:ExpectedCode> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">dceddc28-0ac8-471b-b954-c376a862ea30</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võib pakkumusi esitada</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">QUANTITY_INTEGER</cbc:ValueDataTypeCode> <cbc:ExpectedValueNumeric>2</cbc:ExpectedValueNumeric> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">4b710530-abea-4ed0-b3fb-f324919c2d62</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võidakse sõlmida leping ühe pakkujaga</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDa",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 7268,
+            "corpus_end": 8576,
+            "match": "QUANTITY"
+          },
+          {
+            "text": "ctedValueNumeric> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">4b710530-abea-4ed0-b3fb-f324919c2d62</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võidakse sõlmida leping ühe pakkujaga</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">QUANTITY_INTEGER</cbc:ValueDataTypeCode> <cbc:ExpectedValueNumeric>2</cbc:ExpectedValueNumeric> </cac:TenderingCriterionProperty> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:CriterionTypeCode> <cbc:Name>Osalemine kuritegelikus organisa",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 8012,
+            "corpus_end": 9320,
+            "match": "QUANTITY"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "onID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:CriterionTypeCode> <cbc:Name>Osalemine kuritegelikus organisatsioonis</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\">RHS § 95 lg 1 p 1 \"keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juh",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9162,
+            "corpus_end": 10465,
+            "match": "sla"
+          },
+          {
+            "text": "esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud.</cbc:Description> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ET</cbc:LocaleCode> </cac:Language> </cac:Legislation> <cac:TenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">7c637c0c-7703-4389-ba52-02997a055bd7</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">8a42266c5fb24e32ff421942459d66ac-1.1</cbc:ID> <cbc:Description languageID=\"ET\">Mis on Teie vastus?</cbc:Description> <cbc:",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 10784,
+            "corpus_end": 12087,
+            "match": "sla"
+          },
+          {
+            "text": "TypeCode> <cbc:Name>Korruptsioon</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud korruptsiooni eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt? See kõrvalejätmise alus hõlmab ka korruptsiooni avaliku sektori hankija (võrgustiku sektori hankija) või ettevõtja riigi õiguses sätestatud määratluses.</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\">RHS § 95 lg 1 p 1 ja lg 2 \"keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud aususe kohustuse rikkumise või korruptiivse teo eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võim",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 20197,
+            "corpus_end": 21500,
+            "match": "sla"
+          },
+          {
+            "text": "a nimel otsuseid teha või teda kontrollida, on karistatud aususe kohustuse rikkumise või korruptiivse teo eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud.</cbc:Description> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ET</cbc:LocaleCode> </cac:Language> </cac:Legislation> <cac:TenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">7c637c0c-7703-4389-ba52-02997a055bd7</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">94bafa958a57a2f5fa7af1f5c03b1e54-1.1</cbc:ID> <cbc:Description languageID=\"ET\">Mis on Teie vastus?</cbc:Description> <cbc:",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 21863,
+            "corpus_end": 23166,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.c",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 865,
+            "match": "Extension"
+          },
+          {
+            "text": "D_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</cbc:CustomizationID> <cbc:ProfileID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"2.0\">4.1</cbc:ProfileID> <cbc:ID schemeAgencyID=\"RHR\">1bf3a1a2-5060-4ba2-a2ee-dc8bf4f50958</cbc:ID> <cbc:CopyIndicator>false</cbc:CopyIndicator> <cbc:UUID schemeID=\"ISO/IEC 9834-8:2008\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"4\">0fddbf2d-1e33-4267-b04f-52b59b72ccb6</cbc:UUID> <cbc:ContractFolderID schemeAgencyID=\"RHR\">313550</cbc:ContractFold",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 44,
+            "corpus_end": 1353,
+            "match": "extension"
+          }
+        ],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-e",
+            "source": "files/files_unpacked/313550_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "f6933100e54b80390fd51920350c198ada6ebc3dc41a693fc08368d2df6dc3e4",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 695,
+            "match": "ESPD"
+          },
+          {
+            "text": "N</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/313550_hankepass_taiendavate_selgitustega.pdf ===== 1 / 21 Koostatud 23.07.2026 11:27:16 https://riigihanked.riik.ee/rhr-web/#/procurement/10611986/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 313550 Kui Euroopa Liidu Teataj",
+            "source": "files/files_unpacked/313550_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "648c55eb6eb72031aca03cffc320ddcfdb87934cc01516332bc5c7f8dc883d99",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 290205,
+            "corpus_end": 291509,
+            "match": "ESPD"
+          },
+          {
+            "text": "taType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/313550_hankepass_taiendavate_selgitustega.pdf ===== 1 / 21 Koostatud 23.07.2026 11:27:16 https://riigihanked.riik.ee/rhr-web/#/procurement/10611986/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 313550 Kui Euroopa Liidu Teatajas hankekuulutust avaldatud ei ole või kui selle avaldamist ei nõuta, peab avali",
+            "source": "files/files_unpacked/313550_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "648c55eb6eb72031aca03cffc320ddcfdb87934cc01516332bc5c7f8dc883d99",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 290283,
+            "corpus_end": 291589,
+            "match": "mandat"
+          },
+          {
+            "text": "1 Koostatud 23.07.2026 11:27:16 https://riigihanked.riik.ee/rhr-web/#/procurement/10611986/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 313550 Kui Euroopa Liidu Teatajas hankekuulutust avaldatud ei ole või kui selle avaldamist ei nõuta, peab avaliku sektori hankija või võrgustiku sektori hankija ise teabe esitama, et hankemenetlust saaks üheselt identifitseerida (nt viide siseriikliku avaldamise kohta). Hankija andmed Ametlik nimi: Sihtasutus Tallinna Teaduspark TEHNOPOL (90008258) Riik: Eesti Hankija aadress: Mäealuse tn 2/4 Hankija veebiaadress: http://www.tehnopol.ee E-posti aadress: info@tehnopol.ee 2 / 21 Koostatud 23.07.2026 11:27:16 https://ri",
+            "source": "files/files_unpacked/313550_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "648c55eb6eb72031aca03cffc320ddcfdb87934cc01516332bc5c7f8dc883d99",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 290698,
+            "corpus_end": 292002,
+            "match": "ESPD"
+          }
+        ],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "ised: Pool võib igal ajal muuta kontaktandmeid, kuhu teated või muu informatsioon toimetatakse, ning oma vastavaid eeltoodud kontaktisikuid, teatades sellest teisele poolele. Vastav teade edastatakse e-posti teel. Tellija kontaktisiku pädevuses on kontrolli korraldamine lepingu täitmise ja ajakava üle, viivitustest ja muudatustest teise poole teavitamine, tööde tellija nimel vastuvõtmine ja pretensioonide esitamine. Tellija kontaktisiku töökohustustest eemalviibimisel (puhkus, lähetus, haigus jmt), on samad õigused tellija määratud isikul. ISIKUANDMETE TÖÖTLEMINE Pooled kohustuvad isikuandmeid töötlema vaid isikuandmete kaitse üldmääruses (GDPR) sätestatud alustel ja korras ning järgima kõiki muid isikuandmete töötlemist reguleerivaid kohalduvaid õigusakte. LEPINGU MUUTMINE JA MUUD TINGIMUSED Lepingut on õigus muuta poolte kokkuleppel, RHS §-s 123 sätestatud tingimustel. Kõik lepingu muudatused sõlmitakse lepinguga võrdväärses vormis. Pooled kinnitavad, et nende mõistliku arvamuse kohaselt ei kahjusta ükski lepingu säte ebamõistlikult teist poolt ning poolte õigused ja kohustused on lepingus tasakaalus. Pooled kinnitavad ühtlasi, et nad peavad lepingu kõiki tingimusi mõistlikeks ning kohustuvad neid täitma. Kõik lepingust tulenevad või sellega seotud vaidlused lahendatakse läbir",
+            "source": "files/files_unpacked/LISA 6 - Raamleping ja hankeleping.docx",
+            "source_url": null,
+            "source_sha256": "5cf4c84f3c07d199e4b3f43d7ea0371584d1534db8f2b47c9d79a17aa52b6bee",
+            "source_kind": "docx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 438909,
+            "corpus_end": 440213,
+            "match": "GDPR"
+          },
+          {
+            "text": "……………. | Telefon: ……………. Nimi: ……………. | e-post: ……………. Nimi: .................. Telefon: ……………. | e-post: ……………. | Tellija: (allkiri) | Täitja: (allkiri) ===== FILE: files/files_unpacked/LISA 7 - Turukonsultatsiooni protokoll .docx ===== Lisa 7 Turukonsultatsiooni protokoll Turukonsultatsiooni protokoll Hange: Tehisintellekti alased arendusteenused, viitenumber 313550 Toimumise kuupäev: 14.07.2027 Asukoht: Teams keskkond, koosolekut salvestati Kohtumisel osalesid järgnevad ettevõtted: OIXIO Digital AS, MINDTITAN OÜ, AI Eesti OÜ, Flowit Estonia OÜ, Itronauts OÜ, Net Group OÜ, Trinidad Wiseman OÜ, Datasky OÜ, Tehisintellekt OÜ, Cybernetica AS, Amperly OÜ, Advokaadibüroo PrioriLaw (advokaat Teele Talk-Kõdar), Tehnopol (Rauno Varblas ja Kertu Karner). Turukonsultatsiooni eesmärk: Tehnopol viis RAISE projekti raames korraldatava hanke „Tehisintellekti alased arendusteenused“ korraldamise eesmärgil läbi turukonsultatsiooni, mille eesmärgiks oli koguda IT- ja andmeteaduse ettevõtetelt tagasisidet ning ettepanekuid planeeritava tehisintellekti arendusteenuste hanke kohta. Arutatud teemad: 1. Rauno Varblas: RAISE projekti ja hanke tutvustus Rauno Varblas avas turukonsultatsiooni ning andis ülevaate Euroopa Liidu rahastatud RAISE projektist, mis aitab Eesti, Läti, Soome ja R",
+            "source": "files/files_unpacked/LISA 7 -  Turukonsultatsiooni protokoll .docx",
+            "source_url": null,
+            "source_sha256": "1607c4d3231f1b730bbe640956b36487d9c18d69a3c4806061cc395a8de2c920",
+            "source_kind": "docx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 442332,
+            "corpus_end": 443637,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 32978812066,
+      "source_shard": 0,
+      "hot_ready_at": "2026-08-26T14:17:19.320623+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 20,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "EE-RHR:7c46ab11-b354-4266-bbaf-15577eed2809",
+      "title": "Praktiline tööalane eesti keel tugispetsialistidele ja haridustöötajatele (Eesti Keele Instituut)",
+      "buyer": "Riigi Tugiteenuste Keskus",
+      "portal": "EE_RHR",
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info",
+      "deadline": "2026-09-03T09:00:00+00:00",
+      "estimated_value": 300000.0,
+      "currency": "EUR",
+      "preliminary_score": 61,
+      "priority_score": 61,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-03T09:00:00+00:00",
+        "notice_deadline_date": "2026-09-03",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 8,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "s_unpacked/309513_vastavustingimused.pdf ===== 1 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info VASTAVUSTINGIMUSED Viitenumber: 309513 Hankija: Riigi Tugiteenuste Keskus (70007340) Hange: Praktiline tööalane eesti keel tugispetsialistidele ja haridustöötajatele (Eesti Keele Instituut) OSA 1: PRAKTILINE TÖÖALANE EESTI KEEL TUGISPETSIALISTIDELE Keskkonnahoidlik hange või hanke osa! EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS (EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb piiravaid meetmeid seoses Venema",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 186715,
+            "corpus_end": 188023,
+            "match": "resident"
+          },
+          {
+            "text": "1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS (EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas. Küsimused ettevõtjale: 1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega \"Jah/Ei\") ALLTÖÖVÕTJATE JA TARNIJATE PIIRAMINE HANKELEPINGU TÄITMISEL Alltöövõtjate ja tarnijate osalemise piiramine. Lepingu täitmisel kohustub pakkuja kaasama ainult selliseid alltöövõtjaid ja tarnijaid, kelle elu- või asukoht on RHS § 3 p-s 2 nimetatud riigis (Eesti, mõni muu Euroopa",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 187610,
+            "corpus_end": 188918,
+            "match": "resident"
+          },
+          {
+            "text": "eb pakkumuse koosseisus esitatud eesti keele õppe õppekava kavandil. 4 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info Küsimused ettevõtjale: 1. Kas pakkuja kinnitab, et esitab lepingu sõlmimise järgselt 14 tööpäeva jooksul detailse koolituskava? (Raadionupp valikutega \"Jah/Ei\") OSA 2: PRAKTILINE TÖÖALANE EESTI KEEL TEISTELE HARIDUSTÖÖTAJATELE Keskkonnahoidlik hange või hanke osa! EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS (EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb piiravaid meetmeid seoses Venema",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 195260,
+            "corpus_end": 196568,
+            "match": "resident"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "<cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">5a8dea31-5db9-4e03-862b-07810aa6a7fd</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.OTHER.EO_DATA.CONTRIBUTIONS_CERTIFICATES</cbc:CriterionTypeCode> <cbc:Name>Ettevõtja kinnitused maksude tasumise kohta</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja saab esitada tõendi sotsiaalkindlustusmaksete ja maksude tasumise kohta või esitada teabe, mis võimaldaks avaliku sektori hankijal või võrgustiku sektori hankijal saada sellise teabe otse ükskõik millise liikmesriigi tasuta andmebaasist?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\"/> <cbc:Descripti",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 142963,
+            "corpus_end": 144274,
+            "match": "CERTIFICATE"
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "mist. Tingimusliku pakkumuse esitamine ei ole lubatud. Küsimused ettevõtjale: 1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud tingimustele? (Raadionupp valikutega \"Jah/Ei\") PAKKUMUSE MAKSUMUS Pakkumuse maksumus tuleb esitada töölehel \"Hindamiskriteeriumid ja hinnatavad näitajad\" toodud struktuuri kohaselt. Küsimused ettevõtjale: 1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe \"Hindamiskriteeriumid ja hinnatavad näitajad\" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega \"Jah/Ei\") PAKKUJA MEESKOND I OSA Pakkuja peab pakkumuse koosseisus esitama hankija vormidel: - koolitaja allkirjastatud CV etteantud vormil (Lisa 3 „Koolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; - valdkonna eksperdi/tandemkoolitaja allkirjastatud CV etteantud vormil (Lisa 4 „Valdkonna eksperdi/tandemkoolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; Allkirjastatud CV-ga kinnitab meeskonnaliige, et ta on andnud pakkujale nõusoleku enda nimetamiseks meeskonnaliikmeks ning on valmis osalema lepingu täitmises. 3 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info Pakkuja meeskonda peab hanke osa 1 puhul kuuluma vähemalt: - üks projektijuht; - üks eesti keele kui tei",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 191535,
+            "corpus_end": 192837,
+            "match": "CV"
+          },
+          {
+            "text": "ei ole lubatud. Küsimused ettevõtjale: 1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud tingimustele? (Raadionupp valikutega \"Jah/Ei\") PAKKUMUSE MAKSUMUS Pakkumuse maksumus tuleb esitada töölehel \"Hindamiskriteeriumid ja hinnatavad näitajad\" toodud struktuuri kohaselt. Küsimused ettevõtjale: 1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe \"Hindamiskriteeriumid ja hinnatavad näitajad\" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega \"Jah/Ei\") PAKKUJA MEESKOND I OSA Pakkuja peab pakkumuse koosseisus esitama hankija vormidel: - koolitaja allkirjastatud CV etteantud vormil (Lisa 3 „Koolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; - valdkonna eksperdi/tandemkoolitaja allkirjastatud CV etteantud vormil (Lisa 4 „Valdkonna eksperdi/tandemkoolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; Allkirjastatud CV-ga kinnitab meeskonnaliige, et ta on andnud pakkujale nõusoleku enda nimetamiseks meeskonnaliikmeks ning on valmis osalema lepingu täitmises. 3 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info Pakkuja meeskonda peab hanke osa 1 puhul kuuluma vähemalt: - üks projektijuht; - üks eesti keele kui teise keele koolitaja; - üks valdkonna eks",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 191574,
+            "corpus_end": 192876,
+            "match": "CV"
+          },
+          {
+            "text": "sätestatud tingimustele? (Raadionupp valikutega \"Jah/Ei\") PAKKUMUSE MAKSUMUS Pakkumuse maksumus tuleb esitada töölehel \"Hindamiskriteeriumid ja hinnatavad näitajad\" toodud struktuuri kohaselt. Küsimused ettevõtjale: 1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe \"Hindamiskriteeriumid ja hinnatavad näitajad\" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega \"Jah/Ei\") PAKKUJA MEESKOND I OSA Pakkuja peab pakkumuse koosseisus esitama hankija vormidel: - koolitaja allkirjastatud CV etteantud vormil (Lisa 3 „Koolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; - valdkonna eksperdi/tandemkoolitaja allkirjastatud CV etteantud vormil (Lisa 4 „Valdkonna eksperdi/tandemkoolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; Allkirjastatud CV-ga kinnitab meeskonnaliige, et ta on andnud pakkujale nõusoleku enda nimetamiseks meeskonnaliikmeks ning on valmis osalema lepingu täitmises. 3 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info Pakkuja meeskonda peab hanke osa 1 puhul kuuluma vähemalt: - üks projektijuht; - üks eesti keele kui teise keele koolitaja; - üks valdkonna ekspert/tandemkoolitaja. Vajadusel võib projektijuhi ja koolitaja rolli täita üks ja sama isik tingimusel, et isik va",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 191688,
+            "corpus_end": 192990,
+            "match": "CV"
+          },
+          {
+            "text": "USE MAKSUMUS Pakkumuse maksumus tuleb esitada töölehel \"Hindamiskriteeriumid ja hinnatavad näitajad\" toodud struktuuri kohaselt. Küsimused ettevõtjale: 1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe \"Hindamiskriteeriumid ja hinnatavad näitajad\" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega \"Jah/Ei\") PAKKUJA MEESKOND I OSA Pakkuja peab pakkumuse koosseisus esitama hankija vormidel: - koolitaja allkirjastatud CV etteantud vormil (Lisa 3 „Koolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; - valdkonna eksperdi/tandemkoolitaja allkirjastatud CV etteantud vormil (Lisa 4 „Valdkonna eksperdi/tandemkoolitaja CV“) koos kvalifikatsiooni tõendavate dokumentide koopiatega; Allkirjastatud CV-ga kinnitab meeskonnaliige, et ta on andnud pakkujale nõusoleku enda nimetamiseks meeskonnaliikmeks ning on valmis osalema lepingu täitmises. 3 / 6 Koostatud 07.08.2026 15:13:24 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info Pakkuja meeskonda peab hanke osa 1 puhul kuuluma vähemalt: - üks projektijuht; - üks eesti keele kui teise keele koolitaja; - üks valdkonna ekspert/tandemkoolitaja. Vajadusel võib projektijuhi ja koolitaja rolli täita üks ja sama isik tingimusel, et isik vastab koolitajale esitatud nõuetele ning tagatud on teenuse kvali",
+            "source": "files/files_unpacked/309513_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "d1c29684040dcbb5d86e61462c29f6ed01013fb2abaaa9cfced625d38357997f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 191752,
+            "corpus_end": 193054,
+            "match": "CV"
+          }
+        ],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "<cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">72c0c4b1-ca50-4667-9487-461f3eed4ed7</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</cbc:CriterionTypeCode> <cbc:Name>Teave nende allhankijate kohta, kelle näitajatele ettevõtja ei tugine</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja kavatseb sõlmida lepingu mis tahes osa kohta allhanke kolmanda isikuga?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\"/> <cbc:Description languageID=\"ET\"/> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"E",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 132367,
+            "corpus_end": 133678,
+            "match": "SUBCONTRACT"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\"",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 834,
+            "match": "specification"
+          },
+          {
+            "text": ">LOT_ONE_MORE</cbc:ExpectedCode> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">dceddc28-0ac8-471b-b954-c376a862ea30</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võib pakkumusi esitada</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">QUANTITY_INTEGER</cbc:ValueDataTypeCode> <cbc:ExpectedValueNumeric>2</cbc:ExpectedValueNumeric> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">4b710530-abea-4ed0-b3fb-f324919c2d62</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võidakse sõlmida leping ühe pakkujaga</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDa",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 6074,
+            "corpus_end": 7382,
+            "match": "QUANTITY"
+          },
+          {
+            "text": "ctedValueNumeric> </cac:TenderingCriterionProperty> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">4b710530-abea-4ed0-b3fb-f324919c2d62</cbc:ID> <cbc:Description languageID=\"ET\">Maksimaalne osade arv, mille kohta võidakse sõlmida leping ühe pakkujaga</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">QUANTITY_INTEGER</cbc:ValueDataTypeCode> <cbc:ExpectedValueNumeric>2</cbc:ExpectedValueNumeric> </cac:TenderingCriterionProperty> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:CriterionTypeCode> <cbc:Name>Osalemine kuritegelikus organisa",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 6818,
+            "corpus_end": 8126,
+            "match": "QUANTITY"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "onID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:CriterionTypeCode> <cbc:Name>Osalemine kuritegelikus organisatsioonis</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\">RHS § 95 lg 1 p 1 \"keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juh",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 7968,
+            "corpus_end": 9271,
+            "match": "sla"
+          },
+          {
+            "text": "esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud.</cbc:Description> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ET</cbc:LocaleCode> </cac:Language> </cac:Legislation> <cac:TenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">7c637c0c-7703-4389-ba52-02997a055bd7</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">8a42266c5fb24e32ff421942459d66ac-1.1</cbc:ID> <cbc:Description languageID=\"ET\">Mis on Teie vastus?</cbc:Description> <cbc:",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 9590,
+            "corpus_end": 10893,
+            "match": "sla"
+          },
+          {
+            "text": "TypeCode> <cbc:Name>Korruptsioon</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud korruptsiooni eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt? See kõrvalejätmise alus hõlmab ka korruptsiooni avaliku sektori hankija (võrgustiku sektori hankija) või ettevõtja riigi õiguses sätestatud määratluses.</cbc:Description> <cac:Legislation> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">c753a2c5-59e6-4970-b6eb-27224e96bf76</cbc:ID> <cbc:Title languageID=\"ET\">RHS § 95 lg 1 p 1 ja lg 2 \"keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud aususe kohustuse rikkumise või korruptiivse teo eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võim",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 19003,
+            "corpus_end": 20306,
+            "match": "sla"
+          },
+          {
+            "text": "a nimel otsuseid teha või teda kontrollida, on karistatud aususe kohustuse rikkumise või korruptiivse teo eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud.</cbc:Description> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ET</cbc:LocaleCode> </cac:Language> </cac:Legislation> <cac:TenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">7c637c0c-7703-4389-ba52-02997a055bd7</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">94bafa958a57a2f5fa7af1f5c03b1e54-1.1</cbc:ID> <cbc:Description languageID=\"ET\">Mis on Teie vastus?</cbc:Description> <cbc:",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 20669,
+            "corpus_end": 21972,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.c",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 865,
+            "match": "Extension"
+          },
+          {
+            "text": "D_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-extensions/1\"> <cbc:UBLVersionID schemeAgencyID=\"OASIS-UBL-TC\">2.2</cbc:UBLVersionID> <cbc:CustomizationID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"3.0\">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</cbc:CustomizationID> <cbc:ProfileID schemeAgencyID=\"CEN-BII\" schemeVersionID=\"2.0\">4.1</cbc:ProfileID> <cbc:ID schemeAgencyID=\"RHR\">d1d3de18-095b-406e-bd81-d82a4e7c7165</cbc:ID> <cbc:CopyIndicator>false</cbc:CopyIndicator> <cbc:UUID schemeID=\"ISO/IEC 9834-8:2008\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"4\">0fddbf2d-1e33-4267-b04f-52b59b72ccb6</cbc:UUID> <cbc:ContractFolderID schemeAgencyID=\"RHR\">309513</cbc:ContractFold",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 44,
+            "corpus_end": 1353,
+            "match": "extension"
+          }
+        ],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1\" xmlns:efext=\"http://data.europa.eu/p27/eforms-ubl-e",
+            "source": "files/files_unpacked/309513_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3c7bc231c49dac93ba631cfc8cb885fc9e2fccf29f3864f5270c4b1668e774ee",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 695,
+            "match": "ESPD"
+          },
+          {
+            "text": "N</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/309513_hankepass_taiendavate_selgitustega.pdf ===== 1 / 12 Koostatud 17.08.2026 10:43:06 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 309513 Kui Euroopa Liidu Teataj",
+            "source": "files/files_unpacked/309513_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "13b1dc3a5a1f40e97fb92221770d2cfa9b62e2baf492c7b7bc35c2558e5ec96f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 157199,
+            "corpus_end": 158503,
+            "match": "ESPD"
+          },
+          {
+            "text": "taType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/309513_hankepass_taiendavate_selgitustega.pdf ===== 1 / 12 Koostatud 17.08.2026 10:43:06 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 309513 Kui Euroopa Liidu Teatajas hankekuulutust avaldatud ei ole või kui selle avaldamist ei nõuta, peab avali",
+            "source": "files/files_unpacked/309513_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "13b1dc3a5a1f40e97fb92221770d2cfa9b62e2baf492c7b7bc35c2558e5ec96f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 157277,
+            "corpus_end": 158583,
+            "match": "mandat"
+          },
+          {
+            "text": "2 Koostatud 17.08.2026 10:43:06 https://riigihanked.riik.ee/rhr-web/#/procurement/10220364/general-info HANKEPASS Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või ESPD teenuses. I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE Teave avaldamise kohta Teate number ELTs: - ELT URL: Riigi ametlik teataja: 309513 Kui Euroopa Liidu Teatajas hankekuulutust avaldatud ei ole või kui selle avaldamist ei nõuta, peab avaliku sektori hankija või võrgustiku sektori hankija ise teabe esitama, et hankemenetlust saaks üheselt identifitseerida (nt viide siseriikliku avaldamise kohta). Hankija andmed Ametlik nimi: Riigi Tugiteenuste Keskus (70007340) Riik: Eesti Hankija aadress: Lõkke tn 4 Hankija veebiaadress: http://www.rtk.ee E-posti aadress: hanked@rtk.ee 2 / 12 Koostatud 17.08.2026 10:43:06 https://riigihanked.riik.ee/rhr-web/#",
+            "source": "files/files_unpacked/309513_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "13b1dc3a5a1f40e97fb92221770d2cfa9b62e2baf492c7b7bc35c2558e5ec96f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 157692,
+            "corpus_end": 158996,
+            "match": "ESPD"
+          }
+        ],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 32978812066,
+      "source_shard": 0,
+      "hot_ready_at": "2026-08-26T14:17:19.320623+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
       "candidate_id": "PL-BZP:08df0373-38f1-85be-ab56-940001283fc8",
       "title": "Usługa kompleksowej obsługi wydruku i urządzeń drukujących dla Zespołu Opieki Zdrowotnej w Końskich",
       "buyer": "Zespół Opieki Zdrowotnej w Końskich",
@@ -1644,6 +2353,204 @@
       "hot_ready_at": "2026-08-26T14:16:41.832184+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 13,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df036e-3db3-80b4-ab56-940001283eee",
+      "title": "Dostosowanie gry „Interregnum” do potrzeb osób z niepełnosprawnościami, neuroróżnorodnych i ze szczególnymi potrzebami w projekcie „Akademia Marynarki Wojennej coraz bardziej dostępna”",
+      "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df036e-3db3-80b4-ab56-940001283eee",
+      "deadline": "2026-09-04T07:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 78,
+      "priority_score": 78,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-04T07:00:00+00:00",
+        "notice_deadline_date": "2026-09-04",
+        "authoritative_submission_date": "2026-09-04",
+        "submission_deadline_candidates": [
+          "2026-09-04"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-08-26",
+          "2026-09-04",
+          "2026-10-03"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "6 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-04 09:00\n8.2.) Miejsce składania ofert: \nhttps://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08"
+          },
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "io (§ 9 projektu umowy).\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-04 09:00\n8.2.) Miejsce składania ofert: https://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: 2026-09-04 09:15\n8.4.) Termin związania ofertą: do 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nStrona główna\nUrząd Zamówień Publicznych\nMinisters"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": "cy przewiduje wznowienia: \nNie\n4.2.13.) Zamawiający przewiduje udzielenie dotychczasowemu wykonawcy zamówień na podobne usługi lub roboty\nbudowlane: \nNie\n4.3.) Kryteria oceny ofert\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usług\nowy, zgodnie z art. 455 ust. 1 ustawy Prawo Zamówień Publiczn"
+          },
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": "je wznowienia: \nNie\n4.2.13.) Zamawiający przewiduje udzielenie dotychczasowemu wykonawcy zamówień na podobne usługi lub roboty\nbudowlane: \nNie\n4.3.) Kryteria oceny ofert\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usług\nowy, zgodnie z art. 455 ust. 1 ustawy Prawo Zamówień Publicznych.\n3. Wsz"
+          },
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": "-455 PZP stosuje się odpowiednio (§ 9 projektu umowy).\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-"
+          },
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": "osuje się odpowiednio (§ 9 projektu umowy).\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-04 09:00"
+          },
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "context": "08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-04 09:00\n8.2.) Miejsce składania ofert: \nhttps://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej ofer"
+          },
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "context": "odstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-04 09:00\n8.2.) Miejsce składania ofert: \nhttps://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamów"
+          },
+          {
+            "date": "2026-10-03",
+            "match": "2026-10-03",
+            "context": "ugi\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-04 09:00\n8.2.) Miejsce składania ofert: \nhttps://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie"
+          },
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": ") Termin otwarcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszeni"
+          },
+          {
+            "date": "2026-08-26",
+            "match": "2026-08-26",
+            "context": "warcia ofert: \n2026-09-04 09:15\n8.4.) Termin związania ofertą: \ndo 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nOgłoszenie nr 2026/BZP 00408711 z dnia 2026-08-26\n2026-08-26 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamów"
+          },
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "context": "je się odpowiednio (§ 9 projektu umowy).\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-04 09:00\n8.2.) Miejsce składania ofert: https://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: 2026-09-04 09:15\n8.4.) Termin związania ofertą: do 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty "
+          },
+          {
+            "date": "2026-09-04",
+            "match": "2026-09-04",
+            "context": "wacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-04 09:00\n8.2.) Miejsce składania ofert: https://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: 2026-09-04 09:15\n8.4.) Termin związania ofertą: do 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nR"
+          },
+          {
+            "date": "2026-10-03",
+            "match": "2026-10-03",
+            "context": "ia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-04 09:00\n8.2.) Miejsce składania ofert: https://platformazakupowa.pl/\n8.3.) Termin otwarcia ofert: 2026-09-04 09:15\n8.4.) Termin związania ofertą: do 2026-10-03\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nPr"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 2,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "ybór najkorzystniejszej oferty z możliwością negocjacji: Tak Strona główna Urząd Zamówień Publicznych Ministerstwo Rozwoju i Technologii Regulamin Polityka prywatności FAQ Zgłoś problem Projekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramach Programu Operacyjnego Polska Cyfrowa, II oś priorytetowa E-administracja i otwarty rząd, działanie 2.1 „Wysoka dostępność i jakość e-usług publicznych”. Projekt jest realizowany przez Urząd Zamówień Publicznych w partnerstwie z Ministerstwem Cyfryzacji. Urząd Zamówień Publicznych ===== FILE: files/portal_page_http.txt ===== Strona główna - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi al",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "60d8dfca79cfcca536216bc0d98d560fd3ad27e21162029b39b82aebbd365689",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 27994,
+            "corpus_end": 29297,
+            "match": "sla"
+          },
+          {
+            "text": ", II oś priorytetowa E-administracja i otwarty rząd, działanie 2.1 „Wysoka dostępność i jakość e-usług publicznych”. Projekt jest realizowany przez Urząd Zamówień Publicznych w partnerstwie z Ministerstwem Cyfryzacji. Urząd Zamówień Publicznych ===== FILE: files/portal_page_http.txt ===== Strona główna - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi albo wybrać szczegółowe ustawienia Polityce prywatności Niezbędne pliki cookies Niezbędne pliki cookie są nieodzowne dla prawidłowego funkcjonowania serwisu. Umożliwiają podstawowe działania, takie jak nawigacja po stronie, logowanie czy zapewnienie bezpieczeństwa. Bez tych plików strona nie może działać poprawni",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "60d8dfca79cfcca536216bc0d98d560fd3ad27e21162029b39b82aebbd365689",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 28306,
+            "corpus_end": 29609,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "iającej wymagania określone powyżej. Osoba ta musi w ramach wskazanej usługi odpowiadać co najmniej za jeden z następujących obszarów: a) projektowanie architektury aplikacji; b) rozwój lub modyfikację warstwy frontendowej; c) rozwój lub modyfikację warstwy backendowej i API; d) integrację frontendu, backendu i bazy danych; e) wdrażanie komunikacji w czasie rzeczywistym; f) wdrażanie interaktywnych map lub przetwarzania danych przestrzennych; g) koordynację wdrożenia, testowania i uruchomienia aplikacji w środowisku produkcyjnym. Za doświadczenie nie będzie uznawane wyłącznie wykonywanie czynności związanych z bieżącym utrzymaniem serwisu, hostingiem, pomocą techniczną, wprowadzaniem treści, opracowaniem grafiki albo dokonywaniem drobnych zmian wizualnych. (Załącznik nr 13) 5.5.) Zamawiający wymaga złożenia oświadczenia, o którym mowa w art.125 ust. 1 ustawy: Tak SEKCJA VI - WARUNKI ZAMÓWIENIA 6.1.) Zamawiający wymaga albo dopuszcza oferty wariantowe: Nie 6.3.) Zamawiający przewiduje aukcję elektroniczną: Nie 6.4.) Zamawiający wymaga wadium: Nie 6.5.) Zamawiający wymaga zabezpieczenia należytego wykonania umowy: Nie 6.7.) Zamawiający przewiduje unieważnienie postępowania, jeśli środki publiczne, które zamierzał przeznaczyć na sfinansowanie całości lub części zamówienia nie został",
+            "source": "files/2026_BZP 00408711_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df036e-3db3-80b4-ab56-940001283eee",
+            "source_sha256": "fa5f891086e4c4f357f03ae465818be1c22ab71938747274a97af93218d66066",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11289,
+            "corpus_end": 12596,
+            "match": "hosting"
+          },
+          {
+            "text": "niającej wymagania określone powyżej. Osoba ta musi w ramach wskazanej usługi odpowiadać co najmniej za jeden z następujących obszarów: a) projektowanie architektury aplikacji; b) rozwój lub modyfikację warstwy frontendowej; c) rozwój lub modyfikację warstwy backendowej i API; d) integrację frontendu, backendu i bazy danych; e) wdrażanie komunikacji w czasie rzeczywistym; f) wdrażanie interaktywnych map lub przetwarzania danych przestrzennych; g) koordynację wdrożenia, testowania i uruchomienia aplikacji w środowisku produkcyjnym. Za doświadczenie nie będzie uznawane wyłącznie wykonywanie czynności związanych z bieżącym utrzymaniem serwisu, hostingiem, pomocą techniczną, wprowadzaniem treści, opracowaniem grafiki albo dokonywaniem drobnych zmian wizualnych. (Załącznik nr 13) 5.5.) Zamawiający wymaga złożenia oświadczenia, o którym mowa w art.125 ust. 1 ustawy: Tak SEKCJA VI - WARUNKI ZAMÓWIENIA 6.1.) Zamawiający wymaga albo dopuszcza oferty wariantowe: Nie 6.3.) Zamawiający przewiduje aukcję elektroniczną: Nie 6.4.) Zamawiający wymaga wadium: Nie 6.5.) Zamawiający wymaga zabezpieczenia należytego wykonania umowy: Nie 6.7.) Zamawiający przewiduje unieważnienie postępowania, jeśli środki publiczne, które zamierzał przeznaczyć na sfinansowanie całości lub części zamówienia nie zostały prz",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "be44ad320187ff480cfd0fc42da4088885c8daf8b75a365e3b6950ff20b23977",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 25386,
+            "corpus_end": 26693,
+            "match": "hosting"
+          }
+        ]
+      },
+      "source_dce_run_id": 32978812066,
+      "source_shard": 0,
+      "hot_ready_at": "2026-08-26T14:17:19.320623+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 11,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
