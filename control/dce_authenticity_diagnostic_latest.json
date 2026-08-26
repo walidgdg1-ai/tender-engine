@@ -1,32 +1,41 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 32968066967,
-  "total_inbox_rows": 65,
-  "dce_authenticity_rows": 11,
+  "latest_source_dce_run_id": 32978812066,
+  "total_inbox_rows": 80,
+  "dce_authenticity_rows": 15,
   "portal_counts": {
-    "TED": 7,
+    "TED": 8,
     "PL_EZAMOWIENIA": 3,
+    "US_SAM": 3,
     "CA_CANADABUYS": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 7,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 4
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 11
+    "NON_AUTHORITATIVE": 15
   },
   "method_counts": {},
   "recovery_opportunities": [
     {
       "portal": "TED",
-      "blocked": 7,
+      "blocked": 8,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 7
+        "NON_AUTHORITATIVE": 8
       }
     },
     {
       "portal": "PL_EZAMOWIENIA",
+      "blocked": 3,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 3
+      }
+    },
+    {
+      "portal": "US_SAM",
       "blocked": 3,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -61,6 +70,14 @@
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df035c-088e-ad8c-ab56-940001283b52"
       },
       {
+        "candidate_id": "US-SAM:33901f320a5e426f9dc596311be20710",
+        "portal": "US_SAM",
+        "title": "C5 - APX-119 Identification of Friend or Foe (IFF) Transponder Software",
+        "buyer": "DEPT OF DEFENSE",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://sam.gov/opp/33901f320a5e426f9dc596311be20710/view"
+      },
+      {
         "candidate_id": "CA:BPM026432/34593",
         "portal": "CA_CANADABUYS",
         "title": "RFQ – FB-S200-D-1735TB - 1MO,ADV,GOLD Hardware and Software Maintenance and Support Renewal, or equivalent for DFO",
@@ -75,14 +92,6 @@
         "buyer": "Jobcenter Landkreis Ludwigsburg",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/505229-2026"
-      },
-      {
-        "candidate_id": "PL-BZP:08df0346-c0d5-a207-ab56-9400012837ef",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Usługa polegająca na opracowaniu graficznym, druku oraz dostarczeniu materiałów informacyjno-edukacyjnych.",
-        "buyer": "Mazowieckie Centrum Polityki Społecznej",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0346-c0d5-a207-ab56-9400012837ef"
       }
     ]
   },
