@@ -1,23 +1,39 @@
 {
   "schema": "AUTHENTICITY_RETRY_ROUTER_PLAN_V1",
-  "generated_at": "2026-08-25T11:51:05.326837+00:00",
+  "generated_at": "2026-08-26T23:31:20.890910+00:00",
   "selected_counts": {
-    "IRELAND": 0,
+    "IRELAND": 1,
     "ZA_ETENDERS": 1,
-    "ESTONIA": 0
+    "ESTONIA": 1
   },
   "selected": {
-    "IRELAND": [],
-    "ZA_ETENDERS": [
+    "IRELAND": [
       {
-        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-166828-2026-08-25",
-        "selection_lane": "ZA_ETENDERS_AUTHENTICITY_EXACT_OCID_RETRY",
+        "candidate_id": "IE:8787124",
+        "selection_lane": "IRELAND_AUTHENTICITY_EXACT_ID_RETRY",
         "selection_reason": "stateful exact-ID replay through canonical DCE resolver; evidence-quality and final guards remain authoritative",
         "prior_attempts": 0,
-        "source_dce_run_id": 32844000916
+        "source_dce_run_id": 32098369885
       }
     ],
-    "ESTONIA": []
+    "ZA_ETENDERS": [
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-164989-2026-08-07",
+        "selection_lane": "ZA_ETENDERS_AUTHENTICITY_EXACT_OCID_RETRY",
+        "selection_reason": "stateful exact-ID replay through canonical DCE resolver; evidence-quality and final guards remain authoritative",
+        "prior_attempts": 1,
+        "source_dce_run_id": 32166961956
+      }
+    ],
+    "ESTONIA": [
+      {
+        "candidate_id": "EE-RHR:cc12a92f-6395-4e36-87e1-9dc47a4c9304",
+        "selection_lane": "ESTONIA_AUTHENTICITY_EXACT_ID_RETRY",
+        "selection_reason": "stateful exact-ID replay through canonical DCE resolver; evidence-quality and final guards remain authoritative",
+        "prior_attempts": 0,
+        "source_dce_run_id": 32093332367
+      }
+    ]
   },
   "queue_paths": {
     "IRELAND": "queues/ireland_auth_retry_router.jsonl",
@@ -25,9 +41,9 @@
     "ESTONIA": "queues/estonia_auth_retry_router.jsonl"
   },
   "blocked": {
-    "cooldown": 3,
+    "cooldown": 0,
     "attempt_cap": 0,
-    "unsupported": 16
+    "unsupported": 17
   },
   "policy": {
     "supported_sources": [
