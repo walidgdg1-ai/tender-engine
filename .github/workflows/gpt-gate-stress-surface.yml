@@ -57,8 +57,6 @@ jobs:
           git push origin HEAD:main || true
 
       - name: Recover exact DCE shards referenced by current BUSINESS_GATES
-        env:
-          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
@@ -66,50 +64,56 @@ jobs:
           mkdir -p /tmp/gpt-gate-stress-releases
           python - <<'PY'
           import json
+          from pathlib import Path
           p=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
           rows=[x for x in p.get('items',[]) if isinstance(x,dict) and str(x.get('review_stage') or '').upper()=='BUSINESS_GATES' and bool(x.get('gate_readiness'))]
           if not rows:
               raise SystemExit('No BUSINESS_GATES rows in durable review index')
           pairs=sorted({(int(x.get('source_dce_run_id') or 0), int(x.get('source_shard') or 0)) for x in rows if int(x.get('source_dce_run_id') or 0)})
-          with open('/tmp/gate-pairs.tsv','w',encoding='utf-8') as f:
-              for run_id, shard in pairs:
-                  f.write(f'{run_id}\t{shard}\n')
-          runs=sorted({r for r,_ in pairs})
-          with open('/tmp/gate-runs.txt','w',encoding='utf-8') as f:
-              for r in runs:
-                  f.write(f'{r}\n')
-          print(json.dumps({'business_gate_rows':len(rows),'exact_run_shard_pairs':len(pairs),'release_runs':len(runs)},indent=2))
+          lines=[]
+          for run_id, shard in pairs:
+              dest=Path('/tmp/gpt-gate-stress-releases')/str(run_id)/f'fast-adjudication-shard-{shard}.jsonl'
+              url=f'https://github.com/walidgdg1-ai/tender-engine/releases/download/dce-harvest-{run_id}/fast-adjudication-shard-{shard}.jsonl'
+              lines.append(f'{run_id}\t{shard}\t{url}\t{dest}')
+          Path('/tmp/gate-downloads.tsv').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print(json.dumps({
+              'business_gate_rows':len(rows),
+              'exact_run_shard_pairs':len(pairs),
+              'release_runs':len({r for r,_ in pairs}),
+              'transport':'PUBLIC_RELEASE_ASSET_URLS_NO_GITHUB_REST_API'
+          },indent=2))
           PY
-          while read -r run_id; do
-            [ -n "$run_id" ] || continue
-            dir="/tmp/gpt-gate-stress-releases/$run_id"
-            mkdir -p "$dir"
-            mapfile -t shards < <(awk -F '\t' -v r="$run_id" '$1==r {print $2}' /tmp/gate-pairs.tsv | sort -n -u)
-            args=()
-            for shard in "${shards[@]}"; do
-              args+=(--pattern "fast-adjudication-shard-${shard}.jsonl")
-            done
-            ok=0
-            for attempt in 1 2 3 4 5 6 7 8; do
-              if gh release download "dce-harvest-$run_id" "${args[@]}" --dir "$dir" --skip-existing; then
-                ok=1
-                break
-              fi
-              echo "release download retry run=$run_id attempt=$attempt" >&2
-              sleep "$((attempt * 12))"
-            done
-            [ "$ok" -eq 1 ] || { echo "Unable to recover release dce-harvest-$run_id after retries" >&2; exit 1; }
-            sleep 1
-          done </tmp/gate-runs.txt
+
+          # Public GitHub release assets are addressable deterministically. Downloading
+          # them through the release CDN avoids spending GitHub App REST API quota on
+          # 1k+ tiny assets. Each transfer is atomic and aggressively retried.
+          cat /tmp/gate-downloads.tsv | xargs -P 16 -n 4 bash -c '
+            set -euo pipefail
+            run_id="$1"; shard="$2"; url="$3"; dest="$4"
+            mkdir -p "$(dirname "$dest")"
+            tmp="${dest}.part"
+            rm -f "$tmp"
+            curl -fL --silent --show-error \
+              --connect-timeout 15 \
+              --max-time 180 \
+              --retry 8 \
+              --retry-all-errors \
+              --retry-delay 2 \
+              -o "$tmp" "$url"
+            test -s "$tmp"
+            mv "$tmp" "$dest"
+          ' _
+
           python - <<'PY'
           from pathlib import Path
+          lines=Path('/tmp/gate-downloads.tsv').read_text().splitlines()
           missing=[]
-          for line in Path('/tmp/gate-pairs.tsv').read_text().splitlines():
-              run_id,shard=line.split('\t')
-              p=Path('/tmp/gpt-gate-stress-releases')/run_id/f'fast-adjudication-shard-{shard}.jsonl'
+          for line in lines:
+              run_id,shard,_url,dest=line.split('\t')
+              p=Path(dest)
               if not p.is_file() or p.stat().st_size==0:
                   missing.append(f'{run_id}:{shard}')
-          print(f'exact_shards_expected={len(Path("/tmp/gate-pairs.tsv").read_text().splitlines())} missing={len(missing)}')
+          print(f'exact_shards_expected={len(lines)} missing={len(missing)}')
           if missing:
               print('missing_pairs=',missing[:100])
               raise SystemExit(2)
@@ -163,8 +167,6 @@ jobs:
           git config user.email 'tender-engine-bot@users.noreply.github.com'
           git add -A control/gpt_gate_stress_batches
           git commit -m "stress: persist exhaustive gate surface ${GITHUB_RUN_ID}" || true
-          # This branch is an immutable-ish working surface pointer, not the live transactional main.
-          # Force-updating it is intentional: consumers always read the latest completed exhaustive snapshot.
           git push --force origin HEAD:refs/heads/gpt-stress-current
 
       - name: Persist terminal stress status
