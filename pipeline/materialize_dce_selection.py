@@ -155,6 +155,7 @@ def load_selection(path: Path) -> list[dict]:
             default_status = str(obj.get("status") or "DCE_PENDING")
             default_run = obj.get("wide_read_run_id")
             default_reason = obj.get("selection_reason")
+            default_force_retry = bool(obj.get("force_retry"))
             out = []
             for cid in obj["candidate_ids"]:
                 rec = {
@@ -166,6 +167,8 @@ def load_selection(path: Path) -> list[dict]:
                     rec["wide_read_run_id"] = default_run
                 if default_reason:
                     rec["selection_reason"] = default_reason
+                if default_force_retry:
+                    rec["force_retry"] = True
                 out.append(rec)
             return out
     if path.suffix.lower() == ".json":
@@ -258,15 +261,19 @@ def main() -> None:
             "selection_fit_class",
             "selection_freshness",
             "qwen",
+            "force_retry",
         ):
             if key in sel:
                 candidate_for_attempt[key] = sel[key]
 
-        # Check both the historical raw source identity and the new canonical
-        # semantic identity so this migration cannot re-attempt old DCE work.
-        if was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index):
+        # Normal discovery remains deduplicated by the durable attempt ledger.
+        # Explicit repair manifests may bypass it once to fetch a newer DCE version.
+        force_retry = bool(sel.get("force_retry"))
+        if not force_retry and (was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index)):
             excluded_attempted.append(cid)
             continue
+        if force_retry:
+            candidate_for_attempt["force_retry"] = True
 
         base_cid_key, tb_key = identity(base)
         if base_cid_key in excluded_ids or cid_key in excluded_ids or (tb_key and tb_key in excluded_tb):
