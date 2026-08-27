@@ -1,28 +1,16 @@
 {
   "schema": "DE_DOE_MONTH_SHARDS_FULL_PROOF_V2",
-  "release_tag": "de-doe-month-shards-32923514935",
+  "release_tag": "de-doe-month-shards-33066249422",
   "listing_contract": "DE_DOE_OFFICIAL_MONTHLY_OCDS_SHARDED_V2",
   "first_official_month": "2022-12",
   "last_requested_month": "2026-08",
   "months_requested": 45,
-  "months_completed": 44,
-  "source_releases_seen_sum": 1107532,
-  "raw_materialized": 1089020,
+  "months_completed": 45,
+  "source_releases_seen_sum": 1123887,
+  "raw_materialized": 1104223,
   "current_materialized": 0,
-  "enumeration_complete": false,
+  "enumeration_complete": true,
   "live_coverage_credit_allowed": false,
-  "errors": [
-    {
-      "month": "2023-09",
-      "type": "SHARD_INCOMPLETE",
-      "errors": [
-        {
-          "type": "DE_MONTH_FETCH_FAILED",
-          "month": "2023-09",
-          "error": "RuntimeError('DE_DOE_MONTH_FAILED month=2023-09: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host=\\'oeffentlichevergabe.de\\', port=443): Max retries exceeded with url: /api/notice-exports?pubMonth=2023-09&format=ocds.zip (Caused by ConnectTimeoutError(<HTTPSConnection(host=\\'oeffentlichevergabe.de\\', port=443) at 0x7f8f1540b560>, \\'Connection to oeffentlichevergabe.de timed out. (connect timeout=180)\\'))\"))')"
-        }
-      ]
-    }
-  ],
+  "errors": [],
   "pass": false
 }
