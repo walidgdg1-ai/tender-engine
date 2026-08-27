@@ -1,5 +1,5 @@
 name: Patch YELLOW Repair Workflow Bridge
-# retrigger: stdlib-only validation
+# retrigger: regex patch, no nested Actions expressions
 
 on:
   workflow_dispatch:
@@ -29,53 +29,67 @@ jobs:
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
+          import re
+
           p=Path('.github/workflows/dce-fanout-v2.yml')
           s=p.read_text(encoding='utf-8')
 
           if 'workflows: ["Repair Open YELLOW DCEs"]' not in s:
-              anchor='''  push:\n    branches: [main]\n    paths:\n      - 'benchmarks/dce-throughput-trigger.json'\n'''
-              repl='''  push:\n    branches: [main]\n    paths:\n      - 'benchmarks/dce-throughput-trigger.json'\n  workflow_run:\n    workflows: ["Repair Open YELLOW DCEs"]\n    types: [completed]\n'''
+              anchor="  push:\n    branches: [main]\n    paths:\n      - 'benchmarks/dce-throughput-trigger.json'\n"
+              repl=anchor + '  workflow_run:\n    workflows: ["Repair Open YELLOW DCEs"]\n    types: [completed]\n'
               if anchor not in s:
                   raise SystemExit('on.push anchor missing')
-              s=s.replace(anchor,repl)
+              s=s.replace(anchor,repl,1)
 
-          old='''          SOURCE_RUN: ${{ github.event.inputs.source_discovery_run || '31840648379' }}\n          SELECTION_PATH: ${{ github.event.inputs.selection_path || 'queues/dce_selection_31840648379.jsonl' }}\n'''
-          new='''          SOURCE_RUN: ${{ github.event.inputs.source_discovery_run || '31840648379' }}\n          SELECTION_PATH: ${{ github.event.inputs.selection_path || 'queues/dce_selection_31840648379.jsonl' }}\n          EVENT_NAME: ${{ github.event_name }}\n'''
-          if old in s:
-              s=s.replace(old,new)
-          elif 'EVENT_NAME: ${{ github.event_name }}' not in s:
-              raise SystemExit('prepare env anchor missing')
+          if '          EVENT_NAME:' not in s:
+              m=re.search(r'(?m)^(\s*SELECTION_PATH:.*)$',s)
+              if not m:
+                  raise SystemExit('SELECTION_PATH env anchor missing')
+              actions_expr='$' + '{{ github.event_name }}'
+              s=s[:m.end()] + '\n          EVENT_NAME: ' + actions_expr + s[m.end():]
 
-          old='''          set -euo pipefail\n          source_tag="discovery-harvest-${SOURCE_RUN}"\n'''
-          new='''          set -euo pipefail\n          if [ "${EVENT_NAME:-}" = "workflow_run" ]; then\n            SELECTION_PATH='control/yellow_repair_request.json'\n            SOURCE_RUN="$(python - <<'PY2'\n          import json\n          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))\n          print(x.get('source_discovery_run') or '')\n          PY2\n          )"\n            [[ "$SOURCE_RUN" =~ ^[0-9]+$ ]] || { echo 'Invalid YELLOW repair source run' >&2; exit 1; }\n            echo "Workflow-run bridge: selection=$SELECTION_PATH source_run=$SOURCE_RUN"\n          fi\n          source_tag="discovery-harvest-${SOURCE_RUN}"\n'''
-          if old in s:
+          if 'Workflow-run bridge: selection=' not in s:
+              old='          set -euo pipefail\n          source_tag="discovery-harvest-${SOURCE_RUN}"\n'
+              new='''          set -euo pipefail
+          if [ "${EVENT_NAME:-}" = "workflow_run" ]; then
+            SELECTION_PATH='control/yellow_repair_request.json'
+            SOURCE_RUN="$(python - <<'PY2'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(x.get('source_discovery_run') or '')
+          PY2
+          )"
+            [[ "$SOURCE_RUN" =~ ^[0-9]+$ ]] || { echo 'Invalid YELLOW repair source run' >&2; exit 1; }
+            echo "Workflow-run bridge: selection=$SELECTION_PATH source_run=$SOURCE_RUN"
+          fi
+          source_tag="discovery-harvest-${SOURCE_RUN}"
+'''
+              if old not in s:
+                  raise SystemExit('prepare shell anchor missing')
               s=s.replace(old,new,1)
-          elif 'Workflow-run bridge: selection=' not in s:
-              raise SystemExit('prepare shell anchor missing')
 
           p.write_text(s,encoding='utf-8')
 
           y=Path('.github/workflows/yellow-repair-dce.yml')
           t=y.read_text(encoding='utf-8')
           marker='      - name: Dispatch fresh DCE repair fanout\n'
-          if marker in t and 'name: Finish via workflow-run bridge' not in t:
+          if marker in t:
               pos=t.index(marker)
-              t=t[:pos] + '''      - name: Finish via workflow-run bridge\n        run: |\n          echo 'Repair request persisted. DCE Fanout V2 is triggered by workflow_run completion, avoiding GitHub workflow-dispatch API rate limits.'\n'''
+              t=t[:pos] + '''      - name: Finish via workflow-run bridge
+        run: |
+          echo 'Repair request persisted. DCE Fanout V2 will start from this successful workflow completion without workflow-dispatch API usage.'
+'''
           y.write_text(t,encoding='utf-8')
-          PY
 
-          python - <<'PY'
-          from pathlib import Path
-          d=Path('.github/workflows/dce-fanout-v2.yml').read_text(encoding='utf-8')
-          y=Path('.github/workflows/yellow-repair-dce.yml').read_text(encoding='utf-8')
+          d=p.read_text(encoding='utf-8')
+          ytxt=y.read_text(encoding='utf-8')
           assert 'workflows: ["Repair Open YELLOW DCEs"]' in d
+          assert '          EVENT_NAME:' in d
           assert 'Workflow-run bridge: selection=' in d
-          assert 'Finish via workflow-run bridge' in y
-          assert 'gh workflow run dce-fanout-v2.yml' not in y
+          assert 'Finish via workflow-run bridge' in ytxt
+          assert 'gh workflow run dce-fanout-v2.yml' not in ytxt
           print('bridge patch structural checks OK')
           PY
-        env:
-          PYTHONUNBUFFERED: '1'
       - name: Persist bridge patch
         shell: bash
         run: |
