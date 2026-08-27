@@ -1,0 +1,89 @@
+name: Patch YELLOW Repair Workflow Bridge
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-yellow-workflow-run-bridge.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Add workflow-run repair bridge
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('.github/workflows/dce-fanout-v2.yml')
+          s=p.read_text(encoding='utf-8')
+
+          if 'workflows: ["Repair Open YELLOW DCEs"]' not in s:
+              anchor='''  push:\n    branches: [main]\n    paths:\n      - 'benchmarks/dce-throughput-trigger.json'\n'''
+              repl='''  push:\n    branches: [main]\n    paths:\n      - 'benchmarks/dce-throughput-trigger.json'\n  workflow_run:\n    workflows: ["Repair Open YELLOW DCEs"]\n    types: [completed]\n'''
+              if anchor not in s:
+                  raise SystemExit('on.push anchor missing')
+              s=s.replace(anchor,repl)
+
+          old='''          SOURCE_RUN: ${{ github.event.inputs.source_discovery_run || '31840648379' }}\n          SELECTION_PATH: ${{ github.event.inputs.selection_path || 'queues/dce_selection_31840648379.jsonl' }}\n'''
+          new='''          SOURCE_RUN: ${{ github.event.inputs.source_discovery_run || '31840648379' }}\n          SELECTION_PATH: ${{ github.event.inputs.selection_path || 'queues/dce_selection_31840648379.jsonl' }}\n          EVENT_NAME: ${{ github.event_name }}\n'''
+          if old in s:
+              s=s.replace(old,new)
+          elif 'EVENT_NAME: ${{ github.event_name }}' not in s:
+              raise SystemExit('prepare env anchor missing')
+
+          old='''          set -euo pipefail\n          source_tag="discovery-harvest-${SOURCE_RUN}"\n'''
+          new='''          set -euo pipefail\n          if [ "${EVENT_NAME:-}" = "workflow_run" ]; then\n            SELECTION_PATH='control/yellow_repair_request.json'\n            SOURCE_RUN="$(python - <<'PY2'\n          import json\n          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))\n          print(x.get('source_discovery_run') or '')\n          PY2\n          )"\n            [[ "$SOURCE_RUN" =~ ^[0-9]+$ ]] || { echo 'Invalid YELLOW repair source run' >&2; exit 1; }\n            echo "Workflow-run bridge: selection=$SELECTION_PATH source_run=$SOURCE_RUN"\n          fi\n          source_tag="discovery-harvest-${SOURCE_RUN}"\n'''
+          if old in s:
+              s=s.replace(old,new,1)
+          elif 'Workflow-run bridge: selection=' not in s:
+              raise SystemExit('prepare shell anchor missing')
+
+          p.write_text(s,encoding='utf-8')
+
+          # The repair workflow no longer needs to fail on an API dispatch that may
+          # be rate-limited. Its completion itself is now the durable trigger.
+          y=Path('.github/workflows/yellow-repair-dce.yml')
+          t=y.read_text(encoding='utf-8')
+          marker='      - name: Dispatch fresh DCE repair fanout\n'
+          if marker in t and 'name: Finish via workflow-run bridge' not in t:
+              pos=t.index(marker)
+              t=t[:pos] + '''      - name: Finish via workflow-run bridge\n        run: |\n          echo 'Repair request persisted. DCE Fanout V2 is triggered by workflow_run completion, avoiding GitHub workflow-dispatch API rate limits.'\n'''
+          y.write_text(t,encoding='utf-8')
+          PY
+
+          python - <<'PY'
+          import yaml
+          for f in ('.github/workflows/dce-fanout-v2.yml','.github/workflows/yellow-repair-dce.yml'):
+              yaml.safe_load(open(f,encoding='utf-8'))
+              print('YAML OK',f)
+          PY
+        env:
+          PYTHONUNBUFFERED: '1'
+      - name: Persist bridge patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          git add .github/workflows/dce-fanout-v2.yml .github/workflows/yellow-repair-dce.yml
+          git commit -m 'fix: trigger YELLOW DCE repair through workflow-run bridge' || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort >/dev/null 2>&1 || true
+            sleep "$((i*2))"
+          done
+          exit 1
