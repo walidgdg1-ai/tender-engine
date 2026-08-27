@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-27T16:20:01.577452+00:00",
-  "source_inbox_updated_at": "2026-08-27T16:20:01.217426+00:00",
+  "generated_at": "2026-08-27T16:35:16.599683+00:00",
+  "source_inbox_updated_at": "2026-08-27T16:35:15.670097+00:00",
   "latest_source_dce_run_id": 33091755652,
   "batch_index": 14,
   "start_rank": 141,
@@ -377,7 +377,7 @@
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_MULTIPLE_UNLABELLED_DEADLINE_DATES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 32021740468,
       "source_shard": 18,
@@ -389,56 +389,301 @@
         "release_tag": "dce-harvest-32021740468"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 383,
+        "text_chars": 8366221,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 26,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20317246",
-      "title": "Dirección de la Fundación para la Internacionalización de las Administraciones Públicas",
-      "buyer": null,
-      "portal": "ES_PLACSP",
-      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9BAY5Rll6qPyoM4us5k4vw%3D%3D",
-      "deadline": "2026-09-03T00:00:00+00:00",
-      "estimated_value": "141411",
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 18,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32351147289,
-      "source_shard": 1,
-      "review_key": "315c4d23987590005beaaf93e4f1593ce12ccd929fe26eb502623fb60a97cfd8",
-      "artifact_locator": {
-        "dce_run_id": 32351147289,
-        "shard": 1,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20317246",
-        "release_tag": "dce-harvest-32351147289"
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "iaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> <cac:SubsidiaryTenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">a44e24e9-f878-4651-9ead-e0b1387dae09</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "> </cac:TenderingCriterionProperty> <cac:SubsidiaryTenderingCriterionPropertyGroup> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</cbc:ID> <cbc:PropertyGroupTypeCode listID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ONTRUE</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">1dff584eea1b41456082967ba378d4f5-1.1.1.2…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "=\"2.0.2\">URL</cbc:ValueDataTypeCode> <cbc:ExpectedDescription>https://ariregister.rik.ee/</cbc:ExpectedDescription> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">074f6031-55f9-4e99-b9a4-c4363e8bc315</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "PPR. The selection criteria and grounds for exclusion of the candidate/tenderer are set out on the PPR page 'Grounds for exclusion and selection criteria' (in the Single Procurement Document). If the candidate wishes to prove its eligibility on the basis of the resources of another economic operator, the candidate provides data on the person to be relied upon in the Single Procurement Document and also submits the Single Procurement Document of the person whose resources it is relying upon. The candidate provides …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "stVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">3a18a175-1863-4b1d-baef-588ce61960ca</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "5 / 5 Koostatud 24.07.2026 15:56:41 https://riigihanked.riik.ee/rhr-web/#/procurement/9236204/general-info Pakkuja esitab vabas vormis dokumendi milles ta pakub Lepingu punktide 3.1, 3.2, 6.1.1 ja 6.1.2. optsiooni teostamise tähtaja, optsiooni korras ostetavate Trammide lõpliku üleandmise tähtaja ja Trammide üleandmise tähtajad kuudes. Küsimused ettevõtjale: 1. Trammide üleandmise tähtajad kuudes (Vabas vormis dokument) ===== FILE: files/files_unpacked/Annex 1 to the Technical description – Requirements Related to…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "</cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">d726bac9-e153-4e75-bfca-c5385587766d</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "p> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">d726bac9-e153-4e75-bfca-c5385587766d</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABI…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ringCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">d726bac9-e153-4e75-bfca-c5385587766d</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.SELECTION.T…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "and exterior design concept and views (PD Part II – Technical specifications/tender form, clause 4.1.6). The tenderer must ensure that the tram design is modern, meets modern product design expectations and fits into the urban space of Tallinn. The tenderer pays a tender security of 300,000 (three hundred thousand) euros before submitting the tender. The tenderer provides the tender security as a first-demand guarantee or deposits the funds in the account of the Contracting Authority. Regarding the provision of te…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "<cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">72c0c4b1-ca50-4667-9487-461f3eed4ed7</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "uld prefer tenderers to base their tenders on the structure and clause numbering of PD Part II (Annex 1) – Technical specifications/tender form. Additional chapters, clauses, subclauses and annexes may be added. The options set out in the tender’s technical specifications cannot affect the price of the tender. The following documents must be included in the technical specifications of the trams subject to the tender: General drawings of the tram at scale, showing the tram gauge dimensions, layout of the passenger …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/files_unpacked/299391_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "stID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON*</cbc:PropertyGroupTypeCode> <cac:TenderingCriterionProperty> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">4029b647bae0d29afad66552a4c54583-1.1</cbc:ID> <cbc:Description languageID=\"ET\">Minimaalne teostatud tööde arv</cbc:Description> <cbc:TypeCode listID=\"CriterionElementType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">REQUIREMENT</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseData…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "onID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:CriterionTypeCode> <cbc:Name>Osalemine kuritegelikus organisatsioonis</cbc:Name> <cbc:Description languageID=\"ET\">Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem viimase viie aasta jooksul või…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud.</cbc:Description> <cac:Language> <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/files_unpacked/299391_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "D_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "riterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> <cac:TenderingCriterion> <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.0.2\">3aaca389-4a7b-406b-a4b9-080845d127e7</cbc:ID> <cbc:CriterionTypeCode listID=\"CriteriaTypeCode\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">CRITERION.SELECTION.TECHNI…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "=\"xsd:string\" ma:index=\"0\" ma:displayName=\"Sisutüüp\"/> <xsd:element ref=\"dc:title\" minOccurs=\"0\" maxOccurs=\"1\" ma:index=\"4\" ma:displayName=\"Pealkiri\"/> <xsd:element ref=\"dc:subject\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element ref=\"dc:description\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"keywords\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element ref=\"dc:language\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"category\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"version\" …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/files_unpacked/299391_ESPD_v2.0_laiendatud.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\"?> <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ON</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/299391_hankepass_taiendavate_selgitustega.pdf ===== 1 / 26 Koostatud 23.09.2025 14:15:38 https://riigihanked.riik.ee/rhr-web/#/procurement/9236…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "submission": [
+          {
+            "text": "onsultations were not taken into account. Interested parties should be aware that the information referred to above has been specified in the planning of the procurement procedure and that tenders must be prepared on the basis of the technical specifications and other relevant documents included in the PD. The information presented in this document is for informational purposes only and does not form the basis for verification of the suitability of tenders or for the assessment of tenders. Persons interested in th…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "<w:rFonts w:ascii=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/></w:rPr></w:pPr><w:r w:rsidRPr=\"00F72DDC\"><w:rPr><w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/><w:lang w:bidi=\"en-GB\"/></w:rPr><w:t xml:space=\"preserve\"> The information presented in this document is for informational purposes only and does not form the basis for verification of the suitability of tenders or for the assessment of tenders. Persons interested in t…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "r the spare parts (included in the Contract Price) in accordance with the Technical Specification (RHAD1) attached as an Annex to this Agreement, as well as the special equipment selected by the Buyer, the list and price schedule of which form part of the Seller's Tender. In accordance with this Contract and its annexes, the Seller designs the Trams, manufactures them and transports them at its own expense to the Republic of Estonia, delivering the Trams together with all Tram documents (including working drawings…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ms and conditions set out in the Contract and its annexes, stating the reasons for the refusal within the said period. For the sake of clarity, the Parties have agreed that the Buyer has the right to refuse to sign the PAC and FAC also in case of deficiencies of the Tram or in case of non-performance by the Seller of its obligations under this Contract and the PD. When signing the FAC, the Buyer only verifies the basic completeness of the Trams and the existence of documents. The Buyer does not verify whether the …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
       },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -462,7 +707,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-09-02",
       "source_dce_run_id": 32147698042,
       "source_shard": 9,
       "review_key": "d07366976406e45f1ab84821df1c36aef633d945b0c3fc37469e8821f708f7a3",
@@ -473,14 +718,213 @@
         "release_tag": "dce-harvest-32147698042"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 496,
+        "text_chars": 14715577,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 18,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "931\"/><w:rsid w:val=\"00242272\"/><w:rsid w:val=\"00242D02\"/><w:rsid w:val=\"00243B32\"/><w:rsid w:val=\"0024429C\"/><w:rsid w:val=\"00244998\"/><w:rsid w:val=\"00244EBD\"/><w:rsid w:val=\"00245F70\"/><w:rsid w:val=\"00247C29\"/><w:rsid w:val=\"00254BB6\"/><w:rsid w:val=\"00254DA7\"/><w:rsid w:val=\"00255058\"/><w:rsid w:val=\"0025538F\"/><w:rsid w:val=\"0025609F\"/><w:rsid w:val=\"00257C52\"/><w:rsid w:val=\"002610BA\"/><w:rsid w:val=\"00262756\"/><w:rsid w:val=\"00264405\"/><w:rsid w:val=\"0026441E\"/><w:rsid w:val=\"00264839\"/><w:rsid w:val=\"0026…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "8F0\"/><w:rsid w:val=\"00F13779\"/><w:rsid w:val=\"00F1528A\"/><w:rsid w:val=\"00F15AB5\"/><w:rsid w:val=\"00F16DF6\"/><w:rsid w:val=\"00F22460\"/><w:rsid w:val=\"00F22859\"/><w:rsid w:val=\"00F228EC\"/><w:rsid w:val=\"00F23441\"/><w:rsid w:val=\"00F23889\"/><w:rsid w:val=\"00F25A76\"/><w:rsid w:val=\"00F264F8\"/><w:rsid w:val=\"00F26604\"/><w:rsid w:val=\"00F26A08\"/><w:rsid w:val=\"00F31590\"/><w:rsid w:val=\"00F32C9A\"/><w:rsid w:val=\"00F3358B\"/><w:rsid w:val=\"00F33A37\"/><w:rsid w:val=\"00F34000\"/><w:rsid w:val=\"00F353A8\"/><w:rsid w:val=\"00F3…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "\"/><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:eastAsia=\"SimSun\"/><w:kern w:val=\"1\"/><w:sz w:val=\"22\"/><w:szCs w:val=\"22\"/><w:lang w:eastAsia=\"hi-IN\" w:bidi=\"hi-IN\"/></w:rPr></w:pPr><w:r w:rsidRPr=\"00AA3561\"><w:rPr><w:rFonts w:eastAsia=\"SimSun\"/><w:kern w:val=\"1\"/><w:sz w:val=\"22\"/><w:szCs w:val=\"22\"/><w:lang w:eastAsia=\"hi-IN\" w:bidi=\"hi-IN\"/></w:rPr><w:t>(jeśli tak – zaznaczyć odpowiednie)</w:t></w:r><w:r w:rsidRPr=\"00AA3561\"><w:rPr><w:rStyle w:val=\"Odwoanieprzypisudolnego\"/><w:rFonts w:eastAsi…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "val=\"24\"/></w:rPr><w:tab/><w:t xml:space=\"preserve\">Informujemy, że wybór </w:t></w:r><w:r w:rsidR=\"00103E13\" w:rsidRPr=\"00A5294F\"><w:rPr><w:color w:val=\"000000\" w:themeColor=\"text1\"/><w:sz w:val=\"24\"/><w:szCs w:val=\"24\"/></w:rPr><w:t xml:space=\"preserve\">niniejszej oferty </w:t></w:r><w:r w:rsidR=\"00103E13\" w:rsidRPr=\"00A5294F\"><w:rPr><w:b/><w:color w:val=\"000000\" w:themeColor=\"text1\"/><w:sz w:val=\"24\"/><w:szCs w:val=\"24\"/></w:rPr><w:t>będzie prowadzić / nie będzie prowadzić</w:t></w:r><w:r w:rsidR=\"00103E13\" w:r…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "wnanie-geosiatka-wiążąca”. 6. kontrola jakości robót 6.1. Ogólne zasady kontroli jakości robót Ogólne zasady kontroli jakości robót podano w STWiORB D-M-00.00.00 „Wymagania ogólne” [1] pkt 6. 6.1.1 Częstotliwość badań, skład i liczebność partii Badania należy wykonywać przy odbiorze każdej partii geosiatki. W skład partii wchodzą rolki geosiatki o jednakowych wymiarach. Liczebność partii do badań nie powinna być większa niż 100 rolek. 6.1.2 Pobieranie próbek i kontrola jakości Próbki z każdej partii należy pobiera…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "</w:r><w:r w:rsidR=\"000B3784\"><w:t>.</w:t></w:r></w:p><w:p w14:paraId=\"7FFA3D60\" w14:textId=\"77777777\" w:rsidR=\"000D6A20\" w:rsidRPr=\"004A0942\" w:rsidRDefault=\"000D6A20\" w:rsidP=\"00745A07\"><w:pPr><w:pStyle w:val=\"Nagwek3\"/></w:pPr><w:r w:rsidRPr=\"004A0942\"><w:t>6.1.2 Pobieranie próbek i kontrola jakości</w:t></w:r></w:p><w:p w14:paraId=\"3E118303\" w14:textId=\"77777777\" w:rsidR=\"000D6A20\" w:rsidRPr=\"004A0942\" w:rsidRDefault=\"000D6A20\" w:rsidP=\"00745A07\"><w:r w:rsidRPr=\"004A0942\"><w:t>Próbki z każdej partii należy pob…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "QvPC&#xA;t/Xo2hrX+vLm/I+1PEHiLS/Ceky6nrN/BpunxMiyXNy4RFLsEUEn1ZlA9yK0a+Kx8T/iXovwT+Ii&#xA;6lb+M9Lg0m90n+w9Z8aWlpBqk0U11Ek0cv2dmjfbzh8KSJORxmvoz9ob4haj8L/gz4i8R6SsJ1W3&#xA;hjitXuF3RRSyyLEsjjuqlwxHoKGrL+vIXqek0V8tahpfjv4R/GL4YaRP8UdZ8W6Pr/8Aab6hbawl&#xA;uJDPFab1MRijTEIJzsIJUhfm5Ncd4Z8ReP7H9nHwl8SNS+ImuajrXiDVdFtHs2MK2lvbvqUcTbFE&#xA;Ybe8ZIdmY53HAFNK7S80vvdiJS5U35N/cfZ1/fW+l2Nxe3cyW1pbxtNNNIcKiKCWYnsAATTNK1Wz&#xA;1zTLTUdPuY7yxu4lnguIW3JJGwyrKe4IINeB/GLxXqo+Knivw0L+T+xG+Gepag1jkbPPEwQSeudp&#xA;Irzv4ep43+D/AMPfgh4qbx9q…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "/AMdo/wCGP/i5/wBCl/5UrP8A+O1T4RyqTu83p/8Akv8A&#xA;8sF/qHka/wCZ7S/8k/8Alpy//Odf/P8A0LFfpR45+Efgb4nvZv4y8F+HvFrWYYWza5pUF6YA2NwT&#xA;zUbbnaucdcD0r85PgVfS+Cf21/Cnwzvrx9F8cW90zXVosC3Aii+wSXbKz58siSD5NyszKZQcZU4+&#xA;0fiVqXjXxD+0JofgfQPHdx4L0a48L3eq3LWNjZ3F1JPHcwxxmM3EUigASHdlTkHjBIYfFZ1luGy3&#xA;EwoYXExrppu8dk0pNrRyWy6O/dLr+fcRZTg8lrqlg8ZHERaTco9G5cttHJdnv6paX9d0/wAF+H9I&#xA;8Mr4dsNC02y8PrEYBpNvZxx2gjIwUEQXbtx2xim+EPA/hz4faOuk+FvD+l+GtLVy4sdHso7SAMTk&#xA;tsjULk+uK+Xvhx8WviL8YPHngLR5PFsnhm2k8P6tfaq2j6fat/aFxY6mlorp9oil…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "0\" w:alternateStyleNames=\"0\"/><w:defaultTabStop w:val=\"709\"/><w:hyphenationZone w:val=\"425\"/><w:doNotHyphenateCaps/><w:drawingGridHorizontalSpacing w:val=\"120\"/><w:drawingGridVerticalSpacing w:val=\"120\"/><w:displayVerticalDrawingGridEvery w:val=\"0\"/><w:doNotUseMarginsForDrawingGridOrigin/><w:characterSpacingControl w:val=\"doNotCompress\"/><w:hdrShapeDefaults><o:shapedefaults v:ext=\"edit\" spidmax=\"2050\"/></w:hdrShapeDefaults><w:footnotePr><w:footnote w:id=\"-1\"/><w:footnote w:id=\"0\"/></w:footnotePr><w:endnotePr><w:en…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "A;D3/oL3v/AIJr7/4zR/w0r8Pf+gve/wDgmvv/AIzR9cw3/P2P3oPr+E/5/R/8CX+Z6fRXmH/DSvw9&#xA;/wCgve/+Ca+/+M0f8NK/D3/oL3v/AIJr7/4zR9cw3/P2P3oPr+E/5/R/8CX+Z6fRXmH/AA0r8Pf+&#xA;gve/+Ca+/wDjNH/DSvw9/wCgve/+Ca+/+M0fXMN/z9j96D6/hP8An9H/AMCX+ZR8V/A+50vX7zxb&#xA;8M9Ti8I+Krl/NvbSVC+las3/AE9QDo//AE2jw/ruHFXfAfxwtta1xfCnizTJfBXjdVJGlXzgw3qj&#xA;gyWc/wB2dO+Bh1/iVaX/AIaV+Hv/AEF73/wTX3/xmuZ+IHxU+DXxI8PyaZ4me61OyU+cn/El1ATQ&#xA;yAcSROkO9JB2ZCG9Kf1zDf8APyP3of1/Cf8AP6P/AIEv8zyz/grJ4Q/4Sf8AY5127AYyaNf2moDA&#xA;zgeZ5Zz+Elep/sMeDf8AhA/2R/hbpbQ…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "to | | Lp. | Nazwa (rodzaj) usługi/dostawy, której świadczenie będzie prowadzić do powstania u Zamawiającego obowiązku podatkowego | Wartość netto (bez kwoty podatku) | | | | | | | | | | | | | | (Formularz oferty należy opatrzyć podpisem kwalifikowanym lub podpisem zaufanym albo podpisem osobistym osoby uprawnionej do reprezentowania Wykonawcy) ===== FILE: files/Za_czniki do SWZ_unpacked/1_Załącznik_nr_1_Formularz oferty_unpacked/[Content_Types].xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <Ty…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "Zamawiającego obowiązku podatkowego | Wartość netto (bez kwoty podatku) | | | | | | | | | | | | | | (Formularz oferty należy opatrzyć podpisem kwalifikowanym lub podpisem zaufanym albo podpisem osobistym osoby uprawnionej do reprezentowania Wykonawcy) ===== FILE: files/Za_czniki do SWZ_unpacked/1_Załącznik_nr_1_Formularz oferty_unpacked/[Content_Types].xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"re…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "\"hi-IN\" w:bidi=\"hi-IN\"/></w:rPr><w:t>Nawiązując do ogłoszenia dotyczącego postępowania o udzielenie zamówienia publicznego pn.:</w:t></w:r></w:p><w:p w14:paraId=\"707CD1B3\" w14:textId=\"77777777\" w:rsidR=\"00C72DBF\" w:rsidRDefault=\"00C72DBF\" w:rsidP=\"008F4BFF\"><w:pPr><w:suppressAutoHyphens/><w:jc w:val=\"center\"/><w:rPr><w:b/><w:bCs/><w:sz w:val=\"24\"/><w:szCs w:val=\"24\"/></w:rPr></w:pPr></w:p><w:p w14:paraId=\"0B05C524\" w14:textId=\"77777777\" w:rsidR=\"00013380\" w:rsidRPr=\"009B6326\" w:rsidRDefault=\"00013380\" w:rsidP=\"000…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "oty występujące wspólnie podać nazwy (firmy) i dokładne adresy wszystkich członków konsorcjum)</w:t></w:r></w:p><w:p w14:paraId=\"15DDB727\" w14:textId=\"069AB8AC\" w:rsidR=\"00013380\" w:rsidRPr=\"00013380\" w:rsidRDefault=\"00013380\" w:rsidP=\"00B77924\"><w:pPr><w:numPr><w:ilvl w:val=\"0\"/><w:numId w:val=\"51\"/></w:numPr><w:suppressAutoHyphens/><w:spacing w:after=\"160\" w:line=\"259\" w:lineRule=\"auto\"/><w:ind w:left=\"426\" w:hanging=\"426\"/><w:jc w:val=\"both\"/><w:rPr><w:rFonts w:eastAsia=\"SimSun\" w:cs=\"Mangal\"/><w:color w:val=\"0…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Bullet 4\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Bullet 5\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Number 2\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Number 3\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Number 4\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"List Number 5\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"Title…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": ":unhideWhenUsed=\"1\"/><w:lsdException w:name=\"Body Text Indent 3\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"Block Text\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"Hyperlink\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"FollowedHyperlink\" w:semiHidden=\"1\" w:unhideWhenUsed=\"1\"/><w:lsdException w:name=\"Strong\" w:uiPriority=\"22\" w:qFormat=\"1\"/><w:lsdException w:name=\"Emphasis\" w:uiPriority=\"20\" w:qFormat=\"1\"/><w:lsdException w:name=\"Document Map\" w:semiHidden=\"…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ywG7IFrBfTRwqPYIoUewFe114L4B+MHgT4e+D9M8OeHPDfjh9M0+Lyot3hXUTJI&#xA;2cszs8ILOzEsWPUsTW+37RdqSBB8P/iFdepj8Nyrj/voinJ3ZMdj1uivJF+O2tzkiD4OfEBsckzQ&#xA;6fEPw3XlDfGHxxIo+zfBPxVITyPO1LSouPfN3wfapKPW6K8iX4l/FO4I8n4NSW6t0+3eJrNWX/eE&#xA;e8fkTUh8afGGYExfDPQ4ewFx4o7+p22x4oA9ZoryL/hIPjjMMp4K8E2+O0niS5fP5WYqT7V8cZem&#xA;neArf3a8vZM/+Q1xQB6zRXkf2X48XGQNT+Hdj3DHTr+4x7Y8+P8APP4U5fDvxuuF/feOPBNsW6/Z&#xA;vC90236br7+dAHrVeD+Af+TzfjD/ANiv4b/9G6nW43gT4wXLfvvivpFqjcEWXhJQwHqpkunAP1BH&#xA;tXj3gv4a+Mbj9qn4n2x+LerpqsfhzQXuby30axjMqNLqAj…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "uiHGLlJRW&#xA;7Og1jxJpfh+TT49Sv7exfULlbO0WdwpnnYErGvqxCnj2rSr4u8Q+D/F9vcfAXxXrnxG1LxOdc8U6&#xA;deX2l3sVuLSGWS3kZfsQjjV40XJBVmfI54NXLzxB8RPE3wl8X/Gy0+I+oaPeaLPqc2neFY4bf+yP&#xA;s1pPIghuUaMyvI6xHLiRcFhgcVTXKnzdG0/KyX+ZmnzSSj1St82/8j7Forz7x58TZvC/wH1rx/b2&#xA;Ra4s/D8msRWkv98QGRUb2BwD+NeDapH8RfhrqXwd1q4+KOseKIfFWtwLrelXENuIn32ssvl2QjjV&#xA;kjyuNjM+cKcjnL5WpOL6NL73YFJSipLqm/klc+qdD8Qab4ltZbrSr6DULeKeW1eS3cMqyxOUkQkd&#xA;1ZWUjsQaTxD4k0vwnpcmpazfwaZYRsiNcXLhEDOwRQSe5ZgB7mvgnw98W/HGjeDdL8O2Gn+JbSLx&#xA;X4w8TXLx+DbK2m1y0t4…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -515,14 +959,313 @@
         "release_tag": "dce-harvest-31916368034"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 6,
+        "text_chars": 257441,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 27,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "are not allowable under HHS awards.) Question 17: I am writing regarding the NCI SBIR Innovative Concept Award concept solicitation focused on rare cancers and pediatric cancers. I would like to ask whether the concept below appears generally aligned with the intended scope of the opportunity, especially under Topic 2 for diagnostic technologies, digital health tools, and enabling technologies. Answer 17: The proposed technology is not responsive to the Concept Award solicitation. Research tools are not within sco…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ovel GPRSS receptor antagonists to target pediatric brain tumors. Please advise on the necessity of a white paper and how to submit one in advance of the full application. The small business is Kannalife Sciences, I am cc'ing the CEO of the company. Myself and Dr. Zeng-jie Yang will be participating researchers. Thank you so much in advance for this interesting funding opportunity, Answer 36: Thank you for your interest in the NCI SBIR Innovation Concept Award. According to the solicitation on page 1 it states tha…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "e effectiveness of or the comparison among instructional techniques, curricula, or classroom management methods. (2) Research involving the use of educational tests (cognitive, diagnostic, aptitude, achievement), survey procedures, interview procedures or observation of public behavior, unless: (i) Information obtained is recorded in such a manner that human subjects can be identified, directly or through identifiers linked to the subjects; and Page 14 (ii) Any disclosure of the human subjects' responses outside t…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/75N98026R00109_-_Amen_0002_Final.pdf ===== Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15, and returning or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE RECEIVED AT THE PLACE DESIGNATED FOR THE RECEIPT OF OFFERS PRIOR TO THE HOUR AND DATE SPECIFIE…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "specified in the solicitation or as amended, by one of the following methods: (a) By completing items 8 and 15, and returning or (c) By separate letter or electronic communication which includes a reference to the solicitation and amendment numbers. FAILURE OF YOUR ACKNOWLEDGMENT TO BE RECEIVED AT THE PLACE DESIGNATED FOR THE RECEIPT OF OFFERS PRIOR TO THE HOUR AND DATE SPECIFIED MAY RESULT IN REJECTION OF YOUR OFFER. If by virtue of this amendment you desire to change an offer already submitted, such change may b…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "BY (Firm name, address, and telephone number): YEAR FIRM FOUNDED: NO. OF EMPLOYEES (Include all affiliations): NOTICE TO OFFERORS The offeror organization and the principal investigator are jointly responsible for the accuracy and validity of all the administrative, fiscal, and scientific information in the proposal. Deliberate withholding, falsification, or misrepresentation of information could result in a determination of non- responsibility [see Federal Acquisition Regulation (FAR) 9.104] which would preclude …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": ".. 17 4.7 Majority Ownership in Part by Multiple Venture Capital, Hedge Fund, and Private Equity Firms ................ 17 4.8 Conflicts of Interest ....................................................................................................................................... 17 4.9 Market Research ............................................................................................................................................ 17 4.10 Debriefing ...................................................…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "osal constitutes trade secrets or information that is commercial or financial and confidential or privileged. It is furnished to the Government in confidence with the understanding that such information shall be used or disclosed only for evaluation of this proposal; provided that, if a contract is awarded as a result of or in connection with the submission of this proposal, the Government shall have the right to use or disclose information herein to the extent provided by law. This restriction does not limit the …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "warded as a result of or in connection with the submission of this proposal, the Government shall have the right to use or disclose information herein to the extent provided by law. This restriction does not limit the Government’s right to use the information if it is obtained without restriction from another source. PRINCIPAL INVESTIGATOR/PROJECT MANAGER CORPORATE OFFICIAL NAME: NAME: SIGNATURE: SIGNATURE: DATE: DATE: TITLE: TITLE: PHONE: PHONE: E-MAIL ADDRESS: E-MAIL ADDRESS: ABSTRACT OF RESEARCH PLAN NAME, ADDR…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "nce with 7 U.S.C. 2136 and 9 CFR 2.25 through 2.28. The Contractor shall furnish evidence of the registration to the Contracting Officer. b. The Contractor shall acquire vertebrate animals used in research from a dealer licensed by the Secretary of Agriculture under 7 U.S.C. 2133 and 9 CFR 2.1 2.11, or from a source that is exempt from licensing under those sections. c. The Contractor agrees that the care, use, and intended use of any live vertebrate animals in the performance of this contract shall conform with t…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "U.S.C. 2136 and 9 CFR 2.25 through 2.28. The Contractor shall furnish evidence of the registration to the Contracting Officer. b. The Contractor shall acquire vertebrate animals used in research from a dealer licensed by the Secretary of Agriculture under 7 U.S.C. 2133 and 9 CFR 2.1 2.11, or from a source that is exempt from licensing under those sections. c. The Contractor agrees that the care, use, and intended use of any live vertebrate animals in the performance of this contract shall conform with the Public H…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "er 22: Yes. The use of de-identiﬁed human specimens may be appropriate under this solicitation, provided the proposed work does not constitute non-exempt human subject’s research. Applicants are encouraged to use the NIH Human Subjects Research Decision Tool to help determine whether their proposed research involves human subjects: https://grants.nih.gov/policY .-and-compliance/policy.= topics/human-subjects/hs-decision. Question 23: On page 15 of the Solicitation (NO. 75N98026R00109), there is a description of \"A…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "he proposed work does not constitute non-exempt human subject’s research. Applicants are encouraged to use the NIH Human Subjects Research Decision Tool to help determine whether their proposed research involves human subjects: https://grants.nih.gov/policY .-and-compliance/policy.= topics/human-subjects/hs-decision. Question 23: On page 15 of the Solicitation (NO. 75N98026R00109), there is a description of \"A minimum of two-thirds of the research or analytical effort must be performed by the awardee. \" Does this …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "NSES Question 1: We are preparing a potential submission under Topic 1: Development of therapeutic or preventative technologies for treatment or prevention of Pediatric Cancers and/or Rare Cancers. Our proposed concept is a logic-gated RNA therapeutic platform for pancreatic ductal adenocarcinoma (PDAC), using programmable reconﬁgurable nucleic acid nanoparticles (recNANP) designed to conditionally activate RNAi payloads in PDAC cells expressing deﬁned disease-associated RNA signatures. The proposed Phase I concep…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "s in PDAC- related 3D models, with milestones focused on trigger-dependent activation, reduced activation in trigger-negative controls, CDK11-pathway knockdown, and preliminary delivery- compatibility testing. Could you please conﬁrm whether this concept appears to fall within the intended scope of Topic 1 for the FY2027 Innovative Concept Award solicitation? Answer 1: The proposed technology appears within scope and you should consider applying for the funding opportunity. A few recommendations are: 1) Make sure …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "s are maximums of only alphanumeric characters, or do the indicated limits include spaces also (like the Statement of Work)? Answer 29: Thanks for reaching out and for your interest in the Concept Award. The character limits for the lettered sections of the Technical Proposal form include spaces. Once the character limit has been reached, the form will not allow you to enter any additional text. Question 30: Thank you for your assistance regarding the FY2027 NCI SBIR Innovative Concept Award solicitation (Notice N…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "le to review your speciﬁc aims as this would give your company an advantage over other offerors. Once you have completely read over the entire solicitation, and you have speciﬁc questions that you would like us to answer you may submit them to this email address before August 1, 2026. Question 33: Can you tell me if the Innovative Concept Award allows a subcontract to a university? Answer 33: Thank you for your interest in the NCI SBIR Innovation Concept Award. In the solicitation section 8.9 it states, \"all subco…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "3D models, with milestones focused on trigger-dependent activation, reduced activation in trigger-negative controls, CDK11-pathway knockdown, and preliminary delivery- compatibility testing. Could you please conﬁrm whether this concept appears to fall within the intended scope of Topic 1 for the FY2027 Innovative Concept Award solicitation? Answer 1: The proposed technology appears within scope and you should consider applying for the funding opportunity. A few recommendations are: 1) Make sure that your outcomes …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ts include spaces also (like the Statement of Work)? Answer 10: Thanks for reaching out and for your interest in the Concept Award. The character limits for the lettered sections of the Technical Proposal form include spaces. Once the character limit has been reached, the form will not allow you to enter any additional text. Question 11: I am writing regarding an SBIR grant submitted in Oct 2025. Agenta has made progress over the course of the last year and I was wondering if it would be prudent to submit a grant …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "asterisk and the words \"See continuation sheet\". Item 13. Check the appropriate box to indicate the type of modification. Insert in the corresponding blank the authority under which the modification is issued. Check whether or not contractor must sign this document. (See FAR 43.103.) Item 14 (Description of Amendment/Modification). Organize amendments or modifications under the appropriate Uniform Contract Format (UCF) section headings from the applicable solicitation or contract. The UCF table of contents, howeve…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ion/Proposal Limit In accordance with NOT-OD-26-073, Notice of Information: Implementation of HHS Annual SBIR/STTR Application/Proposal Limit, and 15 U.S.C. § 638, as amended, HHS will accept a maximum of nine new, renewal, resubmission, or revision applications (including grants, cooperative agreements, and contract proposals) from a Small Business Concern, including its affiliates, in a fiscal year. This policy applies to all SBIR and STTR activity codes. The maximum amount of nine submissions per Small Business…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "fy type of modification and authority) Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full force and effect. 15C. DATE SIGNED 15A. NAME AND TITLE OF SIGNER (Type or print) 16C. DATE SIGNED 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print) 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.) PAGE OF PAGES 6. ISSUED BY COD…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "rms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full force and effect. 15C. DATE SIGNED 15A. NAME AND TITLE OF SIGNER (Type or print) 16C. DATE SIGNED 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print) 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.) PAGE OF PAGES 6. ISSUED BY CODE 8. NAME AND ADDRESS OF CONTRACTOR (Number, street, county, State and Z…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "submission": [
+          {
+            "text": "CATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.) PAGE OF PAGES 6. ISSUED BY CODE 8. NAME AND ADDRESS OF CONTRACTOR (Number, street, county, State and ZIP Code) (X) CODE 15B. CONTRACTOR/OFFEROR (Signature of person authorized to sign) 16B. UNITED STATES OF AMERICA (Signature of Contracting Officer) Previous edition unusable 0003 Mandie White, MBA The purpose of this amendment is to provide key questions and answers received in writing by email. Offerors are …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ld you please conﬁrm whether this concept appears to fall within the intended scope of Topic 1 for the FY2027 Innovative Concept Award solicitation? Answer 1: The proposed technology appears within scope and you should consider applying for the funding opportunity. A few recommendations are: 1) Make sure that your outcomes and aims are clearly deﬁned and focused on product development with clear quantiﬁable product focused milestones. 2) If budget allows, in vitro and in vivo characterization of anti-tumor efficac…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "o, what the submission deadline, format, and delivery instructions are? Answer 2: Please note there will be no white paper submission/review this year. Question 3: Alkhaleeli BioAI LLC is focused on research-only Al and computational biology tools for cancer research, including structured in silica workﬂows for disease mechanism review, gene and mutation analysis, target identiﬁcation, candidate concept development, and prioritization before laboratory validation. The work is intended to support early-stage inform…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "rmatics and research planning and does not make diagnosis, treatment, cure, or clinical- use claims. I also have related intellectual property work in progress, including provisional patent concepts connected to research tools and platform development. I would appreciate guidance on where this information should be included in the SBIR application and whether any additional documentation is recommended at this stage. Could you please advise me on the correct next steps for preparing and submitting the application,…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -588,7 +1331,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-09-09",
       "source_dce_run_id": 32310906759,
       "source_shard": 0,
       "review_key": "82efa1e186d965a8b8cd798494f643408ed1c58b61e11553ba8066c2c1e107ab",
@@ -599,14 +1342,588 @@
         "release_tag": "dce-harvest-32310906759"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 6,
+        "text_chars": 120795,
+        "attributed_compact_snippets": 25,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "1 Status Published Title (17)(National) Contract notice - sectoral directive, standard regime File Associated : ===== FILE: files/1486_9140571_unpacked/1_c4t_9140571_1.xml =====",
+            "source": "files/1486_9140571_unpacked/1_c4t_9140571_1.xml",
+            "source_url": null,
+            "source_sha256": "eea3c44ee9638a503a64e9017d46a2bdc1d6185f382aba73faafdd83f9e6914c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ndatory-attachment=\"1\" level=\"1\" pos=\"1\"> <label><![CDATA[FORM 6 - FINANCIAL OFFER]]></label> <prices> <price year=\"0\"/> </prices> </criterion> </envelope> <cft-title>281/2026 - Supply of Breather’s Self Indicating Silica Gel</cft-title> <pub-key>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSnIOC/pHE970sInrxlgQfB55z7kxmhlODSHYxQKRB0eLBcbhnoZWXz0k6V5OrsG3fKeGgRbySAFWqglm2MXtMmbhO/8PeTF9n3fhxOnPhUdV6n9H36ycGp2dRhF5eqGyKcDKgeDMMjgtpM5JC1n2ul+3TCjvwK4QZo5EkFbUM4QIDAQAB</pub-key> </c4t> ===== FILE: files/1486_9140571_unpacke…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "............................................... Date: .................................................................................... DetailsTenderer1 : .................................................................................... Name of the Tenderer: .................................................................................... Note 1: In the case of a consortium of natural and / or legal persons, the details of the consortium and of each member of the consortium. Code: Ε-OΑ-111 Page 37 of 45 F…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "3.1 The goods offered conform to the Tender requirements based on the Technical Specification EAC SPEC 10-003 and specified Standards or equivalent Standards YES 4. Letter of Authorization 4.1 The Tenderer has been authorized by the manufacturer to supply the goods to/in the Contracting Entity's country, if the Tenderer does not himself manufacture or otherwise produce the goods. YES 5. Delivery 5.1 The Tenderer complies with the requested Delivery Schedule, as described in par. 4 of Part A of the Tender Documents…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ds for exclusion, such action shall be declared by the tenderer within their tender. The Contracting Entity will examine the statements made by the Tenderer and, if judged to be unsatisfactory, before any rejection of the tender and in order to reach its final decision, it will request its views in writing. 6.3 Technical and professional ability Not applicable. 6.4 Commitment not to withdraw the Tender 1. In the eventuality that the Tenderer: a. After the expiry of the deadline for the submission of Tenders, withd…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cal and professional ability Not applicable. 6.4 Commitment not to withdraw the Tender 1. In the eventuality that the Tenderer: a. After the expiry of the deadline for the submission of Tenders, withdraws its Tender or a part thereof, during its period of validity, or b. has submitted any false declaration or false certificate, or Code: Ε-OΑ-111 Page 11 of 45 c. Having been notified of the acceptance of its Tender by the Contracting Entity during the period of validity of the Tender, and having been notified to pr…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "hird parties, without any further charge whatsoever to the Contracting Entity. 4. ORGANISATION AND ADMINISTRATION OF CONTRACT IMPLEMENTATION 1. The Contractor shall be fully responsible for the execution of the Contract Scope. 2. The Contracting Entity shall have the key responsibility of supervising and controlling the progress in the performance of the Contract Scope and the quality and completeness of the deliverables of the Contract. 3. Cooperation between the Contracting Entity and the Contractor in all stage…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "DMINISTRATION OF CONTRACT IMPLEMENTATION 1. The Contractor shall be fully responsible for the execution of the Contract Scope. 2. The Contracting Entity shall have the key responsibility of supervising and controlling the progress in the performance of the Contract Scope and the quality and completeness of the deliverables of the Contract. 3. Cooperation between the Contracting Entity and the Contractor in all stages of performance of the Contract Scope and until its final acceptance, shall be an obligation of bot…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ROCEDURE FOR PAYMENT ........................................................... 21 7. ASSIGMENT ......................................................................................................................... 22 8. OBLIGATIONS OF THE CONTRACTING ENTITY .............................................................. 22 9. OBLIGATIONS OF THE CONTRACTOR – CONFIDENTIALITY - SECRECY ................... 22 10. DELIVERY AND ACCEPTANCE OF DELIVERABLES ................................................... 22 11. ORI…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ated in the Contractor’s Tender. 2. To certify that this requirement is met, the Contractor is obliged to present to the Contracting Entity, at the time of delivery of the products, an official certificate or other evidence from which the origin of the products may be established. 3. In the case of products manufactured in a country outside the EU, the Contractor must also present official certificates or other documentary evidence establishing that in importing the products the rules laid down in the Community Cu…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "........................................................................................... 24 13. WARRANTIES .................................................................................................................. 24 14. PENALTIES FOR DELAY ................................................................................................. 25 15. PERFORMANCE GUARANTEE – NOT APPLICABLE ................................................... 25 16. ADMINISTRATIVE AND FINANCIAL PENALTIES TO THE CONTRACTOR .......…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "MENTS FOR PARTICIPATION 6.1 Eligibility for participation 1. Eligible for participation in the present tender procedure are natural or legal persons (governed by public or private law) or consortia of natural and/or legal persons lawfully established in Cyprus or in any other Member State of the European Union (EU) or of the European Economic Area (EEA) or in third countries who have signed and ratified the International Government Procurement Agreement (GPA) or have signed and ratified association agreements or b…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/1486_9140571_unpacked/1486_9140571.pdf ===== List of Contract Documents #Adden da ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<1_c4t_9140571_1.xml > #Adden da ID N/A Status Final Title TENDER DOCUMENT File Associated :<2_281_2026_TENDER DOCUMENT.pdf > #Adden da ID N/A Status Final Title TECHNICAL SPECIFICATION EAC SPEC. 10-003 File Associated :<3_EAC SPEC 10-003 Is 2.pdf > #Adden da ID 1 Status Final Title CLARIFICATION NO. 1 File Associated :<4_281_2026_CLARIFICATIO…",
+            "source": "files/1486_9140571_unpacked/1486_9140571.pdf",
+            "source_url": null,
+            "source_sha256": "436829bf94ee6608491926a8a6b4f4d316aa24f80c85c73d419f162dc1ea8337",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ".................................................................................. 7 5. RECEIPT OF TENDER DOCUMENTS AND PROVISION OF CLARIFICATIONS ON THE TENDER DOCUMENTS ................................................................................................................. 8 5.1 Receipt of Tender Documents ........................................................................................ 8 5.2 Clarifications/Amendments by the Contracting Entity ....................................................…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "of Cyprus on 24 April 2009 (RAA 179/2009). c. The Regulations on the Management of Public Contract Implementation and Procedures for the Exclusion of Economic Operators from Public Procurement Procedures published in the Official Gazette of the Republic of Cyprus on 28 April 2016 (RAA 138/2016). d. The Regulations on the Award of Public Supply Contracts, Public Works Contracts and Public Service Contracts by entities operating in the Water, Energy, Transport and Postal Services Sector (use of electronic means), pu…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "2. The Contractor warrants that the products to be delivered shall be authentic, new, unused, announced and in production, and shall have no defects arising from poor workmanship or flaws arising from design or manufacture, nor shortcomings or errors that may develop after normal use as a result of hidden defects in the materials used in their manufacture. Code: Ε-OΑ-111 Page 25 of 45 The Contractor is obliged to deliver Products that have been manufactured with the consent of the right holder of intellectual prop…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "30 29. COMMUNICATION BETWEEN THE PARTIES ............................................................... 31 APPENDIX: TEMPLATES FOR FORMS ............................................................................. 33 Code: Ε-OΑ-111 Page 5 of 45 PART Α: INSTRUCTIONS TO ECONOMIC OPERATORS 1. INTRODUCTION The Electricity Authority of Cyprus invites quotations for the Supply of Breather’s Self Indicating Silica Gel. 2. KEY DETAILS OF THE TENDER PROCEDURE Par. I T E M 2.1 Tender No. 281/2026 2.2 Contract Scope Supply…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "1. Economic Operators may receive a copy of the Tender Documents, free of charge, via workspace of the tender procedure in the eProcurement System (www.eprocurement.gov.cy). Registered Economic Operators are urged to associate themselves with the competition, so as to receive notifications for any clarifications and/or addenda that may occur during this competition. Non - registered Economic Operators may register for free following the instructions available in System. For any assistance for their registration or…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "e TENDER DOCUMENT File Associated :<2_281_2026_TENDER DOCUMENT.pdf > #Adden da ID N/A Status Final Title TECHNICAL SPECIFICATION EAC SPEC. 10-003 File Associated :<3_EAC SPEC 10-003 Is 2.pdf > #Adden da ID 1 Status Final Title CLARIFICATION NO. 1 File Associated :<4_281_2026_CLARIFICATION NO. 1.pdf > List of Notices #Adden da ID 1 Status Published Title (17)(National) Contract notice - sectoral directive, standard regime File Associated :<9140571_(17)(National) Contract notice - sectoral directive, standard regime…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "regime File Associated : ===== FILE: files/1486_9140571_unpacked/1_c4t_9140571_1.xml ===== <![CDATA[ALL SUPPORTING DOCUMENTS IN ACCORDANCE WITH PARAGRAPH 8.3",
+            "source": "files/1486_9140571_unpacked/1_c4t_9140571_1.xml",
+            "source_url": null,
+            "source_sha256": "eea3c44ee9638a503a64e9017d46a2bdc1d6185f382aba73faafdd83f9e6914c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "24083472\" level=\"1\" pos=\"1\"> 0 0 0 <![CDATA[FORM 6 -",
+            "source": "files/1486_9140571_unpacked/1_c4t_9140571_1.xml",
+            "source_url": null,
+            "source_sha256": "eea3c44ee9638a503a64e9017d46a2bdc1d6185f382aba73faafdd83f9e6914c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "falling under categor y 24000000 of the CPV classification 2.3 Estimated Value Thirty thousand euro (€30.000) exclusive of VAT. 2.4 Financing Electricity Authority of Cyprus 2.5 Tender procedure Open tender procedure for the award of a supply contract. 2.6 Award Criterion Most economically advantageous tender based on price. 2.7 Contracting Entity Electricity Authority of Cyprus 2.8 Competent Official Transmission Core Regulated Activity Manager 11 Amfipoleos Street, 2025 Strovolos, CYPRUS Tel. +357 22201868 Email…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r based on price. 2.7 Contracting Entity Electricity Authority of Cyprus 2.8 Competent Official Transmission Core Regulated Activity Manager 11 Amfipoleos Street, 2025 Strovolos, CYPRUS Tel. +357 22201868 Email: isd.purchasing@eac.com.cy 2.9 Period of time during which the Tender Documents may be received Until the deadline of the submission of tenders. 2.10 Method and Place for collection of the Tender Documents Free of charge, via the Cyprus e -Procurement System at www.eprocurement.gov.cy under the relevant fun…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "LTIES FOR DELAY ................................................................................................. 25 15. PERFORMANCE GUARANTEE – NOT APPLICABLE ................................................... 25 16. ADMINISTRATIVE AND FINANCIAL PENALTIES TO THE CONTRACTOR ................. 25 17. TERMINATION BY THE CONTRACTING ENTITY ......................................................... 26 18. SUBCONTRACTING ....................................................................................................…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ntractor may be declared in default by the Contracting Entity if the contractual implementation time is expiring and a request for its extension has not been submitted in a timely manner, the Contractor has not delivered the product(s). 7. Acceptance of the products takes place by a Contracting Entity’s Representative, in the manner provided for by the Regulations in force. In case where the authentication of Products is disputed, the procedure of Acceptance of Products shall be suspended until the whole matter is…",
+            "source": "files/1486_9140571_unpacked/2_281_2026_TENDER DOCUMENT.pdf",
+            "source_url": null,
+            "source_sha256": "d20281beaa3aa0503659433a560bfe449d7486ce89ae000da10b52cbcc6b2737",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20248197",
+      "title": "Junta de Gobierno de la Diputación Provincial de Jaén",
+      "buyer": null,
+      "portal": "ES_PLACSP",
+      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B%2Ba8uGX%2Bfxs2wEhQbcAqug%3D%3D",
+      "deadline": "2026-09-11T00:00:00+00:00",
+      "estimated_value": "674437532.51",
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 18,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_conflict": true,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32351147289,
+      "source_shard": 3,
+      "review_key": "9e1d581057488ba2d40bc03a13bf8bfa172d56cab186609da0c60e593fa20dd0",
+      "artifact_locator": {
+        "dce_run_id": 32351147289,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20248197",
+        "release_tag": "dce-harvest-32351147289"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 15,
+        "text_chars": 2149948,
+        "attributed_compact_snippets": 23,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": true
+      },
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "AMITACIÓN: ORDINARIA URGENTE. X ANTICIPADA TIPO DE CONTRATO: Contrato de servicio del art. 17 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (en adelante LCSP). Vista la PROPUESTA de contratación razonada impulsada por la Dirección del Área de Igualdad, Políticas Sociales y Juventud, así como la memoria justificativa del contrato en la que se pone de manifiesto la siguiente necesidad: “La Diputación Provincial de Jaén tiene suscrito un Convenio de colaboración con la Consejería de inclusión s…",
+            "source": "files/DOC20260618101721Resolucion Orden Inicio.pdf",
+            "source_url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2026-456a62c2-653c-44ea-bde0-8da4f676d2a1",
+            "source_sha256": "ba3a15abd7d776d7117abab4c9541dfc57e285c4136d3d05d302814f46d3dbd2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "HORA 21/07/2026 14:09:38 Url de Verificación: https://verifirma.dipujaen.es/code/4pymlOPpbcmIBPEVFlmthQ== Servicio de Gestión y Contratación Sección Contratación Diputación Provincial de Jaén Plaza de San Francisco, 2 23071 Jaén Tel. 953 248 110 Fax. 953 248 011 C-e.: negociado_contratacion@dipujaen.es www.dipujaen.es  MENGÍBAR  SANTISTEBAN DEL PUERTO  TORREDELCAMPO 2. Necesidad e idoneidad del contrato La Diputación Provincial de Jaén tiene suscrito un Convenio de colaboración con la Consejería de inclusión so…",
+            "source": "files/DOC20260730093811MEMORIA.pdf",
+            "source_url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2026-e7c446e4-e4eb-4191-8ef4-8ea5a3c8f75d",
+            "source_sha256": "abe7c1dfac848c589163495b8310507eb193a54fff249e03508f8ad459ed31f9",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "PTION\"> 5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Direct…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On p…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": ":Name> Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on t…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cription> DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Directive 2014/24/EU EU_DIRECTIVE 57(1) http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024 7c637c0c-7703-4389-ba52-02997a055bd7 974c8196-9d1c-419c-9ca9-45bb9f5fd59a Your answer? f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "0\">15778db8-0d84-42ba-931b-774c1b3d3f9f Please specify bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 2014/…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "riaID\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 20…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "antendrá una fluida comunicación tanto con la UESEO como con las Direcciones de las Zonas Básicas. La persona designada se mantendrá durante la totalidad de la dura ción del contrato, pudiendo variar por motivos justificados. Dicho/a coordinador/a deberá contar como mínimo con una experiencia de tres años en igual o similar puesto de trabajo y una titulación al menos de grado medio o equivalente dentro del ámbito de l os servicios sociales tanto en formación social, preferentemente en trabajo social, como en mater…",
+            "source": "files/DOC20260618102115PPT.pdf",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PWf6wVMZgQtTTDiCBFCKF5LKzRlE7dyUXQakhnyhcszSoQ0AdSiW03jxbpQBj1VoWXBtxItbV9vHiqxhw3mg9R8uXTrMWgLaT7gQd1kb6SV45ClyWkoJ44mKM70IFcOu",
+            "source_sha256": "3148cfb4db2833c1c6319f30ac88c1db39ec47963569847c347ca57ea5743fa1",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC <ccv-cbc:JurisdictionLevelCode listID=\"Crite…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC EU_DIRECTIVE…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcon…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "AgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then p…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "n su ámbito territorial, y con los restantes entes, organismos o entidades del sector público dependientes de una y otras. 3. La prueba del contenido de los Registros de Licitadores se efectuará mediante certificación del órgano encargado del mismo, que podrá expedirse por medios electrónicos, informáticos o telemáticos. Los certificados deberán indicar las referencias que hayan permitido la inscripción del empresario en la lista o la expedición de la certificación, así como, en su caso, la clasificación obtenida.…",
+            "source": "files/DOC20260730093811MEMORIA.pdf",
+            "source_url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2026-e7c446e4-e4eb-4191-8ef4-8ea5a3c8f75d",
+            "source_sha256": "abe7c1dfac848c589163495b8310507eb193a54fff249e03508f8ad459ed31f9",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e por medios electrónicos, informáticos o telemáticos. Los certificados deberán indicar las referencias que hayan permitido la inscripción del empresario en la lista o la expedición de la certificación, así como, en su caso, la clasificación obtenida. Acreditación de la solvencia: SÍ -Acreditación de la solvencia económica y financiera: Artículo 87 apartado/s: a). Volumen anual de negocios en el ámbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres últimos por importe igual o superio…",
+            "source": "files/DOC20260730093811MEMORIA.pdf",
+            "source_url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2026-e7c446e4-e4eb-4191-8ef4-8ea5a3c8f75d",
+            "source_sha256": "abe7c1dfac848c589163495b8310507eb193a54fff249e03508f8ad459ed31f9",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "AÉN Así mismo, el artículo 39 de las Bases de Ejecución del Presupuesto General de la Diputación Provincial de Jaén correspondiente al año 2026 en relación a la tramitación anticipada de expedientes de contratación determina: “De acuerdo con lo que se establece en el artículo 117.2 LCSP, los expedientes de contratación podrán ult imarse incluso con la adjudicación y formalización del correspondiente contrato, aun cuando su ejecución, se realice en una o en varias anualidades, deba iniciarse en el ejercicio siguie …",
+            "source": "files/DOC20260618101721Resolucion Orden Inicio.pdf",
+            "source_url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2026-456a62c2-653c-44ea-bde0-8da4f676d2a1",
+            "source_sha256": "ba3a15abd7d776d7117abab4c9541dfc57e285c4136d3d05d302814f46d3dbd2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "24 de febrero, por el que se aprueba el Catálogo de Prestaciones del Sistema Público de Servicios Sociales de Andalucía. Que deroga el Decreto 11/1992 de 28 de enero.  Orden de 3 de agosto de 2007 sobre intensidad de protección y régimen de compatibilidad.  Decreto 50/2013, de 23 de abril, por el que se establece el régimen sancionador del sistema para la autonomía y atención a la dependencia en Andalucía El Servicio de Ayuda a Domicilio presente se rig e por normativa autonómica que regula las condiciones, tare…",
+            "source": "files/DOC20260618102115PPT.pdf",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PWf6wVMZgQtTTDiCBFCKF5LKzRlE7dyUXQakhnyhcszSoQ0AdSiW03jxbpQBj1VoWXBtxItbV9vHiqxhw3mg9R8uXTrMWgLaT7gQd1kb6SV45ClyWkoJ44mKM70IFcOu",
+            "source_sha256": "3148cfb4db2833c1c6319f30ac88c1db39ec47963569847c347ca57ea5743fa1",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "Pág. 11 de 109 Ilustración: Acceso al panel de control 2º Una vez abierto el panel de control ir a programas. Ilustración: Acceso a “Programas” desde Panel de control 3º En programas pinchar en “Hacer que un tipo de archivo se abra con un programa específico”. Ilustración: Acceso a “Tipos de archivo” 4º Se selecciona la extensión .jnlp y se presiona el botón “Cambiar programa” situado en la esquina superior derecha de la pantalla. Guía de Servicios de Licitación Electrónica para Empresas 8.9 Pág. 12 de 109 Ilustra…",
+            "source": "files/DOC20260803100241Guia de Servicios de Licitacion Electronica.pdf",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=76lSvH92PGLBZ3eDOaCN3t8jEbmdEfzs9j/3RGp9RlCTtgRDRLXQq7KhpfRex8YIaj%2Br5hgj9QGE1AZkgPwIbJSch%2BUsrPP25dLmUaqddgCCx2e6p7hqtlp2aFupgHMr",
+            "source_sha256": "fa9ac3f64d428676cedcd824d6545392c7bf35e0974c9dd0c622908bbfe82ca1",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "be un documento cuyo formato no coincide con el exigido por el órgano de contratación, el sistema le advierte de esta circunstancia (Ilustración: Selección del documento para anexar), sin embargo, puede llevar a cabo el anexo , pulsando SI. Una vez realizada la acción, la Herramienta devuelve el mensaje de la Ilustración: Mensaje de confirmación, confirmando su correcta inserción. Será el órgano responsable de la valoración quien decida si admite o no el documento con una extensión diferente a la solicitada. Si su…",
+            "source": "files/DOC20260803100241Guia de Servicios de Licitacion Electronica.pdf",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=76lSvH92PGLBZ3eDOaCN3t8jEbmdEfzs9j/3RGp9RlCTtgRDRLXQq7KhpfRex8YIaj%2Br5hgj9QGE1AZkgPwIbJSch%2BUsrPP25dLmUaqddgCCx2e6p7hqtlp2aFupgHMr",
+            "source_sha256": "fa9ac3f64d428676cedcd824d6545392c7bf35e0974c9dd0c622908bbfe82ca1",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "el poder adjudicador o la entidad adjudicadora según figure en la parte I, sección A] tenga acceso a los documentos justificativos de la información que se ha facilitado en [indique la parte/sección/punto o puntos pertinentes] del presente Documento Europeo Único de Contratación, a efectos de [indique el procedimiento de contratación: (descripción breve, referencia de publicación en el Diario Oficial de la Unión Europea, número de referencia)]. Fecha, lugar y, cuando se exija o sea necesaria, firma o firmas: Fecha…",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "adjudicador o la entidad adjudicadora según figure en la parte I, sección A] tenga acceso a los documentos justificativos de la información que se ha facilitado en [indique la parte/sección/punto o puntos pertinentes] del presente Documento Europeo Único de Contratación, a efectos de [indique el procedimiento de contratación: (descripción breve, referencia de publicación en el Diario Oficial de la Unión Europea, número de referencia)]. Fecha, lugar y, cuando se exija o sea necesaria, firma o firmas: Fecha - Lugar …",
+            "source": "files/DOC20260804130238DEUC.xml",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qtuVFvwTQnLnb/QlHBlL6yd4djrRCIcGd1q2bfYBBR/xqdk5jFdOfrMiCF6qEVn%2B51De0bfa06ulcAqQeST47M3AGY0m7TG6oHbsM1gUHWbDdQD9RyhUmzT4jZ2In4zL",
+            "source_sha256": "a338d1c48d76125ff1e482d69c6c0851b6043790afe7510ece65925b5c040caa",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "l CO-2026/779. Una vez finalice el presente contrato, el encargado del tratamiento deberá devolver al responsable los datos personales y cualquier copia en su poder. 4. Obligaciones del encargado de tratamiento El ENCARGADO DE TRATAMIENTO y todo su personal se obliga a: a) Utilizar los datos personales objeto de tratamiento o lo que recoja para su inclusión, solo para la finalidad objeto de este encargo. En ningún caso podrá utilizar los datos para fines propios. b) Tratar los datos de acuerdo con las instruccione…",
+            "source": "files/DOC20260812121555PCAP 779.PDF",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Uka7iGGv2EvL2iPTVISCvfR/CYJUUqfMgpzvb%2BrQFDGIf4NpiuvQyPwV2O8P/KRdO1M52M7L8yfgl7PTQyRbCtqO7hr/fBZ8E7kzvXpiLfkZyAJWGsSt0OzTSTyw9JAs",
+            "source_sha256": "5a28bac6d6f7ca5bb403015a1bc4b9f59eb9c844b0b7a59f674bd2888f1513cb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "amiento efectuadas por cuenta del responsable, que contenga: 1. El nombre y los datos de contacto del encargado o encargados y de cada responsable por cuenta del cuál actúe el encargado y, en su caso, del representante del responsable o del encargado y del delegado de protección de datos. 2. Las categorías de tratamientos efectuados por cuenta de cada responsable. 3. En su caso, las transferencias de datos personales a un tercer país u organización internacional, incluida la identificación de dicho tercer país u o…",
+            "source": "files/DOC20260812121555PCAP 779.PDF",
+            "source_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Uka7iGGv2EvL2iPTVISCvfR/CYJUUqfMgpzvb%2BrQFDGIf4NpiuvQyPwV2O8P/KRdO1M52M7L8yfgl7PTQyRbCtqO7hr/fBZ8E7kzvXpiLfkZyAJWGsSt0OzTSTyw9JAs",
+            "source_sha256": "5a28bac6d6f7ca5bb403015a1bc4b9f59eb9c844b0b7a59f674bd2888f1513cb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -630,7 +1947,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2018-11-22",
       "source_dce_run_id": 32194648385,
       "source_shard": 20,
       "review_key": "bd37886ad973d400527fe82f3002ad995982d090bb27305d4ea2295f394b6127",
@@ -641,14 +1958,323 @@
         "release_tag": "dce-harvest-32194648385"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1198,
+        "text_chars": 15953041,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "0 005eb9ed-1347-4ca3-bb29-9bc0db64e1ab CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Participation in a criminal organisation Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out d…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tedIDs\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4 Issuer c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion per…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "sed by the competent authorities, or an extract from a court decision, if any (a digital copy of the document shall be provided). 3) A supplier from another state, who is a natural person or a legal entity, shall provide a certificate issued by the competent authority of the state where the supplier is registered (a digital copy of the document shall be provided). 4) The above documents shall be issued no earlier than 30 (thirty) calendar days before the deadline for the submission of applications. If the document…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "99\" w:type=\"pct\"/> Requirement for economic and financial status Documents substantiating the qualification requirements <w:p w14:paraId=\"26CFA8EE\" w14:textId=\"77777777\" w:rsidR=\"002F3050\" w:rs",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG_unpacked/word/document.xml",
+            "source_url": null,
+            "source_sha256": "5ad294aebaf59d57d9b3c271ff1af8e5bd9683bf6d1a0fff5c8c9c606e7b2809",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "/cbc:Name> Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 …",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "8, p. 42). DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Directive 2014/24/EU EU_DIRECTIVE 57(1) http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024 7c637c0c-7703-4389-ba52-02997a055bd7 974c8196-9d1c-419c-9ca9-45bb9f5fd59a Your answer? f5276600-a2b6-4ff6-a90e-b31fe19dae41 <ccv:Requirement respon",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "orkers? 9b19e869-6c89-4cc4-bd6c-ac9ca8602165 CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST EO registered If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)? 64162276-7014-408f-a9af-080426bfe1fd ecb5127b-9018-4fb8-8327-a6a7a2c73195 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer</cbc",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ROW\" schemeVersionID=\"1.0\">7f18c64e-ae09-4646-9400-f3666d50af51 Your answer dc4acf0c-c761-40d0-b031-4ee1f224be5c 30064ad3-fc11-4579-8528-fdd0b9a5ba75 a) Please provide the relevant registration or certification number, if applicable: b3403349-cbc0-4d84-879e-fc0f2d90ecbd b) If the certificate of registration or certification is available electronically, please state: <cbc:ID schemeID=\"CriterionRelatedIDs\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\"",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "during the period of validity of the DPS. If a Provider has submitted a tender for categories 1 and 5, and has been deemed compliant with the requirements of the DPS, said Provider will be eligible to take part only in specific procurements relating to categories 1 and 5. 4. | Annex No. 4, Qualification Requirement for Providers, to the Procurement conditions specifies that tenders shall be submitted together with the filled out Annex No. 6, List of Specialists, to the Special Conditions. The Annex also specifies …",
+            "source": "files/ITT_537792_2_unpacked/Message to providers 2018-11-16 _EN.DOCX",
+            "source_url": "https://pirkimai.eviesiejipirkimai.lt/app/docmgmt/downloadPublicDocument.asp?FMT=5&AT=3&LID=515541&DVID=11207881",
+            "source_sha256": "e89a8d90bf9c2bd6d8375181552b3478185192f4763f21e221633446aeac0dfd",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t with the requirements of the DPS, said Provider will be eligible to take part only in specific procurements relating to categories 1 and 5. 4. | Annex No. 4, Qualification Requirement for Providers, to the Procurement conditions specifies that tenders shall be submitted together with the filled out Annex No. 6, List of Specialists, to the Special Conditions. The Annex also specifies that the Company shall have the right to contact the employers of the specialist, as well as the project clients, indicated in the …",
+            "source": "files/ITT_537792_2_unpacked/Message to providers 2018-11-16 _EN.DOCX",
+            "source_url": "https://pirkimai.eviesiejipirkimai.lt/app/docmgmt/downloadPublicDocument.asp?FMT=5&AT=3&LID=515541&DVID=11207881",
+            "source_sha256": "e89a8d90bf9c2bd6d8375181552b3478185192f4763f21e221633446aeac0dfd",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "Government of the Republic of Lithuania, approving joint data processed by the competent authorities; if the supplier is registered in a foreign state—a document of a relevant foreign authority (a digital copy of the document shall be provided), issued no earlier than 30 (thirty) calendar days prior to the deadline for the submission of applications. If the document was issued earlier, but the expiration date indicated therein is longer than the deadline for the submission of applications, such document shall be a…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rocedure confirming compliance with this requirement. To prove that such supplier does not have any criminal convictions, an extract from the court decision or a document issued by the State Enterprise Centre of Registers in accordance with the procedure established by the Government of the Republic of Lithuania, confirming the joint data processed by the competent authorities, shall be provided (a digital copy of the document shall be provided). 2.2) If the supplier is a natural person registered in the Republic …",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "613282cdbdc c) Where applicable, name of the participating group: 0d62c6ed-f074-4fcf-8e9f-f691351d52ad CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES EO relies capacities Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below? e688f7d6-dcef-4726-bc61-052e63ead60f 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "-dcef-4726-bc61-052e63ead60f 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Subcontracting third parties Does the economic operator intend to subcontract any share of the contract to third parties? d5fe5a71-7fd3-4910-b6f4-5cd2a4d23524 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer </ccv:Req",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "statyta I dalies A skirsnyje] leisti susipažinti su dokumentais, kuriais patvirtinama informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento [nurodyti atitinkamą dalį / skirsnį / punktą (-us)], dėl [nurodyti viešojo pirkimo procedūrą: (trumpas aprašymas, paskelbimo Europos Sąjungos oficialiajame leidinyje nuoroda, nuorodos numeris)]. Data, vieta ir, jei reikia ar būtina, parašas (-ai): Data - Vieta - Parašas -24- ===== FILE: files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento [nurodyti atitinkamą dalį / skirsnį / punktą (-us)], dėl [nurodyti viešojo pirkimo procedūrą: (trumpas aprašymas, paskelbimo Europos Sąjungos oficialiajame leidinyje nuoroda, nuorodos numeris)]. Data, vieta ir, jei reikia ar būtina, parašas (-ai): Data - Vieta - Parašas -24- ===== FILE: files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml ===== <espd-req:ESPDRequest xmlns:cac=\"urn:oasis:n…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "=\"yes\"?> <a:themeManager xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"/> ===== FILE: files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.pdf ===== Europos bendrasis viešųjų pirkimųdokumentas (EBVPD) I dalis. Informacija apie pirkimo procedūrą ir perkančiąją organizaciją ar perkantįjį subjektą Informacpia apie paskelbimą Vykdant pirkimo procedūras, kurių kvietimas dalyvauti konkurse paskelbtas Europos Sąjungos oficialiajame leidinyje, informa…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.pdf",
+            "source_url": null,
+            "source_sha256": "bc33b33b1f103df2e4040482e417c4d6eca7c388e531407e70d4d14c20f9ec62",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "numeris OL S: - OL S URL National Official Journal - Jei kvietimas dalyvauti konkurse neskelbiamas Europos Sąjungos oficialiajame leidinyje arba jei jo skelbti nereikalaujama, perkančioji organizacija arba perkantysis subjektas turi įrašyti informaciją, kuri leistų nedviprasmiškai atpažinti pirkimo procedūrą (pvz., paskelbimo nacionaliniu lygmeniu nuorodą). Perkančiojo subjekto tapatybė Oficialus pavadinimas: AB „Lietuvos geležinkeliai“ Šalis: Lietuva Informacija apie pirkimo procedūrą Type of procedure Not specif…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.pdf",
+            "source_url": null,
+            "source_sha256": "bc33b33b1f103df2e4040482e417c4d6eca7c388e531407e70d4d14c20f9ec62",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/1 priedas TS (1) - PATIKSLINTA ENG 2018-10-31_unpacked/[Content_Types].xml ===== ===== FILE: files/1 priedas TS (1) - PATIKSLINTA ENG 2018-10-31_unpacked/theme/theme/theme1.xml ===== <a:theme",
+            "source": "files/1 priedas TS (1) - PATIKSLINTA ENG 2018-10-31_unpacked/[Content_Types].xml",
+            "source_url": null,
+            "source_sha256": "6c98d4f2b62b4db730884f9bd6d27e5360693eaad02d9cdbaa0e71c4c747450b",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "in\" name=\"Office Theme\" id=\"{62F939B6-93AF-4DB8-9C6B-D6C7DFDC589F}\" vid=\"{4A3C46E8-61CC-4603-A589-7422A47A8E4A}\"/> ===== FILE: files/1 priedas TS (1) - PATIKSLINTA ENG 2018-10-31_unpacked/theme/theme/themeManager.xml ===== ===== FILE: files/1_20priedas_20TS_20_281_29_20-_20PATIKSLINTA_20ENG_202018-10-31_unpacked/[Content_Types].xml ===== ===== FILE: files/1_20priedas_20TS_20_281_29_20-_20PATIKSLINTA_20ENG_202018-10-31_unpacked/theme/theme/theme1.xml ===== <a:theme xmlns:a=\"http://schemas.openxmlformats.org/drawing…",
+            "source": "files/1_20priedas_20TS_20_281_29_20-_20PATIKSLINTA_20ENG_202018-10-31_unpacked/[Content_Types].xml",
+            "source_url": null,
+            "source_sha256": "6c98d4f2b62b4db730884f9bd6d27e5360693eaad02d9cdbaa0e71c4c747450b",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/3 priedas. Paraiškos forma_ENG.docx ===== PLLC Lithuanian Railways APPLICATION FOR THE PROCUREMENT OF ACTIVITY MODELLING, OPTIMISATION AND DIGITISATION CONSULTING SERVICES ____________ No.______ (Date) (Place) INFORMATION ABOUT SUPPLIER INFORMATION ABOUT ECONOMIC ENTITIES Economic entities on whom the supplier will rely upon: OTHER INFORMATION The application is accompanied with the following documents: Pursuant to Clause 10.6.2 of the DPS documents we a…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Lietuviu kalba/Pirkimo dokumentai_unpacked/word/document.xml",
+            "source_url": null,
+            "source_sha256": "cf7465830eae4aa5ac529d3c6f8a8753d22338adeef5d058c6f3a9740e1aabaa",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "al=\"left\" w:pos=\"851\"/> 6. DOCUMENTS OF THE APPLICATION FORM <",
+            "source": "files/Konkurso_20salygos_unpacked/Konkurso salygos/Anglu k/Pirkimo dokumentai ENG_unpacked/word/document.xml",
+            "source_url": null,
+            "source_sha256": "557e9e9a87e9a7f2b92b5a1ca443e9f32050679d2d664e5bb4ff7a5cbb70b770",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "xt uri=\"{05A4C25C-085E-4340-85A3-A5531E510DB2}\"><thm15:themeFamily xmlns:thm15=\"http://schemas.microsoft.com/office/thememl/2012/main\" name=\"Office Theme\" id=\"{62F939B6-93AF-4DB8-9C6B-D6C7DFDC589F}\" vid=\"{4A3C46E8-61CC-4603-A589-7422A47A8E4A}\"/></a:ext></a:extLst></a:theme> ===== FILE: files/ITT_537792_2_unpacked/6 priedas_ENG PATIKLSINTAS - TEISINGAS 2018-10-31_unpacked/theme/theme/themeManager.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <a:themeManager xmlns:a=\"http://schemas.openxmlformats…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.pdf",
+            "source_url": null,
+            "source_sha256": "bc33b33b1f103df2e4040482e417c4d6eca7c388e531407e70d4d14c20f9ec62",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ". Ekonominės veiklos vykdytojai oficialiai sutinka [nurodyti perkančiąją organizaciją ar perkantįjį subjektą, kaip nustatyta I dalies A skirsnyje] leisti susipažinti su dokumentais, kuriais patvirtinama informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento [nurodyti atitinkamą dalį / skirsnį / punktą (-us)], dėl [nurodyti viešojo pirkimo procedūrą: (trumpas aprašymas, paskelbimo Europos Sąjungos oficialiajame leidinyje nuoroda, nuorodos numeris)]. Data, vieta ir, jei reikia ar būtina, parašas (-ai):…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/2 priedas espd-request EBVPD.xml",
+            "source_url": null,
+            "source_sha256": "aafdc2ca9c24a5b7525799cb08c29ef28b501e9a3082c1b80f234279ab5fece3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX ===== Qualification Requirements for Suppliers 1. The supplier (including all members of the supplier group, if the tender is submitted by a supplier group) and the economic operators whose capacities the supplier uses must meet the following requirements for the absence of grounds for exclusion (a detailed procedure for the elimination of the grounds for exclusion is set out in Section 4 of the General …",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "lier who is a legal entity, another organisation or its unit has not been subject to a conviction and sentence within the last 5 (five) years. | An extract from the court decision or a document issued by the Information Technology and Communications Department under the Ministry of the Interior or the State Enterprise Centre of Registers in accordance with the procedure defined by the Government of the Republic of Lithuania, approving joint data processed by the competent authorities, or a document of a relevant f…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "procedure only if it provides reasonable evidence that it will be able to properly execute the Procurement Contract); 2) the supplier has committed serious professional misconduct and, therefore, there are doubts that it will perform the concluded Procurement Contract in good faith. The supplier shall be excluded from the procurement procedures for the following violations: (a) breach of professional ethics, when less than one year has elapsed since the acknowledgement of the supplier as not complying with the rul…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "within the last three (3) years or within the term from the date of registration of the Supplier (if the Supplier pursues his activity for less than three (3) years) part of ongoing Procurement contract (-s) is not less than: Category 1 – EUR 240.000,00 excluding VAT; Category 2 – EUR 360.000,00 excluding VAT; Category 3 – EUR 240.000,00 excluding VAT; Category 4 – EUR 1.900.000,00 excluding VAT; Category 5 – EUR 1.700.000,00 excluding VAT. * category 1 – project and change management consulting services; category…",
+            "source": "files/ITT_537792_2_unpacked/Konkurso salygos_unpacked/Konkurso salygos/Anglu k/4 priedas kvalifikacija ENG.DOCX",
+            "source_url": null,
+            "source_sha256": "0a3e8fa1e23a316b1a0d8d344e2034ecd19cca529b0bec60aaf35fa6918c3a39",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -683,14 +2309,81 @@
         "release_tag": "dce-harvest-32411476272"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 338429,
+        "attributed_compact_snippets": 6,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "certifications_partner": [
+          {
+            "text": "τά το κλείσιμο. Να φέρουν εγκοπές στην αυτοκόλλητη πλευρά για ευκολότερο άνοιγμα της σακούλας Απαιτούνται δειγματα 2 τμχ/μεγεθος 62 / 109 μετά το σφράγισμα, διασφαλίζοντας την άσηπτη τεχνική. Να διαθέτει μεγάλο πεδίο αναγραφής στοιχείων του αποστειρωμένου υλικού και της ημερομηνίας κλεισίματος. Ελεύθερες latex και φθαλικών ενώσεων. Να κατατεθούν για την αξιολόγηση του είδους το ξενόγλωσσο (Αγγλικό ) φυλλάδιο με πιστή μετάφραση στα Ελληνικά, οι οδηγίες χρήσης του προϊόντος (Αγγλικό και Ελληνικό κείμενο) και τα εν ι…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ο. Να φέρουν εγκοπές στην αυτοκόλλητη πλευρά για ευκολότερο άνοιγμα της σακούλας Απαιτούνται δειγματα 2 τμχ/μεγεθος 62 / 109 μετά το σφράγισμα, διασφαλίζοντας την άσηπτη τεχνική. Να διαθέτει μεγάλο πεδίο αναγραφής στοιχείων του αποστειρωμένου υλικού και της ημερομηνίας κλεισίματος. Ελεύθερες latex και φθαλικών ενώσεων. Να κατατεθούν για την αξιολόγηση του είδους το ξενόγλωσσο (Αγγλικό ) φυλλάδιο με πιστή μετάφραση στα Ελληνικά, οι οδηγίες χρήσης του προϊόντος (Αγγλικό και Ελληνικό κείμενο) και τα εν ισχύ πιστοποιη…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": ", με τις συνέπειες του ν. 1599/1986. Το ΕΕΕΣ21 καταρτίζεται βάσει του τυποποιημένου εντύπου του Παραρτήματος 2 του Κανονισμού (ΕΕ) 2016/7 και συμπληρώνεται από τους προσφέροντες οικονομικούς φορείς σύμφωνα με τις οδηγίες του Παραρτήματος 1.22 21 Το ΕΕΕΣ περιλαμβάνει τα ακόλουθα Μέρη: Μέρος Ι Πληροφορίες σχετικά με τη διαδικασία σύναψης σύμβασης και την αναθέτουσα αρχή, Μέρος ΙΙ Πληροφορίες σχετικά με τον οικονομικό φο ρέα, Μέρος ΙΙΙ Κριτήρια αποκλεισμού, Μέρος IV Κριτήρια Επιλογής, Μέρος VI Τελικές δηλώσεις. 22 Απ…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "του ν. 1599/1986. Το ΕΕΕΣ21 καταρτίζεται βάσει του τυποποιημένου εντύπου του Παραρτήματος 2 του Κανονισμού (ΕΕ) 2016/7 και συμπληρώνεται από τους προσφέροντες οικονομικούς φορείς σύμφωνα με τις οδηγίες του Παραρτήματος 1.22 21 Το ΕΕΕΣ περιλαμβάνει τα ακόλουθα Μέρη: Μέρος Ι Πληροφορίες σχετικά με τη διαδικασία σύναψης σύμβασης και την αναθέτουσα αρχή, Μέρος ΙΙ Πληροφορίες σχετικά με τον οικονομικό φο ρέα, Μέρος ΙΙΙ Κριτήρια αποκλεισμού, Μέρος IV Κριτήρια Επιλογής, Μέρος VI Τελικές δηλώσεις. 22 Από τις 2 -5-2019, πα…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Προκήρυξη της παρούσας σύμβασης απεστάλη με ηλεκτρονικά μέσα για δημοσίευση στις 13/08/2026 07:30 +00:00 στην Υπηρεσία Εκδόσεων της Ευρωπαϊκής Ένωσης. Β. Δημοσίευση σε εθνικό επίπεδο Η Προκήρυξη και τ ο πλήρες κείμενο της παρούσας Διακήρυξης καταχωρήθηκε στο Κεντρικό Ηλεκτρονικό Μητρώο Δημοσίων Συμβάσεων (ΚΗΜΔΗΣ). Τα έγγραφα της σύμβασης της παρούσας Διακήρυξης καταχωρήθηκαν στη σχετική ηλεκτρονική διαδικασία σύναψης δημόσιας σύμβασης στο ΕΣΗΔΗΣ, η οποία έλαβε Συστημικό Αύξοντα Αριθμό 515064 και αναρτήθηκαν στη Δι…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "σύμφωνα με το άρθρο 5.4. της Διακήρυξης. Άρθρο 16 Συμμόρφωση με τον Κανο νισμό ΕΕ/2016/2019 και τον ν. 4624/2019 (Α 137) 43 [Η διατύπωση που ακολουθεί είναι ενδεικτική. Ο όρος προσαρμόζεται ανάλογα με το αντικείμενο της σύμβασης και τις ανάγκες της αναθέτουσας αρχής] Τα αντισυμβαλλόμενα μέρη αναλαμβάνουν να τηρούν τις υποχρεώσε ις που απορρέουν από την εφαρμογή του Κανονισμού (ΕΕ) 2016/679 για την προστασία των φυσικών προσώπων έναντι της επεξεργασίας των δεδομένων προσωπικού χαρακτήρα και για την ελεύθερη κυκλοφο…",
+            "source": "files/26PROC019647096.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC019647096",
+            "source_sha256": "d60fa13b8781bdfa08ca4c8c80d9850e54291e01ffb50c07eabe9347d9b723e7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
