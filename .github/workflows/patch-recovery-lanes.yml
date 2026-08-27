@@ -1,0 +1,105 @@
+name: Patch Recovery Lanes
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-recovery-lanes.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: patch-recovery-lanes
+  cancel-in-progress: false
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Patch explicit DCE force-retry and exhaustive stress throughput
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('pipeline/materialize_dce_selection.py')
+          s=p.read_text(encoding='utf-8')
+
+          old='''        if isinstance(obj, dict) and isinstance(obj.get("candidate_ids"), list):\n            default_score = min(89, int(obj.get("default_preliminary_score", 84)))\n            default_status = str(obj.get("status") or "DCE_PENDING")\n            default_run = obj.get("wide_read_run_id")\n            default_reason = obj.get("selection_reason")\n            out = []\n'''
+          new='''        if isinstance(obj, dict) and isinstance(obj.get("candidate_ids"), list):\n            default_score = min(89, int(obj.get("default_preliminary_score", 84)))\n            default_status = str(obj.get("status") or "DCE_PENDING")\n            default_run = obj.get("wide_read_run_id")\n            default_reason = obj.get("selection_reason")\n            default_force_retry = bool(obj.get("force_retry"))\n            out = []\n'''
+          if old not in s and 'default_force_retry = bool(obj.get("force_retry"))' not in s:
+              raise SystemExit('materialize load_selection anchor missing')
+          s=s.replace(old,new)
+
+          old='''                if default_reason:\n                    rec["selection_reason"] = default_reason\n                out.append(rec)\n'''
+          new='''                if default_reason:\n                    rec["selection_reason"] = default_reason\n                if default_force_retry:\n                    rec["force_retry"] = True\n                out.append(rec)\n'''
+          if old not in s and 'rec["force_retry"] = True' not in s:
+              raise SystemExit('materialize force_retry propagation anchor missing')
+          s=s.replace(old,new)
+
+          old='''            "selection_freshness",\n            "qwen",\n        ):\n'''
+          new='''            "selection_freshness",\n            "qwen",\n            "force_retry",\n        ):\n'''
+          if old not in s and '            "force_retry",\n        ):' not in s:
+              raise SystemExit('materialize copied fields anchor missing')
+          s=s.replace(old,new)
+
+          old='''        # Check both the historical raw source identity and the new canonical\n        # semantic identity so this migration cannot re-attempt old DCE work.\n        if was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index):\n            excluded_attempted.append(cid)\n            continue\n'''
+          new='''        # Check both the historical raw source identity and the new canonical\n        # semantic identity so normal discovery does not re-attempt old DCE work.\n        # A force_retry flag is accepted only from an explicit selection manifest;\n        # it exists for repair lanes after a previous incomplete/authenticity review.\n        force_retry = bool(sel.get("force_retry"))\n        if not force_retry and (was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index)):\n            excluded_attempted.append(cid)\n            continue\n        if force_retry:\n            candidate_for_attempt["force_retry"] = True\n'''
+          if old not in s and 'force_retry = bool(sel.get("force_retry"))' not in s:
+              raise SystemExit('materialize attempt anchor missing')
+          s=s.replace(old,new)
+          p.write_text(s,encoding='utf-8')
+
+          w=Path('.github/workflows/gpt-gate-stress-surface.yml')
+          t=w.read_text(encoding='utf-8')
+          t=t.replace('  cancel-in-progress: true\n','  cancel-in-progress: false\n')
+          t=t.replace('    timeout-minutes: 30\n','    timeout-minutes: 55\n')
+
+          start='''          while read -r run_id; do\n            [ -n "$run_id" ] || continue\n            dir="/tmp/gpt-gate-stress-releases/$run_id"\n            mkdir -p "$dir"\n            mapfile -t shards < <(awk -F '\\t' -v r="$run_id" '$1==r {print $2}' /tmp/gate-pairs.tsv | sort -n -u)\n            args=()\n            for shard in "${shards[@]}"; do\n              args+=(--pattern "fast-adjudication-shard-${shard}.jsonl")\n            done\n            ok=0\n            for attempt in 1 2 3 4 5 6 7 8; do\n              if gh release download "dce-harvest-$run_id" "${args[@]}" --dir "$dir" --skip-existing; then\n                ok=1\n                break\n              fi\n              echo "release download retry run=$run_id attempt=$attempt" >&2\n              sleep "$((attempt * 12))"\n            done\n            [ "$ok" -eq 1 ] || { echo "Unable to recover release dce-harvest-$run_id after retries" >&2; exit 1; }\n            sleep 1\n          done </tmp/gate-runs.txt\n'''
+          repl='''          export GH_TOKEN\n          cat /tmp/gate-runs.txt | xargs -r -P 10 -I{} bash -c '\n            set -euo pipefail\n            run_id="$1"\n            dir="/tmp/gpt-gate-stress-releases/$run_id"\n            mkdir -p "$dir"\n            ok=0\n            for attempt in 1 2 3 4; do\n              if gh release download "dce-harvest-$run_id" --pattern "fast-adjudication-shard-*.jsonl" --dir "$dir" --skip-existing >/dev/null 2>&1; then\n                ok=1\n                break\n              fi\n              sleep "$((attempt * 4))"\n            done\n            [ "$ok" -eq 1 ] || { echo "Unable to recover release dce-harvest-$run_id" >&2; exit 1; }\n          ' _ {}\n'''
+          if start in t:
+              t=t.replace(start,repl)
+          elif 'cat /tmp/gate-runs.txt | xargs -r -P 10' not in t:
+              raise SystemExit('stress download block anchor missing')
+          w.write_text(t,encoding='utf-8')
+          PY
+
+          python -m py_compile pipeline/materialize_dce_selection.py pipeline/build_gpt_gate_stress_batches.py
+          python - <<'PY'
+          import json, tempfile
+          from pathlib import Path
+          from pipeline.materialize_dce_selection import load_selection
+          with tempfile.TemporaryDirectory() as td:
+              p=Path(td)/'selection.json'
+              p.write_text(json.dumps({'candidate_ids':['X:1'],'force_retry':True,'default_preliminary_score':84}),encoding='utf-8')
+              rows=load_selection(p)
+              assert rows and rows[0].get('force_retry') is True, rows
+          print('force_retry selection propagation OK')
+          PY
+
+      - name: Persist recovery patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          git add pipeline/materialize_dce_selection.py .github/workflows/gpt-gate-stress-surface.yml
+          git commit -m 'fix: allow explicit DCE repair and parallel stress recovery' || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort >/dev/null 2>&1 || true
+            sleep "$((i*2))"
+          done
+          exit 1
