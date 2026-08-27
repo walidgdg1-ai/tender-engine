@@ -239,8 +239,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:590640-2026** · POL · p=40 · deadline=2026-09-11T02:00:00+00:00 · blockers=none · Poland – Advertising film production – Przedmiotem zamówienia jest świadczenie przez Wykonawcę usług polegających na kompleksowej produkcji materiałów audiowizualnych dotyczących Funduszy Europejskich i Krajowego Planu Odbudowy i Zwiększania Odporności
 - **TED:534361-2026** · NLD · p=40 · deadline=2026-09-21T10:00:00+00:00 · blockers=none · Netherlands – Services in connection with motion-picture and video-tape production – Video en animatie
 - **TED:587199-2026** · SWE · p=40 · deadline=2026-09-24T22:00:00+00:00 · blockers=none · Sweden – Advertising film production – Ramavtal Kommunikationstjänster -26
-- **US-SAM:de0bd74021874d7f860f43f3e866a886** · US · p=38 · deadline=2026-08-27T14:00:00+00:00 · blockers=none · TACOM - Command Video Production
-- **US-SAM:f5f0b7889f354ec4b5620f73a518f9be** · US · p=38 · deadline=2026-08-27T14:00:00+00:00 · blockers=none · TACOM - Command Video Production
 
 ## web_cms
 - **TED:522221-2026** · FRA · p=86 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · France – Graphic design services – Prestations graphiques, vidéos, podcasts, impression et rédaction
