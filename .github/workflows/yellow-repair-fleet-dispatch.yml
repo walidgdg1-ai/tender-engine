@@ -1,0 +1,60 @@
+name: Dispatch YELLOW Repair via Fleet Token
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/yellow-repair-fleet-dispatch.yml'
+      - 'control/yellow_repair_request.json'
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: yellow-repair-fleet-dispatch
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Dispatch exact repair request with fleet credential
+        env:
+          GH_TOKEN: ${{ secrets.FLEET_GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo 'FLEET_GITHUB_TOKEN is not configured; refusing to silently fall back to the rate-limited installation token.' >&2
+            exit 2
+          fi
+          count="$(python - <<'PY'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(len(x.get('candidate_ids') or []))
+          PY
+          )"
+          source_run="$(python - <<'PY'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(x.get('source_discovery_run') or '')
+          PY
+          )"
+          [[ "$source_run" =~ ^[0-9]+$ ]] || { echo "Invalid source run: $source_run" >&2; exit 1; }
+          [ "$count" -gt 0 ] || { echo 'No YELLOW repair candidates.' >&2; exit 1; }
+          parallel=$(( count < 18 ? count : 18 ))
+          gh workflow run dce-fanout-v2.yml --ref main \
+            -f selection_path='control/yellow_repair_request.json' \
+            -f source_discovery_run="$source_run" \
+            -f max_jobs="$count" \
+            -f max_parallel="$parallel" \
+            -f max_shards='128' \
+            -f jobs_per_shard='0'
+          echo "Fleet-token dispatch issued: candidates=$count source_run=$source_run parallel=$parallel"
