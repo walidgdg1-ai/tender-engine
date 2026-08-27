@@ -1,0 +1,8 @@
+{
+  "schema": "YELLOW_REPAIR_LAUNCH_V2",
+  "request_path": "control/yellow_repair_request.json",
+  "requested_candidates": 67,
+  "queue_builder": "pipeline/build_yellow_repair_queue.py",
+  "force_retry": true,
+  "reason": "Recover every live unresolved YELLOW from durable repo stores and re-fetch authoritative DCE evidence without relying on a single discovery snapshot."
+}
