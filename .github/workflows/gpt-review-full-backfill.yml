@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/gpt-review-full-backfill.yml'
+  workflow_run:
+    workflows: ["Direct YELLOW DCE Repair V2"]
+    types: [completed]
 
 permissions:
   contents: write
@@ -17,6 +20,7 @@ concurrency:
 
 jobs:
   backfill:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -143,7 +147,7 @@ jobs:
               'review_index_count_after_backfill':int(idx.get('count') or 0),
               'review_index_counts_after_backfill':idx.get('counts') or {},
               'visible_inbox_after_backfill':len(inbox.get('review_queue') or []),
-              'contract':'Full durable DCE sweep under current review semantics. YELLOW is non-terminal; stale run-less ticks cannot suppress newer evidence; visible assistant surface is enlarged to 1000 and exhaustive BUSINESS_GATES stress is dispatched after persistence.',
+              'contract':'Full durable DCE sweep under current review semantics. YELLOW is non-terminal; stale run-less ticks cannot suppress newer evidence; visible assistant surface is enlarged to 1000 and exhaustive BUSINESS_GATES stress follows automatically after successful persistence.',
           }
           Path('control/gpt_review_backfill_state.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print(json.dumps(payload,indent=2))
@@ -174,11 +178,15 @@ jobs:
             sleep "$((n * 2))"
           done
 
-      - name: Launch exhaustive BUSINESS_GATES evidence surface from rebuilt index
+      - name: Best-effort immediate BUSINESS_GATES refresh
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          set -euo pipefail
+          set +e
           gh workflow run gpt-gate-stress-surface.yml --ref main
-          echo 'Dispatched exhaustive GPT gate stress surface after full backfill.'
+          rc=$?
+          if [ "$rc" -ne 0 ]; then
+            echo 'workflow_dispatch unavailable/rate-limited; workflow_run chain will start GPT Gate Stress Surface after this workflow completes.'
+          fi
+          exit 0
