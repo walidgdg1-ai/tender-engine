@@ -1,49 +1,159 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33009403547,
-  "total_inbox_rows": 97,
-  "dce_authenticity_rows": 17,
+  "latest_source_dce_run_id": 32999332964,
+  "total_inbox_rows": 160,
+  "dce_authenticity_rows": 20,
   "portal_counts": {
-    "TED": 10,
-    "PL_EZAMOWIENIA": 3,
-    "US_SAM": 3,
-    "CA_CANADABUYS": 1
+    "GENERIC_PUBLIC_PAGE": 2,
+    "GR_KHMDHS": 2,
+    "PL_EZAMOWIENIA": 2,
+    "TED": 2,
+    "US_SAM": 1,
+    "ZA_ETENDERS": 1,
+    "CA_CANADABUYS": 1,
+    "CYPRUS_EPPS": 1,
+    "DE_DOE": 1,
+    "EE_RHR": 1,
+    "ES_PLACSP": 1,
+    "IRELAND_ETENDERS": 1,
+    "LV_IUB": 1,
+    "SCOTLAND_PCS": 1,
+    "SK_UVO": 1,
+    "WORLD_BANK": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 13,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 4
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 11,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 9
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 17
+    "NON_AUTHORITATIVE": 19,
+    "ERROR_RETRYABLE": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
     {
-      "portal": "TED",
-      "blocked": 10,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 10
-      }
-    },
-    {
       "portal": "PL_EZAMOWIENIA",
-      "blocked": 3,
-      "likely_public_recovery_target": 0,
+      "blocked": 2,
+      "likely_public_recovery_target": 1,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 3
+        "ERROR_RETRYABLE": 1,
+        "NON_AUTHORITATIVE": 1
       }
     },
     {
-      "portal": "US_SAM",
-      "blocked": 3,
+      "portal": "GENERIC_PUBLIC_PAGE",
+      "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
-        "NON_AUTHORITATIVE": 3
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "GR_KHMDHS",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "TED",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
       }
     },
     {
       "portal": "CA_CANADABUYS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "CYPRUS_EPPS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "DE_DOE",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "EE_RHR",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "ES_PLACSP",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "IRELAND_ETENDERS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "LV_IUB",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "SCOTLAND_PCS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "SK_UVO",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "US_SAM",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "WORLD_BANK",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "ZA_ETENDERS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -54,44 +164,54 @@
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
       {
-        "candidate_id": "TED:587130-2026",
-        "portal": "TED",
-        "title": "Italy – Printing services – Centro Stampa",
-        "buyer": "ASL Roma 2",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/587130-2026"
-      },
-      {
-        "candidate_id": "PL-BZP:08df035c-088e-ad8c-ab56-940001283b52",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Produkcja dwóch spotów reklamowych promujących markę Fundusze Europejskie dla Dolnego Śląska.",
-        "buyer": "Województwo Dolnośląskie - Urząd Marszałkowski Województwa Dolnośląskiego",
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165596-2026-08-14",
+        "portal": "GENERIC_PUBLIC_PAGE",
+        "title": "00407/26",
+        "buyer": "JOBURG THEATRE (SOC) LTD",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df035c-088e-ad8c-ab56-940001283b52"
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-165596"
       },
       {
-        "candidate_id": "US-SAM:33901f320a5e426f9dc596311be20710",
+        "candidate_id": "GR-KHMDHS:26PROC019635868",
+        "portal": "GR_KHMDHS",
+        "title": "ΠΡΟΜΗΘΕΙΑ ΚΑΜΕΡΩΝ ΚΑΙ ΔΙΚΤΥΑΚΟΥ ΕΞΟΠΛΙΣΜΟΥ",
+        "buyer": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019635868"
+      },
+      {
+        "candidate_id": "TED:512394-2026",
+        "portal": "TED",
+        "title": "Spain – E-learning services – Suscripción a plataforma de autoaprendizaje",
+        "buyer": "EJIE, S.A. - Sociedad Informática del Gobierno Vasco - EJIE-Sociedad Informática del Gobierno Vasco",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/512394-2026"
+      },
+      {
+        "candidate_id": "US-SAM:a9f6c311bca748fda0da4ddd2570bd96",
         "portal": "US_SAM",
-        "title": "C5 - APX-119 Identification of Friend or Foe (IFF) Transponder Software",
-        "buyer": "DEPT OF DEFENSE",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://sam.gov/opp/33901f320a5e426f9dc596311be20710/view"
-      },
-      {
-        "candidate_id": "CA:BPM026432/34593",
-        "portal": "CA_CANADABUYS",
-        "title": "RFQ – FB-S200-D-1735TB - 1MO,ADV,GOLD Hardware and Software Maintenance and Support Renewal, or equivalent for DFO",
-        "buyer": null,
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": null
-      },
-      {
-        "candidate_id": "TED:505229-2026",
-        "portal": "TED",
-        "title": "Germany – Education and training services – Aufsuchendes Coaching (ACo)",
-        "buyer": "Jobcenter Landkreis Ludwigsburg",
+        "title": "Solicitation for Logistical Support for CDC",
+        "buyer": "STATE, DEPARTMENT OF",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/505229-2026"
+        "notice_url": "https://sam.gov/workspace/contract/opp/a9f6c311bca748fda0da4ddd2570bd96/view"
+      },
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-164989-2026-08-07",
+        "portal": "ZA_ETENDERS",
+        "title": "F (BT) 01-2027",
+        "buyer": "Mogale City Local Municipality",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-164989"
+      }
+    ],
+    "ERROR_RETRYABLE": [
+      {
+        "candidate_id": "PL-BZP:08defd23-6867-eeec-962b-12000115cba3",
+        "portal": "PL_EZAMOWIENIA",
+        "title": "Dostawa wyposażenia łazienek biurowych i koszy na odpady",
+        "buyer": "NARODOWY BANK POLSKI",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defd23-6867-eeec-962b-12000115cba3"
       }
     ]
   },
