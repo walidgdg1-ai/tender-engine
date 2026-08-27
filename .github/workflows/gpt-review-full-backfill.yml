@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/gpt-review-full-backfill.yml'
+      - 'control/gpt_review_full_backfill_trigger.json'
   workflow_run:
     workflows: ["Direct YELLOW DCE Repair V2"]
     types: [completed]
@@ -36,9 +36,11 @@ jobs:
       - name: Install recovery dependency
         run: python -m pip install --disable-pip-version-check -q requests
 
-      - name: Recover every durable DCE fast-adjudication shard
+      - name: Recover DCE fast-adjudication evidence
         env:
           GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          PARENT_RUN_ID: ${{ github.event.workflow_run.id }}
         shell: bash
         run: |
           set -euo pipefail
@@ -46,37 +48,61 @@ jobs:
           rm -rf "$root"
           mkdir -p "$root"
 
-          mapfile -t tags < <(
-            gh release list --limit 5000 --json tagName \
-              --jq '.[] | select(.tagName | startswith("dce-harvest-")) | .tagName'
-          )
-          if [ "${#tags[@]}" -eq 0 ]; then
-            echo 'No durable DCE releases found.' >&2
-            exit 1
-          fi
-
-          printf '%s\n' "${tags[@]}" > /tmp/dce-release-tags.txt
-          export root
-          cat /tmp/dce-release-tags.txt | xargs -r -P 10 -I{} bash -c '
-            tag="$1"
-            rid="${tag#dce-harvest-}"
+          if [ "${EVENT_NAME:-}" = "workflow_run" ]; then
+            # Post-repair refresh is intentionally incremental. build_gpt_review_index.py
+            # merges the existing durable uncapped index with these new source rows, and
+            # rebuild_gpt_review_bank_from_release.py does the same for the visible hot
+            # surface. Re-downloading 500+ historical releases would waste API quota and
+            # cannot improve the result here.
+            rid="${PARENT_RUN_ID:-}"
+            [[ "$rid" =~ ^[0-9]+$ ]] || { echo "Invalid parent run id: $rid" >&2; exit 1; }
             dir="$root/$rid"
             mkdir -p "$dir"
-            gh release download "$tag" \
-              --pattern "fast-adjudication-shard-*.jsonl" \
-              --dir "$dir" >/dev/null 2>&1 || true
-          ' _ {}
+            asset='fast-adjudication-shard-yellow-repair.jsonl'
+            url="https://github.com/walidgdg1-ai/tender-engine/releases/download/dce-harvest-${rid}/${asset}"
+            curl -fL --silent --show-error \
+              --connect-timeout 15 --max-time 180 \
+              --retry 12 --retry-all-errors --retry-delay 3 \
+              -o "$dir/$asset" "$url"
+            test -s "$dir/$asset"
+            echo INCREMENTAL_POST_YELLOW_REPAIR > /tmp/dce-refresh-mode.txt
+            echo 1 > /tmp/dce-release-count.txt
+            echo 1 > /tmp/dce-shard-count.txt
+            echo "$rid" > /tmp/dce-refresh-run-id.txt
+            echo "Recovered post-repair DCE release=$rid via public release CDN"
+          else
+            # Explicit manual/full-audit mode keeps the historical sweep contract.
+            # It is not used by the automatic post-repair chain.
+            mapfile -t tags < <(
+              gh release list --limit 5000 --json tagName \
+                --jq '.[] | select(.tagName | startswith("dce-harvest-")) | .tagName'
+            )
+            if [ "${#tags[@]}" -eq 0 ]; then
+              echo 'No durable DCE releases found.' >&2
+              exit 1
+            fi
+            printf '%s\n' "${tags[@]}" > /tmp/dce-release-tags.txt
+            export root
+            cat /tmp/dce-release-tags.txt | xargs -r -P 6 -I{} bash -c '
+              tag="$1"
+              rid="${tag#dce-harvest-}"
+              dir="$root/$rid"
+              mkdir -p "$dir"
+              gh release download "$tag" \
+                --pattern "fast-adjudication-shard-*.jsonl" \
+                --dir "$dir" >/dev/null 2>&1 || true
+            ' _ {}
+            release_count="${#tags[@]}"
+            shard_count="$(find "$root" -type f -name 'fast-adjudication-shard-*.jsonl' | wc -l | tr -d ' ')"
+            test "$shard_count" -gt 0
+            echo FULL_HISTORICAL_AUDIT > /tmp/dce-refresh-mode.txt
+            printf '%s\n' "$release_count" > /tmp/dce-release-count.txt
+            printf '%s\n' "$shard_count" > /tmp/dce-shard-count.txt
+            echo 0 > /tmp/dce-refresh-run-id.txt
+            echo "Recovered DCE releases=$release_count fast_adjudication_shards=$shard_count"
+          fi
 
-          release_count="${#tags[@]}"
-          shard_count="$(find "$root" -type f -name 'fast-adjudication-shard-*.jsonl' | wc -l | tr -d ' ')"
-          echo "Recovered DCE releases=$release_count fast_adjudication_shards=$shard_count"
-          test "$shard_count" -gt 0
-          printf '%s\n' "$release_count" > /tmp/dce-release-count.txt
-          printf '%s\n' "$shard_count" > /tmp/dce-shard-count.txt
-
-      - name: Rebuild full index, enlarged review surface and assistant batches
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Rebuild durable index, enlarged review surface and assistant batches
         shell: bash
         run: |
           set -euo pipefail
@@ -87,9 +113,6 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
-            # Consume durable GPT decisions first, then rebuild from ALL durable DCE
-            # fast-adjudication shards. YELLOW is intentionally non-terminal in the
-            # current review-index contract, so repairable rows can re-enter.
             python pipeline/merge_gpt_adjudications_into_final_bank.py
             python pipeline/build_gpt_review_index.py \
               --release-root /tmp/dce-review-full \
@@ -98,8 +121,6 @@ jobs:
               --review-ledger control/gpt_web_review_ledger.json \
               --out control/gpt_review_index.json
 
-            # Hydrate a much larger visible review surface directly from the already
-            # recovered complete release set instead of the historical 160-row cap.
             python pipeline/rebuild_gpt_review_bank_from_release.py \
               --release-root /tmp/dce-review-full \
               --existing control/gpt_review_hot.json \
@@ -136,18 +157,30 @@ jobs:
 
           idx=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
           inbox=json.load(open('control/gpt_supergreen_inbox.json',encoding='utf-8'))
+          mode=Path('/tmp/dce-refresh-mode.txt').read_text().strip()
           release_count=int(Path('/tmp/dce-release-count.txt').read_text().strip())
           shard_count=int(Path('/tmp/dce-shard-count.txt').read_text().strip())
+          refresh_run=int(Path('/tmp/dce-refresh-run-id.txt').read_text().strip())
+          previous={}
+          try:
+              previous=json.load(open('control/gpt_review_backfill_state.json',encoding='utf-8'))
+          except Exception:
+              pass
           payload={
-              'schema':'GPT_REVIEW_FULL_BACKFILL_STATE_V2_RECOVERY_AND_VISIBLE_SURFACE',
+              'schema':'GPT_REVIEW_BACKFILL_STATE_V3_INCREMENTAL_SAFE',
               'updated_at':datetime.now(timezone.utc).isoformat(),
               'backfill_complete':True,
-              'dce_releases_enumerated':release_count,
-              'fast_adjudication_shards_recovered':shard_count,
+              'refresh_mode':mode,
+              'source_dce_run_id_this_refresh':refresh_run or None,
+              'dce_releases_recovered_this_refresh':release_count,
+              'fast_adjudication_shards_recovered_this_refresh':shard_count,
+              'previous_full_dce_releases_enumerated':previous.get('dce_releases_enumerated') or previous.get('previous_full_dce_releases_enumerated'),
+              'previous_full_fast_adjudication_shards_recovered':previous.get('fast_adjudication_shards_recovered') or previous.get('previous_full_fast_adjudication_shards_recovered'),
               'review_index_count_after_backfill':int(idx.get('count') or 0),
               'review_index_counts_after_backfill':idx.get('counts') or {},
+              'index_recovery_this_refresh':idx.get('recovery') or {},
               'visible_inbox_after_backfill':len(inbox.get('review_queue') or []),
-              'contract':'Full durable DCE sweep under current review semantics. YELLOW is non-terminal; stale run-less ticks cannot suppress newer evidence; visible assistant surface is enlarged to 1000 and exhaustive BUSINESS_GATES stress follows automatically after successful persistence.',
+              'contract':'Durable index merge. Automatic post-YELLOW-repair refresh ingests only the newly published repair release because the existing uncapped index is preserved. YELLOW remains non-terminal; missing evidence remains UNKNOWN. Exhaustive BUSINESS_GATES stress follows by workflow_run.',
           }
           Path('control/gpt_review_backfill_state.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print(json.dumps(payload,indent=2))
@@ -163,30 +196,22 @@ jobs:
             git add -A control/gpt_web_read_batches
 
             if git diff --cached --quiet; then
-              echo 'Full historical GPT review universe already current.'
+              echo 'GPT review universe already current.'
               break
             fi
 
-            git commit -m "review: full historical DCE backfill ${GITHUB_RUN_ID}"
+            git commit -m "review: merge DCE review refresh ${GITHUB_RUN_ID}"
             if git push origin HEAD:main; then
               break
             fi
             if [ "$n" -eq 6 ]; then
-              echo 'Failed to persist full historical review backfill after retries.' >&2
+              echo 'Failed to persist GPT review refresh after retries.' >&2
               exit 1
             fi
             sleep "$((n * 2))"
           done
 
-      - name: Best-effort immediate BUSINESS_GATES refresh
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Note downstream BUSINESS_GATES chain
         shell: bash
         run: |
-          set +e
-          gh workflow run gpt-gate-stress-surface.yml --ref main
-          rc=$?
-          if [ "$rc" -ne 0 ]; then
-            echo 'workflow_dispatch unavailable/rate-limited; workflow_run chain will start GPT Gate Stress Surface after this workflow completes.'
-          fi
-          exit 0
+          echo 'GPT Gate Stress Surface is triggered by workflow_run after this workflow completes successfully; no workflow-dispatch API call is required.'
