@@ -1,4 +1,5 @@
 name: Patch YELLOW Repair Workflow Bridge
+# retrigger: stdlib-only validation
 
 on:
   workflow_dispatch:
@@ -54,8 +55,6 @@ jobs:
 
           p.write_text(s,encoding='utf-8')
 
-          # The repair workflow no longer needs to fail on an API dispatch that may
-          # be rate-limited. Its completion itself is now the durable trigger.
           y=Path('.github/workflows/yellow-repair-dce.yml')
           t=y.read_text(encoding='utf-8')
           marker='      - name: Dispatch fresh DCE repair fanout\n'
@@ -66,10 +65,14 @@ jobs:
           PY
 
           python - <<'PY'
-          import yaml
-          for f in ('.github/workflows/dce-fanout-v2.yml','.github/workflows/yellow-repair-dce.yml'):
-              yaml.safe_load(open(f,encoding='utf-8'))
-              print('YAML OK',f)
+          from pathlib import Path
+          d=Path('.github/workflows/dce-fanout-v2.yml').read_text(encoding='utf-8')
+          y=Path('.github/workflows/yellow-repair-dce.yml').read_text(encoding='utf-8')
+          assert 'workflows: ["Repair Open YELLOW DCEs"]' in d
+          assert 'Workflow-run bridge: selection=' in d
+          assert 'Finish via workflow-run bridge' in y
+          assert 'gh workflow run dce-fanout-v2.yml' not in y
+          print('bridge patch structural checks OK')
           PY
         env:
           PYTHONUNBUFFERED: '1'
