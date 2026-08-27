@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: gpt-review-full-historical-backfill
@@ -52,7 +53,7 @@ jobs:
 
           printf '%s\n' "${tags[@]}" > /tmp/dce-release-tags.txt
           export root
-          cat /tmp/dce-release-tags.txt | xargs -r -P 8 -I{} bash -c '
+          cat /tmp/dce-release-tags.txt | xargs -r -P 10 -I{} bash -c '
             tag="$1"
             rid="${tag#dce-harvest-}"
             dir="$root/$rid"
@@ -69,7 +70,7 @@ jobs:
           printf '%s\n' "$release_count" > /tmp/dce-release-count.txt
           printf '%s\n' "$shard_count" > /tmp/dce-shard-count.txt
 
-      - name: Rebuild the true persistent GPT review universe
+      - name: Rebuild full index, enlarged review surface and assistant batches
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -83,8 +84,8 @@ jobs:
             git reset --hard origin/main
 
             # Consume durable GPT decisions first, then rebuild from ALL durable DCE
-            # fast-adjudication shards. The ordinary live refresh only re-reads a
-            # recent window; this one-shot backfill closes the historical gap.
+            # fast-adjudication shards. YELLOW is intentionally non-terminal in the
+            # current review-index contract, so repairable rows can re-enter.
             python pipeline/merge_gpt_adjudications_into_final_bank.py
             python pipeline/build_gpt_review_index.py \
               --release-root /tmp/dce-review-full \
@@ -93,11 +94,36 @@ jobs:
               --review-ledger control/gpt_web_review_ledger.json \
               --out control/gpt_review_index.json
 
+            # Hydrate a much larger visible review surface directly from the already
+            # recovered complete release set instead of the historical 160-row cap.
             python pipeline/rebuild_gpt_review_bank_from_release.py \
               --release-root /tmp/dce-review-full \
               --existing control/gpt_review_hot.json \
               --out control/gpt_review_hot.json \
-              --max-items 160
+              --max-items 1000
+
+            GH_TOKEN='' GITHUB_TOKEN='' python pipeline/refresh_gpt_inbox_live.py \
+              --existing control/gpt_supergreen_inbox.json \
+              --final-bank control/final_supergreen_bank.json \
+              --hot-green control/supergreen_hot.json \
+              --hot-review control/gpt_review_hot.json \
+              --review-ledger control/gpt_web_review_ledger.json \
+              --out control/gpt_supergreen_inbox.json \
+              --max-items 1000
+
+            rm -rf control/gpt_web_read_batches
+            python pipeline/build_gpt_web_read_batches.py \
+              --inbox control/gpt_supergreen_inbox.json \
+              --provenance-overrides control/gpt_provenance_overrides.json \
+              --out-dir control/gpt_web_read_batches \
+              --batch-size 25
+
+            python pipeline/build_live_business_review_batch.py \
+              --inbox control/gpt_supergreen_inbox.json \
+              --final-bank control/final_supergreen_bank.json \
+              --ledger control/gpt_web_review_ledger.json \
+              --out control/gpt_live_review_batch.json \
+              --max-items 100
 
             python - <<'PY'
           import json
@@ -105,17 +131,19 @@ jobs:
           from pathlib import Path
 
           idx=json.load(open('control/gpt_review_index.json',encoding='utf-8'))
+          inbox=json.load(open('control/gpt_supergreen_inbox.json',encoding='utf-8'))
           release_count=int(Path('/tmp/dce-release-count.txt').read_text().strip())
           shard_count=int(Path('/tmp/dce-shard-count.txt').read_text().strip())
           payload={
-              'schema':'GPT_REVIEW_FULL_BACKFILL_STATE_V1',
+              'schema':'GPT_REVIEW_FULL_BACKFILL_STATE_V2_RECOVERY_AND_VISIBLE_SURFACE',
               'updated_at':datetime.now(timezone.utc).isoformat(),
               'backfill_complete':True,
               'dce_releases_enumerated':release_count,
               'fast_adjudication_shards_recovered':shard_count,
               'review_index_count_after_backfill':int(idx.get('count') or 0),
               'review_index_counts_after_backfill':idx.get('counts') or {},
-              'contract':'Full durable dce-harvest release sweep. This closes the historical recovery gap left by the normal 10-release incremental refresh; existing final/reviewed/expired filters still apply.',
+              'visible_inbox_after_backfill':len(inbox.get('review_queue') or []),
+              'contract':'Full durable DCE sweep under current review semantics. YELLOW is non-terminal; stale run-less ticks cannot suppress newer evidence; visible assistant surface is enlarged to 1000 and exhaustive BUSINESS_GATES stress is dispatched after persistence.',
           }
           Path('control/gpt_review_backfill_state.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print(json.dumps(payload,indent=2))
@@ -125,7 +153,10 @@ jobs:
               control/final_supergreen_bank.json \
               control/gpt_review_index.json \
               control/gpt_review_hot.json \
+              control/gpt_supergreen_inbox.json \
+              control/gpt_live_review_batch.json \
               control/gpt_review_backfill_state.json
+            git add -A control/gpt_web_read_batches
 
             if git diff --cached --quiet; then
               echo 'Full historical GPT review universe already current.'
@@ -142,3 +173,12 @@ jobs:
             fi
             sleep "$((n * 2))"
           done
+
+      - name: Launch exhaustive BUSINESS_GATES evidence surface from rebuilt index
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run gpt-gate-stress-surface.yml --ref main
+          echo 'Dispatched exhaustive GPT gate stress surface after full backfill.'
