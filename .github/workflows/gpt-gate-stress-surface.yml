@@ -8,6 +8,9 @@ on:
       - 'pipeline/build_gpt_gate_stress_batches.py'
       - '.github/workflows/gpt-gate-stress-surface.yml'
       - 'control/gpt_gate_stress_trigger.json'
+  workflow_run:
+    workflows: ["GPT Review Full Historical Backfill"]
+    types: [completed]
 
 permissions:
   contents: write
@@ -18,6 +21,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
