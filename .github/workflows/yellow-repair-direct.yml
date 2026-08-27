@@ -1,0 +1,217 @@
+name: Direct YELLOW DCE Repair
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'control/yellow_repair_launch.json'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: direct-yellow-dce-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install repair dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -q requests pypdf python-docx openpyxl python-pptx 'playwright>=1.46,<2'
+          command -v 7z >/dev/null 2>&1 || (sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full)
+          chrome="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          if [ -n "$chrome" ]; then
+            echo "CHROME_BIN=$chrome" >> "$GITHUB_ENV"
+            echo "Using preinstalled browser: $chrome"
+          else
+            python -m playwright install --with-deps chromium
+          fi
+
+      - name: Materialize the 67 live YELLOW candidates from canonical discovery
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_run="$(python - <<'PY'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(x['source_discovery_run'])
+          PY
+          )"
+          source_tag="discovery-harvest-${source_run}"
+          mkdir -p source-release source-discovery generated
+          repaired="supergreen-wide-read-${source_run}-repaired.tar.gz"
+          normal="supergreen-wide-read-${source_run}.tar.gz"
+          assets="$(gh release view "$source_tag" --json assets --jq '.assets[].name')"
+          if grep -Fxq "$repaired" <<< "$assets"; then
+            source_asset="$repaired"
+          elif grep -Fxq "$normal" <<< "$assets"; then
+            source_asset="$normal"
+          else
+            echo "No canonical discovery asset in $source_tag" >&2
+            exit 1
+          fi
+          gh release download "$source_tag" --pattern "$source_asset" --dir source-release
+          tar -xzf "source-release/$source_asset" -C source-discovery
+          candidates="$(find source-discovery -type f -name current_candidates.jsonl -print -quit)"
+          test -n "$candidates"
+          python pipeline/materialize_dce_selection.py \
+            --candidates "$candidates" \
+            --selection control/yellow_repair_request.json \
+            --out generated/dce_candidates.jsonl
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          q=Path('generated/dce_candidates.jsonl')
+          rows=[x for x in q.read_text(encoding='utf-8').splitlines() if x.strip()]
+          req=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(f"requested={len(req['candidate_ids'])} materialized={len(rows)}")
+          if len(rows) != len(req['candidate_ids']):
+              raise SystemExit('Repair lane must materialize every requested YELLOW candidate')
+          Path('generated/repair_lines.txt').write_text(','.join(str(i) for i in range(1,len(rows)+1)),encoding='utf-8')
+          PY
+
+      - name: Force fresh DCE resolution for every YELLOW
+        env:
+          DCE_FORCE_RETRY: '1'
+          DCE_LOCAL_CONCURRENCY: '5'
+          DCE_HTTP_LOCAL_CONCURRENCY: '16'
+          DCE_PLACSP_LOCAL_CONCURRENCY: '4'
+          DCE_HTTP_PROBE_CONCURRENCY: '16'
+          DCE_HTTP_PROBE_TIMEOUT_SECONDS: '6'
+          DCE_ITEM_RETRIES: '2'
+          DCE_ITEM_TIMEOUT_SECONDS: '180'
+        shell: bash
+        run: |
+          set -euo pipefail
+          lines="$(cat generated/repair_lines.txt)"
+          python pipeline/dce_batch_worker.py \
+            --queue generated/dce_candidates.jsonl \
+            --lines "$lines" \
+            --out out \
+            --concurrency 5 \
+            --http-concurrency 16 \
+            --placsp-concurrency 4 \
+            --http-probe-concurrency 16 \
+            --http-probe-timeout-seconds 6 \
+            --retries 2 \
+            --timeout-seconds 180
+
+      - name: Rebuild evidence, gates and review rows
+        shell: bash
+        run: |
+          set -euo pipefail
+          DCE_EXTRACT_WORKERS=6 python pipeline/extract_corpus.py --root out
+          python pipeline/dce_evidence_quality.py --root out
+          DCE_GATE_WORKERS=6 python pipeline/extract_gates.py --root out
+          python pipeline/aggregate_dce.py --root out --out repair-aggregate
+          python pipeline/auto_adjudicate_dce.py \
+            --queue repair-aggregate/deep_review_queue.jsonl \
+            --out repair-adjudication \
+            --max-model-reviews 0
+          python pipeline/final_verdict_guard.py --review repair-adjudication/adjudication.jsonl
+          python pipeline/durable_dce_pack.py --root out --out-dir durable
+          python pipeline/slim_dce_output.py --root out --out slim
+
+      - name: Build durable repair release assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp repair-adjudication/adjudication.jsonl fast-adjudication-shard-yellow-repair.jsonl
+          cp repair-adjudication/summary.json fast-adjudication-summary-shard-yellow-repair.json
+          cp repair-adjudication/supergreen_shortlist.json fast-supergreen-shortlist-shard-yellow-repair.json
+          cp repair-aggregate/summary.json "dce-summary-${GITHUB_RUN_ID}.json"
+          tar -C repair-aggregate -czf "dce-deep-review-${GITHUB_RUN_ID}.tar.gz" .
+          tar -C durable -czf "dce-canonical-yellow-repair-${GITHUB_RUN_ID}.tar.gz" .
+          tar -C slim -czf "dce-slim-yellow-repair-${GITHUB_RUN_ID}.tar.gz" .
+
+      - name: Persist repair as a canonical DCE harvest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="dce-harvest-${GITHUB_RUN_ID}"
+          gh release create "$tag" \
+            --target "$GITHUB_SHA" \
+            --title "DCE Harvest ${GITHUB_RUN_ID} — YELLOW repair" \
+            --notes "Explicit fresh DCE repair pass for live unresolved YELLOW candidates. Previous attempt dedupe intentionally bypassed; evidence quality and mandatory-gate extraction rerun from fresh material."
+          gh release upload "$tag" \
+            generated/dce_candidates.jsonl \
+            fast-adjudication-shard-yellow-repair.jsonl \
+            fast-adjudication-summary-shard-yellow-repair.json \
+            fast-supergreen-shortlist-shard-yellow-repair.json \
+            "dce-summary-${GITHUB_RUN_ID}.json" \
+            "dce-deep-review-${GITHUB_RUN_ID}.tar.gz" \
+            "dce-canonical-yellow-repair-${GITHUB_RUN_ID}.tar.gz" \
+            "dce-slim-yellow-repair-${GITHUB_RUN_ID}.tar.gz"
+          gh release view "$tag" --json assets --jq '.assets[].name' | tee /tmp/assets.txt
+          grep -Fxq fast-adjudication-shard-yellow-repair.jsonl /tmp/assets.txt
+          grep -Fxq "dce-deep-review-${GITHUB_RUN_ID}.tar.gz" /tmp/assets.txt
+
+      - name: Persist compact repair state in repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, os
+          from collections import Counter
+          from pathlib import Path
+          req=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          summary=json.load(open('repair-aggregate/summary.json',encoding='utf-8'))
+          rows=[]
+          p=Path('repair-adjudication/adjudication.jsonl')
+          if p.exists():
+              for line in p.read_text(encoding='utf-8').splitlines():
+                  if line.strip():
+                      try: rows.append(json.loads(line))
+                      except Exception: pass
+          classes=Counter(str(r.get('classification') or r.get('final_class') or r.get('verdict') or 'UNKNOWN') for r in rows)
+          state={
+              'schema':'YELLOW_REPAIR_STATE_V2',
+              'run_id':int(os.environ['GITHUB_RUN_ID']),
+              'source_discovery_run':req['source_discovery_run'],
+              'requested':len(req['candidate_ids']),
+              'aggregate_summary':summary,
+              'adjudication_rows':len(rows),
+              'classification_counts':dict(classes),
+              'release_tag':f"dce-harvest-{os.environ['GITHUB_RUN_ID']}",
+          }
+          Path('control/yellow_repair_last_run.json').write_text(json.dumps(state,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          git add control/yellow_repair_last_run.json
+          git commit -m "repair: persist direct YELLOW DCE run ${GITHUB_RUN_ID}" || true
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            git rebase --abort >/dev/null 2>&1 || true
+            [ "$i" -eq 5 ] && exit 1
+            sleep "$((i*2))"
+          done
+
+      - name: Best-effort downstream refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh workflow run gpt-review-full-backfill.yml --ref main || true
+          gh workflow run gpt-inbox-live-refresh.yml --ref main || true
+          gh workflow run dce-progress-ledger.yml --ref main -f dce_run_id="$GITHUB_RUN_ID" || true
