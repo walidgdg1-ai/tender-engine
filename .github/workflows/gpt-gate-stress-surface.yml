@@ -84,22 +84,34 @@ jobs:
           },indent=2))
           PY
 
-          # Public GitHub release assets are addressable deterministically. Downloading
-          # them through the release CDN avoids spending GitHub App REST API quota on
-          # 1k+ tiny assets. Each transfer is atomic and aggressively retried.
           cat /tmp/gate-downloads.tsv | xargs -P 16 -n 4 bash -c '
             set -euo pipefail
             run_id="$1"; shard="$2"; url="$3"; dest="$4"
             mkdir -p "$(dirname "$dest")"
             tmp="${dest}.part"
             rm -f "$tmp"
-            curl -fL --silent --show-error \
-              --connect-timeout 15 \
-              --max-time 180 \
-              --retry 8 \
-              --retry-all-errors \
-              --retry-delay 2 \
-              -o "$tmp" "$url"
+            fetch() {
+              curl -fL --silent --show-error \
+                --connect-timeout 15 \
+                --max-time 180 \
+                --retry 6 \
+                --retry-all-errors \
+                --retry-delay 2 \
+                -o "$tmp" "$1"
+            }
+            if ! fetch "$url"; then
+              # The direct YELLOW repair release uses a semantic asset name. Its
+              # parser intentionally maps that file to shard 0; preserve that
+              # locator contract by materializing it locally as shard-0.
+              if [ "$shard" = "0" ]; then
+                alt="https://github.com/walidgdg1-ai/tender-engine/releases/download/dce-harvest-${run_id}/fast-adjudication-shard-yellow-repair.jsonl"
+                echo "canonical shard-0 absent for run=$run_id; trying repair alias" >&2
+                rm -f "$tmp"
+                fetch "$alt"
+              else
+                exit 1
+              fi
+            fi
             test -s "$tmp"
             mv "$tmp" "$dest"
           ' _
