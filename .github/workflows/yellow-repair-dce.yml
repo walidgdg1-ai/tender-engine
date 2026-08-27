@@ -1,0 +1,188 @@
+name: Repair Open YELLOW DCEs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/yellow-repair-dce.yml'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: yellow-repair-dce
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ensure explicit force-retry lane exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('pipeline/materialize_dce_selection.py')
+          s=p.read_text(encoding='utf-8')
+          changed=False
+          if 'default_force_retry = bool(obj.get("force_retry"))' not in s:
+              s=s.replace(
+                  '            default_reason = obj.get("selection_reason")\n            out = []\n',
+                  '            default_reason = obj.get("selection_reason")\n            default_force_retry = bool(obj.get("force_retry"))\n            out = []\n'
+              )
+              s=s.replace(
+                  '                if default_reason:\n                    rec["selection_reason"] = default_reason\n                out.append(rec)\n',
+                  '                if default_reason:\n                    rec["selection_reason"] = default_reason\n                if default_force_retry:\n                    rec["force_retry"] = True\n                out.append(rec)\n'
+              )
+              changed=True
+          if '            "force_retry",\n        ):' not in s:
+              s=s.replace('            "qwen",\n        ):\n','            "qwen",\n            "force_retry",\n        ):\n')
+              changed=True
+          if 'force_retry = bool(sel.get("force_retry"))' not in s:
+              old='''        # Check both the historical raw source identity and the new canonical\n        # semantic identity so this migration cannot re-attempt old DCE work.\n        if was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index):\n            excluded_attempted.append(cid)\n            continue\n'''
+              new='''        # Normal discovery remains deduplicated by the durable attempt ledger.\n        # Explicit repair manifests may bypass it once to fetch a newer DCE version.\n        force_retry = bool(sel.get("force_retry"))\n        if not force_retry and (was_attempted(base, attempt_index) or was_attempted(candidate_for_attempt, attempt_index)):\n            excluded_attempted.append(cid)\n            continue\n        if force_retry:\n            candidate_for_attempt["force_retry"] = True\n'''
+              if old not in s:
+                  raise SystemExit('Could not find durable-attempt guard to patch')
+              s=s.replace(old,new)
+              changed=True
+          p.write_text(s,encoding='utf-8')
+          print({'force_retry_patch_changed':changed})
+          PY
+          python -m py_compile pipeline/materialize_dce_selection.py
+
+          if ! git diff --quiet -- pipeline/materialize_dce_selection.py; then
+            git config user.name 'tender-engine-bot'
+            git config user.email 'tender-engine-bot@users.noreply.github.com'
+            git add pipeline/materialize_dce_selection.py
+            git commit -m 'fix: enable explicit DCE force-retry repair lane'
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              git rebase --abort >/dev/null 2>&1 || true
+              [ "$i" -eq 5 ] && exit 1
+              sleep "$((i*2))"
+            done
+          fi
+
+      - name: Build open unresolved YELLOW repair manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          bank=json.load(open('control/final_supergreen_bank.json',encoding='utf-8'))
+          snap=json.load(open('control/live_snapshot_latest.json',encoding='utf-8'))
+          today=datetime.now(timezone.utc).date()
+          rows=[]
+          expired=[]
+          for x in bank.get('items') or []:
+              if not isinstance(x,dict) or str(x.get('classification') or '').upper()!='YELLOW':
+                  continue
+              cid=str(x.get('candidate_id') or '').strip()
+              if not cid:
+                  continue
+              deadline=str(x.get('deadline') or '').strip()
+              if deadline:
+                  try:
+                      if datetime.fromisoformat(deadline.replace('Z','+00:00')).date() < today:
+                          expired.append(cid); continue
+                  except Exception:
+                      pass
+              unknowns=x.get('unknowns') if isinstance(x.get('unknowns'),list) else []
+              # Current bank YELLOWs are repair states; require an unresolved signal
+              # or unknown before spending another DCE retrieval.
+              text=' '.join(map(str,[x.get('evidence_quality'),x.get('deadline_authority'),x.get('why'),*unknowns])).lower()
+              unresolved=bool(unknowns) or any(k in text for k in ('unknown','unresolved','incomplete','review_required','not_yet','authentic','conflict','verify','verification','exact'))
+              if unresolved:
+                  rows.append(cid)
+          rows=list(dict.fromkeys(rows))
+          source_run=snap.get('source_discovery_run')
+          if not str(source_run or '').isdigit():
+              raise SystemExit('live snapshot has no numeric source_discovery_run')
+          req={
+              'schema':'GPT_DCE_REQUEST_V1',
+              'source_discovery_run':int(source_run),
+              'wide_read_run_id':int(source_run),
+              'default_preliminary_score':84,
+              'status':'DCE_PENDING',
+              'mode':'YELLOW_REPAIR',
+              'force_retry':True,
+              'selection_reason':'Fresh authoritative DCE repair for live YELLOW rows that still contain unresolved mandatory-gate evidence. Previous DCE-attempt dedupe is intentionally bypassed for this explicit repair pass only.',
+              'candidate_ids':rows,
+          }
+          Path('control/yellow_repair_request.json').write_text(json.dumps(req,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          state={
+              'schema':'YELLOW_DCE_REPAIR_STATE_V1',
+              'created_at':datetime.now(timezone.utc).isoformat(),
+              'source_discovery_run':int(source_run),
+              'selected_live_unresolved_yellows':len(rows),
+              'expired_yellows_excluded':len(expired),
+              'candidate_ids':rows,
+              'expired_ids':expired,
+          }
+          Path('control/yellow_repair_state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'selected':len(rows),'expired':len(expired),'source_run':source_run},indent=2))
+          if not rows:
+              raise SystemExit(3)
+          PY
+
+      - name: Persist repair request
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tender-engine-bot'
+          git config user.email 'tender-engine-bot@users.noreply.github.com'
+          git add control/yellow_repair_request.json control/yellow_repair_state.json
+          git commit -m "repair: queue unresolved YELLOW DCEs ${GITHUB_RUN_ID}" || true
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            git rebase --abort >/dev/null 2>&1 || true
+            [ "$i" -eq 5 ] && exit 1
+            sleep "$((i*2))"
+          done
+
+      - name: Dispatch fresh DCE repair fanout
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git pull --rebase origin main
+          count="$(python - <<'PY'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(len(x.get('candidate_ids') or []))
+          PY
+          )"
+          source_run="$(python - <<'PY'
+          import json
+          x=json.load(open('control/yellow_repair_request.json',encoding='utf-8'))
+          print(x['source_discovery_run'])
+          PY
+          )"
+          parallel=$(( count < 18 ? count : 18 ))
+          [ "$parallel" -gt 0 ] || parallel=1
+          gh workflow run dce-fanout-v2.yml --ref main \
+            -f selection_path='control/yellow_repair_request.json' \
+            -f source_discovery_run="$source_run" \
+            -f max_jobs="$count" \
+            -f max_parallel="$parallel" \
+            -f max_shards='128' \
+            -f jobs_per_shard='0'
+          echo "Dispatched fresh DCE repair for $count YELLOW candidates from discovery $source_run"
