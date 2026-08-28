@@ -186,11 +186,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:55344c7683054e1fa12457f48c64f3be** · US · p=56 · deadline=2026-09-10T16:00:00+00:00 · blockers=none · CommonSpot Renewal Licenses
 - **TED:570364-2026** · IRL · p=54 · deadline=2026-09-16T12:00:00+00:00 · blockers=none · Ireland – Global navigation and positioning systems (GPS or equivalent) – National Geodetic Surveying Infrastructure Upgrade for Tailte Éireann
 - **US-SAM:2e0ca8c46f624e94bc97460755148264** · US · p=52 · deadline=2026-09-24T00:00:00+00:00 · blockers=none · Acquia Recompete Redacted Justification Posting
-- **TED:527326-2026** · IRL · p=50 · deadline=2026-08-28T16:00:00+00:00 · blockers=none · Ireland – Desktop-publishing software package – Adobe (Acrobat Pro and Creative Cloud) Software Licensing and Product Support
 - **TED:455081-2026** · FRA · p=50 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Network equipment – Appel d'offres ouvert
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:df47f48189ca4007b30d6ba47fc5edb2** · US · p=48 · deadline=2026-08-28T16:00:00+00:00 · blockers=none · Radiation Therapy Quality Management System Deployment and Training
 - **UNGM:311414** · PAKISTAN · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Open in a new window
 - **US-SAM:88169df4f9924840a9c75f85c4013203** · US · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Award Notice - USAFA Liquid Chromatography Replacement
 - **US-SAM:817b975f38f14798b302e88415cfc31f** · US · p=48 · deadline=2026-08-31T14:00:00+00:00 · blockers=none · Magnet Forensics Axiom Cyber Software Subscription & Support
@@ -202,6 +200,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:3cedfd0ad17b4f8aa5e7daefcd5ef103** · US · p=48 · deadline=2026-09-04T00:00:00+00:00 · blockers=none · Mirantis and Zimperium Software License Subscription Renewals
 - **US-SAM:c1dce38965a648369dfce49735549508** · US · p=48 · deadline=2026-09-04T14:00:00+00:00 · blockers=none · FinCEN Lock & Key Maintenance Support - Request for Quote
 - **US-SAM:f75643b110264313b8fa69feae99eeed** · US · p=48 · deadline=2026-09-05T09:00:00+00:00 · blockers=none · WATER SYSTEM FAULTY PROGRAMMABLE LOGIC CONTROLER REPLACEMENT
+- **US-SAM:e9571c5b0419428b857d739433b2bac8** · US · p=48 · deadline=2026-09-06T00:00:00+00:00 · blockers=none · Autodesk Subscription Licenses for USACE Engineering Research and Development Center (ERDC) ITL
+- **US-SAM:b1ea08c6ec644caa880a01ad18de4e0c** · US · p=48 · deadline=2026-09-07T15:00:00+00:00 · blockers=none · S2 Cognition
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
