@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-29T10:37:28.546511+00:00",
+  "updated_at": "2026-08-29T10:39:08.961418+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 33247891448,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 177,
+    "pending_before_visible_cap": 171,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -20,8 +20,8 @@
     },
     "pending_by_fit_band": {
       "HOT": 2,
-      "GOOD": 66,
-      "MAYBE": 59,
+      "GOOD": 67,
+      "MAYBE": 58,
       "LOW": 33
     },
     "pending_by_portal": {
@@ -60,8 +60,8 @@
     },
     "selected_by_band": {
       "HOT": 2,
-      "GOOD": 66,
-      "MAYBE": 59,
+      "GOOD": 67,
+      "MAYBE": 58,
       "LOW": 33
     },
     "selected_by_portal": {
@@ -102,16 +102,16 @@
     },
     "selected_by_band": {
       "HOT": 1,
-      "GOOD": 50,
-      "MAYBE": 76,
+      "GOOD": 53,
+      "MAYBE": 73,
       "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 97,
-      "US_SAM": 24,
+      "TED": 93,
+      "US_SAM": 27,
       "IRELAND_ETENDERS": 5,
       "WORLD_BANK": 3,
-      "PL_EZAMOWIENIA": 4,
+      "PL_EZAMOWIENIA": 5,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
       "GR_KHMDHS": 3,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 1,
-      "GOOD": 68,
-      "MAYBE": 331,
-      "LOW": 3556
+      "GOOD": 71,
+      "MAYBE": 350,
+      "LOW": 3534
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 3796,
-    "cross_portal_duplicates_collapsed": 0
+    "cross_portal_duplicates_collapsed": 1
   },
   "true_pending_before_hot_cap": 3956,
   "overflow_beyond_hot_160": 3796,
@@ -152,14 +152,21 @@
   "provenance_overrides_applied_in_window": 4,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 40,
-    "adjudication_rows_scanned_this_refresh": 309,
-    "gate_rows_seen_this_refresh": 129,
-    "authenticity_rows_seen_this_refresh": 11,
+    "shard_files_scanned_this_refresh": 123,
+    "adjudication_rows_scanned_this_refresh": 944,
+    "gate_rows_seen_this_refresh": 324,
+    "authenticity_rows_seen_this_refresh": 52,
     "source_runs_seen_this_refresh": [
       33247891448,
       33232297245,
-      33216834240
+      33216834240,
+      33170516719,
+      33131067382,
+      33091755652,
+      33041076914,
+      33023802414,
+      33009403547,
+      32999332964
     ]
   },
   "healthy": true,
