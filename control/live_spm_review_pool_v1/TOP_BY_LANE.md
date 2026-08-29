@@ -142,22 +142,18 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
 - **TED:424272-2026** · FRA · p=54 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Information and promotion products – 2026-FA0081 Fourniture d'articles promotionnels aux couleurs du Département de la Moselle
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
-- **TED:513158-2026** · MLT · p=46 · deadline=2026-08-28T21:59:59+00:00 · blockers=none · Malta – Clothing, footwear, luggage articles and accessories – Provision of EUAA Branded Merchandise and Operational Clothing
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-166917-2026-08-25** · ZA · p=46 · deadline=2026-08-31T12:00:00+00:00 · blockers=none · RFQ2026/27/26
-- **ZA_ETENDERS_OCDS:ocds-9t57fa-167155-2026-08-27** · ZA · p=46 · deadline=2026-09-01T11:00:00+00:00 · blockers=none · RFQ-112678
+- **ZA_ETENDERS_OCDS:ocds-9t57fa-167155-2026-08-27** · ZA · p=46 · deadline=2026-09-02T11:00:00+00:00 · blockers=none · RFQ-112678
+- **TED:513158-2026** · MLT · p=46 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · Malta – Clothing, footwear, luggage articles and accessories – Provision of EUAA Branded Merchandise and Operational Clothing
 - **TED:564438-2026** · FRA · p=46 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Information and promotion products – PROCUREMENT OF PROMOTIONAL ITEMS AND ELECTRONIC ACCESSORIES AND RELATED ITEMS
 - **CA:WS5853358314** · CA · p=44 · deadline=2026-09-28T14:00:00+00:00 · blockers=none · RFP Templates Canadian Army Promotional Items FY 2627
 
 ## research_surveys
-- **US-SAM:b0006a53c0d54778a4d6841f7cf5eee2** · US · p=56 · deadline=2026-08-28T17:00:00+00:00 · blockers=none · TCG BOSS Equipment and Link-16 Related Products
-- **US-SAM:dc270dd3a02c43149e4bb39994a9d8b9** · US · p=47 · deadline=2026-08-28T17:00:00+00:00 · blockers=SET_ASIDE_OR_LOCAL_RESTRICTION · Fuel Management Cloud Software & Integration (SaaS) at North Dakota National Guard
-- **US-SAM:f651ef641ed44afba2a8f7eddfdef7f6** · US · p=47 · deadline=2026-08-28T17:00:00+00:00 · blockers=SET_ASIDE_OR_LOCAL_RESTRICTION · AMENDMENT No. 001: Fuel Management Cloud Software & Integration (SaaS) at North Dakota National Guard
 - **US-SAM:991d1eb9836945da9aca9d00105e8293** · US · p=47 · deadline=2026-09-01T14:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · Sources Sought � Motorola GTR 8000 Land Mobile Radio (LMR) System with OCONUS Installation in Japan
 - **US-SAM:6487eb10865a43e9a5efdb821c6abee7** · US · p=47 · deadline=2026-09-02T17:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · Sources Sought Only - PIMC Fire Alarm Replacement Services
 - **US-SAM:29daee56de8744ffa8bd226a9ad8211b** · US · p=47 · deadline=2026-09-10T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · eQUIP Software Licenses
 - **US-SAM:f568b8a1118a4e0b80fbf2481e8129d5** · US · p=47 · deadline=2026-09-12T00:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM · Rail Traffic Controller (RTC) License and Maintenance Plan
 - **US-SAM:bd6a6a2d514b44d5bd194be8ba7f6cf3** · US · p=47 · deadline=2026-09-19T00:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · EFOJ for Cribl Software Licenses
-- **US-SAM:5f06b6cc418e49aead7ab369aa764c23** · US · p=46 · deadline=2026-08-28T18:00:00+00:00 · blockers=none · 58--RECEIVER,INFRARED, IN REPAIR/MODIFICATION OF
 - **US-SAM:3cdd2d564fce49ea9ea16423f43a1456** · US · p=46 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Construction of Fire Protection System at Building C2 at Naval Weapons Station Earle, NJ
 - **US-SAM:f71f30f8da1e4d95b1e8a868805e49bb** · US · p=46 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Construction of Fire Protection System at Building C2 at Naval Weapons Station Earle, NJ
 - **US-SAM:70f7d6b96d4c42d5b8b40d9935729e0a** · US · p=46 · deadline=2026-08-31T04:00:00+00:00 · blockers=none · 58--PROCESSOR RADAR, IN REPAIR/MODIFICATION OF
@@ -169,6 +165,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:83482a4654c34370b736522a9ac3d1ef** · US · p=46 · deadline=2026-09-03T04:00:00+00:00 · blockers=none · 61--POWER SUPPLY, IN REPAIR/MODIFICATION OF
 - **US-SAM:1b384e4783824ffe999c8ca766f54f7b** · US · p=46 · deadline=2026-09-03T17:00:00+00:00 · blockers=none · Second Industry Day Announcement: Low Profile Mast (LPM) Program
 - **US-SAM:37b9bb2db399490ab7bdcd6c3a7c62c7** · US · p=46 · deadline=2026-09-03T17:00:00+00:00 · blockers=none · Second Industry Day Announcement: Low Profile Mast (LPM) Program
+- **US-SAM:84278771e8ed47f496f86044f04bfdfb** · US · p=46 · deadline=2026-09-03T17:00:00+00:00 · blockers=none · Second Industry Day Announcement: Low Profile Mast (LPM) Program
+- **US-SAM:a6c12f71388f465f894d4015107999a4** · US · p=46 · deadline=2026-09-03T17:00:00+00:00 · blockers=none · Second Industry Day Announcement: Low Profile Mast (LPM) Program
+- **US-SAM:6c5aabc6369d4d04b73b28fce36f28af** · US · p=46 · deadline=2026-09-03T20:30:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
+- **US-SAM:3bbaf7fe5a08466c9968dba890eabce7** · US · p=46 · deadline=2026-09-04T04:00:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB
 
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
@@ -182,7 +182,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
 
 ## software_resale
-- **US-SAM:b0006a53c0d54778a4d6841f7cf5eee2** · US · p=56 · deadline=2026-08-28T17:00:00+00:00 · blockers=none · TCG BOSS Equipment and Link-16 Related Products
 - **US-SAM:55344c7683054e1fa12457f48c64f3be** · US · p=56 · deadline=2026-09-10T16:00:00+00:00 · blockers=none · CommonSpot Renewal Licenses
 - **TED:570364-2026** · IRL · p=54 · deadline=2026-09-16T12:00:00+00:00 · blockers=none · Ireland – Global navigation and positioning systems (GPS or equivalent) – National Geodetic Surveying Infrastructure Upgrade for Tailte Éireann
 - **US-SAM:2e0ca8c46f624e94bc97460755148264** · US · p=52 · deadline=2026-09-24T00:00:00+00:00 · blockers=none · Acquia Recompete Redacted Justification Posting
@@ -193,15 +192,16 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:88169df4f9924840a9c75f85c4013203** · US · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Award Notice - USAFA Liquid Chromatography Replacement
 - **US-SAM:817b975f38f14798b302e88415cfc31f** · US · p=48 · deadline=2026-08-31T14:00:00+00:00 · blockers=none · Magnet Forensics Axiom Cyber Software Subscription & Support
 - **US-SAM:e806100b35674c9d8250d25e18ee98d0** · US · p=48 · deadline=2026-08-31T15:00:00+00:00 · blockers=none · PCS-400 Radar Simulator Replacement Packages for USCG C5ISC, including hardware, MaST software, radar simulation software, cabling, documentation, remote transition support, and one-year warranty.
+- **US-SAM:e35dd93e09ff456db25589bf3822e695** · US · p=48 · deadline=2026-08-31T18:00:00+00:00 · blockers=none · HyperWorks/SEAM Software/Support
 - **US-SAM:9af590995e034b5ab58192c480076da9** · US · p=48 · deadline=2026-08-31T19:00:00+00:00 · blockers=none · Consolidation Notice - USCG Salesforce Licenses
 - **US-SAM:4dbf2616d9ee42ba846ef916ec5c997e** · US · p=48 · deadline=2026-09-02T19:00:00+00:00 · blockers=none · X-Ray Backpack for Security Scanning
 - **US-SAM:64b8cf6e47134465b50417df8311275f** · US · p=48 · deadline=2026-09-02T19:00:00+00:00 · blockers=none · X-Ray Backpack for Security Scanning
 - **US-SAM:3f814d8a4b2e487c9e6d01ea0e80ffcf** · US · p=48 · deadline=2026-09-03T00:00:00+00:00 · blockers=none · Navisworks Manage Government Annual Subscription Renewal
 - **US-SAM:3cedfd0ad17b4f8aa5e7daefcd5ef103** · US · p=48 · deadline=2026-09-04T00:00:00+00:00 · blockers=none · Mirantis and Zimperium Software License Subscription Renewals
 - **US-SAM:c1dce38965a648369dfce49735549508** · US · p=48 · deadline=2026-09-04T14:00:00+00:00 · blockers=none · FinCEN Lock & Key Maintenance Support - Request for Quote
+- **US-SAM:5bd3ba975744486881126d2e9913c5d4** · US · p=48 · deadline=2026-09-04T16:00:00+00:00 · blockers=none · Software - Housing Analytics
 - **US-SAM:f75643b110264313b8fa69feae99eeed** · US · p=48 · deadline=2026-09-05T09:00:00+00:00 · blockers=none · WATER SYSTEM FAULTY PROGRAMMABLE LOGIC CONTROLER REPLACEMENT
 - **US-SAM:e9571c5b0419428b857d739433b2bac8** · US · p=48 · deadline=2026-09-06T00:00:00+00:00 · blockers=none · Autodesk Subscription Licenses for USACE Engineering Research and Development Center (ERDC) ITL
-- **US-SAM:b1ea08c6ec644caa880a01ad18de4e0c** · US · p=48 · deadline=2026-09-07T15:00:00+00:00 · blockers=none · S2 Cognition
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
