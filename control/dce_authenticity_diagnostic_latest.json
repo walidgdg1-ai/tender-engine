@@ -1,6 +1,6 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33232297245,
+  "latest_source_dce_run_id": 33259531158,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
@@ -8,7 +8,6 @@
     "GR_KHMDHS": 2,
     "PL_EZAMOWIENIA": 2,
     "TED": 2,
-    "ZA_ETENDERS": 1,
     "CA_CANADABUYS": 1,
     "CYPRUS_EPPS": 1,
     "DE_DOE": 1,
@@ -19,27 +18,18 @@
     "SCOTLAND_PCS": 1,
     "SK_UVO": 1,
     "US_SAM": 1,
-    "WORLD_BANK": 1
+    "WORLD_BANK": 1,
+    "ZA_ETENDERS": 1
   },
   "status_counts": {
     "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 12,
     "UNKNOWN_RETRIEVED_DOCUMENT": 8
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 19,
-    "ERROR_RETRYABLE": 1
+    "NON_AUTHORITATIVE": 20
   },
   "method_counts": {},
   "recovery_opportunities": [
-    {
-      "portal": "PL_EZAMOWIENIA",
-      "blocked": 2,
-      "likely_public_recovery_target": 1,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1,
-        "ERROR_RETRYABLE": 1
-      }
-    },
     {
       "portal": "GENERIC_PUBLIC_PAGE",
       "blocked": 2,
@@ -50,6 +40,14 @@
     },
     {
       "portal": "GR_KHMDHS",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "PL_EZAMOWIENIA",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -196,22 +194,12 @@
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/512394-2026"
       },
       {
-        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-164989-2026-08-07",
-        "portal": "ZA_ETENDERS",
-        "title": "F (BT) 01-2027",
-        "buyer": "Mogale City Local Municipality",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-164989"
-      }
-    ],
-    "ERROR_RETRYABLE": [
-      {
-        "candidate_id": "PL-BZP:08defd23-6867-eeec-962b-12000115cba3",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Dostawa wyposażenia łazienek biurowych i koszy na odpady",
-        "buyer": "NARODOWY BANK POLSKI",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defd23-6867-eeec-962b-12000115cba3"
+        "candidate_id": "CA:BPM026432/34593",
+        "portal": "CA_CANADABUYS",
+        "title": "RFQ – FB-S200-D-1735TB - 1MO,ADV,GOLD Hardware and Software Maintenance and Support Renewal, or equivalent for DFO",
+        "buyer": null,
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": null
       }
     ]
   },
