@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-30T10:07:22.473940+00:00",
-  "source_inbox_updated_at": "2026-08-30T06:53:01.330987+00:00",
-  "latest_source_dce_run_id": 33297564403,
+  "generated_at": "2026-08-30T12:21:30.112183+00:00",
+  "source_inbox_updated_at": "2026-08-30T12:21:29.721552+00:00",
+  "latest_source_dce_run_id": 33311013427,
   "batch_index": 1,
   "start_rank": 11,
   "end_rank": 20,
@@ -333,7 +333,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 8,
+      "evidence_gate_coverage": 7,
       "spm_post_dce_score": 61,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -344,20 +344,20 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 33297564403,
+      "source_dce_run_id": 33311013427,
       "source_shard": 0,
-      "review_key": "aaa12119e43e7ab6bb3249fc084248ace8589e2b05b2e3fa1fb2128593fae71f",
+      "review_key": "e659a4c4de2fab36d8b0075c923a1e46b53e9075eff0ae7116183f098a9db965",
       "artifact_locator": {
-        "dce_run_id": 33297564403,
+        "dce_run_id": 33311013427,
         "shard": 0,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-33297564403"
+        "release_tag": "dce-harvest-33311013427"
       },
       "evidence_quality": {
         "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 6,
-        "text_chars": 350863,
-        "attributed_compact_snippets": 14,
+        "documents_with_text": 7,
+        "text_chars": 353988,
+        "attributed_compact_snippets": 12,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": true
       },
@@ -495,39 +495,9 @@
             "raw_machine_format": false,
             "artifact_lookup_required": false
           }
-        ],
-        "payment_tax": [
-          {
-            "text": "EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Maksude tasumine Kas ettevõtja on rikkunud oma maksude tasumise kohustusi nii asukohariigis kui ka avaliku sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb asukohariigist? c753a2c5-59e6-4970-b6eb-27224e96bf76 RHS § 95 lg 1 p 4 „kellel on riikliku maksu, makse või keskkonnatasu maksuvõlg maksukorralduse seaduse tähenduses võ",
-            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
-            "source_url": null,
-            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
-            "source_kind": "text",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": true,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER 7d85e333-bbab-49c0-be8d-c36d71a72f5e CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY Sotsiaalkindlustusmaksete tasumine Kas ettevõtja on rikkunud oma sotsiaalkindlustusmaksete tasumise kohustusi nii asukohariigis kui ka avaliku sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb asukohariigist? c753a2c5-59e6-4970-b6eb-27224e96bf76 RHS § 95 lg 1 p 4 „kellel on riikliku /…/ makse /…/ maksuvõlg maksukor",
-            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
-            "source_url": null,
-            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
-            "source_kind": "text",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": true,
-            "artifact_lookup_required": false
-          }
         ]
       },
-      "provenance_override": {
-        "applied": true,
-        "refreshed_at": "2026-08-30T10:06:43.517987+00:00",
-        "source_dce_run_id": 33297564403,
-        "release_tag": null,
-        "archive_name": null,
-        "bundle_asset": null,
-        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
-      },
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
