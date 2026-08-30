@@ -108,8 +108,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:572826-2026** · FRA · p=40 · deadline=2026-09-18T02:00:00+00:00 · blockers=none · France – Accommodation, building and window cleaning services – Accord-cadre à bons de commande relatif au nettoyage des locaux et des vitres des bâtiments départementaux et au nettoyage partiel de certains collèges du Val d'Oise (8 lots)
 
 ## media_monitoring
-- **TED:535720-2026** · DNK · p=46 · deadline=2026-08-30T02:00:00+00:00 · blockers=none · Denmark – Legal advisory and information services – Media Monitoring System
 - **DK-UDBUD:9f77d7a2-ded8-4142-8a3f-b6cfff72ab6d:01** · DK · p=46 · deadline=2026-08-30T21:59:59+00:00 · blockers=none · Media Monitoring System
+- **TED:535720-2026** · DNK · p=46 · deadline=2026-08-30T21:59:59+00:00 · blockers=none · Denmark – Legal advisory and information services – Media Monitoring System
 - **TED:544336-2026** · NOR · p=40 · deadline=2026-09-07T00:00:00+00:00 · blockers=none · Norway – News-agency services – Joint Contract - Media Monitoring
 - **TED:471471-2026** · BEL · p=40 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · Belgium – Public relations services – Call for Tender for media monitoring services
 - **TED:519741-2026** · BEL · p=40 · deadline=2026-09-07T02:00:00+00:00 · blockers=none · Belgium – Public relations services – Call for Tender for media monitoring services
@@ -188,8 +188,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:455081-2026** · FRA · p=50 · deadline=2026-08-31T02:00:00+00:00 · blockers=none · France – Network equipment – Appel d'offres ouvert
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **UNGM:311414** · PAKISTAN · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Open in a new window
-- **US-SAM:88169df4f9924840a9c75f85c4013203** · US · p=48 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Award Notice - USAFA Liquid Chromatography Replacement
 - **US-SAM:817b975f38f14798b302e88415cfc31f** · US · p=48 · deadline=2026-08-31T14:00:00+00:00 · blockers=none · Magnet Forensics Axiom Cyber Software Subscription & Support
 - **US-SAM:e806100b35674c9d8250d25e18ee98d0** · US · p=48 · deadline=2026-08-31T15:00:00+00:00 · blockers=none · PCS-400 Radar Simulator Replacement Packages for USCG C5ISC, including hardware, MaST software, radar simulation software, cabling, documentation, remote transition support, and one-year warranty.
 - **US-SAM:e35dd93e09ff456db25589bf3822e695** · US · p=48 · deadline=2026-08-31T18:00:00+00:00 · blockers=none · HyperWorks/SEAM Software/Support
@@ -202,6 +200,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:5bd3ba975744486881126d2e9913c5d4** · US · p=48 · deadline=2026-09-04T16:00:00+00:00 · blockers=none · Software - Housing Analytics
 - **US-SAM:f75643b110264313b8fa69feae99eeed** · US · p=48 · deadline=2026-09-05T09:00:00+00:00 · blockers=none · WATER SYSTEM FAULTY PROGRAMMABLE LOGIC CONTROLER REPLACEMENT
 - **US-SAM:e9571c5b0419428b857d739433b2bac8** · US · p=48 · deadline=2026-09-06T00:00:00+00:00 · blockers=none · Autodesk Subscription Licenses for USACE Engineering Research and Development Center (ERDC) ITL
+- **US-SAM:b1ea08c6ec644caa880a01ad18de4e0c** · US · p=48 · deadline=2026-09-07T15:00:00+00:00 · blockers=none · S2 Cognition
+- **US-SAM:09d5a42a536e400aa7b8b61210492687** · US · p=48 · deadline=2026-09-11T20:00:00+00:00 · blockers=none · RAWLINS FIELD OFFICE DOOR ACCESS MAINT.
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -227,12 +227,12 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:592707-2026** · SWE · p=40 · deadline=2026-09-28T22:00:00+00:00 · blockers=none · Sweden – Translation services – Översättnings- och språkgranskningstjänster från engelska till svenska inom området hälso- och sjukvård inklusive tandvård och socialtjänst samt digitalisering
 - **TED:583203-2026** · ROU · p=40 · deadline=2026-09-30T03:00:00+00:00 · blockers=none · Romania – Translation services – Achiziționarea serviciilor de traducere autorizată a documentelor aferente Programului Interreg VI-B NEXT Bazinul Mării Negre
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
-- **UNGM:312171** · THAILAND · p=38 · deadline=2026-08-30T00:00:00+00:00 · blockers=none · Open in a new window
+- **UNGM:311355** · SRI LANKA · p=38 · deadline=2026-08-31T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## video_media
 - **TED:567440-2026** · NOR · p=48 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · Norway – Advertising campaign services – Stage 1 - Prequalification for a Framework agreement advertising, campaigns and graphic design.
-- **TED:535720-2026** · DNK · p=46 · deadline=2026-08-30T02:00:00+00:00 · blockers=none · Denmark – Legal advisory and information services – Media Monitoring System
 - **DK-UDBUD:9f77d7a2-ded8-4142-8a3f-b6cfff72ab6d:01** · DK · p=46 · deadline=2026-08-30T21:59:59+00:00 · blockers=none · Media Monitoring System
+- **TED:535720-2026** · DNK · p=46 · deadline=2026-08-30T21:59:59+00:00 · blockers=none · Denmark – Legal advisory and information services – Media Monitoring System
 - **TED:551987-2026** · FRA · p=46 · deadline=2026-09-22T10:00:00+00:00 · blockers=none · France – Motion picture and video production services – Réalisation de productions audiovisuelles
 - **TED:480180-2026** · FRA · p=40 · deadline=2026-09-02T02:00:00+00:00 · blockers=none · France – Motion picture and video production services – Production de contenus visuels (photos et vidéos)
 - **TED:540062-2026** · POL · p=40 · deadline=2026-09-03T02:00:00+00:00 · blockers=none · Poland – Advertising film production – Przedmiotem zamówienia jest świadczenie przez Wykonawcę usług polegających na kompleksowej produkcji materiałów audiowizualnych dotyczących Funduszy Europejskich i Krajowego Planu Odbudowy i Zwiększania Odporności
