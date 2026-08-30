@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-30T12:23:23.835562+00:00",
-  "source_inbox_updated_at": "2026-08-30T12:23:23.443581+00:00",
-  "latest_source_dce_run_id": 33311013427,
+  "generated_at": "2026-08-30T16:51:24.427178+00:00",
+  "source_inbox_updated_at": "2026-08-30T16:51:24.051091+00:00",
+  "latest_source_dce_run_id": 33323281742,
   "batch_index": 15,
   "start_rank": 151,
   "end_rank": 160,
@@ -204,6 +204,48 @@
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165899-2026-08-18",
         "release_tag": "dce-harvest-32251431605"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+      "title": "Innowacyjne OZE dla CKiB w Żarnowie",
+      "buyer": "CENTRUM KULTURY I BIBLIOTEKA GMINY AUGUSTÓW W ŻARNOWIE",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defc54-9b69-af71-962b-12000115bef2",
+      "deadline": "2026-09-08T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 8,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32071776640,
+      "source_shard": 0,
+      "review_key": "b4b427556d7a4c6c533e78770331a6fb0a4f2d889fed53dfa85dd392717147e2",
+      "artifact_locator": {
+        "dce_run_id": 32071776640,
+        "shard": 0,
+        "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+        "release_tag": "dce-harvest-32071776640"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -598,357 +640,6 @@
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "IE:8948440",
-      "title": "2025P095 - Digital Coaching Services",
-      "buyer": "Central Bank of Ireland",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8948440",
-      "deadline": "2026-09-30T12:00:00+01:00",
-      "estimated_value": 600000.0,
-      "currency": "EUR",
-      "review_stage": null,
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 18,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": "2026-09-30",
-      "source_dce_run_id": 33311013427,
-      "source_shard": 10,
-      "review_key": "1b9f5360c0ddb0881839a66f1496fde636a07b5fe3e91b832ea218527d48d791",
-      "artifact_locator": {
-        "dce_run_id": 33311013427,
-        "shard": 10,
-        "candidate_id": "IE:8948440",
-        "release_tag": "dce-harvest-33311013427"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 28,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": true
-      },
-      "evidence": {
-        "entity_geography": [
-          {
-            "text": ", please outline briefly the reasons why. The Central Bank will consider the reasons provided and may engage further with the successful Tenderer to discuss the position. The Central Bank's decision on the status of the successful Tenderer will be final. However, all Tenderers must complete this checklist in any event. | | | | | Data Processing | Answer | Free Text Narrative | | 1 | Will personal data (for which the Central Bank is the data controller) be hosted in Data Centres (dedicated hosting space as opposed …",
-            "source": "files/1315_8948440_unpacked/3_Data Protection Worksheet for Tenderers- Appendix 1B v1.3.xlsx",
-            "source_url": null,
-            "source_sha256": "b54be5e2f1484c2c5570b3578026f024ef868c511fc9060dcdc2663981196d57",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "utline briefly the reasons why. The Central Bank will consider the reasons provided and may engage further with the successful Tenderer to discuss the position. The Central Bank's decision on the status of the successful Tenderer will be final. However, all Tenderers must complete this checklist in any event. | | | | | Data Processing | Answer | Free Text Narrative | | 1 | Will personal data (for which the Central Bank is the data controller) be hosted in Data Centres (dedicated hosting space as opposed to Cloud/S…",
-            "source": "files/1315_8948440_unpacked/3_Data Protection Worksheet for Tenderers- Appendix 1B v1.3.xlsx",
-            "source_url": null,
-            "source_sha256": "b54be5e2f1484c2c5570b3578026f024ef868c511fc9060dcdc2663981196d57",
-            "source_kind": "xlsx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "turnover_financial": [
-          {
-            "text": "meets the selection criteria set out at 3.2.A and 3.2.B below (see section 3.2.4). 3.2.4 As regards the selection criteria, Tenderers will either pass or fail each of the selection criteria in sections 3.2.A and 3.2.B. If the Tenderer fails any of the selection criteria, it will be eliminated from the Competition. 3.2.5 Tenderers should note that, although this section 3.2 anticipates that supporting documentation for any self-declarations will be required from the successful Tenderer following the submission of T…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "n used in a previous procurement procedure, provided that they confirm that the information contained in it continues to be correct. (b) Upon request from the Central Bank, Tenderers must provide any supporting documentation requested without delay, but no longer than five (5) working days from the date the request is issued. Where the Tenderer is unable, for a valid reason, to provide the specified documentation, the Tenderer must inform the Central Bank of the reason and, if the Central Bank considers the reason…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "references_experience": [
-          {
-            "text": "95 - Digital Coaching Services for CBI - ITT _Final.docx ===== ITT SERVICES – CONTRACT INVITATION TO TENDER FOR THE PROVISION OF 2025P095 – DIGITAL COACHING SERVICES FOR THE CENTRAL BANK OF IRELAND ISSUE DATE: 28th of August 2026 CLOSING DATE: 30th September 2026 TABLE OF CONTENTS 1. Introduction 2. The Competition 3. How the Successful Tenderer will be Identified 4. Important Information Appendix 1A Requirements and Specifications Appendix 1B Data Protection Appendix 1C Information Security Appendix 2 Tenderer’s …",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "inalize the Contract with the successful Tenderer following the award decision. The Contract sets out the overall relationship between the Central Bank and the successful Tenderer for its duration. Tenderers should read the Contract to see how it will operate. The successful Tenderer will also be required to comply with the Central Bank’s policies in carrying out the Services, and Tenderers should review the Contractor Policy Pack published on the Central Bank website at the following link: Contractor Policy Pack.…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "certifications_partner": [
-          {
-            "text": "ts. As set out in section 1 of this Appendix 1A above, the Central Bank is a large organisation at the heart of Ireland’s financial system, with a wide and evolving mandate, operating in the context of the Irish public sector and financial industry. In addition, any coaches providing services to senior leaders must have relevant experience coaching senior leaders, including C-Suite and Director-level participants. Tenderers must provide details of the quality of the coaches available on their platform and their ve…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "inancial system, with a wide and evolving mandate, operating in the context of the Irish public sector and financial industry. In addition, any coaches providing services to senior leaders must have relevant experience coaching senior leaders, including C-Suite and Director-level participants. Tenderers must provide details of the quality of the coaches available on their platform and their vetting process, including confirmation that: All coaches available as part of this Contract hold a recognised professional c…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "staffing_team": [
-          {
-            "text": "rements (e.g., separate approaches for senior vs. mid-level managers) Tenders will be scored on the platform's ability to be customised, user-centricity (platform look and feel, confidentiality protections, and matching/algorithm functionality), ease of redistributing licenses, and ability to support different leadership levels. Support, Reporting and Metrics Support Tenderers must provide details of their Account Management / Support team. At a minimum this must include a dedicated account manager as a central po…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "s must have relevant experience coaching senior leaders, including C-Suite and Director-level participants. Tenderers must provide details of the quality of the coaches available on their platform and their vetting process, including confirmation that: All coaches available as part of this Contract hold a recognised professional coaching accreditation (e.g., ICF, EMCC, AC or equivalent) and hold active membership with the relevant professional body for their accreditation. All coaches proposed for this Contract ha…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "insurance_bonds": [
-          {
-            "text": "ection 3.3, then the Tender with the highest total mark for award criteria 4 and 5 together shall be deemed the highest-ranked Tender (and shall rank higher than the Tender(s) with which it was tied). 3.5 PRESENTATION OF PROPOSALS 3.5.1 Tenderers may be required to make a presentation of the proposals contained in their Tender. 3.6 NOTIFICATION OF OUTCOME 3.6.1 Tenderers will be informed of the outcome of their Tender following Tender evaluation. The successful Tenderer will be informed of any pre-conditions to co…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ing. Tenderers who wish to see the SAQ in advance of submitting a response may contact the Central Bank using the query procedure described in this ITT, but they may be required to provide a confidentiality undertaking in a form acceptable to the Central Bank before the SAQ is released. With respect to contract pre-conditions, the Central Bank has the right (but is not obliged) to engage with the successful Tenderer on an iterative basis in order to determine whether it is satisfied to proceed with the award of th…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "subcontracting_consortium": [
-          {
-            "text": "and clearly explain which criterion it relates to and adhere to any page limits identified. The Central Bank is under no obligation to parse through material in the Tender seeking relevant information. For the avoidance of doubt, where such additional material is in excess of any stated page limits, it will not be assessed, in accordance with section 2.3.1(e); (g) The use of embedded/hyperlinked/URL linked documents is not permitted. All documents must be uploaded separately. Tenderers cannot assume that any embed…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "oup will be required to carry overall responsibility for the obligations under the Contract as prime contractor (“Prime Contractor”). All other members of the group will be required to be sub-contractors to the Prime Contractor. Such other group members will be considered sub-contractors for the purposes of this Competition, regardless of how the group may have organised itself. Tenderers should also note the provisions of section 3.2.2 in this regard. 2.7.4 Group Tenderers must set out in their Tender the roles o…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "deliverables_scope": [
-          {
-            "text": "===== FILE: files/1315_8948440_unpacked/1315_8948440.pdf ===== List of Contract Documents #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - ITT File Associated :<1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx > #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - Appendix 7 - Mandatory Requirements File Associated :<2_2025P095 Digital Coaching - App 7 - Mandatory Reqs.docx > #Addenda ID N/A Status Final Title Appendix 1B - Data Protecti…",
-            "source": "files/1315_8948440_unpacked/1315_8948440.pdf",
-            "source_url": null,
-            "source_sha256": "6abead8bc4ef41fa89391f971e97b45407fb19ac2573875ecaba756d306fd589",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "Coaching Services for CBI -Services Agreement.docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<5_c4t_8948440_1.xml > ===== FILE: files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx ===== ITT SERVICES – CONTRACT INVITATION TO TENDER FOR THE PROVISION OF 2025P095 – DIGITAL COACHING SERVICES FOR THE CENTRAL BANK OF IRELAND ISSUE DATE: 28th of August 2026 CLOSING DATE: 30th September 2026 TABLE OF CONTENTS 1. Introduction 2. The Competi…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "sla_onsite": [
-          {
-            "text": "in this regard. 2.2.5 Similarly, the Central Bank is not responsible for corruption in documents. Tenderers must ensure documents are not corrupt. Where documents are corrupt, Tenderers cannot assume that they will be given any opportunity to re-submit documentation or that the material in the corrupt document(s) will be reviewed. All Tenders submitted must be compiled such that they can be downloaded and read immediately using PDF, or Microsoft Office format readers. 2.2.6 Tenders must be submitted in English. If…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "here documents are corrupt, Tenderers cannot assume that they will be given any opportunity to re-submit documentation or that the material in the corrupt document(s) will be reviewed. All Tenders submitted must be compiled such that they can be downloaded and read immediately using PDF, or Microsoft Office format readers. 2.2.6 Tenders must be submitted in English. If a Tender contains original documentation (such as a reference) which is in another language, it must be accompanied by a translation into English a…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "term_value": [
-          {
-            "text": "nterest by safeguarding monetary and financial stability and by working to ensure that the financial system operates in the best interests of consumers and the wider economy. 1.3 THE OPPORTUNITY 1.3.1 This Competition offers interested service providers the opportunity to tender for a contract (the “Contract”) for the provision of 2025P095 - Digital Coaching Services to the Central Bank. The services are more fully described in Appendix 1A (the “Services”) and Tenderers should read Appendix 1A in full to understan…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "nomy. 1.3 THE OPPORTUNITY 1.3.1 This Competition offers interested service providers the opportunity to tender for a contract (the “Contract”) for the provision of 2025P095 - Digital Coaching Services to the Central Bank. The services are more fully described in Appendix 1A (the “Services”) and Tenderers should read Appendix 1A in full to understand what is involved. 1.3.2 The Central Bank intends to identify one successful Tenderer for the award of the Contract. 1.3.3 The duration of the Contract is intended to b…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "award_criteria": [
-          {
-            "text": "Tenderers in relation to completeness and/or compliance issues, it may eliminate Tenders that are incomplete and/or non-compliant following the initial compliance check. 3.1.2 Subject to section 3.1.6, Tenders which are not eliminated on the basis of the initial completeness or compliance check will be checked to ensure that the Tenderer meets the selection criteria set out in section 3.2.A and 3.2.B. Further detail on this is set out in section 3.2. Tenders which do not pass these checks will be eliminated. 3.1.3…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "incomplete and/or non-compliant following the initial compliance check. 3.1.2 Subject to section 3.1.6, Tenders which are not eliminated on the basis of the initial completeness or compliance check will be checked to ensure that the Tenderer meets the selection criteria set out in section 3.2.A and 3.2.B. Further detail on this is set out in section 3.2. Tenders which do not pass these checks will be eliminated. 3.1.3 Subject to section 3.1.6, Tenders which are not eliminated on the basis of sections 3.1.1 or 3.1.…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "forms_signatures": [
-          {
-            "text": "===== FILE: files/1315_8948440_unpacked/1315_8948440.pdf ===== List of Contract Documents #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - ITT File Associated :<1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx > #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - Appendix 7 - Mandatory Requirements File Associated :<2_2025P095 Digital Coaching - App 7 - Mandatory Reqs.docx > #Addenda ID N/A Status Final Title Appendix 1B - Data Protecti…",
-            "source": "files/1315_8948440_unpacked/1315_8948440.pdf",
-            "source_url": null,
-            "source_sha256": "6abead8bc4ef41fa89391f971e97b45407fb19ac2573875ecaba756d306fd589",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "95 - Digital Coaching Services for CBI -Services Agreement.docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<5_c4t_8948440_1.xml > ===== FILE: files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx ===== ITT SERVICES – CONTRACT INVITATION TO TENDER FOR THE PROVISION OF 2025P095 – DIGITAL COACHING SERVICES FOR THE CENTRAL BANK OF IRELAND ISSUE DATE: 28th of August 2026 CLOSING DATE: 30th September 2026 TABLE OF CONTENTS 1. Introduction 2…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "submission": [
-          {
-            "text": "ted :<3_Data Protection Worksheet for Tenderers- Appendix 1B v1.3.xlsx > #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services -Services Agreement File Associated :<4_2025P095 - Digital Coaching Services for CBI -Services Agreement.docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<5_c4t_8948440_1.xml > ===== FILE: files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx ===== ITT SERVICES – CONTRACT INVITATION TO TENDER …",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "1.4.5 Tenderers may not, in their Tenders, amend the Contract terms or pricing approach. Any attempt to do so, or to negotiate with the Central Bank following the submission of Tenders, may result in the Tenderer being excluded from this Competition. Tenderers can raise queries about any aspect of this Competition (see section 2.5). Any queries or issues that Tenderers have, including in relation to the Services or the Contract, should be raised with the Central Bank before the submission of Tenders (using the que…",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "ip_data_security": [
-          {
-            "text": "===== FILE: files/1315_8948440_unpacked/1315_8948440.pdf ===== List of Contract Documents #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - ITT File Associated :<1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx > #Addenda ID N/A Status Final Title 2025P095 - Digital Coaching Services for CBI - Appendix 7 - Mandatory Requirements File Associated :<2_2025P095 Digital Coaching - App 7 - Mandatory Reqs.docx > #Addenda ID N/A Status Final Title Appendix 1B - Data Protecti…",
-            "source": "files/1315_8948440_unpacked/1315_8948440.pdf",
-            "source_url": null,
-            "source_sha256": "6abead8bc4ef41fa89391f971e97b45407fb19ac2573875ecaba756d306fd589",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "t.docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<5_c4t_8948440_1.xml > ===== FILE: files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx ===== ITT SERVICES – CONTRACT INVITATION TO TENDER FOR THE PROVISION OF 2025P095 – DIGITAL COACHING SERVICES FOR THE CENTRAL BANK OF IRELAND ISSUE DATE: 28th of August 2026 CLOSING DATE: 30th September 2026 TABLE OF CONTENTS 1. Introduction 2. The Competition 3. How the Successful Tenderer will be …",
-            "source": "files/1315_8948440_unpacked/1_2025P095 - Digital Coaching Services for CBI - ITT _Final.docx",
-            "source_url": null,
-            "source_sha256": "ef01f2440a2e66b19439f25f5888f80a163db96a8549f1c66d841d3e5fe9d014",
-            "source_kind": "docx",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ]
-      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
