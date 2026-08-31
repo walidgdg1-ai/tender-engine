@@ -1,6 +1,6 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33343970564,
+  "latest_source_dce_run_id": 33388776757,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
@@ -26,10 +26,20 @@
     "UNKNOWN_RETRIEVED_DOCUMENT": 9
   },
   "reason_counts": {
-    "NON_AUTHORITATIVE": 20
+    "NON_AUTHORITATIVE": 19,
+    "ERROR_RETRYABLE": 1
   },
   "method_counts": {},
   "recovery_opportunities": [
+    {
+      "portal": "PL_EZAMOWIENIA",
+      "blocked": 2,
+      "likely_public_recovery_target": 1,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1,
+        "ERROR_RETRYABLE": 1
+      }
+    },
     {
       "portal": "CA_CANADABUYS",
       "blocked": 2,
@@ -48,14 +58,6 @@
     },
     {
       "portal": "GR_KHMDHS",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
-    {
-      "portal": "PL_EZAMOWIENIA",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -200,6 +202,16 @@
         "buyer": "EJIE, S.A. - Sociedad Informática del Gobierno Vasco - EJIE-Sociedad Informática del Gobierno Vasco",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/512394-2026"
+      }
+    ],
+    "ERROR_RETRYABLE": [
+      {
+        "candidate_id": "PL-BZP:08defd23-6867-eeec-962b-12000115cba3",
+        "portal": "PL_EZAMOWIENIA",
+        "title": "Dostawa wyposażenia łazienek biurowych i koszy na odpady",
+        "buyer": "NARODOWY BANK POLSKI",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defd23-6867-eeec-962b-12000115cba3"
       }
     ]
   },
