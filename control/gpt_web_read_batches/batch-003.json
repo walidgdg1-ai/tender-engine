@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-08-31T12:00:49.726686+00:00",
-  "source_inbox_updated_at": "2026-08-31T12:00:49.368000+00:00",
+  "generated_at": "2026-08-31T12:13:34.150351+00:00",
+  "source_inbox_updated_at": "2026-08-31T12:13:33.298816+00:00",
   "latest_source_dce_run_id": 33388776757,
   "batch_index": 3,
   "start_rank": 31,
@@ -41,14 +41,71 @@
         "release_tag": "dce-harvest-33343970564"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 28,
+        "text_chars": 360865,
+        "attributed_compact_snippets": 5,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "sla_onsite": [
+          {
+            "text": "===== FILE: files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha SLA č. 3 - Katalog aplikací.docx ===== Příloha č. 3 – Katalog Aplikací Název Aplikace | Označení Aplikace | Popis Aplikace | Použité techn. Aplikace | Typ klienta | Testovací prostředí Objednatele Monti Control | MCČS | Operativní aplikace poskytuje inventarizaci a správu provozních činností nad sítí čerpacích stanic. Poskytuje náhledy na hodnoty měření z technologie a zpracovává analýzy dat a výstupy. Systém poskytuje automatizovaný reporting …",
+            "source": "files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha SLA č. 3 - Katalog aplikací.docx",
+            "source_url": null,
+            "source_sha256": "a720616d5571b8d7aa7b4c9c3b9d4825151fd05e6432910293b69dc30d61d2c5",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cle/MSSQL | Tlustý klient | NE Monti SuperVisor | MSUP | Aplikace pro dohled na data sítě čerpacích stanic. Poskytuje komplexní, agregovaný pohled na vývoj dat v časových úsecích. Jednotlivé události a stavy jsou přehledně znázorněny v mapách. Pro efektivní zavážení stanic slouží seznam celé sítě a stavy zásob včetně odhadů životnosti. Kompletní karta čerpací stanice se všemi údaji a aktuálním náhledem. Aplikace je čistě dozorová a neslouží k administraci ani k operativnímu zadávání dat. Pro tyto účely jsou aplika…",
+            "source": "files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha SLA č. 1 - Katalog služeb.docx",
+            "source_url": null,
+            "source_sha256": "bf2e023422aaf9399a48b3c011291c8a5f502bb70ccd00c77ab433d07d731903",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "á při plnění Službe/zhotovení Díla, předá k recyklaci a vytvoření druhotné suroviny (zejména se bude jednat o kovový odpad, plastový odpad a elektronický odpad), a zároveň zajistí, že předání takového odpadu k druhotnému využití na žádost ObjednateleOobjednateli prokáži. Dodavatel se zavazuje a stvrzuje, že se bude řídit postupy uvedenými v následujících standardech: Pokyny OECD pro nadnárodní společnosti (OECD Guidelines on Multinational Enterprises) Obecné zásady OSN v oblasti podnikání a lidských práv (UN Guidi…",
+            "source": "files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha ZD č. 1 - Návrh smlouvy.docx",
+            "source_url": null,
+            "source_sha256": "92f4b585c5ae16f67d79b3fc994ef9503de67eecf7e4a1d9827ee0a1b1f02e48",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "nců Dodavatele, kteří tento přístup bezpodmínečně nepotřebují k plnění pracovních povinností vyplývajících z této Smlouvy. Dodavatel používá pouze řádně licencovaný software a pouze v souladu s licenčními ujednáními jednotlivých dodavatelů licence. Práce v prostředí Objednatele Dodavatele je oprávněn (vzdáleně) přistupovat pouze k informačním aktivům Objednatele, které nezbytně potřebuje k plnění pracovních povinností vyplývajících ze Smlouvy. Dodavatele je oprávněn (vzdáleně) přistupovat pouze prostřednictvím VPN…",
+            "source": "files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha SLA č. 4 - Bezpečnostní požadavky.docx",
+            "source_url": null,
+            "source_sha256": "35b2564f98069e93c868b338791423d1ecea9130a18b22f19284a8d558093f08",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "], zapsaná v obchodním rejstříku vedeném [*] soudem v [*] pod sp. zn. [*], zastoupená [*] („Zpracovatel“) (Správce a Zpracovatel dále společně rovněž jako „Strany“ či každý samostatně „Strana“). Vzhledem k tomu, že: Strany uzavřely Smlouvu č. [*] o poskytování služeb podpory, údržby, a rozvoje Aplikace („Hlavní smlouva“), na základě které Zpracovatel poskytuje Správci zejména následující služby: [*] („Služby“); v souvislosti s poskytováním Služeb budou zpracovávány a mezi Stranami předávány osobní údaje, přičemž p…",
+            "source": "files/Zad_C3_A1vac_C3_AD_20dokumentace_unpacked/Příloha SLA č. 8 - Vzor SoZOU.docx",
+            "source_url": null,
+            "source_sha256": "eb7c8827b7750bb5150513cc922e3bc101c43a78c5ff770156796a33ae13348b",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -85,14 +142,59 @@
         "release_tag": "dce-harvest-33388776757"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 7,
+        "text_chars": 193562,
+        "attributed_compact_snippets": 4,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "sla_onsite": [
+          {
+            "text": "mlouvy (příloha č. 2 této ZD). 12 Vysvětlení Zadávací dokumentace V souladu s § 98 ZZVZ je dodavatel oprávněn požadovat vysvětlení této ZD včetně jejích příloh. Dle § 98 odst. 3 ZZVZ ve spojení s § 242 odst. 5 ZZVZ musí být žádost o vysvětlení ZD zadavateli doručena nejpozději 8 pracovních dnů před uplynutím lhůty pro podání námitek proti zadávacím podmínkám stanovené v čl. 14.4 této ZD. Dle § 211 odst. 3 ZZVZ musí být žádost o vysvětlení ZD podána výhradně elektronicky. Zadavatel preferuje zaslání žádosti o vysvě…",
+            "source": "files/00_20CUL_ZD.pdf",
+            "source_url": "https://zakazky.cuni.cz/document_120590/b42ed8ca7986e21c359821716354dacf-00-cul_zd-pdf",
+            "source_sha256": "d63f95b6056d480006ae6ab4952b9e29d2d5cab9039f23134406404a5f1a8c53",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ní návrhu kterékoliv Smluvní strany druhé Smluvní straně. 10.2. Jakékoliv změny závazku ze Smlouvy budou řešeny výhradně postupem a v souladu s § 222 ZZVZ. 11. Cenové a platební podmínky 11.1. Cena za Dílo a za poskytnutí služeb dle této Smlouvy je cenou pevnou, maximální, nejvýše přípustnou, nepřekročitelnou a zahrnující veškeré náklady Dodavatele nutné k řádnému a včasnému provedení Díla (např. správní a místní poplatky, vedlejší náklady, náklady spojené s dopravou do místa plnění, náklady související s proveden…",
+            "source": "files/CUL_P2-Smlouva.pdf",
+            "source_url": "https://zakazky.cuni.cz/document_120592/741ba987f14890876d6e76b4e27b20f8-cul_p2-smlouva-pdf",
+            "source_sha256": "dc4e03245719e8941d3bf3cc8b09961ec36f5a19c42053ab2b2d98291e2653e2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ací proštředí UK, kde bude oteštována jak na štraně dodavatele, tak pracovníký UK. Teprve zde oteštovaná verze může být našazena na produkční proštředí. • Nasazení o Na vývojové a teštovací proštředí proběhne našazení po vzájemné dohodě. o Na produkční proštředí proběhne našazení po vzájemné dohodě v možném čašovém okně vždý od pátku 17:00 do neděle 22:00. Toto našazení muší rešpektovat provozní potřebý UK. ===== FILE: files/CUL_P5-Zpracovatelska-smlouva.pdf ===== SMLOUVA O ZPRACOVÁNÍ OSOBNÍCH ÚDAJŮ (zpracovatelsk…",
+            "source": "files/CUL_P5-Zpracovatelska-smlouva.pdf",
+            "source_url": "https://zakazky.cuni.cz/document_120595/73df7101afb9983bc28bf1d486b62209-cul_p5-zpracovatelska-smlouva-pdf",
+            "source_sha256": "99e00e2b2dd366c0fc4d1203f4988a9ef387e578a757685ce8b82c4c06d02aff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "(zpracovatelská smlouva) uzavřená podle čl. 28 odst. 3 nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR) č. UKRUK/581860/2025-2 v návaznosti na smlouvu o dílo a poskytování služeb k rozvoji aplikace CUL (dále jen „Smlouva“ nebo „DPA“) Zpracovatelská smlouva (DPA) — Univerzita Karlova / CUL Strana 2 z 25 Zpracovatelská smlouva (DPA) — Univerzita Karlova / CUL Strana 3 z 25 Smluvní strany Správce: Název Univerzita Karlova IČ O / DIČ 00216208 / ČZ00216208 Sí dlo Ovocný trh 560/5, 116 36 Praha 1 – Stare Me st…",
+            "source": "files/CUL_P5-Zpracovatelska-smlouva.pdf",
+            "source_url": "https://zakazky.cuni.cz/document_120595/73df7101afb9983bc28bf1d486b62209-cul_p5-zpracovatelska-smlouva-pdf",
+            "source_sha256": "99e00e2b2dd366c0fc4d1203f4988a9ef387e578a757685ce8b82c4c06d02aff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -119,7 +221,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-08-05",
       "source_dce_run_id": 32954255767,
       "source_shard": 0,
       "review_key": "224935e2202c3ae0dc1c683b19fb0f778b06557afb3ad6d24c5739ff580f0a58",
@@ -130,14 +232,59 @@
         "release_tag": "dce-harvest-32954255767"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 14,
+        "text_chars": 271792,
+        "attributed_compact_snippets": 4,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "award_criteria": [
+          {
+            "text": ", godz 11:45) Formularz OFERTA Formularz OFERTA.doc (Data udostępnienia: 7 lipca 2026, godz 11:45) Projektowana postanowienia umowy wraz z załącznikami Projektowana postanowienia umowy wraz z załącznikami.docx (Data udostępnienia: 7 lipca 2026, godz 11:45) Zobowiązanie podmiotu udostępniającego zasoby - wzór Zobowiązanie podmiotu udostępniającego zasoby - wzór.doc (Data udostępnienia: 7 lipca 2026, godz 11:45) Elektroniczna wersja JEDZ Ektroniczna wersja JEDZ.xml (Data udostępnienia: 7 lipca 2026, godz 11:45) Opis…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "ac175a2f4e5c9c8d387470b3b13d0107e5dd7dc8c1a2eb1b5653232e81953b27",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "OFERTA.doc (Data udostępnienia: 7 lipca 2026, godz 11:45) Projektowana postanowienia umowy wraz z załącznikami Projektowana postanowienia umowy wraz z załącznikami.docx (Data udostępnienia: 7 lipca 2026, godz 11:45) Zobowiązanie podmiotu udostępniającego zasoby - wzór Zobowiązanie podmiotu udostępniającego zasoby - wzór.doc (Data udostępnienia: 7 lipca 2026, godz 11:45) Elektroniczna wersja JEDZ Ektroniczna wersja JEDZ.xml (Data udostępnienia: 7 lipca 2026, godz 11:45) Opis przedmiotu zamówienia (OPZ) Opis przedmi…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "ac175a2f4e5c9c8d387470b3b13d0107e5dd7dc8c1a2eb1b5653232e81953b27",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "letomatach, oprogramowania kasowników oraz urządzeń kontrolerskich wraz z dostawą i uruchomieniem infrastruktury teleinformatycznej niezbędnej do prawidłowego funkcjonowania rozbudowanego systemu. Zamówienie obejmuje wykonanie wszystkich prac projektowych, wdrożeniowych, integracyjnych, konfiguracyjnych i uruchomieniowych niezbędnych do przekazania kompletnego, zintegrowanego i gotowego do eksploatacji rozwiązania. Zamawiający wymaga, aby oferowany przedmiot zamówienia nie obejmował: 1) produktów ICT, usług ICT lu…",
+            "source": "files/2026-OJS142-00517455-pl.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mp-readmodels/api/Tender/DownloadDocument/ocds-148610-fd955095-9066-4789-bb85-edcea30c9679/ocds-148610-fd955095-9066-4789-bb85-edcea30c9679_12",
+            "source_sha256": "f89ca522fe0340e6f5b93ed35c955dca4b7685b2c93c0e318abb32dae5ffb098",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "yjnych i uruchomieniowych niezbędnych do przekazania kompletnego, zintegrowanego i gotowego do eksploatacji rozwiązania. Zamawiający wymaga, aby oferowany przedmiot zamówienia nie obejmował: 1) produktów ICT, usług ICT lub procesów ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa; 2) produktu ICT, którego typ został określony w decyzji w sprawie uznania…",
+            "source": "files/2026-OJS142-00517455-pl.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mp-readmodels/api/Tender/DownloadDocument/ocds-148610-fd955095-9066-4789-bb85-edcea30c9679/ocds-148610-fd955095-9066-4789-bb85-edcea30c9679_12",
+            "source_sha256": "f89ca522fe0340e6f5b93ed35c955dca4b7685b2c93c0e318abb32dae5ffb098",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -163,7 +310,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-09-02",
       "source_dce_run_id": 32839385414,
       "source_shard": 0,
       "review_key": "5c8edd83d288d4d1c591375765f41c60a37262e42cee7447893887c3886d99ee",
@@ -174,14 +321,59 @@
         "release_tag": "dce-harvest-32839385414"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 3,
+        "text_chars": 72590,
+        "attributed_compact_snippets": 4,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "certifications_partner": [
+          {
+            "text": "1. Przedmiotem zamówienia jest usługa audytu bezpieczeństwa informacji obejmująca ocenę Systemu Zarządzania Bezpieczeństwem Informacji, dostawa pakietu szkoleń e-learningowych w formie elektronicznej, szkolenia stacjonarne z zakresu bezpieczeństwa teleinformatycznego i ochrony zasobów IT oraz specjalistyczne, certyfikowane szkolenia z zakresu zarządzania bezpieczeństwem informacji i ciągłością działania. 2. Przedmiot zamówienia podzielony jest na 6 części: 1) Część 3: Szkolenia specjalistyczne: Audytor Wiodący Sys…",
+            "source": "files/2026_BZP 00405685_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df028a-6565-5f01-ab56-940001e5a751",
+            "source_sha256": "2e8446dad40a226a9901ec51da791e0953807464383bc6572ae9e0d729394c26",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e/zasobach Wykonawcy nie stanowią dostawy materiałów e-learningowych; 2) dwa stacjonarne szkolenia z zakresu cyberbezpieczeństwa na kwotę co najmniej 9 000,00 PLN brutto każda usługa, w okresie ostatnich 3 lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie; Część 3: 1) trzy szkolenia: Audytor Wiodący Systemu Zarządzania Bezpieczeństwem Informacji PN-EN ISO/IEC 27001, w okresie ostatnich 3 lat przed upływem terminu składania ofert, a jeżeli okres prowadze…",
+            "source": "files/2026_BZP 00405685_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df028a-6565-5f01-ab56-940001e5a751",
+            "source_sha256": "2e8446dad40a226a9901ec51da791e0953807464383bc6572ae9e0d729394c26",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "mujący ocenę Systemu Zarządzania Bezpieczeństwem Informacji, dostawa pakietu szkoleń e-learningowych oraz szkolenia stacjonarne z zakresu bezpieczeństwa (BI) 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00405685 z dnia 2026-08-25 2026-08-25 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzi…",
+            "source": "files/2026_BZP 00405685_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df028a-6565-5f01-ab56-940001e5a751",
+            "source_sha256": "2e8446dad40a226a9901ec51da791e0953807464383bc6572ae9e0d729394c26",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rt. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00405685 z dnia 2026-08-25 2026-08-25 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi 2.15.) Nazwa projektu lub programu Projekt: Poprawa cyberbezpieczeństwa w jednostkach administracji rządowej województwa podlaskiego realizowanego w Krajowym Planie Odb…",
+            "source": "files/2026_BZP 00405685_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df028a-6565-5f01-ab56-940001e5a751",
+            "source_sha256": "2e8446dad40a226a9901ec51da791e0953807464383bc6572ae9e0d729394c26",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -219,14 +411,59 @@
         "release_tag": "dce-harvest-32262216923"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 13,
+        "text_chars": 525202,
+        "attributed_compact_snippets": 4,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "sla_onsite": [
+          {
+            "text": "le jen „Aktualizace Provozní dokumentace“); Poskytovatel se dále zavazuje v rámci Provozní podpory poskytovat profylaxe a činnosti související s udržením bezproblémového chodu SPIN, které zahrnují zejména: instalaci bezpečnostních záplat a běžných upgradů SPIN pro udržení zabezpečení, a dlouhodobého a bezproblémového chodu; profylaxe SPIN minimálně jednou měsíčně za účelem prevence, pro identifikaci možných změn architektury a pro udržení jejich dlouhodobého a bezproblémového chodu; (vše v odst. 3.3 a odst. 3.4 dá…",
+            "source": "files/ZD-P03-SML_VZ2026033_Podpora-CMDB_260609.docx",
+            "source_url": "https://mfcr.ezak.cz/document_44760/4c5f5341f5504f8d287843f118e6bbb5-zd-p03-sml_vz2026033_podpora-cmdb_260609-docx",
+            "source_sha256": "375a331a1014799212efca1b44ae33549f590d198976221941d413db75f6b5db",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tace“); Poskytovatel se dále zavazuje v rámci Provozní podpory poskytovat profylaxe a činnosti související s udržením bezproblémového chodu SPIN, které zahrnují zejména: instalaci bezpečnostních záplat a běžných upgradů SPIN pro udržení zabezpečení, a dlouhodobého a bezproblémového chodu; profylaxe SPIN minimálně jednou měsíčně za účelem prevence, pro identifikaci možných změn architektury a pro udržení jejich dlouhodobého a bezproblémového chodu; (vše v odst. 3.3 a odst. 3.4 dále také jen „Provozní podpora na pož…",
+            "source": "files/ZD-P03-SML_VZ2026033_Podpora-CMDB_260609.docx",
+            "source_url": "https://mfcr.ezak.cz/document_44760/4c5f5341f5504f8d287843f118e6bbb5-zd-p03-sml_vz2026033_podpora-cmdb_260609-docx",
+            "source_sha256": "375a331a1014799212efca1b44ae33549f590d198976221941d413db75f6b5db",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "vat tento přepočet; zpracování prohlášení o aplikovatelnosti pro identifikovaná aktiva podle § 9 odst. 1 písm. f) VVP; zpracování plánu zvládání rizik pro identifikovaná aktiva v souladu s § 9 odst. 1 písm. g) VVP; informování Objednatele o způsobu řízení rizik; předložení zprávy o hodnocení aktiv a rizik, prohlášení o aplikovatelnosti a plánu zvládání rizik pro identifikovaná aktiva a o zbytkových rizicích souvisejících s těmito aktivy. Při provádění úkonů podle odst. 2.1 této Přílohy je Poskytovatel povinen post…",
+            "source": "files/ZD-P03-SML_VZ2026033_Podpora-CMDB_260609.docx",
+            "source_url": "https://mfcr.ezak.cz/document_44760/4c5f5341f5504f8d287843f118e6bbb5-zd-p03-sml_vz2026033_podpora-cmdb_260609-docx",
+            "source_sha256": "375a331a1014799212efca1b44ae33549f590d198976221941d413db75f6b5db",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ormace či doklady poskytnuté dodavatelem použít, je-li to nezbytné pro postup podle ZZVZ či pokud to vyplývá z účelu ZZVZ. 8. Zadavatel dodavatele upozorňuje, že v rámci zadávacího řízení Veřejné zakázky bude povinen postupovat v souladu s nařízeními a pokyny příslušných orgánů České republiky nebo Evropské unie vztahujícími se ke konfliktu na Ukrajině. 18 Informace o zpracování osobních údajů 1. Zadavatel v postavení správce osobních údajů tímto informuje ve smyslu čl. 13 Nařízení Evropského parlamentu a Rady (EU…",
+            "source": "files/ZD_VZD01_VZ2026033_Podpora-CMDB_260727-komplet_signed.pdf",
+            "source_url": "https://mfcr.ezak.cz/document_45072/e0329c61aa36253bab893d4b97958294-zd_vzd01_vz2026033_podpora-cmdb_260727-komplet_signed-pdf",
+            "source_sha256": "7cc95835a5e97de99eb6bd00ee6d2abe16dee74cb846484757d822f7d8eb0681",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -263,14 +500,281 @@
         "release_tag": "dce-harvest-33388776757"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 3,
+        "text_chars": 95979,
+        "attributed_compact_snippets": 24,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "UOTE RECEIPT. UNIQUE ENTITY ID ______________________ CAGE CODE ____________ OFFEROR MAY SUBMIT THE QUOTE ON THIS SF-18 FORM OR THEIR OWN COMPANY FORM. QUOTES WILL BE EVALUATED BASED ON (RFO 52.212-2) IN ATTACHED CLAUSES & PROVISIONS. VENDORS WHO DO NOT PROVIDE Continued... 1 40 CONTINUATION SHEET REFERENCE NO. OF DOCUMENT BEING CONTINUED PAGES NAME OF OFFEROR OR CONTRACTOR SUPPLIES/SERVICES (B) UNIT (D) UNIT PRICE (E) AMOUNT (F) OPTIONAL FORM 336 (4-86) Sponsored by GSA FAR (48 CFR) 53.110 ITEM NO. (A) QUANTITY (…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ity Prohibitions and Exclusions Representations and Certifications. (Deviation JAN 2026) 52.240-91 Security Prohibitions and Exclusions. (Deviation JAN 2026) 52.244-6 Subcontracts for Commercial Products and Commercial Services. (OCT 2025) (DEVIATION April 2026) 1352.201-70 Contracting Officer's Authority. (MAR 2010) 1352.209-73 Compliance with the laws. (APR 2010) 1352.209-74 Organizational conflict of interest. (APR 2010) 1333MF26Q0100 BASE Page 17 Standard Language UTILIZATION OF FEDCONNECT FOR CONTRACT ADMINIS…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "Y MO 64106 143041-26-0144 1333MF26Q0100 RAYNIER CAMERINO MONTLAKE FACILITY /F/NWC21 98112 08/28/2026 09/07/2026 1700 ED SEATTLE WA NOTICE: THE GOVERNMENT DOES NOT ACCEPT RESPONSIBILITY FOR NON-RECEIPT OF QUOTES. IT IS THE CONTRACTOR’S RESPONSIBILITY TO REQUEST A CONFIRMATION OF THE QUOTE RECEIPT. UNIQUE ENTITY ID ______________________ CAGE CODE ____________ OFFEROR MAY SUBMIT THE QUOTE ON THIS SF-18 FORM OR THEIR OWN COMPANY FORM. QUOTES WILL BE EVALUATED BASED ON (RFO 52.212-2) IN ATTACHED CLAUSES & PROVISIONS. …",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "AL RESPONSIBLE FOR APPROVING INVOICES SHALL BE: NOAA NWFSC FED POC: Linda Kim EMAIL: Linda.Kim@NOAA.GOV IPP INVOICES STATUS: MB.INVOICES@NOAA.GOV, RAYNIER.CAMERINO@NOAA.GOV FOREIGN VENDOR EXEMPT FROM NAM 1330-52.232-71 ELECTRONIC SUBMISSION OF PAYMENT REQUESTS (FEB 2023). THE VENDOR MUST PREPARE AND SUBMIT INVOICES TO MB.Invoices@noaa.gov ALONG WITH A COMPLETED SF3881. The Services Contract Labor Standards (SCLS) is not applicable. THE STATEMENT OF WORK IS ATTACHED, INCORPORATED, AND APPLIES TO THE BASE YEAR AND A…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ission to increase seafood competitiveness by ensuring robust data on seafood product integrity and effects of environmental stressors. The instrument operates under extreme physical tolerances, including ultra-high vacuum environments, precise voltage stability, and an accurate and reproducible micro-volume liquid handler. Even minor deviations in these parameters can compromise the selectivity, sensitivity, accuracy, and precision of the data. Given the complexity, expert-level care is required to prevent catast…",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "EET ADDRESS d. STATE e. ZIP CODE 7. DELIVERY FOB DESTINATION OTHER (See Schedule) 10. PLEASE FURNISH QUOTATIONS TO THE ISSUING OFFICE IN BLOCK 5a ON OR BEFORE CLOSE OF BUSINESS (Date) IMPORTANT: This is a request for information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for sup…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "-TECHNICAL APPROACH. The quotation will be evaluated on how the offeror intends to organize, staff and manage the contract and the means that will be used to accomplish the contract requirements. The degree to which the quotation demonstrates an understanding of the requirements will be evaluated, as well as the offeror's planned management of consultants and subcontractors. if applicable. Factor 2--EXPERIENCE. The offeror's background, experience, and qualifications will be assessed to determine the likelihood th…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "fferor intends to organize, staff and manage the contract and the means that will be used to accomplish the contract requirements. The degree to which the quotation demonstrates an understanding of the requirements will be evaluated, as well as the offeror's planned management of consultants and subcontractors. if applicable. Factor 2--EXPERIENCE. The offeror's background, experience, and qualifications will be assessed to determine the likelihood that that offeror can successfully perform the contract requirement…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ontractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose. This paragraph does not 1333MF26Q0100 BASE Page 34 give the Government any right to audit the Contractor's records. The Contractor shall not be paid for any work performed or costs incurred which reasonably could have been avoided. (m) Termination for cause. The Government may terminate this contract, or any part hereof, for cause in the event of any default by the Contractor, or if the Contra…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sonably obtainable. In no event shall failure to inspect the site constitute grounds for a claim after contract award. Please contact Denis DaSilva at Denis.daSilva@noaa.gov to set up a time to visit the site. All questions during the site visit should be submitted electronically to Raynier Camerino at Raynier.Camerino@noaa.gov. RFO 52.252-1 Solicitation Provisions Incorporated by Reference. (FEB 1998) This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect a…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "n order resulting from this request for quotation to the responsible offeror whose quotation results in the best value to the Government, considering both price and non-price factors. The following factors will be used to evaluate quotations: Technical Evaluation Factors: Factor 1--TECHNICAL APPROACH. The quotation will be evaluated on how the offeror intends to organize, staff and manage the contract and the means that will be used to accomplish the contract requirements. The degree to which the quotation demonst…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ill be assessed to determine the likelihood that that offeror can successfully perform the contract requirements and the degree of the risk of non-performance. Factor 3--KEY PERSONNEL. The education, experience, and accomplishments of key personnel will be evaluated to determine the degree to which they possess the qualifications to perform their proposed duties under the contract. Factor 4--PAST PERFORMANCE. The offeror's past performance on related contracts will be evaluated to determine, as appropriate, succes…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "uding the estimated value). The Northwest Fisheries Science Center (NWFSC) Environmental Chemistry Program (ECP) requires a comprehensive multi-year service and support agreement for its AB SCIEX ExionLC AE liquid chromatographer coupled with QTRAP 5500 tandem mass spectrometer (LC-MS/MS) systems. The requirement comprises one base year and 3 subsequent option years to ensure uninterrupted operational capacity. The service contract must include, at minimum: 1. Preventative Maintenance (PM): The PM has to be conduc…",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s spectrometer (LC-MS/MS) systems. The requirement comprises one base year and 3 subsequent option years to ensure uninterrupted operational capacity. The service contract must include, at minimum: 1. Preventative Maintenance (PM): The PM has to be conducted by AB Sciex certified field engineers to ensure the system operates within Original Equipment Manufacturer (OEM) specifications. One annual on-site visit for both LC and MS systems. Replacements of parts with OEM parts. 2. Corrective Repair: Unlimited on-site …",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": ". The Northwest Fisheries Science Center (NWFSC) Environmental Chemistry Program (ECP) requires a comprehensive multi-year service and support agreement for its AB SCIEX ExionLC AE liquid chromatographer coupled with QTRAP 5500 tandem mass spectrometer (LC-MS/MS) systems. The requirement comprises one base year and 3 subsequent option years to ensure uninterrupted operational capacity. The service contract must include, at minimum: 1. Preventative Maintenance (PM): The PM has to be conducted by AB Sciex certified …",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "multi-year service and support agreement for its AB SCIEX ExionLC AE liquid chromatographer coupled with QTRAP 5500 tandem mass spectrometer (LC-MS/MS) systems. The requirement comprises one base year and 3 subsequent option years to ensure uninterrupted operational capacity. The service contract must include, at minimum: 1. Preventative Maintenance (PM): The PM has to be conducted by AB Sciex certified field engineers to ensure the system operates within Original Equipment Manufacturer (OEM) specifications. One a…",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf ===== Version 2.0 19Aug2020 BRAND NAME DETERMINATION USING SIMPLIFIED ACQUISITION PROCEDURES (SAP) FOR AN ACTION NOT EXCEEDING THE SIMPLIFIED ACQUISITION THRESHOLD (AUTHORITY: 12.102(a) and 41 USC 1901) PR 143041-26-0144 1. Agency and contracting activity. Department of Commerce, Fisheries, OMB Field Delegates, and Northwest Fisheries Science Center 2. Description of supplies or services required to meet agency needs (…",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "THRESHOLD (AUTHORITY: 12.102(a) and 41 USC 1901) PR 143041-26-0144 1. Agency and contracting activity. Department of Commerce, Fisheries, OMB Field Delegates, and Northwest Fisheries Science Center 2. Description of supplies or services required to meet agency needs (including the estimated value). The Northwest Fisheries Science Center (NWFSC) Environmental Chemistry Program (ECP) requires a comprehensive multi-year service and support agreement for its AB SCIEX ExionLC AE liquid chromatographer coupled with QTRA…",
+            "source": "files/Brand_Name_Determination_Using_FAR_part_12_up_to_SAT__2826-467_29_Redacted.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b9c/b9cbd5adddb041c9bf93f865d9027a5b.pdf?response-content-disposition=attachment%3B%20filename%3DBrand_Name_Determination_Using_FAR_part_12_up_to_SAT_%252826-467%2529_Redacted.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0a1f863bb0874bdff04606676bd5f4806702e1526dbdcadcb0df976aaa824d8",
+            "source_sha256": "a118998be1731e05e1ea2c331613334c7798ad0078f6725be464fed44408369e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "information and quotations furnished are not offers. If you are unable to quote, please so indicate on this form and return it to the address in Block 5a. This request does not commit the Government to pay any costs incurred in the preparation of the submission of this quotation or to contract for supplies or service. Supplies are of domestic origin unless otherwise indicated by quoter. Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter. 11. SCHEDULE (I…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "is accurate and complete to the best of my knowledge and belief. ===== FILE: files/Sol_1333MF26Q0100.pdf ===== REQUEST FOR QUOTATION (THIS IS NOT AN ORDER) THIS RFQ IS IS NOT A SMALL BUSINESS SET-ASIDE 15. DATE OF QUOTATION 16. SIGNER a. NAME (Type or print) c. TITLE (Type or print) b. TELEPHONE AREA CODE NUMBER STANDARD FORM 18 (REV. 6/1995) Prescribed by GSA-FAR (48 CFR) 53.215-1(a) AUTHORIZED FOR LOCAL REPRODUCTION Previous edition not usable 8. TO: b. COMPANYa. NAME c. STREET ADDRESS d. CITY e. STATE f. ZIP CO…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "N TO ALL SOURCES, FIRM-FIXED PRICE PURCHASE ORDER TO BE AWARDED TO LOW PRICED, TECHNICALLY ACCEPTABLE QUOTE. INVOICES SHALL BE SUBMITTED VIA IPP.GOV INVOICES MUST BE SUBMITTED IN ARREARS. THE CONTRACTOR MUST INCLUDE THE FOLLOWING DOCUMENTS OR ATTACHMENTS TO PAYMENT REQUESTS SUBMITTED TO IPP: Vendor's Invoice. GOVERNMENT'S TECHNICAL POCs: NOAA NWFSC NAME: Denis da Silva EMAIL: Denis.daSilva@noaa.gov GOVERNMENT OFFICIAL RESPONSIBLE FOR APPROVING INVOICES SHALL BE: NOAA NWFSC FED POC: Linda Kim EMAIL: Linda.Kim@NOAA.…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "I - Supplies or Services and Price/Costs CLIN List Item Number Description Quantity Unit Unit Price Amount INVOICES SHALL BE SUBMITTED VIA IPP.GOV INVOICES MUST BE SUBMITTED IN ARREARS. THE CONTRACTOR MUST INCLUDE THE FOLLOWING DOCUMENTS OR ATTACHMENTS TO PAYMENT REQUESTS SUBMITTED TO IPP: Vendor's Invoice. GOVERNMENT'S TECHNICAL POCs: NOAA NWFSC NAME: Denis da Silva EMAIL: Denis.daSilva@noaa.gov GOVERNMENT OFFICIAL RESPONSIBLE FOR APPROVING INVOICES SHALL BE: NOAA NWFSC FED POC: Linda Kim EMAIL: Linda.Kim@NOAA.GO…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "t Required Services Contractor requires non-Government IT equipment to connect to a DOC network: Required X Not Required Services Contractor requires access to non-public DOC/NOAA data: Required X Not Required Services Contractor will be provided on-site office space with incidental Government Property (desk, chair, phone, and other similar equipment that remains onsite, per FAR 45.000 (5) Provided X Not Provided For Services Contractors doing laboratory work, the government will provide typical lab supplies and e…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r equipment requirements not already addressed above: Security Requirements: This project is considered low/ risk, and Contractor staff must be suited for public trust classification. Background investigations are required for all contractor staff proposed for this project, and must be completed prior to beginning work. Special Requirements a. Confidentiality and Data Privacy This contract may require that services contractors have access to Privacy Information. Services contractors are responsible for maintaining…",
+            "source": "files/Sol_1333MF26Q0100.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/8a8/8a82e175a63a4b2a94e3260a09da2612.pdf?response-content-disposition=attachment%3B%20filename%3DSol_1333MF26Q0100.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c5f4e2e1da8c0dfc6bc473b951cc30bdd91dc8be3071d2fba82dff9bcdacd62",
+            "source_sha256": "5d38444a6afe2253627e0a3357f0323d8828402117de63bf76a5a70fd4ed0a12",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -686,7 +1190,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-09-08",
       "source_dce_run_id": 31975449482,
       "source_shard": 3,
       "review_key": "a6a5a213e59d5e2634dfdb87e2fadf8827f0c8aeaf308394373198085d283b86",
@@ -697,14 +1201,203 @@
         "release_tag": "dce-harvest-31975449482"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 31,
+        "text_chars": 434978,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 17,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "AAD//wMAUEsDBBQABgAIAAAA&#xA;IQDPhQFseQMAAHwKAAAOAAAAZHJzL2Uyb0RvYy54bWzUlm2P1DYQx99X6new/J7Lw5J9iC6Hrgsc&#xA;lWhB4uC9N3Ee2sQOtveS49MzYzvJ7nG0EohWaKWV49jjmf/Mb5zLZ2PXkjuudCNFRqOLkBIuclk0&#xA;osro+9uXT7aUaMNEwVopeEbvuabPrn795XLoUx7LWrYFVwSMCJ0OfUZrY/o0CHRe847pC9lzAS9L&#xA;qTpm4FFVQaHYANa7NojDcB0MUhW9kjnXGmafu5f0ytovS56bN2WpuSFtRsE3Y/+V/T/gf3B1ydJK&#xA;sb5ucu8G+wYvOtYIOHQ29ZwZRo6q+cJU1+RKalmai1x2gSzLJuc2BogmCh9Ec6PksbexVOlQ9bNM&#xA;IO0Dnb7ZbP7n3Y3q3/VvlfMehq9l/rcGXYKhr9LT9/hcucXkMPwhC8gnOxppAx9L1aEJCImMVt/7&#xA;WV8+…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "BD5\" w:themeColor=\"accent5\"/><w:insideH w:val=\"nil\"/><w:insideV w:val=\"nil\"/></w:tcBorders><w:shd w:val=\"clear\" w:color=\"auto\" w:fill=\"5B9BD5\" w:themeFill=\"accent5\"/></w:tcPr></w:tblStylePr><w:tblStylePr w:type=\"lastRow\"><w:rPr><w:b/><w:bCs/></w:rPr><w:tblPr/><w:tcPr><w:tcBorders><w:top w:val=\"double\" w:sz=\"4\" w:space=\"0\" w:color=\"5B9BD5\" w:themeColor=\"accent5\"/></w:tcBorders></w:tcPr></w:tblStylePr><w:tblStylePr w:type=\"firstCol\"><w:rPr><w:b/><w:bCs/></w:rPr></w:tblStylePr><w:tblStylePr w:type=\"lastCol\"><w:rPr><w…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "digital content and resources that can be adapted and reused for future food waste prevention communications and campaigns in conjunction with the creation of some new assets to attract and engage new audiences. Regular performance and engagement monitoring and evaluation is required to review effectiveness and suitability of the approach, based on campaign goals and objectives. Insights gained in post-campaign analysis and optimisation recommendations will inform future campaign targeting. OTHER INFORMATION Suppl…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "successful delivery? What skills, qualifications, and resources would be required to deliver this requirement? How would you allocate the specified budget in % terms to ensure that objectves are met? What resources would be required from the Contracting Authority during implementation? What common mistakes do buyers make when specifying requirements? What additional information would suppliers need to prepare a high-quality tender response? What advice would you give us before commencing the formal procurement pro…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "== FILE: files/1320_8841473_unpacked/1_Preliminary Market Consultation Digital Marketing Services for Stop Food Waste.docx ===== PRIOR INFORMATION NOTICE With the purpose of inviting PRELIMINARY MARKET CONSULTATION INTRODUCTION This document is not a call for competition or an invitation to tender. This is a prior information notice with the purpose of inviting the market to participate in a market consultation exercise in relation to the provision of digital marketing services for Stop Food Waste. Neither this do…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "prior information notice with the purpose of inviting the market to participate in a market consultation exercise in relation to the provision of digital marketing services for Stop Food Waste. Neither this document nor any information set out herein shall be regarded as a commitment or representation on behalf of the EPA to develop a specification in a particular way or to enter into a contractual arrangement. No commitment of any kind, contractual or otherwise will arise from this exercise. The purpose of this r…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "wPNG/></w:webSettings> ===== FILE: files/portal_page.txt ===== Advanced search Latest CfTs Latest Notices EN Log in Notice & Tender Documents CFT: PRELIMINARY MARKET CONSULTATION - DIGITAL MARKETING EXPERTISE TO SUPPORT DELIVERY OF STOP FOOD WASTE Show CfT Menu Notices Tender Documents 10 20 50 100 Results Per page | Displaying the 1 match. Columns Addendum ID Title File Description Lang. Document Versions Actions N/A PMC - Digital Marketing Expertise to Support Delivery of Stop Food Waste Preliminary Market Consu…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "exercise does not bias any future competitions Note Please note that information relating to this Preliminary Market Consultation, including clarifications and changes, will be published on the Irish Government Procurement Opportunities Portal www.etenders.gov.ie. Registration is free of charge and there is no charge for documents. Please note that the Contracting Authority accepts no responsibility for information relayed (or not relayed) via third parties. WHO CAN RESPOND? The EPA would like to hear from market …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "to amplify the campaigns, reach new audiences, increase the engagement with content and motivate audiences to change their behaviours in line with the objective for Stop Food Waste. Therefore Stop Food Waste communications consist of focussed campaigns on targeted topics and distinct audience cohorts informed by behavioural research. Communications are delivered mainly using digital channels such as stopfoodwaste.ie; social media (Facebook, Instagram) and online engagement activities (stakeholder digital toolkits,…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "\"xsd:string\" ma:index=\"5\" ma:displayName=\"Content Type\"/> <xsd:element ref=\"dc:title\" minOccurs=\"0\" maxOccurs=\"1\" ma:index=\"1\" ma:displayName=\"Title\"/> <xsd:element ref=\"dc:subject\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element ref=\"dc:description\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"keywords\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element ref=\"dc:language\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"category\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"version\" …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "escription\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"keywords\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element ref=\"dc:language\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"category\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"version\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"revision\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"> <xsd:annotation> <xsd:documentation> This value indicates the number of saves or revisions. The application is…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "nd changes, will be published on the Irish Government Procurement Opportunities Portal www.etenders.gov.ie. Registration is free of charge and there is no charge for documents. Please note that the Contracting Authority accepts no responsibility for information relayed (or not relayed) via third parties. WHO CAN RESPOND? The EPA would like to hear from market operators with relevant expertise to understand potential approaches to deliver the requirements specified, within the available budget, taking in to account…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "e front line of environmental protection and policing. We ensure that Ireland's environment is protected, and we monitor changes in environmental trends to detect early warning signs of neglect or deterioration. Protecting our environment is a huge responsibility, and we work with a number of organisations that carry out specific environmental functions. As of August 2014, we are also responsible for ensuring that the people of Ireland are protected from the harmful effects of radiation. The EPA is an independent …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "submission": [
+          {
+            "text": "tion with the creation of some new assets to attract and engage new audiences. Regular performance and engagement monitoring and evaluation is required to review effectiveness and suitability of the approach, based on campaign goals and objectives. Insights gained in post-campaign analysis and optimisation recommendations will inform future campaign targeting. OTHER INFORMATION Suppliers are asked to complete the “Response for Preliminary Market Consultation” Form (Appendix A) providing their contact details, refe…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "e approach, based on campaign goals and objectives. Insights gained in post-campaign analysis and optimisation recommendations will inform future campaign targeting. OTHER INFORMATION Suppliers are asked to complete the “Response for Preliminary Market Consultation” Form (Appendix A) providing their contact details, reference details, together with the details of how their proposed solution is capable of meeting the requirements of the EPA. The closing date for receipt of response is as detailed on Page 1 of this …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "rmation. The Contracting Authority’s officers, employees, agents, and professional advisers expressly disclaim any and all liability arising out of such documentation or information and any errors or omissions in or from the documents and information. The Contracting Authority reserves the right to discontinue this market consultation process at any time. Interested parties will bear their own costs in participating in this consultation. Please note that any responses or comments received will be treated in the st…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "rk with a number of organisations that carry out specific environmental functions. As of August 2014, we are also responsible for ensuring that the people of Ireland are protected from the harmful effects of radiation. The EPA is an independent public body established under the Environmental Protection Agency Act, 1992. The other main instruments from which we derive our mandate are the Waste Management Act, 1996, and the Protection of the Environment Act, 2003 and Radiological Protection (Miscellaneous Provisions…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -741,14 +1434,269 @@
         "release_tag": "dce-harvest-33388776757"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 10,
+        "text_chars": 209337,
+        "attributed_compact_snippets": 23,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "if applicable. (2) If the Offeror does not have a UEI, it shall go to https://www.sam.gov to obtain one. The Government will independently validate the existence and uniqueness of the Offeror before assigning a UEI. (c) Taxpayer identification. The Offeror shall provide with its offer the following information that is necessary to comply with debt collection requirements of 31 U.S.C. 7701(c) and 3325(d); reporting requirements of 26 U.S.C. 6041, 6041A, and 6050M; and the implementing IRS regulations: (1) Taxpayer …",
+            "source": "files/191N6026Q0007_-_Requirements_in_lieu_of_SAM_Registration.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3c9/3c9da3389d534bd19d34e855a443c12f.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BRequirements%2Bin%2Blieu%2Bof%2BSAM%2BRegistration.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=243940e0a6cae1cadc5b0d7609ad64156ebbcb6f173a623f2d2f12c513f2f688",
+            "source_sha256": "2227008fad8e92ece4ef39d4540d4f591c03b6596bf1e331a23d53b8d95f18a3",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "siness concern participating in the HUBZone joint venture must be certified as a HUBZone concern. (d) Notice. Under 15 U.S.C. 645(d), any person who misrepresents a firm’s status as a business concern that is small, HUBZone small, small disadvantaged, service-disabled veteran-owned small, economically disadvantaged women-owned small, or women-owned small eligible under the WOSB Program in order to obtain a contract to be awarded under the preference programs established pursuant to section 8, 9, 15, 31, and 36 of …",
+            "source": "files/191N6026Q0007_-_Requirements_in_lieu_of_SAM_Registration.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3c9/3c9da3389d534bd19d34e855a443c12f.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BRequirements%2Bin%2Blieu%2Bof%2BSAM%2BRegistration.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=243940e0a6cae1cadc5b0d7609ad64156ebbcb6f173a623f2d2f12c513f2f688",
+            "source_sha256": "2227008fad8e92ece4ef39d4540d4f591c03b6596bf1e331a23d53b8d95f18a3",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "r has submitted a third party authorizing official conducted assessment such as ISO 27001, ISO 9000, SOC II, or FedRAMP authorization. For suppliers offering critical software, the State Department Secure Software Development Attestation Form (or another federal agency’s equivalent form) is signed and submitted in accordance with the form’s instructions. ===== FILE: files/191N6026Q0007-C-SCRM_Questionnaire.xlsx ===== [SHEET C-SCRM Questionnaire] CYBERSECURITY SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) QUESTIONNAIRE | |…",
+            "source": "files/191N6026Q0007-C-SCRM_Questionnaire.xlsx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/69a/69aa2da7e45f4d4b9c911bde3947547c.xlsx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BQuestionnaire.xlsx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6382d1bd5d9f00c7a0c218b2357e4eec71649c7f01c6411d1bee7956643bb9df",
+            "source_sha256": "8e8dbd494fbbfa390c3ca8263fd5f1892789578cafd5f3d674efb49359502f47",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "| VENDOR RESPONSE | | | | | | 1.1 | Enter the name of your company. | | | | | | | 1.2 | Enter the name of the primary Point-Of-Contact (POC) for your company that the Government may contact to discuss the vendor inputs on this questionnaire. | | | | | | | 1.3 | Enter the job title of the primary POC. | | | | | | | 1.4 | Enter the phone number of the primary POC in the following format: (555) 555-5555 | | | | | | | 1.5 | Enter the e-mail address of the primary POC. | | | | | | | SECTION 2 VENDOR RISK MANAGEMENT PLA…",
+            "source": "files/191N6026Q0007-C-SCRM_Questionnaire.xlsx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/69a/69aa2da7e45f4d4b9c911bde3947547c.xlsx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BQuestionnaire.xlsx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6382d1bd5d9f00c7a0c218b2357e4eec71649c7f01c6411d1bee7956643bb9df",
+            "source_sha256": "8e8dbd494fbbfa390c3ca8263fd5f1892789578cafd5f3d674efb49359502f47",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "===== FILE: files/191N6026Q0007-C-SCRM_Go-_No_Go_Evaluation_Factor_Template.docx ===== C-SCRM Go/No-Go Evaluation Factor Template (Aug 2026) C-SCRM Proposal/Quote Instructions (corresponding instructions to the factor below) Cybersecurity Supply Chain Risk Management (C-SCRM) Forms The offeror shall include in its offer Attachment 191N6026Q0007- C-SCRM Questionnaire. In lieu of a completed C-SCRM Questionnaire, the vendor may submit a third party authorizing official conducted assessment, such as International Org…",
+            "source": "files/191N6026Q0007-C-SCRM_Go-_No_Go_Evaluation_Factor_Template.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/2e0/2e0078a9eaba4a01bfdcab176a9b89ba.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BGo-%2BNo%2BGo%2BEvaluation%2BFactor%2BTemplate.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fab27e7136dbc0c44d07c0cb7c34b1ec445772ddbd35180b429604391d2b84d7",
+            "source_sha256": "fb6f54182d8dfb833b6ddd8df601272c499c3a06cac1055b01f7531930c098ee",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t will evaluate if the submitted C-SCRM Questionnaire and State Department Secure Software Development Attestation Form meet the definition for the “Go” or “No-Go” ratings for this factor. The “Go” and “No-Go” ratings and their definitions are as follows: RATING | RATING DEFINITION GO | The proposal meets the criteria in the following two (2) paragraphs. The C-SCRM Questionnaire contains both of the following: (1) C-SCRM Questionnaire instructions are completed; and (2) contains Yes answers for all questions in Se…",
+            "source": "files/191N6026Q0007-C-SCRM_Go-_No_Go_Evaluation_Factor_Template.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/2e0/2e0078a9eaba4a01bfdcab176a9b89ba.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BGo-%2BNo%2BGo%2BEvaluation%2BFactor%2BTemplate.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fab27e7136dbc0c44d07c0cb7c34b1ec445772ddbd35180b429604391d2b84d7",
+            "source_sha256": "fb6f54182d8dfb833b6ddd8df601272c499c3a06cac1055b01f7531930c098ee",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "LE: files/191N6026Q0007_-_PR16205087_-_Technical_Evaluation_Form.docx ===== Solicitation No. 191N6026Q0007 - PR16205087 | Solicitation No. 191N6026Q0007 - PR16205087 Technical Evaluation (Generic) Project Details: American Center Chennai’s Technology infrastructure modernization | Technical Evaluation (Generic) Project Details: American Center Chennai’s Technology infrastructure modernization Information demonstrating the offeror’s / quoter’s ability to perform, included | Information demonstrating the offeror’s /…",
+            "source": "files/191N6026Q0007_-_PR16205087_-_Technical_Evaluation_Form.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b88/b8891000c2314beea4de7478cc01a2a9.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BPR16205087%2B-%2BTechnical%2BEvaluation%2BForm.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d06463459e5eacedd6f0b8a6b3cb832a744500a86708e6bc1dce33c3b83ae52b",
+            "source_sha256": "f94d66a2ba1a3c68f6b2b900a026f6a4841bb811588aded58faa2702f2931984",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "______ Privacy Act Statement (applicable to forms submitted to the DHS/CISA Repository for Software Attestations and Artifacts) Authority: 44 U.S.C. § 3554, Executive Order (E.O.) 14028, “Improving the Nation’s Cybersecurity,” and OMB Memorandum M-22-18, “Enhancing the Security of the Software Supply Chain through Secure Software Development Practices,” as amended by OMB Memorandum M-23-16, “Update to Memorandum M-22-18, Enhancing the Security of the Software Supply Chain through Secure Software Development Practi…",
+            "source": "files/191N6026Q0007-State_Department_Secure_Software_Development_Attestation_Form.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/535/535084238d064eb2b137b2c3fb3f5142.pdf?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-State%2BDepartment%2BSecure%2BSoftware%2BDevelopment%2BAttestation%2BForm.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fde2e815fba7aeb934c3ab72a9cf3fe3ee1b485307a24077485fdb95e3ad85a2",
+            "source_sha256": "943ed269316ba8fc21849f1b3607253c29267ef96b1d772ffa120a7cfa379d9f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sulted from the termination. The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose. This paragraph does not give the Government any right to audit the Contractor’s records. The Contractor shall not be paid for any work performed or costs incurred that reasonably could have been avoided. (g) Termination for cause. The Government may terminate this contract, or any part hereof, for cause in the event of any default by the Contractor, or if the …",
+            "source": "files/Clauses_-_Non-Commercial.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/fa0/fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx?response-content-disposition=attachment%3B%20filename%3DClauses%2B-%2BNon-Commercial.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fbcc2cfe7034d81ba9869cad95a065f57e71116e545dcf02833c841f2501aad3",
+            "source_sha256": "94a09e3ca97f44b29983e50240357674689bb5e8a9f194d70a8eddad6b1bf88b",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ibility Matters. Certification Regarding Responsibility Matters (Deviation Date) (a) (1) The Offeror certifies, to the best of its knowledge and belief, that— (i) The Offeror and/or any of its Principals— (A) Are □ are not □ presently debarred, suspended, proposed for debarment, or declared ineligible for the award of contracts by any Federal agency; (B) Have □ have not □, within a three-year period preceding this offer, been convicted of or had a civil judgment rendered against them for: commission of fraud or a …",
+            "source": "files/191N6026Q0007_-_Requirements_in_lieu_of_SAM_Registration.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3c9/3c9da3389d534bd19d34e855a443c12f.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BRequirements%2Bin%2Blieu%2Bof%2BSAM%2BRegistration.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=243940e0a6cae1cadc5b0d7609ad64156ebbcb6f173a623f2d2f12c513f2f688",
+            "source_sha256": "2227008fad8e92ece4ef39d4540d4f591c03b6596bf1e331a23d53b8d95f18a3",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "st by a Department of State representative, the Contractor shall submit a SBOM to a designated representative. This request may be requested on one (1) or more occasions and shall be delivered at no increase in contract price. (g) SBOM Sharing Notice. The Contractor consents to the sharing of its SBOM data with other contractors, such as tool solution providers, for the sole purpose of mapping against known vulnerabilities. (h) Notification procedures for cybersecurity supply chain events. When cybersecurity suppl…",
+            "source": "files/Clauses_-_Non-Commercial.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/fa0/fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx?response-content-disposition=attachment%3B%20filename%3DClauses%2B-%2BNon-Commercial.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fbcc2cfe7034d81ba9869cad95a065f57e71116e545dcf02833c841f2501aad3",
+            "source_sha256": "94a09e3ca97f44b29983e50240357674689bb5e8a9f194d70a8eddad6b1bf88b",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "| 1.5 | Enter the e-mail address of the primary POC. | | | | | | | SECTION 2 VENDOR RISK MANAGEMENT PLAN | | | | | | | | ITEM NO. | ITEM DESCRIPTION | VENDOR RESPONSE | NIST SP 800-53 Reference or (ISO 27001 Reference) | | | | | 2.1 | Does your organization identify its key supply chain threats? (Note: if you do not have suppliers, answer \"Yes\") | | IR-8, SR-7 (7.5, A.5.24, A.5.22) | | | | | 2.2 | Does your organization map key suppliers to your supply chain threats? (Note: if you do not have suppliers, answer \"Ye…",
+            "source": "files/191N6026Q0007-C-SCRM_Questionnaire.xlsx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/69a/69aa2da7e45f4d4b9c911bde3947547c.xlsx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BQuestionnaire.xlsx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6382d1bd5d9f00c7a0c218b2357e4eec71649c7f01c6411d1bee7956643bb9df",
+            "source_sha256": "8e8dbd494fbbfa390c3ca8263fd5f1892789578cafd5f3d674efb49359502f47",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eference or (ISO 27001 Reference) | | | | | 2.1 | Does your organization identify its key supply chain threats? (Note: if you do not have suppliers, answer \"Yes\") | | IR-8, SR-7 (7.5, A.5.24, A.5.22) | | | | | 2.2 | Does your organization map key suppliers to your supply chain threats? (Note: if you do not have suppliers, answer \"Yes\") | | IR-8, SR-7 (7.5 A.5.24, A.5.22) | | | | | 2.3 | Does your organization have written SCRM requirements in contracts with your key suppliers? (Note: if you do not have suppliers, …",
+            "source": "files/191N6026Q0007-C-SCRM_Questionnaire.xlsx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/69a/69aa2da7e45f4d4b9c911bde3947547c.xlsx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BQuestionnaire.xlsx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6382d1bd5d9f00c7a0c218b2357e4eec71649c7f01c6411d1bee7956643bb9df",
+            "source_sha256": "8e8dbd494fbbfa390c3ca8263fd5f1892789578cafd5f3d674efb49359502f47",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "anana Plug Connectors, Compatible with BBC micro (sold separately), Supports Multiple Programming Modes (MakeCode/Python/JavaScript), Also Supports Circuit Design Without micro, Includes Printed Step-by-Step Guidebook, Size 250mm x 176mm x 38mm, Gross Weight 885.5g, Supported Voltage 3V–5V, 18 Components Milestone | Description | Timeline 1 | Submission of all tech hardware/gadget recommendations to US Govt POC and Consulate IT team for clearance | Within 1 month of award 2 | Feedback, course correction and final …",
+            "source": "files/191N6026Q0007-SOW-American_Center_Technology_Infrastructure_modernization.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3be/3be1078c019f42018627ca86f690b59d.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-SOW-American%2BCenter%2BTechnology%2BInfrastructure%2Bmodernization.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7490d2ebd209979cab4eb1824892d9277bd3b9e46e8e4d86648b35f24d0adf87",
+            "source_sha256": "196b0086c68e1f8468dbda20a49035d6718d1545b716e89121e32d1906e1ecf0",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "k. Can the offeror/quoter provide the necessary personnel? | (5) Evidence that the offeror/quoter has all licenses and permits required by local law? Were licenses and permits required by local law provided? | (6) The offeror’s strategic plan for the services | (7) Technical details of the products to be used along with any manufacturer’s literature. | (8) Vendor details | (9) Evidence that the Contractor has the capability to install and commission the required cable. | ===== FILE: files/191N6026Q0007_-_PR1620508…",
+            "source": "files/191N6026Q0007_-_PR16205087_-_Vendor_QA_Sheet.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/5fd/5fda253bc56c47898ee662184206a479.pdf?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BPR16205087%2B-%2BVendor%2BQA%2BSheet.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a911181311a719db7ece10efba76820cb4ca18bcab426f7ace1a497361bc2e66",
+            "source_sha256": "e8e90944480f9407b3075a3d95efae143b3a9d8c7dc77bb516d8c937ac0bf0cc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "roperty: All custom technical configurations and mapping profiles developed under this engagement become the exclusive property of the U.S. Mission India. IP Warranty & Indemnification: Contractor warrants all hardware and technical configurations are free of third-party IP claims or encumbrances and shall indemnify the U.S. Government against infringement claims. Confidentiality: Contractor shall keep network integration profiles, security parameters, and project data strictly confidential. All equipment must be …",
+            "source": "files/191N6026Q0007-SOW-American_Center_Technology_Infrastructure_modernization.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3be/3be1078c019f42018627ca86f690b59d.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-SOW-American%2BCenter%2BTechnology%2BInfrastructure%2Bmodernization.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7490d2ebd209979cab4eb1824892d9277bd3b9e46e8e4d86648b35f24d0adf87",
+            "source_sha256": "196b0086c68e1f8468dbda20a49035d6718d1545b716e89121e32d1906e1ecf0",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Willfully providing false or misleading information may constitute a violation of 18 U.S.C. § 1001, a criminal statute. Form Approved: OMB No. 10670-0052 2 What is the Purpose of Filling out this Form? The Federal Information Security Modernization Act of 2014 (FISMA) requires each Federal agency to provide security protections for both “information collected or maintained by or on behalf of an agency” and for “information systems used or operated by an agency or by a contractor of an agency or other organization …",
+            "source": "files/191N6026Q0007-State_Department_Secure_Software_Development_Attestation_Form.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/535/535084238d064eb2b137b2c3fb3f5142.pdf?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-State%2BDepartment%2BSecure%2BSoftware%2BDevelopment%2BAttestation%2BForm.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fde2e815fba7aeb934c3ab72a9cf3fe3ee1b485307a24077485fdb95e3ad85a2",
+            "source_sha256": "943ed269316ba8fc21849f1b3607253c29267ef96b1d772ffa120a7cfa379d9f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "te General Chennai, VIP/ executive stakeholders, technical teams, and American Center program attendees & visitors. Primary Objective: Deliver fully tested, IT-cleared, American brand / equivalent technology hardware. All hardware selections are subject to final U.S. Government and Consulate IT team clearance prior to purchase. SECTION B: KEY COMPONENTS & SCOPE B.1 Primary Digital Wall - Quantity 1, Supply, configure, and mount a high-definition digital video wall measuring approximately 10 ft (H) × 10 ft (W). B.2…",
+            "source": "files/191N6026Q0007-SOW-American_Center_Technology_Infrastructure_modernization.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3be/3be1078c019f42018627ca86f690b59d.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-SOW-American%2BCenter%2BTechnology%2BInfrastructure%2Bmodernization.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7490d2ebd209979cab4eb1824892d9277bd3b9e46e8e4d86648b35f24d0adf87",
+            "source_sha256": "196b0086c68e1f8468dbda20a49035d6718d1545b716e89121e32d1906e1ecf0",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t often through merger or acquisition) and whose affairs are now carried out by the offeror or the other entity under a new name. Taxpayer Identification Number means the number required by the Internal Revenue Service (IRS) to be used by the offeror to report income tax and other returns. It may be either a Social Security Number or an Employer Identification Number. Unique entity identifier (UEI) has the meaning provided in the clause at FAR 52.204-91, Contractor Identification, of this solicitation. (b) Unique …",
+            "source": "files/191N6026Q0007_-_Requirements_in_lieu_of_SAM_Registration.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3c9/3c9da3389d534bd19d34e855a443c12f.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007%2B-%2BRequirements%2Bin%2Blieu%2Bof%2BSAM%2BRegistration.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=243940e0a6cae1cadc5b0d7609ad64156ebbcb6f173a623f2d2f12c513f2f688",
+            "source_sha256": "2227008fad8e92ece4ef39d4540d4f591c03b6596bf1e331a23d53b8d95f18a3",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "nt). Software products and components in the following categories are not in scope for M-22-18, as amended by M-23-16, and do not require a self-attestation: 1. Software developed by Federal agencies; 2. Open-source software that is freely and directly obtained by a Federal agency; 3. Third-party open source and proprietary components that are incorporated into the software end product used by the agency; or 4. Software that is freely obtained and publicly available. Software producers who utilize third party comp…",
+            "source": "files/191N6026Q0007-State_Department_Secure_Software_Development_Attestation_Form.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/535/535084238d064eb2b137b2c3fb3f5142.pdf?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-State%2BDepartment%2BSecure%2BSoftware%2BDevelopment%2BAttestation%2BForm.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fde2e815fba7aeb934c3ab72a9cf3fe3ee1b485307a24077485fdb95e3ad85a2",
+            "source_sha256": "943ed269316ba8fc21849f1b3607253c29267ef96b1d772ffa120a7cfa379d9f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "re Producer]_[Product]_[Version]_[Attestation Date] →Acme_SecuritySuite_4.6.2.1_20230124 Send the form in accordance with the solicitation or requestor's instructions; if the solicitation or requestor did not provide instructions for submitting this form, send it to the cognizant contracting officer or purchase card holder by e-mail. Filling Out the Form Software Producer Information Please provid e a description of the software and information about the software producer. All fields in the attestation form are re…",
+            "source": "files/191N6026Q0007-State_Department_Secure_Software_Development_Attestation_Form.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/535/535084238d064eb2b137b2c3fb3f5142.pdf?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-State%2BDepartment%2BSecure%2BSoftware%2BDevelopment%2BAttestation%2BForm.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fde2e815fba7aeb934c3ab72a9cf3fe3ee1b485307a24077485fdb95e3ad85a2",
+            "source_sha256": "943ed269316ba8fc21849f1b3607253c29267ef96b1d772ffa120a7cfa379d9f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/191N6026Q0007-C-SCRM_Go-_No_Go_Evaluation_Factor_Template.docx ===== C-SCRM Go/No-Go Evaluation Factor Template (Aug 2026) C-SCRM Proposal/Quote Instructions (corresponding instructions to the factor below) Cybersecurity Supply Chain Risk Management (C-SCRM) Forms The offeror shall include in its offer Attachment 191N6026Q0007- C-SCRM Questionnaire. In lieu of a completed C-SCRM Questionnaire, the vendor may submit a third party authorizing official conducted assessment, such as International Org…",
+            "source": "files/191N6026Q0007-C-SCRM_Go-_No_Go_Evaluation_Factor_Template.docx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/2e0/2e0078a9eaba4a01bfdcab176a9b89ba.docx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BGo-%2BNo%2BGo%2BEvaluation%2BFactor%2BTemplate.docx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fab27e7136dbc0c44d07c0cb7c34b1ec445772ddbd35180b429604391d2b84d7",
+            "source_sha256": "fb6f54182d8dfb833b6ddd8df601272c499c3a06cac1055b01f7531930c098ee",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "naire contains both of the following: (1) C-SCRM Questionnaire instructions are completed; and (2) contains Yes answers for all questions in Sections 2 and 3 of the questionnaire; or the vendor has submitted a third party authorizing official conducted assessment such as ISO 27001, ISO 9000, SOC II, or FedRAMP authorization. For suppliers offering critical software, the State Department Secure Software Development Attestation Form (or another federal agency’s equivalent form) is signed and submitted in accordance …",
+            "source": "files/191N6026Q0007-C-SCRM_Questionnaire.xlsx",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/69a/69aa2da7e45f4d4b9c911bde3947547c.xlsx?response-content-disposition=attachment%3B%20filename%3D191N6026Q0007-C-SCRM%2BQuestionnaire.xlsx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260831T115327Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20260831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6382d1bd5d9f00c7a0c218b2357e4eec71649c7f01c6411d1bee7956643bb9df",
+            "source_sha256": "8e8dbd494fbbfa390c3ca8263fd5f1892789578cafd5f3d674efb49359502f47",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
