@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-09-01T18:54:48.099478+00:00",
+  "updated_at": "2026-09-01T18:55:47.634412+00:00",
   "latest_source_dce_run_id": 33545824866,
   "review_queue": [
     {
@@ -46,7 +46,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 12,
@@ -1186,7 +1186,7 @@
       "gpt_priority_score": 64,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 10,
@@ -1231,7 +1231,7 @@
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.773178+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.165870+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1283,7 +1283,7 @@
         "candidate_id": "TED:602010-2026",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.524119+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.938713+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1335,7 +1335,7 @@
         "candidate_id": "TED:596658-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.789821+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.315280+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1380,14 +1380,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 33343970564,
       "source_shard": 35,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs7ydwytt8mey61"
+      ],
       "artifact_locator": {
         "dce_run_id": 33343970564,
         "shard": 35,
         "candidate_id": "TED:594212-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.812682+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.337639+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1806,7 +1808,7 @@
         "candidate_id": "TED:598497-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.766120+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.159482+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1911,7 +1913,7 @@
         "candidate_id": "TED:591603-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.180743+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.704639+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2232,7 +2234,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 4,
@@ -2429,7 +2431,7 @@
         "candidate_id": "TED:598827-2026",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.113336+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.561187+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2531,7 +2533,7 @@
         "candidate_id": "TED:588690-2026",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.737485+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.214860+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2698,7 +2700,7 @@
       "gpt_priority_score": 56,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 9,
@@ -2844,7 +2846,7 @@
         "candidate_id": "TED:590664-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.808242+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.333271+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2895,7 +2897,7 @@
         "candidate_id": "TED:598774-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.378317+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.886614+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3113,7 +3115,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 5,
@@ -4321,7 +4323,7 @@
         "candidate_id": "US-SAM:2f6d849eff7a4c4bbe56b5ff2381196d",
         "release_tag": "dce-harvest-33545824866"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.963298+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.299211+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4384,7 +4386,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 7,
@@ -5439,7 +5441,7 @@
         "candidate_id": "US-SAM:627ba20fbd92456f8c9ae62dbe08d154",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.742011+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.136958+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5493,7 +5495,7 @@
         "candidate_id": "US-SAM:8bf135b0f4f841cfb4945db47b43e16a",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.579344+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.989711+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -14200,7 +14202,7 @@
         "candidate_id": "IE:8955172",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.749888+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.226619+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15324,7 +15326,7 @@
         "candidate_id": "US-SAM:359d3dd05f4042fa8d8ac7c97a5967b4",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.961450+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.421494+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15388,7 +15390,7 @@
       "gpt_priority_score": 43,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 5,
@@ -15443,7 +15445,7 @@
       "gpt_priority_score": 42,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 11,
@@ -15538,7 +15540,7 @@
         "candidate_id": "US-SAM:08067d93b7ac49ad8b99e3cd6b1f34c5",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.931942+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.393929+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15953,7 +15955,7 @@
         "candidate_id": "TED:602252-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.781048+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.173078+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16212,7 +16214,7 @@
         "candidate_id": "US-SAM:427a2bd742d04d1c90f16ac9b983506b",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.353585+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.863734+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16314,7 +16316,7 @@
         "candidate_id": "PL-BZP:08df074a-dbfc-03db-ab56-940001856bf0",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.501148+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.917500+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18049,7 +18051,7 @@
         "candidate_id": "TED:592309-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.222999+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.744061+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18872,7 +18874,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167533-2026-08-31",
         "release_tag": "dce-harvest-33477636166"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.228325+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.667461+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18972,7 +18974,7 @@
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.760229+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.236135+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19440,7 +19442,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.537358+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.951135+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19870,7 +19872,7 @@
         "candidate_id": "GR-KHMDHS:26PROC019684070",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.282659+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.798757+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21675,55 +21677,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
-      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
-      "deadline": "2026-09-21T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 23,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916368034,
-      "source_shard": 24,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "CA:WO26SLDN_85979",
       "title": "Open Construction Source List for 17 Wing Detachment Dundurn",
       "buyer": null,
@@ -21915,6 +21868,55 @@
         "shard": 9,
         "candidate_id": "PL-BZP:08defcfd-f5bb-fb31-962b-12000115c5c8",
         "release_tag": "dce-harvest-32147698042"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
+      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
+      "deadline": "2026-09-21T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": true,
+      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 23,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 31916368034,
+      "source_shard": 24,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -22414,55 +22416,6 @@
         "shard": 0,
         "candidate_id": "TED:583298-2026",
         "release_tag": "dce-harvest-32774656738"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-      "title": "NATO Business Opportunity: Provision of Global Seamless Vector Basemap Data",
-      "buyer": "COMMERCE, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/b0ca7a0912fe4c23836c60354e4d3074/view",
-      "deadline": "2026-09-01T15:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 9,
-      "priority_score": 43,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916138886,
-      "source_shard": 11,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916138886,
-        "shard": 11,
-        "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-        "release_tag": "dce-harvest-31916138886"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.437329+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "a939572ba9ce21fa7c6e9004bac35125c2a27fe49967861de2ac021f083334fc",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916138886,
-        "shard": 11,
-        "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-        "release_tag": "dce-harvest-31916138886"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -23192,6 +23145,55 @@
         "shard": 3,
         "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20248197",
         "release_tag": "dce-harvest-32351147289"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+      "title": "Innowacyjne OZE dla CKiB w Żarnowie",
+      "buyer": "CENTRUM KULTURY I BIBLIOTEKA GMINY AUGUSTÓW W ŻARNOWIE",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defc54-9b69-af71-962b-12000115bef2",
+      "deadline": "2026-09-08T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "evidence_gate_coverage": 8,
+      "priority_score": 60,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32071776640,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32071776640,
+        "shard": 0,
+        "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+        "release_tag": "dce-harvest-32071776640"
+      },
+      "hot_ready_at": "2026-08-24T22:51:15.788963+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "b4b427556d7a4c6c533e78770331a6fb0a4f2d889fed53dfa85dd392717147e2",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32071776640,
+        "shard": 0,
+        "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+        "release_tag": "dce-harvest-32071776640"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -23241,7 +23243,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 12,
@@ -24381,7 +24383,7 @@
       "gpt_priority_score": 64,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 10,
@@ -24426,7 +24428,7 @@
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.773178+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.165870+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24478,7 +24480,7 @@
         "candidate_id": "TED:602010-2026",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.524119+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.938713+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24530,7 +24532,7 @@
         "candidate_id": "TED:596658-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.789821+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.315280+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24575,14 +24577,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 33343970564,
       "source_shard": 35,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs7ydwytt8mey61"
+      ],
       "artifact_locator": {
         "dce_run_id": 33343970564,
         "shard": 35,
         "candidate_id": "TED:594212-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.812682+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.337639+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25001,7 +25005,7 @@
         "candidate_id": "TED:598497-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.766120+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.159482+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25106,7 +25110,7 @@
         "candidate_id": "TED:591603-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.180743+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.704639+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25427,7 +25431,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 4,
@@ -25624,7 +25628,7 @@
         "candidate_id": "TED:598827-2026",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.113336+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.561187+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25726,7 +25730,7 @@
         "candidate_id": "TED:588690-2026",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.737485+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.214860+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25893,7 +25897,7 @@
       "gpt_priority_score": 56,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 9,
@@ -26039,7 +26043,7 @@
         "candidate_id": "TED:590664-2026",
         "release_tag": "dce-harvest-33343970564"
       },
-      "hot_ready_at": "2026-09-01T15:46:03.808242+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.333271+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -26090,7 +26094,7 @@
         "candidate_id": "TED:598774-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.378317+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.886614+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -26308,7 +26312,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 5,
@@ -27516,7 +27520,7 @@
         "candidate_id": "US-SAM:2f6d849eff7a4c4bbe56b5ff2381196d",
         "release_tag": "dce-harvest-33545824866"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.963298+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.299211+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -27579,7 +27583,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 7,
@@ -28634,7 +28638,7 @@
         "candidate_id": "US-SAM:627ba20fbd92456f8c9ae62dbe08d154",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.742011+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.136958+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -28688,7 +28692,7 @@
         "candidate_id": "US-SAM:8bf135b0f4f841cfb4945db47b43e16a",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.579344+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.989711+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -37395,7 +37399,7 @@
         "candidate_id": "IE:8955172",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.749888+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.226619+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -38519,7 +38523,7 @@
         "candidate_id": "US-SAM:359d3dd05f4042fa8d8ac7c97a5967b4",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.961450+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.421494+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -38583,7 +38587,7 @@
       "gpt_priority_score": 43,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 5,
@@ -38638,7 +38642,7 @@
       "gpt_priority_score": 42,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 33545824866,
         "shard": 11,
@@ -38733,7 +38737,7 @@
         "candidate_id": "US-SAM:08067d93b7ac49ad8b99e3cd6b1f34c5",
         "release_tag": "dce-harvest-33458738461"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.931942+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.393929+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -39148,7 +39152,7 @@
         "candidate_id": "TED:602252-2026",
         "release_tag": "dce-harvest-33526783105"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.781048+00:00",
+      "hot_ready_at": "2026-09-01T18:55:05.173078+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -39407,7 +39411,7 @@
         "candidate_id": "US-SAM:427a2bd742d04d1c90f16ac9b983506b",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.353585+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.863734+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -39509,7 +39513,7 @@
         "candidate_id": "PL-BZP:08df074a-dbfc-03db-ab56-940001856bf0",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.501148+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.917500+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -41244,7 +41248,7 @@
         "candidate_id": "TED:592309-2026",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.222999+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.744061+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -42067,7 +42071,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167533-2026-08-31",
         "release_tag": "dce-harvest-33477636166"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.228325+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.667461+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -42167,7 +42171,7 @@
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "release_tag": "dce-harvest-33447969316"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.760229+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.236135+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -42635,7 +42639,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-33504782263"
       },
-      "hot_ready_at": "2026-09-01T18:53:50.537358+00:00",
+      "hot_ready_at": "2026-09-01T18:55:04.951135+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -43065,7 +43069,7 @@
         "candidate_id": "GR-KHMDHS:26PROC019684070",
         "release_tag": "dce-harvest-33388776757"
       },
-      "hot_ready_at": "2026-09-01T18:53:49.282659+00:00",
+      "hot_ready_at": "2026-09-01T18:55:03.798757+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -44870,55 +44874,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
-      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
-      "deadline": "2026-09-21T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 23,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916368034,
-      "source_shard": 24,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "CA:WO26SLDN_85979",
       "title": "Open Construction Source List for 17 Wing Detachment Dundurn",
       "buyer": null,
@@ -45110,6 +45065,55 @@
         "shard": 9,
         "candidate_id": "PL-BZP:08defcfd-f5bb-fb31-962b-12000115c5c8",
         "release_tag": "dce-harvest-32147698042"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
+      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
+      "deadline": "2026-09-21T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": true,
+      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 23,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 31916368034,
+      "source_shard": 24,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -45609,55 +45613,6 @@
         "shard": 0,
         "candidate_id": "TED:583298-2026",
         "release_tag": "dce-harvest-32774656738"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-      "title": "NATO Business Opportunity: Provision of Global Seamless Vector Basemap Data",
-      "buyer": "COMMERCE, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/b0ca7a0912fe4c23836c60354e4d3074/view",
-      "deadline": "2026-09-01T15:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 9,
-      "priority_score": 43,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916138886,
-      "source_shard": 11,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916138886,
-        "shard": 11,
-        "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-        "release_tag": "dce-harvest-31916138886"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.437329+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "a939572ba9ce21fa7c6e9004bac35125c2a27fe49967861de2ac021f083334fc",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916138886,
-        "shard": 11,
-        "candidate_id": "US-SAM:b0ca7a0912fe4c23836c60354e4d3074",
-        "release_tag": "dce-harvest-31916138886"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -46390,6 +46345,55 @@
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+      "title": "Innowacyjne OZE dla CKiB w Żarnowie",
+      "buyer": "CENTRUM KULTURY I BIBLIOTEKA GMINY AUGUSTÓW W ŻARNOWIE",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08defc54-9b69-af71-962b-12000115bef2",
+      "deadline": "2026-09-08T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "evidence_gate_coverage": 8,
+      "priority_score": 60,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32071776640,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32071776640,
+        "shard": 0,
+        "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+        "release_tag": "dce-harvest-32071776640"
+      },
+      "hot_ready_at": "2026-08-24T22:51:15.788963+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "b4b427556d7a4c6c533e78770331a6fb0a4f2d889fed53dfa85dd392717147e2",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32071776640,
+        "shard": 0,
+        "candidate_id": "PL-BZP:08defc54-9b69-af71-962b-12000115bef2",
+        "release_tag": "dce-harvest-32071776640"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     }
   ],
   "window_selection": {
@@ -46414,9 +46418,9 @@
     "selected_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 6,
-      "US_SAM": 26,
+      "US_SAM": 25,
       "WORLD_BANK": 3,
-      "PL_EZAMOWIENIA": 5,
+      "PL_EZAMOWIENIA": 6,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
       "CA_CANADABUYS": 4,
@@ -46437,7 +46441,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 180,
+    "pending_before_visible_cap": 179,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -46456,9 +46460,9 @@
     "pending_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 6,
-      "US_SAM": 26,
+      "US_SAM": 25,
       "WORLD_BANK": 3,
-      "PL_EZAMOWIENIA": 5,
+      "PL_EZAMOWIENIA": 6,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
       "CA_CANADABUYS": 4,
