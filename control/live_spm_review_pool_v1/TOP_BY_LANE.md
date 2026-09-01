@@ -175,7 +175,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
 - **TED:586373-2026** · FRA · p=63 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Advertising and marketing services – Accord-cadre à bons de commande multi-attributaire relatif à des prestations de communication
-- **TED:480012-2026** · FRA · p=49 · deadline=2026-09-01T09:00:00+00:00 · blockers=none · France – Content management software package – Outil de gestion des réseaux sociaux et d’un programme ambassadeurs
 - **TED:497425-2026** · FRA · p=49 · deadline=2026-09-01T09:30:00+00:00 · blockers=none · France – Content management software package – Outil de gestion des réseaux sociaux et d’un programme ambassadeurs
 - **TED:350690-2026** · DEU · p=46 · deadline=2030-02-19T23:00:59+00:00 · blockers=none · Germany – Advertising and marketing services – Development of Technical Aviation Safety Promotion Content
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
