@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-08-31T22:59:03.699869+00:00",
+  "updated_at": "2026-09-01T01:34:20.036741+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 33447969316,
+  "latest_source_dce_run_id": 33458738461,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 184,
+    "pending_before_visible_cap": 190,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -20,24 +20,24 @@
     },
     "pending_by_fit_band": {
       "HOT": 2,
-      "GOOD": 74,
-      "MAYBE": 53,
+      "GOOD": 70,
+      "MAYBE": 57,
       "LOW": 31
     },
     "pending_by_portal": {
-      "TED": 87,
+      "TED": 92,
       "IRELAND_ETENDERS": 6,
-      "US_SAM": 30,
-      "WORLD_BANK": 3,
-      "PL_EZAMOWIENIA": 5,
+      "US_SAM": 26,
+      "WORLD_BANK": 4,
+      "PL_EZAMOWIENIA": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
       "CA_CANADABUYS": 4,
       "DE_DOE": 2,
-      "GR_KHMDHS": 2,
       "CYPRUS_EPPS": 2,
       "EE_RHR": 3,
-      "ES_PLACSP": 3,
+      "ES_PLACSP": 2,
+      "GR_KHMDHS": 2,
       "LV_IUB": 1,
       "SCOTLAND_PCS": 2,
       "SK_UVO": 1,
@@ -60,24 +60,24 @@
     },
     "selected_by_band": {
       "HOT": 2,
-      "GOOD": 74,
-      "MAYBE": 53,
+      "GOOD": 70,
+      "MAYBE": 57,
       "LOW": 31
     },
     "selected_by_portal": {
-      "TED": 87,
+      "TED": 92,
       "IRELAND_ETENDERS": 6,
-      "US_SAM": 30,
-      "WORLD_BANK": 3,
-      "PL_EZAMOWIENIA": 5,
+      "US_SAM": 26,
+      "WORLD_BANK": 4,
+      "PL_EZAMOWIENIA": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
       "CA_CANADABUYS": 4,
       "DE_DOE": 2,
-      "GR_KHMDHS": 2,
       "CYPRUS_EPPS": 2,
       "EE_RHR": 3,
-      "ES_PLACSP": 3,
+      "ES_PLACSP": 2,
+      "GR_KHMDHS": 2,
       "LV_IUB": 1,
       "SCOTLAND_PCS": 2,
       "SK_UVO": 1,
@@ -102,19 +102,19 @@
     },
     "selected_by_band": {
       "HOT": 1,
-      "GOOD": 53,
-      "MAYBE": 74,
+      "GOOD": 52,
+      "MAYBE": 75,
       "LOW": 32
     },
     "selected_by_portal": {
       "TED": 100,
       "IRELAND_ETENDERS": 5,
-      "US_SAM": 21,
+      "US_SAM": 22,
       "WORLD_BANK": 3,
       "PL_EZAMOWIENIA": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "ZA_ETENDERS": 3,
-      "GR_KHMDHS": 3,
+      "GR_KHMDHS": 2,
       "ES_PLACSP": 3,
       "SK_UVO": 2,
       "EE_RHR": 2,
@@ -127,36 +127,37 @@
       "NO_DOFFIN": 1
     }
   },
-  "review_index_count": 3963,
+  "review_index_count": 3629,
   "review_index_counts": {
-    "pending_total_uncapped": 3963,
+    "pending_total_uncapped": 3629,
     "by_stage": {
-      "BUSINESS_GATES": 2973,
-      "DCE_AUTHENTICITY": 990
+      "BUSINESS_GATES": 2734,
+      "DCE_AUTHENTICITY": 895
     },
     "by_spm_fit_band": {
       "HOT": 1,
-      "GOOD": 72,
-      "MAYBE": 344,
-      "LOW": 3546
+      "GOOD": 71,
+      "MAYBE": 320,
+      "LOW": 3237
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 3803,
+    "overflow_beyond_hot_160": 3469,
     "cross_portal_duplicates_collapsed": 2
   },
-  "true_pending_before_hot_cap": 3963,
-  "overflow_beyond_hot_160": 3803,
+  "true_pending_before_hot_cap": 3629,
+  "overflow_beyond_hot_160": 3469,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
-  "provenance_overrides_applied_in_window": 3,
+  "provenance_overrides_applied_in_window": 2,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 158,
-    "adjudication_rows_scanned_this_refresh": 1258,
-    "gate_rows_seen_this_refresh": 488,
-    "authenticity_rows_seen_this_refresh": 34,
+    "shard_files_scanned_this_refresh": 166,
+    "adjudication_rows_scanned_this_refresh": 1318,
+    "gate_rows_seen_this_refresh": 511,
+    "authenticity_rows_seen_this_refresh": 39,
     "source_runs_seen_this_refresh": [
+      33458738461,
       33447969316,
       33423628033,
       33388776757,
@@ -165,8 +166,7 @@
       33337869556,
       33330966471,
       33323281742,
-      33311013427,
-      33297564403
+      33311013427
     ]
   },
   "healthy": true,
