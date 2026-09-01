@@ -1,29 +1,29 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33423628033,
+  "latest_source_dce_run_id": 33458738461,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
+    "ZA_ETENDERS": 2,
     "CA_CANADABUYS": 2,
+    "DE_DOE": 2,
     "GENERIC_PUBLIC_PAGE": 2,
-    "GR_KHMDHS": 2,
-    "PL_EZAMOWIENIA": 2,
+    "PL_EZAMOWIENIA": 1,
     "TED": 1,
-    "ZA_ETENDERS": 1,
+    "US_SAM": 1,
     "CYPRUS_EPPS": 1,
-    "DE_DOE": 1,
     "EE_RHR": 1,
     "ES_PLACSP": 1,
+    "GR_KHMDHS": 1,
     "IRELAND_ETENDERS": 1,
     "LV_IUB": 1,
     "SCOTLAND_PCS": 1,
     "SK_UVO": 1,
-    "US_SAM": 1,
     "WORLD_BANK": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 10,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 10
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 10,
+    "UNKNOWN_RETRIEVED_DOCUMENT": 10
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 20
@@ -39,6 +39,14 @@
       }
     },
     {
+      "portal": "DE_DOE",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
       "portal": "GENERIC_PUBLIC_PAGE",
       "blocked": 2,
       "likely_public_recovery_target": 0,
@@ -47,15 +55,7 @@
       }
     },
     {
-      "portal": "GR_KHMDHS",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
-    {
-      "portal": "PL_EZAMOWIENIA",
+      "portal": "ZA_ETENDERS",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -64,14 +64,6 @@
     },
     {
       "portal": "CYPRUS_EPPS",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
-      "portal": "DE_DOE",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -95,6 +87,14 @@
       }
     },
     {
+      "portal": "GR_KHMDHS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
       "portal": "IRELAND_ETENDERS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -104,6 +104,14 @@
     },
     {
       "portal": "LV_IUB",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "PL_EZAMOWIENIA",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -149,18 +157,18 @@
       "reason_counts": {
         "NON_AUTHORITATIVE": 1
       }
-    },
-    {
-      "portal": "ZA_ETENDERS",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
     }
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167533-2026-08-31",
+        "portal": "ZA_ETENDERS",
+        "title": "COM1/2026",
+        "buyer": "Okhahlamba Local Municipality",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-167533"
+      },
       {
         "candidate_id": "CA:BPM026289/34383",
         "portal": "CA_CANADABUYS",
@@ -168,6 +176,14 @@
         "buyer": null,
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": null
+      },
+      {
+        "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
+        "portal": "DE_DOE",
+        "title": "Messe Augsburg: großflächiger Werbedruck für die Werbeflächen auf dem Messegelände",
+        "buyer": "Messe Augsburg ASMV GmbH",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=93503885-9bed-4b3b-bf52-1fe9917eeb06"
       },
       {
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165596-2026-08-14",
@@ -178,28 +194,12 @@
         "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-165596"
       },
       {
-        "candidate_id": "GR-KHMDHS:26PROC019684070",
-        "portal": "GR_KHMDHS",
-        "title": "Πρόσκληση υποβολής προσφορών για το σχεδιασμό και την κατασκευή ιστοσελίδας για το έργο easy HPC",
-        "buyer": "ΕΠΙΣΤΗΜΟΝΙΚΟ ΠΑΡΚΟ ΠΑΤΡΩΝ Α.Ε.",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019684070"
-      },
-      {
         "candidate_id": "PL-BZP:08df01c7-0f01-c74d-b346-0300018cdef4",
         "portal": "PL_EZAMOWIENIA",
         "title": "Szkolenie ze współpracy w załodze MCC (Multi Crew Cooperation)",
         "buyer": "Lotnicze Pogotowie Ratunkowe",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df01c7-0f01-c74d-b346-0300018cdef4"
-      },
-      {
-        "candidate_id": "TED:598032-2026",
-        "portal": "TED",
-        "title": "Spain – Graphic design services – Acuerdo marco para la homologación de empresas para la prestación de servicios de rotulación, instalación de señalización y singularització de espacios para estaciones, dependencias y oficinas, material móvil y vehículos corporativos dentro del ámbito de la red ferroviaria y de turismo y montaña de Ferrocarriles de la Generalitat de Cataluña (Ref. AM15/26)",
-        "buyer": "Ferrocarrils de la Generalitat de Catalunya",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/598032-2026"
       }
     ]
   },
