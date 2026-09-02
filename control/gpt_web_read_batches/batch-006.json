@@ -1,13 +1,58 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-02T14:20:39.655133+00:00",
-  "source_inbox_updated_at": "2026-09-02T14:20:39.208563+00:00",
-  "latest_source_dce_run_id": 33640316043,
+  "generated_at": "2026-09-02T18:01:27.910841+00:00",
+  "source_inbox_updated_at": "2026-09-02T18:01:27.569305+00:00",
+  "latest_source_dce_run_id": 33663847796,
   "batch_index": 6,
   "start_rank": 61,
   "end_rank": 70,
   "count": 10,
   "items": [
+    {
+      "candidate_id": "US-SAM:ae68a8700983483b815ed1322b7f4f76",
+      "title": "BOEM DATA MANAGEMENT SUPPORT",
+      "buyer": "INTERIOR, DEPARTMENT OF THE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/ae68a8700983483b815ed1322b7f4f76/view",
+      "deadline": "2026-09-15T14:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 46,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "cloud-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32978812066,
+      "source_shard": 1,
+      "review_key": "7f6bef911538b9e2604999c6e2d180b563a5691d56b0422ed2c00e9155f94445",
+      "artifact_locator": {
+        "dce_run_id": 32978812066,
+        "shard": 1,
+        "candidate_id": "US-SAM:ae68a8700983483b815ed1322b7f4f76",
+        "release_tag": "dce-harvest-32978812066"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
     {
       "candidate_id": "US-SAM:7af2ede457af4c14af376ef98cf27f1e",
       "title": "Market Survey - Controller Training Solutions (CTS) II",
@@ -2164,35 +2209,35 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "IE:8955172",
-      "title": "The supply, delivery and commissioning of three (3) identical renewable energy training rigs (solar – wind – fuel cell energy trainers) to Kerry College Monavalley Campus",
-      "buyer": "Kerry Education and Training Board",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8955172",
-      "deadline": "2026-09-23T11:00:00+01:00",
-      "estimated_value": 55000.0,
-      "currency": "EUR",
+      "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168681-2026-09-02",
+      "title": "NCC/04/2026/2027",
+      "buyer": "National Consumer Commission",
+      "portal": "ZA_ETENDERS",
+      "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-168681",
+      "deadline": "2026-09-28T14:00:00+00:00",
+      "estimated_value": 0.0,
+      "currency": "ZAR",
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 44,
+      "evidence_gate_coverage": 6,
+      "spm_post_dce_score": 45,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "e-learning"
+        "web-application"
       ],
       "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 33447969316,
-      "source_shard": 17,
-      "review_key": "24d265e22c91596c3551f0d39ae6788e4108e39861a8725d8ff415560bab1cdd",
+      "source_dce_run_id": 33663847796,
+      "source_shard": 5,
+      "review_key": "ff5d6a922796657fc49b72d57be043a7e066268caaac337531506c743e7128c9",
       "artifact_locator": {
-        "dce_run_id": 33447969316,
-        "shard": 17,
-        "candidate_id": "IE:8955172",
-        "release_tag": "dce-harvest-33447969316"
+        "dce_run_id": 33663847796,
+        "shard": 5,
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168681-2026-09-02",
+        "release_tag": "dce-harvest-33663847796"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -2203,362 +2248,6 @@
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:187228-2026",
-      "title": "Ireland – Training services – DPS for training services to the Positive 2 Work Skillnet",
-      "buyer": "Positive 2 Work Skillnet",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/187228-2026",
-      "deadline": "2028-12-20T12:00:00+00:00",
-      "estimated_value": 1400000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 44,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "digital-training",
-        "e-learning",
-        "digital-platform",
-        "training-services"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": "2028-12-20",
-      "source_dce_run_id": 32946130375,
-      "source_shard": 0,
-      "review_key": "608c4783e0b100e4910bc0933a8f47dbf98445ebb7495a9dd7acde809ab029d4",
-      "artifact_locator": {
-        "dce_run_id": 32946130375,
-        "shard": 0,
-        "candidate_id": "TED:187228-2026",
-        "release_tag": "dce-harvest-32946130375"
-      },
-      "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 15,
-        "text_chars": 292935,
-        "attributed_compact_snippets": 28,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": true
-      },
-      "evidence": {
-        "entity_geography": [
-          {
-            "text": "............................................86 Appendix 5 - Services Contract ..............................................................................................................87 Appendix 6: Confidentiality Agreement ................................................................................................88 5 Content Part 1: Introduction Positive2Work (P2W), (the “Contracting Authority”) is issuing this Request for Applications to Participate (“RFATP”) in a Dynamic Purchasing System (“DPS”) as a…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "e required to submit a response to and fulfil the Compliance and Selec tion Criteria, Applicants are not required to submit either a tender proposal or a pricing submission at this Stage 1 of the Competition. Tender responses and pricing submissions will instead be required in response to future (Stage 2) mini competitions conducted under the DPS. All Applicants that meet the Compliance and Selection Criteria will be admitted to the DPS after completion (execution) of the DPS Agreement as set out at Appendix 4 to …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "turnover_financial": [
-          {
-            "text": "................................................................................33 3.9. Evaluation of the DPS Mini Competition ...............................................................................34 Part 4: Selection Criteria ........................................................................................................................35 4.2. Compliant Applications ..............................................................................................................35 4.2. Selection Crit…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "round to the Dynamic Purchasing System The Contracting Authority is seeking to establish a Dynamic Purchasing System (DPS) for the Provision of Training Services to their Skillnet network members. The successful DPS members will be required to provide training services to professionals within the Positive2Work Skillnet membership. 3.2. Aims and Objectives The Dynamic Purchasing System (DPS) is designed to facilitate ease of access for conducting the training services without the need to submit a full commercial pr…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "references_experience": [
-          {
-            "text": "tracting Authority is seeking to establish a Dynamic Purchasing System (DPS) for the Provision of Training Services to their Skillnet network members. The successful DPS members will be required to provide training services to professionals within the Positive2Work Skillnet membership. 3.2. Aims and Objectives The Dynamic Purchasing System (DPS) is designed to facilitate ease of access for conducting the training services without the need to submit a full commercial proposal. Admission to the DPS will be made on t…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ation and reduce the impact on SMEs. They will be grandfathered into the DPS on submission of the attestation document. This only applies to the lots that they have been approved for. Should applicants wish to apply to new lots, they must submit a relevant RFATP for the new lot. All new applicants must submit a full RFATP document. This forms part of the document pack associated with this DPS. Guidance to tenderers for applications We wish to provide tenderers with feedback and guidance before they submit an appli…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "certifications_partner": [
-          {
-            "text": "communities to foster collaboration and learning. • Effectively use social media platforms to share and disseminate knowledge. • Create engaging and audience - specific content for better knowledge transfer. • Build and manage online communities to foster collaboration and learning. • Leverage social media to enhance professional visibility and organisational impact. Prince 2 Certified • Certified Prince 2 project management training • Exam in Prince 2 practitioner Certified Training Skills QQI Level 6 • Training …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "d • Certified Prince 2 project management training • Exam in Prince 2 practitioner Certified Training Skills QQI Level 6 • Training skills and associated exams • Qualifications in training ITIL Version 4 • IT Infrastructure Library (ITIL) certification for companies and individuals. • Qualified participants in ITIL version 4. 3.8. Category Specifications Tenderers must include in their Application Response the specific Training Modules for which they can deliver training services. Tenderer’s must state clearly in …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "staffing_team": [
-          {
-            "text": "ualified participants in ITIL version 4. 3.8. Category Specifications Tenderers must include in their Application Response the specific Training Modules for which they can deliver training services. Tenderer’s must state clearly in their response which of the training modules they can provided accredited Professional Qualifications and Certification for. 34 Tenderers can submit a tender response for more than one lot, providing that they give care and attention to each lots’ unique specifications. In the case of a…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "y of at least THREE comparable contracts (in scale, nature, quality and complexity) delivered during the three previous years. • Describe in detail the extent and scope of which the Tenderer managed communications effectively to deliver goods and outline contingencies in place to ensure the quality of goods delivered. 75% Organisation Profile & Background i) Organisation: • Applicants must provide a detailed description on their organisations profile and background relevant to this DPS. • Provide an organisation c…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "insurance_bonds": [
-          {
-            "text": "...............................................................................57 6.17. Tax Clearance .......................................................................................................................58 6.18. Conflict of Interest ................................................................................................................58 6.19. Withdrawal from Participation in this DPS ..........................................................................58 6.20. Site Visit ...........…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "Application. 4.2.1. Economic and Financial Requirements Evaluation – Pass / Fail Applicants must confirm and declare by way of eESPD and ARD that their turnover when averaged over the three most recent years of financial accounts equals or exceeds the minimum annual turnover level in the table below in respect of EACH Category applied for. 1. Tenderers have a current Tax Clearance Certificate and will provide evidence to this effect on contract award. 39 2. Tenderers will be compliant with their social security an…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "subcontracting_consortium": [
-          {
-            "text": "........................................................................................50 6.1. Important Notices ................................................................................................................50 6.2. Compliant applications .........................................................................................................51 6.3. DPS Agreement and Contract ..............................................................................................52 6.4. Acceptance of RFATP …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ds”) apply to them, or (ii) where any such Exclusion Grounds apply, and where the Applicant is not precluded from doing so under Regulation 57(17) of the Regulations, it can provide evidence to the effect that measures taken by the Applicant are sufficient to demonstrate its reliability despite the existence of any relevant Exclusion Ground, and c) Declared by way of eESPD that they satisfy the selection criteria for this Competition as set out in part 3.2 below (the “Selection Criteria”), will be admitted to the …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "deliverables_scope": [
-          {
-            "text": "....................................................... 9 1.7. SME Participation ................................................................................................................... 9 Part 2: Overview of the Contracting Authority......................................................................................11 2.1. Mission .......................................................................................................................................11 2.2. Vision .......................…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "...................................... 9 1.7. SME Participation ................................................................................................................... 9 Part 2: Overview of the Contracting Authority......................................................................................11 2.1. Mission .......................................................................................................................................11 2.2. Vision ........................................…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "sla_onsite": [
-          {
-            "text": "............................................................................................57 6.16. Freeform of Information ......................................................................................................57 6.17. Tax Clearance .......................................................................................................................58 6.18. Conflict of Interest ................................................................................................................58 6.19.…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "Data Analytics & Visualisation • Data processing and preparation techniques. • Statistical and predictive modelling. • Advanced visualization tools (e.g., Tableau, Power BI). • Communicating insights through impactful visualizations. • Proficiency in preparing and analysing complex datasets. • Mastery of advanced visualization techniques and tools. • Ability to communicate insights through impactful and clear visual representations. 32 Category Five: Personal Development Training Modules *Module/Course Outline Lea…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "term_value": [
-          {
-            "text": "S and Award of Contracts ............................................... 6 1.2. Overview of Application Process ............................................................................................ 7 1.3. DPS Clients .............................................................................................................................. 9 1.4. Term ....................................................................................................................................... 9 1.5. Termination o…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "stem (“DPS”) for the provision of the services described in Part 3 to this RFATP (the “Services”). In summary, Positive2Work (P2W) requires experienced Trainers that are capable of providing their training services across multiple lots, covering various course modules within each lot. This public procurement competition will follow the open procedure under the European Union Regulations 2016 (Statutory Instrument 284 of 2016) (S.I. 284 of 2016) (the “Regulations”). If successful in Stage 1 Evaluations, any resulti…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "award_criteria": [
-          {
-            "text": "rements ..............................................................................38 4.2.2 Technical and Professional Ability .......................................................................................39 4.3. Presentation of Proposals ..........................................................................................................42 4.4. Notification and Admittance to DPS ..........................................................................................42 4.5. DPS Agreement........…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "............................................39 4.3. Presentation of Proposals ..........................................................................................................42 4.4. Notification and Admittance to DPS ..........................................................................................42 4.5. DPS Agreement...........................................................................................................................42 Part 5: Award Criteria for Future Mini Competition.....…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "forms_signatures": [
-          {
-            "text": "..................................................................................58 6.18. Conflict of Interest ................................................................................................................58 6.19. Withdrawal from Participation in this DPS ..........................................................................58 6.20. Site Visit ................................................................................................................................59 6.21. Insurance ...…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "....................................................................................58 6.19. Withdrawal from Participation in this DPS ..........................................................................58 6.20. Site Visit ................................................................................................................................59 6.21. Insurance ..............................................................................................................................59 Appendix 1: Ap…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "submission": [
-          {
-            "text": "standard regime File Associated :<7730892_Contract notice - general directive, standard regime.pdf > #Addenda ID 2 Status Published Title Contract award notice - general directive, standard regime File Associated :<7730892_Contract award notice - general directive, standard regime.pdf > ===== FILE: files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf ===== 1 Request for Applications to Participate in a Dynamic Purchasing System for the provision of Training Services…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "Applicants must review in full and comply with all requirements for this Competition set out in the RFATP and any published DPS documents for this Competition. 3. Applicants must complete and upload the electronic European Single Procurement Document (“eESPD”) to the Electronic Platform. 4. Applicants must complete and submit the DPS Applicant Response Document (“ARD”) for each Category applied for. The ARD is available to download from the Electronic Platform. Applicants must respond to the Selection Criteria as …",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "ip_data_security": [
-          {
-            "text": "exity may be tendered for additionally. All successful Applicants who pass the Evaluations at Stage One of the tender process to become a DPS Member will be eligible to tender for newly published RFT Mini-Competition’s as they arise. Positve2Work Skillnet has carried out a detailed Training Needs Analysis with the current member companies and identified a range of training and development needs that fall under the following categories: ● Category 1: Leadership, Strategy and Executive Development ● Category 2: Mana…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "and how to be effective managing staff. • Communicating with staff, providing feedback and motivating staff members. • Managing performance, dealing with conflict and holding difficult conversations. Participants will be empowered with a framework for effective people management in the workplace. 27 Emerging business skills requirements • This category will be used to commission emerging business skills requirements from P2W Skillnet members. All category 3 lot members will have an opportunity to respond to emergi…",
-            "source": "files/148722_7730892_unpacked/1_Tender Documents_unpacked/1. Positive2Work Training DPS- RFATP v2.pdf",
-            "source_url": null,
-            "source_sha256": "7ecb413275dde3da01f48b1adbd0507baf662e5a79616a3d8cf6654565e72444",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ]
-      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
