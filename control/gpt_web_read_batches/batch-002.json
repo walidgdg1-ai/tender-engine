@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-02T06:00:38.615382+00:00",
+  "generated_at": "2026-09-02T09:01:48.609192+00:00",
   "source_inbox_updated_at": "2026-09-02T06:00:38.257359+00:00",
   "latest_source_dce_run_id": 33596273998,
   "batch_index": 2,
@@ -244,7 +244,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 9,
+      "evidence_gate_coverage": 10,
       "spm_post_dce_score": 60,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -265,15 +265,224 @@
         "release_tag": "dce-harvest-33578464691"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 16,
+        "text_chars": 318981,
+        "attributed_compact_snippets": 18,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption The economic operator itself or any person who is a member of its administrative, management or supervisory body or powers of representation, decision or control therein has been the subject of a conviction by final judgement for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues t…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "DENCE_IDENTIFIER 47112079-6fec-47a3-988f-e561668c3aef CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING Money laundering or terrorist financing Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgement for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "o, implementacijo, vzdrževanjem ali podporo tovrstni programski opremi v katerikoli državi članici EU(strokovnjak je delal za EU državo). V primeru skupne ponudbe lahko pogoj partnerji izpolnijo skupaj. V primeru, da ponudnik nastopa s podizvajalci, lahko pogoj ponudnik in podizvajalci dokazujejo skupno. DOKAZILO: - V primeru izpolnjevanja pogoja iz prve alineje prvega odstavka te točke: Izpolnjen obrazec P- 10 Referenca ponudnika. Referenca mora biti potrjena s strani naročnika referenčnega posla s podpisom. V ko…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "namen nakazila: taksa za postopek revizije javnega naročanja. Vlagatelj mora zahtevku za revizijo priložiti potrdilo o plačilu takse. veleposlanik Andrej Gregor Rode, v. d. generalnega sekretarja Objaviti: - na portalu javnih naročil. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-10 Referenca.docx ===== REFERENCA Izjavljamo, da je bil zgoraj naveden referenčni posel izveden strokovno, kvalitetno, pravočasno, v skladu s standardi in zahtevami naročnika in v skladu z določili pogodbe. V/na , …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-10 Referenca.docx",
+            "source_url": null,
+            "source_sha256": "94cf843a64bce5e21bc6aba4dbffc30a0def64feb66d1c3e46254b87d8244f6d",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "diaryTenderingCriterionPropertyGroup> 9b19e869-6c89-4cc4-bd6c-ac9ca8602165 CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST EO registered in a PQS If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)? ecb5127b-9018-4fb8-8327-a6a7a2c73195 ON* 902e3448-c024-44de-a2d2-a565a5ce5884 Your answer? <TypeCode listID=\"CriterionE",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eDataTypeCode> dc4acf0c-c761-40d0-b031-4ee1f224be5c ONTRUE 4041cc82-1b7a-4560-ac3c-1cceae760aa9 Please provide the name of the list or certificate and the relevant registration or certification number, if applicable QUESTION DESCRIPTION d63531e6-6a3d-4d47-8e8b-78ffa601d73f If the certi",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "DENCE_IDENTIFIER 0d62c6ed-f074-4fcf-8e9f-f691351d52ad CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES Relied on entities Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below? 289f39b3-2a15-421a-8050-a29858031f35 ON* 8783d987-9efd-4e2a-9bb4-428d75969a83",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ESTION EVIDENCE_IDENTIFIER 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Not relied on entities Does the economic operator intend to subcontract any share of the contract to third parties? 289f39b3-2a15-421a-8050-a29858031f35 ON* <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "tveno in dalj časa vpliva na možnost izvajanja obveznosti po pogodbi. (4) V primeru prenehanja pogodbe iz kakršnegakoli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_requ…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ru prenehanja pogodbe iz kakršnegakoli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specifi…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "i s programsko opremo za izdajanje dokumentov, kot so vizumi, osebne izkaznice ali potni listi, pri čemer se kot ustrezne štejejo izkušnje z uporabo, implementacijo, vzdrževanjem ali podporo tovrstni programski opremi v katerikoli državi članici EU(strokovnjak je delal za EU državo). V primeru skupne ponudbe lahko pogoj partnerji izpolnijo skupaj. V primeru, da ponudnik nastopa s podizvajalci, lahko pogoj ponudnik in podizvajalci dokazujejo skupno. DOKAZILO: - V primeru izpolnjevanja pogoja iz prve alineje prvega …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "zvesti javno naročilo s podizvajalcem, ki zahteva neposredno plačilo, mora: - glavni izvajalec v pogodbi pooblastiti naročnika, da na podlagi potrjenega računa oziroma situacije s strani glavnega izvajalca neposredno plačuje podizvajalcu, - podizvajalec predložiti soglasje, na podlagi katerega naročnik namesto ponudnika poravna podizvajalčevo terjatev do ponudnika, - glavni i zvajalec svojemu računu ali situaciji priložiti račun ali situacijo podizvajalca, ki ga je predhodno potrdil. V primeru nastopanja s podizva…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "oli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicCo…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "nosti........................... 12 11.2.9 Obrazec P-10: Referenca ponudnika................................ ................................ ......................... 13 11.2.10 Obrazec P-11: Izjava o udeležbi fizičnih in pravnih oseb pri ponudniku................................ ... 13 11.2.11 Obrazec P-12: Izjava o nepovezanosti s funkcionarjem ali družinskim članom funkcionarja Ministrstva za zunanje in evropske zadeve................................ ................................ ...........................…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "; - Obrazec P-5a: Specifikacije; - Obrazec P-5b: Predračun; - Obrazec P-6: Podatki o podizvajalcu; - Obrazec P-8: Vzorec menične izjave za resnost ponudbe; - Obrazec P-9: Vzorec menične izjave za dobro izvedbo pogodbenih obveznosti; - Obrazec P-10: Referenca ponudnika; - Obrazec P-11: Izjava o udeležbi pravnih in fizičnih oseb pri ponudniku; - Obrazec P-12: Izjava o nepovezanosti s funkcionarjem ali družinskim članom funkcionarja Ministrstva za zunanje in evropske zadeve; - Obrazec P-13: Izjava o varnostnem prever…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": ", izvajalec še naprej v celoti odgovarja naročniku za izpolnjevanje obveznosti podizvajalca. Naročnik v nobenem delu procesa obdelave osebnih podatkov ne dovoljuje izvoza podatkov v države izven Evropske unije in v mednarodne organizacije. Po zaključku pogodbenega razmerja na podlagi te pogodbe, je izvajalec morebitne osebne podatke v svoji posesti dolžan nepovratno uničiti oziroma vrniti naročniku, če ta to zahteva. Naročnik obdeluje osebne podatke fizičnih oseb, ki opravljajo storitve zanj, v evidenci javnih nar…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-3 Vzorec pogodbe.docx",
+            "source_url": null,
+            "source_sha256": "1fa225a0950bfc06bc818bd1624fded6d46d991fc644b52076902a217e103462",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "peCode> EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Payment of taxes Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment? Public Procurement Directive 2014/24/EU Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public pr…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Payment of taxes Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment? Public Procurement Directive 2014/24/EU Directive 2014/24/EU of the European…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-02T09:01:40.286767+00:00",
+        "source_dce_run_id": 33578464691,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
