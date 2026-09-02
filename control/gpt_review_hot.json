@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-09-02T14:15:02.552794+00:00",
+  "updated_at": "2026-09-02T14:15:25.884745+00:00",
   "latest_dce_run_id": 33640316043,
-  "latest_shard": 6,
+  "latest_shard": 8,
   "generation_reset": false,
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "candidate_id": "TED:604299-2026",
@@ -1026,6 +1026,99 @@
       "hot_ready_at": "2026-09-02T14:14:47.375017+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 56,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "printing-services",
+        "printing-service"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "TED:603566-2026",
+      "title": "Latvia – Printing services – Jelgavas valstspilsētas pašvaldības reprezentatīva sienas kalendāra “Jelgava 2027” izgatavošana un piegāde",
+      "buyer": "Jelgavas valstspilsētas pašvaldība",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/603566-2026",
+      "deadline": "2026-10-05T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 89,
+      "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-05T02:00:00+00:00",
+        "notice_deadline_date": "2026-10-05",
+        "authoritative_submission_date": "2026-10-05",
+        "submission_deadline_candidates": [
+          "2026-10-05"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-02",
+          "2026-10-05"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "label": "SUBMISSION",
+            "keyword": "piedāvājumu iesniegšanas termiņš",
+            "distance": 2,
+            "context": " \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 ieraksti lapā Iepriekšējā lapa lapa Toggle Dropdown no Nākamā lapa Sistēmas brīdi"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-02",
+            "match": "02.09.2026",
+            "context": "nformācija par iesniegšanu: Norādiet, vai iesniegšana ir elektroniska vai izvēlaties faktisko adresi. \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie ja"
+          },
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "context": "dresi. \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 i"
+          },
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "context": " posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 ieraksti lapā Iepriekšējā lapa lapa Toggle Dropdown no Nākamā lapa Si"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 1,
+          "unique_contexts": 1
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 33640316043,
+      "source_shard": 8,
+      "hot_ready_at": "2026-09-02T14:15:25.397448+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 54,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
