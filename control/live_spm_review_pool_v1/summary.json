@@ -1,20 +1,20 @@
 {
   "contract": "LIVE_SPM_REVIEW_POOL_V1",
   "source_discovery_run": 33602177156,
-  "snapshot_rows": 128981,
+  "snapshot_rows": 128466,
   "playbook_or_lean_hits": 5137,
-  "residual_open_world": 123844,
+  "residual_open_world": 123329,
   "coverage_status": "PARTIAL_WORLD_COVERAGE",
   "missing_packs": [
-    "discovery-global-za-etenders-ocds",
-    "discovery-global-uk-pcs-ocds"
+    "discovery-global-za-etenders-ocds"
   ],
   "degraded_packs": [
     "discovery-global-au-austender",
     "discovery-global-es-placsp",
     "discovery-global-it-anac-delta",
     "discovery-global-cyprus-epps",
-    "discovery-global-malta-epps"
+    "discovery-global-malta-epps",
+    "discovery-global-uk-pcs-ocds"
   ],
   "external_missing_lanes": [],
   "hit_ontology_counts": {
@@ -58,15 +58,15 @@
     "IT_ANAC_PVL": 1
   },
   "blocker_flag_counts": {
-    "REGULATED_OR_CERTIFIED_STAFF": 993,
-    "SOURCES_SOUGHT_OR_RFI": 1996,
-    "CONSTRUCTION_HEAVY": 5365,
-    "MANDATORY_ONSITE_OR_FIELD": 212,
+    "CONSTRUCTION_HEAVY": 5341,
     "SET_ASIDE_OR_LOCAL_RESTRICTION": 2700,
+    "REGULATED_OR_CERTIFIED_STAFF": 991,
     "SOLE_SOURCE_OR_OEM": 4126,
-    "MEDICAL_CLINICAL": 151
+    "MEDICAL_CLINICAL": 151,
+    "MANDATORY_ONSITE_OR_FIELD": 209,
+    "SOURCES_SOUGHT_OR_RFI": 1995
   },
-  "residual_packet_count": 310,
+  "residual_packet_count": 309,
   "residual_packet_size": 400,
   "residual_packet_files": [
     "residual-0000.jsonl",
@@ -377,8 +377,7 @@
     "residual-0305.jsonl",
     "residual-0306.jsonl",
     "residual-0307.jsonl",
-    "residual-0308.jsonl",
-    "residual-0309.jsonl"
+    "residual-0308.jsonl"
   ],
   "compiled_historical_rules": 19,
   "preservation_rule": "Every snapshot row is represented in hit or residual output. Residuals are not discarded.",
