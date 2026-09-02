@@ -1,14 +1,21 @@
 {
   "schema": "AUTHENTICITY_RETRY_ROUTER_PLAN_V1",
-  "generated_at": "2026-09-02T01:22:49.623519+00:00",
+  "generated_at": "2026-09-02T05:58:11.420690+00:00",
   "selected_counts": {
     "IRELAND": 0,
-    "ZA_ETENDERS": 1,
+    "ZA_ETENDERS": 2,
     "ESTONIA": 1
   },
   "selected": {
     "IRELAND": [],
     "ZA_ETENDERS": [
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167691-2026-09-01",
+        "selection_lane": "ZA_ETENDERS_AUTHENTICITY_EXACT_OCID_RETRY",
+        "selection_reason": "stateful exact-ID replay through canonical DCE resolver; evidence-quality and final guards remain authoritative",
+        "prior_attempts": 0,
+        "source_dce_run_id": 33596273998
+      },
       {
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167533-2026-08-31",
         "selection_lane": "ZA_ETENDERS_AUTHENTICITY_EXACT_OCID_RETRY",
@@ -34,7 +41,7 @@
   },
   "blocked": {
     "cooldown": 1,
-    "attempt_cap": 1,
+    "attempt_cap": 0,
     "unsupported": 16
   },
   "policy": {
