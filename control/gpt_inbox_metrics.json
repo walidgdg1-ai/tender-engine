@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-03T17:30:22.203747+00:00",
+  "updated_at": "2026-09-03T20:04:29.987472+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 33783853424,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 183,
+    "pending_before_visible_cap": 193,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -21,16 +21,16 @@
     "pending_by_fit_band": {
       "HOT": 3,
       "GOOD": 79,
-      "MAYBE": 45,
-      "LOW": 33
+      "MAYBE": 46,
+      "LOW": 32
     },
     "pending_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 7,
-      "US_SAM": 23,
-      "WORLD_BANK": 5,
-      "ZA_ETENDERS": 3,
-      "PL_EZAMOWIENIA": 5,
+      "US_SAM": 24,
+      "WORLD_BANK": 4,
+      "ZA_ETENDERS": 4,
+      "PL_EZAMOWIENIA": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "CA_CANADABUYS": 4,
       "DE_DOE": 2,
@@ -61,16 +61,16 @@
     "selected_by_band": {
       "HOT": 3,
       "GOOD": 79,
-      "MAYBE": 45,
-      "LOW": 33
+      "MAYBE": 46,
+      "LOW": 32
     },
     "selected_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 7,
-      "US_SAM": 23,
-      "WORLD_BANK": 5,
-      "ZA_ETENDERS": 3,
-      "PL_EZAMOWIENIA": 5,
+      "US_SAM": 24,
+      "WORLD_BANK": 4,
+      "ZA_ETENDERS": 4,
+      "PL_EZAMOWIENIA": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "CA_CANADABUYS": 4,
       "DE_DOE": 2,
@@ -102,21 +102,21 @@
     },
     "selected_by_band": {
       "HOT": 2,
-      "GOOD": 58,
-      "MAYBE": 67,
+      "GOOD": 51,
+      "MAYBE": 74,
       "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 102,
-      "US_SAM": 18,
-      "IRELAND_ETENDERS": 5,
-      "WORLD_BANK": 5,
-      "ZA_ETENDERS": 4,
-      "PL_EZAMOWIENIA": 3,
+      "TED": 110,
+      "US_SAM": 11,
+      "IRELAND_ETENDERS": 7,
+      "WORLD_BANK": 4,
       "GENERIC_PUBLIC_PAGE": 4,
+      "ZA_ETENDERS": 3,
       "GR_KHMDHS": 2,
       "ES_PLACSP": 3,
       "SK_UVO": 2,
+      "PL_EZAMOWIENIA": 2,
       "EE_RHR": 2,
       "CA_CANADABUYS": 2,
       "DE_DOE": 1,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 2,
-      "GOOD": 77,
-      "MAYBE": 301,
-      "LOW": 2912
+      "GOOD": 70,
+      "MAYBE": 311,
+      "LOW": 2909
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 3132,
-    "cross_portal_duplicates_collapsed": 1
+    "cross_portal_duplicates_collapsed": 0
   },
   "true_pending_before_hot_cap": 3292,
   "overflow_beyond_hot_160": 3132,
@@ -152,22 +152,11 @@
   "provenance_overrides_applied_in_window": 12,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 155,
-    "adjudication_rows_scanned_this_refresh": 1268,
-    "gate_rows_seen_this_refresh": 448,
-    "authenticity_rows_seen_this_refresh": 40,
-    "source_runs_seen_this_refresh": [
-      33783853424,
-      33763357251,
-      33739368121,
-      33717094542,
-      33700264878,
-      33691216957,
-      33677665038,
-      33663847796,
-      33640316043,
-      33617135956
-    ]
+    "shard_files_scanned_this_refresh": 0,
+    "adjudication_rows_scanned_this_refresh": 0,
+    "gate_rows_seen_this_refresh": 0,
+    "authenticity_rows_seen_this_refresh": 0,
+    "source_runs_seen_this_refresh": []
   },
   "healthy": true,
   "contract": "Health sidecar exposes the true uncapped GPT review backlog plus fair-share and read-surface provenance. GPT Web adjudicator remains the assistant; exact-ID authenticity retries are separately cooldown-limited below."
