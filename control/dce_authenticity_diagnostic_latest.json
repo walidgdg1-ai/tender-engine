@@ -1,15 +1,15 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33819558397,
+  "latest_source_dce_run_id": 33887060427,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
+    "ZA_ETENDERS": 2,
     "CA_CANADABUYS": 2,
     "DE_DOE": 2,
     "GENERIC_PUBLIC_PAGE": 2,
-    "TED": 2,
+    "TED": 1,
     "US_SAM": 1,
-    "ZA_ETENDERS": 1,
     "CYPRUS_EPPS": 1,
     "EE_RHR": 1,
     "ES_PLACSP": 1,
@@ -55,7 +55,7 @@
       }
     },
     {
-      "portal": "TED",
+      "portal": "ZA_ETENDERS",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -135,6 +135,14 @@
       }
     },
     {
+      "portal": "TED",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
       "portal": "US_SAM",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -149,18 +157,18 @@
       "reason_counts": {
         "NON_AUTHORITATIVE": 1
       }
-    },
-    {
-      "portal": "ZA_ETENDERS",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
     }
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
+      {
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167691-2026-09-01",
+        "portal": "ZA_ETENDERS",
+        "title": "WMM LM 03/08/26/01SNG",
+        "buyer": "Winnie Madikizela-Mandela Local Municipality",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-167691"
+      },
       {
         "candidate_id": "CA:BPM026289/34383",
         "portal": "CA_CANADABUYS",
@@ -192,14 +200,6 @@
         "buyer": "Ferrocarrils de la Generalitat de Catalunya",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/598032-2026"
-      },
-      {
-        "candidate_id": "US-SAM:b9c6de00b6ed42d2bfde51aa73511661",
-        "portal": "US_SAM",
-        "title": "Rural Security Advisor",
-        "buyer": "STATE, DEPARTMENT OF",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://sam.gov/opp/b9c6de00b6ed42d2bfde51aa73511661/view"
       }
     ]
   },
