@@ -1,14 +1,13 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 33811006463,
+  "latest_source_dce_run_id": 33819558397,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
     "CA_CANADABUYS": 2,
     "DE_DOE": 2,
     "GENERIC_PUBLIC_PAGE": 2,
-    "PL_EZAMOWIENIA": 2,
-    "TED": 1,
+    "TED": 2,
     "US_SAM": 1,
     "ZA_ETENDERS": 1,
     "CYPRUS_EPPS": 1,
@@ -17,6 +16,7 @@
     "GR_KHMDHS": 1,
     "IRELAND_ETENDERS": 1,
     "LV_IUB": 1,
+    "PL_EZAMOWIENIA": 1,
     "SCOTLAND_PCS": 1,
     "SK_UVO": 1,
     "WORLD_BANK": 1
@@ -55,7 +55,7 @@
       }
     },
     {
-      "portal": "PL_EZAMOWIENIA",
+      "portal": "TED",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -111,6 +111,14 @@
       }
     },
     {
+      "portal": "PL_EZAMOWIENIA",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
       "portal": "SCOTLAND_PCS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -120,14 +128,6 @@
     },
     {
       "portal": "SK_UVO",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
-      "portal": "TED",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -186,20 +186,20 @@
         "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-165596"
       },
       {
-        "candidate_id": "PL-BZP:08df01c7-0f01-c74d-b346-0300018cdef4",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Szkolenie ze współpracy w załodze MCC (Multi Crew Cooperation)",
-        "buyer": "Lotnicze Pogotowie Ratunkowe",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df01c7-0f01-c74d-b346-0300018cdef4"
-      },
-      {
         "candidate_id": "TED:598032-2026",
         "portal": "TED",
         "title": "Spain – Graphic design services – Acuerdo marco para la homologación de empresas para la prestación de servicios de rotulación, instalación de señalización y singularització de espacios para estaciones, dependencias y oficinas, material móvil y vehículos corporativos dentro del ámbito de la red ferroviaria y de turismo y montaña de Ferrocarriles de la Generalitat de Cataluña (Ref. AM15/26)",
         "buyer": "Ferrocarrils de la Generalitat de Catalunya",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://ted.europa.eu/en/notice/-/detail/598032-2026"
+      },
+      {
+        "candidate_id": "US-SAM:b9c6de00b6ed42d2bfde51aa73511661",
+        "portal": "US_SAM",
+        "title": "Rural Security Advisor",
+        "buyer": "STATE, DEPARTMENT OF",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://sam.gov/opp/b9c6de00b6ed42d2bfde51aa73511661/view"
       }
     ]
   },
