@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-04T18:24:04.191219+00:00",
-  "source_inbox_updated_at": "2026-09-04T18:24:03.718871+00:00",
-  "latest_source_dce_run_id": 33904736782,
+  "generated_at": "2026-09-04T20:53:00.187171+00:00",
+  "source_inbox_updated_at": "2026-09-04T20:52:59.476884+00:00",
+  "latest_source_dce_run_id": 33917876023,
   "batch_index": 3,
   "start_rank": 31,
   "end_rank": 40,
@@ -31,24 +31,159 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 33904736782,
+      "source_dce_run_id": 33917876023,
       "source_shard": 2,
-      "review_key": "e68febf868d4374bece812ba979590d14a17dad1a88a4875fe476dd353b56431",
+      "review_key": "8bca853c0a0bf79b2725959fa9cc3635803331961c07a5179a31d57ec3e690e9",
       "artifact_locator": {
-        "dce_run_id": 33904736782,
+        "dce_run_id": 33917876023,
         "shard": 2,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-33904736782"
+        "release_tag": "dce-harvest-33917876023"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 7,
+        "text_chars": 353988,
+        "attributed_compact_snippets": 12,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "b pakutavate trükiste tehnilise kirjelduse, kus peavad olema välja toodud kõik andmed vastavalt alusdokumentides toodud tehnilistele tingimustele. Vastavuse kontrollimiseks peab pakkuja esitama hankija tehnilises kirjelduses toodud ning nõuetekohaselt täidetud \"Kõvakaaneliste trükiste vastavus- ja hindamistabeli\". Küsimused ettevõtjale: 1. Nõuetekohaselt täidetud \"Kõvakaaneliste trükiste vastavus- ja hindamistabel\" (Vabas vormis dokument) EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD. Pakkuja kinnitab, et ta ei …",
+            "source": "files/files_unpacked/314407_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "fafbccf47b8898b8a53d3e70d28f7517ccc62de2f8503b598b7447962ffccf85",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS (EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas. Küsimused ettevõtjale: 1. Pakkuja kinnitab, et ta ei k…",
+            "source": "files/files_unpacked/314407_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "fafbccf47b8898b8a53d3e70d28f7517ccc62de2f8503b598b7447962ffccf85",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "EVIDENCE_IDENTIFIER 5a8dea31-5db9-4e03-862b-07810aa6a7fd CRITERION.OTHER.EO_DATA.CONTRIBUTIONS_CERTIFICATES Ettevõtja kinnitused maksude tasumise kohta Kas ettevõtja saab esitada tõendi sotsiaalkindlustusmaksete ja maksude tasumise kohta või esitada teabe, mis võimaldaks avaliku sektori hankijal või võrgustiku sektori hankijal saada sellise teabe otse ükskõik millise liikmesriigi tasuta andmebaasist? c753a2c5-59e6-4970-b6eb-27224e96bf76 <cbc:Descripti",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "EVIDENCE_IDENTIFIER 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Teave nende allhankijate kohta, kelle näitajatele ettevõtja ei tugine Kas ettevõtja kavatseb sõlmida lepingu mis tahes osa kohta allhanke kolmanda isikuga? c753a2c5-59e6-4970-b6eb-27224e96bf76 <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"E",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "/0 trükk | Paber, sisu: Amber Graphic 90 g/m2 | Paber, kaas: silk 150 g/m2, mattkile | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | instituudi trükis | 200 trükise hind ilma km-ta | Maht: 200 lk + kaaned | Formaat: 148 x 210 mm | Värvid, sisu: 4/4 trükk | Värvid, kaas: 4/0 trükk | Paber, sisu: Arctic silk 130 g/m2 | Paber, kaas: silk 150 g/m2, mattkile | Paber, eesleht: 0/0, Amber Graphic 150 g/m2 | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | ===== FILE: files/files_unpacked/314407_ESPD_v2.0_laiendatud.xm…",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tkile | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | instituudi trükis | 200 trükise hind ilma km-ta | Maht: 200 lk + kaaned | Formaat: 148 x 210 mm | Värvid, sisu: 4/4 trükk | Värvid, kaas: 4/0 trükk | Paber, sisu: Arctic silk 130 g/m2 | Paber, kaas: silk 150 g/m2, mattkile | Paber, eesleht: 0/0, Amber Graphic 150 g/m2 | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | ===== FILE: files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specificati…",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "onID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Osalemine kuritegelikus organisatsioonis Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt…",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud. ET 7c637c0c-7703-4389-ba52-02997a055bd7 ON* 8a42266c5fb24e32ff421942459d66ac-1.1 Mis on …",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "hic 90 g/m2 | Paber, kaas: silk 150 g/m2, mattkile | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | instituudi trükis | 200 trükise hind ilma km-ta | Maht: 200 lk + kaaned | Formaat: 148 x 210 mm | Värvid, sisu: 4/4 trükk | Värvid, kaas: 4/0 trükk | Paber, sisu: Arctic silk 130 g/m2 | Paber, kaas: silk 150 g/m2, mattkile | Paber, eesleht: 0/0, Amber Graphic 150 g/m2 | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | ===== FILE: files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationR…",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "50 g/m2, mattkile | Paber, eesleht: 0/0, Amber Graphic 150 g/m2 | Köide: õmmeldud köide, ümar selg | Tiraaž: 200 | ===== FILE: files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ub…",
+            "source": "files/files_unpacked/314407_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "9463be314770f07ea88e6c55c6ecbd025e0c755620fa5abf1f34fc83e698dd8f",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "Juhul kui täitja rikub lepingus sätestatud tähtaegu, on tellijal õigus nõuda täitjalt leppetrahvi kuni 0,2% lepingu maksumusest , iga viivitatud päeva eest. 7.4 Kui täitja ei osuta teenust lepingus sätestatud tingimuste kohaselt, on tellijal õigus nõuda igakordse rikkumise korral 100 (ükssada) eurot leppetrahvi. Pretensioonid lepingu tingimustele mittevastava teenuse kohta esitab tellija täitjale kirjalikult. 7.5 Tellijal on õigus leppetrahvi summa tasaarvestada vastavas ulatuses lepingus kokku lepitud teenuse osu…",
+            "source": "files/files_unpacked/286092_Hanke alusdokument.docx",
+            "source_url": null,
+            "source_sha256": "87e348bd4597b43253d784da9a1fd1a9a6fc45633364db1c1d72168cba42b4fb",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tja ei osuta teenust lepingus sätestatud tingimuste kohaselt, on tellijal õigus nõuda igakordse rikkumise korral 100 (ükssada) eurot leppetrahvi. Pretensioonid lepingu tingimustele mittevastava teenuse kohta esitab tellija täitjale kirjalikult. 7.5 Tellijal on õigus leppetrahvi summa tasaarvestada vastavas ulatuses lepingus kokku lepitud teenuse osutamise eest tasumise nõudega. 7.6 Pooled on kokku leppinud, et Täitja kohustub hüvitama lepingu täitmise käigus tekkinud kahju kolmandatele isikutele. Täitja kohustub o…",
+            "source": "files/files_unpacked/286092_Hanke alusdokument.docx",
+            "source_url": null,
+            "source_sha256": "87e348bd4597b43253d784da9a1fd1a9a6fc45633364db1c1d72168cba42b4fb",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -74,26 +209,215 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 33904736782,
+      "source_dce_run_id": 33917876023,
       "source_shard": 4,
-      "review_key": "f9b756208b651ebd959bcd8403e78d284b07dfdf19396bc91e34ffac3663863a",
+      "review_key": "15b8f2be3d0deb3ca4ee521b2358f4e90c07d1ae7f4f03d0f541a97c567cb4c7",
       "artifact_locator": {
-        "dce_run_id": 33904736782,
+        "dce_run_id": 33917876023,
         "shard": 4,
         "candidate_id": "TED:610242-2026",
-        "release_tag": "dce-harvest-33904736782"
+        "release_tag": "dce-harvest-33917876023"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 5,
+        "text_chars": 58860,
+        "attributed_compact_snippets": 17,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "turnover_financial": [
+          {
+            "text": "sen: ja Diese Auftragsvergabe ist auch für kleine und mittlere Unternehmen (KMU) geeignet: ja Zusätzliche Informationen: #Besonders auch geeignet für:startup# 5.1.7 Strategische Auftragsvergabe Ziel der strategischen Auftragsvergabe: Keine strategische Beschaffung 5.1.9 Eignungskriterien Quellen der Auswahlkriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung des Auswahlkriteriums: Nachweis der Befähigung und Erlaubnis zur Berufsausübung Kriterium: Eintragung in ein relevantes Berufsr…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nehmen (KMU) geeignet: ja Zusätzliche Informationen: #Besonders auch geeignet für:startup# 5.1.7 Strategische Auftragsvergabe Ziel der strategischen Auftragsvergabe: Keine strategische Beschaffung 5.1.9 Eignungskriterien Quellen der Auswahlkriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung des Auswahlkriteriums: Nachweis der Befähigung und Erlaubnis zur Berufsausübung Kriterium: Eintragung in ein relevantes Berufsregister Beschreibung des Auswahlkriteriums: Nachweis der Befähigung …",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "===== FILE: files/eForm_16_12641.pdf ===== Deutschland: IT­Dienste: Beratung, Software­Entwicklung, Internet und Hilfestellung Berlin TXL ­ ISO­IEC 27001 Zertifizierungsvorbereitung Auftrags­ oder Konzessionsbekanntmachung – Standardregelung 1 Beschaffer 1.1 Beschaffer Offizielle Bezeichnung: Berlin TXL Management GmbH Rechtsform des Erwerbers: Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen Tätigkeit des öffentlichen Auftraggebers: Wirtschaftliche Angelegenheiten 2 Verfahren 2.1 Verf…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "des Auftrags: Dienstleistungen Haupteinstufung (cpv): 72000000 IT­Dienste: Beratung, Software­Entwicklung, Internet und Hilfestellung 2.1.2 Erfüllungsort Stadt: Berlin Postleitzahl: 13405 Land, Gliederung (NUTS): Berlin (DE300) Land: Deutschland 2.1.4 Allgemeine Informationen Rechtsgrundlage: Richtlinie 2014/24/EU vgv ­ 2.1.6 Ausschlussgründe Quellen der Ausschlussgründe: Bekanntmachung Verstoß gegen die in den rein innerstaatlichen Ausschlussgründen verankerten Verpflichtungen: Ausschlüssgründe gemäß Formblatt Wi…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "s Auswahlkriteriums: Nachweis der Befähigung und Erlaubnis zur Berufsausübung Kriterium: Eintragung in ein relevantes Berufsregister Beschreibung des Auswahlkriteriums: Nachweis der Befähigung und Erlaubnis zur Berufsausübung Kriterium: Spezifischer Jahresumsatz Beschreibung des Auswahlkriteriums: durchschnittlichen Jahresumsatz für vergleichbare Dienstleistungen im Bereich der ISO/IEC 27001 Zertifizierungsvorbereitung in den letzten drei Geschäftsjahre Die Mindestanforderung für den durchschnittlichen Jahresumsat…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s Mindestanforderung an die Eignung und für die Berücksichtigung im weiteren Vergabeverfah­ ren gelten folgende Anforderungen an die Versicherungsbedingungen: Die Deckungssummen dieser Versicherung müssen mindestens betragen: a) für Personenschäden 5 Mio. EUR b) für sonstige Schäden 3 Mio. EUR (Sach­ und Vermögensschäden) je Schadensereignis und einer Gesamtleistung für alle Versicherungsfälle eines Versicherungs­ jahres mit mindestens dem Zweifachen der https://ted.europa.eu/TED Page 2/6 Deckungssummen. Bei Biete…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "24,2025) beträgt 100.000,00 Euro netto. Kriterium: Berufliche Risikohaftpflichtversicherung Beschreibung des Auswahlkriteriums: Als Mindestanforderung an die Eignung und für die Berücksichtigung im weiteren Vergabeverfah­ ren gelten folgende Anforderungen an die Versicherungsbedingungen: Die Deckungssummen dieser Versicherung müssen mindestens betragen: a) für Personenschäden 5 Mio. EUR b) für sonstige Schäden 3 Mio. EUR (Sach­ und Vermögensschäden) je Schadensereignis und einer Gesamtleistung für alle Versicherun…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "itung Auftrags­ oder Konzessionsbekanntmachung – Standardregelung 1 Beschaffer 1.1 Beschaffer Offizielle Bezeichnung: Berlin TXL Management GmbH Rechtsform des Erwerbers: Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen Tätigkeit des öffentlichen Auftraggebers: Wirtschaftliche Angelegenheiten 2 Verfahren 2.1 Verfahren Titel: Berlin TXL ­ ISO­IEC 27001 Zertifizierungsvorbereitung Beschreibung: Für die gesamte GmbH soll ein Informationssicherheits­Managementsystem (ISMS) gemäß ISO/IEC 27…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "form des Erwerbers: Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen Tätigkeit des öffentlichen Auftraggebers: Wirtschaftliche Angelegenheiten 2 Verfahren 2.1 Verfahren Titel: Berlin TXL ­ ISO­IEC 27001 Zertifizierungsvorbereitung Beschreibung: Für die gesamte GmbH soll ein Informationssicherheits­Managementsystem (ISMS) gemäß ISO/IEC 27001 aufgebaut, in bestehende Prozesse integriert und dauerhaft gelebt werden. Weitergehende Informationen sind der ausführlichen Leistungsbeschreibung …",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "re Zertifizierung nachweisen. Die Mitarbeitenden können auch per Eignungsleihe nachgewiesen werden. Als Nachweis sind kurz Lebensläufe und Eigenerklärungen zu erbringen. Kriterium: Referenzen zu bestimmten Dienstleistungen Beschreibung des Auswahlkriteriums: Als Mindestanforderung gilt mindestens zwei Referenzen, die folgende Anforderungen erfüllt: ­ erfolgreich durchgeführte Unterstützungsleistungen im Zusammenhang mit ISO/ IEC­27001­ Zertifizierungen ­ müssen im Zeitraum zwischen dem 01.09.2021 und dem Tag der F…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "auch per Eignungsleihe nachgewiesen werden. Als Nachweis sind kurz Lebensläufe und Eigenerklärungen zu erbringen. Kriterium: Referenzen zu bestimmten Dienstleistungen Beschreibung des Auswahlkriteriums: Als Mindestanforderung gilt mindestens zwei Referenzen, die folgende Anforderungen erfüllt: ­ erfolgreich durchgeführte Unterstützungsleistungen im Zusammenhang mit ISO/ IEC­27001­ Zertifizierungen ­ müssen im Zeitraum zwischen dem 01.09.2021 und dem Tag der Frist zur Einreichung der An­ gebote abgeschlossen worden…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ne Kennung: 002_001_80_0150_2603 Verfahrensart: Offenes Verfahren Das Verfahren wird beschleunigt: nein 2.1.1 Zweck Art des Auftrags: Dienstleistungen Haupteinstufung (cpv): 72000000 IT­Dienste: Beratung, Software­Entwicklung, Internet und Hilfestellung 2.1.2 Erfüllungsort Stadt: Berlin Postleitzahl: 13405 Land, Gliederung (NUTS): Berlin (DE300) Land: Deutschland 2.1.4 Allgemeine Informationen Rechtsgrundlage: Richtlinie 2014/24/EU vgv ­ 2.1.6 Ausschlussgründe Quellen der Ausschlussgründe: Bekanntmachung Verstoß g…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "mindestens 1 bis 2 Jahre einschlägige Erfahrung in ISO/IEC­27001­ oder BSI­Grundschutz­Projekten verfügen und zudem mindestens eine Zertifizie­ rung, wie beispielsweise ISO/IEC 27001 Foundation, Lead Auditor oder eine vergleichbare Quali­ fikation, nachweisen. Festangestellter Senior­ bzw. Lead­Berater mit mindestens 6 Jahre einschlägige Erfahrung in ISO/IEC­27001­ oder BSI­Grundschutz­Projekten verfügen und darüber hinaus eine Qualifikation wie ISO Lead Implementer, CISSP oder eine vergleichbare Zertifizierung na…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "dschutz­Projekten verfügen und darüber hinaus eine Qualifikation wie ISO Lead Implementer, CISSP oder eine vergleichbare Zertifizierung nachweisen. Die Mitarbeitenden können auch per Eignungsleihe nachgewiesen werden. Als Nachweis sind kurz Lebensläufe und Eigenerklärungen zu erbringen. Kriterium: Referenzen zu bestimmten Dienstleistungen Beschreibung des Auswahlkriteriums: Als Mindestanforderung gilt mindestens zwei Referenzen, die folgende Anforderungen erfüllt: ­ erfolgreich durchgeführte Unterstützungsleistung…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Projekterfahrung Beschreibung: Referenzen / Projekterfahrung Kategorie des Gewicht­Zuschlagskriteriums: Gewichtung (Prozentanteil, genau) Zuschlagskriterium — Zahl: 5 5.1.11 Auftragsunterlagen Sprachen, in denen die Auftragsunterlagen offiziell verfügbar sind: Deutsch Frist für die Anforderung zusätzlicher Informationen: 28/09/2026 12:00 +02:00 Internetadresse der Auftragsunterlagen: https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/ platformId/2/tenderId/210013 Ad­hoc­Kommunikationskanal: Name:…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/eForm_16_12641.pdf ===== Deutschland: IT­Dienste: Beratung, Software­Entwicklung, Internet und Hilfestellung Berlin TXL ­ ISO­IEC 27001 Zertifizierungsvorbereitung Auftrags­ oder Konzessionsbekanntmachung – Standardregelung 1 Beschaffer 1.1 Beschaffer Offizielle Bezeichnung: Berlin TXL Management GmbH Rechtsform des Erwerbers: Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen Tätigkeit des öffentlichen Auftraggebers: Wirtschaftliche Angelegenheiten 2 Verfahren 2.1 Verf…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e: Beratung, Software­Entwicklung, Internet und Hilfestellung 2.1.2 Erfüllungsort Stadt: Berlin Postleitzahl: 13405 Land, Gliederung (NUTS): Berlin (DE300) Land: Deutschland 2.1.4 Allgemeine Informationen Rechtsgrundlage: Richtlinie 2014/24/EU vgv ­ 2.1.6 Ausschlussgründe Quellen der Ausschlussgründe: Bekanntmachung Verstoß gegen die in den rein innerstaatlichen Ausschlussgründen verankerten Verpflichtungen: Ausschlüssgründe gemäß Formblatt Wirt124 EU Erklärung Ausschlussgründe 5 Los https://ted.europa.eu/TED Page…",
+            "source": "files/eForm_16_12641.pdf",
+            "source_url": "https://my.vergabeplattform.berlin.de/remote/download.php?k=07a68254c099ac64a1822bb5a9e1e176&down",
+            "source_sha256": "2644da3edfad06257a3fd3995db8fa9ad7dbe32e868f412286d141fee01120e3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -131,14 +455,203 @@
         "release_tag": "dce-harvest-33867406917"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 252604,
+        "attributed_compact_snippets": 17,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "> Lot1 Lot2 005eb9ed-1347-4ca3-bb29-9bc0db64e1ab CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Participation in a criminal organisation Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "tration or certification is available electronically, please state where QUESTION URL 4438e25d-7e7a-4455-ae10-317d648ae246 Please state the references on which the registration or certification is based, and, where applicable, the classification obtained in the official list QUESTION DESCRIPTION 92e44d3b-af8e-4a29-91a8-24d27aa27fee",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.1.1\">b633a7f3-44cf-4474-8365-620c66bfe89a Maximum number of lots that may be awarded to one tenderer REQUIREMENT QUANTITY_INTEGER 0000/S 000-000000 Najem in vzdrževanje sistemske programske opreme Najem in vzdrževanje sistemske programske opreme. </ns3:Addi",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "diaryTenderingCriterionPropertyGroup> 9b19e869-6c89-4cc4-bd6c-ac9ca8602165 CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST EO registered in a PQS If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)? ecb5127b-9018-4fb8-8327-a6a7a2c73195 ON* 64517ae0-1fc7-444e-aea9-8aaef1c2da20 Your answer? <TypeCode listID=\"CriterionE",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eDataTypeCode> dc4acf0c-c761-40d0-b031-4ee1f224be5c ONTRUE b9f2cf87-a2f0-457b-83db-e984887b6127 Please provide the name of the list or certificate and the relevant registration or certification number, if applicable QUESTION DESCRIPTION 9c6f5637-a44d-484c-b964-228177ed227a If the certi",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "EVIDENCE_IDENTIFIER 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcontractors, see Part II, S…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "U-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for s…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "e pdf, word ali excel. Pripeti je možno le eno datoteko. Dokument, pripet v del »Predračun«, je viden na javnem odpiranju ponudb v celoti skupaj s ponudbeno vrednostjo. NAVODILO: Ponudnikova odgovorna oseba obrazec izpolni. Elektronsko oddani obrazec v informacijskem sistemu e-JN šteje za datiranega in podpisanega in je tako zavezujoč za ponudnika v razmerju do naročnika. Varen elektronski podpis overjen s kvalificiranim potrdilom je enakovreden fizičnemu podpisu. ===== FILE: files/Objava RD_unpacked/espd_request.…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "»Predračun«, je viden na javnem odpiranju ponudb v celoti skupaj s ponudbeno vrednostjo. NAVODILO: Ponudnikova odgovorna oseba obrazec izpolni. Elektronsko oddani obrazec v informacijskem sistemu e-JN šteje za datiranega in podpisanega in je tako zavezujoč za ponudnika v razmerju do naročnika. Varen elektronski podpis overjen s kvalificiranim potrdilom je enakovreden fizičnemu podpisu. ===== FILE: files/Objava RD_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specificat…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "jetje konkretnih tehničnih, organizacijskih in kadrovskih ukrepov, ustreznih za preprečitev nadaljnjih kaznivih dejanj ali kršitev. Pri ocenjevanju ukrepov, ki jih sprejme gospodarski subjekt, naročnik upošteva resnost in posebne okoliščine kaznivega dejanja ali kršitve. Če naročnik oceni, da dokazi, ki jih je predložil gospodarski subjekt, zadoščajo, gospodarskega subjekta ne glede na Odprti postopek oddaje javnega naročila: Najem in vzdrževanje sistemske programske opreme verzija 6 Stran 11 od 48 razloge za izkl…",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "venega ali nadzornega organa gospodarskega subjekta ali ki ima pooblastila za njegovo zastopanje (podpis pogodbe) ali odločanje ali nadzor v njem. Ponudnikova odgovorna oseba v elektronsko oddani ponudbi priloži skenirane obrazce z zahtevanimi podpisi, ki so tako zavezujoči za ponudnika v razmerju do naročnika. Varen elektronski podpis overjen s kvalificiranim potrdilom je enakovreden fizičnemu podpisu. Odprti postopek oddaje javnega naročila: Najem in vzdrževanje sistemske programske opreme verzija 6 Stran 23 od …",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "iranju ponudb v celoti skupaj s ponudbeno vrednostjo. NAVODILO: Ponudnikova odgovorna oseba obrazec izpolni. Elektronsko oddani obrazec v informacijskem sistemu e-JN šteje za datiranega in podpisanega in je tako zavezujoč za ponudnika v razmerju do naročnika. Varen elektronski podpis overjen s kvalificiranim potrdilom je enakovreden fizičnemu podpisu. ===== FILE: files/Objava RD_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicCompo…",
+            "source": "files/Objava RD_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "783ff66fe280943986635909411c21cf4d401d32038bf147bb18cf27459e9aa0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "vajalca šteje gospodarski subjekt, ki je pravna ali fizična oseba in za ponudnika, s katerim je naročnik po ZJN-3 sklenil pogodbo o izvedbi javnega naročila ali okvirni sporazum, izvaja storitev, ki je neposredno povezana s predmetom tega javnega naročila. Pri posameznem podizvajalcu ne smejo obstajati razlogi za izključitev oziroma mora izpolnjevati vse pogoje iz obrazcev dokumentacije javnega naročila. Če ponudnik nastopa v ponudbi s podizvajalcem, mora: - navesti vse podizvajalce ter vsak del javnega naročila, …",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "o in vsak posebej v celoti. Skupni ponudniki brez naročnikovega predhodnega pisnega dovoljenja pisnega dogovora med skupnimi ponudniki ne smejo spreminjati. V primeru skupne ponudbe podpisnikom ni potrebno priložiti Obrazca 3 (Izjava o sprejemanju razpisnih pogojev). Nosilec ponudbe mora za vsakega partnerja v skupnem nastopu priložiti: - Obrazec 2: Izjava skupnih ponudnikov, - Obrazec 4: Pooblastilo za pridobitev podatkov iz uradnih evidenc, - Obrazec 5: Izjava o udeležbi fizičnih in pravnih oseb v lastništvu pon…",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "evanje VMware programske opreme □Sklop 2: Najem licenc in vzdrževanje One Identity Safeguard programske opreme S tem javnim naročilom se naroča najem in vzdrževanje sistemske programske opreme. Podrobnejši opis in popis predmeta naročila je naveden v 24. točki navodil k dokumentaciji javnega naročila. Ponudbo je mogoče predložiti za posamične sklope ali celotno naročilo. Variante ponudbe niso sprejemljive in jih naročnik ne bo upošteval. Javno naročilo je v skladu s prvim odstavkom in točko a) drugega odstavka 22.…",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ivost servisnih storitev 5 dni v tednu, 8 ur na dan in rok za odpravo napake 24 ur od trenutka prijave napake, okvare ali nedelovanja opreme. Trenutek prijave napake je identičen trenutku njenega prejema. V kolikor naročnik ne koristi vseh 2 čl/dni na mesec, se neizkoriščeni del prenese v naslednji mesec. Izvajalec bo naročniku po poteku vsakega meseca, do petega delovnega dne v naslednjem mesecu, posredoval delovni nalog za pretekli mesec, iz katerega bodo razvidne vse naloge in čas, ki ga je izvajalec porabil za…",
+            "source": "files/Objava RD_unpacked/RD_Najem_in_vzdrzevanje_sistemske_programske_opreme.pdf",
+            "source_url": null,
+            "source_sha256": "b6f8b997442e537f4554fdeb3c7313b33dc5ea886638eed26779e76a44643505",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -429,14 +942,193 @@
         "release_tag": "dce-harvest-32262216923"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 18,
+        "text_chars": 398897,
+        "attributed_compact_snippets": 16,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "talAddress> 0 005eb9ed-1347-4ca3-bb29-9bc0db64e1ab CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Participation in a criminal organisation Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion peri…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "EU-COM-GROW\" schemeVersionID=\"1.0\">c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4 Issuer c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in …",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": ":Name> Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on t…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cription> DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Directive 2014/24/EU EU_DIRECTIVE 57(1) http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024 7c637c0c-7703-4389-ba52-02997a055bd7 974c8196-9d1c-419c-9ca9-45bb9f5fd59a Your answer? f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ption> 9b19e869-6c89-4cc4-bd6c-ac9ca8602165 CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST EO registered If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)? 64162276-7014-408f-a9af-080426bfe1fd ecb5127b-9018-4fb8-8327-a6a7a2c73195 7f18c64e-ae09-4646-9400-f3666d50af51 <cbc:De",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "-ae09-4646-9400-f3666d50af51 Your answer dc4acf0c-c761-40d0-b031-4ee1f224be5c 30064ad3-fc11-4579-8528-fdd0b9a5ba75 a) Please provide the relevant registration or certification number, if applicable: b3403349-cbc0-4d84-879e-fc0f2d90ecbd b) If the certificate of registration or certification is available electronically, please state: <cbc:ID schemeID=\"CriterionRelatedIDs\" schemeAgency",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "c) Where applicable, name of the participating group: 0d62c6ed-f074-4fcf-8e9f-f691351d52ad CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES EO relies capacities Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below? e688f7d6-dcef-4726-bc61-052e63ead60f 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ead60f 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Subcontracting third parties Does the economic operator intend to subcontract any share of the contract to third parties? d5fe5a71-7fd3-4910-b6f4-5cd2a4d23524 7f18c64e-ae09-4646-9400-f3666d50af51 Your answer</cbc:Description",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ų. Ekonominės veiklos vykdytojai oficialiai sutinka perkančiąjai organizacijai ar perkančiajam subjektui, nurodytam I dalyje, leisti susipažinti su dokumentais, kuriais patvirtinama informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento III ir IV dalyse, kiek tai susiję su pirkimu, nurodytu I dalyje. Data, vieta ir, jei reikia ar būtina, parašas (-ai): Data - Vieta - Parašas -26- ===== FILE: files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/es…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ančiajam subjektui, nurodytam I dalyje, leisti susipažinti su dokumentais, kuriais patvirtinama informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento III ir IV dalyse, kiek tai susiję su pirkimu, nurodytu I dalyje. Data, vieta ir, jei reikia ar būtina, parašas (-ai): Data - Vieta - Parašas -26- ===== FILE: files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specificatio…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "===== FILE: files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/README.txt ===== Tai � trumpas EBVPD rinkmen�, kurias rasite �iame ZIP aplanke, apra�ymas. espd.XML: XML rinkmena � tai m�s� EBVPD paslaugoms arba kitoms su EBVPD suderinamoms paslaugoms suprantama rinkmena. Naudojimosi e. EBVPD kaip XML rinkmenos prana�umas yra tai, kad pirk�jai ir bendrov�s gal�s j� panaudoti kitoms proced�roms ateityje. Ji tur�t� b�ti siun�iama kartu su vie��j� pirkim� dokumen…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/README.txt",
+            "source_url": null,
+            "source_sha256": "49b1d2b161f9536e7093a249474bc102a5470804da0f36b497db7b5d814dbd70",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.pdf ===== Europos bendrasis viešųjų pirkimųdokumentas (EBVPD) I dalis. Informacija apie pirkimo procedūrą ir perkančiąją organizaciją ar perkantįjį subjektą Informacija apie paskelbimą Skelbimo numeris OL S (tik tarptautiniams pirkimams): - Skelbimo numeris CVP IS (kur rasti?) - Perkančiosios organizacijos / Perkančiojo subjekto tapatybė Oficialus pavadinimas: Lietuvos Respublikos socialinės apsaugos ir d…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.pdf",
+            "source_url": null,
+            "source_sha256": "cea900a19cdf36490496a6c8c4342b75ac8d309e5ca62a9acd85048d93c822af",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "yje, leisti susipažinti su dokumentais, kuriais patvirtinama informacija, pateikta šio Europos bendrojo viešųjų pirkimų dokumento III ir IV dalyse, kiek tai susiję su pirkimu, nurodytu I dalyje. Data, vieta ir, jei reikia ar būtina, parašas (-ai): Data - Vieta - Parašas -26- ===== FILE: files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCo…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "33cca82b21623c6fa3fa0dbc305d8a05b917d2e7d0d6a0438bd31fc8bf320eb0",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/README.txt ===== Tai � trumpas EBVPD rinkmen�, kurias rasite �iame ZIP aplanke, apra�ymas. espd.XML: XML rinkmena � tai m�s� EBVPD paslaugoms arba kitoms su EBVPD suderinamoms paslaugoms suprantama rinkmena. Naudojimosi e. EBVPD kaip XML rinkmenos prana�umas yra tai, kad pirk�jai ir bendrov�s gal�s j� panaudoti kitoms proced�roms ateityje. Ji tur�t� b�ti siun�iama kartu su vie��j� pirkim� dokumen…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/README.txt",
+            "source_url": null,
+            "source_sha256": "49b1d2b161f9536e7093a249474bc102a5470804da0f36b497db7b5d814dbd70",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "al�s j� panaudoti kitoms proced�roms ateityje. Ji tur�t� b�ti siun�iama kartu su vie��j� pirkim� dokumentais (organizacija bendrovei) arba kaip pasi�lymo dalis (bendrov� organizacijai). espd.PDF: PDF rinkmena � tai �mon�ms suprantama e. EBVPD rinkmena. Taip pat si�lome naudoti j� kaip informacin� dokument� kartu su XML formatu teikiant vie��j� pirkim� dokumentus (organizacija bendrovei) arba kaip pasi�lymo dal� (bendrov� organizacijai). Jei turite klausim� apie rinkmenas, nedvejodami susisiekite su mumis �iuo e. p…",
+            "source": "files/2737_262311_unpacked/1_pirkimo dokumentai_unpacked/pirkimo dokumentai/4 priedas_espd-request_unpacked/espd-request.pdf",
+            "source_url": null,
+            "source_sha256": "cea900a19cdf36490496a6c8c4342b75ac8d309e5ca62a9acd85048d93c822af",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "rkimo dokumentai pirkimo dokumentai.7z LT 1 dėl DPS nutraukimo dėl DPS nutraukimo_2024-12-20.docx pastebėjus skelbime apie DPS sukūrimą techninę klaidą (skelbimo 2.1.5 punkto nuostata neatitinka pirkimo sąlygų 5.2 papunkčio reikalavimų), kurios naujoje CVP IS sistemoje nėra galimybės ištaisyti, sukurtos DPS procedūros nutraukiamos. EN N/A Tender Structure XML - Cycle 1 c4t_262311_1.xml N/A EN Atsisiųsti Zip failą Paskelbtos pirkimų suvestinės Naujausi pirkimai Viešųjų pirkimų teisės aktai Statistika Kalendorius El…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "24d4f7bb9cdaab0dd8ce5a258003daaff36a3df2135aef84dbcc003bdd6bc7d7",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -518,14 +1210,191 @@
         "release_tag": "dce-harvest-33825825460"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 9,
+        "text_chars": 854124,
+        "attributed_compact_snippets": 16,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "important în diseminarea fenomenului cultural autentic, care a inițiat programe și proiecte de amploare ce au avut ca obiective principale: ● promovarea, protejarea și punerea în valoare a patrimoniului cultural ● stimularea creativității contemporane ● diseminarea informațiilor despre cultura și istoria locală și națională. ● asigurarea accesului tuturor cetățenilor la informație și instrucție culturală, ● contribuind la dezvoltarea intelectuală și spirituală a personalității umane, la formarea Sistemului estetic…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "instrucție culturală, ● contribuind la dezvoltarea intelectuală și spirituală a personalității umane, la formarea Sistemului estetic și al judecăților de valoare în domeniul culturii. ● educarea și delectarea publicului ● sensibilizarea societă ții în ceea ce privește conservarea și perpetuarea identității culturale românești, a valorilor umaniste. ● dezvoltarea dezideratelor culturale de aleasă ținută estetică și fomativ -educative, printr -o relație adecvată, modernă, între actul artistic-cultural și consumatoru…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "rul sa descace documentul local si sa il incarce iar in sistem  Definirea unei mape de documente locale in vederea semnarii eletronice, ce va contine toate documentele primite spre semnate de utilizatorul in cauza  Utilizatorul poate semna documentele din aplicatia web, caz in care acestea vor disparea din mapa locala  Utilizatorul poate accesa direct mapa locala fara a se loga si in aplicatia web pentru a realiza doar semnarea documentelor, individual sau bulk. Odata semnate documentele vor fi trimite automat …",
+            "source": "files/Anexa 1 Cerinte Demo.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "beca1f5ead07e1a5922bf9e4b0cbaa1b779ba0f68a2b800e11648a9e662023b6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "atul de stocare al documentelor electronice trebuie să fie cel nativ, astfel se exclude păstrarea documentelor în formatul propriu sistemului, pentru a asigura recuperarea facilă a datelor în caz de defecțiune.  modificarea metadatelor documentelor electronice direct din interfața de utilizare;  mecanism de transmitere de mesaje de colaborare pe document adresate anumitor utilizatori și păstrarea istoricului  operațiuni de “ On The Fly OCR” pe documentele din arhiva, fără utilizarea de aplicații terțe  vizuali…",
+            "source": "files/Anexa 1 Cerinte Demo.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "beca1f5ead07e1a5922bf9e4b0cbaa1b779ba0f68a2b800e11648a9e662023b6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "gura o abordare holistică a proiectului, acoperind toate aspectele critice: analiză, dezvoltare software, integrare, migrare, securitate, contribuind astfel la succesul implementării soluț iei software în cloud pentru instituție. Ofertantul are libertatea de a dimensiona structural și numeric această echipă astfel încât să se asigure că poate să respecte condițiile impuse de prezentul document, dar nu mai puțin de experții cheie listați. Fiecare poziţie de expert cheie va fi asigurată de o singură persoană. Pentru…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tății Contractante conform prevederilor art 196 (2) din Legea nr. 198/2016, la nivelul propunerii tehnice fiind prezentată modalitatea în care se asigură accesul la experții non -cheie pe perioada derulării contractului. Prin «proiecte/contracte similare » se înțeleg contracte care au avut ca obiect dezvoltarea și/sau implementarea unui sistem informatic integrat, inclusiv livrarea și configurarea de componente software, împreună cu servicii aferente de analiză, dezvoltare/implementare, care a continut cel putin 2…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "uranță și altele asemenea. (d) Cesiune- înțelegere scrisă prin care Prestatorul transferă unei terțe părți, în condițiile Legii 98/2016, drepturile şi/sau obligațiile deținute prin Contract sau parte din acestea; (e) Conflict de interese - orice eveniment influențând capacitatea Prestatorului de a exprima o opinie profesională obiectivă şi imparțială sau care îl împiedică pe acesta, în orice moment, să acorde prioritate intereselor Achizitorului, orice motiv în legătură cu posibile contracte în viitor sau în confl…",
+            "source": "files/Draft contract servicii TIC.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "597f83b7da9b5a2ec8e8d69233583655531a20e46573ecb385179a43e4e5980f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "şi imparțială sau care îl împiedică pe acesta, în orice moment, să acorde prioritate intereselor Achizitorului, orice motiv în legătură cu posibile contracte în viitor sau în conflict cu alte angajamente, trecute sau prezente, ale Prestatorului. Aceste restricții sunt, de asemenea, aplicabile oricăror Subcontractanți, acționând sub autoritatea şi controlul Prestatorului, în condițiile Legii 98/2016, în cazul în care este aplicabil; (f) Contract- prezentul Contract cu titlu oneros, asimilat, potrivit Legii, actului…",
+            "source": "files/Draft contract servicii TIC.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "597f83b7da9b5a2ec8e8d69233583655531a20e46573ecb385179a43e4e5980f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "● indexarea documentelor pentru căutare rapidă și recuperare prin metadate ● asigură conversia automata a fișierelor de tip PDF imagine in PDF Searchable la încărcarea in aplicație ● permite extragerea textului scris de mana pe formulare ● Definirea de template de preluare date din documente OCR -izate pe baza cărora sa se preia automat in metadatele sistemului informațiile din documentul supus procesului de OCR cu posibilitatea de definire de chei de validare a conținutului preluat. In cazul in care conținutul pr…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "introduse de către utilizatorii externi sunt proprietatea exclusiva a acestora. Următoarele măsurile tehnice și organizatorice vor asigura protecția datelor atât în tranzit, cât și la repaus: 1. Protecția datelor în tranzit și la repaus ● Criptarea în tranzit se va realiza prin protocoale securizate (ex. HTTPS/TLS 1.2 sau superior, SFTP), pentru toate fluxurile de date între aplicație, utilizatori și terți; ● Criptarea la repaus: o Se va implementa Transparent Data Encryption (TDE) la nivelul SGBD, astfel încât da…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "unică, rapidă și intuitivă. ● Eficientizarea operațiunilor interne: automatizarea procedurilor administrative și reducerea birocrației pentru angajați și management. ● Creșterea transparenței: publicul are acces facil la informații relevante, iar comunicarea cu instituția devine mai rapidă și structurată. ● Atragerea de noi categorii de public: tineri, vizitatori din diaspora, turiști internaționali, prin conținut digital atractiv și integrat în rețele culturale internaționale. ● Creșterea veniturilor: prin vânzar…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ding\" vor fi aplicate pentru a a sigura că software -ul este robust împotriva vulnerabilităților. Un \"Web Application Firewall\" (WAF) va proteja împotriva atacurilor specifice aplicațiilor web și va fi asigurată protecție de tip \"antiDDOS\", pentru a proteja aplicația împotriva atacurilor d e tip DDOS. Întregul sistem informatic va fi protejat printr-un firewall, care să blocheze traficul și accesul neautorizat. De asemenea, platforma va trebui supusă unui audit de securitate. Recepția va fi realizată doar după rem…",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "Niveluri de acces și roluri suplimentare configurabile • Autentificare LDAP/AD și OAuth2/OIDC integrată • Mecanism de audit al drepturilor și accesului • Criptarea comunicațiilor (HTTPS/SSL) • Politici de acces bazate pe IP, rol și zonă • Stocarea criptată a parolelor și detectarea automată a datelor personale • Monitorizarea activității și trimiterea de alerte la comportamente suspecte • Înregistrarea acțiunilor utilizatorilor (creare, modificare, vizualizare) • Monitorizarea sesiunilor active • Filtre detaliate …",
+            "source": "files/Caiet de sarcini achizitie software.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "9d08460cac1cc5ab1963ee0f050dc47a365918476229f370c5b4d3ee2c899c1b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "trafic reprezentativ, agreat cu Autoritatea Contractantă, pe o durată de minimum 15 minute în regim de sarcină constantă. Măsurătoarea se realizează la nivelul serverului/aplicației (timp de procesare pe server), nu la nivelul timpului total măsurat în browserul utilizatorului final, care ar include și factori externi. Confirmăm că din măsurătoare se exclud componentele aflate în afara controlului ofertantului — procesatorul de plăți extern și rețeaua utilizatorului final. Baza de raportare pentru „creșterea de pâ…",
+            "source": "files/Raspuns consolidat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "cf8f7f4461b1f1c9a0a3d5624b25467059a6d987e98adb19f95ce12153913b9f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "eare vs. publicare conținut, revizuire/aprobare), cu restricționare acces pe pagini/secțiuni • Segregarea accesului și controlului administrativ pe zone multiple (grupuri, organizații, roluri, roluri administrative, politici de parole) • Integrare și autentificare în servicii externe multiple prin SSO (Single Sign-On) securizat • Câmpuri personalizate pentru orice entitate din portal (Users, User-Groups, Roles, Organizations, Site Pages, Documents, Web Content, Calendar Events etc.) • Obligativitatea autentificări…",
+            "source": "files/Anexa 1 Cerinte Demo.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "beca1f5ead07e1a5922bf9e4b0cbaa1b779ba0f68a2b800e11648a9e662023b6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tiile din documentul supus procesului de OCR cu posibilitatea de definire de chei de validare a continutului preluat. In cazul in care conținutul preluat nu respecta cheile de validare, documentul respectiv va fi marcat in mod distinct.  extragerea datelor utilizând OCR full text sau OCR pe zone speciale ale documentelor / zone de document  Preluare continut direct din viewer-ul in care este afisat documentul ocr-izat prin drag and drop in medatatele aferente  anonimizare asupra datelor personale aferente utili…",
+            "source": "files/Anexa 1 Cerinte Demo.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100210167",
+            "source_sha256": "beca1f5ead07e1a5922bf9e4b0cbaa1b779ba0f68a2b800e11648a9e662023b6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -597,25 +1466,104 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 33904736782,
+      "authoritative_submission_date": "2026-10-05",
+      "source_dce_run_id": 33917876023,
       "source_shard": 10,
-      "review_key": "8effde76632ea452c486740dd864dc0f88c6a5370acdddd8c89df2e39902a16d",
+      "review_key": "9166431a8c07d72b06342b339ae4d59f94a1e7abdfc2144038cca39b839eeb0b",
       "artifact_locator": {
-        "dce_run_id": 33904736782,
+        "dce_run_id": 33917876023,
         "shard": 10,
         "candidate_id": "TED:603566-2026",
-        "release_tag": "dce-harvest-33904736782"
+        "release_tag": "dce-harvest-33917876023"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 4,
+        "text_chars": 35656,
+        "attributed_compact_snippets": 7,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "rtālā tiek izmantotas sīkdatnes. Vairāk informācijas šeit! Iepazinos e-orders e-auctions e-tenders e-certificates Elektronisko iepirkumu sistēma Help A | A | A EN | LV Procurements Procurement plans Viesis Questions about e-tenders Subscribe to notifications Procurements JVP 2026/114/AK Basic data Procurement basic data Procurement status: Announced Announced: 02.09.2026 Identification number: JVP 2026/114/AK Name: Jelgavas valstspilsētas pašvaldības reprezentatīva sienas kalendāra “Jelgava 2027” izgatavošana un p…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b76b882225afbafdb01f6acaa4e656cf5110192dbc7440f2ea9cfd7bed94c945",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "I-101 EIS norādītājam ID numuram obligāti jāsakrīt ar IUB PVS un iepirkuma dokumentācijā norādīto ID numuru. \"> JVP 2026/114/AK Name: Procurement title \"> Jelgavas valstspilsētas pašvaldības reprezentatīva sienas kalendāra “Jelgava 2027” izgatavošana un piegāde Regulatory LA: Tiesību akts, kura ietvaros pasūtītājs organizē publisko iepirkumu. \"> Public Procurement Law Procedure / procurement: Procedūra, saskaņā ar kuru pasūtītājs atlasa piegādātājus un piešķir līguma slēgšanas tiesības. \"> Open competition Procure…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "e41107cdb0ef708818a80e50d1d5d1c59158a90c9e4c0af0fb5608c6d24fd457",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "irkumu sistēmas izveides. Auditācijas pieraksti par EIS lietotāja darbībām EIS tiek glabāti 3 gadus. EIS tīmekļa vietnes pakalpojumu sīkdatnes netiek glabātas un tiek dzēstas pēc EIS lietotāja sesijas beigām. Politikas grozījumi Šī Politika var tikt grozīta pēc nepieciešamības. Aģentūra, publicējot atsevišķu paziņojumu par izmaiņām, visas Politikas izmaiņas publicē interneta vietnē www.eis.gov.lv. ===== FILE: files/portal_page.txt ===== Paziņojums par sīkdatņu izmantošanu Lai nodrošinātu e-iepirkumu sistēmas un tā…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b76b882225afbafdb01f6acaa4e656cf5110192dbc7440f2ea9cfd7bed94c945",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "piegāde Regulatory LA: Public Procurement Law Procedure / procurement: Open competition Procurement profile: PIL_Atklāts_konkurss Reference to EU projects and programs: PMB publication hyperlink: https://eformsb.pvs.iub.gov.lv/show/0003a03a-cabd-4e59-97ae-df78fca88081 Hyperlink to EU publication: Procurement plan record: Reprezentatīva sienas kalendāra “Jelgava 2027” iespiešana un piegāde Contracting authority Procurement object Proposal preparation conditions Procurement deadlines Documents (actuals) ===== FILE: …",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "e41107cdb0ef708818a80e50d1d5d1c59158a90c9e4c0af0fb5608c6d24fd457",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "tļauj iesniegt vienam pretendentam vairākus piedāvājuma variantus. \"> No Procurement is split into lots: Tiek atzīmēta, ja iepirkuma priekšmets ir sadalīts vairākās daļās. \"> No Description: Proposal preparation conditions Submission by the lots: Piedāvājumu iesniegšanas nosacījumi, ja iepirkuma priekšmets ir sadalīts daļās: - Tikai vienu daļu. Pretendents drīkst iesniegt piedāvājumu tikai par vienu iepirkuma priekšmeta daļu; - Visām daļām. Pretendentam obligāti ir jāiesniedz piedāvājums par visām iepirkuma priekš…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "e41107cdb0ef708818a80e50d1d5d1c59158a90c9e4c0af0fb5608c6d24fd457",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "ounced Announced: 02.09.2026 Identification number: JVP 2026/114/AK Name: Jelgavas valstspilsētas pašvaldības reprezentatīva sienas kalendāra “Jelgava 2027” izgatavošana un piegāde Regulatory LA: Public Procurement Law Procedure / procurement: Open competition Procurement profile: PIL_Atklāts_konkurss Reference to EU projects and programs: PMB publication hyperlink: https://eformsb.pvs.iub.gov.lv/show/0003a03a-cabd-4e59-97ae-df78fca88081 Hyperlink to EU publication: Procurement plan record: Reprezentatīva sienas k…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b76b882225afbafdb01f6acaa4e656cf5110192dbc7440f2ea9cfd7bed94c945",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "zmaksu vērtēšana. Pasūtītājs piešķir līguma slēgšanas tiesības pretendentam, kurš ir piedāvājis viszemāko cenu vai izmaksas; - Piedāvājums ar visaugstāko cenu. Pasūtītājs piešķir līguma slēgšanas tiesības pretendentam, kurš piedāvājis visaugstāko cenu. Metode paredzēta atsavinājuma līgumiem izsoļu gadījumā un nav piemērojama iepirkuma procedūrās. \"> Tender with lowest price Privileged contract: Tiek atzīmēta, ja līguma izpilde jāveic saskaņā ar aizsargātas nodarbinātības programmām. \"> No Language: Latvian Submiss…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "e41107cdb0ef708818a80e50d1d5d1c59158a90c9e4c0af0fb5608c6d24fd457",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -652,14 +1600,159 @@
         "release_tag": "dce-harvest-33458738461"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 5,
+        "text_chars": 195249,
+        "attributed_compact_snippets": 13,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": ", indiferent dacă este implementat în aplicații, baze de date, scripturi, servicii sau componente middleware etc., vor fi proprietatea beneficiarului. Prestatorul le va furniza integral și nu le va utiliza sau păstra în alte scopuri decât cele contractuale. 12. Caracterul confidențial al contractului 12.1 Fără a aduce atingere derulării și execuției prezentului contract, beneficiarul are obligația de a asigura gara ntarea protejării acelor informații pe care prestatorul le precizează ca fiind confidențiale, în măs…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "spectivului operator economic, sau a celor ce au putere de reprezentare, de decizie sau de control în cadrul acestuia, așa cum rezultă din certificatul constatator emis de ONRC/actul constitutiv, valabile la momentul prezentării; după caz, documente prin care se demonstrează faptul că operatorul economic poate beneficia de derogările prevăzute la art.166 alin.(2), art.167 alin.(2), art.171 din Legea nr. 98/2016; alte documente edificatoare, după caz. Operatorii economici străini vor depune documente în conformitat…",
+            "source": "files/Instructiuni_ofertanti_FisaDate_DF1279063.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "e4cdd8d87ceec61d8405a4cfbd74f38ef66601435ad6e01600a6b431540af92c",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "icențele, în calitate de drepturi de proprietate intelectuală sau de folosință, să transfere către beneficiar documentele originale, atât pentru propriile produse, cât și pentru toate produsele terților pe care le -a înglobat, adaptat, modificat sau îmbunătățit. De asemenea, prestatorul va răspunde pentru orice reclamații sau acțiuni în justiție rezultate din încălcarea drepturilor de proprietate intelectuală (brevete, denumiri, mărci înregistrate etc.) în legătură cu produsele achiziționate, instalate și puse în …",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "dere menționate la art.59-60 din Legea nr. 98/2016. Documentele justificative care probează îndeplinirea celor asumate prin completarea DUAE vor fi solicitate de către autoritatea contractantă doar ofertantului clasat pe primul loc în clasamentul intermediar întocmit în urma aplicării criteriului de atribuire, conform prevederilor art.132 alin.(2) din Norme. Aceste documente pot fi: cazierul judiciar al operatorului economic și al membrilor organului de administrare, de conducere sau de supraveghere al respectivul…",
+            "source": "files/Instructiuni_ofertanti_FisaDate_DF1279063.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "e4cdd8d87ceec61d8405a4cfbd74f38ef66601435ad6e01600a6b431540af92c",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "rul de confidențialitate, în caz contrar nefiind aplicabile prevederile art.57 alin.(1) din Legea nr. 98/2016. Astfel, Propunerea tehnică nu poate fi declarată confidențială, clasificată sau protejată de un drept de proprietate intelectuală în integralitatea sa, ci doar anumite informații din cuprinsul acesteia. Cu titlu de exemplu, precizăm următoarele: a. toți termenii din Caietul de sarcini care sunt preluați în Propunerea tehnică nu pot fi declarați confidențiali, întrucât Caietul de sarcini este o secțiune a …",
+            "source": "files/Instructiuni_ofertanti_FisaDate_DF1279063.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "e4cdd8d87ceec61d8405a4cfbd74f38ef66601435ad6e01600a6b431540af92c",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "dicat de către cel care ar fi fost chemat să răspundă dacă evenimentul nu s-ar fi produs; e) cesiune – înțelegere scrisă prin care prestatorul transferă unei terțe părți, numai cu acordul prealabil scris al beneficiarului și în condițiile Legii nr. 98/2016, drepturile și/sau obligațiile deținute prin contract sau parte din acestea; f) conflict de interese - orice situație definită ca atare în legislația națională și comunitară; g) contract - prezentul contract de achiziție publică cu titlu oneros, asimilat, potriv…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "iune – înțelegere scrisă prin care prestatorul transferă unei terțe părți, numai cu acordul prealabil scris al beneficiarului și în condițiile Legii nr. 98/2016, drepturile și/sau obligațiile deținute prin contract sau parte din acestea; f) conflict de interese - orice situație definită ca atare în legislația națională și comunitară; g) contract - prezentul contract de achiziție publică cu titlu oneros, asimilat, potrivit legii, actului administrativ, încheiat în scris, între prestator și beneficiar și toate anexe…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ware IT (Rev.2) II.1.3 Tip de contract: Servicii Servicii in afara celor cuprinse in Anexa II II.1.4 Descrierea succinta a contractului sau a achizitiei/achizitiilor Servicii de dezvoltare software aplicație informatică eBon Manager, conform cerințelor din Caietul de sarcini. Activitățile solicitate sunt următoarele: A#1 Analiza situației existente în vederea proiectării aplicației informatice eBon Manager A#2 Proiectarea și dezvoltarea tuturor componentelor sistemului informatic eBon Manager A#3 Testarea, validar…",
+            "source": "files/Instructiuni_ofertanti_FisaDate_DF1279063.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "e4cdd8d87ceec61d8405a4cfbd74f38ef66601435ad6e01600a6b431540af92c",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rești - Sediul prestatorului, după caz II.2.4 Descrierea achizitiei publice (natura si cantitatea lucrarilor, produselor sau serviciilor sau o mentiune privind nevoile si cerintele) Servicii de dezvoltare software aplicație informatică eBon Manager, conform cerințelor din Caietul de sarcini. Activitățile solicitate sunt următoarele: A#1 Analiza situației existente în vederea proiectării aplicației informatice eBon Manager A#2 Proiectarea și dezvoltarea tuturor componentelor sistemului informatic eBon Manager A#3 T…",
+            "source": "files/Instructiuni_ofertanti_FisaDate_DF1279063.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "e4cdd8d87ceec61d8405a4cfbd74f38ef66601435ad6e01600a6b431540af92c",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "îndeplinirii necesității beneficiarului; Proiect de contract de prestare de servicii de dezvoltare software aplicație informatică eBon Manager, încheiat cu SC ….. P a g | 2 d) caz fortuit – eveniment care nu poate fi prevăzut și nici împiedicat de către cel care ar fi fost chemat să răspundă dacă evenimentul nu s-ar fi produs; e) cesiune – înțelegere scrisă prin care prestatorul transferă unei terțe părți, numai cu acordul prealabil scris al beneficiarului și în condițiile Legii nr. 98/2016, drepturile și/sau obli…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eplinirea contractului; sunt considerate asemenea evenimente: războaie, revoluții, incendii, inundații sau orice alte catastrofe naturale, restricții apărute ca urmare a unei carantine, embargou, enumerarea nefiind exhaustivă, ci enunțiativă. Nu este considerat forță majoră un eveniment asemenea celor de mai sus care , fără a crea o imposibilitate de executare, face extrem de costisitoare executarea obligațiilor uneia din părți; k) întârziere – orice eșec al prestatorului sau al beneficiarului de a executa orice o…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "t.c) din Codul civil, renunță la invocarea impreviziunii în legătură cu perioada de execuție a obligațiilor prevăzută la art.7.2. 26. Limba care guvernează contractul Limba care guvernează contractul este limba română. 27. Comunicarea între părți 27.1 Orice comunicare făcută de părți va fi redactată în scris. 27.2 Orice comunicare între părți trebuie să conțină precizări cu privire la elementele de identificare ale contractului (număr/dată înregistrare și obiectul pe scurt) și să fie transmisă la adresa/adresele m…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "egistrare și obiectul pe scurt) și să fie transmisă la adresa/adresele menționate la art.27.6. 27.3 Comunicările între părți se pot face prin depunere personală, expediate prin scrisoare recomandată sau e-mail, cu condiția confirmării în scris a primirii comunicării. 27.4 Pentru toate comunicările realizate prin e -mail, părțile se obligă să confirme primirea în maximum 48 de ore de la primire. 27.5 Orice comunicare făcută de una dintre părți va fi considerată primită: (i) la momentul înmânării, dacă este depusă p…",
+            "source": "files/08 Proiect CAP.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211492",
+            "source_sha256": "fe339096e9c082169474b714eab32b2f48b74034d47624c6559dd5a59b4dd39f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
