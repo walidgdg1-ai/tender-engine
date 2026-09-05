@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-05T08:46:20.313965+00:00",
-  "source_inbox_updated_at": "2026-09-05T08:46:19.854231+00:00",
-  "latest_source_dce_run_id": 33955698300,
+  "generated_at": "2026-09-05T12:08:35.349559+00:00",
+  "source_inbox_updated_at": "2026-09-05T12:08:34.989343+00:00",
+  "latest_source_dce_run_id": 33964879242,
   "batch_index": 0,
   "start_rank": 1,
   "end_rank": 10,
@@ -472,14 +472,62 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 33945187827,
+      "source_dce_run_id": 33955698300,
       "source_shard": 12,
-      "review_key": "9ee455a97e22155eec8634f0f02bd74d4fb7c0c981b00ed84422d7aca1152889",
+      "review_key": "2a32db8b5666341263d9a8f0095707af7d3ac0fb06108b9e3d39b0ae6eb26048",
       "artifact_locator": {
-        "dce_run_id": 33945187827,
+        "dce_run_id": 33955698300,
         "shard": 12,
         "candidate_id": "TED:593085-2026",
-        "release_tag": "dce-harvest-33945187827"
+        "release_tag": "dce-harvest-33955698300"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:610280-2026",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
+      "buyer": "The Arts Council",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
+      "deadline": "2026-09-25T12:00:00+01:00",
+      "estimated_value": 1800000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "workflow-automation",
+        "software-development",
+        "data-migration",
+        "it-services",
+        "digital-platform"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 33955698300,
+      "source_shard": 15,
+      "review_key": "ab2c5ad99f15c20e8fb3a9c5b711c7bbdddd7166f0b5dedf9973e7158b57d3a0",
+      "artifact_locator": {
+        "dce_run_id": 33955698300,
+        "shard": 15,
+        "candidate_id": "TED:610280-2026",
+        "release_tag": "dce-harvest-33955698300"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -613,54 +661,6 @@
         "shard": 42,
         "candidate_id": "TED:609569-2026",
         "release_tag": "dce-harvest-33926090887"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:610280-2026",
-      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
-      "buyer": "The Arts Council",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
-      "deadline": "2026-09-25T12:00:00+01:00",
-      "estimated_value": 1800000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "workflow-automation",
-        "software-development",
-        "data-migration",
-        "it-services",
-        "digital-platform"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 33904736782,
-      "source_shard": 15,
-      "review_key": "18917a63c7382f443ad7a68b38392998a2caa606cdb452f0877a06278c3c6eff",
-      "artifact_locator": {
-        "dce_run_id": 33904736782,
-        "shard": 15,
-        "candidate_id": "TED:610280-2026",
-        "release_tag": "dce-harvest-33904736782"
       },
       "evidence_quality": {
         "raw_status": null,
