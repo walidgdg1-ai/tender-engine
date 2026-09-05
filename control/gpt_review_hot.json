@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-09-05T08:37:06.997466+00:00",
+  "updated_at": "2026-09-05T08:37:41.911276+00:00",
   "latest_dce_run_id": 33955698300,
-  "latest_shard": 1,
-  "generation_reset": true,
-  "count": 4,
+  "latest_shard": 0,
+  "generation_reset": false,
+  "count": 6,
   "items": [
     {
       "candidate_id": "US-SAM:ee367dc2836c48488c2fdbc16949aa0f",
@@ -1695,6 +1695,347 @@
       "hot_ready_at": "2026-09-05T08:37:06.599501+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "CA:WS5849751325",
+      "title": "21C31-279908 - CORCAN - RISO for Carbonless Paper, Other Paper and Cardboard for printing",
+      "buyer": null,
+      "portal": "CA_CANADABUYS",
+      "notice_url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110023286?anId=ANONYMOUS",
+      "deadline": "2026-09-15T14:00:00+00:00",
+      "estimated_value": null,
+      "currency": "CAD",
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-09-15T14:00:00+00:00",
+        "notice_deadline_date": "2026-09-15",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-15"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-09-15",
+            "match": "15 Sep 2026",
+            "context": "Anonymous aribasystem\nObject Status\nLead Type\nRFI\nObject Status\nStatus\nOpen\nObject Status\nDecision Deadline\n-\nObject Status\nContract Length\n-\nObject Status\nOpportunity Amount\n1,000 - 99,000,000 CAD\nEmphasized\nRespond By\n15 Sep 2026 18:00 GMTZ UTC\nObject Status\nSector\nPublic\nObject Status\nBasic Information\nPost Overview\nAttachments (0)\nQ&A\nBasic Information\nProduct and Service Categories\nTransfer paper, Satin paper, Composite paper or paperboard wi"
+          },
+          {
+            "date": "2026-09-15",
+            "match": "15 Sep 2026",
+            "context": "Anonymous aribasystem\nObject Status\nLead Type\nRFI\nObject Status\nStatus\nOpen\nObject Status\nDecision Deadline\n-\nObject Status\nContract Length\n-\nObject Status\nOpportunity Amount\n1,000 - 99,000,000 CAD\nEmphasized\nRespond By\n15 Sep 2026 18:00 GMTZ UTC\nObject Status\nSector\nPublic\nObject Status\nBasic Information\nPost Overview\nAttachments (0)\nQ&A\nBasic Information\nProduct and Service Categories\nTransfer paper, Satin paper, Composite paper or paperboard wi"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 2,
+          "corpus_contexts": 2,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 5,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "If you do not have an SAP account, register here. If you already have an SAP account, login here. Once you have registered or logged in, you will only need to answer a few additional questions about your business in order to view and bid on Government of Canada tender opportunities. You can then return to this posting and click “Respond to Posting” to submit a bid or offer. You may need to login again. You will then be able to view the RFP and ask questions or find answers to previously asked questions in the “Event Messages” board on the left side of the screen. Ensure you are fully registered in CanadaBuys/SAP Ariba! For technical support with SAP Ariba, please contact the CanadaBuys Service Desk agents: Email us | CanadaBuys Or call the dedicated helpline Monday to Friday 7 am to 7 pm EST. 1-888-247-4016 PROCUREMENT ASSISTANCE CANADA Did you know that Public services and Procurement Canada helps businesses navigate through the federal procurement process? Advisors at the office of Procurement assistance Canada can help you. Visit Procurement Assistance Canada to help you navigate the Government of Canada general procurement process or to find an advisor in a regional office near you. DEBRIEFINGS Bidder",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10357,
+            "corpus_end": 11670,
+            "match": "registered in"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "du Canada Contact Anonymous aribasystem Object Status Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,000,000 CAD Emphasized Respond By 15 Sep 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Q&A Basic Information Product and Service Categories Transfer paper, Satin paper, Composite paper or paperboard without surface coating, Digital paper, Stamp paper Ship-to or Service Locations Quebec Prefer suppliers with a physical presence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description DESCRIPTION Travaux publics et Services gouvernementaux Canada (TPSGC), au nom de Service Correctionnel Canada - CORCAN publie cette demande d’Offres à commandes (DOC) pour l’achat de papiers autocopiants, autres papiers et cartons pour l’impression, incluant la livraison. Tous les détails relatifs au besoin se trouvent dans l’invitation à soumissionner. Lieu de livraison: La Macaza, Québec ENTENTES SUR LE COMMERCE Ce marché est assujetti à l'accord commercial (aux accords commerciaux) suivant(s) : ALEC / AECG / ACC Canada-R-U / OMC-AMP /",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 488,
+            "corpus_end": 1798,
+            "match": "references"
+          },
+          {
+            "text": "etwork event. It is important you regularly check both. DO YOU HAVE QUESTIONS ABOUT THE TECHNICAL REQUIREMENTS OF THIS SOLICITATION? HERE’S HOW TO SUBMIT YOUR QUESTIONS: Questions specific to the technical requirements of this solicitation need to be sent through the Event Messages tab of this RFP in SAP Business Network. Do not use the Q&A section appearing on the SAP Business Network Discovery website. ENQUIRIES - BID SOLICITATION All enquiries must be submitted in writing to the Contracting Authority no later than 5 calendar days before the bid closing date. Enquiries received after that time may not be answered. Bidders should reference as accurately as possible the numbered item of the bid solicitation to which the enquiry relates. Care should be taken by Bidders to explain each question in sufficient detail in order to enable Canada to provide an accurate answer. Technical enquiries that are of a proprietary nature must be clearly marked \"proprietary\" at each relevant item. Items identified as \"proprietary\" will be treated as such except where Canada determines that the enquiry is not of a proprietary nature. Canada may edit the question(s) or may request that the Bidder do so, so that the proprietary nature of the question(s) is eliminated, and the enquiry can be answere",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8708,
+            "corpus_end": 10017,
+            "match": "reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "/ Gouvernement du Canada Contact Anonymous aribasystem Object Status Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,000,000 CAD Emphasized Respond By 15 Sep 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Q&A Basic Information Product and Service Categories Transfer paper, Satin paper, Composite paper or paperboard without surface coating, Digital paper, Stamp paper Ship-to or Service Locations Quebec Prefer suppliers with a physical presence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description DESCRIPTION Travaux publics et Services gouvernementaux Canada (TPSGC), au nom de Service Correctionnel Canada - CORCAN publie cette demande d’Offres à commandes (DOC) pour l’achat de papiers autocopiants, autres papiers et cartons pour l’impression, incluant la livraison. Tous les détails relatifs au besoin se trouvent dans l’invitation à soumissionner. Lieu de livraison: La Macaza, Québec ENTENTES SUR LE COMMERCE Ce marché est assujetti à l'accord commercial (aux accords commerciaux) suivant(s) : ALEC / AECG / ACC Canada-R-U",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 473,
+            "corpus_end": 1786,
+            "match": "Certification"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [
+          {
+            "text": "s Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,000,000 CAD Emphasized Respond By 15 Sep 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Q&A Basic Information Product and Service Categories Transfer paper, Satin paper, Composite paper or paperboard without surface coating, Digital paper, Stamp paper Ship-to or Service Locations Quebec Prefer suppliers with a physical presence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description DESCRIPTION Travaux publics et Services gouvernementaux Canada (TPSGC), au nom de Service Correctionnel Canada - CORCAN publie cette demande d’Offres à commandes (DOC) pour l’achat de papiers autocopiants, autres papiers et cartons pour l’impression, incluant la livraison. Tous les détails relatifs au besoin se trouvent dans l’invitation à soumissionner. Lieu de livraison: La Macaza, Québec ENTENTES SUR LE COMMERCE Ce marché est assujetti à l'accord commercial (aux accords commerciaux) suivant(s) : ALEC / AECG / ACC Canada-R-U / OMC-AMP / PTPGP / ALEs Canada – Chili / Pérou / Colombie / Panama / Honduras / Corée / Ukrai",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 569,
+            "corpus_end": 1881,
+            "match": "Requirements"
+          },
+          {
+            "text": "se and disposal of plastics in its own operations as per the Greening Government Strategy: A Government of Canada Directive, the Government of Canada actions on plastic waste in federal operations commitments, and the Ocean Plastics Charter. Bidders/Offerors/Suppliers are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. WHERE WILL AMENDMENTS TO THE SOLICITATION BE POSTED? The event messages tab and/or the event contents section in the SAP Business Network event. It is important you regularly check both. DO YOU HAVE QUESTIONS ABOUT THE TECHNICAL REQUIREMENTS OF THIS SOLICITATION? HERE’S HOW TO SUBMIT YOUR QUESTIONS: Questions specific to the technical requirements of this solicitation need to be sent through the Event Messages tab of this RFP in SAP Business Network. Do not use the Q&A section appearing on the SAP Business Network Discovery website. ENQUIRIES - BID SOLICITATION All enquiries must be submitted in writing to the Contracting Authority no later than 5 calendar days before the bid closing date. Enquiries received after that time may not be answered. Bidders should reference as accurately as possible the numbered item of the bid solicitation to which the enquiry relates. Care s",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8160,
+            "corpus_end": 9472,
+            "match": "REQUIREMENTS"
+          },
+          {
+            "text": "nada Directive, the Government of Canada actions on plastic waste in federal operations commitments, and the Ocean Plastics Charter. Bidders/Offerors/Suppliers are encouraged to use environmentally preferable packaging for all packaged goods to be delivered to the end user as part of this procurement. WHERE WILL AMENDMENTS TO THE SOLICITATION BE POSTED? The event messages tab and/or the event contents section in the SAP Business Network event. It is important you regularly check both. DO YOU HAVE QUESTIONS ABOUT THE TECHNICAL REQUIREMENTS OF THIS SOLICITATION? HERE’S HOW TO SUBMIT YOUR QUESTIONS: Questions specific to the technical requirements of this solicitation need to be sent through the Event Messages tab of this RFP in SAP Business Network. Do not use the Q&A section appearing on the SAP Business Network Discovery website. ENQUIRIES - BID SOLICITATION All enquiries must be submitted in writing to the Contracting Authority no later than 5 calendar days before the bid closing date. Enquiries received after that time may not be answered. Bidders should reference as accurately as possible the numbered item of the bid solicitation to which the enquiry relates. Care should be taken by Bidders to explain each question in sufficient detail in order to enable Canada to provide",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8269,
+            "corpus_end": 9581,
+            "match": "requirements"
+          }
+        ],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [
+          {
+            "text": "===== FILE: files/portal_page.txt ===== Business Network Message Strip Information Closable This is a public sector / buyer funded posting and you can respond for free. 21C31-279908 - CORCAN - RISO for Carbonless Paper, Other Paper and Cardboard for printing [21C31-279908 - CORCAN - OCIR pour Papiers autocopiants, autres papiers et cartons pour impression] ID - 1110023286 Sourcing - Doc5849836647 Walk-up buyer Respond Not Interested Buyer: Viewer Government of Canada / Gouvernement du Canada Contact Anonymous aribasystem Object Status Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,000,000 CAD Emphasized Respond By 15 Sep 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Q&A Basic Information Product and Service Categories Transfer paper, Satin paper, Composite paper or paperboard without surface coating, Digital paper, Stamp paper Ship-to or Service Locations Quebec Prefer suppliers with a physical presence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description DESCRIPTION Trava",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 1264,
+            "match": "Deadline"
+          },
+          {
+            "text": "OSTED? The event messages tab and/or the event contents section in the SAP Business Network event. It is important you regularly check both. DO YOU HAVE QUESTIONS ABOUT THE TECHNICAL REQUIREMENTS OF THIS SOLICITATION? HERE’S HOW TO SUBMIT YOUR QUESTIONS: Questions specific to the technical requirements of this solicitation need to be sent through the Event Messages tab of this RFP in SAP Business Network. Do not use the Q&A section appearing on the SAP Business Network Discovery website. ENQUIRIES - BID SOLICITATION All enquiries must be submitted in writing to the Contracting Authority no later than 5 calendar days before the bid closing date. Enquiries received after that time may not be answered. Bidders should reference as accurately as possible the numbered item of the bid solicitation to which the enquiry relates. Care should be taken by Bidders to explain each question in sufficient detail in order to enable Canada to provide an accurate answer. Technical enquiries that are of a proprietary nature must be clearly marked \"proprietary\" at each relevant item. Items identified as \"proprietary\" will be treated as such except where Canada determines that the enquiry is not of a proprietary nature. Canada may edit the question(s) or may request that the Bidder do so, so that the",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "0730222f20947b10e08cafcd9a5d38d9b5aea5f8c6acd04b03a57de9990647d8",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8622,
+            "corpus_end": 9934,
+            "match": "closing date"
+          }
+        ],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 33955698300,
+      "source_shard": 0,
+      "hot_ready_at": "2026-09-05T08:37:41.345176+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df0990-ed6c-31a2-ab56-9400018abefd",
+      "title": "Świadczenie opieki autorskiej i wsparcia nad oprogramowaniem Librus – dziennik elektroniczny dla szkół, e-Sekretariat, e-Świadectwa”.",
+      "buyer": "Miasto Gorzów Wlkp.",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0990-ed6c-31a2-ab56-9400018abefd",
+      "deadline": "2026-09-11T07:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 84,
+      "priority_score": 84,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-11T07:00:00+00:00",
+        "notice_deadline_date": "2026-09-11",
+        "authoritative_submission_date": "2026-09-11",
+        "submission_deadline_candidates": [
+          "2026-09-11"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-03-09",
+          "2026-09-03",
+          "2026-09-08",
+          "2026-09-11",
+          "2026-10-10"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "e wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-11 09:00\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarcia ofert: \n202"
+          },
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-11 09:00\n8.2.) Miejsce składania ofert: Platforma zakupowa\n8.3.) Termin otwarcia ofert: 2026-09-11 09:10\n8.4.) Termin związania ofertą: do 2026-10-10\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany z"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "context": "duje następujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-11 09:00\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2."
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "nia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-11 09:00\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Ter"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "esie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-11 09:00\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarci"
+          },
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "context": "Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarcia ofert: \n2026-09-11 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-10\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na "
+          },
+          {
+            "date": "2026-10-10",
+            "match": "2026-10-10",
+            "context": "ienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarcia ofert: \n2026-09-11 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-10\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FIL"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "awie: art. 275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarcia ofert: \n2026-09-11 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-10\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszeni"
+          },
+          {
+            "date": "2026-09-03",
+            "match": "2026-09-03",
+            "context": "275 pkt 1 ustawy - Usługi\n8.2.) Miejsce składania ofert: \nPlatforma zakupowa\n8.3.) Termin otwarcia ofert: \n2026-09-11 09:10\n8.4.) Termin związania ofertą: \ndo 2026-10-10\nOgłoszenie nr 2026/BZP 00419921 z dnia 2026-09-03\n2026-09-03 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamów"
+          },
+          {
+            "date": "2026-03-09",
+            "match": "9/3/2026",
+            "context": "tekstowa\nPomoc kontekstowa\nWyszukiwarka\nMoje Konto\nZaloguj się\nZarejestruj się\n Jesteś na:\nStrona główna>Biuletyn Zamówień Publicznych>Szczegóły ogłoszenia\n2026/BZP 00419921/01\nPobierz pdf\nOgłoszenie o zamówieniu z dnia 9/3/2026\nZobacz powiązane ogłoszenia\nPrzejdź do postępowania\nOgłoszenie o zamówieniu\nUsługi\nŚwiadczenie opieki autorskiej i wsparcia nad oprogramowaniem Librus\n– dziennik elektroniczny dla szkół, e-Sekretariat, e-Świadectwa”.\nSE"
+          },
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-11 09:00\n8.2.) Miejsce składania ofert: Platforma zakupowa\n8.3.) Termin otwarcia ofert: 2026-09-11 09:10\n8.4.) Termin związania ofertą: do 2026-10-10\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technolo"
+          },
+          {
+            "date": "2026-09-11",
+            "match": "2026-09-11",
+            "context": "e stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-11 09:00\n8.2.) Miejsce składania ofert: Platforma zakupowa\n8.3.) Termin otwarcia ofert: 2026-09-11 09:10\n8.4.) Termin związania ofertą: do 2026-10-10\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europe"
+          },
+          {
+            "date": "2026-10-10",
+            "match": "2026-10-10",
+            "context": " w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-11 09:00\n8.2.) Miejsce składania ofert: Platforma zakupowa\n8.3.) Termin otwarcia ofert: 2026-09-11 09:10\n8.4.) Termin związania ofertą: do 2026-10-10\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramach Prog"
+          },
+          {
+            "date": "2026-09-08",
+            "match": "2026-09-08",
+            "context": "rawdź pozostałe zakładki. Do terminu składania ID Nazwa Prowadzący Data Zakończenia Tryb Rodzaj postępowania Akcje 1364452 BZP.271.52.2026 Sporządzenie Strategicznej mapy hałasu Gorzowa Wielkopolskiego Jolanta Ratajczak 2026-09-08 10:00 "
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 33955698300,
+      "source_shard": 0,
+      "hot_ready_at": "2026-09-05T08:37:41.345176+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 10,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
