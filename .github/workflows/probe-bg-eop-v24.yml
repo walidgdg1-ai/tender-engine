@@ -1,0 +1,67 @@
+name: Probe BG EOP V24
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'pipeline/probe_bg_eop.py'
+      - 'pipeline/probe_bg_eop_http_v2.py'
+      - '.github/workflows/probe-bg-eop-v24.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe-http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install probe dependency
+        run: python -m pip install --disable-pip-version-check -q requests
+      - name: Prove exact anonymous public metadata and signed downloads
+        run: python pipeline/probe_bg_eop_http_v2.py | tee bg-eop-http-v2.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bg-eop-v24-http-probe-${{ github.run_id }}
+          path: bg-eop-http-v2.log
+          retention-days: 3
+          if-no-files-found: warn
+
+  probe-browser-reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install probe dependencies
+        run: python -m pip install --disable-pip-version-check -q requests 'playwright>=1.46,<2'
+      - name: Reuse runner Chromium
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          if [ -n "$chrome" ]; then
+            echo "CHROME_BIN=$chrome" >> "$GITHUB_ENV"
+          else
+            python -m playwright install --with-deps chromium
+          fi
+      - name: Preserve browser request reference
+        run: |
+          python pipeline/probe_bg_eop.py \
+            --url 'https://app.eop.bg/today/597088' \
+            --out bg-eop-probe.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bg-eop-v24-browser-reference-${{ github.run_id }}
+          path: bg-eop-probe.json
+          retention-days: 3
+          if-no-files-found: warn
