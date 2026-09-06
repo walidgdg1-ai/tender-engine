@@ -1,15 +1,13 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 34049391398,
+  "latest_source_dce_run_id": 34061564656,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
-    "ZA_ETENDERS": 2,
     "CA_CANADABUYS": 2,
     "DE_DOE": 2,
     "GENERIC_PUBLIC_PAGE": 2,
-    "TED": 1,
-    "US_SAM": 1,
+    "ZA_ETENDERS": 2,
     "CYPRUS_EPPS": 1,
     "EE_RHR": 1,
     "ES_PLACSP": 1,
@@ -19,6 +17,8 @@
     "PL_EZAMOWIENIA": 1,
     "SCOTLAND_PCS": 1,
     "SK_UVO": 1,
+    "TED": 1,
+    "US_SAM": 1,
     "WORLD_BANK": 1
   },
   "status_counts": {
@@ -162,14 +162,6 @@
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
       {
-        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167691-2026-09-01",
-        "portal": "ZA_ETENDERS",
-        "title": "WMM LM 03/08/26/01SNG",
-        "buyer": "Winnie Madikizela-Mandela Local Municipality",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-167691"
-      },
-      {
         "candidate_id": "CA:BPM026289/34383",
         "portal": "CA_CANADABUYS",
         "title": "RFQ – HPE Hardware Maintenance and Support and Software Maintenance and Support renewal for DND",
@@ -194,12 +186,20 @@
         "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-165596"
       },
       {
-        "candidate_id": "TED:598404-2026",
-        "portal": "TED",
-        "title": "Poland – Motion picture and video production services – Produkcja oraz emisja spotu reklamowego w ramach projektu \"Ecomarinas\"",
-        "buyer": "Województwo Pomorskie",
+        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-167691-2026-09-01",
+        "portal": "ZA_ETENDERS",
+        "title": "WMM LM 03/08/26/01SNG",
+        "buyer": "Winnie Madikizela-Mandela Local Municipality",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-167691"
+      },
+      {
+        "candidate_id": "CY-EPPS:9099832",
+        "portal": "CYPRUS_EPPS",
+        "title": "Προμήθεια εξοπλισμού για την Ειδικότητα «Γραφικές Τέχνες» του Κλάδου των Εφαρμοσμένων Τεχνών (ΕΚΤ 10-26)",
+        "buyer": "Υπουργείο Παιδείας Αθλητισμού και Νεολαίας",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/598404-2026"
+        "notice_url": "https://www.eprocurement.gov.cy/epps/notices/viewPublishedContractNotice.do?resourceId=9099832&documentId=9100328&noticeType=16&extId=dcc2e643-f291-4422-ba7c-a156ffe70b55&lang=el&noticeId=9100289&isNational=false"
       }
     ]
   },
