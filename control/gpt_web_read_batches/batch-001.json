@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-06T04:47:37.568534+00:00",
-  "source_inbox_updated_at": "2026-09-06T04:47:37.111960+00:00",
-  "latest_source_dce_run_id": 34011980374,
+  "generated_at": "2026-09-06T08:54:29.441386+00:00",
+  "source_inbox_updated_at": "2026-09-06T08:54:18.291903+00:00",
+  "latest_source_dce_run_id": 34023095616,
   "batch_index": 1,
   "start_rank": 11,
   "end_rank": 20,
@@ -983,7 +983,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
+      "evidence_gate_coverage": 14,
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -1004,15 +1004,312 @@
         "release_tag": "dce-harvest-34000694102"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 23,
+        "text_chars": 309019,
+        "attributed_compact_snippets": 26,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "stuft werden. Es ist dem Anbieter untersagt, jeglichen Bezug zur ILB in Verkaufsbroschüren, Verkaufspräsentationen oder in Whitepapers herzustellen. Im Gegenzug wird die ILB gegenüber Dritten keine Angaben zu den vorgeschlagenen Details des Anbieters machen. 1.3 Gegenstand der Ausschreibung Für die Pflege und Weiterentwicklung bestehender Anwendungen sowie die Umsetzung neuer fachlicher Anforderungen im SAP BI benötigt die ILB Dienst -, Werk -, Beratungs - und/oder Projektleistungen. Mit diesen Leistungen wird die…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Unterauftragskette implementiert hat. Erläutern Sie, wie vertragliche Klauseln, Verhaltenskodizes für Lieferanten und regelmäßige Audits eingesetzt werden, um Verstöße zu identifizieren und zu beheben. Ergänzen Sie, wie Zertifizierungen und Schulungen die Einhaltung von Standards wie dem Lieferkettengesetz unterstützen. | | DD-9 | Standort und Datenverarbeitung in Drittstaaten | | | | | DD-9.1 | Ist Ihr Unternehmen (oder die Muttergesellschaft) oder ein Teil Ihrer Dienstleistungen in einem Drittstaat lokalisiert? …",
+            "source": "files/Teil_20C_20Anlage_203_20Due_20Diligence_20Fragebogen_20_28IKT-Auslagerung_29.xlsx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+3+Due+Diligence+Fragebogen+%2528IKT-Auslagerung%2529.xlsx",
+            "source_sha256": "dd5c3be99c51792412d1fac60da3cfc7490f7e03a5a8156d178769734c73e197",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "Die Geschäftsentwicklung ist unverändert maßgeblich von der ILB geprägt. Als Förderbank für Brandenburg unterstützt die ILB das Land bei der Umsetzung seiner struktur- und wirtschaftspolitischen Ziele in den Bereichen Wirtschaft, Arbeit, Infrastruktur und Wohnungsbau. Darüber hinaus übernimmt die Bank die Verwaltung und Verwertung von Treuhandvermögen sowie die Bildung und Verwaltung von Sondervermögen. Die ILB betreibt nur Geschäfte, die der Umsetzung des gesetzlichen Förderauftrages dienen. Die zur Durchführung …",
+            "source": "files/Teil_20C_20Anlage_203_20Due_20Diligence_20Fragebogen_20_28IKT-Auslagerung_29.xlsx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+3+Due+Diligence+Fragebogen+%2528IKT-Auslagerung%2529.xlsx",
+            "source_sha256": "dd5c3be99c51792412d1fac60da3cfc7490f7e03a5a8156d178769734c73e197",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "ragebogen Cloud DL\" ausfüllen | | | | | | Wenn ja, welches Dienstleistungsmodell wird genutzt? | Infrastructure as a Service | | | | | Wenn ja, welches Bereitstellungsmodell wird genutzt? | Hybrid Cloud | | | Fragestellung | | Antwort/ Zusätzliche Informationen pot. Dienstleister | Mögliche Nachweise | Ausfüllhinweise | | DD-2 | Fähigkeiten und Fachkenntnisse | | | | | DD-2.1 | Bitte geben Sie einen Überblick über die Fachkenntnisse und Erfahrungen Ihres Unternehmens, die für die Erbringung der angebotenen Dienstl…",
+            "source": "files/Teil_20C_20Anlage_203_20Due_20Diligence_20Fragebogen_20_28IKT-Auslagerung_29.xlsx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+3+Due+Diligence+Fragebogen+%2528IKT-Auslagerung%2529.xlsx",
+            "source_sha256": "dd5c3be99c51792412d1fac60da3cfc7490f7e03a5a8156d178769734c73e197",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "igkeiten und Fachkenntnisse | | | | | DD-2.1 | Bitte geben Sie einen Überblick über die Fachkenntnisse und Erfahrungen Ihres Unternehmens, die für die Erbringung der angebotenen Dienstleistung relevant sind. | | Zertifizierungen, Lebensläufe und Qualifikationsnachweise von Schlüsselpersonen; Referenzprojekte und Erfahrungsberichte mit vergleichbaren Dienstleistungen; Auditberichte oder externe Bewertungen der Fachkompetenz | Bitte beschreiben Sie die relevanten Fachkenntnisse und Erfahrungen Ihres Unternehmens, di…",
+            "source": "files/Teil_20C_20Anlage_203_20Due_20Diligence_20Fragebogen_20_28IKT-Auslagerung_29.xlsx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+3+Due+Diligence+Fragebogen+%2528IKT-Auslagerung%2529.xlsx",
+            "source_sha256": "dd5c3be99c51792412d1fac60da3cfc7490f7e03a5a8156d178769734c73e197",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "(KWG), die aufgrund des KWG erlassenen oder zu erlassenden Rechtsverordnungen, die MARisk, (ii) die jeweils für die Buchführung und Geschäftsentwicklung in Kreditinstituten geltenden Rechtsvorschriften, insbesondere handels-, steuer- und aufsichtsrechtliche Vorschriften an eine ordnungsgemäße und sichere Datenverarbeitung (Datenschutzbestimmungen, Grundsätze ordnungsgemäßer DV-gestützter Buchführungssysteme des Bundesfinanz- ministeriums (GoBS), (iii) die im Bankenbereich anerkannten fachlichen und prüferischen St…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "de Daten verarbeitet, ins- besondere auch gespeichert werden sollen. Davon bleiben Zustimmungsvorbehalte im Leis- tungsvertrag unberührt. 7.4 Der Auftragnehmer verpflichtet sich, die den ausgelagerten Bereich betreffenden Prüfungser- gebnisse dem Auftraggeber und dem Abschlussprüfer des Auftraggebers regelmäßig sowie ad- hoc bei besonderen Vorkommnissen zu übergeben. Ferner hat der Auftraggeber der BaFin eine Abschrift dieser Berichte zu übermitteln. 7.5 Der Auftragnehmer ist verpflichtet, im Falle einer Verschlec…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "................................................................................................ 10 14 Mitwirkung des Auftraggebers ..................................................................................................... 10 15 Laufzeit und Kündigung ............................................................................................................... 10 16 Pflichten nach Vertragsende ....................................................................................................... 11 17 …",
+            "source": "files/Teil_20C_20Anlage_205_20_20EVB-IT_20Dienstleistung_20AGB.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+5++EVB-IT+Dienstleistung+AGB.pdf",
+            "source_sha256": "4c10f347337a91a79e6f766c04a7222f3945b6ed00d2bbb5fe44d928ce7f800f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "itig nachzuweisen . Gesetzliche Aufbewahrungspflichten bleiben unberührt. 17 Änderung der Leistung nach Vertragsschluss Der Auftraggeber kann nach Vertragsschluss jederzeit Änderungen des Umfangs der Leistungen verlangen, es sei denn, dies ist für den Auftragnehmer unzumutbar. Das Änderungsverfahren ist auf einem Formular gemäß Muster 2 - Änderungsverfahren Dienstleistung - zu dokumentieren, soweit nichts anderes vereinbart ist. Ändert sich der Umfang der vereinbarten Leistungen des Auftragnehmers, kann der Auftra…",
+            "source": "files/Teil_20C_20Anlage_205_20_20EVB-IT_20Dienstleistung_20AGB.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+5++EVB-IT+Dienstleistung+AGB.pdf",
+            "source_sha256": "4c10f347337a91a79e6f766c04a7222f3945b6ed00d2bbb5fe44d928ce7f800f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "oder den für die ordnungsgemäße Leistungserbringung erforderlichen Standards – oder die Erfüllung der Pflichten des Auftragnehmers aus dieser Zusatzvereinbarung gefährdet oder beeinträchtigt wird, (ii) der Auftraggeber in der Vergangenheit mit dem zu beauftragenden Subunternehmer schlechte Erfahrungen gemacht hat, (iii) die Zusammenarbeit mit dem Subunternehmer die Erfüllung von gesetzlichen oder ver- traglichen Verpflichtungen des Auftraggebers, insbesondere von aufsichtsbehördlichen Vorschriften, gefährdet, (iv)…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "zu leistende angemes- sene Abschlagzahlungen zur Unterstützung verpflichtet. 15.4 Der Auftraggeber wird dem Auftragnehmer die Nutzung der Arbeitsumgebung des Auftragge- bers nach Ablauf der Vertragslaufzeit bzw. nach Ablauf des vereinbarten Unterstützungszeit- raumes gestatten, soweit dies für die ordnungsgemäße Übergabe erforderlich ist. Die Parteien werden dafür eine gesonderte Vereinbarung schließen. 15.5 Der Auftraggeber ist berechtigt, aber nicht verpflichtet, zum Beendigungszeitpunkt Vertragsver- hältnisse z…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "igt die ILB Dienst -, Werk -, und Beratungsleistungen. Wir fordern hiermit interessierte Unternehmen zur Abgabe eines Angebotes auf. Die Einzelheiten entnehmen Sie bitte dem Bekanntmachungstext und den eingestellten Unterlagen. Die Angebote sind bis zum 31.08.2026 12:00 Uhr ausschließlich elektronisch über die Vergabeplattform der Vergabestelle unter https://vergabemarktplatz.brandenburg.de einzureichen. Für Fragen nutzen Sie bitte ebenfalls ausschließlich die Vergabeplattform. Wir freuen uns auf Ihre Angebote. Mi…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ern hiermit interessierte Unternehmen zur Abgabe eines Angebotes auf. Die Einzelheiten entnehmen Sie bitte dem Bekanntmachungstext und den eingestellten Unterlagen. Die Angebote sind bis zum 31.08.2026 12:00 Uhr ausschließlich elektronisch über die Vergabeplattform der Vergabestelle unter https://vergabemarktplatz.brandenburg.de einzureichen. Für Fragen nutzen Sie bitte ebenfalls ausschließlich die Vergabeplattform. Wir freuen uns auf Ihre Angebote. Mit freundlichen Grüßen Investitionsbank des Landes Brandenburg =…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "teilung von Einzelaufträgen sowie keine Pflicht zur Erbringung von Leistungen; eine solche Pflicht entsteht erst mit der Erteilung eines Einzelauftrages. 1.4 Auftragsvolumen und - zeitraum Das Auftragsvolumen der im Anwendungsbereich der Rahmenvereinbarung abzuschließenden Einzelverträge wird unverbindlich auf ca. 4.000.000 EUR (netto) geschätzt. In Abhängigkeit vom Ergebnis der \"Miniwettbewerbe\" wird die Verteilung der Einzelaufträge sowie der Auftragsvolumen auf alle drei Vertragspartner voraussichtlich ungleich…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ung eines Einzelauftrages. 1.4 Auftragsvolumen und - zeitraum Das Auftragsvolumen der im Anwendungsbereich der Rahmenvereinbarung abzuschließenden Einzelverträge wird unverbindlich auf ca. 4.000.000 EUR (netto) geschätzt. In Abhängigkeit vom Ergebnis der \"Miniwettbewerbe\" wird die Verteilung der Einzelaufträge sowie der Auftragsvolumen auf alle drei Vertragspartner voraussichtlich ungleichmäßig sein; im Extremfall kann ein einziger Vertragspartner mit sämtlichen Leistungen beauftragt werden. Die Vertragslaufzeit d…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "auf Erteilung von Einzelaufträgen sowie keine Pflicht zur Erbringung von Leistungen; eine solche Pflicht entsteht erst mit der Erteilung eines Einzelauftrages. 1.4 Auftragsvolumen und - zeitraum Das Auftragsvolumen der im Anwendungsbereich der Rahmenvereinbarung abzuschließenden Einzelverträge wird unverbindlich auf ca. 4.000.000 EUR (netto) geschätzt. In Abhängigkeit vom Ergebnis der \"Miniwettbewerbe\" wird die Verteilung der Einzelaufträge sowie der Auftragsvolumen auf alle drei Vertragspartner voraussichtlich un…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Erteilung eines Einzelauftrages. 1.4 Auftragsvolumen und - zeitraum Das Auftragsvolumen der im Anwendungsbereich der Rahmenvereinbarung abzuschließenden Einzelverträge wird unverbindlich auf ca. 4.000.000 EUR (netto) geschätzt. In Abhängigkeit vom Ergebnis der \"Miniwettbewerbe\" wird die Verteilung der Einzelaufträge sowie der Auftragsvolumen auf alle drei Vertragspartner voraussichtlich ungleichmäßig sein; im Extremfall kann ein einziger Vertragspartner mit sämtlichen Leistungen beauftragt werden. Die Vertragslauf…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Seite 2 von 7 1 Einleitung 1.1 Angaben zur ILB Die Investitionsbank des Landes Brandenburg (ILB) wurde 1992 als Kreditinstitut in der Rechtsform einer rechtsfähigen Anstalt des öffentlichen Rechts mit Sitz in Potsdam gegründet. Die ILB bildet zusammen mit ihren sechs Tochterunternehmen den ILB-Konzern. Die Geschäftsentwicklung ist unverändert maßgeblich von der ILB geprägt. Als Förderbank für Brandenburg unterstützt die ILB das Land bei der Umsetzung seiner struktur- und wirtschaftspolitischen Ziele in den Bereich…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "bwicklung der Einzelverträge fort. Außerdem behält sich die ILB vor, Leistungen im Umfeld des SAP BI auch während der Vertragslaufzeit außerhalb der Rahmenvereinbarung nach den jeweils geltenden vergaberechtlichen Vorschriften zu vergeben, wenn die Rahmenvereinbarungspartner keine Angebote zu den in \"Miniwettbewerben\" geforderten Rahmenbedingungen abgegeben haben. Seite 4 von 7 2 Leistungsbeschreibung 2.1 Systemüberblick IST Das SAP BW 7.5 on HANA wird aktuell als zentrales dispositives System der ILB betrieben. D…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "vorübergehender technischer Unmög- lichkeit der elektronischen Kommunikation die Einhaltung der Textform nicht gee ignet oder möglich ist. 18.2 Dokumente und Unterlagen sind vom Auftragnehmer und den (Sub -)Subunternehmern dem Auftraggeber in einem elektronischen, allgemein verwendeten Format (pdf, Text-/Bilddatei) zur Verfügung zu stellen, soweit dem nicht berechtigte Geheimhaltungsgründe entgegenstehen. (Ort, Datum) (Ort, Datum) (Auftraggeber) (Auftragnehmer) Anlagen: - - - ===== FILE: files/Teil_20C_20Anlage_20…",
+            "source": "files/Teil_20C_20Anlage_202_20Verschwiegenheitserkl_C3_A4rung.docx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+2+Verschwiegenheitserkl%25C3%25A4rung.docx",
+            "source_sha256": "66c2ee00db82a5d5f7110a0d2a1292e468f2c92276dcd5eada6392189b5c9122",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r einzeln - ausdrücklich als vertraulich gekennzeichnet sind. Die für die Aufgabenerfüllung eingesetzten Mitarbeiter werden vom Bieter/Auftragnehmer zur Wahrung der Vertraulichkeit entsprechend den datenschutzrechtlichen Vorgaben zur Verschwiegenheit verpflichtet. Gleiches gilt im Falle einer Einschaltung von Dritten/Nachunternehmern durch den Bieter/Auftragnehmer. Die Verschwiegenheitsverpflichtung gilt für die Angebotserstellung, die Zeit der Geschäftsbeziehung sowie darüber hinaus. __________________________ __…",
+            "source": "files/Teil_20C_20Anlage_202_20Verschwiegenheitserkl_C3_A4rung.docx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+C+Anlage+2+Verschwiegenheitserkl%25C3%25A4rung.docx",
+            "source_sha256": "66c2ee00db82a5d5f7110a0d2a1292e468f2c92276dcd5eada6392189b5c9122",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "fizierten Unterauftragnehmers (Eignungsleihe) Referenzangaben: Zum Nachweis der technischen und beruflichen Leistungsfähigkeit sind gemäß Ziffer 7.1.6 der Bewerbungsbedingen mindestens drei (3) geeignete Referenzen der letzten drei Jahre mit dem Auftragsgegenstand vergleichbarer Leistungen einzureichen. Aus der Referenzobjektbeschreibung muss zwingend die Vergleichbarkeit des angegebenen Referenzobjektes mit der ausgeschriebenen Leistung hervorgehen sowie erkennbar sein, welche Leistungsteile der Bieter/das jeweil…",
+            "source": "files/Teil_20D_20Anlage_206_20Erkl_C3_A4rung_20zu_20Referenzen.docx",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/filledByCompany/Teil+D+Anlage+6+Erkl%25C3%25A4rung+zu+Referenzen.docx",
+            "source_sha256": "38ccec3c73173b35c1556625204bc0d7b2bb5d7d20d7745f68259d649c9d6b2f",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Auftragnehmer hat bei der Konzeption, Implementierung und Dokumentation der Lösung die Aspekte Performance und Persistenz angemessen zu berücksichtigen und sicherzustellen, dass die Lösung einen stabilen, skalierbaren und wirtschaftlichen Betrieb ermöglicht. 2.3 Erweiterungen und konzeptionelle Grundlagen Die Aufgaben umfassen außerdem die Untersuchung, Bewertung und ggf. Einführung funktionaler Erweiterungen (z. B. Aufbau bzw. Aktivierung neuer SAP -Komponenten, inkl. der erforderlichen konzeptionellen Grundlagen…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "er diese informiert hat. Dazu gehören auch technische Standards, die der Auftraggeber in Erfüllung dieser Pflichten anzuwenden hat. Teil C Anlage 1 Zusatzvereinbarung - 08.25 2 von 12 Intern Gesetzliche und bankaufsichtsrechtliche Vorgaben soweit technische Standards sind insbeson- dere: (i) das Kreditwesengesetz (KWG), die aufgrund des KWG erlassenen oder zu erlassenden Rechtsverordnungen, die MARisk, (ii) die jeweils für die Buchführung und Geschäftsentwicklung in Kreditinstituten geltenden Rechtsvorschriften, i…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "von der Analyse bis hin zur Inbetriebnahme und Betreuung); 16. Datenbeschaffungsebene: Konzeption ETL -Prozess (Extrahieren, Aufbereiten und Laden von Daten in ein Zielsystem ), Einbindung in Prozessketten / task chains , ggf. Datenbeschaffung und -lieferung aus Umsystemen; 17. Datenhaltungs- und Auswertungsebene: Implementierung Stammdaten/Info -Objekte, verschiedene Info-Provider/Data-Marts; 18. Präsentationsebene: Konzeption und Implementierung der Berichtsanforderungen auf Basis SAP Business Objects / SAC; Sei…",
+            "source": "files/Teil_20B_20Leistungsbeschreibung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/serviceDescription/Teil+B+Leistungsbeschreibung.pdf",
+            "source_sha256": "dd3b81a3f1826bc75d13de8ef30b2d83da32169fee028c48bc7daa4155ea7caf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ein in der Sphäre des Auftraggebers liegenden Verpflichtungen nur, soweit der Auftraggeber auch über diese informiert hat. Dazu gehören auch technische Standards, die der Auftraggeber in Erfüllung dieser Pflichten anzuwenden hat. Teil C Anlage 1 Zusatzvereinbarung - 08.25 2 von 12 Intern Gesetzliche und bankaufsichtsrechtliche Vorgaben soweit technische Standards sind insbeson- dere: (i) das Kreditwesengesetz (KWG), die aufgrund des KWG erlassenen oder zu erlassenden Rechtsverordnungen, die MARisk, (ii) die jeweil…",
+            "source": "files/Teil_20C_20Anlage_201_20Zusatzvereinbarung.pdf",
+            "source_url": "https://vergabemarktplatz.brandenburg.de/VMPSatellite/public/company/project/CXP9YD1HZ3X/de/documents/contractCondition/Teil+C+Anlage+1+Zusatzvereinbarung.pdf",
+            "source_sha256": "b3b72bfe33840c7b96f556f4ab636946fb93decfcd9e7ccc2e0e43b17f000a69",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-06T08:54:00.359667+00:00",
+        "source_dce_run_id": 34000694102,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
