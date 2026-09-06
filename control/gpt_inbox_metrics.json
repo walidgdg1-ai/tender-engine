@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-06T08:59:36.258396+00:00",
+  "updated_at": "2026-09-06T09:02:08.905274+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 34023095616,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 176,
+    "pending_before_visible_cap": 179,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -103,15 +103,15 @@
     "selected_by_band": {
       "HOT": 2,
       "GOOD": 69,
-      "MAYBE": 57,
-      "LOW": 32
+      "MAYBE": 56,
+      "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 100,
-      "US_SAM": 16,
+      "TED": 101,
+      "US_SAM": 17,
       "IRELAND_ETENDERS": 6,
       "WORLD_BANK": 5,
-      "PL_EZAMOWIENIA": 5,
+      "PL_EZAMOWIENIA": 3,
       "MALTA_EPPS": 2,
       "ZA_ETENDERS": 5,
       "GENERIC_PUBLIC_PAGE": 3,
@@ -137,36 +137,31 @@
     "by_spm_fit_band": {
       "HOT": 2,
       "GOOD": 88,
-      "MAYBE": 269,
-      "LOW": 2505
+      "MAYBE": 266,
+      "LOW": 2508
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 2704,
-    "cross_portal_duplicates_collapsed": 1
+    "cross_portal_duplicates_collapsed": 0
   },
   "true_pending_before_hot_cap": 2864,
   "overflow_beyond_hot_160": 2704,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
-  "provenance_overrides_applied_in_window": 15,
+  "provenance_overrides_applied_in_window": 14,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 155,
-    "adjudication_rows_scanned_this_refresh": 1283,
-    "gate_rows_seen_this_refresh": 521,
-    "authenticity_rows_seen_this_refresh": 17,
+    "shard_files_scanned_this_refresh": 75,
+    "adjudication_rows_scanned_this_refresh": 638,
+    "gate_rows_seen_this_refresh": 263,
+    "authenticity_rows_seen_this_refresh": 10,
     "source_runs_seen_this_refresh": [
       34023095616,
       34011980374,
       34000694102,
       33996470802,
-      33991623334,
-      33985698416,
-      33979739946,
-      33973280289,
-      33964879242,
-      33955698300
+      33991623334
     ]
   },
   "healthy": true,
