@@ -1,8 +1,8 @@
 {
   "schema": "GPT_LIVE_BUSINESS_REVIEW_BATCH_V1",
-  "generated_at": "2026-09-08T20:04:51.912408+00:00",
-  "source_inbox_updated_at": "2026-09-08T17:44:32.322034+00:00",
-  "latest_source_dce_run_id": 34258026986,
+  "generated_at": "2026-09-08T22:35:36.968336+00:00",
+  "source_inbox_updated_at": "2026-09-08T20:22:11.611776+00:00",
+  "latest_source_dce_run_id": 34273513277,
   "unreviewed_gate_ready_total": 140,
   "selected": 30,
   "skipped": {
@@ -14,7 +14,7 @@
   "items": [
     {
       "candidate_id": "TED:593172-2026",
-      "review_key": "5fc2108eed9762ea369c13aa7d850692ad7cde5cee07c56f46cd9f10907847b2",
+      "review_key": "30708c14defa90a76c89faf70440247202d69545bc6842a7a8e28411de7b7d97",
       "title": "Ireland – Signs and related items – Multi-Party Framework for the Printing, Refurbishing, and Installation of Internal and External Signage, including Graphic Design",
       "buyer": "Mayo Sligo and Leitrim ETB",
       "portal": "TED",
@@ -23,7 +23,7 @@
       "best_submission_deadline": "2026-09-18T11:00:00+01:00",
       "estimated_value": 215000.0,
       "currency": "EUR",
-      "source_dce_run_id": 34210565302,
+      "source_dce_run_id": 34258026986,
       "source_shard": 14,
       "spm_post_dce_score": 69,
       "pipeline_priority": 100,
@@ -86,7 +86,7 @@
     },
     {
       "candidate_id": "TED:593085-2026",
-      "review_key": "4aee614ffdc617f5b16975065c9bb559386bce5b889141614a46156ca8d09eb4",
+      "review_key": "d226492af8e863a8ab93b65276ecc807d9e3a77e72496f7f25ca9135417e2874",
       "title": "France – Printing services – Prestations d’impression pour 2027 (reconductible 3 fois)",
       "buyer": "Mairie de Vitry-Sur-Seine - Service Commande Publique et Achats",
       "portal": "TED",
@@ -95,7 +95,7 @@
       "best_submission_deadline": "2026-10-15T02:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 34189109446,
+      "source_dce_run_id": 34258026986,
       "source_shard": 12,
       "spm_post_dce_score": 64,
       "pipeline_priority": 95,
@@ -109,41 +109,17 @@
       "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
     },
     {
-      "candidate_id": "TED:607549-2026",
-      "review_key": "280138d12875faaa4e04637ea6e5849320593abefa9f80d179fc66a7d76e3ba8",
-      "title": "Ireland – Software development services – Support and Maintenance of Dynamics 365 system for The Labour Court",
-      "buyer": "The Department of Enterprise Tourism and Employment",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/607549-2026",
-      "notice_deadline": "2026-09-16T12:00:00+01:00",
-      "best_submission_deadline": "2026-09-16T12:00:00+01:00",
-      "estimated_value": 400000.0,
-      "currency": "EUR",
-      "source_dce_run_id": 34234405679,
-      "source_shard": 8,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
       "candidate_id": "TED:609569-2026",
-      "review_key": "b597c1d3470a76eb1c7c3961cd68c8c8857a0d80168c1efc6604b010147879e7",
+      "review_key": "e67f43297da14cd540474ff0645d69d5af35c21bea6b77c6e589feffad23fe02",
       "title": "Germany – IT services: consulting, software development, Internet and support – Bereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen für die juristischen Staatsprüfungen in NRW",
       "buyer": "OLG Köln",
       "portal": "TED",
       "notice_url": "https://ted.europa.eu/en/notice/-/detail/609569-2026",
       "notice_deadline": "2026-09-25T23:59:59+02:00",
-      "best_submission_deadline": "2026-09-25T23:59:59+02:00",
+      "best_submission_deadline": "2026-09-25",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 34234405679,
+      "source_dce_run_id": 34273513277,
       "source_shard": 8,
       "spm_post_dce_score": 63,
       "pipeline_priority": 94,
@@ -152,13 +128,226 @@
         "authoritative_gate_ready"
       ],
       "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
+      "deadline_authority": {
+        "status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-09-25T23:59:59+02:00",
+        "notice_deadline_date": "2026-09-25",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [
+          "2026-09-25",
+          "2026-10-23"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-03",
+          "2026-09-25",
+          "2026-10-23",
+          "2026-12-04"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 22,
+            "context": " \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen für die \njuristischen Staatsprüfungen in NRW \n"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 29,
+            "context": "ierten Bietern in anonymisierter Form zur Verfügung gestellt und \ndadurch automatisch Bestandteil der Vergabeunterlagen. \n \nTelefonische Auskünfte werden nicht erteilt. \n \n \n2.4.2 Angebotsfrist \n \nDas Angebot muss bis zum 23.10.2026 (23:59 Uhr) auf dem Vergabemarktplatz \nNRW eingereicht werden. \n \n2.4.3 Vorabinformation gemäß §134 GWB \n \nSpätestens 10 Kalendertage vor Zuschlagserteilung werden nicht zu \nberücksichtigende Bieter über den Vergabemarktplatz NRW über die beabsichtigte \nZuschlagsentscheidung informiert. \n Zentraler"
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 22,
+            "context": " \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen für die \njuristischen Staatsprüfungen in NRW \n"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 29,
+            "context": "ierten Bietern in anonymisierter Form zur Verfügung gestellt und \ndadurch automatisch Bestandteil der Vergabeunterlagen. \n \nTelefonische Auskünfte werden nicht erteilt. \n \n \n2.4.2 Angebotsfrist \n \nDas Angebot muss bis zum 23.10.2026 (23:59 Uhr) auf dem Vergabemarktplatz \nNRW eingereicht werden. \n \n2.4.3 Vorabinformation gemäß §134 GWB \n \nSpätestens 10 Kalendertage vor Zuschlagserteilung werden nicht zu \nberücksichtigende Bieter über den Vergabemarktplatz NRW über die beabsichtigte \nZuschlagsentscheidung informiert. \n Zentraler"
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 22,
+            "context": " \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen für die \njuristischen Staatsprüfungen in NRW \n"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-03",
+            "match": "03.09.2026",
+            "context": "Anfrage zur Angebotsabgabe \n \n1 \nDienststelle \n \n     \n       \n     \nOrt, Datum \nDer Präsident des Oberlandesgerichts Köln  \nZentraler IT-Dienstleister der Justiz des Landes NRW  \nITD 3 -Verträge und Beschaffung  \nKöln, 03.09.2026 \n Anschrift \n  Reichenspergerplatz 1,  \n50670 Köln \n Kontaktstelle \n Frau Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist "
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "context": "Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrekt"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "context": "chäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kom"
+          },
+          {
+            "date": "2026-12-04",
+            "match": "04.12.2026",
+            "context": "D3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen"
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "context": "gänzende Vertragsbedingungen der Informationstechnik \n☒ Eigenerklärung Ausschlussgründe (Formular 521 EU) \n☒ Bewerber-/Bietergemeinschaftserklärung (Formular 531 EU\nagen oder der Erstellung des \nAngebots) können bis zum 25.09.2026 ausschließlich elektronisch über den \nVergabemarktplatz des Landes NRW gestellt werden. \nDie Vergabestelle wird die Fragen innerhalb von zwei Wochen beantworten. \nDie Antworten werden allen auf dem Vergabemarktplatz des"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "context": "rten Bietern in anonymisierter Form zur Verfügung gestellt und \ndadurch automatisch Bestandteil der Vergabeunterlagen. \n \nTelefonische Auskünfte werden nicht erteilt. \n \n \n2.4.2 Angebotsfrist \n \nDas Angebot muss bis zum 23.10.2026 (23:59 Uhr) auf dem Vergabemarktplatz \nNRW eingereicht werden. \n \n2.4.3 Vorabinformation gemäß §134 GWB \n \nSpätestens 10 Kalendertage vor Zuschlagserteilung werden nicht zu \nberücksichtigende Bieter über den Vergabemark"
+          },
+          {
+            "date": "2026-12-04",
+            "match": "04.12.2026",
+            "context": "stleister der Justiz des Landes NRW                       150-ITD3.7516-2026 \n \nAllgemeiner Teil (Stand: September 2026)  Seite 6 \n \n2.4.4 Zuschlagsfrist (= Bindefrist) \n \nDie Entscheidung über den Zuschlag wird bis zum 04.12.2026 erfolgen und den \nBietern gemäß den Bestimmungen der VgV bekanntgegeben.\nronischer Signatur bzw. qualifiziertem elektronischen Siegel \nWeitere Informationen zu den Signaturen, zum Bietertool und zum technischen Betrieb "
+          },
+          {
+            "date": "2026-09-03",
+            "match": "03.09.2026",
+            "context": "Anfrage zur Angebotsabgabe \n \n1 \nDienststelle \n \n     \n       \n     \nOrt, Datum \nDer Präsident des Oberlandesgerichts Köln  \nZentraler IT-Dienstleister der Justiz des Landes NRW  \nITD 3 -Verträge und Beschaffung  \nKöln, 03.09.2026 \n Anschrift \n  Reichenspergerplatz 1,  \n50670 Köln \n Kontaktstelle \n Frau Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist "
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "context": "Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrekt"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "context": "chäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kom"
+          },
+          {
+            "date": "2026-12-04",
+            "match": "04.12.2026",
+            "context": "D3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen"
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "context": "esse der Anspr\neter, möglicherweise ein fehlerhaftes \nAngebot abzugeben. \n \n2. 4 Fristenangaben \n2.4.1 Bieterfragen \n \nBieterfragen (z.B. bezüglich der Vergabeunterlagen oder der Erstellung des \nAngebots) können bis zum 25.09.2026 ausschließlich elektronisch über den \nVergabemarktplatz des Landes NRW gestellt werden. \nDie Vergabestelle wird die Fragen innerhalb von zwei Wochen beantworten. \nDie Antworten werden allen auf dem Vergabemarktplatz des"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "context": "rten Bietern in anonymisierter Form zur Verfügung gestellt und \ndadurch automatisch Bestandteil der Vergabeunterlagen. \n \nTelefonische Auskünfte werden nicht erteilt. \n \n \n2.4.2 Angebotsfrist \n \nDas Angebot muss bis zum 23.10.2026 (23:59 Uhr) auf dem Vergabemarktplatz \nNRW eingereicht werden. \n \n2.4.3 Vorabinformation gemäß §134 GWB \n \nSpätestens 10 Kalendertage vor Zuschlagserteilung werden nicht zu \nberücksichtigende Bieter über den Vergabemark"
+          },
+          {
+            "date": "2026-12-04",
+            "match": "04.12.2026",
+            "context": "stleister der Justiz des Landes NRW                       150-ITD3.7516-2026 \n \nAllgemeiner Teil (Stand: September 2026)  Seite 6 \n \n2.4.4 Zuschlagsfrist (= Bindefrist) \n \nDie Entscheidung über den Zuschlag wird bis zum 04.12.2026 erfolgen und den \nBietern gemäß den Bestimmungen der VgV bekanntgegeben.  \nDer Bieter ist bis zum Ablauf der Zuschlagsfrist an sein Angebot gebunden. \n \n2. 5 Angebotserfordernisse \n2.5.1 Aufbau / Inhalt \n \nDie Angebote "
+          },
+          {
+            "date": "2026-09-03",
+            "match": "03.09.2026",
+            "context": "Anfrage zur Angebotsabgabe \n \n1 \nDienststelle \n \n     \n       \n     \nOrt, Datum \nDer Präsident des Oberlandesgerichts Köln  \nZentraler IT-Dienstleister der Justiz des Landes NRW  \nITD 3 -Verträge und Beschaffung  \nKöln, 03.09.2026 \n Anschrift \n  Reichenspergerplatz 1,  \n50670 Köln \n Kontaktstelle \n Frau Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist "
+          },
+          {
+            "date": "2026-09-25",
+            "match": "25.09.2026",
+            "context": "Jorns \n Geschäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrekt"
+          },
+          {
+            "date": "2026-10-23",
+            "match": "23.10.2026",
+            "context": "chäftszeichen \n 150-ITD3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kom"
+          },
+          {
+            "date": "2026-12-04",
+            "match": "04.12.2026",
+            "context": "D3.7516-2026 \n Vergabe-Nr. \n EZVN-12066 \n Umsatzsteuer -Identifikationsnummer  \n DE 122776425 \n \nEnde der Frist für zusätzliche Informationen  Ende der Angebotsfrist Ende der Bindefrist \n25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 \n \nAnfrage zur Angebotsabgabe \n \n☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ \n \n \nLieferung/Leistung von \nBereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 18,
+          "corpus_contexts": 9,
+          "unique_contexts": 20
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "evidence": {
+        "entity_geography": [
+          "eferkettensorgfaltspflichtengesetzes (u. a. mind. 1.000 Mitarbeiter im Inland) eröffnet ist. ===== FILE: files/523_EU-Eigenerklaerung_Sanktionen.pdf ===== VHB NRW Formular 523 EU 02/2024 Eigenerklärung Sanktionspaket 5 EU 1 Eigenerklärung zur Umsetzung von Artikel 5k i Absatz 1 der Verordnung (EU) Nr. 833/2014, zuletzt geändert durch die Verordnung (EU) 2023/2878 des Rates vom 18. Dezember 2023 1. Ich/Wir erkläre(n), dass ich/wir nicht zu den genannten Personen oder Unternehmen gehören, die einen Bezug zu Russland ",
+          "et ist. ===== FILE: files/Vergabeunterlagen_CXS7YDWDYDC2SKE3_unpacked/vom_unternehmen_auszufuellende_dokumente/523_EU-Eigenerklaerung_Sanktionen.pdf ===== VHB NRW Formular 523 EU 02/2024 Eigenerklärung Sanktionspaket 5 EU 1 Eigenerklärung zur Umsetzung von Artikel 5k i Absatz 1 der Verordnung (EU) Nr. 833/2014, zuletzt geändert durch die Verordnung (EU) 2023/2878 des Rates vom 18. Dezember 2023 1. Ich/Wir erkläre(n), dass ich/wir nicht zu den genannten Personen oder Unternehmen gehören, die einen Bezug zu Russland "
+        ],
+        "turnover_financial": [
+          "rmiert. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. Eine gleichlautende Bestimmung ist in § 62 Abs. 2 VgV jedoch auf Verlangen des Bewerbers/Bieters enthalten. Nach § 39 VgV wird spätestens 30 Tage nach Zuschlagserteilung eine Vergabebekanntmachung mit den Ergebnissen des Vergabeverfahrens über den Datenservice des Bundes an das Amt für Veröffentlichun"
+        ],
+        "references_experience": [
+          "s den in den Vergabeunterlagen enthaltenen Eigenerklärungen. ===== FILE: files/Bewertungsmatrix_Vers._201.8.pdf ===== Allgemein 150-ITD3.7516-2026 Angebot lfd Nr. Bieter Strasse: PLZ: Ort: Tel.: Fax.: Ansprechpartner Tel.: FAX: Mobil: EMail: Eignungsprüfung 150-ITD3.7516-2026 Angebot lfd. Nr. der Fa. Eignungskriterien = Ausschlusskriterien Anforderung Eignungskriterien in Bezug auf fachliche und technische Eignungsfähigkeit Ja/Nein E1 Nachweis der bisherigen Leistungsqualität: Zum Nachweis, dass die geforderte, gle",
+          "== FILE: files/Bewertungsmatrix_Vers._201.8.pdf ===== Allgemein 150-ITD3.7516-2026 Angebot lfd Nr. Bieter Strasse: PLZ: Ort: Tel.: Fax.: Ansprechpartner Tel.: FAX: Mobil: EMail: Eignungsprüfung 150-ITD3.7516-2026 Angebot lfd. Nr. der Fa. Eignungskriterien = Ausschlusskriterien Anforderung Eignungskriterien in Bezug auf fachliche und technische Eignungsfähigkeit Ja/Nein E1 Nachweis der bisherigen Leistungsqualität: Zum Nachweis, dass die geforderte, gleichbleibend hohe Qualität der Prüfungsdurchführung erbracht werd"
+        ],
+        "certifications_partner": [
+          "heit und Datenschutz 200 S33 Der Zugriff auf Systeme und Daten ist durch ein rollenbasiertes Berechtigungskonzept abzusichern. A S34 Die Authentifizierung muss mindestens eine Zwei-Faktor-Authentifizierung (2FA) für administrative Zugänge sowie Nutzerinnen und Nutzer der Prüfungsverwaltungs- oder Korrekturplattform umfassen. A S35 Die Verarbeitung personenbezogener Daten muss vollständig DSGVO-konform erfolgen; ein Datenschutzkonzept ist vorzulegen und auf Aktualität zu überprüfen. A S36 Der Anbieter muss über ein ",
+          "eits-Managementsystem (ISMS) gemäß ISO/IEC 27001:2022 verfügen, das von einer akkreditierten Zertifizierungsstelle ausgestellt wurde. A S37 Der Geltungsbereich (Scope) des Zertifikats muss mindestens den Betrieb, die Wartung und die Weiterentwicklung des zentralen Serversystems der Prüfungsverwaltung und -korrektur umfassen sowie die Support- und Serviceprozesse, soweit diese den Zugriff auf das zentrale Serversystem, Prüfungsdaten oder die Verwaltung von Benutzerkonten und Berechtigungen beinhalten. A S38 Setzt de"
+        ],
+        "staffing_team": [
+          "ent ist als Anzahl von Incidents je 1.000 elektronisch erbrachter Prüfungsleistungen zu bilden. Als Incident gilt jeder während laufender elektronischer Aufsichtsarbeiten auftretende technische oder technisch-organisatorische Vorfall bezogen auf einen einzelnen betroffenen Prüfling; sobald ein Prüfling eine nicht selbst verschuldete Einschränkung von über einer Sekunde erfährt (auch z.B. geplante Gerätewechsel, Timeouts, heruntergefallene Prüfungsendgeräte, etc.), ist von einem Incident zu sprechen und auch mehrere",
+          "von Incidents je 1.000 elektronisch erbrachter Prüfungsleistungen zu bilden. Als Incident gilt jeder während laufender elektronischer Aufsichtsarbeiten auftretende technische oder technisch-organisatorische Vorfall bezogen auf einen einzelnen betroffenen Prüfling; sobald ein Prüfling eine nicht selbst verschuldete Einschränkung von über einer Sekunde erfährt (auch z.B. geplante Gerätewechsel, Timeouts, heruntergefallene Prüfungsendgeräte, etc.), ist von einem Incident zu sprechen und auch mehrere zeitgleiche Störun"
+        ],
+        "insurance_bonds": [
+          "klärungen zur Eignungsprüfung: ☒ Eigenerklärung zu Ausschlussgründen, (Formular 521 EU) zur Befähigung und Erlaubnis zur Berufsausübung (§ 44 VgV ) ☒ Nachweis der Eintragung in einem Berufs- oder Handelsregister oder Nachweis auf andere Weise über die erlaubte Berufsausübung ☐ ________________________________________________________________________ ☐ ________________________________________________________________________ zur wirtschaftlichen und finanziellen Leistungsfähigkeit (§ 45 VgV ) ☐ Erklärung über den Gesa",
+          "bers abgetreten werden 18. Sicherheitsleistung (VOL/B § 18) 1. (1) Soweit nichts anderes vereinbart ist, sind Sicherheitsleistungen unter den Voraussetzungen des § 14 VOL/A erst ab einem Auftragswert von 50.000 Euro zulässig. Wenn eine Sicherheitsleistung vereinbart ist, gelten die §§ 232-240 des Bürgerlichen Gesetzbu ches, soweit sich aus den nachstehenden Bestimmungen nichts anderes ergibt. (2) Die Sicherheit dient dazu, die vertragsgemäße Ausführung der Leistung und die Durchsetzung von Mängelansprüchen sicherzu"
+        ],
+        "subcontracting_consortium": [
+          "iterleitung mit dem vom Vergabemarktplatz NRW zur Verfügung gestellten Bietertool. Das Hochladen ist nur bis zum Ablauf der in der Auftragsbekanntmachung bzw. dem Anschreiben genannten Teilnahme-/Angebotsfrist möglich. Mit der Einreichung in Textform nach § 126b BGB bzw. mit der fortgeschrittenen oder qualifizierten elektronischen Signatur gelten die Interessensbestätigungen/Teilnahmeanträge/Angebote und alle damit eingereichten Unterlagen als unterschrieben. Evtl. in den vorgegebenen Formularen enthaltene Eintragu",
+          "s zum Ablauf der in der Auftragsbekanntmachung bzw. dem Anschreiben genannten Teilnahme-/Angebotsfrist möglich. Mit der Einreichung in Textform nach § 126b BGB bzw. mit der fortgeschrittenen oder qualifizierten elektronischen Signatur gelten die Interessensbestätigungen/Teilnahmeanträge/Angebote und alle damit eingereichten Unterlagen als unterschrieben. Evtl. in den vorgegebenen Formularen enthaltene Eintragungsmöglichkeiten für Unterschrift und Firmenstempel sind nicht auszufüllen. Bei Teilnahmeanträgen/Angeboten"
+        ],
+        "deliverables_scope": [
+          "Ende der Bindefrist 25.09.2026 23.10.2026, 23:59 Uhr 04.12.2026 Anfrage zur Angebotsabgabe ☐ Ihr Teilnahmeantrag/Ihre Interessensbestätigung vom ______________ Lieferung/Leistung von Bereitstellung und Betrieb digitaler Prüfungs-, Korrektur- und Kommunikationsplattformen für die juristischen Staatsprüfungen in NRW Sehr geehrte Damen und Herren, es ist beabsichtigt, die in der anliegenden Beschreibung bezeichneten Leistungen ☒ im offenen Verfahren zu vergeben. ☐ im nicht offenen Verfahren zu vergeben. ☐ im Verhandlu",
+          "Anspruch zu nehmen, ist das ausgefüllte Formular 534a EU oder 534b EU dem Angebot beizufügen. Bitte beachten Sie, dass das Formular 534b EU vom Eignungsleiher unterschrieben einzureichen ist. Sollten Auftragsteile an andere Unternehmen vergeben werden (Unteraufträge nach § 36 VgV), ist das Formular 533a EU oder 533b EU auszufüllen und dem Angebot beizufügen. Der Zuschlag wird auf das wirtschaftlichste Angebot erteilt. Die Zuschlagskriterien sowie deren Gewichtung/Reihenfolge ergeben sich aus ☐ der Auftragsbekanntma"
+        ],
+        "sla_onsite": [
+          "erung herzustellender oder zu erzeugender beweglicher Sachen. Für alle Rechtsbeziehungen zwischen Auftraggeber und Auftragnehmer gilt deutsches Recht. 1. Art und Umfang der Leistungen (VOL/B § 1) 1. Art und Umfang der beiderseitigen Leistungen werden durch den Vertrag bestimmt. 2. Bei Widersprüchen im Vertrag gelten nacheinander a) die Leistungsbeschreibung b) Besondere Vertragsbedingungen c) etwaige Ergänzende Vertragsbedingungen d) etwaige Zusätzliche Vertragsbedingungen e) etwaige allgemeine Technische Vertragsb",
+          "ung des Auftrags wenigstens diejenigen Mindestarbeitsbedingungen einschließlich des Mindestentgelts zu gewähren, die in dem Tarifvertrag oder der Rechtsverordnung verbindlich vorgegeben werden. b) für Leistungen im Bereich des öffentlichen Personenverkehrs auf Straße und Schiene (§ 1 Abs. 3 TVgG) seinen Beschäftigten (ohne Auszubildende) bei der Ausführung des Auftrags wenigstens das in Nordrhein-Westfalen für diese Leistung in einem einschlägigen und repräsentativen mit einer tariffähigen Gewerkschaft vereinbarten"
+        ],
+        "term_value": [
+          "mehr als 50%, c) durch das Handeln der Bewerber/Bieter im Namen oder auf Anweisung von Personen oder Unternehmen, auf die die Kriterien der Buchstaben a und/oder b zutrifft. 2. Ich/wir erkläre(n), dass die am Auftrag als Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazitäten im Zusammenhang mit der Erbringung des Eignungsnachweises in Anspruch genommen werden, beteiligten Unternehmen, auf die mehr als 10 % des Auftragswerts entfällt, ebenfalls nicht zu dem in der Vorschrift genannten Personenkreis mit ",
+          "mer 3.1 lfd. Nr. 1 werden ☒ in folgendem Zyklus erbracht: ☐ wöchentlich ☒ monatlich jeweils ☐ an folgenden Tagen: _____ (Wochentag(e) bzw. bei monatlichen Zyklen auch „1. Montag im Monat“) ☐ in der Zeit von _____ bis _____ (Uhrzeit) nicht jedoch an Feiertagen. ☐ in folgenden Zyklen zu folgenden Zeiten erbracht: _____. 3.4 Leistungen, die nur auf Abruf erbracht werden sollen ☐ Die Leistungen gemäß Nummer 3.1 lfd. Nr. _____ werden nur auf Abruf erbracht. ☐ Der Mindestvorlauf für den Abruf beträgt _____ (Stunden/Tage)"
+        ],
+        "award_criteria": [
+          "hnamen bzw. dem Unternehmensnamen dem Teilnahmeantrag/Angebot beizufügen. Etwaige Änderungen bzw. Berichtigungen oder Rücknahmen der Interessensbestätigung/des Teilnahmeantrags/Angebots, sind bis zum Ende der Teilnahmefrist/Angebotsfrist in entsprechender Form wie die Interessensbestätigung/der Teilnahmeantrag/das Angebot einzureichen. 2. Allgemeiner Hinweis zur Interessensbestätigung / zu den Teilnahme -/ Vergabeunterlagen Die in der Interessensbestätigung / den Teilnahme-/Vergabeunterlagen enthaltenen Information",
+          "Wenn Sie beabsichtigen, in Bezug auf die erforderliche wirtschaftliche und finanzielle oder technische und berufliche Leistungsfähigkeit die Kapazitäten eines anderen Unternehmens (Eignungsleihe nach § 47 VgV) in Anspruch zu nehmen, ist das ausgefüllte Formular 534a EU oder 534b EU dem Angebot beizufügen. Bitte beachten Sie, dass das Formular 534b EU vom Eignungsleiher unterschrieben einzureichen ist. Sollten Auftragsteile an andere Unternehmen vergeben werden (Unteraufträge nach § 36 VgV), ist das Formular 533a EU"
+        ],
+        "forms_signatures": [
+          "ingungen. Sämtliche Informationen zum Verfahren sind auf dem Vergabemarktplatz hinterlegt (Bekanntmachungsinformationen, Teilnahme-/Vergabeunterlagen und die Kommunikation). Elektronische Interessensbestätigungen/Teilnahmeanträge/Angebote können – vorbehaltlich abweichender Angaben im konkreten Verfahren – grundsätzlich auf drei Arten eingereicht werden: 1) Einreichung in Textform nach § 126b BGB 2) Einreichung mit fortgeschrittener elektronischer Signatur bzw. fortgeschrittenem elektronischen Siegel 3) Einreichung",
+          "Hochladen, die Verschlüsselung der Interessensbestätigung, des Teilnahmeantrags/Angebotes und die Weiterleitung mit dem vom Vergabemarktplatz NRW zur Verfügung gestellten Bietertool. Das Hochladen ist nur bis zum Ablauf der in der Auftragsbekanntmachung bzw. dem Anschreiben genannten Teilnahme-/Angebotsfrist möglich. Mit der Einreichung in Textform nach § 126b BGB bzw. mit der fortgeschrittenen oder qualifizierten elektronischen Signatur gelten die Interessensbestätigungen/Teilnahmeanträge/Angebote und alle damit e"
+        ],
+        "submission": [
+          "===== FILE: files/312_322_EU_Hinweise_Einreichung_Teilnahmeantraege_Angebote.pdf ===== VHB NRW Formular 312/322 EU 02/2024 Hinweise Einreichung Interessensbestätigung/Teilnahmeanträge/Angebote 1 Hinweise zur Form der Einreichung von Interessensbestätigungen, Teilnahmeanträgen und Angeboten 1. Elektronische Einreichung Elektronische Interessensbestätigungen/Teilnahmeanträge/Angebote sind ausschließlich über den Vergabemarktplatz des Landes NRW www.evergabe.nrw.de einzureichen. Hierzu ist eine kostenlose Registrierun",
+          "onischen Mitteln, den technischen Parametern zur Einreichung elektronischer Teilnahmeanträge, Interessensbestätigungen und Angeboten sowie zu Verschlüsselungs- und Zeiterfassungsverfahren entnehmen Sie bitte den auf de m Vergabemarktplatz des Landes NRW hinterlegten Nutzungsbedingungen. Sämtliche Informationen zum Verfahren sind auf dem Vergabemarktplatz hinterlegt (Bekanntmachungsinformationen, Teilnahme-/Vergabeunterlagen und die Kommunikation). Elektronische Interessensbestätigungen/Teilnahmeanträge/Angebote kön"
+        ],
+        "ip_data_security": [
+          "e in der Anfrage zur Angebotsabgabe genannte Vergabestelle zu übersenden; das Angebot muss dort bis zum Ende der Angebotsfrist eingegangen sein. Der Umschlag ist mit anliegendem Angebotsk ennzettel (Formular 323 EU) sowie mit dem Firmennamen und der Firmenanschrift zu versehen. Etwaige Änderungen bzw. Berichtigungen des Angebots sind bis zum Ende der oben genannten Angebotsfrist in entsprechender Form wie das Angebot einzureichen. ===== FILE: files/312a_322a_EU_Information_DSGVO.pdf ===== VHB NRW Formular 312a_322a",
+          "sowie mit dem Firmennamen und der Firmenanschrift zu versehen. Etwaige Änderungen bzw. Berichtigungen des Angebots sind bis zum Ende der oben genannten Angebotsfrist in entsprechender Form wie das Angebot einzureichen. ===== FILE: files/312a_322a_EU_Information_DSGVO.pdf ===== VHB NRW Formular 312a_322a EU 02/2024 Information DSGVO 1 Informationen wegen der Erhebung personenbezogener Daten nach Artikeln 13 und 14 Datenschutz-Grundverordnung (Verordnung (EU) 2016/679 vom 27. April 2016) Namen und Kontaktdaten des fü"
+        ]
+      },
       "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
     },
     {
       "candidate_id": "TED:605563-2026",
-      "review_key": "8d68e49b38e7accf6faddc5b2a8ec860e93dfca8349099b3cab861402f6f4ff6",
+      "review_key": "5e27240b4df52e134c9e524065c69afc8e24d3d1b1449913743d90971f1af3f6",
       "title": "Germany – IT services: consulting, software development, Internet and support – Cloudbasierte Softwarelösung zur teilweisen Digitalisierung des KYC-Prozesses",
       "buyer": "KfW Bankengruppe",
       "portal": "TED",
@@ -167,8 +356,56 @@
       "best_submission_deadline": "2026-09-10T23:59:00+02:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 34210565302,
+      "source_dce_run_id": 34258026986,
       "source_shard": 14,
+      "spm_post_dce_score": 63,
+      "pipeline_priority": 94,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:604760-2026",
+      "review_key": "23ad9e544bda2ae105a3ce56d82f0dbea82711562e6c6fc7d618280a515325e1",
+      "title": "Germany – Custom software development services – Entwicklung und Implementierung KI-gestützter Besucherguide",
+      "buyer": "Westfälischer Zoologischer Garten Münster GmbH",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/604760-2026",
+      "notice_deadline": "2026-09-28T23:59:59+02:00",
+      "best_submission_deadline": "2026-09-28T23:59:59+02:00",
+      "estimated_value": 700000.0,
+      "currency": "EUR",
+      "source_dce_run_id": 34258026986,
+      "source_shard": 12,
+      "spm_post_dce_score": 63,
+      "pipeline_priority": 94,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:610280-2026",
+      "review_key": "419e0fa9bb496d0cdcf6f4bdf16a2b367ed93c6f4ba97394b784ff634a741c16",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
+      "buyer": "The Arts Council",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
+      "notice_deadline": "2026-09-25T12:00:00+01:00",
+      "best_submission_deadline": "2026-09-25T12:00:00+01:00",
+      "estimated_value": 1800000.0,
+      "currency": "EUR",
+      "source_dce_run_id": 34258026986,
+      "source_shard": 15,
       "spm_post_dce_score": 63,
       "pipeline_priority": 94,
       "rank_reasons": [
@@ -193,54 +430,6 @@
       "currency": null,
       "source_dce_run_id": 34173495405,
       "source_shard": 0,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
-      "candidate_id": "TED:604760-2026",
-      "review_key": "93b1a7dc480b8aad638e4f4b8ce1b21825f1335bb1edb43e5aed27f4f991ec20",
-      "title": "Germany – Custom software development services – Entwicklung und Implementierung KI-gestützter Besucherguide",
-      "buyer": "Westfälischer Zoologischer Garten Münster GmbH",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/604760-2026",
-      "notice_deadline": "2026-09-28T23:59:59+02:00",
-      "best_submission_deadline": "2026-09-28T23:59:59+02:00",
-      "estimated_value": 700000.0,
-      "currency": "EUR",
-      "source_dce_run_id": 34166246208,
-      "source_shard": 8,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
-      "candidate_id": "TED:610280-2026",
-      "review_key": "32cda54bf3e9ee1d862c59d038cc7f8d97e26a70867a73496046c0279959fdc1",
-      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
-      "buyer": "The Arts Council",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
-      "notice_deadline": "2026-09-25T12:00:00+01:00",
-      "best_submission_deadline": "2026-09-25T12:00:00+01:00",
-      "estimated_value": 1800000.0,
-      "currency": "EUR",
-      "source_dce_run_id": 34166246208,
-      "source_shard": 15,
       "spm_post_dce_score": 63,
       "pipeline_priority": 94,
       "rank_reasons": [
@@ -1028,6 +1217,30 @@
       "source_shard": 65,
       "spm_post_dce_score": 62,
       "pipeline_priority": 93,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:604508-2026",
+      "review_key": "a663e246d53082274381aaaae440b1f04bdb848bfdf9a29ae6ea050a15ac74b9",
+      "title": "Lithuania – Miscellaneous software development services and computer systems – Sumanių kaimų programa (platforma)",
+      "buyer": "Vilniaus rajono savivaldybės administracija",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/604508-2026",
+      "notice_deadline": "2026-09-11T03:00:00+00:00",
+      "best_submission_deadline": "2026-09-11T03:00:00+00:00",
+      "estimated_value": 82892.56,
+      "currency": "EUR",
+      "source_dce_run_id": 34273513277,
+      "source_shard": 2,
+      "spm_post_dce_score": 61,
+      "pipeline_priority": 92,
       "rank_reasons": [
         "native_spm_scope",
         "authoritative_gate_ready"
