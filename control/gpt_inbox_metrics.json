@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-09T09:48:37.484685+00:00",
+  "updated_at": "2026-09-09T09:54:43.919993+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 34336140122,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 179,
+    "pending_before_visible_cap": 187,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -20,15 +20,15 @@
     },
     "pending_by_fit_band": {
       "HOT": 4,
-      "GOOD": 85,
-      "MAYBE": 39,
+      "GOOD": 86,
+      "MAYBE": 38,
       "LOW": 32
     },
     "pending_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 7,
-      "US_SAM": 18,
-      "WORLD_BANK": 5,
+      "US_SAM": 19,
+      "WORLD_BANK": 4,
       "PL_EZAMOWIENIA": 6,
       "ZA_ETENDERS": 7,
       "MALTA_EPPS": 2,
@@ -60,15 +60,15 @@
     },
     "selected_by_band": {
       "HOT": 4,
-      "GOOD": 85,
-      "MAYBE": 39,
+      "GOOD": 86,
+      "MAYBE": 38,
       "LOW": 32
     },
     "selected_by_portal": {
       "TED": 91,
       "IRELAND_ETENDERS": 7,
-      "US_SAM": 18,
-      "WORLD_BANK": 5,
+      "US_SAM": 19,
+      "WORLD_BANK": 4,
       "PL_EZAMOWIENIA": 6,
       "ZA_ETENDERS": 7,
       "MALTA_EPPS": 2,
@@ -102,18 +102,18 @@
     },
     "selected_by_band": {
       "HOT": 3,
-      "GOOD": 68,
-      "MAYBE": 56,
+      "GOOD": 58,
+      "MAYBE": 66,
       "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 100,
-      "US_SAM": 19,
-      "IRELAND_ETENDERS": 5,
-      "WORLD_BANK": 5,
-      "PL_EZAMOWIENIA": 4,
-      "ZA_ETENDERS": 5,
+      "TED": 109,
+      "US_SAM": 13,
+      "IRELAND_ETENDERS": 6,
+      "WORLD_BANK": 4,
+      "PL_EZAMOWIENIA": 3,
       "GENERIC_PUBLIC_PAGE": 3,
+      "ZA_ETENDERS": 3,
       "ES_PLACSP": 3,
       "GR_KHMDHS": 2,
       "SK_UVO": 2,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 3,
-      "GOOD": 88,
-      "MAYBE": 234,
-      "LOW": 2229
+      "GOOD": 78,
+      "MAYBE": 248,
+      "LOW": 2225
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 2394,
-    "cross_portal_duplicates_collapsed": 8
+    "cross_portal_duplicates_collapsed": 0
   },
   "true_pending_before_hot_cap": 2554,
   "overflow_beyond_hot_160": 2394,
@@ -152,22 +152,11 @@
   "provenance_overrides_applied_in_window": 25,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 139,
-    "adjudication_rows_scanned_this_refresh": 1181,
-    "gate_rows_seen_this_refresh": 384,
-    "authenticity_rows_seen_this_refresh": 20,
-    "source_runs_seen_this_refresh": [
-      34336140122,
-      34313822684,
-      34295745968,
-      34287049905,
-      34273513277,
-      34258026986,
-      34234405679,
-      34210565302,
-      34189109446,
-      34173495405
-    ]
+    "shard_files_scanned_this_refresh": 0,
+    "adjudication_rows_scanned_this_refresh": 0,
+    "gate_rows_seen_this_refresh": 0,
+    "authenticity_rows_seen_this_refresh": 0,
+    "source_runs_seen_this_refresh": []
   },
   "healthy": true,
   "contract": "Health sidecar exposes the true uncapped GPT review backlog plus fair-share and read-surface provenance. GPT Web adjudicator remains the assistant; exact-ID authenticity retries are separately cooldown-limited below."
