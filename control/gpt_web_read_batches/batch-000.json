@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-10T13:44:00.450089+00:00",
-  "source_inbox_updated_at": "2026-09-10T13:43:59.821367+00:00",
-  "latest_source_dce_run_id": 34483341337,
+  "generated_at": "2026-09-10T17:15:59.718406+00:00",
+  "source_inbox_updated_at": "2026-09-10T17:15:59.044012+00:00",
+  "latest_source_dce_run_id": 34506422107,
   "batch_index": 0,
   "start_rank": 1,
   "end_rank": 10,
@@ -30,14 +30,14 @@
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 34397977134,
-      "source_shard": 16,
-      "review_key": "55359f16f7b7c97e140003ab7f45cd4ff7cff340cb088152c4b59ff2b507596d",
+      "source_dce_run_id": 34483341337,
+      "source_shard": 15,
+      "review_key": "f2fee6f186d3b9e2c268fb75366697537d8e1011cfaa8be8ba3af1bb407766cb",
       "artifact_locator": {
-        "dce_run_id": 34397977134,
-        "shard": 16,
+        "dce_run_id": 34483341337,
+        "shard": 15,
         "candidate_id": "TED:593172-2026",
-        "release_tag": "dce-harvest-34397977134"
+        "release_tag": "dce-harvest-34483341337"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -891,13 +891,61 @@
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 34483341337,
+      "source_dce_run_id": 34506422107,
       "source_shard": 2,
-      "review_key": "31569e00734be1cf2d28136342b25b8f7a1a9c7495fc115f5cc272077e9b64d6",
+      "review_key": "063675661c2679717514a3399162547f05621fef132b83f46747815d9f5d9456",
       "artifact_locator": {
-        "dce_run_id": 34483341337,
+        "dce_run_id": 34506422107,
         "shard": 2,
         "candidate_id": "TED:594212-2026",
+        "release_tag": "dce-harvest-34506422107"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:610280-2026",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
+      "buyer": "The Arts Council",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
+      "deadline": "2026-09-25T12:00:00+01:00",
+      "estimated_value": 1800000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "workflow-automation",
+        "software-development",
+        "data-migration",
+        "it-services",
+        "digital-platform"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 34483341337,
+      "source_shard": 16,
+      "review_key": "c6742478c563909621452356926b0207437ae6bc02b796b177633c30c032c56d",
+      "artifact_locator": {
+        "dce_run_id": 34483341337,
+        "shard": 16,
+        "candidate_id": "TED:610280-2026",
         "release_tag": "dce-harvest-34483341337"
       },
       "evidence_quality": {
@@ -942,54 +990,6 @@
         "dce_run_id": 34397977134,
         "shard": 16,
         "candidate_id": "TED:607549-2026",
-        "release_tag": "dce-harvest-34397977134"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:610280-2026",
-      "title": "Ireland – IT services: consulting, software development, Internet and support – Provision of a Cloud-Based Grant Management System",
-      "buyer": "The Arts Council",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/610280-2026",
-      "deadline": "2026-09-25T12:00:00+01:00",
-      "estimated_value": 1800000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "workflow-automation",
-        "software-development",
-        "data-migration",
-        "it-services",
-        "digital-platform"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 34397977134,
-      "source_shard": 17,
-      "review_key": "62dbfa6b7712123b9637f7d21934cf23a82e9006054190e0ebe3f2d3efbf230f",
-      "artifact_locator": {
-        "dce_run_id": 34397977134,
-        "shard": 17,
-        "candidate_id": "TED:610280-2026",
         "release_tag": "dce-harvest-34397977134"
       },
       "evidence_quality": {
