@@ -1,11 +1,11 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 34410562287,
+  "latest_source_dce_run_id": 34437716852,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
-    "ZA_ETENDERS": 2,
     "DE_DOE": 2,
+    "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
     "PL_EZAMOWIENIA": 2,
     "TED": 1,
@@ -13,17 +13,17 @@
     "CA_CANADABUYS": 1,
     "CYPRUS_EPPS": 1,
     "EE_RHR": 1,
-    "ES_PLACSP": 1,
     "GR_KHMDHS": 1,
     "IRELAND_ETENDERS": 1,
     "LV_IUB": 1,
     "SCOTLAND_PCS": 1,
     "SK_UVO": 1,
-    "WORLD_BANK": 1
+    "WORLD_BANK": 1,
+    "ZA_ETENDERS": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 9
+    "UNKNOWN_RETRIEVED_DOCUMENT": 12,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 8
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 20
@@ -32,6 +32,14 @@
   "recovery_opportunities": [
     {
       "portal": "DE_DOE",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "ES_PLACSP",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -48,14 +56,6 @@
     },
     {
       "portal": "PL_EZAMOWIENIA",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
-    {
-      "portal": "ZA_ETENDERS",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -80,14 +80,6 @@
     },
     {
       "portal": "EE_RHR",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
-      "portal": "ES_PLACSP",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -157,18 +149,18 @@
       "reason_counts": {
         "NON_AUTHORITATIVE": 1
       }
+    },
+    {
+      "portal": "ZA_ETENDERS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
     }
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
-      {
-        "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-169433-2026-09-08",
-        "portal": "ZA_ETENDERS",
-        "title": "RFQ 4646/26",
-        "buyer": "South African Weather Service",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-169433"
-      },
       {
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "portal": "DE_DOE",
@@ -176,6 +168,14 @@
         "buyer": "Messe Augsburg ASMV GmbH",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=93503885-9bed-4b3b-bf52-1fe9917eeb06"
+      },
+      {
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19846217",
+        "portal": "ES_PLACSP",
+        "title": "Junta de Gobierno del Ayuntamiento de Vigo",
+        "buyer": null,
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dvq6ZxgXXibECtSnloz%2BZQ%3D%3D"
       },
       {
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165596-2026-08-14",
