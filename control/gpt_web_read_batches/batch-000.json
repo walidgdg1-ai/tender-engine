@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-09T22:15:49.597254+00:00",
-  "source_inbox_updated_at": "2026-09-09T22:15:49.120470+00:00",
-  "latest_source_dce_run_id": 34410562287,
+  "generated_at": "2026-09-10T04:41:18.382239+00:00",
+  "source_inbox_updated_at": "2026-09-10T04:41:17.806468+00:00",
+  "latest_source_dce_run_id": 34437716852,
   "batch_index": 0,
   "start_rank": 1,
   "end_rank": 10,
@@ -516,14 +516,59 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 34410562287,
+      "source_dce_run_id": 34437716852,
       "source_shard": 15,
-      "review_key": "ea0a1e52ab3fce483898eaae71b6488e25bf88aa69e0675f7abd36ec16b6532e",
+      "review_key": "4de6d3337be5617b87939fbf8edf5f8bacfd1974d46a7b580676fcf6702dceba",
       "artifact_locator": {
-        "dce_run_id": 34410562287,
+        "dce_run_id": 34437716852,
         "shard": 15,
         "candidate_id": "TED:593085-2026",
-        "release_tag": "dce-harvest-34410562287"
+        "release_tag": "dce-harvest-34437716852"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:594212-2026",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Matrix42 - Dienst-, Pflege, Support... leistungen",
+      "buyer": "OLG Köln",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/594212-2026",
+      "deadline": "2026-09-21T23:59:59+02:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 34437716852,
+      "source_shard": 10,
+      "review_key": "fab76b4f4a041864d944c6f3cda1760e31c1d44a59577462d92cc14fe9325d5f",
+      "artifact_locator": {
+        "dce_run_id": 34437716852,
+        "shard": 10,
+        "candidate_id": "TED:594212-2026",
+        "release_tag": "dce-harvest-34437716852"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -598,11 +643,8 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "workflow-automation",
         "software-development",
-        "data-migration",
-        "it-services",
-        "digital-platform"
+        "it-services"
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
@@ -616,51 +658,6 @@
         "shard": 17,
         "candidate_id": "TED:610280-2026",
         "release_tag": "dce-harvest-34397977134"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:594212-2026",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Matrix42 - Dienst-, Pflege, Support... leistungen",
-      "buyer": "OLG Köln",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/594212-2026",
-      "deadline": "2026-09-21T23:59:59+02:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "software-development",
-        "it-services"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 34336140122,
-      "source_shard": 2,
-      "review_key": "07b7853d691a61cf1b442983afa2e1d7c0c3cec633cf0e5e253783de87936997",
-      "artifact_locator": {
-        "dce_run_id": 34336140122,
-        "shard": 2,
-        "candidate_id": "TED:594212-2026",
-        "release_tag": "dce-harvest-34336140122"
       },
       "evidence_quality": {
         "raw_status": null,
