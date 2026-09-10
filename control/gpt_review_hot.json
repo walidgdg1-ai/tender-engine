@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-09-10T23:31:30.488332+00:00",
+  "updated_at": "2026-09-10T23:31:46.758405+00:00",
   "latest_dce_run_id": 34542259859,
-  "latest_shard": 11,
+  "latest_shard": 10,
   "generation_reset": false,
-  "count": 14,
+  "count": 17,
   "items": [
     {
       "candidate_id": "TED:604299-2026",
@@ -1026,6 +1026,99 @@
       "hot_ready_at": "2026-09-10T23:31:00.620711+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 56,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "printing-services",
+        "printing-service"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "TED:603566-2026",
+      "title": "Latvia – Printing services – Jelgavas valstspilsētas pašvaldības reprezentatīva sienas kalendāra “Jelgava 2027” izgatavošana un piegāde",
+      "buyer": "Jelgavas valstspilsētas pašvaldība",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/603566-2026",
+      "deadline": "2026-10-05T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 89,
+      "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-05T02:00:00+00:00",
+        "notice_deadline_date": "2026-10-05",
+        "authoritative_submission_date": "2026-10-05",
+        "submission_deadline_candidates": [
+          "2026-10-05"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-02",
+          "2026-10-05"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "label": "SUBMISSION",
+            "keyword": "piedāvājumu iesniegšanas termiņš",
+            "distance": 2,
+            "context": " \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 ieraksti lapā Iepriekšējā lapa lapa Toggle Dropdown no Nākamā lapa Sistēmas brīdi"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-02",
+            "match": "02.09.2026",
+            "context": "nformācija par iesniegšanu: Norādiet, vai iesniegšana ir elektroniska vai izvēlaties faktisko adresi. \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie ja"
+          },
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "context": "dresi. \"> Elektronisko iepirkumu sistēmā Iepirkuma termiņi Iepirkuma posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 i"
+          },
+          {
+            "date": "2026-10-05",
+            "match": "05.10.2026",
+            "context": " posma statuss: Publicēts Iepirkuma posma izsludināšana: 02.09.2026 Ieinteresēto personu sanāksmes datums: Pieteikumu/piedāvājumu iesniegšanas termiņš: 05.10.2026 09:00 (plānots) Pieteikumu/piedāvājumu atvēršanas laiks: 05.10.2026 14:00 (plānots) Dokumenti (aktuālie) Kārtot: jaunākie jaunākie pēc dokumenta veida pēc dokumenta veida - no ierakstiem Toggle Dropdown 5 10 20 50 100 ieraksti lapā Iepriekšējā lapa lapa Toggle Dropdown no Nākamā lapa Si"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 1,
+          "unique_contexts": 1
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 34542259859,
+      "source_shard": 10,
+      "hot_ready_at": "2026-09-10T23:31:45.905563+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 54,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
@@ -4684,6 +4777,202 @@
       "review_lane": "SPM_PRIORITY"
     },
     {
+      "candidate_id": "PL-BZP:08df0d97-710e-8a15-7d25-450001077861",
+      "title": "„Podniesienie odporności cybernetycznej Zakładu Wodociągów i Kanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodociągi”",
+      "buyer": "Zakład Wodociągów i Kanalizacji Sp. z o.o.",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+      "deadline": "2026-09-22T10:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 84,
+      "priority_score": 84,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-22T10:00:00+00:00",
+        "notice_deadline_date": "2026-09-22",
+        "authoritative_submission_date": "2026-09-22",
+        "submission_deadline_candidates": [
+          "2026-09-22"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-08-09",
+          "2026-09-08",
+          "2026-09-22"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "duje zmiany umowy: \nNie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-22 12:00\n8.2.) Miejsce składania ofert: \nPlatforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: \n2026-09-22 12:30\n8.4.) Termin związania ofertą: \n30 dni\nOgłoszenie nr 2026/BZP 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówie"
+          },
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "widuje zmiany umowy: Nie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-22 12:00\n8.2.) Miejsce składania ofert: Platforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: 2026-09-22 12:30\n8.4.) Termin związania ofertą: 30 dni\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nP"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-08",
+            "match": "2026-09-08",
+            "context": " 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n4.1.1.) Przed wszczęciem postępowania przeprowadzono konsul"
+          },
+          {
+            "date": "2026-09-08",
+            "match": "2026-09-08",
+            "context": " 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n4.1.1.) Przed wszczęciem postępowania przeprowadzono konsultacje rynko"
+          },
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "context": "awiający przewiduje zmiany umowy: \nNie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-22 12:00\n8.2.) Miejsce składania ofert: \nPlatforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: \n2026-09-22 12:30\n8.4.) Termin związania ofertą: \n30 dni\nOgłoszenie nr 2026/BZP 00427640 z dnia 2026-"
+          },
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "context": "zane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-22 12:00\n8.2.) Miejsce składania ofert: \nPlatforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: \n2026-09-22 12:30\n8.4.) Termin związania ofertą: \n30 dni\nOgłoszenie nr 2026/BZP 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstaw"
+          },
+          {
+            "date": "2026-09-08",
+            "match": "2026-09-08",
+            "context": "09-22 12:00\n8.2.) Miejsce składania ofert: \nPlatforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: \n2026-09-22 12:30\n8.4.) Termin związania ofertą: \n30 dni\nOgłoszenie nr 2026/BZP 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszen"
+          },
+          {
+            "date": "2026-09-08",
+            "match": "2026-09-08",
+            "context": "\n8.2.) Miejsce składania ofert: \nPlatforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: \n2026-09-22 12:30\n8.4.) Termin związania ofertą: \n30 dni\nOgłoszenie nr 2026/BZP 00427640 z dnia 2026-09-08\n2026-09-08 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamó"
+          },
+          {
+            "date": "2026-08-09",
+            "match": "9/8/2026",
+            "context": "kstowa\nWyszukiwarka\nMoje Konto\nZaloguj się\nZarejestruj się\n Jesteś na:\nStrona główna>Biuletyn Zamówień Publicznych>Szczegóły ogłoszenia\n2026/BZP 00427640/01\nWersja ujednolicona\nPobierz pdf\nOgłoszenie o zamówieniu z dnia 9/8/2026\nZobacz powiązane ogłoszenia\nPrzejdź do postępowania\nOgłoszenie o zamówieniu\nDostawy\n„Podniesienie odporności cybernetycznej Zakładu Wodociągów i\nKanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodocią"
+          },
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "context": "Zamawiający przewiduje zmiany umowy: Nie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-22 12:00\n8.2.) Miejsce składania ofert: Platforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: 2026-09-22 12:30\n8.4.) Termin związania ofertą: 30 dni\nStrona główna\nUrząd Zamówień Publicznych\nMinist"
+          },
+          {
+            "date": "2026-09-22",
+            "match": "2026-09-22",
+            "context": "związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-22 12:00\n8.2.) Miejsce składania ofert: Platforma e-zamówienia: https://ezamowienia.gov.pl\n8.3.) Termin otwarcia ofert: 2026-09-22 12:30\n8.4.) Termin związania ofertą: 30 dni\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 2,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "Nazwa i opis warunków udziału w postępowaniu. Wykonawca dysponuje co najmniej dwoma audytorami spełniającymi wymagania rozporządzenia Ministra Cyfryzacji z 12.10.2018 r. albo posiadającymi co najmniej 3-letnią praktykę w audycie bezpieczeństwa systemów informacyjnych; alternatywnie wykonawcą może być jednostka oceniająca zgodność akredytowana we właściwym zakresie. Wszyscy członkowie zespołu posiadają minimum 3-letnie doświadczenie w zarządzaniu bezpieczeństwem informacji i minimum 3- letnie doświadczenie jako audytor wiodący ISO/IEC 27001:2022. Co najmniej jedna osoba posiada minimum 5-letnie doświadczenie audytowe oraz aktualne certyfikaty ISO 22301, ISO/IEC 27001 i ISO/IEC 20000 lub równoważne. 5.5.) Zamawiający wymaga złożenia oświadczenia, o którym mowa w art.125 ust. 1 ustawy: Tak 5.6.) Wykaz podmiotowych środków dowodowych na potwierdzenie niepodlegania wykluczeniu: Załącznik nr 2 do SWZ - Oświadczenie o niepodleganiu wykluczeniu i spełnianiu warunków udziału w postępowaniu (własny formularz Zamawiającego sporządzony na podstawie art. 125 ust. 1 ustawy Pzp); 5.7.) Wykaz podmiotowych środków dowodowych na potwierdzenie spełniania warunków udziału w postępowaniu: Zamawiający nie wymaga złożenia wraz z ofertą żadnych przedmiotowych środków dowodowych. Jedynym dokumentem dotyczącym w",
+            "source": "files/2026_BZP 00427640_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+            "source_sha256": "0ef9ecc4ee48e2975dafa556d43cc0756249fdc500c10bebd8e2d06ddb865326",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17846,
+            "corpus_end": 19155,
+            "match": "ISO 22301"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/2026_BZP 00427640_01.pdf ===== Ogłoszenie o zamówieniu Dostawy „Podniesienie odporności cybernetycznej Zakładu Wodociągów i Kanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodociągi” SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Zakład Wodociągów i Kanalizacji Sp. z o.o. 1.4) Krajowy Numer Identyfikacyjny: REGON 191927763 1.5) Adres zamawiającego 1.5.1.) Ulica: Czatkowska 8 1.5.2.) Miejscowość: Tczew 1.5.3.) Kod pocztowy: 83-110 1.5.4.) Województwo: pomorskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL638 - Starogardzki 1.5.7.) Numer telefonu: +48 58 530 52 50 1.5.9.) Adres poczty elektronicznej: informatyk@",
+            "source": "files/2026_BZP 00427640_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+            "source_sha256": "0ef9ecc4ee48e2975dafa556d43cc0756249fdc500c10bebd8e2d06ddb865326",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 762,
+            "match": "cyber"
+          },
+          {
+            "text": "ewództwo: pomorskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL638 - Starogardzki 1.5.7.) Numer telefonu: +48 58 530 52 50 1.5.9.) Adres poczty elektronicznej: informatyk@zwik.tczew.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.zwik.tczew.pl 1.6.) Rodzaj zamawiającego: Zamawiający sektorowy - art. 5 ust. 1 pkt 1 - gospodarka wodna 1.7.) Przedmiot działalności zamawiającego: Środowisko SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: „Podniesienie odporności cybernetycznej Zakładu Wodociągów i Kanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodociągi” 2.4.) Identyfikator postępowania: ocds-148610-3e62ea11-03df-4b69-a988-71ebc0b8a67f 2.5.) Numer ogłoszenia: 2026/BZP 00427640 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-08 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Cyberbezp",
+            "source": "files/2026_BZP 00427640_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+            "source_sha256": "0ef9ecc4ee48e2975dafa556d43cc0756249fdc500c10bebd8e2d06ddb865326",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 578,
+            "corpus_end": 1883,
+            "match": "cyber"
+          },
+          {
+            "text": "rdzki 1.5.7.) Numer telefonu: +48 58 530 52 50 1.5.9.) Adres poczty elektronicznej: informatyk@zwik.tczew.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.zwik.tczew.pl 1.6.) Rodzaj zamawiającego: Zamawiający sektorowy - art. 5 ust. 1 pkt 1 - gospodarka wodna 1.7.) Przedmiot działalności zamawiającego: Środowisko SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: „Podniesienie odporności cybernetycznej Zakładu Wodociągów i Kanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodociągi” 2.4.) Identyfikator postępowania: ocds-148610-3e62ea11-03df-4b69-a988-71ebc0b8a67f 2.5.) Numer ogłoszenia: 2026/BZP 00427640 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-08 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Cyberbezpieczne Wodociągi 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie ud",
+            "source": "files/2026_BZP 00427640_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+            "source_sha256": "0ef9ecc4ee48e2975dafa556d43cc0756249fdc500c10bebd8e2d06ddb865326",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 665,
+            "corpus_end": 1970,
+            "match": "Cyber"
+          },
+          {
+            "text": "ści cybernetycznej Zakładu Wodociągów i Kanalizacji Sp. z o.o. w Tczewie w ramach projektu Cyberbezpieczne Wodociągi” 2.4.) Identyfikator postępowania: ocds-148610-3e62ea11-03df-4b69-a988-71ebc0b8a67f 2.5.) Numer ogłoszenia: 2026/BZP 00427640 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-08 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Cyberbezpieczne Wodociągi 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy Ogłoszenie nr 2026/BZP 00427640 z dnia 2026-09-08 2026-09-08 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy SEKCJA III – UDOSTĘPNIANIE DOKUMENTÓW ZAMÓWIENIA I KOMUNIKACJA 3.1.) Adres strony internetowej prowadzonego postępowania https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-3e62ea11-03df-4b69-a988-71ebc0b8a67f 3.2.) Zamawiający zastrzega dostęp do dokumentów zamówienia:",
+            "source": "files/2026_BZP 00427640_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0d97-710e-8a15-7d25-450001077861",
+            "source_sha256": "0ef9ecc4ee48e2975dafa556d43cc0756249fdc500c10bebd8e2d06ddb865326",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1224,
+            "corpus_end": 2529,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 34542259859,
+      "source_shard": 10,
+      "hot_ready_at": "2026-09-10T23:31:45.905563+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
       "candidate_id": "US-SAM:9f0eb87cc00646ea83b6b35579c074d3",
       "title": "Language Instructor Services for U.S. Embassy, Islamabad",
       "buyer": "STATE, DEPARTMENT OF",
@@ -5370,6 +5659,200 @@
       "spm_friction_signals": [
         "security-clearance"
       ],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+      "title": "Dostawa sprzętu informatycznego i urządzeń oraz oprogramowania w ramach projektu „Zwiększenie cyberbezpieczeństwa w Zakładzie Usług Komunalnych w Śliwicach”",
+      "buyer": "Zakład Usług Komunalnych",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+      "deadline": "2026-09-18T10:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 80,
+      "priority_score": 80,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-09-18T10:00:00+00:00",
+        "notice_deadline_date": "2026-09-18",
+        "authoritative_submission_date": "2026-09-18",
+        "submission_deadline_candidates": [
+          "2026-09-18"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-09-10",
+          "2026-09-18",
+          "2026-10-09",
+          "2026-10-17",
+          "2026-12-15"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "nych w projekcie\numowy.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-18 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-\n51e084e6a336\n8.3.) Termin otwarcia ofert: \n2026-09-18 12:15\n8.4.) Termin związania ofertą: \ndo 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliw"
+          },
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "onych w projekcie umowy.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-18 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336\n8.3.) Termin otwarcia ofert: 2026-09-18 12:15\n8.4.) Termin związania ofertą: do 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwości"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "context": "dnej z wymienionych w projekcie\numowy.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-18 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-\n51e084e6a336\n8.3.) Termin otwarcia ofert: \n2026-09-18 12:15\n8.4.) Termin związania ofertą: \ndo "
+          },
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "context": " PROCEDURA\n8.1.) Termin składania ofert: \n2026-09-18 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-\n51e084e6a336\n8.3.) Termin otwarcia ofert: \n2026-09-18 12:15\n8.4.) Termin związania ofertą: \ndo 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w "
+          },
+          {
+            "date": "2026-10-17",
+            "match": "2026-10-17",
+            "context": " 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-\n51e084e6a336\n8.3.) Termin otwarcia ofert: \n2026-09-18 12:15\n8.4.) Termin związania ofertą: \ndo 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie "
+          },
+          {
+            "date": "2026-12-15",
+            "match": "15\ngrudnia 2026",
+            "context": "ący przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie później niż do 15\ngrudnia 2026 roku.\nOgłoszenie nr 2026/BZP 00431937 z dnia 2026-09-10\n2026-09-10 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Dostawy\n\n=="
+          },
+          {
+            "date": "2026-09-10",
+            "match": "2026-09-10",
+            "context": "negocjacji: \nTak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie później niż do 15\ngrudnia 2026 roku.\nOgłoszenie nr 2026/BZP 00431937 z dnia 2026-09-10\n2026-09-10 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszen"
+          },
+          {
+            "date": "2026-09-10",
+            "match": "2026-09-10",
+            "context": " \nTak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie później niż do 15\ngrudnia 2026 roku.\nOgłoszenie nr 2026/BZP 00431937 z dnia 2026-09-10\n2026-09-10 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamó"
+          },
+          {
+            "date": "2026-10-09",
+            "match": "9/10/2026",
+            "context": "tekstowa\nPomoc kontekstowa\nWyszukiwarka\nMoje Konto\nZaloguj się\nZarejestruj się\n Jesteś na:\nStrona główna>Biuletyn Zamówień Publicznych>Szczegóły ogłoszenia\n2026/BZP 00431937/01\nPobierz pdf\nOgłoszenie o zamówieniu z dnia 9/10/2026\nZobacz powiązane ogłoszenia\nPrzejdź do postępowania\nOgłoszenie o zamówieniu\nDostawy\nDostawa sprzętu informatycznego i urządzeń oraz oprogramowania w ramach projektu „Zwiększenie cyberbezpieczeństwa w Zakładzie Usług Kom"
+          },
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "context": "jednej z wymienionych w projekcie umowy.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-18 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336\n8.3.) Termin otwarcia ofert: 2026-09-18 12:15\n8.4.) Termin związania ofertą: do 2026"
+          },
+          {
+            "date": "2026-09-18",
+            "match": "2026-09-18",
+            "context": "II – PROCEDURA\n8.1.) Termin składania ofert: 2026-09-18 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336\n8.3.) Termin otwarcia ofert: 2026-09-18 12:15\n8.4.) Termin związania ofertą: do 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w ok"
+          },
+          {
+            "date": "2026-10-17",
+            "match": "2026-10-17",
+            "context": "9-18 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336\n8.3.) Termin otwarcia ofert: 2026-09-18 12:15\n8.4.) Termin związania ofertą: do 2026-10-17\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie p"
+          },
+          {
+            "date": "2026-12-15",
+            "match": "15 grudnia 2026",
+            "context": "jący przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\nSEKCJA IX – POZOSTAŁE INFORMACJE\nTermin wykonania przedmiotu zamówienia: w okresie do 2 miesięcy od dnia podpisania umowy, nie później niż do 15 grudnia 2026 roku.\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramac"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 1,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/2026_BZP 00431937_01.pdf ===== Ogłoszenie o zamówieniu Dostawy Dostawa sprzętu informatycznego i urządzeń oraz oprogramowania w ramach projektu „Zwiększenie cyberbezpieczeństwa w Zakładzie Usług Komunalnych w Śliwicach” SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Zakład Usług Komunalnych 1.4) Krajowy Numer Identyfikacyjny: REGON 090460935 1.5) Adres zamawiającego 1.5.1.) Ulica: Czerska 2 1.5.2.) Miejscowość: Śliwice 1.5.3.) Kod pocztowy: 89-530 1.5.4.) Województwo: kujawsko-pomorskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL618 - Świecki 1.5.7.) Numer telefonu: 48523340065 1.5.9.) Adres poczty elektronicznej: zuk@sliwice.pl 1.5.10.) Adres strony internetowej zamawiającego: zuksliwice.naszb",
+            "source": "files/2026_BZP 00431937_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+            "source_sha256": "17ccbe28f64c721fcf1cb8077133778b35ce5d4c00a349fcc46b6ea372002555",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 832,
+            "match": "cyber"
+          },
+          {
+            "text": ".7.) Numer telefonu: 48523340065 1.5.9.) Adres poczty elektronicznej: zuk@sliwice.pl 1.5.10.) Adres strony internetowej zamawiającego: zuksliwice.naszbip.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samorządowy zakład budżetowy 1.7.) Przedmiot działalności zamawiającego: Ogólne usługi publiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa sprzętu informatycznego i urządzeń oraz oprogramowania w ramach projektu „Zwiększenie cyberbezpieczeństwa w Zakładzie Usług Komunalnych w Śliwicach” 2.4.) Identyfikator postępowania: ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336 2.5.) Numer ogłoszenia: 2026/BZP 00431937 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-10 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Krajowy Plan Odbudowy i Zwiększania Odporności finansowany z",
+            "source": "files/2026_BZP 00431937_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+            "source_sha256": "17ccbe28f64c721fcf1cb8077133778b35ce5d4c00a349fcc46b6ea372002555",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 678,
+            "corpus_end": 1983,
+            "match": "cyber"
+          },
+          {
+            "text": "owania: ocds-148610-07ea93fb-710b-4779-83d9-51e084e6a336 2.5.) Numer ogłoszenia: 2026/BZP 00431937 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-10 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Krajowy Plan Odbudowy i Zwiększania Odporności finansowany ze środków Instrumentu na Rzecz Odbudowy i Zwiększania Odporności Inwestycja C3.1.1. Cyberbezpieczeństwo – CyberPL, infrastruktura przetwarzania danych oraz optymalizacja infrastruktury służb państwowych odpowiedzialnych za bezpieczeństwo Cyberbezpieczeństwo - Cyberbezpieczne Wodociągi. Konkurs grantowy pn. “Cyberbezpieczne Wodociągi” Ogłoszenie nr 2026/BZP 00431937 z dnia 2026-09-10 2026-09-10 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Dostawy 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy SEKCJA III – UDOSTĘPNIANIE DOKUMENTÓW ZAMÓWIENIA I KO",
+            "source": "files/2026_BZP 00431937_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+            "source_sha256": "17ccbe28f64c721fcf1cb8077133778b35ce5d4c00a349fcc46b6ea372002555",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1417,
+            "corpus_end": 2722,
+            "match": "Cyber"
+          },
+          {
+            "text": "7ea93fb-710b-4779-83d9-51e084e6a336 2.5.) Numer ogłoszenia: 2026/BZP 00431937 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-10 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Krajowy Plan Odbudowy i Zwiększania Odporności finansowany ze środków Instrumentu na Rzecz Odbudowy i Zwiększania Odporności Inwestycja C3.1.1. Cyberbezpieczeństwo – CyberPL, infrastruktura przetwarzania danych oraz optymalizacja infrastruktury służb państwowych odpowiedzialnych za bezpieczeństwo Cyberbezpieczeństwo - Cyberbezpieczne Wodociągi. Konkurs grantowy pn. “Cyberbezpieczne Wodociągi” Ogłoszenie nr 2026/BZP 00431937 z dnia 2026-09-10 2026-09-10 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Dostawy 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy SEKCJA III – UDOSTĘPNIANIE DOKUMENTÓW ZAMÓWIENIA I KOMUNIKACJA 3.1.) Adres",
+            "source": "files/2026_BZP 00431937_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0f23-2b78-23a4-db89-6a0001e3d0f0",
+            "source_sha256": "17ccbe28f64c721fcf1cb8077133778b35ce5d4c00a349fcc46b6ea372002555",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1439,
+            "corpus_end": 2744,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 34542259859,
+      "source_shard": 10,
+      "hot_ready_at": "2026-09-10T23:31:45.905563+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
     },
     {
