@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-11T06:12:27.472974+00:00",
+  "updated_at": "2026-09-11T06:13:13.757537+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 34568586267,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 180,
+    "pending_before_visible_cap": 179,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -25,9 +25,9 @@
       "LOW": 33
     },
     "pending_by_portal": {
-      "TED": 89,
+      "TED": 90,
       "IRELAND_ETENDERS": 8,
-      "US_SAM": 17,
+      "US_SAM": 16,
       "WORLD_BANK": 4,
       "PL_EZAMOWIENIA": 7,
       "ZA_ETENDERS": 7,
@@ -65,9 +65,9 @@
       "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 89,
+      "TED": 90,
       "IRELAND_ETENDERS": 8,
-      "US_SAM": 17,
+      "US_SAM": 16,
       "WORLD_BANK": 4,
       "PL_EZAMOWIENIA": 7,
       "ZA_ETENDERS": 7,
@@ -137,12 +137,12 @@
     "by_spm_fit_band": {
       "HOT": 3,
       "GOOD": 86,
-      "MAYBE": 217,
-      "LOW": 2048
+      "MAYBE": 216,
+      "LOW": 2049
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 2194,
-    "cross_portal_duplicates_collapsed": 4
+    "cross_portal_duplicates_collapsed": 6
   },
   "true_pending_before_hot_cap": 2354,
   "overflow_beyond_hot_160": 2194,
@@ -152,10 +152,10 @@
   "provenance_overrides_applied_in_window": 15,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 140,
-    "adjudication_rows_scanned_this_refresh": 1110,
-    "gate_rows_seen_this_refresh": 361,
-    "authenticity_rows_seen_this_refresh": 20,
+    "shard_files_scanned_this_refresh": 162,
+    "adjudication_rows_scanned_this_refresh": 1285,
+    "gate_rows_seen_this_refresh": 409,
+    "authenticity_rows_seen_this_refresh": 24,
     "source_runs_seen_this_refresh": [
       34568586267,
       34550251788,
@@ -164,7 +164,9 @@
       34506422107,
       34483341337,
       34458961251,
-      34437716852
+      34437716852,
+      34410562287,
+      34397977134
     ]
   },
   "healthy": true,
