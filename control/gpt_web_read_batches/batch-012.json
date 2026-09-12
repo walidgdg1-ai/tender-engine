@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-12T13:15:00.872190+00:00",
-  "source_inbox_updated_at": "2026-09-12T13:15:00.221909+00:00",
+  "generated_at": "2026-09-12T13:28:27.402824+00:00",
+  "source_inbox_updated_at": "2026-09-12T13:28:26.225601+00:00",
   "latest_source_dce_run_id": 34695447769,
   "batch_index": 12,
   "start_rank": 121,
@@ -38,9 +38,9 @@
         "release_tag": "dce-harvest-33783853424"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 1295,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
@@ -51,43 +51,212 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19846217",
-      "title": "Junta de Gobierno del Ayuntamiento de Vigo",
+      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20305179",
+      "title": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
       "buyer": null,
       "portal": "ES_PLACSP",
-      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dvq6ZxgXXibECtSnloz%2BZQ%3D%3D",
-      "deadline": "2026-09-24T00:00:00+00:00",
-      "estimated_value": "1867318.19",
+      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j9rBCQI%2FoRxQFSeKCRun4Q%3D%3D",
+      "deadline": null,
+      "estimated_value": "23906.52",
       "currency": "EUR",
       "review_stage": "DCE_AUTHENTICITY",
       "gate_readiness": false,
-      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
       "evidence_gate_coverage": 8,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
+      "spm_post_dce_score": 23,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "cloud-services"
+      ],
       "spm_friction_signals": [],
       "deadline_authority_status": "MISSING",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 32411476272,
-      "source_shard": 7,
-      "review_key": "fdeeb0386e02421e7d6ecedbc39480dc16167d24f9bdb838469ade8737d8d444",
+      "source_dce_run_id": 32090536692,
+      "source_shard": 3,
+      "review_key": "5f77862b307003e172bc587f0199f7abd6a64353f9449ea27e95eebb86107276",
       "artifact_locator": {
-        "dce_run_id": 32411476272,
-        "shard": 7,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19846217",
-        "release_tag": "dce-harvest-32411476272"
+        "dce_run_id": 32090536692,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20305179",
+        "release_tag": "dce-harvest-32090536692"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 4,
+        "text_chars": 422626,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 15,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "l trigésima segunda de la LCSP: • Órgano de contratación: Dirección General de Racionalización y Centralización de la Contratación - E04962703. • Órgano responsable del contrato específico (DIR3): Departamento de Informática Tributaria: EA0030945 • Órgano gestor (DIR3): Servicio de Gestión Económica AEAT: EA0031002 • Unidad tramitadora (DIR3): Departamento de Informática Tributaria: EA0030945 • Órgano administrativo con competencias en materia de contabilidad pública (DIR3): Subdirección General de Presupuestos y …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ión: Dirección General de Racionalización y Centralización de la Contratación - E04962703. • Órgano responsable del contrato específico (DIR3): Departamento de Informática Tributaria: EA0030945 • Órgano gestor (DIR3): Servicio de Gestión Económica AEAT: EA0031002 • Unidad tramitadora (DIR3): Departamento de Informática Tributaria: EA0030945 • Órgano administrativo con competencias en materia de contabilidad pública (DIR3): Subdirección General de Presupuestos y Gestión Financiera: EA0031010 Asimismo, en el ámbito …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ción , habiendo sido realizada la certificación mediante metodología reconocida por el Organismo de Certificación del Esquema Nacional de Evaluación y Certificación de Seguridad de las Tecnologías de la Información1; o bien • que el programa esté incluido en el Catálogo de Productos y Servicios de Seguridad de las Tecnologías de la Información y Comunicación (CPSTIC) elaborado por el CCN; o bien • que el programa esté incluido en otro catálogo considerado equivalente por el Centro Criptológico Nacional; o bien • q…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "PAL \"SERVICIOS MUNICIPALES DE GRANADILLA DE ABONA S. L.\", Empresa Municipal de Aguas y Alcantarillado, S.A. Empresa Municipal de Innovación y Transporte Urbano de las Rozas de Madrid, S.A. Empresa Municipal de la Vivienda y Suelo de Madrid, S.A. Empresa Municipal de Recaudación de San Bartolomé de Tirajana, S.A. Empresa Municipal de Transportes Urbanos, S.A. de Palma de Mallorca Empresa Provincial De Residuos Y Medio Ambiente, S.A (Dip. Córdoba) Empresa Pública Bahía De Mazarrón Ingeniería Urbana 2007. S.L.U. Enti…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "icipal de Aguas y Alcantarillado, S.A. Empresa Municipal de Innovación y Transporte Urbano de las Rozas de Madrid, S.A. Empresa Municipal de la Vivienda y Suelo de Madrid, S.A. Empresa Municipal de Recaudación de San Bartolomé de Tirajana, S.A. Empresa Municipal de Transportes Urbanos, S.A. de Palma de Mallorca Empresa Provincial De Residuos Y Medio Ambiente, S.A (Dip. Córdoba) Empresa Pública Bahía De Mazarrón Ingeniería Urbana 2007. S.L.U. Entidad Metropolitana de Servicios Hidráulicos Entidad Publica Empresaria…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": ", en su caso (conforme a la legislación española), sean exigibles para la realización de la actividad o prestación que constituya el objeto del sistema dinámico. 7.2.- Prohibiciones de contratar No podrán contratar con el sector público las personas físicas o jurídicas en quienes concurra alguna de las circunstancias previstas en el artículo 71 de la LCSP. 7.3.- Criterios y requisitos mínimos de solvencia económica y financiera y técnica o profesional (art. 74 LCSP) 7.3.1.- Requisitos específicos de solvencia econ…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "rsonas físicas o jurídicas en quienes concurra alguna de las circunstancias previstas en el artículo 71 de la LCSP. 7.3.- Criterios y requisitos mínimos de solvencia económica y financiera y técnica o profesional (art. 74 LCSP) 7.3.1.- Requisitos específicos de solvencia económica y financiera El candidato deberá acreditar la solvencia económica y financiera (art. 87 LCSP), mediante el volumen anual de negocios referido al mejor ejercicio dentro de los tres últimos disponibles, en función de las fechas de constitu…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "D6. El candidato propuesto como mejor clasificado deberá acreditar que el proveedor de nube está en disposición de suscribir el acto jurídico vinculante de conformidad al artículo 28.3 del Reglamento (UE) 2016/679 (RGPD) durante el período de vigencia de las licencias en su condición de encargado del tratamiento. A estos efectos, el licitador mejor clasificado deberá aportar la declaración responsable que figura en el Anexo V y que debe incluir información suficiente del proveedor de nube de los suministros. 6 La …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "omo mejor clasificado deberá acreditar que el proveedor de nube está en disposición de suscribir el acto jurídico vinculante de conformidad al artículo 28.3 del Reglamento (UE) 2016/679 (RGPD) durante el período de vigencia de las licencias en su condición de encargado del tratamiento. A estos efectos, el licitador mejor clasificado deberá aportar la declaración responsable que figura en el Anexo V y que debe incluir información suficiente del proveedor de nube de los suministros. 6 La Comisión Europea ha adoptado…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "Coordinación Informática ~ 4 ~ C/ Santa María Magdalena, 16 28016 MADRID o en su caso, la instalación, configuración y puesta en marcha del producto ofertado no suponen ningún sobrecoste ni sobreesfuerzo para la AEAT con respecto a las del producto solicitado. La cuantificación del licenciamiento que se solicita es: • Doce (12) licencias Adobe Creative Cloud versión 2026 del tipo FRL, asociadas al contrato VIP número: 70526AB7D0C129AE1BEA, o equivalente. Part Number: 30002599CC02A12 - Creative Cloud for enterprise…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "esos de edición de vídeo. 4. Sincronización automática de audio y vídeo. 5. Transcripción automática de voz a subtítulos. 6. Creación de imágenes y elementos gráficos a partir de descripciones de lenguaje. 7. Relleno generativo de zonas en vídeo e imagen. 8. Creación automatizada de diferentes variantes de una propuesta de diseño. I.2.- REQUISITOS NO FUNCIONALES DE LOS PROGRAMAS A SUMINISTRAR CUANTIFICACIÓN DEL LICENCIAMIENTO ➢ Renovar la suscripción de 1 2 licencias ADOBE CREATIVE CLOUD versión 2026 (Creative Clo…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "LCSP. La suscripción de las presentes licencias se abonará en un único pago tras la entrega, en función de la prestación realmente efectuada. 10.2.- CONDICIONES DE PRESENTACIÓN DE LAS FACTURAS ☒ Organismo incluido en el ámbito subjetivo, art 229.2 LCSP. Las facturas se presentarán obligatoriamente en formato electrónico firmadas con firma electrónica avanzada basada en un certificado reconocido. En concreto, las facturas electrónicas que se remitan a las Administraciones Públicas se ajustarán al formato estructura…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ión. De conformidad con el citado Reglamento de Ejecución, los candidato s deberán cumplimentar los siguientes apartados: - Parte I: Información sobre el procedimiento de contratación1 y el poder adjudicador o la entidad adjudicadora”. - Parte II: Información sobre el operador económico”. - “Parte III: Motivos de exclusión”. - “Parte IV: Criterios de selección”. De este apartado únicamente se cumplimentará la “sección α: Indicación global relativa a todos los criterios de selección”. - “Parte VI: Declaraciones fin…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ral de Planificación y Coordinación Informática ~ 4 ~ C/ Santa María Magdalena, 16 28016 MADRID o en su caso, la instalación, configuración y puesta en marcha del producto ofertado no suponen ningún sobrecoste ni sobreesfuerzo para la AEAT con respecto a las del producto solicitado. La cuantificación del licenciamiento que se solicita es: • Doce (12) licencias Adobe Creative Cloud versión 2026 del tipo FRL, asociadas al contrato VIP número: 70526AB7D0C129AE1BEA, o equivalente. Part Number: 30002599CC02A12 - Creati…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "tinatario son los siguientes2: 2.5- TRATAMIENTOS DE DATOS PERSONALES PARA LOS PROGRAMAS EN MODALIDAD DE NUBE Si el licitador incluye en su oferta programas puestos a disposición en modalidad nube: ☐ Los programas objeto del suministro no van a procesar ni almacenar datos de carácter personal, por lo que no existe tratamiento de datos y no son de aplicación ni la Ley Orgánica 3/2018 ni la Ley Orgánica 7/2021. No aplica el apartado 9.4 de este documento de invitación. ☐ Los programas objeto del suministro deben proc…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -510,9 +679,9 @@
         "release_tag": "dce-harvest-34506422107"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 3,
+        "text_chars": 7103,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
@@ -552,9 +721,9 @@
         "release_tag": "dce-harvest-34695447769"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 3,
+        "text_chars": 21262,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
@@ -596,14 +765,207 @@
         "release_tag": "dce-harvest-34437716852"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 39845,
+        "attributed_compact_snippets": 17,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "RTIFICATE / SWORN AFFIDAVID (FOR EMES & QSEs) MUST BBE SUBMITTED IN ORDER TO QUALIFY FOR POINTS CLAIMED] Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 4 of 8 ARE YOU THE ACCREDITED REPRESENTATIVE IN SOUTH AFRICA FOR THE GOODS /SERVICES /WORKS OFFERED? Yes No [IF YES ENCLOSE PROOF] ARE YOU A FOREIGN BASED SUPPLIER FOR THE GOODS /SERVICES /WORKS OFFERED? Yes No [IF YES, ANSWER THE QUESTIONNAIRE BELOW] QUESTIONNAIRE TO BIDDING FOREIG…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/RFQ 4646.pdf ===== Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 1 of 8 RFQ Number: 4646/26 Appointment of a Service Provider to Provide Online Digital Marketing Training for 3 Marketing Employees. Closing Date and Time: Validity Period: 60 Calendar days after the closing date. BRIEFING SESSION Date: N/A Time: N/A Venue: N/A Compulsory: N/A BID DOCUMENTS MUST BE SUBMITTED ELECTRONICALLY TO THE FOLLOWING EMAIL ADD…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "days after the closing date. BRIEFING SESSION Date: N/A Time: N/A Venue: N/A Compulsory: N/A BID DOCUMENTS MUST BE SUBMITTED ELECTRONICALLY TO THE FOLLOWING EMAIL ADDRESS: RFQsubmissions@weathersa.co.za ENQUIRIES: Any clarification required by a bidder regarding the meaning or interpretation of the document or any aspect concerning the submission is to be requested in writing from: SCM: Acquisition Department South African Weather Service Email: rfq@weathersa.co.za Template: Request for quotation up to R500 000 - …",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "Document Template Reference: SCM-DEM-QAP-TEP-005 Page 3 of 8 PART A INVITATION TO BID YOU ARE HEREBY INVITED TO BID FOR REQUIREMENTS OF SOUTH AFRICAN WEATHER SERVICE 1 SUPPLIER INFORMATION The following section must be completed by the bidder. Failure to do so may result in the offer being rejected. NAME OF BIDDER POSTAL ADDRESS STREET ADDRESS TELEPHONE NUMBER CODE NUMBER CELLPHONE NUMBER FACSIMILE NUMBER CODE NUMBER E-MAIL ADDRESS VAT REGISTRATION NUMBER SUPPLIER COMPLIANCE STATUS TAX COMPLIANCE SYSTEM PIN: OR CE…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "following section must be completed by the bidder. Failure to do so may result in the offer being rejected. NAME OF BIDDER POSTAL ADDRESS STREET ADDRESS TELEPHONE NUMBER CODE NUMBER CELLPHONE NUMBER FACSIMILE NUMBER CODE NUMBER E-MAIL ADDRESS VAT REGISTRATION NUMBER SUPPLIER COMPLIANCE STATUS TAX COMPLIANCE SYSTEM PIN: OR CENTRAL SUPPLIER DATABASE No: MAAA B-BBEE STATUS LEVEL VERIFICATION CERTIFICATE TICK APPLICABLE BOX] Yes No B-BBEE STATUS LEVEL SWORN AFFIDAVIT [TICK APPLICABLE BOX] Yes No [A B-BBEE STATUS LEVEL…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "and shall not be obliged to return any proposal. 1.13. The bidders shall indemnify the South African Weather Service against all third -party claims of infringement of patent, trademark, or industrial design rights arising from the use of the goods or any part thereof by the South African Weather Service. 1.14. The South African Weather Service reserves the right to request a bidders latest audited financial statements prior to the award of the bid in order to ascertain financial stability of the bidder. Failure b…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ders shall indemnify the South African Weather Service against all third -party claims of infringement of patent, trademark, or industrial design rights arising from the use of the goods or any part thereof by the South African Weather Service. 1.14. The South African Weather Service reserves the right to request a bidders latest audited financial statements prior to the award of the bid in order to ascertain financial stability of the bidder. Failure by a bidder to provide such information upon request may result…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "vice Email: rfq@weathersa.co.za Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 2 of 8 Contents Invitation to Bid …………………………………………………………………………..........…………… Annexure A General Conditions of Contract (GCC) …………………………………………………………………. Annexure B Bidder’s Disclosure ….…..……………………………………………………………………….............. Annexure C Preference points claim form in terms of the Preferential Procurement Regulations 2022….. Annexure F Pricing Sched…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "der’s Disclosure ….…..……………………………………………………………………….............. Annexure C Preference points claim form in terms of the Preferential Procurement Regulations 2022….. Annexure F Pricing Schedule …………………………………………………………………………………….…….. Annexure G Specifications / Terms of Reference …………………………………………………………………… Annexure H POPIA Supplier Notice and Consent form.…………………………………………………………… Annexure i Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Pag…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "here is no longer a need for the goods or services requested; 1.8.2. Funds are no longer available to cover the total envisaged expenditure; 1.8.3. No acceptable tenders are received; Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 6 of 8 1.8.4. Due to material irregularities in the tender process. 1.9. Any effort or attempt by a bidder to influence the award decision in any matter may result in the rejection of the bid. 1.10. Costs…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "such information upon request may result in the rejection of the bid submitted by the bidder. 1.15. Subcontracting: Tenderers or contractors must submit proof of subcontracting between the main tenderer and the subcontractor. Proof of subcontracting arrangement may include a subcontracting agreement between the main tenderer and the subcontractor. 1.16. The SAWS reserves the right to request final presentation only to the short listed bidders to the evaluation committee. The shortlisted service providers will be s…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "reserves the right to require of a tenderer, either before a tender is adjudicated or at any time subsequently, to substantiate any claim in regard to preferences, in any manner required by the organ of state. 2. DEFINITIONS (a) “tender” means a written offer in the form determined by an organ of state in response to an invitation to provide goods or services through price quotations, competitive tendering process or any other method envisaged in legislation; (b) “price” means an amount of money tendered for goods…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Responses to this RFQ must be submitted before the closing date and time indicated on the cover page of the RFQ. 1.7. The South African Weather Service (SAWS) is not bound to accept any of the offers submitted and reserves the right to: 1.7.1 Reject bids that are not according to Specifications / Terms of Reference; 1.7.2 Reject bids with incomplete standard bidding documents (SBD’s); 1.7.3 Request further information from any bidder after the closing date of the bid for clarity purposes; 1.7.4 Conduct site inspec…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "m: SCM: Acquisition Department South African Weather Service Email: rfq@weathersa.co.za Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 2 of 8 Contents Invitation to Bid …………………………………………………………………………..........…………… Annexure A General Conditions of Contract (GCC) …………………………………………………………………. Annexure B Bidder’s Disclosure ….…..……………………………………………………………………….............. Annexure C Preference points claim form in terms of the Preferential …",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/RFQ 4646.pdf ===== Template: Request for quotation up to R500 000 - Annexure A Public Document: Document Template Reference: SCM-DEM-QAP-TEP-005 Page 1 of 8 RFQ Number: 4646/26 Appointment of a Service Provider to Provide Online Digital Marketing Training for 3 Marketing Employees. Closing Date and Time: Validity Period: 60 Calendar days after the closing date. BRIEFING SESSION Date: N/A Time: N/A Venue: N/A Compulsory: N/A BID DOCUMENTS MUST BE SUBMITTED ELECTRONICALLY TO THE FOLLOWING EMAIL ADD…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r consideration. 1.2. All bids must be submitted on the official forms provided – (not to be re -typed) or in the manner prescribed in the bid document. 1.3. This bid is subject to the Preferential Procurement Policy Framework Act, 2000 , and the Preferential Procurement Regulations, 2022, the General Conditions of Contract (GCC) and, if applicable, any other Special Conditions of Contract (SCC). 1.4. The successful bidder will be required to fill in and sign a written contract form (SBD7). 1.5. Bidders are advise…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Office Park, 54 Maxwell Drive, Woodmead, Johannesburg, 2191. (iv) Supplier may withdraw his, her, its Consent so long as they provide SAWS with a “withdrawal of consent notice”, through the Information Officer. (v) Supplier may request for correction or deletion of personal information or destruction or deletion of record of personal information. 8. Your obligations You may only send us your own personal information or the information of another data subject where you have their permission to do so. 9. Security We…",
+            "source": "files/RFQ 4646.pdf",
+            "source_url": "https://www.etenders.gov.za/home/Download?blobName=c254dc35-a507-455e-846e-a774e1e9fd49.pdf&downloadedFileName=RFQ%204646.pdf",
+            "source_sha256": "a203f2908fb909dce9c565c1c4c0754b15186afe0a49ef50aec6b313097575d2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -638,14 +1000,323 @@
         "release_tag": "dce-harvest-32856817095"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 4,
+        "text_chars": 697714,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "Development Activities 1.2.2.1 Invitation to Advance to Phase 2: Prototype Development The objective of Phase 2 is to continue the R&D efforts of the proposed solution from Phase 1 with the goal of developing, testing and delivering a prototype to Canada for the selected Challenge. Small Businesses that have completed their Phase 1 contract and where the innovation remains of interest to Canada may receive an invitation, by way of a request for documentation, to advance to Phase 2 at the sole discretion of Canada.…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "forward with further research and development, however, small businesses may be matched with another Government of Canada Organization under the Testing Stream. Small businesses should not have any expectations of being offered the opportunity to submit a proposal. In other words, there is no guarantee of participation in Testing Stream: Prototype Testing. Canada will not provide justifications to Suppliers as to why an innovation was not selected to submit a proposal for Testing Stream: Prototype Testing. Innovat…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "framework of the ISC Program. Innovations with a proposed exit TRL of 7 or higher may require departmental testing and a Post-Test Report. 4.5.2 Financial Capability The Contracting Authority may request financial information to verify the Offeror’s capacity to undertake the Work. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 26 of 146 If a Offeror fails to demonstrate adequate financial resources to complete the Work, a contract will not be awarded. The following financial documents may b…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "liverables to Canada. The SOW may be developed to ensure Canada’s needs are met within the framework of the ISC Program. Innovations with a proposed exit TRL of 7 or higher may require departmental testing and a Post-Test Report. 4.8.1.2 Financial Capability The Contracting Authority may request financial information to verify the Supplier’s capacity to undertake the Work. If a Supplier fails to demonstrate adequate financial resources to complete the Work, a contract will not be awarded. The following financial d…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "e considered commercial and therefore CCFTA is applicable for any resulting PTC Contracts. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 9 of 146 Comprehensive and Progressive Agreement for Trans-Pacific Partnership Research and Development services are excluded from the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP) as per Chapter 15 (Government Procurement) under Annex 15-A, Section E.1. This procurement is set aside from CPTPP in accordance with Annex 15-A…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Proposals (CFP) Solicitation or Bid Solicitation Proposal Bid or Offer All instructions, clauses and conditions identified in the CFP solicitation by number, date and title are set out in the Standard Acquisition Clauses and Conditions Manual ( Archived - Standard Acquisition Clauses and Conditions Manual | CanadaBuys) issued by PWGSC. Offerors who submit a proposal agree to be bound by the instructions, clauses and conditions of the CFP solicitation and accept the clauses and conditions of the resulting contract.…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": ".............................................................. 16 2.4 Enquiries – Solicitation Period .................................................................................................... 16 2.5 Contracting Authority ................................................................................................................. 16 2.6 Applicable Laws ........................................................................................................................... 17 2.7 Communications Noti…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "......................................................... 18 3.1 Proposal Submission ................................................................................................................... 18 3.2 Proposal Submission Difficulties ................................................................................................. 18 3.3 Technical Proposal ...................................................................................................................... 19 3.4 Financial Proposal .........…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "4 Page 123 of 146 Appendices to the ISC Final Report – Phase 1 (Proof of feasibility): Appendix A: Key Terms [Define any key terms and acronyms used in the report. There is a 5 page limit for Appendix A.] Appendix B: Supplemental Data [Raw data and detailed computations used in the report development. Other referenced reports must be included in the References section. Company promotional materials and other similar unrelated information must not be included. There is a 5-page limit for Appendix B.] Appendix C: Ph…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "onyms used in the report. There is a 5 page limit for Appendix A.] Appendix B: Supplemental Data [Raw data and detailed computations used in the report development. Other referenced reports must be included in the References section. Company promotional materials and other similar unrelated information must not be included. There is a 5-page limit for Appendix B.] Appendix C: Phase 1 Project Implementation Team [Describe the R&D performed by the project implementation team. List the team members, their roles, spec…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "in the Statement of Work, to Identified Users across Canada, including areas subject to CLCA(s). Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 73 of 146 2.3. Conduct of the Work. a. Performance. Subject to section “Suspension of the Work”, the Contractor agrees to fulfill all obligations in full compliance with the requirements and Specifications of the Contract, regardless of any potential dispute with Canada. The Contractor must: i. perform the Work diligently and efficiently; ii. except…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "’s shipping practice. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 76 of 146 5. Transportation. 5.1. Transportation Costs and Carrier Liability. a. Transportation Costs. If transportation costs are payable by Canada under the Contract and the Contractor makes the transportation arrangements, the Contractor must ship using the most direct and economical means consistent with normal shipping practice. The Contractor must show these costs as a separate item on the invoice. b. Transportation …",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "subsidiaries that are either in or outside of Canada. Under the Innovative Solutions Canada program, an \"affiliate\" relationship exists in the following situations:  An affiliate is a corporation that is a subsidiary of another corporation;  If a corporation has two subsidiary corporations, the two subsidiaries are affiliates of each other; or  If two corporations are controlled by the same individual or business, the two corporations are also affiliates of each other. A subsidiary i s understood to be a busine…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "on Government Procurement (WTO-AGP) as per Appendix I, Annex 5 as they are not one of the applicable commodities listed in this agreement. This procurement is set aside from WTO-AGP in accordance with Appendix I, Canada – General Notes – Annex 7, article 2, which states: This Agreement does not apply to set asides for small and minority businesses. 1.6 Canadian Content The requirement is conditionally limited to Canadian goods and services. Offerors must complete the Canadian Content certification in Attachment 7 …",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "........................... 58 ATTACHMENT 4 – ADVANCEMENT TO TESTING STREAM: PROTOTYPE TESTING - EXAMPLE SUBMISSION FORM .............................................................................................................................................. 62 ATTACHMENT 5 – PATHWAY TO COMMERCIALIZATION ENTRY CRITERIA ........................................... 69 ATTACHMENT 6 – DRAFT RESULTING CONTRACT CLAUSES ................................................................ 72 ANNEX 1 TO ATTACHMENT 6 – CONT…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ting Stream: Prototype Testing. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 7 of 146 Businesses must still meet the Eligibility Criteria in 1.4 to be considered for advancement into Testing Stream: Prototype Testing and must meet all Screening Indicators in Attachment 4. 1.2.2.3 Pathway to Commercialization The Pathway to Commercialization (PTC) component is an opportunity for companies that have a market- ready innovation developed under the ISC program to sell that innovation to the Go…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "owing framework: (a) Eligibility: Offerors must continue to meet Program Eligibility. (b) Basis of Selection: Strength of Phase 2 Final Report. (c) Funding: Contracts will be funded by a Government of Canada Organization interested in purchasing the Innovation for further testing. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 33 of 146 (d) Maximum Contract Dollar value : The maximum contract value will respect the limits of the maximum per Contract amounts under the initial ISC Testing Str…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "hase 2 Final Report. (c) Funding: Contracts will be funded by a Government of Canada Organization interested in purchasing the Innovation for further testing. Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 33 of 146 (d) Maximum Contract Dollar value : The maximum contract value will respect the limits of the maximum per Contract amounts under the initial ISC Testing Stream Contract as follows: o Standard Component: $1,100,000.00 CAD (Applicable Taxes, shipping and Travel and Living expenses…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "anada’s (ISED) Innovative Solutions Canada (ISC) program and participating departments, seeking to purchase innovative solutions to address a wide range of challenges facing federal departments and agencies. The purpose of this CFP is to create various pools of potential solutions that Canada may select from to address the challenges. Pools created as a result of Challenge Stream entry can be utilized by any participating department. This CFP will be published on an ongoing basis for PWGSC to post departments chal…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ols, Tracking and Oversight Evaluation Schema (Point-Rated) Describe the financial controls, tracking and oversight that will be used to manage the funds throughout Phase 1. Offerors should indicate if an individual or firm will be managing the funds and provide their credentials and/or relevant experience. A good financial control in R&D refers to effective management and oversight of financial resources allocated to R&D activities, with the goal of maximising the return on investment and ensuring funds are used …",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": ".................................................................. 34 7.2 Objective ....................................................................................................................................... 34 7.3 Entry Period ................................................................................................................................... 34 7.4 Framework ..................................................................................................................................…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Framework .................................................................................................................................... 34 Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 4 of 146 ATTACHMENT 1 - EVALUATION CRITERIA - CHALLENGE STREAM ENTRY – PHASE 1 ............................ 36 Part 1: Phase 1 - Mandatory Criteria ...................................................................................................... 36 Part 2: Phase 1 - Point-Rated Criteria .........…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "...................................................................................................................... 34 7.3 Entry Period ................................................................................................................................... 34 7.4 Framework .................................................................................................................................... 34 Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 4 of 146 ATTACHMENT 1 - …",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "..................................... 34 Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 4 of 146 ATTACHMENT 1 - EVALUATION CRITERIA - CHALLENGE STREAM ENTRY – PHASE 1 ............................ 36 Part 1: Phase 1 - Mandatory Criteria ...................................................................................................... 36 Part 2: Phase 1 - Point-Rated Criteria ..................................................................................................... 41 ATTACHMEN…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/isc-call-for-proposals-004-en578-24isc4.pdf ===== Innovative Solutions Canada EN578-24ISC4 – Call for Proposals 004 Page 1 of 146 Innovative Solutions Canada Program Call for Proposals – 004 Date: June 26, 2024 Solicitation No.: EN578-24ISC4 Closing date: Please refer to the individual Challenge tender notices on https://canadabuys.canada.ca/en. Proposal submission details are included in this Call for Proposals document. Issuing Office: Public Works and Government Services Canada Business, Techn…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "(ISC) program and participating departments, seeking to purchase innovative solutions to address a wide range of challenges facing federal departments and agencies. The purpose of this CFP is to create various pools of potential solutions that Canada may select from to address the challenges. Pools created as a result of Challenge Stream entry can be utilized by any participating department. This CFP will be published on an ongoing basis for PWGSC to post departments challenges. Details related to each challenge, …",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ng Contract Negotiations. 1.7 Conflict of Interest. A Offeror, its subcontractor(s) or any of their agent(s) directly or indirectly involved in the performance of the Work and/or in the production of the deliverables under any resulting Contract will not be precluded, as a result of participation in this CFP, from bidding on any potential future bid solicitation related to the production or exploitation of any concept or prototype developed or delivered under that Contract. 1.8 Potential Conditions The following m…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ict of Interest. A Offeror, its subcontractor(s) or any of their agent(s) directly or indirectly involved in the performance of the Work and/or in the production of the deliverables under any resulting Contract will not be precluded, as a result of participation in this CFP, from bidding on any potential future bid solicitation related to the production or exploitation of any concept or prototype developed or delivered under that Contract. 1.8 Potential Conditions The following may apply to the resulting contract(…",
+            "source": "files/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_url": "https://canadabuys.canada.ca/sites/default/files/webform/tender_notice/41135/isc-call-for-proposals-004-en578-24isc4.pdf",
+            "source_sha256": "74821908d5d6ddbeacf732b97140aaddc101626472f798927949875f98b2a9dc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -680,14 +1351,235 @@
         "release_tag": "dce-harvest-32093332367"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 152,
+        "text_chars": 1529760,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 20,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "esitab välismaine ettevõte? Kui jah, siis palun esitage koos pakkumusega eeltoodud isikute osas kõrvaldamise aluste puudumist tõendavad dokumendid (kriminaalkaristuste puudumist kinnitav tõend ettevõtte ja esindajate kohta, maksuvõlgade puudumist kinnitav tõend). Eeltoodud tõendite esitamine ei ole kohustuslik, kuid eduka pakkuja puhul nõuab Hankija eeltoodud tõendite esitamist pakkumuste menetluse faasis. (Raadionupp valikutega \"Jah/Ei\") EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD. Pakkuja kinnitab, et ta ei …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku juhiste alusel. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS (EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas. Küsimused ettevõtjale: 1. Pakkuja kinnitab, et ta ei k…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "/xs:attribute> <xs:attribute ref=\"pc:EntityName\"></xs:attribute> <xs:attribute ref=\"pc:SystemInstanceName\"></xs:attribute> <xs:attribute ref=\"pc:AssociationName\"></xs:attribute> </xs:complexType> </xs:element> <xs:attribute name=\"EntityNamespace\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"EntityName\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"SystemInstanceName\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"AssociationName\" type=\"xs:string\"></xs:attribute> <xs:element name=\"BDCEntity\"> <…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ibute> <xs:element name=\"BDCEntity\"> <xs:complexType> <xs:sequence> <xs:element ref=\"pc:EntityDisplayName\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityInstanceReference\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityId1\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityId2\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityId3\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityId4\" minOccurs=\"0\"></xs:element> <xs:element ref=\"pc:EntityId5\" minOccurs=\"0\"></xs:element> </xs:sequence> <…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "be 63 bars at 0 degrees Celsius, if in this document otherwise stated. As the transmission pipeline constitutes critical infrastructure, all related components shall comply with high quality and manufacturing standards. 1.5. All the components subject to this procurement shall be of high quality, and the latest applicable industry’s best practices and standards shall be applied. 1.6. All the hose assembly components shall feature quick connection capabilities. It shall be possible to assemble the hose line without…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "H-SSKV couplings. 1.8. All products shall be packed in a manner, that package has no protruding parts. 1.9. Below is cut out drawing of Quik-Coupling System MH-SSKV. Design basics Medium: Natural gas. Materials: Carbon steel and/or Stainless steel. Nominal diameter: DN100 (DN125) Inner diameter: 90 mm as minimum. Design Temperature (DT): -35 … +55 deg. Celsius as minimum. Design Pressure (DP) at DT: -1 … 50 bar(g) as minimum. DP at 0 deg. Celsius: -1... 63 bar(g) as minimum. Velocity of medium: 50 m/s as minimum. …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "chemeClr val=\"accent1\"/></a:fillRef><a:effectRef idx=\"1\"><a:schemeClr val=\"accent1\"/></a:effectRef><a:fontRef idx=\"minor\"><a:schemeClr val=\"tx1\"/></a:fontRef></a:style></a:lnDef></a:objectDefaults><a:extraClrSchemeLst/></a:theme> ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/theme/theme/themeManager.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <a:themeManager xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "hemeClr val=\"accent1\"/></a:effectRef><a:fontRef idx=\"minor\"><a:schemeClr val=\"tx1\"/></a:fontRef></a:style></a:lnDef></a:objectDefaults><a:extraClrSchemeLst/></a:theme> ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/theme/theme/themeManager.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <a:themeManager xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"/> ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacke…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "l=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/><w:right w:val=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/></w:divBdr></w:div><w:div w:id=\"1921331002\"><w:bodyDiv w:val=\"1\"/><w:marLeft w:val=\"0\"/><w:marRight w:val=\"0\"/><w:marTop w:val=\"0\"/><w:marBottom w:val=\"0\"/><w:divBdr><w:top w:val=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/><w:left w:val=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/><w:bottom w:val=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/><w:right w:val=\"none\" w:sz=\"0\" w:space=\"0\" w:color=\"auto\"/></w:divBdr></w…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ch hose assembly shall include all needed sealing elements and clamping shell 1 pc. Insulation joint Primary design code: EN 13445. Man material: Stainless steel AISI 304 as minimum or equal. Skid mounted / supporting legs. Electrical resistance: 100 kΩ as minimum. Dielectric strength: 5,000 V as minimum. Connection 1: MH-SSKV DN125 PN100 male. Connection 2: MH-SSKV DN125 PN100 female. Each insulation joint assembly shall include all needed sealing elements and clamping shell 1 pc. Adapters Primary design code: EN…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "esting (VT) and 100% radiographic (RT) or ultrasonic testing (UT). Welding acceptance criterion visually is ISO 5817 level B. All of assemblies are subject of pressure testing. Documentation The following documentation shall be provided within scope of Goods delivery as minimum: PED Conformity assessment, if applicable PED declaration of conformity for hoses (not for SSKV) Pressure test certificate Pictures of pressure tests Welding documents Pressure retaining parts certificates EN 10204-3.1 Inspection and test r…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "yle w:val=\"FontStyle17\" /><w:rFonts w:ascii=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\" /><w:lang w:eastAsia=\"en-US\" /></w:rPr><w:t>If EU</w:t></w:r><w:r w:rsidRPr=\"00296918\" w:rsidR=\"007D07DD\"><w:rPr><w:rStyle w:val=\"FontStyle17\" /><w:rFonts w:ascii=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\" /><w:lang w:eastAsia=\"en-US\" /></w:rPr><w:t xml:space=\"preserve\"> or</w:t></w:r><w:r w:rsidRPr=\"00296918\"><w:rPr><w:rStyle w:val=\"FontStyle17\" /><w:rFonts w:ascii=\"Times New Roma…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "anktsiooni objektiks või pärit sanktsiooni all olevatest piirkondadest. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Küsimused ettevõtjale: 1. Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks ega pärit sanktsiooni all olevatest piirkondadest. (Raadionupp valikutega \"Jah/Ei\") ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/[Content_Types].xml ===== <?xml versi…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "umuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel tühine. Küsimused ettevõtjale: 1. Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks ega pärit sanktsiooni all olevatest piirkondadest. (Raadionupp valikutega \"Jah/Ei\") ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/[Content_Types].xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <Types xmlns=\"http://schemas.openxmlformats.org/packa…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "galdamisega. 3. Pakkumuse kogumaksumus on lõplik ja fikseeritud kogu lepingu kehtivuse ajaks. Esitatud summadele ei lisata täiendavaid tasusid ega kulusid. 4. Pakkumuse kogumaksumus ei tohi pakkumuse esitamise ajal ega lepingu kehtivuse ajal olla tingimuslik; see peab olema sõltumatu inflatsioonist, valuutakurssidest või muudest sarnastest teguritest. Maksumus - vähim on parim 100 jah Koostatud 14.08.2026 11:13:56 2 / 2 https://riigihanked.riik.ee/rhr-web/#/procurement/ 10677304/general-info In English: Criteria: …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ankija nõuetele. NB! Tootja veebilehtede linke ei tohi kasutada viidetena (tootja poolt oma veebilehel tehtavaid ühepoolseid muudatusi ei ole Pakkujal ega Hankijal võimalik kontrollida). Küsimused ettevõtjale: 1. Palun laadige iga vormil „Product list” esitatud lisaseadme kohta üles tootja poolt välja antud konkreetne dokument või vastava toote tehniline andmeleht, mis kinnitab vastavust Hankija poolt kehtestatud nõuetele. NB! Tootja veebilehtede linke ei tohi kasutada viidetena (tootja poolt veebilehel tehtavaid …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ccent1\"/></a:lnRef><a:fillRef idx=\"0\"><a:schemeClr val=\"accent1\"/></a:fillRef><a:effectRef idx=\"1\"><a:schemeClr val=\"accent1\"/></a:effectRef><a:fontRef idx=\"minor\"><a:schemeClr val=\"tx1\"/></a:fontRef></a:style></a:lnDef></a:objectDefaults><a:extraClrSchemeLst/></a:theme> ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/theme/theme/themeManager.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <a:themeManager xmlns:a=\"http://schem…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "f><a:effectRef idx=\"1\"><a:schemeClr val=\"accent1\"/></a:effectRef><a:fontRef idx=\"minor\"><a:schemeClr val=\"tx1\"/></a:fontRef></a:style></a:lnDef></a:objectDefaults><a:extraClrSchemeLst/></a:theme> ===== FILE: files/files_unpacked/Forms_Näidisvormid_unpacked/Näidisvormid/P3316-(2)_Pakkuja esindaja volikiri_unpacked/theme/theme/themeManager.xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <a:themeManager xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"/> ===== FILE: files/files_unpacke…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "submission": [
+          {
+            "text": "exclusion prior to making the decision to declare a tender successful, based on the declarations submitted by the tenderer. In the event of justified doubt, the Contracting Entity may require the tenderer to submit additional information enabling verification of the absence of grounds for exclusion. 4.8. Before concluding the contract, the Contracting Entity shall verify the substantive accuracy of the declarations submitted by the successful tenderer on the basis of supporting evidence. The Contracting Entity sha…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "t in the procurement documentation “Grounds for Exclusion and Qualification Requirements.” 4.13. The Contracting Entity shall qualify tenderers whose qualifications meet the qualification requirements set out in the procurement documentation and shall not qualify a tenderer whose qualifications do not meet those requirements or whose compliance cannot be verified on the basis of documents and information submitted within the prescribed time. 4.14. The Contracting Entity shall require the potential successful tende…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
