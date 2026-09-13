@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-13T21:56:31.061487+00:00",
-  "source_inbox_updated_at": "2026-09-13T21:56:30.360545+00:00",
-  "latest_source_dce_run_id": 34784185708,
+  "generated_at": "2026-09-13T23:33:20.675541+00:00",
+  "source_inbox_updated_at": "2026-09-13T23:33:20.012498+00:00",
+  "latest_source_dce_run_id": 34789720416,
   "batch_index": 1,
   "start_rank": 11,
   "end_rank": 20,
@@ -1675,7 +1675,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "cloud-services"
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
@@ -1688,6 +1689,51 @@
         "dce_run_id": 34784185708,
         "shard": 44,
         "candidate_id": "TED:611421-2026",
+        "release_tag": "dce-harvest-34784185708"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:612141-2026",
+      "title": "Belgium – IT services: consulting, software development, Internet and support – Energy Management System",
+      "buyer": "Sibelga",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/612141-2026",
+      "deadline": "2026-10-07T12:00:00+02:00",
+      "estimated_value": 3900000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 13,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 34784185708,
+      "source_shard": 45,
+      "review_key": "9a132d0795cd380a2431cae69f2c9e7a48e821f8a1a4618128edbbf9048d7e4a",
+      "artifact_locator": {
+        "dce_run_id": 34784185708,
+        "shard": 45,
+        "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-34784185708"
       },
       "evidence_quality": {
@@ -1735,51 +1781,6 @@
         "shard": 16,
         "candidate_id": "TED:604299-2026",
         "release_tag": "dce-harvest-34770745637"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:612141-2026",
-      "title": "Belgium – IT services: consulting, software development, Internet and support – Energy Management System",
-      "buyer": "Sibelga",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/612141-2026",
-      "deadline": "2026-10-07T12:00:00+02:00",
-      "estimated_value": 3900000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "software-development",
-        "it-services"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 34695447769,
-      "source_shard": 45,
-      "review_key": "73fd49f4938bd4c0b89330e8049b8798042b893b7faa3a785eda5754c58abc7e",
-      "artifact_locator": {
-        "dce_run_id": 34695447769,
-        "shard": 45,
-        "candidate_id": "TED:612141-2026",
-        "release_tag": "dce-harvest-34695447769"
       },
       "evidence_quality": {
         "raw_status": null,
