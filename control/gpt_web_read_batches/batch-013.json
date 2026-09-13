@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-13T21:40:29.742537+00:00",
-  "source_inbox_updated_at": "2026-09-13T21:40:28.842036+00:00",
+  "generated_at": "2026-09-13T21:42:16.508362+00:00",
+  "source_inbox_updated_at": "2026-09-13T21:42:15.988994+00:00",
   "latest_source_dce_run_id": 34784185708,
   "batch_index": 13,
   "start_rank": 131,
@@ -421,115 +421,14 @@
         "release_tag": "dce-harvest-34336140122"
       },
       "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 2,
-        "text_chars": 167208,
-        "attributed_compact_snippets": 9,
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": true
+        "all_compact_snippets_document_attributed": false
       },
-      "evidence": {
-        "references_experience": [
-          {
-            "text": "podpisani s strani ponudnika: • Obrazec št. 1 - Predračun (ponudnik izpolni in v pdf obliki naloži v eJN pod razdelek predračun, Excel dokument ponudnik vloži v razdelek drugi dokumenti), v primeru razhajanj med obema dokumentoma, velja dokument v pdf obliki, • Obrazec št. 2 - Ponudba (ponudnik izpolni in naloži v eJN pod razdelek ostalo , izpolni in podpiše ga vsak partner skupne pogodbe), • Obrazec št. 3 – ESPD (ponudnik naloži xml datoteko v za to predviden razdelek v eJN in v pdf obliki v razdelek ostalo), pod…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "eJN pod razdelek predračun, Excel dokument ponudnik vloži v razdelek drugi dokumenti), v primeru razhajanj med obema dokumentoma, velja dokument v pdf obliki, • Obrazec št. 2 - Ponudba (ponudnik izpolni in naloži v eJN pod razdelek ostalo , izpolni in podpiše ga vsak partner skupne pogodbe), • Obrazec št. 3 – ESPD (ponudnik naloži xml datoteko v za to predviden razdelek v eJN in v pdf obliki v razdelek ostalo), podpisan ESPD mora biti predložen v pdf obliki v razdelek ostalo za vse subjekte, ki nastopajo v ponudbi…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "certifications_partner": [
-          {
-            "text": "e izvesti penetracijski test celotne rešitve, ki vključuje testiranje infrastrukture (kontejnerska platforma, sistemska programska oprema), spletnih in API vmesnikov (OWASP ASVS in OWASP API Security Top 10), mehanizmov avtentikacije in avtorizacije (SSO, RBAC), izolacije okolij ter AI-specifičnih napadalnih vektorjev (prompt injection, jailbreak, data exfiltration, izvleček embeddingov in dokumentov, model extraction). Penetracijsko testiranje mora opraviti neodvisna zunanja presojevalna ekipa, ki se izkaže z ust…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "sla_onsite": [
-          {
-            "text": "žavi. • Pravila na podlagi nadzorniškega znanja: opozorila za prazne bonitete, negativne vrednosti, nenavadno visoke rasti nelikvidnih naložb, prevelike koncentracije. • Anomaly detection na zgodovinskih podatkih: učenje tipičnega profila portfelja in zaznane odstopanj. • Možnost izvajanja dodatnih kontrol nad primerljivimi strukturiranimi podatki, poročili in podatkovnimi sklopi v okviru obstoječih funkcionalnosti sistema. 3.2.4 PRIPRAVA NADZORNIŠKE DOKUMENTACIJE Sistem mora omogočiti pripravo naslednje nadzorniš…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ov med različnimi subjekti (npr. ista NACE in CIC koda pri isti ISIN kodi, primerljive bonitete). Kontrola predlog znotraj istega dokumenta Stanje naložb v izkazu finančnega položaja (S.02), kombinirano z lookthrough podatki (S.06). Agregacijske analize portfelja Razčlenitev BSCR po modulih tveganja (S.25.01), top N naložb po tržni vrednosti (S.06.02), analiza strukture naložb po CIC kodah, bonitetnih ocenah, metodah vrednotenja in skladnosti z limitnim sistemom. Kontrola trajanja (rezervacije vs. naložbe) Analiza…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "forms_signatures": [
-          {
-            "text": ".............................. 3 1.2 KRAJ DOBAVE OPREME IN IZVEDBE STORITVE .................................................................... 3 1.3 ROK ZA ODDAJO PONUDBE ............................................................................................... 3 1.4 ODPIRANJE PONUDB ........................................................................................................ 4 1.5 OBVESTILA IN POJASNILA V ZVEZI Z RAZPISNO DOKUMENTACIJO ...................................... 4 2 PONUDBA .........…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "stavljena po tem roku, naročnik ne bo odgovarjal. Stran 5/41 2 PONUDBA Ponudbeno dokumentacijo, ki jo mora ponudnik predložiti preko sistema eJN , sestavljajo naslednji dokumenti, ki morajo biti ustrezno izpolnjeni in podpisani s strani ponudnika: • Obrazec št. 1 - Predračun (ponudnik izpolni in v pdf obliki naloži v eJN pod razdelek predračun, Excel dokument ponudnik vloži v razdelek drugi dokumenti), v primeru razhajanj med obema dokumentoma, velja dokument v pdf obliki, • Obrazec št. 2 - Ponudba (ponudnik izpol…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "ip_data_security": [
-          {
-            "text": "pisni dokumentaciji . Nabor se dopolnjuje prek modularnega registra predpisov. Del dokumentov Format Frekvenca Obdelava EIOPA smernice, priporočila, ITS/RTS PDF , md Po prejemu RAG EIOPA Solvency II taksonomija z validacijskimi pravili XBRL/XML Po prejemu RAG + Pipeline Sklepi in odločbe naročnika PDF/DOCX, md Po prejemu RAG Splošni pogoji zavarovalnic in KID dokumenti (PRIIPs) PDF , md Po prejemu RAG Preventivni načrti sanacije (IRRD) PDF , md Letno RAG Standardi in referenčni okviri (ZSS, ISAP 1, ISAP 4, IFRS 17…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "n nespremenjena splošna narava pogodbe). V primeru potrebe po dodatnih delih, ki presegajo predvideni obseg 1.800 ur, se lahko pogodba spremeni zgolj v primerih in pod pogoji, določenimi v 95. členu ZJN -3 ter tej točki. Pred izvedbo takih del se sklene ustrezen aneks k pogodbi. Stran 27/41 6 VARSTVO PODATKOV IN SKLADNOST Ponudnik mora s podpisano izjavo o skladnosti (Obrazec 12) potrditi, da predlagana rešitev zagotavlja uporabo v skladu z veljavnimi zahtevami s področja varstva osebnih podatkov, informacijske in…",
-            "source": "files/OneDrive_2026-08-27_unpacked/2026-06-23-Povabilo_nakup_programa_za objavo s popravki.pdf",
-            "source_url": null,
-            "source_sha256": "5dac97956f2de7842ade06a25444dbd326cb3a7e7627fbdaf0189ec0b5759c72",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ]
-      },
+      "evidence": {},
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
