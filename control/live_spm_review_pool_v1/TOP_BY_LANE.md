@@ -80,7 +80,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
 - **TED:552514-2026** · FRA · p=68 · deadline=2026-09-17T02:00:00+00:00 · blockers=none · France – Archive services – 26N0103 - NUMERISATION D'ARCHIVES PATRIMONIALES
 - **US-SAM:e6fa0f8c33db470182634c0ecb95cf5c** · US · p=46 · deadline=2026-09-17T15:00:00+00:00 · blockers=none · Jacket 451-829: Form 1041-ES (OCR) (2026) Payment Vouchers Jacket 451-830: Form 1040-ES/V (OCR) (2026) Payment Vouchers
-- **US-SAM:ee3640003b2c41abb3405fbec9bdd0b3** · US · p=38 · deadline=2026-09-13T00:00:00+00:00 · blockers=none · AI Native Complaint Intake and Case Analysis Solution
 
 ## hosting_support
 - **TED:588540-2026** · FRA · p=71 · deadline=2026-09-25T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Le Marché a pour objet la conception, la réalisation, la mise en production, la maintenance et l’évolution du futur site internet de la CNCCFP. Il couvre notamment :• la conception fonctionnelle, graphique et ergonomique du site, dans le respect du design system de la Commission ;• le développement du site sur la base d’un CMS open source, sans exclure l’intégration de composants sous licence d
@@ -189,7 +188,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:626576-2026** · NOR · p=50 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Norway – Software-related services – 2026/7655 Framework agreement for the purchase of licences and licence management
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:3de08ede01d34ad5be9e1da0b523ceda** · US · p=48 · deadline=2026-09-12T16:00:00+00:00 · blockers=none · Synopsis MACE and ARMOR Software Licenses
 - **US-SAM:0a8c7dba25304197823f86728fcc0383** · US · p=48 · deadline=2026-09-14T13:00:00+00:00 · blockers=none · Dental Imaging Equipment- CS 9600, Radiographic Units, and sensor kits
 - **CA:BPM026377/34516** · CA · p=48 · deadline=2026-09-14T14:00:00+00:00 · blockers=none · Red Hat Ansible for SSC
 - **US-SAM:10d3f0a728574fd28754919eb6abb3b3** · US · p=48 · deadline=2026-09-14T16:00:00+00:00 · blockers=none · Noldus CatWalk XT Gait Analysis System
@@ -199,6 +197,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:7667c7921f4048659d9b14170d83affa** · US · p=48 · deadline=2026-09-14T21:00:00+00:00 · blockers=none · INL_RFQ-PR16175580 Graykey Mobile License Renewal (Brand Name)
 - **TED:582050-2026** · FRA · p=48 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Document creation, drawing, imaging, scheduling and productivity software package – Acquisition de licences pour les logiciels Autodesk
 - **US-SAM:a73d88e25a2341249a2b9237cdb86d36** · US · p=48 · deadline=2026-09-15T14:00:00+00:00 · blockers=none · MATLAB
+- **US-SAM:f88d463f08eb4f60bb142b9d3eca11da** · US · p=48 · deadline=2026-09-15T15:00:00+00:00 · blockers=none · S2 Cognition
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -214,6 +213,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **CA:WS5871722249** · CA · p=53 · deadline=2026-09-17T14:00:00+00:00 · blockers=none · Solicitation of Offers - English to French Translation Services PARL Spoken Language Current Political Affairs - Tier 1
 - **CA:WS5860907914** · CA · p=53 · deadline=2026-09-18T14:00:00+00:00 · blockers=none · Solicitation of Offers - EN-FR Translation Services - Marine Transport Field - Tier 2
 - **CA:WS5859570859** · CA · p=53 · deadline=2026-09-20T14:00:00+00:00 · blockers=none · Solicitation of Offers - English-French Translation Services - Spoken Language-Political Affairs Field - Tier 2
+- **CA:CIC-160477** · CA · p=53 · deadline=2026-09-25T14:00:00+00:00 · blockers=none · Multilingual Translation Services
 - **CA:26-106** · CA · p=53 · deadline=2026-10-02T13:00:00+00:00 · blockers=none · EDC Translation Services
 - **CA:WS5665734815** · CA · p=53 · deadline=2031-04-29T14:00:00+00:00 · blockers=none · RFSA - Translation Services
 - **FR-BOAMP:26-87481** · FR · p=53 · deadline=UNKNOWN · blockers=none · 2026-0379 Prestations De Traduction Et Correction Pour Les Etablissements Du Ght Hdp
@@ -224,7 +224,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:626064-2026** · IRL · p=40 · deadline=2026-10-05T16:00:00+00:00 · blockers=none · Ireland – Translation services – TG4 - Seirbhísí Profála agus Comhairleoireacht Teanga
 - **TED:602852-2026** · BGR · p=40 · deadline=2026-10-07T03:00:00+00:00 · blockers=none · Bulgaria – Translation services – Предоставяне на услуги по легализация на образователни документи на чуждестранни кандидат - студенти на УНСС от държави извън Европейския съюз и Европейското икономическо пространство
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
-- **UNGM:312194** · TIMOR-LESTE · p=38 · deadline=2026-09-13T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## video_media
 - **TED:567440-2026** · NOR · p=48 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · Norway – Advertising campaign services – Stage 1 - Prequalification for a Framework agreement advertising, campaigns and graphic design.
