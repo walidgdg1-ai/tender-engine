@@ -54,9 +54,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:7e79688ad0714edab51f0cfc99dbe183** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 
 ## design_dtp
-- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
 - **TED:576609-2026** · FRA · p=78 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Graphic design services – CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
-- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
 - **FR-BOAMP:26-81475** · FR · p=72 · deadline=2026-09-25T13:00:00+00:00 · blockers=none · CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
 - **TED:535413-2026** · FRA · p=70 · deadline=2026-09-16T02:00:00+00:00 · blockers=none · France – Printing and distribution services – MISE EN PAGE, IMPRESSION ET DISTRIBUTION DE MAGAZINES ET EMAG DU CONSEIL DEPARTEMENTAL DU GARD
@@ -74,6 +72,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-86716** · FR · p=64 · deadline=2026-09-17T14:00:00+00:00 · blockers=none · MISE EN PAGE, IMPRESSION ET DISTRIBUTION DE MAGAZINES ET EMAG DU CONSEIL DEPARTEMENTAL DU GARD
 - **TED:564945-2026** · FRA · p=64 · deadline=2026-09-18T02:00:00+00:00 · blockers=none · France – Graphic design services – CENTRALE D'ACHAT - Stratégie de communication et conception graphique
 - **FR-BOAMP:26-86857** · FR · p=64 · deadline=2026-09-24T10:00:00+00:00 · blockers=none · Conception graphique, impression et distribution du magazine municipal Le Columérin
+- **FR-BOAMP:26-84364** · FR · p=64 · deadline=2026-09-28T12:00:00+00:00 · blockers=none · Marché de mise en page, rédaction, impression et distribution du magazine de la ville de Tinqueux-.
+- **FR-BOAMP:26-84365** · FR · p=64 · deadline=2026-09-28T19:00:00+00:00 · blockers=none · Mission de refonte de la communication du Musée Cécile Sabourdy - marque, identité visuelle, graphisme, webdesign et signalétique
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -106,8 +106,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:605337-2026** · BEL · p=40 · deadline=2026-10-02T21:59:59+00:00 · blockers=none · Belgium – News-agency services – Monitoring and analysis services of the Greek media
 
 ## print_broker
-- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
-- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
 - **TED:516591-2026** · FRA · p=70 · deadline=2026-09-14T15:00:00+00:00 · blockers=none · France – Printing services – PRESTATION D’IMPRESSION DE SUPPORTS DE COMMUNICATION, DE REALISATION D’HABILLAGES ADHESIFS POUR LA SIGNALETIQUE INTERIEURE ET EXTERIEURE ET DE FOURNITURE DE MATERIELS DE PAVOISEMENT DESTINES A LA COMMUNICATION DU DEPARTEMENT DE L’OISE
 - **TED:508185-2026** · FRA · p=70 · deadline=2026-09-16T02:00:00+00:00 · blockers=none · France – Reprographic services – Prestations de reprographie et d'imprimerie
 - **TED:590908-2026** · FRA · p=70 · deadline=2026-09-28T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et de distribution de magazines
@@ -126,6 +124,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-83526** · FR · p=64 · deadline=2026-09-18T12:00:00+00:00 · blockers=none · Prestation d'impression de brochures
 - **TED:572640-2026** · FRA · p=64 · deadline=2026-09-21T01:00:00+00:00 · blockers=none · France – Post and courier services – Collecte, remise, affranchissement et routage de courriers et colis
 - **FR-BOAMP:26-81268** · FR · p=64 · deadline=2026-09-21T11:00:00+00:00 · blockers=none · Le marché porte sur la collecte, remise, affranchissement et routage de courriers et colis
+- **FR-BOAMP:26-84390** · FR · p=64 · deadline=2026-09-23T17:00:00+00:00 · blockers=none · Réalisation et livraison de travaux d’impression pour les services municipaux de la ville de Brignoles avec pose éventuelle. Relance du lot n°3 : Impression sur supports spécifiques
+- **TED:574733-2026** · FRA · p=64 · deadline=2026-09-24T02:00:00+00:00 · blockers=none · France – Printing and related services – TRAVAUX D'IMPRESSION ET DE REPROGRAPHIE
 
 ## promo_goods
 - **TED:782153-2025** · FRA · p=60 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – Système d'acquisition dynamique (SAD) - Acquisition de goodies et textiles personnalisés
@@ -138,7 +138,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:dd21af1de8d94e508fe15a8dd2ffb4a8** · US · p=48 · deadline=2026-09-14T21:00:00+00:00 · blockers=none · Promotional Item Purchase for MANG Recruiting & Retention Command
 - **US-SAM:f21cc0092cb344dd83072de36731b536** · US · p=48 · deadline=2026-09-14T21:00:00+00:00 · blockers=none · Promotional Item Purchase for MANG Recruiting & Retention Command
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
-- **TED:564438-2026** · FRA · p=46 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Information and promotion products – PROCUREMENT OF PROMOTIONAL ITEMS AND ELECTRONIC ACCESSORIES AND RELATED ITEMS
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-168900-2026-09-03** · ZA · p=46 · deadline=2026-09-28T11:00:00+00:00 · blockers=none · RFP/SASSETA/26271103
 - **CA:WS5853358314** · CA · p=44 · deadline=2026-09-28T14:00:00+00:00 · blockers=none · RFP Templates Canadian Army Promotional Items FY 2627
 
@@ -225,7 +224,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
 
 ## video_media
-- **TED:567440-2026** · NOR · p=48 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · Norway – Advertising campaign services – Stage 1 - Prequalification for a Framework agreement advertising, campaigns and graphic design.
 - **TED:599139-2026** · NOR · p=48 · deadline=2026-09-22T10:00:00+00:00 · blockers=none · Norway – IT services: consulting, software development, Internet and support – Strategic consulting, development and operation of network services.
 - **TED:551987-2026** · FRA · p=46 · deadline=2026-09-22T10:00:00+00:00 · blockers=none · France – Motion picture and video production services – Réalisation de productions audiovisuelles
 - **US-SAM:ad293e684cc94987b4d42530f9a468b1** · US · p=45 · deadline=2026-09-18T16:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · Digital Media Services
