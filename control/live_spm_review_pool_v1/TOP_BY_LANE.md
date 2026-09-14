@@ -26,10 +26,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
-- **TED:568438-2026** · POL · p=40 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · Poland – Advertising campaign services – Usługa opracowania i przeprowadzenia drugiej edycji kampanii promocyjnej oraz obsługi medialnej w ramach projektu „PPO WSL 2030. Utworzenie Regionalnego Obserwatorium Innowacji
 - **TED:582557-2026** · POL · p=40 · deadline=2026-09-22T02:00:00+00:00 · blockers=none · Poland – Advertising campaign services – Opracowanie i realizacja kampanii informacyjno-edukacyjnej na terenie województwa śląskiego dotyczącej zmian klimatu w ramach projektu strategicznego pn. „Śląskie Centrum Klimatu – Etap I”
 - **TED:590839-2026** · GRC · p=40 · deadline=2026-09-29T03:00:00+00:00 · blockers=none · Greece – Systems analysis and programming services – Λειτουργία, Συντήρηση, Υποστήριξη και Αναβάθμιση των πληροφοριακών συστημάτων “Εγγραφή στην Πρώτη Δημοτικού” και ηλεκτρονικών αιτήσεων εισαγωγής σε Πρότυπα Σχολεία, Δημόσια Ωνάσεια Σχολεία, Πρότυπα Εκκλησιαστικά Σχολεία και Πειραματικά Σχολεία»
-- **TED:520522-2026** · CHE · p=38 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · Switzerland – Software supply services – Procurement, Implementation, and Operation of a CAFM Solution
+- **TED:520522-2026** · CHE · p=38 · deadline=2026-09-14T21:59:00+00:00 · blockers=none · Switzerland – Software supply services – Procurement, Implementation, and Operation of a CAFM Solution
 - **TED:538417-2026** · FRA · p=38 · deadline=2026-09-15T02:00:00+00:00 · blockers=none · France – Internet or intranet server application development services – Conception d'expériences utilisateur et d'interfaces (UX/UI Design) et Accessibilité Numérique (RGAA)
 
 ## automation_data
@@ -55,9 +54,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:7e79688ad0714edab51f0cfc99dbe183** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 
 ## design_dtp
-- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
+- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
 - **TED:576609-2026** · FRA · p=78 · deadline=2026-09-25T02:00:00+00:00 · blockers=none · France – Graphic design services – CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
-- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
+- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
 - **FR-BOAMP:26-81475** · FR · p=72 · deadline=2026-09-25T13:00:00+00:00 · blockers=none · CONSEILS STRATEGIQUES CONCEPTION GRAPHIQUE ET MULTIMEDIA, ANIMATION DES PAGES DECHETS DU SITE WEB DE LA METROPOLE ET DES RESEAUX SOCIAUX ASSOCIES
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
 - **TED:535413-2026** · FRA · p=70 · deadline=2026-09-16T02:00:00+00:00 · blockers=none · France – Printing and distribution services – MISE EN PAGE, IMPRESSION ET DISTRIBUTION DE MAGAZINES ET EMAG DU CONSEIL DEPARTEMENTAL DU GARD
@@ -107,9 +106,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:605337-2026** · BEL · p=40 · deadline=2026-10-02T21:59:59+00:00 · blockers=none · Belgium – News-agency services – Monitoring and analysis services of the Greek media
 
 ## print_broker
-- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
-- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
-- **TED:516591-2026** · FRA · p=70 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Printing services – PRESTATION D’IMPRESSION DE SUPPORTS DE COMMUNICATION, DE REALISATION D’HABILLAGES ADHESIFS POUR LA SIGNALETIQUE INTERIEURE ET EXTERIEURE ET DE FOURNITURE DE MATERIELS DE PAVOISEMENT DESTINES A LA COMMUNICATION DU DEPARTEMENT DE L’OISE
+- **TED:530167-2026** · FRA · p=78 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Printing services – Conception, impression et distribution du magazine &amp;quot;Puy-de-Dôme en mouvement&amp;quot;- Lot 2
+- **TED:482302-2026** · FRA · p=74 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Graphic design services – Réalisation, impression et routage du journal interne Filieris
+- **TED:516591-2026** · FRA · p=70 · deadline=2026-09-14T15:00:00+00:00 · blockers=none · France – Printing services – PRESTATION D’IMPRESSION DE SUPPORTS DE COMMUNICATION, DE REALISATION D’HABILLAGES ADHESIFS POUR LA SIGNALETIQUE INTERIEURE ET EXTERIEURE ET DE FOURNITURE DE MATERIELS DE PAVOISEMENT DESTINES A LA COMMUNICATION DU DEPARTEMENT DE L’OISE
 - **TED:508185-2026** · FRA · p=70 · deadline=2026-09-16T02:00:00+00:00 · blockers=none · France – Reprographic services – Prestations de reprographie et d'imprimerie
 - **TED:590908-2026** · FRA · p=70 · deadline=2026-09-28T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et de distribution de magazines
 - **TED:592237-2026** · FRA · p=70 · deadline=2026-09-29T02:00:00+00:00 · blockers=none · France – Printing services – Prestation d'impression de supports de communication divers hors magazine municipal - lots 1 à 3
@@ -139,7 +138,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:dd21af1de8d94e508fe15a8dd2ffb4a8** · US · p=48 · deadline=2026-09-14T21:00:00+00:00 · blockers=none · Promotional Item Purchase for MANG Recruiting & Retention Command
 - **US-SAM:f21cc0092cb344dd83072de36731b536** · US · p=48 · deadline=2026-09-14T21:00:00+00:00 · blockers=none · Promotional Item Purchase for MANG Recruiting & Retention Command
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
-- **TED:564438-2026** · FRA · p=46 · deadline=2026-09-14T02:00:00+00:00 · blockers=none · France – Information and promotion products – PROCUREMENT OF PROMOTIONAL ITEMS AND ELECTRONIC ACCESSORIES AND RELATED ITEMS
+- **TED:564438-2026** · FRA · p=46 · deadline=2026-09-14T10:00:00+00:00 · blockers=none · France – Information and promotion products – PROCUREMENT OF PROMOTIONAL ITEMS AND ELECTRONIC ACCESSORIES AND RELATED ITEMS
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-168900-2026-09-03** · ZA · p=46 · deadline=2026-09-28T11:00:00+00:00 · blockers=none · RFP/SASSETA/26271103
 - **CA:WS5853358314** · CA · p=44 · deadline=2026-09-28T14:00:00+00:00 · blockers=none · RFP Templates Canadian Army Promotional Items FY 2627
 
@@ -148,22 +147,22 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:bd6a6a2d514b44d5bd194be8ba7f6cf3** · US · p=47 · deadline=2026-09-19T00:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · EFOJ for Cribl Software Licenses
 - **US-SAM:27eba32c52d042ea9eb5034117142540** · US · p=47 · deadline=2026-09-30T14:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · RFI - Grissom ARB, IN SABER - SIMPLIFIED ACQUISITION OF BASE ENGINEERING REQUIREMENTS
 - **US-SAM:8cd8b38ef2e448319f042f1f524ac3b1** · US · p=47 · deadline=2026-09-30T14:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · RFI - Grissom ARB, IN SABER - SIMPLIFIED ACQUISITION OF BASE ENGINEERING REQUIREMENTS
-- **US-SAM:03130e35f23f4aeeaed1ed5c0ceb3fe5** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 48--STATION,REDUCING
-- **US-SAM:0b9febcd485a4e1697f667414a470688** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 16--SENSOR,PRECOOLER,AI
-- **US-SAM:58040d7b90b04008b006204ed31bcce9** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 41--FAN,VANEAXIAL
-- **US-SAM:6b860d3a8c28434b97233a6e2ded3fc9** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 16--OXYGEN FILLER
-- **US-SAM:6cc3191cdc034e9ab07d18a8e15a0671** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 30--TRANSMISSION,MECHAN, IN REPAIR/MODIFICATION OF
-- **US-SAM:6e7e8318dcaa4a0f9f17db5a24bb66ea** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 48--VALVE,LINEAR,DIRECT, IN REPAIR/MODIFICATION OF
-- **US-SAM:7de50378ca474a9da69a9b0bff43f6d1** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 61--POWER SUPPLY, IN REPAIR/MODIFICATION OF
-- **US-SAM:b25a22e6288742ab928d7febdbea1ab3** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 48--GUIDE,VALVE STEM
-- **US-SAM:baa29f7bbdfc464d8a4716c70e881384** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 49--FIXTURE,AIRCRAFT MA
-- **US-SAM:d1bb0ce2e73846b7b8cd6642f5231676** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 28--ENGINE, DIESEL, IN REPAIR/MODIFICATION OF
-- **US-SAM:d7a2321b626e46fdb0f8f3545a59fd6b** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 66--GENERATOR TIME CODE
-- **US-SAM:db36671a89f64934ac1854b6b0189637** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 48--VALVE,REGULATING,FL, IN REPAIR/MODIFICATION OF
-- **US-SAM:e75c00549cf6449f9a00c81dd85e94e4** · US · p=46 · deadline=2026-09-14T04:00:00+00:00 · blockers=none · 25--SPINDLE,WHEEL,DRIVI, IN REPAIR/MODIFICATION OF
 - **US-SAM:bda3e116ac7b47448e4c33e866165f99** · US · p=46 · deadline=2026-09-14T18:00:00+00:00 · blockers=none · 59--ELECTRONIC COMPONEN
 - **US-SAM:346d9553f4364fecb9fb47b055c60497** · US · p=46 · deadline=2026-09-14T20:30:00+00:00 · blockers=none · 70--SERVER FRONT, IN REPAIR/MODIFICATION OF
 - **US-SAM:b0b4406be6ff4e22b53637d4f6b97173** · US · p=46 · deadline=2026-09-14T20:30:00+00:00 · blockers=none · 49--TEST SET SUBASSEMBL
+- **US-SAM:0f0c3cf7ec624132be54426c69f9f22a** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 48--VALVE,LINAR,DIRECTI, IN REPAIR/MODIFICATION OF
+- **US-SAM:2581c3d4ca1e4ebeb172c329fbcc51f8** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 63--CONTROL,ALARM
+- **US-SAM:31ed60ef62cf49c2b2cd643bbd4e5eef** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 48--STEM,NEEDLE VALVE
+- **US-SAM:46249038f680405f81e72a39df2cc069** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 73--OVEN,WARMING,ELECTR
+- **US-SAM:8c021b3b93e34a83946c414252782ebd** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 59--SYNCHRO,TRANSMITTER
+- **US-SAM:dff30accdbd84632b8a2eaa4fbb01f4f** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 48--STEM,FLUID VALVE
+- **US-SAM:f566cf40318e40bd834ff9f5a6492680** · US · p=46 · deadline=2026-09-15T04:00:00+00:00 · blockers=none · 16--FUSE,HYDRAULIC SYST
+- **US-SAM:3553b21de3c6461995a932196728564c** · US · p=46 · deadline=2026-09-15T16:00:00+00:00 · blockers=none · Chemical Nutrient Analysis Service
+- **US-SAM:05f053ba125e45499f5894787591b66a** · US · p=46 · deadline=2026-09-16T04:00:00+00:00 · blockers=none · 16--PUMP,WINDOW WASHER
+- **US-SAM:a3a59a8ccfd84e12a347f174d5686e98** · US · p=46 · deadline=2026-09-16T04:00:00+00:00 · blockers=none · 16--HYDRAULIC,FLOW RATE
+- **US-SAM:6653a1c0209548e1bfb1d9ed0a65c546** · US · p=46 · deadline=2026-09-18T04:00:00+00:00 · blockers=none · 41--COMPRESSOR,REFRIGER, IN REPAIR/MODIFICATION OF
+- **US-SAM:165205e952bb4943918d51cb9feada30** · US · p=46 · deadline=2026-09-21T04:00:00+00:00 · blockers=none · 99--LRF AMPLIFIER
+- **US-SAM:1aa32cf07da94a58b3adb87c6d79d20c** · US · p=46 · deadline=2026-09-21T04:00:00+00:00 · blockers=none · 44--BUNDLE ASSY
 
 ## social_marketing
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
@@ -236,7 +235,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:534361-2026** · NLD · p=40 · deadline=2026-09-21T10:00:00+00:00 · blockers=none · Netherlands – Services in connection with motion-picture and video-tape production – Video en animatie
 - **TED:587199-2026** · SWE · p=40 · deadline=2026-09-24T22:00:00+00:00 · blockers=none · Sweden – Advertising film production – Ramavtal Kommunikationstjänster -26
 - **TED:623282-2026** · NOR · p=40 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Norway – Software programming and consultancy services – Consultancy services AV equipment
-- **UNGM:313059** · NIGERIA · p=38 · deadline=2026-09-14T00:00:00+00:00 · blockers=none · Open in a new window
 - **UNGM:313911** · INDONESIA · p=38 · deadline=2026-09-16T00:00:00+00:00 · blockers=none · Open in a new window
 - **UNGM:313318** · CAMBODIA · p=38 · deadline=2026-09-17T00:00:00+00:00 · blockers=none · Open in a new window
 - **UNGM:313446** · VIET NAM · p=38 · deadline=2026-09-18T00:00:00+00:00 · blockers=none · Open in a new window
