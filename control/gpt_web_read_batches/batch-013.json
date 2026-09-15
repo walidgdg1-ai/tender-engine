@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-15T00:34:28.623136+00:00",
-  "source_inbox_updated_at": "2026-09-15T00:34:27.917211+00:00",
-  "latest_source_dce_run_id": 34913111838,
+  "generated_at": "2026-09-15T05:12:06.514135+00:00",
+  "source_inbox_updated_at": "2026-09-15T05:12:05.507495+00:00",
+  "latest_source_dce_run_id": 34931400027,
   "batch_index": 13,
   "start_rank": 131,
   "end_rank": 140,
@@ -124,14 +124,137 @@
         "release_tag": "dce-harvest-34813508738"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 7,
+        "text_chars": 331918,
+        "attributed_compact_snippets": 11,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "certifications_partner": [
+          {
+            "text": "arametry wymagane do zapewnienia poprawnej współpracy czytnika z kartą e-Dowodu: 1) Dedykowany sterownik zgodny z PC/SC na platformy: a) Windows 7/8/8.1/10 (32/64bit), 2003 Server, 2008 Server, Server 2012 z Service Pack; certyfikat Microsoft WHQL; b) Linux (64-bit) CentOS 7, Red Hat Enterprise Linux 7, Debian 8 i nowsze; c) macOS (64-bit) 10.12 (Sierra) i nowsze; 2) Deklaracja zgodności WE oraz oznaczenie CE dla czytnika; 3) Połączenie ze stacja roboczą za pomocą złącza USB lub bezprzewodowo, lub poprzez inny por…",
+            "source": "files/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_bez_pinpadu_-_inne.pdf",
+            "source_url": "https://www.gov.pl/documents/4675785/0/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_bez_pinpadu_-_inne.pdf/b572b797-095d-68ac-846b-1569bc81bcca",
+            "source_sha256": "aec9a0c813c58e48e160520b0737edc865e2460cba8f8d969ef7ae94fb1e520f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "wnienia poprawnej współpracy czytnika z kartą e-Dowodu: 1) Dedykowany sterownik zgodny z PC/SC na platformy: a) Windows 7/8/8.1/10 (32/64bit), 2003 Server, 2008 Server, Server 2012 z Service Pack; certyfikat Microsoft WHQL; b) Linux (64-bit) CentOS 7, Red Hat Enterprise Linux 7, Debian 8 i nowsze; c) macOS (64-bit) 10.12 (Sierra) i nowsze; 2) Deklaracja zgodności WE oraz oznaczenie CE dla czytnika; 3) Połączenie ze stacja roboczą za pomocą złącza USB lub bezprzewodowo, lub poprzez inny port komunikacyjny zapewniaj…",
+            "source": "files/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_bez_pinpadu_-_inne.pdf",
+            "source_url": "https://www.gov.pl/documents/4675785/0/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_bez_pinpadu_-_inne.pdf/b572b797-095d-68ac-846b-1569bc81bcca",
+            "source_sha256": "aec9a0c813c58e48e160520b0737edc865e2460cba8f8d969ef7ae94fb1e520f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "ICCs and Personal Computer Systems, Part 10 IFDs with Secure PIN Entry Capabilities - Revision 2.02.09, November 2012; b) PC/SC Workgroup: Interoperability Specification for ICCs and Personal Computer Systems, Part 10 IFDs with Secure PIN Entry Capabilities – Revision 2.02.08 April 2010, Amendment 1.1, 2012; 8) Obsługa protokołu Chip Authentication w oparciu o ECDH (BrainpoolP384) + AES-256 + CMAC; 9) Wsparcie protokołu PACEv2: ECDH (BrainpoolP384) + AES-256 + CMAC + Generic Mapping (lub Chip Authentication Mappin…",
+            "source": "files/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf",
+            "source_url": "https://www.gov.pl/documents/4675785/0/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf/4670cd4a-2d79-a11a-3c35-2bf11b8c7256",
+            "source_sha256": "1bfae2559651809289c3bf3866daf56b099870b4bb1c58969bf3823ceeabb260",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "8 i nowsze; c) macOS (64-bit) 10.12 (Sierra) i nowsze; 2) Deklaracja zgodności WE oraz oznaczenie CE dla czytnika; 3) Połączenie ze stacja roboczą za pomocą złącza USB lub bezprzewodowo, lub poprzez inny port komunikacyjny; zapewniający poprawną komunikację czytnika ze stacją roboczą; 4) Interfejs bezstykowy: a) zgodność z ISO 14443 1-4 Typ A oraz ISO 14443 1-4 Typ B; b) Obsługa protokołów T=0 oraz T=1; 5) Obsługa extended APDU; 6) Obsługa kart w formacie TD1 (85,6 mm x 54,0 mm x 1,25 mm) zgodnych z ICAO 9303-3 or…",
+            "source": "files/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf",
+            "source_url": "https://www.gov.pl/documents/4675785/0/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf/4670cd4a-2d79-a11a-3c35-2bf11b8c7256",
+            "source_sha256": "1bfae2559651809289c3bf3866daf56b099870b4bb1c58969bf3823ceeabb260",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ezprzewodowo, lub poprzez inny port komunikacyjny; zapewniający poprawną komunikację czytnika ze stacją roboczą; 4) Interfejs bezstykowy: a) zgodność z ISO 14443 1-4 Typ A oraz ISO 14443 1-4 Typ B; b) Obsługa protokołów T=0 oraz T=1; 5) Obsługa extended APDU; 6) Obsługa kart w formacie TD1 (85,6 mm x 54,0 mm x 1,25 mm) zgodnych z ICAO 9303-3 oraz anteny klasy 1 zgodnie z ISO 14443-1; 7) Obsługa SPE zgodna ze specyfikacjami: a) PC/SC Workgroup: Interoperability Specification for ICCs and Personal Computer Systems, …",
+            "source": "files/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf",
+            "source_url": "https://www.gov.pl/documents/4675785/0/Specyfikacja_wymagan_technicznych_dla_czytnika_kart_z_pinpadem_-_inne.pdf/4670cd4a-2d79-a11a-3c35-2bf11b8c7256",
+            "source_sha256": "1bfae2559651809289c3bf3866daf56b099870b4bb1c58969bf3823ceeabb260",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "mu odpowiednie uprawnienia komendą: chmod +x eDOSign-<wersja-aplikacji>.run Po dwukrotnym wciśnięciu ikony instalatora uruchomiony zostanie kreator instalacji. Strona 3 NUMPAGES Należy postępować zgodnie z komunikatami wyświetlan ymi przez kreator. Po pomyślnym przejściu wszystkich etapów instalacji program e-dowód Podpis elektroniczny gotowy jest do użycia. 1.1.1. Włączenie ikony monitora w Gnome Uwaga Jeżeli zainstalowany został system Debian 10 wraz z Gnome, jest możliwe, że ikony zasobnika nie są widoczne w pr…",
+            "source": "files/e-dowod_instrukcja_instalacji_Linux.pdf",
+            "source_url": "https://www.gov.pl/pliki/edowod/e-dowod_instrukcja_instalacji_Linux.pdf",
+            "source_sha256": "1ca544be0a8ac5c87e5e05cd467892ebe9676e730e8dab0731151bdc5861b2e2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "stalatora uruchomiony zostanie kreator instalacji. Strona 3 NUMPAGES Należy postępować zgodnie z komunikatami wyświetlan ymi przez kreator. Po pomyślnym przejściu wszystkich etapów instalacji program e-dowód Podpis elektroniczny gotowy jest do użycia. 1.1.1. Włączenie ikony monitora w Gnome Uwaga Jeżeli zainstalowany został system Debian 10 wraz z Gnome, jest możliwe, że ikony zasobnika nie są widoczne w prawym górnym rogu ekranu. W takim przypadku należy zainstalować i włączyć rozszerzenie ‘gnome-shell-extension-…",
+            "source": "files/e-dowod_instrukcja_instalacji_Linux.pdf",
+            "source_url": "https://www.gov.pl/pliki/edowod/e-dowod_instrukcja_instalacji_Linux.pdf",
+            "source_sha256": "1ca544be0a8ac5c87e5e05cd467892ebe9676e730e8dab0731151bdc5861b2e2",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ego podpisu elektronicznego) o do potwierdzania obecności  Zawieszenia, cofnięcia zawieszenia i unieważnienia certyfikatów Usługi certyfikacji, w zakresie wydawania certyfikatów, zostały zaprojektowane i wdrożone w taki sposób, aby spełnić wymagania nałożone przez krajową Ustawę o dowodach osobistych, Ustawę o usługach zaufania oraz identyfikacji elektronicznej i stosowne rozporządzenia, a także wymagania innych, obowiązujących norm prawnych oraz istniejących standardów międzynarodowych w zakresie tworzenia i fun…",
+            "source": "files/polityka_E2_80_8B_certyfikacji_E2_80_8B_1_2_aktualna.pdf",
+            "source_url": "https://www.gov.pl/attachment/51354ae2-874b-4da4-a504-558015259450",
+            "source_sha256": "310e08ef0cc416189d905ab416ca1cf1f46765082994d9cca5dfad2520462175",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "entów dotyczących usług PKI, świadczonych przez CPD MSWiA, a także za zgodność między wymienionymi dokumentami, odpowiada dedykowany zespół w CPD MSWiA. Wszelkie zapytania i uwagi związane z zawartością wymienionych dokumentów powinny być kierowane pod adres podany w punkcie 1.5.2. 1.5.4. Procedura zatwierdzania Polityki Nowa wersja dokumentu o statusie w zatwierdzeniu staje się obowiązującą Polityką i przyjmuje status aktualny, jeśli w ciągu 10 dni roboczych od daty opublikowania, zespół w CPD MSWiA nie otrzyma i…",
+            "source": "files/polityka_E2_80_8B_certyfikacji_E2_80_8B_1_2_aktualna.pdf",
+            "source_url": "https://www.gov.pl/attachment/51354ae2-874b-4da4-a504-558015259450",
+            "source_sha256": "310e08ef0cc416189d905ab416ca1cf1f46765082994d9cca5dfad2520462175",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ecności  Zawieszenia, cofnięcia zawieszenia i unieważnienia certyfikatów Usługi certyfikacji, w zakresie wydawania certyfikatów, zostały zaprojektowane i wdrożone w taki sposób, aby spełnić wymagania nałożone przez krajową Ustawę o dowodach osobistych, Ustawę o usługach zaufania oraz identyfikacji elektronicznej i stosowne rozporządzenia, a także wymagania innych, obowiązujących norm prawnych oraz istniejących standardów międzynarodowych w zakresie tworzenia i funkcjonowania systemów PKI, w szczególności z uwzglę…",
+            "source": "files/polityka_E2_80_8B_certyfikacji_E2_80_8B_1_2_aktualna.pdf",
+            "source_url": "https://www.gov.pl/attachment/51354ae2-874b-4da4-a504-558015259450",
+            "source_sha256": "310e08ef0cc416189d905ab416ca1cf1f46765082994d9cca5dfad2520462175",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "becności  Zawieszenia, cofnięcia zawieszenia i unieważnienia certyfikatów Usługi certyfikacji, w zakresie wydawania certyfikatów, zostały zaprojektowane i wdrożone w taki sposób, aby spełnić wymagania nałożone przez krajową Ustawę o dowodach osobistych, Ustawę o usługach zaufani a oraz identyfikacji elektronicznej i stosowne rozporządzenia, a także wymagania innych, obowiązujących norm prawnych oraz istniejących standardów międzynarodowych w zakresie tworzenia i funkcjonowania systemów PKI, w szczególności z uwzg…",
+            "source": "files/polityka_certyfikacji_E2_80_8B_1_1_E2_80_8B_archiwalna.pdf",
+            "source_url": "https://www.gov.pl/attachment/16c6dd3f-3024-4f2b-96db-c8d5e8b5679c",
+            "source_sha256": "3b1c25dc9aafe2b68dcfadd7d3da2d3e4c243b596179adb95bff9604596019ff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -420,14 +543,81 @@
         "release_tag": "dce-harvest-32262216923"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 1064093,
+        "attributed_compact_snippets": 6,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "gasuneko eta Funtzio Publikoko Ministerioari atxikita egongo da, eta lehendakari batek eta gutxienez bi kidek osatuko dute. Handitu ahal izango da auzitegia osatuko duten kideen kopurua, Ministro Kontseiluaren erabaki baten bidez, aurkeztutako aztergaien tamaina dela-eta kide gehiago izatea komeni denean. 2. Lizentziadun-titulua edo graduko titulua behar den kidego eta eskaletako karrerako funtzionarioak izendatu ahalko dira auzitegi honetako kide, baldin eta hamar urte baino gehiagoko jarduera profesionala badute…",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "itulua edo graduko titulua behar den kidego eta eskaletako karrerako funtzionarioak izendatu ahalko dira auzitegi honetako kide, baldin eta hamar urte baino gehiagoko jarduera profesionala badute, eta kontratazio publikoarekin zuzenean lotutako administrazio-zuzenbidearen arloan aritutakoak lehenetsiz. 3. Auzitegiko presidenteak karrerako funtzionarioa izan beharko du, Zuzenbidean lizentziatua edo graduatua izatea eta lan-jarduera horretan hamabost urte baino gehiagoan aritu izana eskatzen duen kidego edo maila ba…",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "an kontratuaren «balio zenbatetsia» adierazpidea erabili da, horixe baita zuzena. Kontzeptu hori ederki zedarrituta dago lege berrian, «lizitazioaren oinarrizko aurrekontua» edo «kontratuaren prezioa» kontzeptuak dauden bezalaxe; hartara, izan ere, haien arteko nahaste oro saihesten da. Bestalde, kontratu publikoen prezioen berrikuspenari buruzko arauak egokitzen dira Espainiako Ekonomiaren Desindexazioaren martxoaren 30eko 2/2015 Legean ezarritakoaren arabera, halako moduz non prezioak ez diren berrikusiko adiera…",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "i guztia mandatua formalizatu aurreko hiru ekitaldiei dagokienez. Mandatua formalizatu aurreko hiru ekitaldietako negozio-bolumen orokorra edo –aurreko paragrafoan ezarri bezala– jarduerari buruzko beste adierazlerik eskura ez badago mandatua ematen duen botere adjudikatzailearen sorrera-data dela-eta, haren jardueraren hasiera dela- eta edo haren jarduerak berrantolatu direla-eta, edo indarra galdu badute, nahikoa izango da jarduera-mailaren kalkulua errealitatearekin bat datorrela egiaztatzea, negozio-proiekzioe…",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": ". titulua. Sektore publikoko kontratuei buruzko xedapen orokorrak. I. kapitulua. Sektore publikoko kontratazioaren arrazionaltasuna eta funtsa. 28. artikulua. Kontratuaren premia eta egokitasuna, eta efizientzia kontratazioan. 29. artikulua. Kontratuen iraupen-epea eta haien prestazioa emateko epea. 30. artikulua. Administrazio Publikoak ematea zuzenean prestazioak, enpresaburu partikularren laguntzarekin edo bitarteko propio ez-pertsonifikatuen bitartez. 31. artikulua. Auto-antolaketarako ahalmena eta lankidetza …",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "8. artikulua. Kontratuaren premia eta egokitasuna, eta efizientzia kontratazioan. 29. artikulua. Kontratuen iraupen-epea eta haien prestazioa emateko epea. 30. artikulua. Administrazio Publikoak ematea zuzenean prestazioak, enpresaburu partikularren laguntzarekin edo bitarteko propio ez-pertsonifikatuen bitartez. 31. artikulua. Auto-antolaketarako ahalmena eta lankidetza publiko bertikal eta horizontaleko sistemak. 32. artikulua. Botere adjudikatzaileek bitarteko propio pertsonifikatuei emandako mandatuak. 33. art…",
+            "source": "files/BOE-A-2017-12902-E.pdf",
+            "source_url": "https://boe.es/boe_euskera/dias/2017/11/09/pdfs/BOE-A-2017-12902-E.pdf",
+            "source_sha256": "25a9cde3800a4e4296d8890e8881f9f0b6d13b77443b18f4d0dccb068975de3f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
