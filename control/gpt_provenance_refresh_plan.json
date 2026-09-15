@@ -1,8 +1,8 @@
 {
   "schema": "DCE_PROVENANCE_REFRESH_PLAN_V4_REAL_SHARD_ARTIFACT_NAME",
-  "source_inbox_updated_at": "2026-09-14T06:34:59.358662+00:00",
-  "eligible_legacy_reviews": 118,
-  "selected": 7,
+  "source_inbox_updated_at": "2026-09-15T05:14:16.866111+00:00",
+  "eligible_legacy_reviews": 116,
+  "selected": 5,
   "release_count": 2,
   "release_tags": [
     "dce-harvest-34723105701",
@@ -63,28 +63,6 @@
       "spm_fit_band": "GOOD",
       "score": 60,
       "portal": "TED"
-    },
-    {
-      "candidate_id": "TED:603558-2026",
-      "dce_run_id": 34336140122,
-      "source_shard": 26,
-      "workflow_artifact_name": "dce-shard-26",
-      "release_tag": "dce-harvest-34336140122",
-      "archive_name": "candidate-TED-603558-2026.tar.gz",
-      "spm_fit_band": "GOOD",
-      "score": 56,
-      "portal": "TED"
-    },
-    {
-      "candidate_id": "PL-BZP:08df0996-7e49-5c5b-ab56-9400018abff1",
-      "dce_run_id": 34336140122,
-      "source_shard": 25,
-      "workflow_artifact_name": "dce-shard-25",
-      "release_tag": "dce-harvest-34336140122",
-      "archive_name": "candidate-PL-BZP-08df0996-7e49-5c5b-ab56-9400018abff1.tar.gz",
-      "spm_fit_band": "MAYBE",
-      "score": 38,
-      "portal": "PL_EZAMOWIENIA"
     }
   ],
   "policy": "HOT/GOOD/MAYBE legacy evidence only. Exact dce-shard-<source_shard> workflow artifact is preferred because it contains the original worker output; immutable canonical release bundle is fallback. No procurement fact or verdict is changed."
