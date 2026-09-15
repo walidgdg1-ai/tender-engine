@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-15T18:40:44.965676+00:00",
+  "updated_at": "2026-09-15T21:45:21.444950+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 35007862475,
+  "latest_source_dce_run_id": 35026889814,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 176,
+    "pending_before_visible_cap": 178,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -25,9 +25,9 @@
       "LOW": 33
     },
     "pending_by_portal": {
-      "TED": 91,
+      "TED": 90,
       "IRELAND_ETENDERS": 10,
-      "US_SAM": 15,
+      "US_SAM": 16,
       "WORLD_BANK": 4,
       "MALTA_EPPS": 4,
       "ZA_ETENDERS": 7,
@@ -65,9 +65,9 @@
       "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 91,
+      "TED": 90,
       "IRELAND_ETENDERS": 10,
-      "US_SAM": 15,
+      "US_SAM": 16,
       "WORLD_BANK": 4,
       "MALTA_EPPS": 4,
       "ZA_ETENDERS": 7,
@@ -102,18 +102,18 @@
     },
     "selected_by_band": {
       "HOT": 5,
-      "GOOD": 63,
-      "MAYBE": 57,
+      "GOOD": 62,
+      "MAYBE": 58,
       "LOW": 35
     },
     "selected_by_portal": {
-      "TED": 99,
+      "TED": 100,
       "IRELAND_ETENDERS": 7,
       "US_SAM": 17,
       "WORLD_BANK": 5,
-      "MALTA_EPPS": 3,
       "PL_EZAMOWIENIA": 3,
       "CA_CANADABUYS": 3,
+      "MALTA_EPPS": 2,
       "EE_RHR": 3,
       "GENERIC_PUBLIC_PAGE": 3,
       "ES_PLACSP": 4,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 5,
-      "GOOD": 82,
-      "MAYBE": 188,
+      "GOOD": 81,
+      "MAYBE": 189,
       "LOW": 1783
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1898,
-    "cross_portal_duplicates_collapsed": 1
+    "cross_portal_duplicates_collapsed": 0
   },
   "true_pending_before_hot_cap": 2058,
   "overflow_beyond_hot_160": 1898,
@@ -152,11 +152,12 @@
   "provenance_overrides_applied_in_window": 14,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 155,
-    "adjudication_rows_scanned_this_refresh": 1241,
-    "gate_rows_seen_this_refresh": 369,
-    "authenticity_rows_seen_this_refresh": 38,
+    "shard_files_scanned_this_refresh": 135,
+    "adjudication_rows_scanned_this_refresh": 1104,
+    "gate_rows_seen_this_refresh": 323,
+    "authenticity_rows_seen_this_refresh": 29,
     "source_runs_seen_this_refresh": [
+      35026889814,
       35007862475,
       34983618816,
       34955610235,
@@ -165,8 +166,7 @@
       34901917859,
       34881770994,
       34847470366,
-      34813508738,
-      34795550869
+      34813508738
     ]
   },
   "healthy": true,
