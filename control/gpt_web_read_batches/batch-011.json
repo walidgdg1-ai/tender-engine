@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-15T21:46:53.134620+00:00",
-  "source_inbox_updated_at": "2026-09-15T21:46:52.467970+00:00",
-  "latest_source_dce_run_id": 35026889814,
+  "generated_at": "2026-09-15T23:48:45.349431+00:00",
+  "source_inbox_updated_at": "2026-09-15T23:48:44.511670+00:00",
+  "latest_source_dce_run_id": 35036827335,
   "batch_index": 11,
   "start_rank": 111,
   "end_rank": 120,
@@ -329,7 +329,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
+      "evidence_gate_coverage": 13,
       "spm_post_dce_score": 33,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [
@@ -338,21 +338,21 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 34534486369,
-      "source_shard": 15,
-      "review_key": "39ab1601ce47672671abe98f37ad12ee5e156a1e149a52307a2e4256b27c27cc",
+      "authoritative_submission_date": "2026-09-29",
+      "source_dce_run_id": 35036827335,
+      "source_shard": 17,
+      "review_key": "fc30b0ed4d83fb7aff58b51f9a261f27deb385886a90b84625d8ad186102f345",
       "artifact_locator": {
-        "dce_run_id": 34534486369,
-        "shard": 15,
+        "dce_run_id": 35036827335,
+        "shard": 17,
         "candidate_id": "MT-EPPS:14028547",
-        "release_tag": "dce-harvest-34534486369"
+        "release_tag": "dce-harvest-35036827335"
       },
       "evidence_quality": {
         "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 14,
-        "text_chars": 121734,
-        "attributed_compact_snippets": 27,
+        "documents_with_text": 15,
+        "text_chars": 124031,
+        "attributed_compact_snippets": 25,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": true
       },
@@ -632,39 +632,9 @@
             "raw_machine_format": false,
             "artifact_lookup_required": false
           }
-        ],
-        "payment_tax": [
-          {
-            "text": "he Services ........................................................................ 14 Article 16: Personnel and Equipment ................................................................... 14 Article 18: Execution of the Contract ................................................................... 14 Article 19: Delays in Execution ........................................................................... 14 Article 20: Modification of the Contract ...............................................................…",
-            "source": "files/1262_14028547_unpacked/10_HO-Q-1282 - 2026 (16365) Quotation Doc__AA_20260630.2.pdf",
-            "source_url": null,
-            "source_sha256": "a18f55fcee19db19cf88a56d2af57c102cea852d5935e3a1425b44b743349b66",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "...................................................... 14 Article 16: Personnel and Equipment ................................................................... 14 Article 18: Execution of the Contract ................................................................... 14 Article 19: Delays in Execution ........................................................................... 14 Article 20: Modification of the Contract ................................................................ 15 Article 24: Interim and F…",
-            "source": "files/1262_14028547_unpacked/10_HO-Q-1282 - 2026 (16365) Quotation Doc__AA_20260630.2.pdf",
-            "source_url": null,
-            "source_sha256": "a18f55fcee19db19cf88a56d2af57c102cea852d5935e3a1425b44b743349b66",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
         ]
       },
-      "provenance_override": {
-        "applied": true,
-        "refreshed_at": "2026-09-11T09:08:23.520964+00:00",
-        "source_dce_run_id": 34534486369,
-        "release_tag": null,
-        "archive_name": null,
-        "bundle_asset": null,
-        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
-      },
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
