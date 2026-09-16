@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-16T07:06:01.803453+00:00",
+  "generated_at": "2026-09-16T09:32:40.714618+00:00",
   "source_inbox_updated_at": "2026-09-16T07:06:01.281878+00:00",
   "latest_source_dce_run_id": 35065197735,
   "batch_index": 2,
@@ -655,7 +655,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "MIXED_SUBSTANTIVE_AND_GUIDE",
-      "evidence_gate_coverage": 13,
+      "evidence_gate_coverage": 14,
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -676,15 +676,322 @@
         "release_tag": "dce-harvest-35065197735"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 32,
+        "text_chars": 1063239,
+        "attributed_compact_snippets": 27,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "turnover_financial": [
+          {
+            "text": "verhältnis auf unbestimmte Dauer fort. Unabhängig davon kann der gesamte EVB-IT System- vertrag (als Werkvertrag) nach § 648 BGB gekündigt werden; die Kündigungsfolgen ergeben sich aus Nr. 18.7 EVB-IT Systemvertrag. Hinweis auf abweichende Vertragslängen: Während der Softwarekauf auf Dauer angelegt ist, läuft der Systemservice mindestens 84 Monate und ist danach ordentlich künd- bar. Diese textliche Kurzfassung dient der groben Einordnung der Vertragsstruktur (Gesamtwerkver- trag, Softwarekauf, Services, Preislogi…",
+            "source": "files/06-VgV-TNW-Leistungsbeschreibung.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/serviceDescription/06-VgV-TNW-Leistungsbeschreibung.pdf",
+            "source_sha256": "3c6b3f05d6a63d9916bf9778c353cbf93ffbc13c23ea9a1fb979a8f382446df0",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "| | | | | | | Vorhaben | Vergabe einer Bildungsmanagementsoftware | Vergabe einer Bildungsmanagementsoftware | Vergabe einer Bildungsmanagementsoftware Ausschreibungsart | VgV-Verhandlungsverfahren mit Teilnahmewettbewerb | VgV-Verhandlungsverfahren mit Teilnahmewettbewerb | VgV-Verhandlungsverfahren mit Teilnahmewettbewerb Vergabe-Nr.: | 2026_092 81200 | 2026_092 81200 | 2026_092 81200 Firmenname (inkl. Rechtsform) Gesetzliche Vertretung (Geschäftsführung/Vorstand) Identifikationsnummer des Bewerbers (z.B. Handel…",
+            "source": "files/Vergabeunterlagen_CXS7YD3YTTZNC25T_unpacked/vom_unternehmen_auszufuellende_dokumente/05-VgV-TNW -Teilnahmeantrag2026-08-31.docx",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/filledByCompany/05-VgV-TNW+-Teilnahmeantrag2026-08-31.docx",
+            "source_sha256": "26a52c54f25621b6c20f491bd2f0f4c6b61f55799639a5ec11f756f09ff60a02",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "eine zumindest teilautomatisierte Planung unterstützt 3.1.2.4 Referenzkriterium 3, (Gewichtungsfaktor 70/9) - Anzahl Referenzen einer Anwendung, die die erstmalige Registrierung bislang noch nicht erfasster Personen über ein Webportal ermöglicht. Dabei werden mindestens folgende Daten abgefragt: Name, Vorname, Geburtsdatum, Private Anschrift, individuelle E -Mail-Adresse, Passwort, Dienststelle (bis zu 3 Dienststellen); die Datenschutzhinweise sind vor dem Versenden abrufbar. Die Daten werden automatisiert in die …",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "g bislang noch nicht erfasster Personen über ein Webportal ermöglicht. Dabei werden mindestens folgende Daten abgefragt: Name, Vorname, Geburtsdatum, Private Anschrift, individuelle E -Mail-Adresse, Passwort, Dienststelle (bis zu 3 Dienststellen); die Datenschutzhinweise sind vor dem Versenden abrufbar. Die Daten werden automatisiert in die Anwendungs -Datenbank übe rtragen und können dort verwendet und verändert werden. Eine Referenz ist wertbar, wenn die im Referenzprojekt eingesetzte Anwendung technisch geeigne…",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "sofern entsprechende Angaben verfügbar sind (§ 45 Abs. 4 Nr. 4 VgV) o 5.6. –VgV-TNW – Referenzobjekte o 5.7–VgV–TNW – Nachunternehmererklärung/Verzeichnis der Nachunternehmerleis- tungen (sofern einschlägig) o 5.8–VgV–TNW – Eigenerklärung Kapazitäten anderer Unternehmen (Eignungsleihe) (sofern einschlägig) o 5.9–VgV–TNW – Verpflichtungserklärung bei Eignungsleihe (auf gesondertes Anfor- dern des AG) Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware Seite 4 von 4 o 5.10–VgV–TNW – Verpfli…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Angaben verfügbar sind (§ 45 Abs. 4 Nr. 4 VgV) o 5.6. –VgV-TNW – Referenzobjekte o 5.7–VgV–TNW – Nachunternehmererklärung/Verzeichnis der Nachunternehmerleis- tungen (sofern einschlägig) o 5.8–VgV–TNW – Eigenerklärung Kapazitäten anderer Unternehmen (Eignungsleihe) (sofern einschlägig) o 5.9–VgV–TNW – Verpflichtungserklärung bei Eignungsleihe (auf gesondertes Anfor- dern des AG) Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware Seite 4 von 4 o 5.10–VgV–TNW – Verpflichtungserklärung bei …",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "en am Erfüllungsort) 27 7.2.2 Außerhalb der Geschäftszeiten an Werktagen (außer an Samstagen und Feiertagen am Erfüllungsort) 28 7.2.3 Während sonstiger Zeiten 28 7.3 Abweichende Regelungen für die Bestimmung und Vergütung von Personentagessätzen 28 7.4 Reisekosten, Nebenkosten*, Materialkosten und Reisezeiten 28 7.4.1 Reisekosten, Nebenkosten* und Materialkosten 28 7.4.2 Reisezeiten 28 7.5 Besondere Bestimmungen zur Vergütung nach Aufwand 28 7.6 Preisanpassung für Systemserviceleistungen, die nicht im Pauschalfes…",
+            "source": "files/12-VgV-ANG-EVB-IT_20Vertrag.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/contractCondition/12-VgV-ANG-EVB-IT+Vertrag.pdf",
+            "source_sha256": "81db9f844e315e70c58f83cd8f7d257eff877efa7991b65af6bb50e405500980",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Tabelle: Termin gemäß Nummer 8, lfd. Nr. Art der Zahlung AZ1, TZ2, SZ3 Betrag Bemerkungen 1 2 3 4 1 AZ = Abschlagszahlung* 2 TZ = Teilzahlung. Diese setzt eine erfolgreiche Teilabnahme voraus, gilt anderenfalls als AZ. 3 SZ = Schlusszahlung Der Zahlungsplan ergibt sich aus Anlage Nr. 2, Abschnitt 9 (Zahlungsplan). EVB-IT Systemvertrag Seite 30 von 39 Vertragsnummer/Kennung Auftraggeber _______ Vertragsnummer/Kennung Auftragnehmer _______ Seite 30 von 39 Die mit * gekennzeichneten Begriffe sind am Ende der EVB-IT S…",
+            "source": "files/12-VgV-ANG-EVB-IT_20Vertrag.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/contractCondition/12-VgV-ANG-EVB-IT+Vertrag.pdf",
+            "source_sha256": "81db9f844e315e70c58f83cd8f7d257eff877efa7991b65af6bb50e405500980",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "antrages • 02 – VgV – TNW – Teilnahmebedingungen • 03 – VgV – TNW – Informationsunterlage • 04 – VgV – TNW – Bewertungsmatrix Teilnahmewettbewerb • 06 – VgV – TNW – Leistungsbeschreibung 8.2 Unterlagen zum Teilnahmewettbewerb, die dem Teilnahmeantrag beizufügen sind: • 05 – VgV – TNW – Teilnahmeantrag samt aller Anlagen (Deckblätter und Musterformulare) o 5.1–VgV–TNW – Erklärung zum Nichtvorliegen von Ausschlussgründen gemäß § 123, 124 GWB o 5.2–VgV–TNW – Eigenerklärung Selbstreinigungsmaßnahmen i.S.d. § 125 GWB (…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ist – wesentliche Eigenerklärungen enthalten sind. Wird eine Anforderung an die Eignung nicht eingehalten, wird der Teilnahmeantrag ausgeschlossen. Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware 2.1 Befähigung zur Berufsausübung, Ausschlussgründe • Erklärung zu § 42 VgV iVm. §§ 123, 124 GWB • Erklärung zur Selbstreinigungsmaßnahmen iSd. § 125 GWB (sofern einschlägig) • Eigenerklärung entsprechend dem BMWK-Rundschreiben vom 14.04.2022 über die Einhaltung der Sanktionen gegen die Russi…",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "tliche bzw. wirtschaftliche Bewertung der Ver- tragsunterlagen. 2 Auskünfte Bewerberfragen sind digital über die Vergabeplattform eVergabe NRW (https://www.evergabe.nrw.de/VMPCenter/) zu stellen und werden nur über diese beantwortet. Eine telefonische Beantwortung von Bewerberfragen erfolgt nicht. Der Auftraggeber stellt auf der Verga- beplattform eVergabe NRW (https://www.evergabe.nrw.de/VMPCenter/) Unterlagen ein (auch ggf. neue, sich ändernde oder ergänzende Unterlagen). Der Bewerber /die Bewerbergemeinschaft (…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s- oder Geschäftsgeheimnis beinhalten, auf jeder betroffenen Seite deutlich zu kennzeichnen. Geschieht dies nicht, kann die Vergabekammer im Falle eines Nachp rüfungsverfahrens von seiner Zustimmung auf Einsicht durch andere Verfahrensbeteiligte ausgehen (vgl. § 165 Abs. 3 GWB). 6. Wahrheitspflicht Sämtliche Angaben sind vollständig, wahrheitsgemäß und widerspruchsfrei zu machen. Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware 7. Bewerbergemeinschaften Bewerbergemeinschaften haben mit…",
+            "source": "files/02-VgV-TNW_20-_20Teilnahmebedingungen.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/02-VgV-TNW+-+Teilnahmebedingungen.pdf",
+            "source_sha256": "1316cd9cc6da882f81eeda8f714fc0ecde9bd95a68dc3f197f562393a4a5b4ff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf ===== Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware Seite 1 von 4 1-VgV-TNW Aufforderung zur Abgabe eines Teilnahmeantrages Sehr geehrte Damen und Herren, es ist beabsichtigt, nachfolgend benannte Leistungen im Namen und auf Rechnung Institut der Feuerwehr NRW Wolbecker Str. 237 D-48155 Münster zu vergeben: 1 Kurze Leistungsbeschreibung Im Rahmen des IT-Projektes wird ein Gesamtwerkvertrag …",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "en. 7 Stelle, an die sich der Bewerber oder Bieter zur Nachprüfung behaupteter Verstöße gegen die Vergabebestimmungen wenden kann: Vergabekammer Westfalen Albrecht-Thaer-Straße 9 48147 Münster Telefon: 0251 411-1691 Telefax: 0251 411-2165 E-Mail: vergabekammer@bezreg-muenster.nrw.de 8 Anlagen zur „Aufforderung zum Teilnahmewettbewerb“ 8.1 Unterlagen zum Teilnahmewettbewerb, die beim Bewerber verbleiben: • 01 – VgV – TNW – Aufforderung zur Abgabe eines Teilnahmeantrages • 02 – VgV – TNW – Teilnahmebedingungen • 03 …",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "s- tungen (sofern einschlägig) o 5.8–VgV–TNW – Eigenerklärung Kapazitäten anderer Unternehmen (Eignungsleihe) (sofern einschlägig) o 5.9–VgV–TNW – Verpflichtungserklärung bei Eignungsleihe (auf gesondertes Anfor- dern des AG) Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware Seite 4 von 4 o 5.10–VgV–TNW – Verpflichtungserklärung bei Nachunternehmereinsatz (auf geson- dertes Anfordern des AG) o 5.11–VgV–TNW – Erklärung zur Zertifizierung nach ISO 27001, BSI Grundschutz oder vergleichbar …",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Vergabeunterlagen dürfen nur zur Erstellung des Teilnahmeantrags verwendet werden. Jede Veröffentlichung (auch auszugsweise) ist ohne die ausdrückliche Genehmigung des Auftraggebers unzulässig. Falls Sie die Vergabeunterlagen bereits ausgedruckt haben, jedoch kein en Teilnahme- antrag abgeben möchten, werden Sie gebeten, die Vergabeunterlagen unverzüglich zu vernichten. 4. Sprache des Teilnahmeantrages Der Teilnahmeantrag ist in deutscher Sprache abzufassen. Anträge in anderer Sprache werden aus- geschlossen. Sowe…",
+            "source": "files/02-VgV-TNW_20-_20Teilnahmebedingungen.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/02-VgV-TNW+-+Teilnahmebedingungen.pdf",
+            "source_sha256": "1316cd9cc6da882f81eeda8f714fc0ecde9bd95a68dc3f197f562393a4a5b4ff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "tragnehmer vereinbart. Bei Bedarf können auch andere Prozessbeteiligte wie IT.NRW hinzugezogen werden. Die Jour Fixe sollen alle 2 Kalenderwochen stattfindet und dienen der Abstimmung zum Projektverlauf. Verantwortlichkeit: Der Auftraggeber lädt zu den Terminen ein und leitet diese. Die Protokollierung übernimmt der Auftragnehmer. Anschließend erhalten alle Beteiligte n das Ergebnisprotokoll mit der Bitte um Zustimmung, Meilensteinberichte entsprechend des gemeinsamen Zeitplans. Meilensteinberichte sind Übersichte…",
+            "source": "files/13-VgV-ANG-EVB-IT_20Weitere_20Vertragsbedingungen.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/contractCondition/13-VgV-ANG-EVB-IT+Weitere+Vertragsbedingungen.pdf",
+            "source_sha256": "2dade726bdfb88d41ff80c772862a11408aae5586dfdd81b78ff10edee5d8f28",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "estimmte Dauer fort. Unabhängig davon kann der gesamte EVB-IT System- vertrag (als Werkvertrag) nach § 648 BGB gekündigt werden; die Kündigungsfolgen ergeben sich aus Nr. 18.7 EVB-IT Systemvertrag. Hinweis auf abweichende Vertragslängen: Während der Softwarekauf auf Dauer angelegt ist, läuft der Systemservice mindestens 84 Monate und ist danach ordentlich künd- bar. Diese textliche Kurzfassung dient der groben Einordnung der Vertragsstruktur (Gesamtwerkver- trag, Softwarekauf, Services, Preislogik, Kriterienbindun…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "inem form- und fristgerechten Teilnahmeantrag zu bewerben. 7 Stelle, an die sich der Bewerber oder Bieter zur Nachprüfung behaupteter Verstöße gegen die Vergabebestimmungen wenden kann: Vergabekammer Westfalen Albrecht-Thaer-Straße 9 48147 Münster Telefon: 0251 411-1691 Telefax: 0251 411-2165 E-Mail: vergabekammer@bezreg-muenster.nrw.de 8 Anlagen zur „Aufforderung zum Teilnahmewettbewerb“ 8.1 Unterlagen zum Teilnahmewettbewerb, die beim Bewerber verbleiben: • 01 – VgV – TNW – Aufforderung zur Abgabe eines Teilnahm…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "251 411-1691 Telefax: 0251 411-2165 E-Mail: vergabekammer@bezreg-muenster.nrw.de 8 Anlagen zur „Aufforderung zum Teilnahmewettbewerb“ 8.1 Unterlagen zum Teilnahmewettbewerb, die beim Bewerber verbleiben: • 01 – VgV – TNW – Aufforderung zur Abgabe eines Teilnahmeantrages • 02 – VgV – TNW – Teilnahmebedingungen • 03 – VgV – TNW – Informationsunterlage • 04 – VgV – TNW – Bewertungsmatrix Teilnahmewettbewerb • 06 – VgV – TNW – Leistungsbeschreibung 8.2 Unterlagen zum Teilnahmewettbewerb, die dem Teilnahmeantrag beizuf…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "n zur „Aufforderung zum Teilnahmewettbewerb“ 8.1 Unterlagen zum Teilnahmewettbewerb, die beim Bewerber verbleiben: • 01 – VgV – TNW – Aufforderung zur Abgabe eines Teilnahmeantrages • 02 – VgV – TNW – Teilnahmebedingungen • 03 – VgV – TNW – Informationsunterlage • 04 – VgV – TNW – Bewertungsmatrix Teilnahmewettbewerb • 06 – VgV – TNW – Leistungsbeschreibung 8.2 Unterlagen zum Teilnahmewettbewerb, die dem Teilnahmeantrag beizufügen sind: • 05 – VgV – TNW – Teilnahmeantrag samt aller Anlagen (Deckblätter und Musterf…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "sich aus Ziff. 8.2 dieses Dokuments. 4 Form Teilnahmeanträge können ausschließlich in Textform gem. § 126b BGB mit Hilfe elektronischer Mittel über die Vergabeplattform eVergabe NRW (https://www.evergabe.nrw.de/VMPCenter/) eingereicht werden. Die Einzelheiten sind den Teilnahmebedingungen (Anlage 2 der Vergabeunterlagen) zu ent- nehmen. 5 Vorgesehene Anzahl von Bewerbern, die zur Abgabe eines Erstangebotes aufgefordert werden sollen mindestens: 3 höchstens: 6 6 Termine Teilnahmeanträge, welche nicht form- und fris…",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "– Angaben zur Abfrage des Wettbewerbsregisters o 5.13–VgV–TNW – Erklärung zu Sanktionen gegen Russland 8.3 Unterlagen zur Angebotsphase • Als Entwurf Unterlagen 08-VgV-ANG bis 16-VgV-ANG Mit freundlichen Grüßen Das Institut der Feuerwehr NRW - Vergabestelle ===== FILE: files/02-VgV-TNW_20-_20Teilnahmebedingungen.pdf ===== Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware 02-VgV-TNW Teilnahmebedingungen 1. Unklarheiten in den Vergabeunterlagen Enthalten die Teilnahmeunterlagen nach Auffa…",
+            "source": "files/02-VgV-TNW_20-_20Teilnahmebedingungen.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/02-VgV-TNW+-+Teilnahmebedingungen.pdf",
+            "source_sha256": "1316cd9cc6da882f81eeda8f714fc0ecde9bd95a68dc3f197f562393a4a5b4ff",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ng zur Berufsausübung, Ausschlussgründe • Erklärung zu § 42 VgV iVm. §§ 123, 124 GWB • Erklärung zur Selbstreinigungsmaßnahmen iSd. § 125 GWB (sofern einschlägig) • Eigenerklärung entsprechend dem BMWK-Rundschreiben vom 14.04.2022 über die Einhaltung der Sanktionen gegen die Russische Föderation (sog. „Russlanderklärung“) 2.2 Wirtschaftliche und finanzielle Leistungsfähigkeit 2.2.1 Betriebshaftpflichtversicherung Eigenerklärung, dass eine hinreichende Betriebshaftpflichtversicherung (je Versicherungsfall) mit der …",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ".2.3 Referenzkriterium 2, (Gewichtungsfaktor 70/9) - Anzahl Referenzen einer Anwendung, welche über ein Planungstool verfügt, welches alle für die Planung relevanten Daten sammelt, aufbereitet und visualisiert und eine zumindest teilautomatisierte Planung unterstützt 3.1.2.4 Referenzkriterium 3, (Gewichtungsfaktor 70/9) - Anzahl Referenzen einer Anwendung, die die erstmalige Registrierung bislang noch nicht erfasster Personen über ein Webportal ermöglicht. Dabei werden mindestens folgende Daten abgefragt: Name, Vo…",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "===== FILE: files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf ===== Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware Seite 1 von 4 1-VgV-TNW Aufforderung zur Abgabe eines Teilnahmeantrages Sehr geehrte Damen und Herren, es ist beabsichtigt, nachfolgend benannte Leistungen im Namen und auf Rechnung Institut der Feuerwehr NRW Wolbecker Str. 237 D-48155 Münster zu vergeben: 1 Kurze Leistungsbeschreibung Im Rahmen des IT-Projektes wird ein Gesamtwerkvertrag …",
+            "source": "files/01-VgV-TNW_20-_20Aufforderung_20zur_20Abgabe_20eines_20Teilnahmeantrags.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/address/01-VgV-TNW+-+Aufforderung+zur+Abgabe+eines+Teilnahmeantrags.pdf",
+            "source_sha256": "b12dd2f18dfd1ce4051ed1d0f32cdb7f2cf38174b98c98b4c6c9746c2bb5d011",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "verfügte, um diese Datenfelder durch angemessenes kundenspezifisches Cu stomizing abzufragen und in der Anwendung zu verarbeiten. 3.1.2.5 Referenzkriterium 4, (Gewichtungsfaktor 70/9) Institut der Feuerwehr Nordrhein-Westfalen Vergabe Bildungsmanagementsoftware - Anzahl Referenzen einer Anwendung, die es ermöglicht, einen Veranstaltungskatalog zu führen und zu pflegen, welcher im Internet öffentlich zugänglich ist. 3.1.2.6 Referenzkriterium 5, (Gewichtungsfaktor 70/9) - Anzahl Referenzen einer Anwendung, die es er…",
+            "source": "files/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_url": "https://www.evergabe.nrw.de/VMPSatellite/public/company/project/CXS7YD3YTTZNC25T/de/documents/misc/03-VgV-TNW-Informationsunterlage26-08-31.pdf",
+            "source_sha256": "191e6c9d372d6531ba77e9f32ddbac5320d42cde9adbc2284f40575ffa0c7ad3",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-16T09:31:42.984019+00:00",
+        "source_dce_run_id": 35065197735,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
