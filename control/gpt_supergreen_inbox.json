@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-09-16T01:49:34.430142+00:00",
+  "updated_at": "2026-09-16T01:51:15.438130+00:00",
   "latest_source_dce_run_id": 35045024865,
   "review_queue": [
     {
@@ -44,7 +44,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 6,
@@ -1285,7 +1285,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 8,
@@ -1378,7 +1378,7 @@
         "candidate_id": "TED:593085-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.778291+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.302543+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1431,7 +1431,7 @@
         "candidate_id": "TED:626082-2026",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:29.047780+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.515700+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1482,7 +1482,7 @@
         "candidate_id": "TED:604760-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.877756+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.394005+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1527,14 +1527,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 40,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 40,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.811234+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.332797+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1573,19 +1575,22 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "software-development"
+        "software-development",
+        "workshop"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 42,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8799836"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 42,
         "candidate_id": "TED:599631-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.843370+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.362863+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1637,7 +1642,7 @@
         "candidate_id": "TED:596658-2026",
         "release_tag": "dce-harvest-35026889814"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.635661+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.174045+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2106,7 +2111,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.906819+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.420769+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2146,7 +2151,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "cloud-services"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
@@ -2158,7 +2164,7 @@
         "candidate_id": "TED:611421-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.898489+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.413045+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2198,7 +2204,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "workshop"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
@@ -2210,7 +2217,7 @@
         "candidate_id": "TED:635219-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.849106+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.368302+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2637,7 +2644,7 @@
       "gpt_priority_score": 62,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 10,
@@ -2877,14 +2884,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 40,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8626427"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 40,
         "candidate_id": "TED:630114-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.817001+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.338388+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2936,7 +2945,7 @@
         "candidate_id": "TED:592639-2026",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:29.043616+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.511766+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2987,7 +2996,7 @@
         "candidate_id": "TED:611740-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.865242+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.382823+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3039,7 +3048,7 @@
         "candidate_id": "TED:600856-2026",
         "release_tag": "dce-harvest-34913111838"
       },
-      "hot_ready_at": "2026-09-16T01:47:27.719073+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.329439+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3566,7 +3575,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35036827335,
         "shard": 43,
@@ -3721,7 +3730,7 @@
       "gpt_priority_score": 54,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 6,
@@ -4026,7 +4035,7 @@
         "candidate_id": "TED:606952-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.725134+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.254444+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4347,7 +4356,7 @@
         "candidate_id": "IE:9021973",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.990456+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.497897+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4357,7 +4366,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 0,
@@ -9140,7 +9149,7 @@
         "candidate_id": "US-SAM:519fe220d41e46139b175480e810d5f9",
         "release_tag": "dce-harvest-34983618816"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.223272+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.793212+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -9150,7 +9159,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 34983618816,
         "shard": 1,
@@ -9193,7 +9202,7 @@
         "candidate_id": "US-SAM:ee367dc2836c48488c2fdbc16949aa0f",
         "release_tag": "dce-harvest-34983618816"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.311239+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.875030+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -9203,7 +9212,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 34983618816,
         "shard": 3,
@@ -13147,7 +13156,7 @@
         "candidate_id": "IE:8927804",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.837484+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.357352+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -13827,7 +13836,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 13,
@@ -14740,7 +14749,7 @@
         "candidate_id": "MT-EPPS:14028547",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.772001+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.296709+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15732,7 +15741,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.864867+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.382476+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17195,6 +17204,55 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "WORLD-BANK:OP00464338",
+      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
+      "deadline": "2026-09-25T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32862116351,
+      "source_shard": 1,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "CY-EPPS:9182240",
       "title": "284/2026 - Supply of Protective Gloves",
       "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
@@ -17423,7 +17481,7 @@
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-34901917859"
       },
-      "hot_ready_at": "2026-09-16T01:47:27.634475+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.251512+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17537,55 +17595,6 @@
         "shard": 7,
         "candidate_id": "UK_PCS_OCDS:rls-111-NOV518317",
         "release_tag": "dce-harvest-32310906759"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "WORLD-BANK:OP00464338",
-      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
-      "buyer": null,
-      "portal": "WORLD_BANK",
-      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
-      "deadline": "2026-09-25T00:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32862116351,
-      "source_shard": 1,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -18242,7 +18251,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 6,
@@ -19483,7 +19492,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 8,
@@ -19576,7 +19585,7 @@
         "candidate_id": "TED:593085-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.778291+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.302543+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19629,7 +19638,7 @@
         "candidate_id": "TED:626082-2026",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:29.047780+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.515700+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19680,7 +19689,7 @@
         "candidate_id": "TED:604760-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.877756+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.394005+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19725,14 +19734,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 40,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 40,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.811234+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.332797+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19771,19 +19782,22 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "software-development"
+        "software-development",
+        "workshop"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 42,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8799836"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 42,
         "candidate_id": "TED:599631-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.843370+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.362863+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19835,7 +19849,7 @@
         "candidate_id": "TED:596658-2026",
         "release_tag": "dce-harvest-35026889814"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.635661+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.174045+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20304,7 +20318,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.906819+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.420769+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20344,7 +20358,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "cloud-services"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
@@ -20356,7 +20371,7 @@
         "candidate_id": "TED:611421-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.898489+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.413045+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20396,7 +20411,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "workshop"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
@@ -20408,7 +20424,7 @@
         "candidate_id": "TED:635219-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.849106+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.368302+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20835,7 +20851,7 @@
       "gpt_priority_score": 62,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 10,
@@ -21075,14 +21091,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35036827335,
       "source_shard": 40,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8626427"
+      ],
       "artifact_locator": {
         "dce_run_id": 35036827335,
         "shard": 40,
         "candidate_id": "TED:630114-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.817001+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.338388+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21134,7 +21152,7 @@
         "candidate_id": "TED:592639-2026",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:29.043616+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.511766+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21185,7 +21203,7 @@
         "candidate_id": "TED:611740-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.865242+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.382823+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21237,7 +21255,7 @@
         "candidate_id": "TED:600856-2026",
         "release_tag": "dce-harvest-34913111838"
       },
-      "hot_ready_at": "2026-09-16T01:47:27.719073+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.329439+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21764,7 +21782,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35036827335,
         "shard": 43,
@@ -21919,7 +21937,7 @@
       "gpt_priority_score": 54,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 6,
@@ -22224,7 +22242,7 @@
         "candidate_id": "TED:606952-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.725134+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.254444+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22545,7 +22563,7 @@
         "candidate_id": "IE:9021973",
         "release_tag": "dce-harvest-35045024865"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.990456+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.497897+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22555,7 +22573,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 0,
@@ -27338,7 +27356,7 @@
         "candidate_id": "US-SAM:519fe220d41e46139b175480e810d5f9",
         "release_tag": "dce-harvest-34983618816"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.223272+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.793212+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -27348,7 +27366,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 34983618816,
         "shard": 1,
@@ -27391,7 +27409,7 @@
         "candidate_id": "US-SAM:ee367dc2836c48488c2fdbc16949aa0f",
         "release_tag": "dce-harvest-34983618816"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.311239+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.875030+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -27401,7 +27419,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 34983618816,
         "shard": 3,
@@ -31345,7 +31363,7 @@
         "candidate_id": "IE:8927804",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.837484+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.357352+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -32025,7 +32043,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35045024865,
         "shard": 13,
@@ -32938,7 +32956,7 @@
         "candidate_id": "MT-EPPS:14028547",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.772001+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.296709+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33930,7 +33948,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-35036827335"
       },
-      "hot_ready_at": "2026-09-16T01:47:28.864867+00:00",
+      "hot_ready_at": "2026-09-16T01:50:19.382476+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35393,6 +35411,55 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "WORLD-BANK:OP00464338",
+      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
+      "deadline": "2026-09-25T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32862116351,
+      "source_shard": 1,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "CY-EPPS:9182240",
       "title": "284/2026 - Supply of Protective Gloves",
       "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
@@ -35621,7 +35688,7 @@
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-34901917859"
       },
-      "hot_ready_at": "2026-09-16T01:47:27.634475+00:00",
+      "hot_ready_at": "2026-09-16T01:50:18.251512+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35735,55 +35802,6 @@
         "shard": 7,
         "candidate_id": "UK_PCS_OCDS:rls-111-NOV518317",
         "release_tag": "dce-harvest-32310906759"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "WORLD-BANK:OP00464338",
-      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
-      "buyer": null,
-      "portal": "WORLD_BANK",
-      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
-      "deadline": "2026-09-25T00:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32862116351,
-      "source_shard": 1,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -36443,7 +36461,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 177,
+    "pending_before_visible_cap": 173,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
