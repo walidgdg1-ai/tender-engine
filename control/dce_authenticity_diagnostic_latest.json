@@ -1,28 +1,27 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 34931400027,
+  "latest_source_dce_run_id": 35045024865,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
     "DE_DOE": 2,
     "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
+    "GR_KHMDHS": 2,
     "SK_UVO": 2,
     "TED": 2,
     "US_SAM": 1,
     "ZA_ETENDERS": 1,
     "CA_CANADABUYS": 1,
     "EE_RHR": 1,
-    "GR_KHMDHS": 1,
     "IRELAND_ETENDERS": 1,
     "LV_IUB": 1,
     "PL_EZAMOWIENIA": 1,
-    "SCOTLAND_PCS": 1,
     "WORLD_BANK": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 9
+    "UNKNOWN_RETRIEVED_DOCUMENT": 10,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 10
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 20
@@ -47,6 +46,14 @@
     },
     {
       "portal": "GENERIC_PUBLIC_PAGE",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "GR_KHMDHS",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -86,14 +93,6 @@
       }
     },
     {
-      "portal": "GR_KHMDHS",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
       "portal": "IRELAND_ETENDERS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -111,14 +110,6 @@
     },
     {
       "portal": "PL_EZAMOWIENIA",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
-      "portal": "SCOTLAND_PCS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -177,20 +168,20 @@
         "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/fe511593-3ec0-4bd8-8a9a-44dccbe35655?ricercaArchivio=false"
       },
       {
+        "candidate_id": "GR-KHMDHS:26PROC019684070",
+        "portal": "GR_KHMDHS",
+        "title": "Πρόσκληση υποβολής προσφορών για το σχεδιασμό και την κατασκευή ιστοσελίδας για το έργο easy HPC",
+        "buyer": "ΕΠΙΣΤΗΜΟΝΙΚΟ ΠΑΡΚΟ ΠΑΤΡΩΝ Α.Ε.",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019684070"
+      },
+      {
         "candidate_id": "SK-UVO:540250",
         "portal": "SK_UVO",
         "title": "Opravy hnacích náprav ZF",
         "buyer": "Dopravný podnik Bratislava, akciová spoločnosť",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-zakaziek/detail/540250?cHash=1ee2028c89598d4f377712ab29e79a74"
-      },
-      {
-        "candidate_id": "TED:598032-2026",
-        "portal": "TED",
-        "title": "Spain – Graphic design services – Acuerdo marco para la homologación de empresas para la prestación de servicios de rotulación, instalación de señalización y singularització de espacios para estaciones, dependencias y oficinas, material móvil y vehículos corporativos dentro del ámbito de la red ferroviaria y de turismo y montaña de Ferrocarriles de la Generalitat de Cataluña (Ref. AM15/26)",
-        "buyer": "Ferrocarrils de la Generalitat de Catalunya",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/598032-2026"
       }
     ]
   },
