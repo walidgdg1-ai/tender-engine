@@ -88,7 +88,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-83037** · FR · p=61 · deadline=UNKNOWN · blockers=none · Conception, réalisation, mise en production, maintenance et évolution du futur site internet de la CNCCFP
 - **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 - **TED:538533-2026** · FRA · p=48 · deadline=2026-09-21T02:00:00+00:00 · blockers=none · France – Software maintenance and repair services – Tierce maintenance applicative du SI ARIA (outils de gestion de l’accidentologie) et assistance aux utilisateurs internes
-- **TED:566599-2026** · BEL · p=46 · deadline=2026-09-17T09:00:00+00:00 · blockers=none · Belgium – Software maintenance and repair services – Maintenance site internet & SAP MCF (SWDE)
 - **TED:576206-2026** · DEU · p=46 · deadline=2026-09-18T09:00:00+00:00 · blockers=none · Germany – World wide web (www) site design services – Internet-Webdienstleistung
 - **CA:305-379-026** · CA · p=46 · deadline=2026-10-05T13:00:00+00:00 · blockers=none · Drydocking & Refit Services for the M.V. Highlanders
 - **US-SAM:96b0e6b0986c4c8583e0f3be78bb652c** · US · p=46 · deadline=2026-11-18T15:00:00+00:00 · blockers=none · Fiscal Year 2027 FDA Small Business Fair
@@ -100,6 +99,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:598211-2026** · FRA · p=40 · deadline=2026-10-02T09:00:00+00:00 · blockers=none · France – Cleaning services – Nettoyage des locaux et de la vitrerie, des locaux de plonge, de restauration et prestations de plonge, d’hébergement et d’hôtellerie de divers sites militaires pour les secteurs Tarbes, Ger et barèges, relevant du GSC de Toulouse et du Cercle de la BdD de Toulouse-Tarbes-Castres (EPA).
 - **TED:596878-2026** · FRA · p=40 · deadline=2026-10-05T09:00:00+00:00 · blockers=none · France – Cleaning services – Nettoyage périodique locaux et vitrerie, locaux de plonge, hébergement et hôtellerie, prestations de plonge (laverie et batterie) et prestations d’hôtellerie de divers sites militaires relevant du Groupement Soutien du Commissariat de Toulon (GSC) et des cercles des armées, Etablissements Publics Administratifs (EPA) situés sur les communes de Hyères, Cuers, Giens et Port Pothuau.
 - **TED:631350-2026** · FRA · p=40 · deadline=2026-10-27T01:00:00+00:00 · blockers=none · France – Hotel accommodation services – Gestion d'un centre d'hébergement temporaire en garantissant le fonctionnement technique, l'entretien, le nettoyage et la sécurité pour les résidents
+- **DE-DOE:25781968:1** · DE · p=40 · deadline=UNKNOWN · blockers=none · Drupal Wartung und Weiterentwicklung
 
 ## media_monitoring
 - **TED:605337-2026** · BEL · p=40 · deadline=2026-10-02T21:59:59+00:00 · blockers=none · Belgium – News-agency services – Monitoring and analysis services of the Greek media
