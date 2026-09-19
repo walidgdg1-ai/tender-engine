@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-09-19T09:55:05.940205+00:00",
+  "updated_at": "2026-09-19T09:56:51.857584+00:00",
   "latest_source_dce_run_id": 35435632799,
   "review_queue": [
     {
@@ -36,7 +36,7 @@
         "candidate_id": "TED:640511-2026",
         "release_tag": "dce-harvest-35394826156"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.239158+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.247098+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -141,7 +141,7 @@
         "candidate_id": "TED:611050-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.834599+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.711607+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -192,7 +192,7 @@
         "candidate_id": "TED:632119-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.615802+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.366653+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1382,7 +1382,7 @@
         "candidate_id": "TED:636378-2026",
         "release_tag": "dce-harvest-35404840767"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.418717+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.386932+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1433,7 +1433,7 @@
         "candidate_id": "TED:611398-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.907546+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.657510+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1548,7 +1548,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 4,
@@ -1592,7 +1592,7 @@
         "candidate_id": "TED:632960-2026",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:07.037066+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.841159+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1647,7 +1647,7 @@
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.886183+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.752125+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1702,7 +1702,7 @@
         "candidate_id": "TED:620396-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.920003+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.778154+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1741,20 +1741,25 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
+        "workflow-automation",
         "software-development",
-        "it-services"
+        "data-migration",
+        "it-services",
+        "digital-platform"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
       "source_shard": 10,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8978060"
+      ],
       "artifact_locator": {
         "dce_run_id": 35315383809,
         "shard": 10,
         "candidate_id": "TED:610280-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.727871+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.479076+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1799,14 +1804,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
       "source_shard": 8,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35315383809,
         "shard": 8,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.929219+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.678788+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1850,14 +1857,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35295780459,
       "source_shard": 16,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8975078"
+      ],
       "artifact_locator": {
         "dce_run_id": 35295780459,
         "shard": 16,
         "candidate_id": "TED:607549-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.611350+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.362146+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2284,7 +2293,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 10,
@@ -2326,7 +2335,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.796838+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.682465+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2380,7 +2389,7 @@
         "candidate_id": "TED:610000-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.856564+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.728983+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2434,7 +2443,7 @@
         "candidate_id": "TED:635530-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.869993+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.739361+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2490,7 +2499,7 @@
         "candidate_id": "TED:645516-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.847584+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.721836+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2542,7 +2551,7 @@
         "candidate_id": "TED:645866-2026",
         "release_tag": "dce-harvest-35411830837"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.624296+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.547371+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2593,7 +2602,7 @@
         "candidate_id": "CA:WS5525055833",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.759701+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.511538+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2645,7 +2654,7 @@
         "candidate_id": "TED:636215-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.599844+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.350600+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3364,14 +3373,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35295780459,
       "source_shard": 10,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8626427"
+      ],
       "artifact_locator": {
         "dce_run_id": 35295780459,
         "shard": 10,
         "candidate_id": "TED:630114-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.571263+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.321928+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3433,7 +3444,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 4,
@@ -3475,7 +3486,7 @@
         "candidate_id": "TED:607960-2026",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.975597+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.821353+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3527,7 +3538,7 @@
         "candidate_id": "TED:600856-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.840366+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.591890+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3588,7 +3599,7 @@
       "gpt_priority_score": 60,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35315383809,
         "shard": 40,
@@ -3629,7 +3640,7 @@
         "candidate_id": "TED:628877-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.676865+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.427777+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3680,7 +3691,7 @@
         "candidate_id": "TED:611740-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.596122+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.346804+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3896,7 +3907,7 @@
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 11,
@@ -4030,7 +4041,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
-        "printing-service"
+        "printing-service",
+        "publication-printing"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
@@ -4042,7 +4054,7 @@
         "candidate_id": "CA:WS5799408035",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.700053+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.451402+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5576,7 +5588,7 @@
         "candidate_id": "MT-EPPS:14046451",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.902141+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.652186+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5586,7 +5598,7 @@
       "gpt_priority_score": 51,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35315383809,
         "shard": 6,
@@ -5744,7 +5756,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 7,
@@ -5843,7 +5855,7 @@
         "candidate_id": "IE:9021973",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.605929+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.356744+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5853,7 +5865,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35295780459,
         "shard": 16,
@@ -5906,7 +5918,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 5,
@@ -5949,7 +5961,7 @@
         "candidate_id": "IE:9030936",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.756978+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.650789+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -6846,7 +6858,7 @@
         "candidate_id": "WORLD-BANK:OP00466272",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:07.057205+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.856570+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -14439,7 +14451,7 @@
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 9,
@@ -14789,7 +14801,7 @@
         "candidate_id": "PL-BZP:08df13cc-1deb-5358-db89-6a0001bc3ce8",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.853841+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.726807+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15115,7 +15127,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 7,
@@ -16083,7 +16095,7 @@
         "candidate_id": "IE:9000464",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.912181+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.772137+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16587,7 +16599,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.709732+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.613680+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16638,7 +16650,7 @@
         "candidate_id": "US-SAM:90d5defa997146f9ae58401818ada910",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.999487+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.840186+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17283,7 +17295,7 @@
         "candidate_id": "TED:634040-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.802210+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.686676+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17434,7 +17446,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.812192+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.694497+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17977,7 +17989,7 @@
         "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.567685+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18729,7 +18741,7 @@
         "candidate_id": "TED:640511-2026",
         "release_tag": "dce-harvest-35394826156"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.239158+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.247098+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18834,7 +18846,7 @@
         "candidate_id": "TED:611050-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.834599+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.711607+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18885,7 +18897,7 @@
         "candidate_id": "TED:632119-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.615802+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.366653+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20075,7 +20087,7 @@
         "candidate_id": "TED:636378-2026",
         "release_tag": "dce-harvest-35404840767"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.418717+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.386932+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20126,7 +20138,7 @@
         "candidate_id": "TED:611398-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.907546+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.657510+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20241,7 +20253,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 4,
@@ -20285,7 +20297,7 @@
         "candidate_id": "TED:632960-2026",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:07.037066+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.841159+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20340,7 +20352,7 @@
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.886183+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.752125+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20395,7 +20407,7 @@
         "candidate_id": "TED:620396-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.920003+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.778154+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20434,20 +20446,25 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
+        "workflow-automation",
         "software-development",
-        "it-services"
+        "data-migration",
+        "it-services",
+        "digital-platform"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
       "source_shard": 10,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8978060"
+      ],
       "artifact_locator": {
         "dce_run_id": 35315383809,
         "shard": 10,
         "candidate_id": "TED:610280-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.727871+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.479076+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20492,14 +20509,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
       "source_shard": 8,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35315383809,
         "shard": 8,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.929219+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.678788+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20543,14 +20562,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35295780459,
       "source_shard": 16,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8975078"
+      ],
       "artifact_locator": {
         "dce_run_id": 35295780459,
         "shard": 16,
         "candidate_id": "TED:607549-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.611350+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.362146+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20977,7 +20998,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 10,
@@ -21019,7 +21040,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.796838+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.682465+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21073,7 +21094,7 @@
         "candidate_id": "TED:610000-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.856564+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.728983+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21127,7 +21148,7 @@
         "candidate_id": "TED:635530-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.869993+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.739361+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21183,7 +21204,7 @@
         "candidate_id": "TED:645516-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.847584+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.721836+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21235,7 +21256,7 @@
         "candidate_id": "TED:645866-2026",
         "release_tag": "dce-harvest-35411830837"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.624296+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.547371+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21286,7 +21307,7 @@
         "candidate_id": "CA:WS5525055833",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.759701+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.511538+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21338,7 +21359,7 @@
         "candidate_id": "TED:636215-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.599844+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.350600+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22057,14 +22078,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35295780459,
       "source_shard": 10,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8626427"
+      ],
       "artifact_locator": {
         "dce_run_id": 35295780459,
         "shard": 10,
         "candidate_id": "TED:630114-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.571263+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.321928+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22126,7 +22149,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 4,
@@ -22168,7 +22191,7 @@
         "candidate_id": "TED:607960-2026",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.975597+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.821353+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22220,7 +22243,7 @@
         "candidate_id": "TED:600856-2026",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.840366+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.591890+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22281,7 +22304,7 @@
       "gpt_priority_score": 60,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35315383809,
         "shard": 40,
@@ -22322,7 +22345,7 @@
         "candidate_id": "TED:628877-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.676865+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.427777+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22373,7 +22396,7 @@
         "candidate_id": "TED:611740-2026",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.596122+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.346804+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22589,7 +22612,7 @@
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 11,
@@ -22723,7 +22746,8 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
-        "printing-service"
+        "printing-service",
+        "publication-printing"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35315383809,
@@ -22735,7 +22759,7 @@
         "candidate_id": "CA:WS5799408035",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.700053+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.451402+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24269,7 +24293,7 @@
         "candidate_id": "MT-EPPS:14046451",
         "release_tag": "dce-harvest-35315383809"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.902141+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.652186+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24279,7 +24303,7 @@
       "gpt_priority_score": 51,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35315383809,
         "shard": 6,
@@ -24437,7 +24461,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 7,
@@ -24536,7 +24560,7 @@
         "candidate_id": "IE:9021973",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.605929+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.356744+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24546,7 +24570,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35295780459,
         "shard": 16,
@@ -24599,7 +24623,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 5,
@@ -24642,7 +24666,7 @@
         "candidate_id": "IE:9030936",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.756978+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.650789+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25539,7 +25563,7 @@
         "candidate_id": "WORLD-BANK:OP00466272",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:07.057205+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.856570+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33132,7 +33156,7 @@
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 9,
@@ -33482,7 +33506,7 @@
         "candidate_id": "PL-BZP:08df13cc-1deb-5358-db89-6a0001bc3ce8",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.853841+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.726807+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33808,7 +33832,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35435632799,
         "shard": 7,
@@ -34776,7 +34800,7 @@
         "candidate_id": "IE:9000464",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.912181+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.772137+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35280,7 +35304,7 @@
         "candidate_id": "TED:598032-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.709732+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.613680+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35331,7 +35355,7 @@
         "candidate_id": "US-SAM:90d5defa997146f9ae58401818ada910",
         "release_tag": "dce-harvest-35435632799"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.999487+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.840186+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35976,7 +36000,7 @@
         "candidate_id": "TED:634040-2026",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.802210+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.686676+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -36127,7 +36151,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-35425026348"
       },
-      "hot_ready_at": "2026-09-19T09:54:06.812192+00:00",
+      "hot_ready_at": "2026-09-19T09:55:54.694497+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -36670,7 +36694,7 @@
         "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
         "release_tag": "dce-harvest-35295780459"
       },
-      "hot_ready_at": "2026-09-19T09:53:19.567685+00:00",
+      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -37433,7 +37457,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 175,
+    "pending_before_visible_cap": 173,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20

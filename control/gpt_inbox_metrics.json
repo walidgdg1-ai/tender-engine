@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-19T09:55:06.929427+00:00",
+  "updated_at": "2026-09-19T09:56:52.640276+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 35435632799,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 175,
+    "pending_before_visible_cap": 173,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -102,25 +102,25 @@
     },
     "selected_by_band": {
       "HOT": 6,
-      "GOOD": 64,
-      "MAYBE": 54,
+      "GOOD": 66,
+      "MAYBE": 52,
       "LOW": 36
     },
     "selected_by_portal": {
-      "TED": 96,
+      "TED": 95,
       "CA_CANADABUYS": 4,
-      "IRELAND_ETENDERS": 7,
+      "IRELAND_ETENDERS": 8,
       "WORLD_BANK": 7,
       "PL_EZAMOWIENIA": 5,
-      "US_SAM": 16,
-      "MALTA_EPPS": 3,
+      "MALTA_EPPS": 4,
+      "US_SAM": 14,
+      "EE_RHR": 3,
       "ZA_ETENDERS": 3,
       "ES_PLACSP": 4,
       "GENERIC_PUBLIC_PAGE": 3,
       "SK_UVO": 3,
       "GR_KHMDHS": 2,
       "DE_DOE": 1,
-      "EE_RHR": 2,
       "LV_IUB": 1,
       "SCOTLAND_PCS": 1,
       "NO_DOFFIN": 1,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 6,
-      "GOOD": 85,
-      "MAYBE": 153,
-      "LOW": 1441
+      "GOOD": 87,
+      "MAYBE": 150,
+      "LOW": 1442
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1525,
-    "cross_portal_duplicates_collapsed": 7
+    "cross_portal_duplicates_collapsed": 8
   },
   "true_pending_before_hot_cap": 1685,
   "overflow_beyond_hot_160": 1525,
@@ -152,10 +152,10 @@
   "provenance_overrides_applied_in_window": 18,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 118,
-    "adjudication_rows_scanned_this_refresh": 930,
-    "gate_rows_seen_this_refresh": 310,
-    "authenticity_rows_seen_this_refresh": 41,
+    "shard_files_scanned_this_refresh": 170,
+    "adjudication_rows_scanned_this_refresh": 1305,
+    "gate_rows_seen_this_refresh": 436,
+    "authenticity_rows_seen_this_refresh": 62,
     "source_runs_seen_this_refresh": [
       35435632799,
       35425026348,
@@ -163,7 +163,10 @@
       35404840767,
       35394826156,
       35380052711,
-      35360742765
+      35360742765,
+      35341028169,
+      35315383809,
+      35295780459
     ]
   },
   "healthy": true,
