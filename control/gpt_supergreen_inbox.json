@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-09-20T23:41:17.078594+00:00",
+  "updated_at": "2026-09-20T23:42:42.515218+00:00",
   "latest_source_dce_run_id": 35545042094,
   "review_queue": [
     {
@@ -27,14 +27,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35503775265,
       "source_shard": 15,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9029554"
+      ],
       "artifact_locator": {
         "dce_run_id": 35503775265,
         "shard": 15,
         "candidate_id": "TED:640511-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.490892+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.182454+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -138,7 +140,7 @@
         "candidate_id": "TED:632119-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.468059+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.154891+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1379,7 +1381,7 @@
         "candidate_id": "TED:616959-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.500281+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.194058+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1430,7 +1432,7 @@
         "candidate_id": "TED:636378-2026",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.039892+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.171533+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1440,7 +1442,7 @@
       "gpt_priority_score": 68,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 6,
@@ -1521,19 +1523,22 @@
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
         "e-learning",
-        "lms"
+        "lms",
+        "digital-platform"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 27,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:6374846"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 27,
         "candidate_id": "TED:628750-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.025052+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.833047+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1627,31 +1632,33 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 4,
-      "procedure_aliases": [],
+      "source_dce_run_id": 35545042094,
+      "source_shard": 6,
+      "procedure_aliases": [
+        "ie_resource:9020138"
+      ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:628381-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.250538+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.335869+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f224d13ea7e2a52b891d91a02222e1af9da15bd2e9e70cc20be37e4004661ca4",
+      "review_key": "0c452195af375d33939aa1396f0991d282b163fb238d2bb61d14cc8d0dbe8e6a",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:628381-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -1679,31 +1686,33 @@
         "it-services"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 2,
-      "procedure_aliases": [],
+      "source_dce_run_id": 35545042094,
+      "source_shard": 4,
+      "procedure_aliases": [
+        "ie_resource:9038652"
+      ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 2,
+        "dce_run_id": 35545042094,
+        "shard": 4,
         "candidate_id": "TED:632960-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.215019+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.294918+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "771f0ae0f729809896174dfb44ea014375435d1b597692a5692f46e76514034d",
+      "review_key": "3b1c0ec35c25ca7a30b5fb268d6b755cf4860eeb6c1aaefcf13999687983db56",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 2,
+        "dce_run_id": 35545042094,
+        "shard": 4,
         "candidate_id": "TED:632960-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -1734,14 +1743,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 33,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8948335"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 33,
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.076821+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.895612+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1787,14 +1798,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 37,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8927804"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 37,
         "candidate_id": "TED:620396-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.091077+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.913340+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1839,14 +1852,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 39,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 39,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.097409+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.921107+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2353,34 +2368,35 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "cloud-services"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 4,
+      "source_dce_run_id": 35545042094,
+      "source_shard": 6,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:611421-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.245958+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.330296+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "b852a3c701413b2af18c1383fefc5f4ebf4e0f834064f5ddfd2c1869575a6bfc",
+      "review_key": "9ddcf75b4e4e9a949f671ae790294a7cad301780018963e36fc0600a6549b84c",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:611421-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -2417,7 +2433,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.078276+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.208321+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2427,7 +2443,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 8,
@@ -2469,7 +2485,7 @@
         "candidate_id": "TED:636215-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.997867+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.799550+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2514,14 +2530,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 29,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs7y51yttysfp1y"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 29,
         "candidate_id": "TED:610000-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.036707+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.847193+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2572,7 +2590,7 @@
         "candidate_id": "CA:WS5525055833",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.066848+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.883849+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2617,14 +2635,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 33,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9034881"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 33,
         "candidate_id": "TED:635530-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.081251+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.901139+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2676,7 +2696,7 @@
         "candidate_id": "TED:645866-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.457988+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.142583+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3549,31 +3569,31 @@
         "printing-service"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 4,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 4,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.242716+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.291005+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "10e61d5bc43ddf1266bcb045f94afeacfe33c8f7620ac0f7192333e78bd522b3",
+      "review_key": "629af3857a1ed694ed23a1a8115a98291c7ffdfeb177739cc337e49c6ae2dcd7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 4,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -3610,7 +3630,7 @@
         "candidate_id": "TED:607960-2026",
         "release_tag": "dce-harvest-35469624755"
       },
-      "hot_ready_at": "2026-09-20T21:52:55.847249+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.395031+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4012,31 +4032,31 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 3,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "WORLD-BANK:OP00469124",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.231274+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.277759+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "bdf896d0f4ae09dcc64b5f24ac9244c4e27620d0a8dfef1dedc49910e3b67116",
+      "review_key": "5f8170cff1d0a6c0548ebfba5982711944f6665f113ced04d4540da58d54a2b3",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "WORLD-BANK:OP00469124",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -4342,7 +4362,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35532595111,
         "shard": 6,
@@ -4427,34 +4447,34 @@
         "printing-service"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 5,
       "procedure_aliases": [
         "ocds:ocds-9t57fa-169544",
         "ocds:ocds-9t57fa-169544-2026-09-08"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-169544-2026-09-08",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.266249+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.313808+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "46e7d26571764d245bf6ec41cc8da71195cf2dcd747c87f59c369089ab984910",
+      "review_key": "8df10204664b92ef8f44c294ea9b6f9b6d416fc7517b5f07cf056f57df84e817",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-169544-2026-09-08",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -5712,7 +5732,7 @@
         "candidate_id": "MT-EPPS:14046451",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.371795+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.036477+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5722,7 +5742,7 @@
       "gpt_priority_score": 51,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 6,
@@ -5859,33 +5879,33 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 7,
       "procedure_aliases": [
         "sam_opp:880a29f9f47d44019920b62128fb38e7"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 7,
         "candidate_id": "US-SAM:880a29f9f47d44019920b62128fb38e7",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.281439+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.348764+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "bbc3552c8d44c019df7b0f47d999177ac5d124538f2b2f2930550a566c2295d4",
+      "review_key": "db2bd993b737cd089b33b82c47e7897f338542d3027a065166f9b7c547ee7c7c",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 7,
         "candidate_id": "US-SAM:880a29f9f47d44019920b62128fb38e7",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -5926,7 +5946,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168992-2026-09-04",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:06.929483+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.064966+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -5936,7 +5956,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 11,
@@ -5968,33 +5988,33 @@
         "e-learning"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 6,
       "procedure_aliases": [
         "ie_resource:9021973"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 6,
         "candidate_id": "IE:9021973",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.034432+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.324768+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f16598c58f4c4e92558df001f8a680efcc26a2bad37f5cf77586acfecc09c3db",
+      "review_key": "5a3fc14569cd3d28d337646f084c8a23e30dd6d8d3687b09b1e17b14d499f20d",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 6,
         "candidate_id": "IE:9021973",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -6032,7 +6052,7 @@
         "candidate_id": "US-SAM:4017c960382a410390a81e7687bee411",
         "release_tag": "dce-harvest-35525431141"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.811051+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.571430+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -6042,7 +6062,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35525431141,
         "shard": 13,
@@ -6973,31 +6993,31 @@
         "graphic-design"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 9,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "WORLD-BANK:OP00466272",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.095981+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.371500+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "0d2ede41d27925bf4f4d55e846efda87aec94c32369b3fd73dd368716da4ebf5",
+      "review_key": "74c2d1446a77756b026a4981dcfadca6b29dcfe6188156de90d67a31213642c7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 46,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "WORLD-BANK:OP00466272",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -7035,7 +7055,7 @@
         "candidate_id": "IE:9007391",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.306205+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.956683+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -7045,7 +7065,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 14,
@@ -7089,7 +7109,7 @@
         "candidate_id": "IE:9100592",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.312706+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.964607+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -7099,7 +7119,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 15,
@@ -11636,7 +11656,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168681-2026-09-02",
         "release_tag": "dce-harvest-35469624755"
       },
-      "hot_ready_at": "2026-09-20T21:52:55.961281+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.532576+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -11646,7 +11666,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35469624755,
         "shard": 7,
@@ -14661,33 +14681,33 @@
       "spm_friction_signals": [
         "24x7-operations"
       ],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 9,
       "procedure_aliases": [
         "sam_opp:1d88041d82424d57ace898d30493aae3"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "US-SAM:1d88041d82424d57ace898d30493aae3",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.085212+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.360985+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "4e6d5c0fb01a19be0d85e76b0b63ba40851decb8f37c0ab0183145ec4f0273a6",
+      "review_key": "4a1fed239863aabc3f0b0f95f89030e2e2081562053263a4e4bef68e75307493",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "US-SAM:1d88041d82424d57ace898d30493aae3",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -14776,7 +14796,7 @@
         "candidate_id": "WORLD-BANK:OP00469131",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.386899+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.055297+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -14786,7 +14806,7 @@
       "gpt_priority_score": 40,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 7,
@@ -15033,7 +15053,7 @@
         "candidate_id": "WORLD-BANK:OP00468337",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.334403+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.990755+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15043,7 +15063,7 @@
       "gpt_priority_score": 39,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 3,
@@ -15433,36 +15453,40 @@
       "spm_post_dce_score": 37,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [
-        "data-services"
+        "software-development",
+        "data-services",
+        "communications"
       ],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "spm_friction_signals": [
+        "24x7-operations"
+      ],
+      "source_dce_run_id": 35545042094,
       "source_shard": 3,
       "procedure_aliases": [
         "sam_opp:e61b7a3e257240cca65535432382d02e"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "US-SAM:e61b7a3e257240cca65535432382d02e",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.226399+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.271900+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f99f5e268d235f689306a4ac01314cd3b0fe7b741ce287e7a558d0ec60d135b4",
+      "review_key": "477f5a1540be34e3ea156cf5658279780e613fd792d6204397790904147bc168",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "US-SAM:e61b7a3e257240cca65535432382d02e",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -15549,7 +15573,7 @@
         "candidate_id": "WORLD-BANK:OP00468461",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.385909+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.054034+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15559,7 +15583,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 7,
@@ -16617,7 +16641,7 @@
         "candidate_id": "US-SAM:90d5defa997146f9ae58401818ada910",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:06.920438+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.056082+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16627,7 +16651,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 11,
@@ -17262,7 +17286,7 @@
         "candidate_id": "TED:634040-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.995458+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.796532+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17332,55 +17356,6 @@
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
-    },
-    {
-      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
-      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
-      "deadline": "2026-09-21T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 23,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916368034,
-      "source_shard": 24,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
       "candidate_id": "CA:WS5862663189",
@@ -17462,7 +17437,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.029628+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.838546+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17581,55 +17556,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-      "title": "Cyberbezpieczny Wodociąg - Przechlewo",
-      "buyer": "Zakład Gospodarki Komunalnej w Przechlewie",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1252-5a59-6d4d-db89-6a0001708c67",
-      "deadline": "2026-09-22T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 5,
-      "priority_score": 80,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35295780459,
-      "source_shard": 10,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 35295780459,
-        "shard": 10,
-        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-        "release_tag": "dce-harvest-35295780459"
-      },
-      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "e4cd801c4b5f5240efdabde7fbd63e4b7621f9eafdbaa363686497b64be4e8ae",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 35295780459,
-        "shard": 10,
-        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-        "release_tag": "dce-harvest-35295780459"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "TED:506157-2026",
       "title": "Belgium – Storage and warehousing services – Capacity Reservation for Personal Protective Equipment Pilot",
       "buyer": "Health and Digital Executive Agency (HaDEA) , HADEA - Health and Digital Executive Agency",
@@ -17674,6 +17600,104 @@
         "shard": 1,
         "candidate_id": "TED:506157-2026",
         "release_tag": "dce-harvest-32806550298"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
+      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
+      "deadline": "2026-09-21T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": true,
+      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 23,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 31916368034,
+      "source_shard": 24,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "WORLD-BANK:OP00464338",
+      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
+      "deadline": "2026-09-25T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32862116351,
+      "source_shard": 1,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -17907,7 +17931,7 @@
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.482112+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.171875+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17923,6 +17947,55 @@
         "shard": 15,
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-35503775265"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+      "title": "Cyberbezpieczny Wodociąg - Przechlewo",
+      "buyer": "Zakład Gospodarki Komunalnej w Przechlewie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1252-5a59-6d4d-db89-6a0001708c67",
+      "deadline": "2026-09-22T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 5,
+      "priority_score": 80,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 35295780459,
+      "source_shard": 10,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 35295780459,
+        "shard": 10,
+        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+        "release_tag": "dce-harvest-35295780459"
+      },
+      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "e4cd801c4b5f5240efdabde7fbd63e4b7621f9eafdbaa363686497b64be4e8ae",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 35295780459,
+        "shard": 10,
+        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+        "release_tag": "dce-harvest-35295780459"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -17977,55 +18050,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "WORLD-BANK:OP00464338",
-      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
-      "buyer": null,
-      "portal": "WORLD_BANK",
-      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
-      "deadline": "2026-09-25T00:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32862116351,
-      "source_shard": 1,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165664-2026-08-14",
       "title": "C-BRTA/HO/2026-2027/002",
       "buyer": "Cross-Border Road Transport Agency",
@@ -18073,57 +18097,6 @@
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165664-2026-08-14",
         "release_tag": "dce-harvest-32184680934"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
-      "deadline": "2026-10-05T19:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 62,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32245477480,
-      "source_shard": 1,
-      "procedure_aliases": [
-        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
-      },
-      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -18671,6 +18644,55 @@
         "shard": 7,
         "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_20317090",
         "release_tag": "dce-harvest-32334282353"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "TED:463075-2026",
+      "title": "France – Maintenance of information technology software – Maintenance et évolution des outils logiciels et matériels informatiques pour l'exploitation des équipements et des données du réseau d'assainissement du Val-de-Marne",
+      "buyer": "Département du Val-de-Marne",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/463075-2026",
+      "deadline": "2026-09-21T02:00:00+00:00",
+      "estimated_value": 3490000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
+      "evidence_gate_coverage": 14,
+      "priority_score": 63,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32758889172,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32758889172,
+        "shard": 0,
+        "candidate_id": "TED:463075-2026",
+        "release_tag": "dce-harvest-32758889172"
+      },
+      "hot_ready_at": "2026-08-24T22:51:33.914239+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "73efbab87cd2cab2c7a2ae26f34022159fae25462726a037978e78df59b0939e",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32758889172,
+        "shard": 0,
+        "candidate_id": "TED:463075-2026",
+        "release_tag": "dce-harvest-32758889172"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -18701,14 +18723,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35503775265,
       "source_shard": 15,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9029554"
+      ],
       "artifact_locator": {
         "dce_run_id": 35503775265,
         "shard": 15,
         "candidate_id": "TED:640511-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.490892+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.182454+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18812,7 +18836,7 @@
         "candidate_id": "TED:632119-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.468059+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.154891+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20053,7 +20077,7 @@
         "candidate_id": "TED:616959-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.500281+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.194058+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20104,7 +20128,7 @@
         "candidate_id": "TED:636378-2026",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.039892+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.171533+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20114,7 +20138,7 @@
       "gpt_priority_score": 68,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 6,
@@ -20195,19 +20219,22 @@
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
         "e-learning",
-        "lms"
+        "lms",
+        "digital-platform"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 27,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:6374846"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 27,
         "candidate_id": "TED:628750-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.025052+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.833047+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20301,31 +20328,33 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 4,
-      "procedure_aliases": [],
+      "source_dce_run_id": 35545042094,
+      "source_shard": 6,
+      "procedure_aliases": [
+        "ie_resource:9020138"
+      ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:628381-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.250538+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.335869+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f224d13ea7e2a52b891d91a02222e1af9da15bd2e9e70cc20be37e4004661ca4",
+      "review_key": "0c452195af375d33939aa1396f0991d282b163fb238d2bb61d14cc8d0dbe8e6a",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:628381-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -20353,31 +20382,33 @@
         "it-services"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 2,
-      "procedure_aliases": [],
+      "source_dce_run_id": 35545042094,
+      "source_shard": 4,
+      "procedure_aliases": [
+        "ie_resource:9038652"
+      ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 2,
+        "dce_run_id": 35545042094,
+        "shard": 4,
         "candidate_id": "TED:632960-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.215019+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.294918+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "771f0ae0f729809896174dfb44ea014375435d1b597692a5692f46e76514034d",
+      "review_key": "3b1c0ec35c25ca7a30b5fb268d6b755cf4860eeb6c1aaefcf13999687983db56",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 2,
+        "dce_run_id": 35545042094,
+        "shard": 4,
         "candidate_id": "TED:632960-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -20408,14 +20439,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 33,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8948335"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 33,
         "candidate_id": "TED:601723-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.076821+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.895612+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20461,14 +20494,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 37,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:8927804"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 37,
         "candidate_id": "TED:620396-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.091077+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.913340+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20513,14 +20548,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 39,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxsdyydytwq6tqf1"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 39,
         "candidate_id": "TED:619754-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.097409+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.921107+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21027,34 +21064,35 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "cloud-services"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
-      "source_shard": 4,
+      "source_dce_run_id": 35545042094,
+      "source_shard": 6,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:611421-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.245958+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.330296+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "b852a3c701413b2af18c1383fefc5f4ebf4e0f834064f5ddfd2c1869575a6bfc",
+      "review_key": "9ddcf75b4e4e9a949f671ae790294a7cad301780018963e36fc0600a6549b84c",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
-        "shard": 4,
+        "dce_run_id": 35545042094,
+        "shard": 6,
         "candidate_id": "TED:611421-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -21091,7 +21129,7 @@
         "candidate_id": "TED:612141-2026",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.078276+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.208321+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21101,7 +21139,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 8,
@@ -21143,7 +21181,7 @@
         "candidate_id": "TED:636215-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.997867+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.799550+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21188,14 +21226,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 29,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs7y51yttysfp1y"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 29,
         "candidate_id": "TED:610000-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.036707+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.847193+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21246,7 +21286,7 @@
         "candidate_id": "CA:WS5525055833",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.066848+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.883849+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21291,14 +21331,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 35532595111,
       "source_shard": 33,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9034881"
+      ],
       "artifact_locator": {
         "dce_run_id": 35532595111,
         "shard": 33,
         "candidate_id": "TED:635530-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.081251+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.901139+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21350,7 +21392,7 @@
         "candidate_id": "TED:645866-2026",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.457988+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.142583+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22223,31 +22265,31 @@
         "printing-service"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 4,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 4,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.242716+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.291005+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "10e61d5bc43ddf1266bcb045f94afeacfe33c8f7620ac0f7192333e78bd522b3",
+      "review_key": "629af3857a1ed694ed23a1a8115a98291c7ffdfeb177739cc337e49c6ae2dcd7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 4,
         "candidate_id": "TED:592639-2026",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -22284,7 +22326,7 @@
         "candidate_id": "TED:607960-2026",
         "release_tag": "dce-harvest-35469624755"
       },
-      "hot_ready_at": "2026-09-20T21:52:55.847249+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.395031+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22686,31 +22728,31 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 3,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "WORLD-BANK:OP00469124",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.231274+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.277759+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "bdf896d0f4ae09dcc64b5f24ac9244c4e27620d0a8dfef1dedc49910e3b67116",
+      "review_key": "5f8170cff1d0a6c0548ebfba5982711944f6665f113ced04d4540da58d54a2b3",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "WORLD-BANK:OP00469124",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -23016,7 +23058,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 35532595111,
         "shard": 6,
@@ -23101,34 +23143,34 @@
         "printing-service"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 5,
       "procedure_aliases": [
         "ocds:ocds-9t57fa-169544",
         "ocds:ocds-9t57fa-169544-2026-09-08"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-169544-2026-09-08",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.266249+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.313808+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "46e7d26571764d245bf6ec41cc8da71195cf2dcd747c87f59c369089ab984910",
+      "review_key": "8df10204664b92ef8f44c294ea9b6f9b6d416fc7517b5f07cf056f57df84e817",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-169544-2026-09-08",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -24386,7 +24428,7 @@
         "candidate_id": "MT-EPPS:14046451",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.371795+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.036477+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24396,7 +24438,7 @@
       "gpt_priority_score": 51,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 6,
@@ -24533,33 +24575,33 @@
         "software-development"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 7,
       "procedure_aliases": [
         "sam_opp:880a29f9f47d44019920b62128fb38e7"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 7,
         "candidate_id": "US-SAM:880a29f9f47d44019920b62128fb38e7",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.281439+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.348764+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "bbc3552c8d44c019df7b0f47d999177ac5d124538f2b2f2930550a566c2295d4",
+      "review_key": "db2bd993b737cd089b33b82c47e7897f338542d3027a065166f9b7c547ee7c7c",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 7,
         "candidate_id": "US-SAM:880a29f9f47d44019920b62128fb38e7",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -24600,7 +24642,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168992-2026-09-04",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:06.929483+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.064966+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24610,7 +24652,7 @@
       "gpt_priority_score": 49,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 11,
@@ -24642,33 +24684,33 @@
         "e-learning"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 6,
       "procedure_aliases": [
         "ie_resource:9021973"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 6,
         "candidate_id": "IE:9021973",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.034432+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.324768+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f16598c58f4c4e92558df001f8a680efcc26a2bad37f5cf77586acfecc09c3db",
+      "review_key": "5a3fc14569cd3d28d337646f084c8a23e30dd6d8d3687b09b1e17b14d499f20d",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 6,
         "candidate_id": "IE:9021973",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -24706,7 +24748,7 @@
         "candidate_id": "US-SAM:4017c960382a410390a81e7687bee411",
         "release_tag": "dce-harvest-35525431141"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.811051+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.571430+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -24716,7 +24758,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35525431141,
         "shard": 13,
@@ -25647,31 +25689,31 @@
         "graphic-design"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 9,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "WORLD-BANK:OP00466272",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.095981+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.371500+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "0d2ede41d27925bf4f4d55e846efda87aec94c32369b3fd73dd368716da4ebf5",
+      "review_key": "74c2d1446a77756b026a4981dcfadca6b29dcfe6188156de90d67a31213642c7",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 46,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "WORLD-BANK:OP00466272",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -25709,7 +25751,7 @@
         "candidate_id": "IE:9007391",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.306205+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.956683+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25719,7 +25761,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 14,
@@ -25763,7 +25805,7 @@
         "candidate_id": "IE:9100592",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.312706+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.964607+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -25773,7 +25815,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 15,
@@ -30310,7 +30352,7 @@
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-168681-2026-09-02",
         "release_tag": "dce-harvest-35469624755"
       },
-      "hot_ready_at": "2026-09-20T21:52:55.961281+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.532576+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -30320,7 +30362,7 @@
       "gpt_priority_score": 45,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35469624755,
         "shard": 7,
@@ -33335,33 +33377,33 @@
       "spm_friction_signals": [
         "24x7-operations"
       ],
-      "source_dce_run_id": 35539710565,
+      "source_dce_run_id": 35545042094,
       "source_shard": 9,
       "procedure_aliases": [
         "sam_opp:1d88041d82424d57ace898d30493aae3"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "US-SAM:1d88041d82424d57ace898d30493aae3",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:51:07.085212+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.360985+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "4e6d5c0fb01a19be0d85e76b0b63ba40851decb8f37c0ab0183145ec4f0273a6",
+      "review_key": "4a1fed239863aabc3f0b0f95f89030e2e2081562053263a4e4bef68e75307493",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 9,
         "candidate_id": "US-SAM:1d88041d82424d57ace898d30493aae3",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -33450,7 +33492,7 @@
         "candidate_id": "WORLD-BANK:OP00469131",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.386899+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.055297+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33460,7 +33502,7 @@
       "gpt_priority_score": 40,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 7,
@@ -33707,7 +33749,7 @@
         "candidate_id": "WORLD-BANK:OP00468337",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.334403+00:00",
+      "hot_ready_at": "2026-09-20T23:41:58.990755+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33717,7 +33759,7 @@
       "gpt_priority_score": 39,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 3,
@@ -34107,36 +34149,40 @@
       "spm_post_dce_score": 37,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [
-        "data-services"
+        "software-development",
+        "data-services",
+        "communications"
       ],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35539710565,
+      "spm_friction_signals": [
+        "24x7-operations"
+      ],
+      "source_dce_run_id": 35545042094,
       "source_shard": 3,
       "procedure_aliases": [
         "sam_opp:e61b7a3e257240cca65535432382d02e"
       ],
       "artifact_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "US-SAM:e61b7a3e257240cca65535432382d02e",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.226399+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.271900+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "f99f5e268d235f689306a4ac01314cd3b0fe7b741ce287e7a558d0ec60d135b4",
+      "review_key": "477f5a1540be34e3ea156cf5658279780e613fd792d6204397790904147bc168",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 35539710565,
+        "dce_run_id": 35545042094,
         "shard": 3,
         "candidate_id": "US-SAM:e61b7a3e257240cca65535432382d02e",
-        "release_tag": "dce-harvest-35539710565"
+        "release_tag": "dce-harvest-35545042094"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -34223,7 +34269,7 @@
         "candidate_id": "WORLD-BANK:OP00468461",
         "release_tag": "dce-harvest-35491772584"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.385909+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.054034+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34233,7 +34279,7 @@
       "gpt_priority_score": 37,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35491772584,
         "shard": 7,
@@ -35291,7 +35337,7 @@
         "candidate_id": "US-SAM:90d5defa997146f9ae58401818ada910",
         "release_tag": "dce-harvest-35539710565"
       },
-      "hot_ready_at": "2026-09-20T21:51:06.920438+00:00",
+      "hot_ready_at": "2026-09-20T23:42:00.056082+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35301,7 +35347,7 @@
       "gpt_priority_score": 11,
       "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 35539710565,
         "shard": 11,
@@ -35936,7 +35982,7 @@
         "candidate_id": "TED:634040-2026",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.995458+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.796532+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -36006,55 +36052,6 @@
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
-    },
-    {
-      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
-      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
-      "deadline": "2026-09-21T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": true,
-      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 23,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 31916368034,
-      "source_shard": 24,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 31916368034,
-        "shard": 24,
-        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
-        "release_tag": "dce-harvest-31916368034"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
       "candidate_id": "CA:WS5862663189",
@@ -36136,7 +36133,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-35532595111"
       },
-      "hot_ready_at": "2026-09-20T21:52:57.029628+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.838546+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -36255,55 +36252,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-      "title": "Cyberbezpieczny Wodociąg - Przechlewo",
-      "buyer": "Zakład Gospodarki Komunalnej w Przechlewie",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1252-5a59-6d4d-db89-6a0001708c67",
-      "deadline": "2026-09-22T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 5,
-      "priority_score": 80,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35295780459,
-      "source_shard": 10,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 35295780459,
-        "shard": 10,
-        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-        "release_tag": "dce-harvest-35295780459"
-      },
-      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "e4cd801c4b5f5240efdabde7fbd63e4b7621f9eafdbaa363686497b64be4e8ae",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 35295780459,
-        "shard": 10,
-        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
-        "release_tag": "dce-harvest-35295780459"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "TED:506157-2026",
       "title": "Belgium – Storage and warehousing services – Capacity Reservation for Personal Protective Equipment Pilot",
       "buyer": "Health and Digital Executive Agency (HaDEA) , HADEA - Health and Digital Executive Agency",
@@ -36348,6 +36296,104 @@
         "shard": 1,
         "candidate_id": "TED:506157-2026",
         "release_tag": "dce-harvest-32806550298"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+      "title": "NATIONAL CANCER INSTITUTE (NCI) SMALL BUSINESS INNOVATION RESEARCH (SBIR) INNOVATIVE CONCEPT PHASE I AWARD PROGRAM",
+      "buyer": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/workspace/contract/opp/5ab4cf48d42c495aabef1d6cdf21acf8/view",
+      "deadline": "2026-09-21T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": true,
+      "deadline_authority_status": "CONSISTENT_NOTICE_DATE_FOUND_IN_DCE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 23,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 31916368034,
+      "source_shard": 24,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "hot_ready_at": "2026-08-24T22:51:08.997103+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "15a5f45247d460bb838a2e534c09d02bfea68f91f00d01da6645b92b083cdf13",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 31916368034,
+        "shard": 24,
+        "candidate_id": "US-SAM:5ab4cf48d42c495aabef1d6cdf21acf8",
+        "release_tag": "dce-harvest-31916368034"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "WORLD-BANK:OP00464338",
+      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
+      "deadline": "2026-09-25T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32862116351,
+      "source_shard": 1,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
+      },
+      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32862116351,
+        "shard": 1,
+        "candidate_id": "WORLD-BANK:OP00464338",
+        "release_tag": "dce-harvest-32862116351"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -36581,7 +36627,7 @@
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-35503775265"
       },
-      "hot_ready_at": "2026-09-20T21:52:56.482112+00:00",
+      "hot_ready_at": "2026-09-20T23:41:59.171875+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -36597,6 +36643,55 @@
         "shard": 15,
         "candidate_id": "NO-DOFFIN:2026-114212",
         "release_tag": "dce-harvest-35503775265"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+      "title": "Cyberbezpieczny Wodociąg - Przechlewo",
+      "buyer": "Zakład Gospodarki Komunalnej w Przechlewie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1252-5a59-6d4d-db89-6a0001708c67",
+      "deadline": "2026-09-22T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 5,
+      "priority_score": 80,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 35295780459,
+      "source_shard": 10,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 35295780459,
+        "shard": 10,
+        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+        "release_tag": "dce-harvest-35295780459"
+      },
+      "hot_ready_at": "2026-09-19T09:55:53.318385+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "e4cd801c4b5f5240efdabde7fbd63e4b7621f9eafdbaa363686497b64be4e8ae",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 35295780459,
+        "shard": 10,
+        "candidate_id": "PL-BZP:08df1252-5a59-6d4d-db89-6a0001708c67",
+        "release_tag": "dce-harvest-35295780459"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -36651,55 +36746,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "WORLD-BANK:OP00464338",
-      "title": "NPCA Printing (Poster, Sticker hotline, Magnet Pin)",
-      "buyer": null,
-      "portal": "WORLD_BANK",
-      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464338",
-      "deadline": "2026-09-25T00:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32862116351,
-      "source_shard": 1,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "hot_ready_at": "2026-08-25T20:39:05.273080+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ba52d0e6a1bfb4be926c3b1e872c88a4ab6d65b19dfe3e52ef2bacc12fea898a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32862116351,
-        "shard": 1,
-        "candidate_id": "WORLD-BANK:OP00464338",
-        "release_tag": "dce-harvest-32862116351"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165664-2026-08-14",
       "title": "C-BRTA/HO/2026-2027/002",
       "buyer": "Cross-Border Road Transport Agency",
@@ -36747,57 +36793,6 @@
         "shard": 5,
         "candidate_id": "ZA_ETENDERS_OCDS:ocds-9t57fa-165664-2026-08-14",
         "release_tag": "dce-harvest-32184680934"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
-      "deadline": "2026-10-05T19:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 62,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32245477480,
-      "source_shard": 1,
-      "procedure_aliases": [
-        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
-      },
-      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -37348,6 +37343,55 @@
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "TED:463075-2026",
+      "title": "France – Maintenance of information technology software – Maintenance et évolution des outils logiciels et matériels informatiques pour l'exploitation des équipements et des données du réseau d'assainissement du Val-de-Marne",
+      "buyer": "Département du Val-de-Marne",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/463075-2026",
+      "deadline": "2026-09-21T02:00:00+00:00",
+      "estimated_value": 3490000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
+      "evidence_gate_coverage": 14,
+      "priority_score": 63,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32758889172,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32758889172,
+        "shard": 0,
+        "candidate_id": "TED:463075-2026",
+        "release_tag": "dce-harvest-32758889172"
+      },
+      "hot_ready_at": "2026-08-24T22:51:33.914239+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "73efbab87cd2cab2c7a2ae26f34022159fae25462726a037978e78df59b0939e",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 32758889172,
+        "shard": 0,
+        "candidate_id": "TED:463075-2026",
+        "release_tag": "dce-harvest-32758889172"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     }
   ],
   "window_selection": {
@@ -37370,14 +37414,14 @@
       "LOW": 35
     },
     "selected_by_portal": {
-      "TED": 90,
+      "TED": 91,
       "IRELAND_ETENDERS": 14,
       "CA_CANADABUYS": 7,
       "WORLD_BANK": 7,
       "ZA_ETENDERS": 5,
       "MALTA_EPPS": 3,
       "PL_EZAMOWIENIA": 4,
-      "US_SAM": 9,
+      "US_SAM": 8,
       "DE_DOE": 2,
       "ES_PLACSP": 4,
       "GENERIC_PUBLIC_PAGE": 3,
@@ -37395,7 +37439,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 185,
+    "pending_before_visible_cap": 175,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -37412,14 +37456,14 @@
       "LOW": 35
     },
     "pending_by_portal": {
-      "TED": 90,
+      "TED": 91,
       "IRELAND_ETENDERS": 14,
       "CA_CANADABUYS": 7,
       "WORLD_BANK": 7,
       "ZA_ETENDERS": 5,
       "MALTA_EPPS": 3,
       "PL_EZAMOWIENIA": 4,
-      "US_SAM": 9,
+      "US_SAM": 8,
       "DE_DOE": 2,
       "ES_PLACSP": 4,
       "GENERIC_PUBLIC_PAGE": 3,
