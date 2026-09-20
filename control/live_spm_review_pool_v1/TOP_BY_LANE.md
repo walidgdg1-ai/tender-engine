@@ -136,7 +136,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-85100** · FR · p=54 · deadline=2026-10-05T11:00:00+00:00 · blockers=none · Le marché a pour objet la mise en place d’un accord-cadre pour la fourniture et livraison d’objets publicitaires à l’image de l’Université Sorbonne Paris Nord
 - **TED:645394-2026** · IRL · p=50 · deadline=2026-10-02T16:00:00+00:00 · blockers=none · Ireland – Small office equipment – Single-Party Framework Agreement for The Supply of Promotional Branded Merchandise for Beaumont Hospital
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
+- **ZA_ETENDERS_OCDS:ocds-9t57fa-170661-2026-09-16** · ZA · p=46 · deadline=2026-09-21T16:00:00+00:00 · blockers=none · RFQ-112742
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-168900-2026-09-03** · ZA · p=46 · deadline=2026-09-28T11:00:00+00:00 · blockers=none · RFP/SASSETA/26271103
+- **ZA_ETENDERS_OCDS:ocds-9t57fa-169974-2026-09-11** · ZA · p=46 · deadline=2026-10-14T12:00:00+00:00 · blockers=none · OVM07/2026/27
 - **IE:9095468** · IE · p=46 · deadline=2026-10-16T11:00:00+00:00 · blockers=none · Single-Party Framework Agreement for The Supply of Promotional Branded Merchandise for Beaumont Hospital
 - **CA:WS5853358314** · CA · p=44 · deadline=2026-09-28T14:00:00+00:00 · blockers=none · RFP Templates Canadian Army Promotional Items FY 2627
 - **US-SAM:77ea38f192c34b0fbc46ff07e2522eb5** · US · p=44 · deadline=2026-09-29T15:40:00+00:00 · blockers=none · Army Reserve Family Programs Promotional Items
@@ -174,6 +176,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **UK_PCS_OCDS:rls-1-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
 - **UK_PCS_OCDS:rls-11-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
 - **UK_PCS_OCDS:rls-21-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
+- **UK_PCS_OCDS:rls-22-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
 - **UK_PCS_OCDS:rls-23-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
 - **UK_PCS_OCDS:rls-28-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
 - **UK_PCS_OCDS:rls-31-SEP564098** · GB · p=40 · deadline=2026-10-09T12:00:00+00:00 · blockers=none · Provision of Associate Trainers
@@ -199,11 +202,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:644806-2026** · FRA · p=50 · deadline=2026-10-22T02:00:00+00:00 · blockers=none · France – Command and control system – Acquisition de matériels automates et GTB
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:ce7c9d143557469d93df986d0c397137** · US · p=48 · deadline=2026-09-19T21:00:00+00:00 · blockers=none · Procurement of Altair Units - Enterprise Suite Lease Renewal
 - **US-SAM:5cfff9147b734cb2b70fd9b795116034** · US · p=48 · deadline=2026-09-20T18:00:00+00:00 · blockers=none · Red Hat OpenShift Kubernetes Engine (OKE) and Red Hat Enterprise Linux (RHEL) Subscription Licensing and Deployment Support
 - **UNGM:309483** · MULTIPLE DESTINATIONS · p=48 · deadline=2026-09-21T00:00:00+00:00 · blockers=none · Open in a new window
 - **US-SAM:74b104dddfff4e8ca1369b51f07ed8bd** · US · p=48 · deadline=2026-09-21T21:00:00+00:00 · blockers=none · Rockwell Automation PLC Software Licenses, Hardware Support, and TechConnect Support Renewal
 - **US-SAM:01ab3151b9c8493dbcf81bfa946bd090** · US · p=48 · deadline=2026-09-22T21:00:00+00:00 · blockers=none · Siemens Simcenter STAR-CCM+ software
+- **US-SAM:e6179df38b164961ba49985b337749ae** · US · p=48 · deadline=2026-09-22T21:00:00+00:00 · blockers=none · Siemens Simcenter STAR-CCM+ software
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -237,7 +240,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:587199-2026** · SWE · p=40 · deadline=2026-09-24T22:00:00+00:00 · blockers=none · Sweden – Advertising film production – Ramavtal Kommunikationstjänster -26
 - **TED:623282-2026** · NOR · p=40 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Norway – Software programming and consultancy services – Consultancy services AV equipment
 - **IE:9059490** · IE · p=40 · deadline=2026-10-20T15:00:00+00:00 · blockers=none · Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport
-- **UNGM:314059** · KYRGYZSTAN · p=38 · deadline=2026-09-20T00:00:00+00:00 · blockers=none · Open in a new window
 - **UNGM:313696** · TIMOR-LESTE · p=38 · deadline=2026-09-24T00:00:00+00:00 · blockers=none · Open in a new window
 
 ## web_cms
