@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-22T05:58:09.160996+00:00",
+  "generated_at": "2026-09-22T09:30:22.676149+00:00",
   "source_inbox_updated_at": "2026-09-22T05:58:08.321934+00:00",
   "latest_source_dce_run_id": 35692250810,
   "batch_index": 5,
@@ -20,7 +20,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 9,
+      "evidence_gate_coverage": 10,
       "spm_post_dce_score": 60,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -41,15 +41,224 @@
         "release_tag": "dce-harvest-35674000373"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 16,
+        "text_chars": 318981,
+        "attributed_compact_snippets": 18,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption The economic operator itself or any person who is a member of its administrative, management or supervisory body or powers of representation, decision or control therein has been the subject of a conviction by final judgement for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues t…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "DENCE_IDENTIFIER 47112079-6fec-47a3-988f-e561668c3aef CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING Money laundering or terrorist financing Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgement for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "o, implementacijo, vzdrževanjem ali podporo tovrstni programski opremi v katerikoli državi članici EU(strokovnjak je delal za EU državo). V primeru skupne ponudbe lahko pogoj partnerji izpolnijo skupaj. V primeru, da ponudnik nastopa s podizvajalci, lahko pogoj ponudnik in podizvajalci dokazujejo skupno. DOKAZILO: - V primeru izpolnjevanja pogoja iz prve alineje prvega odstavka te točke: Izpolnjen obrazec P- 10 Referenca ponudnika. Referenca mora biti potrjena s strani naročnika referenčnega posla s podpisom. V ko…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "namen nakazila: taksa za postopek revizije javnega naročanja. Vlagatelj mora zahtevku za revizijo priložiti potrdilo o plačilu takse. veleposlanik Andrej Gregor Rode, v. d. generalnega sekretarja Objaviti: - na portalu javnih naročil. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-10 Referenca.docx ===== REFERENCA Izjavljamo, da je bil zgoraj naveden referenčni posel izveden strokovno, kvalitetno, pravočasno, v skladu s standardi in zahtevami naročnika in v skladu z določili pogodbe. V/na , …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-10 Referenca.docx",
+            "source_url": null,
+            "source_sha256": "94cf843a64bce5e21bc6aba4dbffc30a0def64feb66d1c3e46254b87d8244f6d",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "diaryTenderingCriterionPropertyGroup> 9b19e869-6c89-4cc4-bd6c-ac9ca8602165 CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST EO registered in a PQS If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)? ecb5127b-9018-4fb8-8327-a6a7a2c73195 ON* 902e3448-c024-44de-a2d2-a565a5ce5884 Your answer? <TypeCode listID=\"CriterionE",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eDataTypeCode> dc4acf0c-c761-40d0-b031-4ee1f224be5c ONTRUE 4041cc82-1b7a-4560-ac3c-1cceae760aa9 Please provide the name of the list or certificate and the relevant registration or certification number, if applicable QUESTION DESCRIPTION d63531e6-6a3d-4d47-8e8b-78ffa601d73f If the certi",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "DENCE_IDENTIFIER 0d62c6ed-f074-4fcf-8e9f-f691351d52ad CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES Relied on entities Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below? 289f39b3-2a15-421a-8050-a29858031f35 ON* 8783d987-9efd-4e2a-9bb4-428d75969a83",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ESTION EVIDENCE_IDENTIFIER 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Not relied on entities Does the economic operator intend to subcontract any share of the contract to third parties? 289f39b3-2a15-421a-8050-a29858031f35 ON* <ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"2.",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "tveno in dalj časa vpliva na možnost izvajanja obveznosti po pogodbi. (4) V primeru prenehanja pogodbe iz kakršnegakoli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_requ…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ru prenehanja pogodbe iz kakršnegakoli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specifi…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "i s programsko opremo za izdajanje dokumentov, kot so vizumi, osebne izkaznice ali potni listi, pri čemer se kot ustrezne štejejo izkušnje z uporabo, implementacijo, vzdrževanjem ali podporo tovrstni programski opremi v katerikoli državi članici EU(strokovnjak je delal za EU državo). V primeru skupne ponudbe lahko pogoj partnerji izpolnijo skupaj. V primeru, da ponudnik nastopa s podizvajalci, lahko pogoj ponudnik in podizvajalci dokazujejo skupno. DOKAZILO: - V primeru izpolnjevanja pogoja iz prve alineje prvega …",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "zvesti javno naročilo s podizvajalcem, ki zahteva neposredno plačilo, mora: - glavni izvajalec v pogodbi pooblastiti naročnika, da na podlagi potrjenega računa oziroma situacije s strani glavnega izvajalca neposredno plačuje podizvajalcu, - podizvajalec predložiti soglasje, na podlagi katerega naročnik namesto ponudnika poravna podizvajalčevo terjatev do ponudnika, - glavni i zvajalec svojemu računu ali situaciji priložiti račun ali situacijo podizvajalca, ki ga je predhodno potrdil. V primeru nastopanja s podizva…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "oli razloga, ostanejo v veljavi vse pravice in obveznosti pogodbenih strank, pridobljene ali nastale v času veljavnosti predmetne pogodbe, če pogodba ne določa drugače. Določba tega člena ne posega v nobene druge pravice, ki bi jih pogodbena stranka imela na podlagi veljavnih predpisov, če pogodba izrecno ne določa drugače. ===== FILE: files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml ===== <ns4:QualificationApplicationRequest xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicCo…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "nosti........................... 12 11.2.9 Obrazec P-10: Referenca ponudnika................................ ................................ ......................... 13 11.2.10 Obrazec P-11: Izjava o udeležbi fizičnih in pravnih oseb pri ponudniku................................ ... 13 11.2.11 Obrazec P-12: Izjava o nepovezanosti s funkcionarjem ali družinskim članom funkcionarja Ministrstva za zunanje in evropske zadeve................................ ................................ ...........................…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "; - Obrazec P-5a: Specifikacije; - Obrazec P-5b: Predračun; - Obrazec P-6: Podatki o podizvajalcu; - Obrazec P-8: Vzorec menične izjave za resnost ponudbe; - Obrazec P-9: Vzorec menične izjave za dobro izvedbo pogodbenih obveznosti; - Obrazec P-10: Referenca ponudnika; - Obrazec P-11: Izjava o udeležbi pravnih in fizičnih oseb pri ponudniku; - Obrazec P-12: Izjava o nepovezanosti s funkcionarjem ali družinskim članom funkcionarja Ministrstva za zunanje in evropske zadeve; - Obrazec P-13: Izjava o varnostnem prever…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/Navodila_ponudnikom_103_26_P.pdf",
+            "source_url": null,
+            "source_sha256": "c2e54d04bafa650d12c004aa7cee3403ebc6f9e63fe897769cc3e2150889a5ca",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": ", izvajalec še naprej v celoti odgovarja naročniku za izpolnjevanje obveznosti podizvajalca. Naročnik v nobenem delu procesa obdelave osebnih podatkov ne dovoljuje izvoza podatkov v države izven Evropske unije in v mednarodne organizacije. Po zaključku pogodbenega razmerja na podlagi te pogodbe, je izvajalec morebitne osebne podatke v svoji posesti dolžan nepovratno uničiti oziroma vrniti naročniku, če ta to zahteva. Naročnik obdeluje osebne podatke fizičnih oseb, ki opravljajo storitve zanj, v evidenci javnih nar…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/P-3 Vzorec pogodbe.docx",
+            "source_url": null,
+            "source_sha256": "1fa225a0950bfc06bc818bd1624fded6d46d991fc644b52076902a217e103462",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "peCode> EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Payment of taxes Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment? Public Procurement Directive 2014/24/EU Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public pr…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.1.1\">EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Payment of taxes Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment? Public Procurement Directive 2014/24/EU Directive 2014/24/EU of the European…",
+            "source": "files/Razpisna dokumentacija 103_26 EU JN MZEZ_unpacked/espd_request.xml",
+            "source_url": null,
+            "source_sha256": "5ff7196256d6532afc759e613ed6ce28efff6247e5ceac11cb040a2299486835",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-22T09:30:08.017722+00:00",
+        "source_dce_run_id": 35674000373,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
@@ -65,7 +274,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 9,
+      "evidence_gate_coverage": 10,
       "spm_post_dce_score": 60,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -85,15 +294,234 @@
         "release_tag": "dce-harvest-35662528152"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 12,
+        "text_chars": 1009344,
+        "attributed_compact_snippets": 19,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "te constatatoare emise de ONRC și/sau alte documente echivalente emise de autoritățile competente din țara în care este stabilit operatorul economic, valabile la momentul prezentări”; Aspect de regularitate; la descrierea cerinței 14 - menționați și faptul că: „ la solicitarea autorității contractante, ofertantul clasat pe primul loc în urma aplicării criteriului de atribuire să prezinte documente justificative”. Aspect de regularitate; c) la secțiunea VI.3 – inserați următoarele: ”Ofertanții/ nu trebuie sa se reg…",
+            "source": "files/ACC__8396_DF1274670.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "42d3bfed294e7e22332b7bb0f85a8d85343fa43d87c8076eba60ad981d196e02",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e care îl au încheiat, acesta fiind baza legală a prelucrării. Orice prelu crare suplimentară sau în alt scop face obiectul unui acord separat de prelucrare a datelor, încheiat între Părți. De asemenea, perioada de stocare a datelor personale prelucrate prin contract este limitată la perioada corespondentă realizării obiectului principal al contractului. 32.4.4 Datele cu caracter personal schimbate între Părți nu pot d eveni accesibile sau comunicate unor terțe părți neautorizate sau puse la dispoziție spr e utili…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "rd:CommonBasic\">EVIDENCE_IDENTIFIER 5e506c16-26ab-4e32-bb78-b27f87dc0565 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE Pentru contractele de achizitie de servicii: executarea de servicii de tipul specificat Numai pentru contractele de achiziții publice de servicii: În perioada de referință, operatorul economic a furnizat următoarele servicii principale de tipul specificat. Autoritățile contractante pot solicita experiență de până la trei ani și pot accepta experiența a…",
+            "source": "files/CN1096225_unpacked/DUAE_CERERE_384542.xml",
+            "source_url": null,
+            "source_sha256": "92c4c561692ce531a3b71b86c73f733f05cd9cba7848d6544619977da7e6f1b1",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "a80f-39fa-4e1b-9057-a35175c52514 URL QUESTION EVIDENCE_IDENTIFIER 2017/S 142-293520 TED_CN http://ted.europa.eu/udl?uri%3DTED:NOTICE:293520-2017:TEXT:EN:HTML%026src%3D0 Spain-Aljaraque: Repair and maintenance services</Fi",
+            "source": "files/CN1096225_unpacked/DUAE_CERERE_384542.xml",
+            "source_url": null,
+            "source_sha256": "92c4c561692ce531a3b71b86c73f733f05cd9cba7848d6544619977da7e6f1b1",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "i de prestări servicii în toate documentele achiziției: FD - secțiunea II.2.7, caietul de sarcini, modelul de contract și strategia de contractare. Dacă durata totală a contractului de prestări servicii depășește 24 luni, vă recomandăm să analizați incidența prevederilor art. 222^2 alin. (9) din Legea nr. 98/2016. Aspect de calitate. În drept: art. 154 alin.(1), art.155-156, art. 221, art. 222 și art. 222^2 alin. (9) din Legea nr. 98/2016; art. 20 alin. (2) din H.G nr. 395/2016. 4)În fapt: Caietul de sarcini cupri…",
+            "source": "files/ACC__8396_DF1274670.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "42d3bfed294e7e22332b7bb0f85a8d85343fa43d87c8076eba60ad981d196e02",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ".7, caietul de sarcini, modelul de contract și strategia de contractare. Dacă durata totală a contractului de prestări servicii depășește 24 luni, vă recomandăm să analizați incidența prevederilor art. 222^2 alin. (9) din Legea nr. 98/2016. Aspect de calitate. În drept: art. 154 alin.(1), art.155-156, art. 221, art. 222 și art. 222^2 alin. (9) din Legea nr. 98/2016; art. 20 alin. (2) din H.G nr. 395/2016. 4)În fapt: Caietul de sarcini cuprinde, în mod eronat, cerințe de calificare pentru operatorul economic. Măsur…",
+            "source": "files/ACC__8396_DF1274670.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "42d3bfed294e7e22332b7bb0f85a8d85343fa43d87c8076eba60ad981d196e02",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "onform itate cu prevederile contractuale. • Plata serviciilor efectiv prestate se realizează ulterior recepției, pe baza facturii și a procesului-verbal de recepție, în condițiile art. 4 din contract. 17. RESURSELE NECESARE/EXPERTIZA NECESARĂ PENTRU REALIZAREA AC TIVITĂȚILOR ÎN CONTRACT ȘI OBȚINEREA REZULTATELOR Oferta va include informații privind echipa de experți care va fi utilizată în implementarea proiectului. Experții incluși vor îndeplini condiții care să asigure minimizarea riscurilor de implementare. Pen…",
+            "source": "files/CN1096225_unpacked/CS Platforma Elearning_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "6e5fd6263179d12902c9c2910e275559274d6daf4d5be3a738ede7c9186d2a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "fertantului, se vor prezenta declarații de disponibilitate (Formularul - Declarație de disponibilitate) datate Str. Foişorului nr. 2, Sector 3, București, 031178 Tel: +4 021 311 8090, Fax: +4 021 311 8095 E-mail: contact@anap.gov.ro www.anap.gov.ro GUVERNUL ROMÂNIEI AGENȚIA NAȚIONALĂ PENTRU ACHIZIȚII PUBLICE GUVERNUL ROMÂNIEI AGENȚIA NAȚIONALĂ PENTRU ACHIZIȚII PUBLICE și semnate de titular. Numărul de experți pe categorie de expertiză necesară Pentru realizarea activităților în cadrul Contractului, sunt necesare c…",
+            "source": "files/CN1096225_unpacked/CS Platforma Elearning_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "6e5fd6263179d12902c9c2910e275559274d6daf4d5be3a738ede7c9186d2a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ept experiență similară; precizarea datelor de identificare a certificatelor de bună execuție care atestă că serviciile au fost prestate conform clauzelor contractuale, cu menționarea valorilor, perioadelor și tipului de servicii realizate; procesele-verbale de recepție a livrabilelor sau orice documente echivalente etc. Ofertanții, odată cu depunerea DUAE vor prezenta, dacă este cazul, angajamentul terțului susținător (împreună cu documente anexe la angajament, transmise acestora de către terț/terții susținători,…",
+            "source": "files/ACC__8396_DF1274670.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "42d3bfed294e7e22332b7bb0f85a8d85343fa43d87c8076eba60ad981d196e02",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tuale, cu menționarea valorilor, perioadelor și tipului de servicii realizate; procesele-verbale de recepție a livrabilelor sau orice documente echivalente etc. Ofertanții, odată cu depunerea DUAE vor prezenta, dacă este cazul, angajamentul terțului susținător (împreună cu documente anexe la angajament, transmise acestora de către terț/terții susținători, din care rezultă modul efectiv în care se va materializa susținerea acestuia/acestora), acordul de asociere și acordul de subcontractare. La solicitarea autorită…",
+            "source": "files/ACC__8396_DF1274670.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "42d3bfed294e7e22332b7bb0f85a8d85343fa43d87c8076eba60ad981d196e02",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "; Identificare procese și politici și proceduri afectate de implementarea sistemului; Furnizarea informațiilor, restricțiilor precum și recomandărilor privind implementarea. Desfășoară activități de asistență și suport tehnic pentru echipa de dezvoltare; Participă la elaborarea manualelor de utilizare; Acordă suport utilizatorilor cheie pentru testarea de acceptanță a sistemului 17.3 Coordonatorul dezvoltare conținut e-learning Cerințe minime: • Studii superioare finalizate cu diplomă de licență sau echivalent. • …",
+            "source": "files/CN1096225_unpacked/CS Platforma Elearning_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "6e5fd6263179d12902c9c2910e275559274d6daf4d5be3a738ede7c9186d2a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cu metodologia propusă. Managementul calității și al riscurilor este reflectat în activități și subactivități. Subactivitățile sunt detaliate adecvat (limită maximum o lună), permit monitorizarea progresului și sunt corelate cu obiectivele contractului. 20 puncte Structura WBS demonstrează un nivel de excelență. Orga nizarea ierarhică este optimă și facilitează atât monitorizarea detaliată, cât și raportarea executivă. Toate elementele sunt complet integrate și corelate. Planul de lucru este foarte bine aliniat cu…",
+            "source": "files/CN1096225_unpacked/CS Platforma Elearning_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "6e5fd6263179d12902c9c2910e275559274d6daf4d5be3a738ede7c9186d2a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "erificarea funcționării acestora în ansamblu, efectuarea testelor de acceptanță, remedierea tuturor neconformităților constatate și predarea tuturor livrabilelor prevăzute în Contract și în Caietul de sarcini. p.Garanția de bună execuție – garanția care se constituie de către Prestator în scopul asigurării Achizitorului de îndeplinirea cantitativă, calitativă și în perioada convenită a contractului si reprezintă 10% din valoarea contractului; r. Întârziere – Perioada de timp calculată de la data scadentă/termenul …",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t în ore este o zi de sărbătoare legală, o duminică sau o sâmbătă, termenul se încheie la expirarea ultimei ore a următoarei zile lucrătoare; bb) Zi - zi calendaristică; an - 365 de zile; Clauze Generale 3. Obiectul contractului 3.1 Obiectul contractului îl constituie prestarea serviciilor pentru realizarea unui Sistem digital pentru profesionalizarea și consolidarea expertizei personalului cheie implicat în procesele de management și control ale achizițiilor publice - platforma eLearning Serviciile prestate const…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "15 de zile de la începerea acestor tratative, achizitorul şi prestatorul nu reuşesc să r ezolve în mod amiabil o divergenţă contractuală, fiecare poate solicita ca disputa să se soluţionez de către instanţele judecătoreşti competente. 30. Limba care guvernează contractul Limba care guvernează contractul este limba română. 31. Comunicări 31.1 Toate notificările, scrisorile, cererile, sau alte co municări care se efectuează în temeiul acestui contract vor fi efectuate în scris în limba română. 31.2 Toate notificăril…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rile, sau alte co municări care se efectuează în temeiul acestui contract vor fi efectuate în scris în limba română. 31.2 Toate notificările, scrisorile, cererile sau alte comunicări vor fi tr ansmise Părţii căreia îi sunt adresate prin scris oare recomandată – cu confirmare de primire sau e-mail la adresa .Părţile se obligă să -şi notifice reciproc i mediat orice schimbare de adresă ,în caz contrar, considerându -se ca notificarea/ scrisoarea / cere rea/ comunicarea a fost trimisă în mod valabil la vechea adresă.…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "actului, este de 24 luni și începe de la data s emnării procesului-verbal de recepție. Termenul de executare a serviciilor este de 3 luni de la semnarea contractului. Termenul estimat de re alizare a activitatii: servicii lunare de mentenanță preventivă și suport tehnic este de 24 luni. 6. Documentele contractului 6.1. Documentele contractului sunt: a) Caietul de sarci ni inclusiv clarificările răspunsurile la solicitările de clarificări și clarificările emise de achizitor și/sau măsurile de remediere aduse până l…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r, considerându -se ca notificarea/ scrisoarea / cere rea/ comunicarea a fost trimisă în mod valabil la vechea adresă. 31.3 O notific are, scrisoare, cerere sau altă comuni care va fi considerată ca fiind transmisă la data menţionată pe mandatul poştal, dacă a fost efectuată prin scrisoare recomandată cu confirmare de primire si email. 31.4. Datele de contact ale părților contractante sunt: Pentru AGENȚIA NAȚIONALĂ PENTRU ACHIZIȚII PUBLICE (ANAP): Adresă: București, str. Foisorului nr. 2, Sector 3 E-mail: contact@…",
+            "source": "files/CN1096225_unpacked/CONTRACT_semnat.pdf",
+            "source_url": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100211838",
+            "source_sha256": "2c66673856b8d2cea6295910bff5b693c648edf831bb972ae8bce9995750eb42",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "-test:UBL:Pre-award:CommonBasic\">EVIDENCE_IDENTIFIER b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4 CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES Plata impozitelor Operatorul economic si-a Incalcat obligatiile cu privire la plata impozitelor, atat In tara In care este stabilit, cat si In statul membru al autoritatii contractante sau al entitatii contractante, In cazul In care este diferit de tara de stabilire? 890ee4fb-b6ca-4611-afd9-667e9736dd78 <Title xmlns",
+            "source": "files/CN1096225_unpacked/DUAE_CERERE_384542.xml",
+            "source_url": null,
+            "source_sha256": "92c4c561692ce531a3b71b86c73f733f05cd9cba7848d6544619977da7e6f1b1",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-22T09:29:04.578882+00:00",
+        "source_dce_run_id": 35662528152,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
