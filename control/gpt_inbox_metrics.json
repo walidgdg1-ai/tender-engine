@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-23T12:30:43.570926+00:00",
+  "updated_at": "2026-09-23T17:16:28.042620+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 35859652270,
+  "latest_source_dce_run_id": 35893863246,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 181,
+    "pending_before_visible_cap": 182,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -19,9 +19,9 @@
       "LOW_PORTAL_SURVEILLANCE": 20
     },
     "pending_by_fit_band": {
-      "HOT": 10,
+      "HOT": 12,
       "GOOD": 84,
-      "MAYBE": 31,
+      "MAYBE": 29,
       "LOW": 35
     },
     "pending_by_portal": {
@@ -59,9 +59,9 @@
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "HOT": 10,
+      "HOT": 12,
       "GOOD": 84,
-      "MAYBE": 31,
+      "MAYBE": 29,
       "LOW": 35
     },
     "selected_by_portal": {
@@ -101,20 +101,20 @@
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "HOT": 8,
+      "HOT": 10,
       "GOOD": 62,
-      "MAYBE": 54,
+      "MAYBE": 52,
       "LOW": 36
     },
     "selected_by_portal": {
-      "IRELAND_ETENDERS": 11,
-      "TED": 87,
+      "IRELAND_ETENDERS": 10,
+      "TED": 89,
       "CA_CANADABUYS": 3,
       "WORLD_BANK": 9,
       "GENERIC_PUBLIC_PAGE": 4,
       "PL_EZAMOWIENIA": 4,
-      "US_SAM": 17,
       "MALTA_EPPS": 5,
+      "US_SAM": 16,
       "EE_RHR": 3,
       "ZA_ETENDERS": 3,
       "ES_PLACSP": 4,
@@ -127,36 +127,37 @@
       "CYPRUS_EPPS": 1
     }
   },
-  "review_index_count": 1533,
+  "review_index_count": 1539,
   "review_index_counts": {
-    "pending_total_uncapped": 1533,
+    "pending_total_uncapped": 1539,
     "by_stage": {
-      "BUSINESS_GATES": 1143,
+      "BUSINESS_GATES": 1149,
       "DCE_AUTHENTICITY": 390
     },
     "by_spm_fit_band": {
-      "HOT": 8,
+      "HOT": 10,
       "GOOD": 82,
       "MAYBE": 137,
-      "LOW": 1306
+      "LOW": 1310
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1373,
-    "cross_portal_duplicates_collapsed": 8
+    "overflow_beyond_hot_160": 1379,
+    "cross_portal_duplicates_collapsed": 7
   },
-  "true_pending_before_hot_cap": 1533,
-  "overflow_beyond_hot_160": 1373,
+  "true_pending_before_hot_cap": 1539,
+  "overflow_beyond_hot_160": 1379,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 18,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 157,
-    "adjudication_rows_scanned_this_refresh": 1262,
-    "gate_rows_seen_this_refresh": 407,
+    "shard_files_scanned_this_refresh": 161,
+    "adjudication_rows_scanned_this_refresh": 1283,
+    "gate_rows_seen_this_refresh": 412,
     "authenticity_rows_seen_this_refresh": 35,
     "source_runs_seen_this_refresh": [
+      35893863246,
       35859652270,
       35828450097,
       35808033048,
@@ -165,8 +166,7 @@
       35769414691,
       35744694955,
       35715749863,
-      35692250810,
-      35674000373
+      35692250810
     ]
   },
   "healthy": true,
