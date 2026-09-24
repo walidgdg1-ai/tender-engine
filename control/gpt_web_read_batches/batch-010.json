@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-24T09:32:25.844771+00:00",
-  "source_inbox_updated_at": "2026-09-24T01:24:05.455402+00:00",
-  "latest_source_dce_run_id": 35942092338,
+  "generated_at": "2026-09-24T11:49:50.019985+00:00",
+  "source_inbox_updated_at": "2026-09-24T11:49:48.703484+00:00",
+  "latest_source_dce_run_id": 35994672901,
   "batch_index": 10,
   "start_rank": 101,
   "end_rank": 110,
@@ -34,14 +34,14 @@
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 35942092338,
-      "source_shard": 11,
-      "review_key": "af73a5810a6535b7927d9e741827af14468c14036478b5cf8a5c13e68d70189f",
+      "source_dce_run_id": 35994672901,
+      "source_shard": 3,
+      "review_key": "326f0ea25e6f71608d5c017310eba1654f1416515562601ffb064447ecdac151",
       "artifact_locator": {
-        "dce_run_id": 35942092338,
-        "shard": 11,
+        "dce_run_id": 35994672901,
+        "shard": 3,
         "candidate_id": "US-SAM:6a56e054309545e5bd640d247ad3ed90",
-        "release_tag": "dce-harvest-35942092338"
+        "release_tag": "dce-harvest-35994672901"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -136,14 +136,59 @@
         "release_tag": "dce-harvest-35942092338"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 3792,
+        "attributed_compact_snippets": 4,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "_bank_procurement_notice_OP00468461.html ===== REPUBLIC OF MOZAMBIQUE MINISTRY OF COMUNICATIONS AND DIGITAL TRANSFORMATION Mozambique Digital Acceleration Project (MDAP) REQUEST FOR EXPRESSIONS OF INTEREST (Firms Selection) Assignment: Implement of training programs on the principles of digital transformation, cybersecurity, artificial intelligence and cloud computing. Project ID : P176459 Credit No. IDA-71820-MZ Contract Reference No . 78A/MDAP/MCTD/QCBS/25 The Government of Mozambique has received financing from…",
+            "source": "files/world_bank_procurement_notice_OP00468461.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00468461",
+            "source_sha256": "dbddeaefcf266eb5f9bdf2b707ae86286b9b0497e5c4cc68c2d4d33430e50d76",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "mbique Digital Acceleration Project and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) include the implementation of training programs on the principles of digital transformation, cybersecurity, artificial intelligence and cloud computing. The program aims to modernize public administration by upgrading the technical and strategic skills of public employees in core digital fields like AI, Cloud Computing, Cybersecurity, and Network Administration. The durati…",
+            "source": "files/world_bank_procurement_notice_OP00468461.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00468461",
+            "source_sha256": "dbddeaefcf266eb5f9bdf2b707ae86286b9b0497e5c4cc68c2d4d33430e50d76",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/world_bank_procurement_notice_OP00468461.html ===== REPUBLIC OF MOZAMBIQUE MINISTRY OF COMUNICATIONS AND DIGITAL TRANSFORMATION Mozambique Digital Acceleration Project (MDAP) REQUEST FOR EXPRESSIONS OF INTEREST (Firms Selection) Assignment: Implement of training programs on the principles of digital transformation, cybersecurity, artificial intelligence and cloud computing. Project ID : P176459 Credit No. IDA-71820-MZ Contract Reference No . 78A/MDAP/MCTD/QCBS/25 The Government of Mozambique has …",
+            "source": "files/world_bank_procurement_notice_OP00468461.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00468461",
+            "source_sha256": "dbddeaefcf266eb5f9bdf2b707ae86286b9b0497e5c4cc68c2d4d33430e50d76",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "programs on the principles of digital transformation, cybersecurity, artificial intelligence and cloud computing. Project ID : P176459 Credit No. IDA-71820-MZ Contract Reference No . 78A/MDAP/MCTD/QCBS/25 The Government of Mozambique has received financing from the World Bank toward the cost of the Mozambique Digital Acceleration Project and intends to apply part of the proceeds for consulting services. The consulting services (“the Services”) include the implementation of training programs on the principles of di…",
+            "source": "files/world_bank_procurement_notice_OP00468461.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00468461",
+            "source_sha256": "dbddeaefcf266eb5f9bdf2b707ae86286b9b0497e5c4cc68c2d4d33430e50d76",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
