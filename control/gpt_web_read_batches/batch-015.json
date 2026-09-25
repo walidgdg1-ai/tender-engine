@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-25T22:44:40.731310+00:00",
-  "source_inbox_updated_at": "2026-09-25T22:44:39.673610+00:00",
+  "generated_at": "2026-09-25T22:52:22.654591+00:00",
+  "source_inbox_updated_at": "2026-09-25T22:52:21.556138+00:00",
   "latest_source_dce_run_id": 36197311129,
   "batch_index": 15,
   "start_rank": 151,
@@ -568,43 +568,354 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "TED:676644-2024",
-      "title": "Belgium – Electrical services – Kwalificatie als dienstverlener voor flexibiliteit en ondersteunende diensten",
-      "buyer": "Fluvius System Operator cv (Speciale Sectoren)",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/676644-2024",
+      "candidate_id": "MT-EPPS:14023555",
+      "title": "Provision of Microsoft 365 Copilot related solutions and services - DPS 060/26",
+      "buyer": "Malta Information Technology Agency (MITA)",
+      "portal": "MALTA_EPPS",
+      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14023555&documentId=14124426&noticeType=16&extId=5e5aa460-da90-44ec-bfb6-778510abcfff&lang=en&noticeId=14124417&isNational=false",
       "deadline": null,
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
+      "estimated_value": 1000000.0,
+      "currency": "EUR",
+      "review_stage": null,
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
       "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 19,
+      "spm_post_dce_score": -19,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "spm_friction_signals": [
+        "security-clearance"
+      ],
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32383561548,
-      "source_shard": 0,
-      "review_key": "6bdca5b6a267f88c9014b00880cf11a6344ffde46f6eba3b3497878cfbf3e6e0",
+      "authoritative_submission_date": "2030-09-23",
+      "source_dce_run_id": 36197311129,
+      "source_shard": 37,
+      "review_key": "5140a4fb094e3167dd352cc06dbaf55885f24de8df8ab7181b58af11952f10d6",
       "artifact_locator": {
-        "dce_run_id": 32383561548,
-        "shard": 0,
-        "candidate_id": "TED:676644-2024",
-        "release_tag": "dce-harvest-32383561548"
+        "dce_run_id": 36197311129,
+        "shard": 37,
+        "candidate_id": "MT-EPPS:14023555",
+        "release_tag": "dce-harvest-36197311129"
       },
       "evidence_quality": {
         "raw_status": null,
         "documents_with_text": null,
         "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "ch date: 23/09/2026 12:19 +02:00 Languages in which this notice is officially available: English https://ted.europa.eu/TED Page 4/4 ===== FILE: files/1001_14023555_unpacked/1_c4t_14023555_1.xml ===== 100 <![CDATA[The Participant confirms that he has examined, and accepts in full and in its entirety, the contents of the document named \"DPS 060/26 - Participant's Declaration\" (including any amendments made through subsequent clarifications, Addenda or Corrigenda) issued by the Contracting Authority) related to this …",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "<![CDATA[If Applicable, kindly attach preliminary agreement or letter of intent stating that all partners assume joint and several liability for the execution of the contract, and that the lead partner is authorized to bind, and receive instructions for and on behalf of, all partners, individually and collectively]]> 100 Yes No 100 <",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "e-populated by the system. It is the Economic Operator’s responsibility to ensure that the correct information is reflected in the ESPD tender response format for the above criteria. Selection Criteria requirements are to be completed by the Economic Operator in the ESPD (Tender response format) under Part IV titled ‘Selection Criteria’ which includes the following: Suitability(Note 2) As may be applicable, at Specific Contract level a filled-in Ultimate Beneficiary Owner Information Sheet and any supporting docum…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tractors.docx ===== The ESPD includes the following parts and sections: Instructions Part I. Information concerning the procurement procedure and the public body Part II. Information concerning the bidder. A: Information about the bidder. Part III. Exclusion criteria: A: Grounds relating to criminal convictions. B: Grounds relating to the payment of taxes or social security contributions. C: Blacklisting. D: Grounds relating to insolvency, conflicts of interests or professional misconduct. E: Other exclusion groun…",
+            "source": "files/1001_14023555_unpacked/3_DPS060_26-ESPD for Subcontractors.docx",
+            "source_url": null,
+            "source_sha256": "79a6bfea6537a22a776d273e76df5776c41d439069a66b5e4e3643ab4c8d8363",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "espd=\"1\" id=\"1790155125172\" show-on=\"1\" size=\"2048\" type=\"text\" included-in-evaluation=\"0\" mandatory=\"0\" uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_url\" parent-uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_infoElectronicallyAnswer\" pos=\"3\" level=\"4\"> <criterion espd=\"1\" id=\"1790155125173\" show-on=\"1\" size=\"50\" type=\"text\" included-in-evaluation=\"0\" mandatory=\"0\" uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_ref…",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "-02997a055bd7_url\" parent-uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_infoElectronicallyAnswer\" pos=\"3\" level=\"4\"> <criterion espd=\"1\" id=\"1790155125173\" show-on=\"1\" size=\"50\" type=\"text\" included-in-evaluation=\"0\" mandatory=\"0\" uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_reference\" parent-uuid=\"005eb9ed-1347-4ca3-bb29-9bc0db64e1ab_7c637c0c-7703-4389-ba52-02997a055bd7_infoElectronicallyAnswer\" pos=\"4\" level=\"4\"> <criterion espd=\"1\" id=\"1790155…",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "\" size=\"2\" weight=\"100\"> 100 Yes No 100 0 100 100 <",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ion Sheet and any supporting documentation (as applicable) will be requested to be provided by the recommended Candidate once a Specific Contract has been awarded. Economic and Financial Standing – Not applicable Technical and Professional Ability Experience List of principal services of a similar nature of those being requested as per the below: One service related to a Microsoft Copilot project effected during the past two years (at the time of requesting admittance to the DPS) the minimum value of which must no…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "ecture documents. Functional and technical specifications. Security and risk assessment reports. Developed Copilot Agents. Integration components and APIs. Test plans and test reports. User documentation. Administrator documentation. Training materials. Knowledge transfer sessions. Deployment and support plans. Resource Profiles In Specific Contracts, the Contractor may be required to provide resources such as: Solution Architect. AI Solution Architect. Copilot Specialist. Copilot Studio Developer. Microsoft 365 C…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "neer. Business Analyst. UX Designer. Security Consultant. Change Management Consultant. Project Manager. The number of IT experts requested may differ between Specific Contracts. IT experts shall possess a good command of the English language, both written and verbal, and provide evidence of their IT skills and experience. Furthermore, IT experts shall possess a clean conduct and, if requested by the Contracting Authority, provide a security clearance. Economic Operators, once engaged, shall be responsible to prov…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ation and shall hold a current Microsoft Solutions Partner for AI Business Solutions designation at the time of application submission. The Central Purchasing Body reserves the right to verify the tenderer's partner status directly with Microsoft or through Microsoft's partner directory. Processing of Personal Data As may be applicable, at Specific Contract level a filled-in GDPR-Questionnaire any supporting documentation (as applicable) will be requested to be provided by the Candidates at specific contract tende…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "PIRY DATE | 23 September 2030 Receipt of Applications | Refer to Clause 8.1 Evaluation of Applications | Refer to Clause 8.2 * All times Central European Time (CET)/Central European Summer Time (CEST) as applicable | * All times Central European Time (CET)/Central European Summer Time (CEST) as applicable Notes to Clause 7: 1. Tenderers will be requested to clarify/rectify, within five (5) working days from notification, the tender guarantee only in the following four circumstances: incorrect validity date, and/or…",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "===== FILE: files/1001_14023555_unpacked/1001_14023555.pdf ===== List of Contract Documents #Addend a ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<1_c4t_14023555_1.xml > #Addend a ID N/A Status Final Title DPS Document File Associated :<2_DPS 060_26-DPS Document-V1.0.docx > #Addend a ID N/A Status Final Title ESPD for Subcontractors File Associated :<3_DPS060_26-ESPD for Subcontractors.docx > #Addend a ID N/A Status Final Title Participant's Declaration File Associated :<4_DPS 060_26_…",
+            "source": "files/1001_14023555_unpacked/1001_14023555.pdf",
+            "source_url": null,
+            "source_sha256": "6e5dfd3fcd00113a817b28e8e1b4a3373c45efb701c20af7121902e0ed409d37",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "=\"file\" weight=\"\"> <![CDATA[If Applicable, kindly attach preliminary agreement or letter of intent stating that all partners assume joint and several liability for the execution of the contract, and that the lead partner is authorized to bind, and receive instructions for and on behalf of, all partners, individually and collectively]]> 100 Yes No <score option-value=\"1",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "> <![CDATA[Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 …",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "quirements><![CDATA[Participation in a criminal organisation: Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council …",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "100 <![CDATA[Other exclusion grounds that may be foreseen in the national legislation of the contracting authority's or contracting entity's Member State. Has the economic operator breached its obligations relating to the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents?]]> <![CDATA[Purely national exclusion grounds: Other exclusion grounds that may be foreseen in the national legislation of the contracting authority's or contracting entity's Member S…",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "6\" pos=\"1\" level=\"3\"> 100 <![CDATA[Other exclusion grounds that may be foreseen in the national legislation of the contracting authority's or contracting entity's Member State. Has the economic operator breached its obligations relating to the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents?]]> <![CDATA[Purely national exclusion grounds: Other exclusion grounds that may be foreseen in the national legislation of the contracting authority's or contrac…",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "tor Entities. 5.1.1 Purpose Main nature of the contract: Services Main classification (cpv): 72200000 Software programming and consultancy services Additional classification (cpv): 72000000 IT services: consulting, software development, Internet and support Additional classification (cpv): 72230000 Custom software development services Additional classification (cpv): 72263000 Software implementation services Additional classification (cpv): 72265000 Software configuration services 5.1.2 Place of performance Countr…",
+            "source": "files/1001_14023555_unpacked/14023555_Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "813b64d401cc00450c1fadfbdc16051f53b3782ea900c87fc5de65b1c98e5a25",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "1.1 Purpose Main nature of the contract: Services Main classification (cpv): 72200000 Software programming and consultancy services Additional classification (cpv): 72000000 IT services: consulting, software development, Internet and support Additional classification (cpv): 72230000 Custom software development services Additional classification (cpv): 72263000 Software implementation services Additional classification (cpv): 72265000 Software configuration services 5.1.2 Place of performance Country subdivision (N…",
+            "source": "files/1001_14023555_unpacked/14023555_Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "813b64d401cc00450c1fadfbdc16051f53b3782ea900c87fc5de65b1c98e5a25",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "cs S.A. Town: Athens Postcode: 15125 Country subdivision (NUTS): Βόρειος Τομέας Αθηνών (EL301) Country: Greece Email: eproc­esender@eurodyn.com Telephone: +30 2108094500 Roles of this organisation: TED eSender Notice information Notice identifier/version: 5e5aa460­da90­44ec­bfb6­778510abcfff ­ 01 Form type: Competition Notice type: Contract or concession notice – standard regime Notice dispatch date: 23/09/2026 12:19 +02:00 Languages in which this notice is officially available: English https://ted.europa.eu/TED P…",
+            "source": "files/1001_14023555_unpacked/1_c4t_14023555_1.xml",
+            "source_url": null,
+            "source_sha256": "6c6b9702eb956157402045dd8abb68a6c351642f18bd79388c582992b5f6d6fe",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Tenderer | | Brief Description of service To substantiate the type of service ticked below | | Type of Service | | Microsoft Copilot project effected during the past two years (at the time of requesting admittance to the DPS) the minimum value of which must not be less than €20,000 excluding VAT for the quoted period Total value of the service more than €20,000 excluding VAT? | Yes Total value of the service more than €20,000 excluding VAT? | No Date of service delivery | From: | | Date of service delivery | To: |…",
+            "source": "files/1001_14023555_unpacked/6_DPS 060_26 - Certificate of Satisfactory Execution and Outcome.docx",
+            "source_url": null,
+            "source_sha256": "7fcaac3df8d43134e0615ecb3ec24482deabf02c9b83ede810d1de613077718d",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/1001_14023555_unpacked/1001_14023555.pdf ===== List of Contract Documents #Addend a ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<1_c4t_14023555_1.xml > #Addend a ID N/A Status Final Title DPS Document File Associated :<2_DPS 060_26-DPS Document-V1.0.docx > #Addend a ID N/A Status Final Title ESPD for Subcontractors File Associated :<3_DPS060_26-ESPD for Subcontractors.docx > #Addend a ID N/A Status Final Title Participant's Declaration File Associated :<4_DPS 060_26_…",
+            "source": "files/1001_14023555_unpacked/1001_14023555.pdf",
+            "source_url": null,
+            "source_sha256": "6e5dfd3fcd00113a817b28e8e1b4a3373c45efb701c20af7121902e0ed409d37",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "services Additional classification (cpv): 72000000 IT services: consulting, software development, Internet and support Additional classification (cpv): 72230000 Custom software development services Additional classification (cpv): 72263000 Software implementation services Additional classification (cpv): 72265000 Software configuration services 2.1.2 Place of performance Country subdivision (NUTS): Malta (MT001) Country: Malta 2.1.3 Value Estimated value excluding VAT: 1 000 000 Euro 2.1.4 General information Lega…",
+            "source": "files/1001_14023555_unpacked/14023555_Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "813b64d401cc00450c1fadfbdc16051f53b3782ea900c87fc5de65b1c98e5a25",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "Procurement documents Languages in which the procurement documents are officially available: English Languages in which the procurement documents (or their parts) are unofficially available: English Address of the procurement documents: https://www.etenders.gov.mt/epps/dps/listDPSContractDocuments.do? resourceId=14023555 5.1.12 Terms of procurement Terms of submission: Electronic submission: Required Address for submission: https://www.etenders.gov.mt/epps?resourceId=14023555 Languages in which tenders or requests…",
+            "source": "files/1001_14023555_unpacked/14023555_Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "813b64d401cc00450c1fadfbdc16051f53b3782ea900c87fc5de65b1c98e5a25",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ww.etenders.gov.mt/epps/dps/prepareViewCfTDPSWS.do?resourceId=14023555 Terms of contract: The execution of the contract must be performed within the framework of sheltered employment programmes: No https://ted.europa.eu/TED Page 2/4 Electronic invoicing: Required Electronic ordering will be used: yes Electronic payment will be used: yes 5.1.15 Techniques Framework agreement: No framework agreement Information about the dynamic purchasing system: Dynamic purchasing system, also usable by buyers not listed in this n…",
+            "source": "files/1001_14023555_unpacked/14023555_Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "813b64d401cc00450c1fadfbdc16051f53b3782ea900c87fc5de65b1c98e5a25",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "on being requested regarding sub-contracting is left empty, it will be assumed that no sub-contracting will take place (0% subcontracting). Microsoft Accreditation (Note 2) The Tenderer shall provide its Microsoft Partner ID as issued by Microsoft, as evidence of accreditation and shall hold a current Microsoft Solutions Partner for AI Business Solutions designation at the time of application submission. The Central Purchasing Body reserves the right to verify the tenderer's partner status directly with Microsoft …",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "by Microsoft, as evidence of accreditation and shall hold a current Microsoft Solutions Partner for AI Business Solutions designation at the time of application submission. The Central Purchasing Body reserves the right to verify the tenderer's partner status directly with Microsoft or through Microsoft's partner directory. Processing of Personal Data As may be applicable, at Specific Contract level a filled-in GDPR-Questionnaire any supporting documentation (as applicable) will be requested to be provided by the …",
+            "source": "files/1001_14023555_unpacked/2_DPS 060_26-DPS Document-V1.0.docx",
+            "source_url": null,
+            "source_sha256": "b200d6b3822271e04f94a9b5173239c27732498736cfcdd9708bfc327cfbc6b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
