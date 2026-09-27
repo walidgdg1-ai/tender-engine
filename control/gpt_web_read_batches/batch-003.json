@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-27T06:47:13.786518+00:00",
+  "generated_at": "2026-09-27T10:12:52.399602+00:00",
   "source_inbox_updated_at": "2026-09-27T06:47:12.972014+00:00",
   "latest_source_dce_run_id": 36300571600,
   "batch_index": 3,
@@ -66,7 +66,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
+      "evidence_gate_coverage": 14,
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -87,15 +87,322 @@
         "release_tag": "dce-harvest-36278059676"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 12,
+        "text_chars": 673569,
+        "attributed_compact_snippets": 27,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "acked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf ===== Document unique de marchéeuropéen (DUME) Partie I: Informations concernant la procédure de passation et de marché et le pouvoir adjudicateur ou l’entité adjudicatrice Identité de l’acheteur Nom officiel: Sibelga Pays: Belgique Informations relatives à la procédure de passation de marché Type de procédure: Non précisé Titre: Energy Management System Brève description: Energy Management System Numéro de référence attribué a…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ection EMS _unpacked/ESPD_request_fr.pdf ===== Document unique de marchéeuropéen (DUME) Partie I: Informations concernant la procédure de passation et de marché et le pouvoir adjudicateur ou l’entité adjudicatrice Identité de l’acheteur Nom officiel: Sibelga Pays: Belgique Informations relatives à la procédure de passation de marché Type de procédure: Non précisé Titre: Energy Management System Brève description: Energy Management System Numéro de référence attribué au dossier par le pouvoir adjudicateur ou l’enti…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "PTION\"> 5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Direct…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On p…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf ===== Document unique de marchéeuropéen (DUME) Partie I: Informations concernant la procédure de passation et de marché et le pouvoir adjudicateur ou l’entité adjudicatrice Identité de l’acheteur Nom officiel: Sibelga Pays: Belgique Informations relatives à la procédure de passation de marché Type de procédure: Non précisé Titre: Energy Management System Brève descriptio…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rit sur une liste officielle d’opérateurs économiques agréés ou est-il muni d’un certificat équivalent [par exemple dans le cadre d’un système national de (pré)qualification]? ❍ Oui -2- ❍ Non • Veuillez répondre aux autres parties de la présente section, à la section B et, le cas échéant, à la section C de la présente partie, remplir le cas échéant la partie V et, dans tous les cas, compléter et signer la partie VI. a) Veuillez donner le numéro d’inscription ou de certification pertinent, le cas échéant: - b) Si l…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "icro, une petite ou une moyenne entreprise? ❍ Oui ❍ Non Uniquement dans le cas où le marché est réservé: l’opérateur économique est-il un atelier protégé, une «entreprise sociale» ou prévoit-il l’exécution du marché dans le cadre de programmes d’emplois protégés? ❍ Oui ❍ Non Quel est le pourcentage correspondant de travailleurs handicapés ou défavorisés? - Si nécessaire, veuillez préciser si les salariés concernés appartiennent à une ou plusieurs catégories spécifiques de travailleurs handicapés ou défavorisés? - …",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ser si les salariés concernés appartiennent à une ou plusieurs catégories spécifiques de travailleurs handicapés ou défavorisés? - Le cas échéant, l’opérateur économique est-il inscrit sur une liste officielle d’opérateurs économiques agréés ou est-il muni d’un certificat équivalent [par exemple dans le cadre d’un système national de (pré)qualification]? ❍ Oui -2- ❍ Non • Veuillez répondre aux autres parties de la présente section, à la section B et, le cas échéant, à la section C de la présente partie, remplir le…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC <ccv-cbc:JurisdictionLevelCode listID=\"Crite…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC EU_DIRECTIVE…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "paiement des cotisations de sécurité sociale et des impôts et taxes ou de fournir des informations permettant au pouvoir adjudicateur ou à l’entité adjudicatrice de l’obtenir directement en consultant une base de données nationale dans un État membre qui est accessible gratuitement? ❍ Oui ❍ Non Si les documents pertinents sont disponibles par voie électronique, veuillez indiquer: - L ’opérateur économique participe-t-il à la procédure de passation de marché avec d’autres? -3- ❍ Oui ❍ Non • Veillez à ce que les aut…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "accessible gratuitement? ❍ Oui ❍ Non Si les documents pertinents sont disponibles par voie électronique, veuillez indiquer: - L ’opérateur économique participe-t-il à la procédure de passation de marché avec d’autres? -3- ❍ Oui ❍ Non • Veillez à ce que les autres parties concernées fournissent un formulaire DUME distinct. a) Veuillez préciser le rôle de l’opérateur économique au sein du groupement d’opérateurs économiques (chef de groupe, responsable de l’exécution de tâches spécifiques, etc.): - b) Veuillez désig…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "djudicateur ou l’entité adjudicatrice figurant à la partie I ait accès aux documents justificatifs étayant les informations fournies dans les parties III et IV du présent document unique de marché européen aux fins de la procédure de passation de marché mentionnée dans la partie I. Date, lieu et, lorsque cela est requis ou nécessaire, signature(s): Date - Localisation - Signature -24- ===== FILE: files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ustificatifs étayant les informations fournies dans les parties III et IV du présent document unique de marché européen aux fins de la procédure de passation de marché mentionnée dans la partie I. Date, lieu et, lorsque cela est requis ou nécessaire, signature(s): Date - Localisation - Signature -24- ===== FILE: files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specificatio…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "que visées aux fins du présent marché dans le droit national, dans l’avis pertinent ou dans les documents de marché ou à l’article 18, paragraphe 2, de la directive 2014/24/UE. Votre réponse? -14- ❍ Oui ❍ Non Veuillez les décrire - Avez-vous pris des mesures pour démontrer que vous êtes fiable («auto- réhabilitation»)? ❍ Oui ❍ Non Veuillez les décrire - Faillite L'opérateur économique est-il en faillite ? Votre réponse? ❍ Oui ❍ Non Veuillez les décrire - Indiquer les raisons autorisant néanmoins à remplir les obli…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s est obligatoire en vertu de la législation nationale, sans possibilité de dérogation dans les cas où l'opérateur est malgré tout en mesure de remplir le contrat. - Les pouvoirs adjudicateurs peuvent-ils accéder gratuitement à ces informations dans une base de données d’un État membre de l’UE? ❍ Oui ❍ Non URL - Code - Émetteur - -15- Insolvabilité L'opérateur économique est-il en liquidation judiciaire ? Votre réponse? ❍ Oui ❍ Non Veuillez les décrire - Indiquer les raisons autorisant néanmoins à remplir les obli…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "ns fournies dans les parties III et IV du présent document unique de marché européen aux fins de la procédure de passation de marché mentionnée dans la partie I. Date, lieu et, lorsque cela est requis ou nécessaire, signature(s): Date - Localisation - Signature -24- ===== FILE: files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCo…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.xml",
+            "source_url": null,
+            "source_sha256": "b921da17b20b1d6666d8ac528c67fd1ecccacb86354273c1958130c57ba8a27a",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "des conseils énergétiques indépendants afin qu'ils soient en mesure de faire les bons choix et de fixer les bonnes priorités dans le domaine des projets d'économie d'énergie ; En cas d'économies d'énergie réalisées (après mise en œuvre des projets), quantifier les résultats obtenus et les restituer de manière conviviale, visuelle et claire ; Permettre aux pouvoirs publics de répondre à leurs obligations légales en matière de suivi énergétique ; Assurer la gestion de transferts de contrats d’énergie (ouverture, fer…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/SIB26LF2201 Dossier de sélection EMS.docx",
+            "source_url": null,
+            "source_sha256": "4ef6ff618be80a5f8247bff0fa3a3996f3231bca3dbd05cb983555b735ad40d5",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "bepaalde specifieke behoeften in verband met de Brusselse context, de taken van de openbare dienst of haar eigen bedrijfsprocessen aanvullende aanpassingen aan de oplossing zullen vereisen. De tool moet de integratie van maatwerkontwikkelingen en aangeschafte plug-ins mogelijk maken, zoals wizards voor het aanmaken van fysieke locaties (locatie/gebouw/zone/…) of voor het verwerken van externe gegevens met een API die gegevensuitwisseling mogelijk maakt. Het doel van deze opdracht is het opzetten van een raamoveree…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Selectiedossier EMS_unpacked/SIB26LF2201 Selectiedossier EMS.docx",
+            "source_url": null,
+            "source_sha256": "9b35f2f1aa571206f9d1dc5105308fdde0c3daa390ed780869459c593b5f2785",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf ===== Document unique de marchéeuropéen (DUME) Partie I: Informations concernant la procédure de passation et de marché et le pouvoir adjudicateur ou l’entité adjudicatrice Identité de l’acheteur Nom officiel: Sibelga Pays: Belgique Informations relatives à la procédure de passation de marché Type de procédure: Non précisé Titre: Energy Management System Brève descriptio…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ure de passation de marché? Votre réponse? ❍ Oui ❍ Non Veuillez les décrire - Résiliation, dommages et intérêts ou autres sanctions comparables -20- L’opérateur économique a-t-il fait l’objet d’une résiliation d’un marché public antérieur, d’un marché antérieur passé avec une entité adjudicatrice ou d’une concession antérieure, ou de dommages et intérêts ou d’une autre sanction comparable dans le cadre de ce marché ou de cette concession antérieur(e)? Votre réponse? ❍ Oui ❍ Non Veuillez les décrire - Avez-vous pri…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "ux Art.67 à 69 de la Loi du 17/06/2016 relative aux Marchés Publics et/ou aux Art.61 à 64 de l’AR du 18/04/2017 relatif à la passation des marchés publics dans les Secteurs Classiques et qu’il respecte les articles Art.41 à 45, concernant les signatures électroniques, de l’AR du 18/04/2017 relatif à la passation des marchés publics dans les Secteurs Classiques Dans ce cadre et de manière à démontrer qu’il ne se trouve pas dans au moins une des situations d’exclusion visées à l’Art. 67 de la Loi du 17/06/2016, le C…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/SIB26LF2201 Dossier de sélection EMS.docx",
+            "source_url": null,
+            "source_sha256": "4ef6ff618be80a5f8247bff0fa3a3996f3231bca3dbd05cb983555b735ad40d5",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "pas dans au moins une des situations d’exclusion visées à l’Art. 67 de la Loi du 17/06/2016, le Candidat fournit un extrait du casier judiciaire de sa société (personne morale). Ce document doit dater de maximum 6 mois avant la date limite de remise des candidatures. Si le Candidat est établi en dehors de la Belgique et de manière à démontrer qu’il ne se trouve pas dans au moins une des situations d’exclusion visées aux articles 67 à 69 de la Loi du 17/06/2016, le Candidat (établi à l’étranger) fournit les documen…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/SIB26LF2201 Dossier de sélection EMS.docx",
+            "source_url": null,
+            "source_sha256": "4ef6ff618be80a5f8247bff0fa3a3996f3231bca3dbd05cb983555b735ad40d5",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ication est disponible par voie électronique, veuillez indiquer: - c) Veuillez indiquer les références sur lesquelles l’inscription ou la certification est basée et, le cas échéant, le classement obtenu dans la liste officielle: - d) L ’inscription ou la certification couvre-t-elle tous les critères de sélection requis? ❍ Oui ❍ Non • Veuillez en plus introduire les informations manquantes dans la partie IV, sections A, B, C ou D selon le cas UNIQUEMENT si cela est demandé dans l’avis ou les documents de marché per…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sion encore applicable fixée directement dans la sentence? T elles que définies à l’article 2 de la directive 2011/36/UE du Parlement européen et du Conseil du 5 avril 2011 concernant la prévention de la traite des êtres humains et la lutte contre ce phénomène ainsi que la protection des victimes et remplaçant la décision- cadre 2002/629/JAI du Conseil (JO L 101 du 15.4.2011, p. 1). Votre réponse? ❍ Oui ❍ Non Les pouvoirs adjudicateurs peuvent-ils accéder gratuitement à ces informations dans une base de données d’…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "t d’inscription ou de certification est disponible par voie électronique, veuillez indiquer: - c) Veuillez indiquer les références sur lesquelles l’inscription ou la certification est basée et, le cas échéant, le classement obtenu dans la liste officielle: - d) L ’inscription ou la certification couvre-t-elle tous les critères de sélection requis? ❍ Oui ❍ Non • Veuillez en plus introduire les informations manquantes dans la partie IV, sections A, B, C ou D selon le cas UNIQUEMENT si cela est demandé dans l’avis ou…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "us de cinq ans ou comportant une période d’exclusion encore applicable fixée directement dans la sentence? T elles que définies à l’article 2 de la directive 2011/36/UE du Parlement européen et du Conseil du 5 avril 2011 concernant la prévention de la traite des êtres humains et la lutte contre ce phénomène ainsi que la protection des victimes et remplaçant la décision- cadre 2002/629/JAI du Conseil (JO L 101 du 15.4.2011, p. 1). Votre réponse? ❍ Oui ❍ Non Les pouvoirs adjudicateurs peuvent-ils accéder gratuitemen…",
+            "source": "files/057d7659-7385-41df-869d-61fb902d87a5_unpacked/SIB26LF2201_pub01/SIB26LF2201 Dossier sélection EMS _unpacked/ESPD_request_fr.pdf",
+            "source_url": null,
+            "source_sha256": "59907f04f325f56bbee8275c3156d03abcfa83cad376e05c2c57baeca28f3428",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-27T10:12:05.012718+00:00",
+        "source_dce_run_id": 36278059676,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
@@ -1303,7 +1610,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
+      "evidence_gate_coverage": 13,
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -1324,15 +1631,310 @@
         "release_tag": "dce-harvest-36278059676"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 26,
+        "text_chars": 491539,
+        "attributed_compact_snippets": 26,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "| [SHEET Standorte d. Verarbeitung] Standorte der Verarbeitungen | | | | | | | | | | Hinweis: Bitte nutzen Sie für die Angaben zu Unterauftragnehmern die gesondert vorgesehenen Tabellenblätter. | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten F.1 ff. in einem Drittla…",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "| | | | 9 | | | | | | | | | | … | | | | | | | | | | [SHEET (U)AN Standorte d. Verarbeitung] Unter-/Auftragnehmer: Standorte der Verarbeitungen | | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten G.1 ff. in einem Drittland | | | | | | | | | | | # | A) Firmenbezeichnu…",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "ften verlangen, soweit eine Verrechnung nicht möglich ist. 16.5 Ist eine Preisanpassung für Leistungen vereinbart, gilt, falls keine anderweitige Regelung vorgesehen ist, Folgendes: Eine Erhöhung der Vergütung kann erstmalig 12 Monate nach Beginn der Leistungserbringung, weitere Erhöhungen frühestens jeweils 12 Monate nach Wirksamwerden der vorherigen Erhöhung angekündigt werden. Eine Erhöhung wird drei Monate nach der Ankündigung wirksam. Die Erhöhung hat angemessen und marktüblich zu sein und darf maximal 3% der…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t eine Preisanpassung für Leistungen vereinbart, gilt, falls keine anderweitige Regelung vorgesehen ist, Folgendes: Eine Erhöhung der Vergütung kann erstmalig 12 Monate nach Beginn der Leistungserbringung, weitere Erhöhungen frühestens jeweils 12 Monate nach Wirksamwerden der vorherigen Erhöhung angekündigt werden. Eine Erhöhung wird drei Monate nach der Ankündigung wirksam. Die Erhöhung hat angemessen und marktüblich zu sein und darf maximal 3% der zum Zeitpunkt der Ankündigung der Erhöhung geltenden Vergütung be…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "iter anwendbarer gesetzlicher Bestimmungen in vollem Umfang einzuhalten. 6.1.4 Der Auftragnehmer verfügt, soweit gesetzlich erforderlich, über einen bestellten betrieblichen Datenschutzbeauftragten mit der erforderlichen Fachkunde und teilt dem Auftraggeber auf Anfrage dessen Kontaktdaten mit. 6.2 IT-Sicherheit 6.2.1 Der Auftragnehmer verfügt für die Bereitstellung der Leistung (inklusive der dazu notwendigen infrastrukturellen, organisatorischen, personellen und technischen Komponenten) über ein angemessenes, dok…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ftragnehmer verfügt, soweit gesetzlich erforderlich, über einen bestellten betrieblichen Datenschutzbeauftragten mit der erforderlichen Fachkunde und teilt dem Auftraggeber auf Anfrage dessen Kontaktdaten mit. 6.2 IT-Sicherheit 6.2.1 Der Auftragnehmer verfügt für die Bereitstellung der Leistung (inklusive der dazu notwendigen infrastrukturellen, organisatorischen, personellen und technischen Komponenten) über ein angemessenes, dokumentiertes und implementiertes Sicherheitskonzept und ein Informationssicherheits- M…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": ".................................................................................................... 12 17 Mitwirkung des Auftraggebers ..................................................................................................... 13 18 Rechte des Auftraggebers bei Mängeln der Leistungen ............................................................. 14 19 Haftungsbeschränkung ................................................................................................................ 14 20 Laufzeit und Kü…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cht mehr zugemutet werden kann. Besteht der wichtige Grund in der Verletzung einer vertraglichen Pflicht, ist die Kündigung erst nach erfolglosem Ablauf einer zur Abhilfe gesetzten Frist oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt abe…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "r Preis oder die Kosten eines Angebots im Verhältnis zu der zu erbringenden Leistung ungewöhnlich niedrig, verlangt der öffentliche Auftraggeber vom Bieter Aufklärung, vgl. § 60 VgV. Unbeschadet des § 60 VgV erklärt sich der Bieter mit Abgabe des Angebots generell bereit, sein Angebot kostenfrei zu erläutern. Er hat auf Verlangen des Auftraggebers u.a. die Kalku- lation mit nachvollziehbaren Angaben zur Preisermittlung und Zusammensetzung der einzel- nen Preispositionen zu dem vom Auftraggeber bestimmten Zeitpunkt…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "gsklassifizierung .................................................................................................................. 9 11 Störungsbeseitigung ...................................................................................................................... 9 12 Änderung der Leistung nach Vertragsschluss durch den Auftragnehmer .................................... 9 13 Pflichten und Leistungen im Zusammenhang mit dem Vertragsende ........................................ 10 14 Nutzungsrechte ....…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "achungstextes) ..................................................................................... 4 III. Nachprüfung......................................................................................................... 4 IV. Hinweise zum Datenschutz – Schutz von personenbezogenen Daten ................. 4 V. Hinweise zur Verwendung bereitgestellter Inhalte für ggf. anzufertigende Arbeiten im Rahmen des Vergabeverfahrens ..................................................................... 5 Vorhaben: 26_EU_0…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rwendung bzw. Verwertung für eigene Zwecke oder für Dritte, beispielsweise als Referenz, Werbung, Pitch oder für die Entwicklung bzw. Weiterent- wicklung von eigenen Inhalten. Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 6 / 6 Nach Abschluss des konkreten Vergabeverfahrens sind diese Inhalte unverzüglich zu löschen (einschließlich Sicherungskopien), in den angefertigten Arbeiten unwiderruflich unkenntlich zu machen oder an den Auftraggeber zurückzugeben, sofern möglich. Der Auftraggeber kann die Bestätigun…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "Backup Cloud to Cloud (26_EU_031), Version 1 4 / 5  Der Dienstleister hat sicherzustellen, dass weder administrative Benutzer noch Sys- temprozesse des Dienstleisters unautorisierten Zugriff auf die Schlüsselinformationen erhalten. Die Schlüsselverwaltung muss nach dem Stand der Technik erfolgen und den Einsatz etablierter Key-Management-Systeme mit rollenbasierter Zugriffskon- trolle, Auditierung und Schlüsselrotation unterstützen. Die Datensicherung muss wirksam gegen Ransomware geschützt sein. Eine Veränderung…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "derherstellungsservice muss gem. den SLA für alle Daten zu jederzeit möglich sein. Dies gilt insb. auch während einer laufenden Ransomware-Attacke gegen den AG. Es muss eine vollständig revisionssichere, unveränderbare und nicht löschbare Protokollie- rung aller sicherungsrelevanten Aktionen gewährleistet sein. 2.4 Administrative Zugänge Für sämtliche administrativen Konten ist die Nutzung einer MFA (Multi‑Factor‑Authentifizie- rung) verpflichtend. 2.5 Support und Instandsetzung Der AN ist für die Aufrechterhaltun…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "Der Wiederherstellungsservice muss gem. den SLA für alle Daten zu jederzeit möglich sein. Dies gilt insb. auch während einer laufenden Ransomware-Attacke gegen den AG. Es muss eine vollständig revisionssichere, unveränderbare und nicht löschbare Protokollie- rung aller sicherungsrelevanten Aktionen gewährleistet sein. 2.4 Administrative Zugänge Für sämtliche administrativen Konten ist die Nutzung einer MFA (Multi‑Factor‑Authentifizie- rung) verpflichtend. 2.5 Support und Instandsetzung Der AN ist für die Aufrechte…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Nutzerkonten, insbesondere ehemaliger Mitarbeitender, dürfen keine zusätzlichen Kosten anfallen; eine zusätzliche Lizenzierung darf hierfür nicht er- forderlich sein. Eine Limitierung, Kontingentierung oder mengenabhängige Kostenmodelle für Speicherplatz sind nicht zulässig. Die Positionen O im Preisblatt sind optionale Leistungen ohne Abrufverpflichtungen (C EVB- IT Cloud Nr. 3.3). Der Abruf erfolgt in Textform, der AN bestätigt dem AG den Abruf inner- halb von 2 Werktagen und muss die Bereitstellung der O Lizenz…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "ieterfragen.......................................................................................................... 2 3. Angebotsabgabe und Inhalt des Angebotes ......................................................... 3 a) Formale Vollständigkeit, form- und fristgerechter Eingang .................................... 3 b) Vergaberechtliche Ausschlussgründe, Eignung (Ziff. 5.1.9 des Bekanntmachungs-textes) .................................................................................... 3 c) Angemessenheit der…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "erbringenden Leistung ungewöhnlich niedrig, verlangt der öffentliche Auftraggeber vom Bieter Aufklärung, vgl. § 60 VgV. Unbeschadet des § 60 VgV erklärt sich der Bieter mit Abgabe des Angebots generell bereit, sein Angebot kostenfrei zu erläutern. Er hat auf Verlangen des Auftraggebers u.a. die Kalku- lation mit nachvollziehbaren Angaben zur Preisermittlung und Zusammensetzung der einzel- nen Preispositionen zu dem vom Auftraggeber bestimmten Zeitpunkt vorzulegen. Mit den An- gaben der Kalkulation müssen die Angeb…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "orhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 3 / 6 Fragen- und Antwortkatalog, Änderungen und Ergänzungen sowie Hinweise zum Verga- beverfahren werden ausschließlich über die Plattform des DTVP bekanntgegeben. Fragen zum Deutschen Vergabeportal, dem Bietertool und andere technische Fragen sind an den Support von Cosinex zu richten. Informationen hierzu finden Sie unter https://support.co- sinex.de/. 3. Angebotsabgabe und Inhalt des Angebotes Eine Übersicht über die in diesem Vergabeverfahren mit dem Angebot…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "gbarmachung gemäß Ziffer 13.1 an den dort genannten Gegenständen und/oder an den gespeicherten Daten Änderungen oder Ergänzungen ergeben haben, sind diese auf Anforderung des Auftraggebers erneut zur Verfügung zu stellen, soweit sie nicht rechtmäßig gelöscht wurden. 13.3.2 Der Auftragnehmer ermöglicht dem Auftraggeber zu einem vom Auftraggeber bestimmten Zeitpunkt die von ihm gespeicherten Daten sicher, d.h. nicht rekonstruierbar zu löschen bzw. zur Löschung zu markieren; in diesem Fall wird der Auftragnehmer die …",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf ===== Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 1 / 6 A. Allgemeine Hinweise und Verfah- rensablauf Sehr geehrte Damen und Herren, wir bitten Sie uns im Rahmen unseres EU-weiten offenen Verfahrens nach VgV, 2. Abschnitt, ein Angebot zu erstellen. Die Angebotsfrist ist dem Projektraum im Deutschen Vergabeportal (DTVP) zu entneh- men unter den Gliederungspunkten „Übersicht“ sowie „Verfahrensangaben, Fristen“. Bitte planen Sie für das Hoc…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "........... 4 V. Hinweise zur Verwendung bereitgestellter Inhalte für ggf. anzufertigende Arbeiten im Rahmen des Vergabeverfahrens ..................................................................... 5 Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 2 / 6 I. Auftragsgegenstand Details zum Auftragsgegenstand sind dem Dokument B. Leistungsbeschreibung zu entneh- men. II. Ablauf des Verfahrens 1. Fristen / Zeitplan – vorläufiger Terminplan Hierbei handelt es sich um einen voraussichtlichen Zeitplan. Etwaige Fri…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": ".............................. 3 b) Vergaberechtliche Ausschlussgründe, Eignung (Ziff. 5.1.9 des Bekanntmachungs-textes) .................................................................................... 3 c) Angemessenheit der Preise ................................................................................. 4 d) Wirtschaftlichstes Angebot / Zuschlagskriterien (Ziff. 5.1.10 des Bekanntmachungstextes) ..................................................................................... 4 III. Nachprüfung..…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "gebot. III. Nachprüfung Auf die Regelungen der §§ 160 ff. GWB wird ausdrücklich hingewiesen. Nach § 165 Abs. 3 GWB hat jeder Beteiligte im Nachprüfungsverfahren vor der Vergabekam- mer mit der Übersendung seiner Akten oder Stellungnahmen auf die Wahrung der Betriebs- oder Geschäftsgeheimnisse hinzuweisen und diese in den Unterlagen entsprechend deutlich kenntlich zu machen. Der Bieter hat daher in den eingereichten Unterlagen auf etwaige Be- triebs- oder Geschäftsgeheimnisse hinzuweisen. Fehlt eine deutliche Kennt…",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "payment_tax": [
+          {
+            "text": "r sicheren, skalierbaren, revisionssicheren und gesetzeskonformen Datensiche- rung. III. Beschreibung des Anwendungs- / Einsatzbereiches Der AG nutzt verschiedene Cloud ‑Lösungen wie Microsoft Teams, SharePoint Online und OneDrive for Business. Zusätzlich kommen die Sicherheit‑ und Compliance‑Dienste der Micro- soft‑365‑Plattform zum Einsatz. Diese ermöglichen den Schutz, die Überwachung und die ge- setzeskonforme Aufbewahrung von Benutzeridentitäten, Dateien, Teams ‑Inhalten sowie Ge- räten und Anwendungen. Vorha…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e Implementierung der Backup- und Wiederherstellungslösung für die genannten Cloud-Services in den Betrieb. 2 Allgemeine Anforderungen Dieses Kapitel beschreibt in den folgenden Abschnitten die zu erfüllenden Anforderungen, die an die zu beschaffende SaaS Lösung gestellt werden. 2.1 Grundsätzliche Anforderungen Der AN hat eine cloudbasierte, zentrale Verwaltungsplattform bereitzustellen, die die Siche- rung und Wiederherstellung von Daten aus mehreren SaaS-Anwendungen ermöglicht. Die Lösung muss eine einheitliche,…",
+            "source": "files/B_20260922_20Leistungsbeschreibung_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/serviceDescription/B+260922+Leistungsbeschreibung_Version+1.pdf",
+            "source_sha256": "6917f87c3c0c57c80be0720bc2d1f3964b5bc19975a07c1a2f5481588a662cbe",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-09-27T10:12:25.365336+00:00",
+        "source_dce_run_id": 36278059676,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
