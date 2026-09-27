@@ -37,6 +37,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:4f733d690a9c48bd80a1a300f7d76335** · US · p=46 · deadline=2026-10-05T17:00:00+00:00 · blockers=none · Marine Corps Cyberspace Environment (MCCE) Operational Support Services (OSS) and Enterprise Artificial Intelligence (AI) Integration
 - **US-SAM:972a3ca52c4a4ce5b1f5e200c6432d5a** · US · p=46 · deadline=2026-10-05T17:00:00+00:00 · blockers=none · Marine Corps Cyberspace Environment (MCCE) Operational Support Services (OSS) and Enterprise Artificial Intelligence (AI) Integration
 - **US-SAM:3bf5bdb6cb8e42d6ba58d8c0fab6f581** · US · p=46 · deadline=2026-10-08T03:59:00+00:00 · blockers=none · Super Intelligence (SI) Roundtable with USPTO Acting Commissioner for Patents Barry Schindler and Chief SI Officer Jonathan Spencer
+- **CA:27-322202** · CA · p=46 · deadline=2026-10-13T14:00:00+00:00 · blockers=none · SBIPS DXP Solution Architecture
 - **CA:21120-27-5446249** · CA · p=46 · deadline=2026-10-14T14:00:00+00:00 · blockers=none · Replacement of the Perimeter Intrusion Detection System (PIDS) Integration Unit (PIU) and the Facility Alarm Annunciation System (FAAS) Integration Unit (FIU) at Springhill Institution
 - **US-SAM:0844995c89404dfbbe638692a0d0f7e2** · US · p=46 · deadline=2026-10-19T17:00:00+00:00 · blockers=none · Marine Corps Cyberspace Environment (MCCE) Operational Support Services (OSS) and Enterprise Artificial Intelligence (AI) Integration
 - **US-SAM:27fc80938de04bacbd7ec8c8a53a4df8** · US · p=46 · deadline=2026-10-19T17:00:00+00:00 · blockers=none · Marine Corps Cyberspace Environment (MCCE) Operational Support Services (OSS) and Enterprise Artificial Intelligence (AI) Integration
@@ -49,7 +50,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:1b353b61685649a1825ce247c5d507a9** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:3c3b6cb5bd4649aa8537534d78b8c594** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:4c2c1f677162417baa1e9a12a18694fa** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
-- **US-SAM:5e06259cb8e7409fb6a2cee975f562ee** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 
 ## design_dtp
 - **TED:550488-2026** · FRA · p=71 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Advertising consultancy services – PRESTATIONS DE COMMUNICATION POUR L'EPA NICE ECOVALLEE
@@ -134,6 +134,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:606186-2026** · FRA · p=54 · deadline=2026-10-05T01:00:00+00:00 · blockers=none · France – Information and promotion products – ACCORD-CADRE DE FOURNITURE ET LIVRAISON D’OBJETS PUBLICITAIRES A L’IMAGE DE L’UNIVERSITE SORBONNE PARIS NORD
 - **FR-BOAMP:26-85100** · FR · p=54 · deadline=2026-10-05T11:00:00+00:00 · blockers=none · Le marché a pour objet la mise en place d’un accord-cadre pour la fourniture et livraison d’objets publicitaires à l’image de l’Université Sorbonne Paris Nord
 - **TED:645394-2026** · IRL · p=50 · deadline=2026-10-02T16:00:00+00:00 · blockers=none · Ireland – Small office equipment – Single-Party Framework Agreement for The Supply of Promotional Branded Merchandise for Beaumont Hospital
+- **CA:26-108** · CA · p=48 · deadline=2026-10-23T15:00:00+00:00 · blockers=none · EDC Branded Merchandise Platform
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-168900-2026-09-03** · ZA · p=46 · deadline=2026-09-28T11:00:00+00:00 · blockers=none · RFP/SASSETA/26271103
 - **ZA_ETENDERS_OCDS:ocds-9t57fa-169974-2026-09-11** · ZA · p=46 · deadline=2026-10-14T12:00:00+00:00 · blockers=none · OVM07/2026/27
@@ -226,7 +227,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-91154** · FR · p=59 · deadline=2026-10-26T11:00:00+00:00 · blockers=none · Prestations de traduction de documents à caractère institutionnel et scientifique pour les structures du Siège de l'Inserm
 - **TED:620189-2024** · FRA · p=57 · deadline=UNKNOWN · blockers=none · France – Other community, social and personal services – Système de Qualification pour la réalisation de prestations de médiation sociale et numérique, ateliers numériques et prestations d’interprétariat pour les clientèles en situation vulnérable des bureaux de Poste situés dans les régions de : 971-LA GUADELOUPE – 972 LA MARTINIQUE – 973 LA GUYANE
 - **CA:26-58159** · CA · p=53 · deadline=2026-09-28T14:00:00+00:00 · blockers=none · Technical translation services for construction specifications
-- **CA:26-106** · CA · p=53 · deadline=2026-10-02T13:00:00+00:00 · blockers=none · EDC Translation Services
+- **CA:26-106** · CA · p=53 · deadline=2026-10-09T13:00:00+00:00 · blockers=none · EDC Translation Services
 - **CA:WS5665734815** · CA · p=53 · deadline=2031-04-29T14:00:00+00:00 · blockers=none · RFSA - Translation Services
 - **FR-BOAMP:26-87481** · FR · p=53 · deadline=UNKNOWN · blockers=none · 2026-0379 Prestations De Traduction Et Correction Pour Les Etablissements Du Ght Hdp
 - **FR-BOAMP:26-88536** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
@@ -262,5 +263,5 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **DE-DOE:25807950:1** · DE · p=53 · deadline=UNKNOWN · blockers=none · Relaunch Website
 - **DE-DOE:25831552:1** · DE · p=53 · deadline=UNKNOWN · blockers=none · Rahmenvertrag Website-Relaunch und Markenrollout der Universität Trier
 - **DE-DOE:25833504:1** · DE · p=53 · deadline=UNKNOWN · blockers=none · Programmierung und Betrieb der Webseite
-- **IE:9029554** · IE · p=51 · deadline=2026-10-16T10:00:00+00:00 · blockers=none · Website Development, Hosting, Maintenance and Support
+- **DE-DOE:25862670:1** · DE · p=53 · deadline=UNKNOWN · blockers=none · Hosting Webseiten (Drupal/LimeSurvey etc.)
 
