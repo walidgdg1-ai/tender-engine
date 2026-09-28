@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-09-28T15:30:18.443324+00:00",
+  "updated_at": "2026-09-28T15:30:33.687848+00:00",
   "latest_dce_run_id": 36443580874,
-  "latest_shard": 10,
+  "latest_shard": 11,
   "generation_reset": false,
-  "count": 11,
+  "count": 12,
   "items": [
     {
       "candidate_id": "TED:640511-2026",
@@ -3028,6 +3028,110 @@
       "spm_fit_reasons": [
         "software-development",
         "it-services"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "WORLD-BANK:OP00467353",
+      "title": "Procurement of Backup Software Licenses",
+      "buyer": null,
+      "portal": "WORLD_BANK",
+      "notice_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467353",
+      "deadline": "2026-10-09T00:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 70,
+      "priority_score": 70,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-09T00:00:00+00:00",
+        "notice_deadline_date": "2026-10-09",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [],
+        "labelled_evidence": [],
+        "evidence": [],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 0,
+          "unique_contexts": 0
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 3,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "===== FILE: files/world_bank_procurement_notice_OP00467353.html ===== <p><strong>Notice for Bids</strong></p><p><strong>Country:</strong> T&uuml;rkiye</p><p><strong>Project Name:</strong> T&uuml;rkiye: Education for Job Market Readiness Project (E4J)</p><p><strong>Contract Title:</strong> Procurement of Backup Software Licenses</p><p><strong>Loan No./Credit No.:</strong> 98940-TR / P510381</p><p><strong>RFB Reference No.:</strong> GO-C1.1-03.01</p><ol><li><strong>The Ministry of National Education (MoNE), General Directorate of Innovation and Educational Technologies,</strong> has received financing from the World Bank toward the cost of the <strong>T&uuml;rkiye: Education for Job Market Readiness Project (E4J)</strong> and intends to apply part of the proceeds toward payments under the contract for the <strong>&ldquo;Procurement of Backup Software Licenses.&rdquo;</strong></li><li><strong>The General Directorate of Innovation and Educational Technologies of the Ministry of National Education (MoNE)</strong> now invites sealed bids from eligible Bidders",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 0,
+            "corpus_end": 1071,
+            "match": "Reference"
+          }
+        ],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [
+          {
+            "text": "strong>The General Directorate of Innovation and Educational Technologies of the Ministry of National Education (MoNE)</strong> now invites sealed bids from eligible Bidders for the <strong>&ldquo;Procurement of Backup Software Licenses.&rdquo;</strong> The scope of the procurement includes the supply of licenses for backup software with a minimum usage period of 5 years (60 months), including all updates, with a capacity to support 500 virtual or physical servers, in order to ensure service continuity. Following the signing of the contract, the software shall be delivered, fully operational and ready for use in accordance with the technical specifications, to the General Directorate of Innovation and Educational Technologies, Emniyet Mahallesi, Milas Sokak, No: 8, Yenimahalle/Ankara/T&uuml;rkiye, within a maximum of <strong>30 (thirty) calendar days</strong>.</li><li>The procurement will be conducted through Open Competitive Procurement using a Request for Bids (RFB), as specified in the World Bank&rsquo;s &ldquo;Procurement Regulations for IPF Borrowers &ndash; September 2023&rdquo; (&ldquo;Procurement Regulations&rdquo;), and is open to all eligible Bidders as defined in the Procurement Regulations.</li><li>Interested eligible Bidders may obtain further information from Mr. Taner HAZAN, Pr",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 897,
+            "corpus_end": 2210,
+            "match": "specification"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "o;</strong><strong>Yedekleme Yazlm Lisans Temini&rdquo;</strong> iinin s&ouml;zlemesi kapsamndaki &ouml;demeler i&ccedil;in kullanmay d&uuml;&uuml;nmektedir.</li></ol><p>&nbsp;</p><ol><li><strong>MEB Yenilik ve Eitim Teknolojileri Genel M&uuml;d&uuml;rl&uuml;&uuml;</strong><em>, </em><strong>&ldquo;</strong><strong>Yedekleme Yazlm Lisans Temini&rdquo;</strong> ii i&ccedil;in uygun isteklileri kapal zarf teklif vermeye davet etmektedir. kapsamnda; hizmet s&uuml;rekliliini temin etmek adna en az 5 yl (60 ay) kullanm s&uuml;resine sahip, t&uuml;m g&uuml;ncellemeleri barndran 500 adet sanal veya fiziksel sunucu kapasiteli yedekleme yazlmnn lisanslarnn tedarik edilmesi iini kapsamaktadr. S&ouml;zlemenin imzalanmasn takiben en fazla 30 (otuz) takvim g&uuml;n&uuml; i&ccedil;inde teknik artnameye uygun olarak &ccedil;alr / kullanma hazr vaziyette &nbsp;&ldquo;Emniyet Mahallesi, Milas Sokak, No:8, Yenimahalle/Ankara/T&uuml;rkiye&rdquo; adresindeki Yenilik ve Eitim Teknolojileri Genel M&uuml;d&uuml;rl&uuml;&uuml;&rsquo;ne teslim edilecektir.</li></ol><p>&nbsp;</p><ol><li>hale, D&uuml;nya Bankas&rsquo;nn D&uuml;nya Bankas Satnalma Kurallarn kapsayan Eyl&uuml;l 2023 revizyonlu &ldquo;IPF Bor&ccedil;lular i&ccedil;in Satn Alma D&uuml;zenlemeleri<em> </em>(&ldquo;Satn Alma D&uuml;zenlemeleri&rdq",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "corpus_start": 5709,
+            "corpus_end": 7012,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 36443580874,
+      "source_shard": 11,
+      "hot_ready_at": "2026-09-28T15:30:33.438107+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 27,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "software-resale"
       ],
       "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
