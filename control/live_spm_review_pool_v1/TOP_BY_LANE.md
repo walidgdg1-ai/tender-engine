@@ -3,17 +3,12 @@
 Review-order evidence only. No candidate is GREEN before DCE.
 
 ## NO_ONTOLOGY
-- **TED:588825-2026** · FRA · p=62 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
-- **TED:645915-2026** · FRA · p=62 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magazine municipal et divers supports de communication de la ville
 - **TED:661852-2026** · FRA · p=62 · deadline=2026-10-05T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magazine municipal et divers supports de communication de la ville
 - **TED:652169-2026** · FRA · p=62 · deadline=2026-10-15T02:00:00+00:00 · blockers=none · France – Printing and delivery services – IMPRESSION DE DOCUMENTS DIVERS
 - **TED:581859-2026** · FRA · p=60 · deadline=2026-10-05T01:00:00+00:00 · blockers=none · France – Hardware installation services – LOCATION MAINTENANCE MATERIELS POUR LECTURE MICROFILMS
 - **TED:597785-2026** · FRA · p=58 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Installation of road lighting equipment – Travaux de rénovation, d'investissements, de numérisation du patrimoine, de maintenance, d'entretien, de dépannage et d'intervention d'urgence sur l'éclairage public de communes Drômoises
 - **TED:612911-2026** · FRA · p=58 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Specialised photography services – Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **FR-BOAMP:26-82162** · FR · p=56 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
-- **FR-BOAMP:26-83066** · FR · p=56 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
-- **FR-BOAMP:26-89752** · FR · p=56 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
 - **FR-BOAMP:26-83336** · FR · p=56 · deadline=2026-09-28T17:00:00+00:00 · blockers=none · Impression De Supports De Communication Institutionnelle
 - **FR-BOAMP:26-84142** · FR · p=56 · deadline=2026-09-30T09:00:00+00:00 · blockers=none · Travaux de rénovation, d'investissements, de numérisation du patrimoine, de maintenance, d'entretien, de dépannage et d'intervention d'urgence sur l'éclairage public de communes Drômoises
 - **FR-BOAMP:26-83436** · FR · p=56 · deadline=2026-09-30T10:00:00+00:00 · blockers=none · IMPRESSION DES SUPPORTS DE COMMUNICATION DE LA VILLE D'AUBAGNE
@@ -23,6 +18,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:577546-2026** · FRA · p=56 · deadline=2026-10-05T02:00:00+00:00 · blockers=none · France – Printing and delivery services – 26A036 - Impression des supports de communication grands formats et publicité sur le lieu de vente (PLV) sur autres matériaux que le papier
 - **FR-BOAMP:26-92073** · FR · p=56 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
 - **FR-BOAMP:26-84869** · FR · p=56 · deadline=2026-10-05T12:00:00+00:00 · blockers=none · Elaboration et impression des "Innovation Book" N°7 et N°8 pour le salon international Mountain Planet 2028
+- **FR-BOAMP:26-81416** · FR · p=56 · deadline=2026-10-05T13:00:00+00:00 · blockers=none · 26A036-Impression des supports de communication grands formats et PLV sur autres matériaux que le papier
+- **FR-BOAMP:26-82218** · FR · p=56 · deadline=2026-10-05T14:00:00+00:00 · blockers=none · Marché location et la maintenance de matériels de lecture et de numérisation de supports micrographiques d’archives
+- **FR-BOAMP:26-85998** · FR · p=56 · deadline=2026-10-07T12:00:00+00:00 · blockers=none · L?objet du présent marché est l?impression et le façonnage de documents pour la Ville de Cesson-Sévigné. Cet accord-cadre comprend : la fourniture du papier/support, l'impression, le façonnage (pe...
+- **FR-BOAMP:26-88955** · FR · p=56 · deadline=2026-10-07T12:00:00+00:00 · blockers=none · Numérisation registres état civil
+- **FR-BOAMP:26-85689** · FR · p=56 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -59,7 +59,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:654619-2026** · FRA · p=68 · deadline=2026-10-09T13:00:00+00:00 · blockers=none · France – Graphic design services – Refonte de la maquette graphique et mise en page du magazine de Saint-Malo Agglomération
 - **TED:638003-2026** · FRA · p=68 · deadline=2026-10-14T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Accord cadre relatif à l'externalisation de la mise en page, de l'édition, de l'envoi et de la dématérialisation des avis d'échéance, des avis de régularisation et des relances assurances pour Partenord Le Groupe et Partenium - 2027-2030
 - **TED:665766-2026** · FRA · p=68 · deadline=2026-10-26T11:00:00+00:00 · blockers=none · France – Graphic design services – Conception, mise en oeuvre et déploiement de la nouvelle identité graphique et du site internet du Domaine d'O
-- **TED:575057-2026** · FRA · p=66 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · France – Graphic design services – Prestations de graphisme, création de supports de communication
 - **TED:636378-2026** · FRA · p=66 · deadline=2026-10-06T18:00:00+00:00 · blockers=none · France – Graphic design services – Fourniture de prestations de création, d’infographie, de mise en page de supports de communication print et digitale et de réalisation photographique et audiovisuelle pour le compte de l’Agence Régionale de Santé Bretagne
 - **FR-BOAMP:26-84364** · FR · p=64 · deadline=2026-09-28T12:00:00+00:00 · blockers=none · Marché de mise en page, rédaction, impression et distribution du magazine de la ville de Tinqueux-.
 - **FR-BOAMP:26-84365** · FR · p=64 · deadline=2026-09-28T19:00:00+00:00 · blockers=none · Mission de refonte de la communication du Musée Cécile Sabourdy - marque, identité visuelle, graphisme, webdesign et signalétique
@@ -72,6 +71,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:642284-2026** · FRA · p=64 · deadline=2026-10-16T02:00:00+00:00 · blockers=none · France – Digital mapping services – Conception, mise en page et fourniture de cartes destinées à l’impression pour des panneaux relatifs aux itinéraires de randonnées et aux parcs naturels départementaux
 - **FR-BOAMP:26-89009** · FR · p=64 · deadline=2026-10-16T13:30:00+00:00 · blockers=none · 2026M0242 -Conception, mise en page et fourniture de cartes destinées à l’impression pour des panneaux relatifs aux itinéraires de randonnées et aux parcs naturels départementaux
 - **FR-BOAMP:26-89550** · FR · p=64 · deadline=2026-10-16T13:30:00+00:00 · blockers=none · 2026A0242 - Conception, mise en page et fourniture de cartes destinées à l’impression pour des panneaux relatifs aux itinéraires de randonnées et aux parcs naturels départementaux
+- **TED:643403-2026** · FRA · p=64 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Graphic design services – Rédaction, conception graphique et mise en page du Journal de l'Institut Curie (JIC)
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -107,17 +107,14 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:634451-2026** · BEL · p=40 · deadline=2026-10-12T21:59:59+00:00 · blockers=none · Belgium – News-agency services – Monitoring and analysis services of the Irish media
 
 ## print_broker
-- **TED:590908-2026** · FRA · p=70 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et de distribution de magazines
 - **TED:592237-2026** · FRA · p=70 · deadline=2026-09-29T02:00:00+00:00 · blockers=none · France – Printing services – Prestation d'impression de supports de communication divers hors magazine municipal - lots 1 à 3
 - **TED:594418-2026** · FRA · p=70 · deadline=2026-09-30T02:00:00+00:00 · blockers=none · France – Printing and delivery services – IMPRESSION DES SUPPORTS DE COMMUNICATION DE LA VILLE D'AUBAGNE
 - **TED:587003-2026** · FRA · p=70 · deadline=2026-10-01T02:00:00+00:00 · blockers=none · France – Printing services – ACCORD-CADRE A BONS DE COMMANDE POUR L’IMPRESSION ET LA LIVRAISON DES IMPRIMES DE COMMUNICATION POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DES BOUCHES-DU- RHONE – DIVERS SUPPORTS
-- **TED:582794-2026** · FRA · p=68 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **TED:600336-2026** · FRA · p=68 · deadline=2026-10-05T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression et de reprographie décembre 2026 - novembre 2030
 - **TED:620041-2026** · FRA · p=68 · deadline=2026-10-09T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et d'expédition de documents en lien avec la relation usage
 - **TED:494111-2026** · FRA · p=68 · deadline=2026-10-12T01:00:00+00:00 · blockers=none · France – Printing services – Prestations d'impression pour l'Institut de France
 - **TED:593085-2026** · FRA · p=68 · deadline=2026-10-15T02:00:00+00:00 · blockers=none · France – Printing services – Prestations d’impression pour 2027 (reconductible 3 fois)
 - **TED:616521-2026** · FRA · p=66 · deadline=2026-10-15T01:00:00+00:00 · blockers=none · France – Services related to printing – Travaux d'impression des supports de l'IFCE
-- **FR-BOAMP:26-83412** · FR · p=64 · deadline=2026-09-28T10:00:00+00:00 · blockers=none · Prestations d'impression et de distribution de magazines
 - **FR-BOAMP:26-86383** · FR · p=64 · deadline=2026-09-28T12:00:00+00:00 · blockers=none · La présente consultation a pour objet : Prestation d’impression, de mise sous pli, d’affranchissement et d’expédition de documents avec données variables relatifs aux élections professionnelles 2026.
 - **FR-BOAMP:26-83131** · FR · p=64 · deadline=2026-09-29T10:00:00+00:00 · blockers=none · Prestation d'impression de supports de communication divers hors magazine municipal - lots 1 à 3
 - **FR-BOAMP:26-80898** · FR · p=64 · deadline=2026-09-30T16:00:00+00:00 · blockers=none · Prestations d’impression de tous supports de communication
@@ -127,6 +124,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-86438** · FR · p=64 · deadline=2026-10-05T12:00:00+00:00 · blockers=none · Réalisation de travaux d'impression et fabrication de supports de communication
 - **FR-BOAMP:26-85999** · FR · p=64 · deadline=2026-10-05T16:00:00+00:00 · blockers=none · FOURNITURES DE TRAVAUX D’IMPRESSION ET DE FACONNAGE
 - **FR-BOAMP:26-89284** · FR · p=64 · deadline=2026-10-06T12:00:00+00:00 · blockers=none · Service d'impression
+- **FR-BOAMP:26-88095** · FR · p=64 · deadline=2026-10-09T11:00:00+00:00 · blockers=none · LOCATION ET MAINTENANCE D’UNE MACHINE DE MISE SOUS PLI MULTI-POCHES, D’UNE MACHINE À AFFRANCHIR, D’UNE MACHINE D’ADRESSAGE ET FOURNITURE DE CARTOUCHES D’ENCRE POUR LE SERVICE COURRIER DE LA VILLE DE V
+- **FR-BOAMP:26-90567** · FR · p=64 · deadline=2026-10-09T11:00:00+00:00 · blockers=none · Réalisation de prestations d’impression, de façonnage, de reproduction et de services associés destinés à répondre aux besoins de communication institutionnelle de la Ville de Villetaneuse.
+- **FR-BOAMP:26-86885** · FR · p=64 · deadline=2026-10-09T21:59:00+00:00 · blockers=none · Prestations d'impression et d'expédition de documents en lien avec la relation usage
 
 ## promo_goods
 - **TED:782153-2025** · FRA · p=60 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – Système d'acquisition dynamique (SAD) - Acquisition de goodies et textiles personnalisés
