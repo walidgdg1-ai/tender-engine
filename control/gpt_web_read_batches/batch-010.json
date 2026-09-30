@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-09-30T01:42:41.127907+00:00",
-  "source_inbox_updated_at": "2026-09-30T01:42:40.172266+00:00",
-  "latest_source_dce_run_id": 36655631936,
+  "generated_at": "2026-09-30T07:26:09.847363+00:00",
+  "source_inbox_updated_at": "2026-09-30T07:26:08.810190+00:00",
+  "latest_source_dce_run_id": 36682958555,
   "batch_index": 10,
   "start_rank": 101,
   "end_rank": 110,
@@ -40,6 +40,50 @@
         "shard": 7,
         "candidate_id": "US-SAM:97d23abf7e8d4804b819e078ea9d532d",
         "release_tag": "dce-harvest-36655631936"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "MT-EPPS:14069012",
+      "title": "SERVICES OF A CONTRACTS MANAGER FOR XEWKIJA LOCAL COUNCIL, GOZO",
+      "buyer": "Xewkija Local Council",
+      "portal": "MALTA_EPPS",
+      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14069012&documentId=14141093&noticeType=16&extId=1115bae2-90b2-4f0f-bbbb-4880960eb731&lang=en&noticeId=14141087&isNational=true",
+      "deadline": "2026-10-29T11:30:00+01:00",
+      "estimated_value": 22894.56,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 29,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "workshop"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 36682958555,
+      "source_shard": 0,
+      "review_key": "8b990b91df2ffd51c5206df660714fb124c985190582ffe6f1c351a50e464bca",
+      "artifact_locator": {
+        "dce_run_id": 36682958555,
+        "shard": 0,
+        "candidate_id": "MT-EPPS:14069012",
+        "release_tag": "dce-harvest-36682958555"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -338,14 +382,14 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 36655631936,
+      "source_dce_run_id": 36682958555,
       "source_shard": 3,
-      "review_key": "48f8a491ef4fdbb3eb20b8b5a0b5a5dcc16db351f98d9f6b43cf8a3cc480d284",
+      "review_key": "b915cad7853badd17dca0d86b6e2e762d26cd4b5369c2203e1a39a027f6f8c6a",
       "artifact_locator": {
-        "dce_run_id": 36655631936,
+        "dce_run_id": 36682958555,
         "shard": 3,
         "candidate_id": "US-SAM:c6f114f657324ed2bf8920c7abc3223d",
-        "release_tag": "dce-harvest-36655631936"
+        "release_tag": "dce-harvest-36682958555"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -387,48 +431,6 @@
         "dce_run_id": 36260749662,
         "shard": 32,
         "candidate_id": "IE:9059490",
-        "release_tag": "dce-harvest-36260749662"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "MT-EPPS:14023555",
-      "title": "Provision of Microsoft 365 Copilot related solutions and services - DPS 060/26",
-      "buyer": "Malta Information Technology Agency (MITA)",
-      "portal": "MALTA_EPPS",
-      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14023555&documentId=14124426&noticeType=16&extId=5e5aa460-da90-44ec-bfb6-778510abcfff&lang=en&noticeId=14124417&isNational=false",
-      "deadline": null,
-      "estimated_value": 1000000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 23,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 36260749662,
-      "source_shard": 33,
-      "review_key": "8e1237beb01ad5514352201b11192ef3ba951fa250d06cb21f16e5b2d8aa6c94",
-      "artifact_locator": {
-        "dce_run_id": 36260749662,
-        "shard": 33,
-        "candidate_id": "MT-EPPS:14023555",
         "release_tag": "dce-harvest-36260749662"
       },
       "evidence_quality": {
