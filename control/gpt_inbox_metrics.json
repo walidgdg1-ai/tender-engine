@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-09-30T22:45:33.546547+00:00",
+  "updated_at": "2026-10-01T01:38:24.936943+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 36786476005,
+  "latest_source_dce_run_id": 36801481487,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 175,
+    "pending_before_visible_cap": 178,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -20,18 +20,18 @@
     },
     "pending_by_fit_band": {
       "HOT": 10,
-      "GOOD": 80,
-      "MAYBE": 38,
-      "LOW": 32
+      "GOOD": 76,
+      "MAYBE": 41,
+      "LOW": 33
     },
     "pending_by_portal": {
-      "TED": 83,
+      "TED": 79,
       "IRELAND_ETENDERS": 12,
       "CA_CANADABUYS": 7,
-      "WORLD_BANK": 9,
+      "WORLD_BANK": 8,
       "GENERIC_PUBLIC_PAGE": 4,
-      "MALTA_EPPS": 6,
-      "US_SAM": 13,
+      "MALTA_EPPS": 7,
+      "US_SAM": 17,
       "PL_EZAMOWIENIA": 4,
       "ZA_ETENDERS": 3,
       "EE_RHR": 4,
@@ -60,18 +60,18 @@
     },
     "selected_by_band": {
       "HOT": 10,
-      "GOOD": 80,
-      "MAYBE": 38,
-      "LOW": 32
+      "GOOD": 76,
+      "MAYBE": 41,
+      "LOW": 33
     },
     "selected_by_portal": {
-      "TED": 83,
+      "TED": 79,
       "IRELAND_ETENDERS": 12,
       "CA_CANADABUYS": 7,
-      "WORLD_BANK": 9,
+      "WORLD_BANK": 8,
       "GENERIC_PUBLIC_PAGE": 4,
-      "MALTA_EPPS": 6,
-      "US_SAM": 13,
+      "MALTA_EPPS": 7,
+      "US_SAM": 17,
       "PL_EZAMOWIENIA": 4,
       "ZA_ETENDERS": 3,
       "EE_RHR": 4,
@@ -102,61 +102,62 @@
     },
     "selected_by_band": {
       "HOT": 9,
-      "GOOD": 63,
-      "MAYBE": 53,
-      "LOW": 35
+      "GOOD": 59,
+      "MAYBE": 58,
+      "LOW": 34
     },
     "selected_by_portal": {
-      "TED": 83,
-      "IRELAND_ETENDERS": 9,
+      "TED": 82,
+      "IRELAND_ETENDERS": 8,
       "CA_CANADABUYS": 4,
       "WORLD_BANK": 9,
       "GENERIC_PUBLIC_PAGE": 4,
-      "PL_EZAMOWIENIA": 4,
+      "PL_EZAMOWIENIA": 5,
       "US_SAM": 20,
-      "MALTA_EPPS": 7,
-      "ZA_ETENDERS": 3,
+      "MALTA_EPPS": 8,
+      "ZA_ETENDERS": 4,
       "EE_RHR": 3,
       "ES_PLACSP": 4,
       "SK_UVO": 3,
-      "GR_KHMDHS": 2,
       "DE_DOE": 1,
+      "GR_KHMDHS": 1,
       "LV_IUB": 1,
       "NO_DOFFIN": 1,
       "SCOTLAND_PCS": 1,
       "CYPRUS_EPPS": 1
     }
   },
-  "review_index_count": 1358,
+  "review_index_count": 1282,
   "review_index_counts": {
-    "pending_total_uncapped": 1358,
+    "pending_total_uncapped": 1282,
     "by_stage": {
-      "BUSINESS_GATES": 1004,
-      "DCE_AUTHENTICITY": 354
+      "BUSINESS_GATES": 951,
+      "DCE_AUTHENTICITY": 331
     },
     "by_spm_fit_band": {
       "HOT": 9,
-      "GOOD": 82,
-      "MAYBE": 113,
-      "LOW": 1154
+      "GOOD": 77,
+      "MAYBE": 108,
+      "LOW": 1088
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1198,
+    "overflow_beyond_hot_160": 1122,
     "cross_portal_duplicates_collapsed": 6
   },
-  "true_pending_before_hot_cap": 1358,
-  "overflow_beyond_hot_160": 1198,
+  "true_pending_before_hot_cap": 1282,
+  "overflow_beyond_hot_160": 1122,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
-  "provenance_overrides_applied_in_window": 20,
+  "provenance_overrides_applied_in_window": 17,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 151,
-    "adjudication_rows_scanned_this_refresh": 1230,
+    "shard_files_scanned_this_refresh": 154,
+    "adjudication_rows_scanned_this_refresh": 1244,
     "gate_rows_seen_this_refresh": 286,
-    "authenticity_rows_seen_this_refresh": 41,
+    "authenticity_rows_seen_this_refresh": 42,
     "source_runs_seen_this_refresh": [
+      36801481487,
       36786476005,
       36759995091,
       36724785787,
@@ -165,8 +166,7 @@
       36640803341,
       36614137302,
       36574790646,
-      36533025084,
-      36506090819
+      36533025084
     ]
   },
   "healthy": true,
