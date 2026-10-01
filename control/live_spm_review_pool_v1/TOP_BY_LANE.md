@@ -10,7 +10,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:672161-2026** · FRA · p=60 · deadline=2026-11-02T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et diffusion du magazine externe du Département de l'Ain
 - **TED:612911-2026** · FRA · p=58 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Specialised photography services – Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **FR-BOAMP:26-82587** · FR · p=56 · deadline=2026-10-01T10:00:00+00:00 · blockers=none · ACCORD-CADRE A BONS DE COMMANDE POUR L’IMPRESSION ET LA LIVRAISON DES IMPRIMES DE COMMUNICATION POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DES BOUCHES-DU- RHONE – DIVERS SUPPORTS
 - **TED:607390-2026** · FRA · p=56 · deadline=2026-10-02T02:00:00+00:00 · blockers=none · France – Publishing services – Rédaction, conception, impression et diffusion du Morlaix Mag
 - **FR-BOAMP:26-85001** · FR · p=56 · deadline=2026-10-02T10:00:00+00:00 · blockers=none · Rédaction, conception, impression et diffusion du Morlaix Mag
 - **TED:577546-2026** · FRA · p=56 · deadline=2026-10-05T02:00:00+00:00 · blockers=none · France – Printing and delivery services – 26A036 - Impression des supports de communication grands formats et publicité sur le lieu de vente (PLV) sur autres matériaux que le papier
@@ -23,6 +22,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-85998** · FR · p=56 · deadline=2026-10-07T12:00:00+00:00 · blockers=none · L?objet du présent marché est l?impression et le façonnage de documents pour la Ville de Cesson-Sévigné. Cet accord-cadre comprend : la fourniture du papier/support, l'impression, le façonnage (pe...
 - **FR-BOAMP:26-88955** · FR · p=56 · deadline=2026-10-07T12:00:00+00:00 · blockers=none · Numérisation registres état civil
 - **FR-BOAMP:26-85689** · FR · p=56 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
+- **TED:633774-2026** · FRA · p=56 · deadline=2026-10-15T03:00:00+00:00 · blockers=none · France – Computer equipment and supplies – Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale de Cavani
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -108,7 +108,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:606521-2026** · NOR · p=38 · deadline=2026-10-12T00:00:00+00:00 · blockers=none · Norway – News-agency services – Media Monitoring
 
 ## print_broker
-- **TED:587003-2026** · FRA · p=70 · deadline=2026-10-01T10:00:00+00:00 · blockers=none · France – Printing services – ACCORD-CADRE A BONS DE COMMANDE POUR L’IMPRESSION ET LA LIVRAISON DES IMPRIMES DE COMMUNICATION POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DES BOUCHES-DU- RHONE – DIVERS SUPPORTS
 - **TED:600336-2026** · FRA · p=68 · deadline=2026-10-05T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression et de reprographie décembre 2026 - novembre 2030
 - **TED:620041-2026** · FRA · p=68 · deadline=2026-10-09T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et d'expédition de documents en lien avec la relation usage
 - **TED:494111-2026** · FRA · p=68 · deadline=2026-10-12T01:00:00+00:00 · blockers=none · France – Printing services – Prestations d'impression pour l'Institut de France
@@ -128,6 +127,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-90567** · FR · p=64 · deadline=2026-10-09T11:00:00+00:00 · blockers=none · Réalisation de prestations d’impression, de façonnage, de reproduction et de services associés destinés à répondre aux besoins de communication institutionnelle de la Ville de Villetaneuse.
 - **FR-BOAMP:26-86885** · FR · p=64 · deadline=2026-10-09T21:59:00+00:00 · blockers=none · Prestations d'impression et d'expédition de documents en lien avec la relation usage
 - **TED:633836-2026** · FRA · p=64 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Post and courier services – Prestations de routage des différents documents d'information et de communication du Département de la Seine-Saint-Denis et externalisation de la gestion de courriers
+- **FR-BOAMP:26-88523** · FR · p=64 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de routage des différents documents d'information et de communication du Département de la Seine-Saint-Denis et externalisation de la gestion de courriers
 
 ## promo_goods
 - **TED:782153-2025** · FRA · p=60 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – Système d'acquisition dynamique (SAD) - Acquisition de goodies et textiles personnalisés
