@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-01T07:49:03.768811+00:00",
+  "generated_at": "2026-10-01T11:11:35.127688+00:00",
   "source_inbox_updated_at": "2026-10-01T07:49:02.747567+00:00",
   "latest_source_dce_run_id": 36831525495,
   "batch_index": 5,
@@ -549,7 +549,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 6,
+      "evidence_gate_coverage": 0,
       "spm_post_dce_score": 57,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -569,15 +569,23 @@
         "release_tag": "dce-harvest-36801481487"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 0,
+        "text_chars": 0,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": null,
+      "provenance_override": {
+        "applied": true,
+        "refreshed_at": "2026-10-01T11:11:12.856765+00:00",
+        "source_dce_run_id": 36801481487,
+        "release_tag": null,
+        "archive_name": null,
+        "bundle_asset": null,
+        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
+      },
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
