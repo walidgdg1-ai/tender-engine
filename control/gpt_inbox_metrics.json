@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-01T14:55:18.770981+00:00",
+  "updated_at": "2026-10-01T14:56:19.255161+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 36879017879,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 178,
+    "pending_before_visible_cap": 174,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -102,25 +102,25 @@
     },
     "selected_by_band": {
       "HOT": 9,
-      "GOOD": 61,
-      "MAYBE": 56,
+      "GOOD": 62,
+      "MAYBE": 55,
       "LOW": 34
     },
     "selected_by_portal": {
-      "TED": 85,
+      "TED": 82,
       "IRELAND_ETENDERS": 9,
       "CA_CANADABUYS": 4,
       "WORLD_BANK": 9,
       "GENERIC_PUBLIC_PAGE": 4,
       "PL_EZAMOWIENIA": 5,
-      "US_SAM": 17,
-      "MALTA_EPPS": 9,
+      "US_SAM": 19,
+      "MALTA_EPPS": 8,
+      "ZA_ETENDERS": 4,
+      "EE_RHR": 3,
       "ES_PLACSP": 4,
       "SK_UVO": 3,
-      "ZA_ETENDERS": 3,
       "DE_DOE": 1,
       "GR_KHMDHS": 1,
-      "EE_RHR": 2,
       "LV_IUB": 1,
       "NO_DOFFIN": 1,
       "SCOTLAND_PCS": 1,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 9,
-      "GOOD": 79,
-      "MAYBE": 105,
-      "LOW": 1101
+      "GOOD": 80,
+      "MAYBE": 108,
+      "LOW": 1097
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1134,
-    "cross_portal_duplicates_collapsed": 0
+    "cross_portal_duplicates_collapsed": 4
   },
   "true_pending_before_hot_cap": 1294,
   "overflow_beyond_hot_160": 1134,
@@ -152,14 +152,21 @@
   "provenance_overrides_applied_in_window": 20,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 40,
-    "adjudication_rows_scanned_this_refresh": 312,
-    "gate_rows_seen_this_refresh": 86,
-    "authenticity_rows_seen_this_refresh": 9,
+    "shard_files_scanned_this_refresh": 155,
+    "adjudication_rows_scanned_this_refresh": 1230,
+    "gate_rows_seen_this_refresh": 293,
+    "authenticity_rows_seen_this_refresh": 39,
     "source_runs_seen_this_refresh": [
       36879017879,
       36831525495,
-      36801481487
+      36801481487,
+      36786476005,
+      36759995091,
+      36724785787,
+      36682958555,
+      36655631936,
+      36640803341,
+      36614137302
     ]
   },
   "healthy": true,
