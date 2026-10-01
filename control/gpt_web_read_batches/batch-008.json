@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-01T11:11:35.133293+00:00",
-  "source_inbox_updated_at": "2026-10-01T07:49:02.747567+00:00",
-  "latest_source_dce_run_id": 36831525495,
+  "generated_at": "2026-10-01T14:53:57.028740+00:00",
+  "source_inbox_updated_at": "2026-10-01T14:53:55.957237+00:00",
+  "latest_source_dce_run_id": 36879017879,
   "batch_index": 8,
   "start_rank": 81,
   "end_rank": 90,
@@ -20,7 +20,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 0,
+      "evidence_gate_coverage": 1,
       "spm_post_dce_score": 42,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -30,33 +30,25 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 36801481487,
-      "source_shard": 44,
-      "review_key": "52d17691795360835c0f82887ce4538eeeecc2e4fd2a9548af141716f3984b1c",
+      "source_dce_run_id": 36879017879,
+      "source_shard": 0,
+      "review_key": "212315f1d54774769a060f5f1ee65dcc8f48c8f30807e25286a935bfa844e9be",
       "artifact_locator": {
-        "dce_run_id": 36801481487,
-        "shard": 44,
+        "dce_run_id": 36879017879,
+        "shard": 0,
         "candidate_id": "PL-BZP:08df1d97-ea20-b174-db89-6a000146b6b7",
-        "release_tag": "dce-harvest-36801481487"
+        "release_tag": "dce-harvest-36879017879"
       },
       "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 9,
-        "text_chars": 25802,
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": {
-        "applied": true,
-        "refreshed_at": "2026-10-01T11:11:22.656699+00:00",
-        "source_dce_run_id": 36801481487,
-        "release_tag": null,
-        "archive_name": null,
-        "bundle_asset": null,
-        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
-      },
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
