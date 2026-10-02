@@ -1,13 +1,57 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-02T10:45:41.985772+00:00",
-  "source_inbox_updated_at": "2026-10-02T08:58:50.177807+00:00",
-  "latest_source_dce_run_id": 36986443571,
+  "generated_at": "2026-10-02T15:12:00.118381+00:00",
+  "source_inbox_updated_at": "2026-10-02T15:11:58.539228+00:00",
+  "latest_source_dce_run_id": 37024579301,
   "batch_index": 11,
   "start_rank": 111,
   "end_rank": 120,
   "count": 10,
   "items": [
+    {
+      "candidate_id": "TED:329629-2026",
+      "title": "Ireland – Education and training services – 2026 - 2028 Dynamic Purchasing System for Healthcare Training Services",
+      "buyer": "Leading Healthcare Providers Skillnet",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/329629-2026",
+      "deadline": "2028-10-31T23:00:00+01:00",
+      "estimated_value": 100000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 6,
+      "spm_post_dce_score": 27,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [
+        "training-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32830196866,
+      "source_shard": 3,
+      "review_key": "e1813a84c594d35f4fadc480eecdc9a9af9cc80037c4a949bc409a974dda4e56",
+      "artifact_locator": {
+        "dce_run_id": 32830196866,
+        "shard": 3,
+        "candidate_id": "TED:329629-2026",
+        "release_tag": "dce-harvest-32830196866"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
     {
       "candidate_id": "WORLD-BANK:OP00467353",
       "title": "Procurement of Backup Software Licenses",
@@ -40,14 +84,51 @@
         "release_tag": "dce-harvest-36724785787"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 10299,
+        "attributed_compact_snippets": 3,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "===== FILE: files/world_bank_procurement_notice_OP00467353.html ===== Notice for Bids Country: Türkiye Project Name: Türkiye: Education for Job Market Readiness Project (E4J) Contract Title: Procurement of Backup Software Licenses Loan No./Credit No.: 98940-TR / P510381 RFB Reference No.: GO-C1.1-03.01 The Ministry of National Education (MoNE), General Directorate of Innovation and Educational Technologies, has received financing from the World Bank toward the cost of the Türkiye: Education for Job Market Readines…",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "strong>The General Directorate of Innovation and Educational Technologies of the Ministry of National Education (MoNE) now invites sealed bids from eligible Bidders for the “Procurement of Backup Software Licenses.” The scope of the procurement includes the supply of licenses for backup software with a minimum usage period of 5 years (60 months), including all updates, with a capacity to support 500 virtual or physical servers, in order to ensure service continuity. Following the signing of the contract, the softw…",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "o; Yedekleme Yazlm Lisans Temini” iinin sözlemesi kapsamndaki ödemeler için kullanmay düünmektedir. MEB Yenilik ve Eitim Teknolojileri Genel Müdürlüü , “ Yedekleme Yazlm Lisans Temini” ii için uygun isteklileri kapal zarf teklif vermeye davet etmektedir. kapsamnda; hizmet sürekliliini temin etmek adna en az 5 yl (60 ay) kullanm süresine sahip, tüm güncellemeleri barndran 500 adet sanal veya fiziksel sunucu kapasiteli yedekleme yazlmnn lisanslarnn tedarik edilmesi iini kapsamaktadr. Sözlemenin imzalanmasn takiben e…",
+            "source": "files/world_bank_procurement_notice_OP00467353.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00467353",
+            "source_sha256": "f00c5551c52fffc9bf22aa24c3a5c4af330027e2b166f59de569aede034afa24",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -152,28 +233,28 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 15,
+      "evidence_gate_coverage": 14,
       "spm_post_dce_score": 23,
       "spm_fit_band": "MAYBE",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 36955861695,
-      "source_shard": 11,
-      "review_key": "4a183fbf80d1874d6ab5a8ce859397bea07861b3ee69e33a91716e0816f9422f",
+      "authoritative_submission_date": "2026-10-22",
+      "source_dce_run_id": 37024579301,
+      "source_shard": 7,
+      "review_key": "4928938f140715d076735bbc74e25bc1f20d97cb58c878ac3a9800ab14ce27f6",
       "artifact_locator": {
-        "dce_run_id": 36955861695,
-        "shard": 11,
+        "dce_run_id": 37024579301,
+        "shard": 7,
         "candidate_id": "US-SAM:c6f114f657324ed2bf8920c7abc3223d",
-        "release_tag": "dce-harvest-36955861695"
+        "release_tag": "dce-harvest-37024579301"
       },
       "evidence_quality": {
         "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 8,
-        "text_chars": 129675,
-        "attributed_compact_snippets": 29,
+        "documents_with_text": 9,
+        "text_chars": 131840,
+        "attributed_compact_snippets": 27,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": true
       },
@@ -182,7 +263,7 @@
           {
             "text": "plemental plan may offer some augmentation but should aim to avoid full duplication of what is currently available through the national healthcare system. When preparing a competitive quotation, vendors should take into consideration benefits provided through the national healthcare system. Quotations should refrain from over customization, and should be “off the shelf”, “commercially available”, or “market ready” products which are designed to be complementary and supplement to the national system in Portugal. Th…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -192,7 +273,7 @@
           {
             "text": "ointments; those working under a PSC or PSA that is time limited to less than one year; non-personal services contract personnel and their employees, supplied by an independent contractor licensed to do business in Portugal who provides services to other local RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 6 of 21 organizations as well as to the U.S. Mission; employees working on an intermittent or When Actually Employed (WAE) schedule; Peace Corps personal services contractors and …",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -204,7 +285,7 @@
           {
             "text": "n adjustment 60 days prior to the end of the base year or current year, to take effect at the start of the following year. Adjustments are not retroactive to previous periods of performance, and the contractor may not seek to recover costs incurred during a prior period of performance through an Economic Price Adjustment. Economic Price Adjustments only apply as an adjustment to the rates to be charged by the contractor for the services identified as in the contract and cannot be recovered as a lump sum adjustment…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -214,7 +295,7 @@
           {
             "text": "ctor for the services identified as in the contract and cannot be recovered as a lump sum adjustment paid to the contractor. B.1.3.3 Before any such adjustment is made, the contractor agrees to provide the Government a balance sheet showing three main components for the time period: (1) receipts (premiums received) minus the retention amount; (2) number of insurance plans; and (3) claims paid. This information shall be provided per type of premium, i.e. per line item for the preceding 12 months. The retention amou…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -226,7 +307,7 @@
           {
             "text": "tracting Officer for appropriate action under the Inspection clause. RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 14 of 21 D.2 DELIVERABLES All reports and other deliverables required under this contract shall be delivered by email to the COR and mailed to the following address: U.S. Embassy Lisbon ATTN: Human Resources Office (Contact details to be provided in the contract) NOTE: Any and all costs for the preparation, handling, mailing and submission of progress reports or any ot…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -236,7 +317,7 @@
           {
             "text": "0 calendar days of COR’s request COR D.3 Employee Claims Report 1 No later than the 10th of the following month. COR RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 15 of 21 D.8 Invoice 1 Quarterly COR & Designated Billing Office Contract Clause FAR 52.222-50(h)(5) - Compliance Plan 1 Upon CO request CO D.3 CONTRACTOR RESPONSIBILITY IN CLAIMS AND REIMBURSEMENT TO CLAIMS General: The Contractor shall be responsible for all planning, estimating, programming, project management, schedul…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -248,7 +329,7 @@
           {
             "text": "nd the Government. Actual number may be lower or higher than the estimates in the solicitation/contract. | | | | | | ** Does not include any premiums for Riders. | | | | | | Sub-Section B.3.3 - Monthly Retention Amounts | | | | | | Period of Performance | Single Employees (Self only) | Employee + 1 | Family | | | Base Period | | | | | | Year 1 | | | | | | Year 2 | | | | | | Year 3 | | | | | | Year 4 | | | | | | ===== FILE: files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf ===== RFQ 19GE5026Q0035 – LES Health Ins…",
             "source": "files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b18bbb08e49362df02fe5ae16f7904dcae3bd14bc5c09e17f44e3299176b24bf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bc554597ee878151836e134b3dbc2a23e3fbe05cfb1fc0cf5797a38642c63ba3",
             "source_sha256": "baa29d7fd92fe17d161d0a77f4e8c80e161f0dfb23b47f6c514dc29d12681c2a",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -258,7 +339,7 @@
           {
             "text": "licitation/contract. | | | | | | ** Does not include any premiums for Riders. | | | | | | Sub-Section B.3.3 - Monthly Retention Amounts | | | | | | Period of Performance | Single Employees (Self only) | Employee + 1 | Family | | | Base Period | | | | | | Year 1 | | | | | | Year 2 | | | | | | Year 3 | | | | | | Year 4 | | | | | | ===== FILE: files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf ===== RFQ 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon ATTACHMENT 4 – REPRESENTATION AND CERTIFICAT…",
             "source": "files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b18bbb08e49362df02fe5ae16f7904dcae3bd14bc5c09e17f44e3299176b24bf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bc554597ee878151836e134b3dbc2a23e3fbe05cfb1fc0cf5797a38642c63ba3",
             "source_sha256": "baa29d7fd92fe17d161d0a77f4e8c80e161f0dfb23b47f6c514dc29d12681c2a",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -270,7 +351,7 @@
           {
             "text": "nd should include the cost breakdown by each membership fee line according to the pricing schedule. Advance Payment shall not be authorized under this contract. D.9 CHANGES IN OWNERSHIP The Contractor shall furnish the COR advance notification as soon as practicable, but no later than 30 calendar days before effective date, of any disposition or the change in ownership or terms of lease of any facilities utilized by him for performance of any service under this contract. D.10 FUNDING/TASK ORDERS/PROCEDURES The con…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -280,7 +361,7 @@
           {
             "text": "accurate and complete prior to submission. Instructions for completing the form are provided in Attachment 6 - Instructions to IRS Form W- 14. Failure to submit IRS Form W-14 when applicable will result in tax withholding at the full statutory rate. TAB C — VOLUME 2: TECHNICAL QUOTATION The Technical Quotation must demonstrate the quoter’s capability to meet the requirements of the solicitation and the performance standards described in the SOW. No pricing information shall appear in this volume. The Technical Quo…",
             "source": "files/19GE5026Q0035-CSS-Lisbon.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023255Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2e46f438a856b0f10ba5cebe6c87d01da53aa91548c9ef556039fdb6ddc98e48",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=88facd558d9bf5b1fefa3bda139be7c03d7c8bd2c1d7c386438dae2350aaba2b",
             "source_sha256": "15f635a3c79bf0adbb297c8e612b14ac086b37a358acad6eb9f0284c610cf468",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -292,7 +373,7 @@
           {
             "text": "===== FILE: files/19GE5026Q0035-Attachment-1-SOW.pdf ===== RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 1 of 21 ATTACHMENT 1 – STATEMENT OF WORK A. GENERAL The U.S. Government requires Health and Life Insurance for its Locally Employed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate P…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -302,7 +383,7 @@
           {
             "text": "ATTACHMENT 1 – STATEMENT OF WORK A. GENERAL The U.S. Government requires Health and Life Insurance for its Locally Employed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate Ponta Delgada, Azores. TYPE OF CONTRACT 1. This is a fixed-price indefinite delivery/indefinite quantity (IDIQ) with economic price adjustment requ…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -314,7 +395,7 @@
           {
             "text": "istribution are prohibited without express approval of the U.S. Government. • All documents shall be marked and handled in strict accordance with all applicable requirements and regulations. Proposed and actual contract documents shall only be disseminated on a strict need-to-know basis and shall not be further disseminated without prior authorization from the U.S. Government. RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 18 of 21 • Those receiving any type of proposed and/or actua…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -324,7 +405,7 @@
           {
             "text": "Offeror must submit, prior to award, a certification, as specified in paragraph (c) of this provision, for the portion (if any) of the contract that- (1) Is for supplies, other than commercially available off-the-shelf items, to be acquired outside the United States, or services to be performed outside the United States; and (2) Has an estimated value that exceeds $700,000. (c) The certification must state that- (1) It has implemented a compliance plan to prevent any prohibited activities identified in paragraph (…",
             "source": "files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b18bbb08e49362df02fe5ae16f7904dcae3bd14bc5c09e17f44e3299176b24bf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bc554597ee878151836e134b3dbc2a23e3fbe05cfb1fc0cf5797a38642c63ba3",
             "source_sha256": "baa29d7fd92fe17d161d0a77f4e8c80e161f0dfb23b47f6c514dc29d12681c2a",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -336,7 +417,7 @@
           {
             "text": "===== FILE: files/19GE5026Q0035-Attachment-1-SOW.pdf ===== RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 1 of 21 ATTACHMENT 1 – STATEMENT OF WORK A. GENERAL The U.S. Government requires Health and Life Insurance for its Locally Employed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate P…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -346,7 +427,7 @@
           {
             "text": "The U.S. Government requires Health and Life Insurance for its Locally Employed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate Ponta Delgada, Azores. TYPE OF CONTRACT 1. This is a fixed-price indefinite delivery/indefinite quantity (IDIQ) with economic price adjustment requirement under which annual firm-fixed price …",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -358,7 +439,7 @@
           {
             "text": "sthetics Floor of room of 251 Dystocic delivery - CO AMBU floor of room Floor of room of 101 LAP Surgical KIT Average Cost Top 10 Average Cost per Medical act: Current year Top 10 Average Cost per Sub-Coverage: Previous year Average Cost # SBU - HEALTH Count € Cost Designation Catheter ablation for atrial fibrillation Foraminectomy + Ext. Hospital consumables Unilateral Cataract Inter-surgical Prosthetics Floor of room of 251 Dystocic delivery - CO AMBU floor of room Floor of room of 101 LAP Surgical KIT Online Us…",
             "source": "files/19GE5026Q0035-Attachment-2-Employee-Statistics.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f65/f6578b4a25134c6aa8b8469963515db5.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-2-Employee-Statistics.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=20ad3a9e1f41900e6ab8309916501320cf30c6940194dfdb0b3bfa28b828400d",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f65/f6578b4a25134c6aa8b8469963515db5.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-2-Employee-Statistics.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6666d5d4c4ab59de898830451639affcfe0fb1fd53608649835c229542acce0d",
             "source_sha256": "c447cca816900beb69d3f4628900aab49140f750f83b565da341083c50d12301",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -368,7 +449,7 @@
           {
             "text": "tion B.3.3 - Monthly Retention Amounts | | | | | | Period of Performance | Single Employees (Self only) | Employee + 1 | Family | | | Base Period | | | | | | Year 1 | | | | | | Year 2 | | | | | | Year 3 | | | | | | Year 4 | | | | | | ===== FILE: files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf ===== RFQ 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon ATTACHMENT 4 – REPRESENTATION AND CERTIFICATION The quoter shall complete the following representation and provide certification in a separat…",
             "source": "files/19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b18bbb08e49362df02fe5ae16f7904dcae3bd14bc5c09e17f44e3299176b24bf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/027/0270a60fc5774fb48ee294366bab804d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-4-Reps-and-Certs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bc554597ee878151836e134b3dbc2a23e3fbe05cfb1fc0cf5797a38642c63ba3",
             "source_sha256": "baa29d7fd92fe17d161d0a77f4e8c80e161f0dfb23b47f6c514dc29d12681c2a",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -380,7 +461,7 @@
           {
             "text": "cluding labor, overhead, general and administrative expenses, profit, and, locally required stamp duty as well as INEM contribution. Any costs not separately priced shall be considered included in the applicable unit prices as overhead, general and administrative expenses, or other indirect costs. No additional compensation shall be payable due to the Contractor's failure to properly estimate or accurately predict the costs or complexity of providing the required health insurance coverage and related administrativ…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -390,7 +471,7 @@
           {
             "text": "lace a written order. Ordering Procedures: The Government shall issue annual funded task orders to cover all eligible employees and their dependents. No task order shall include any names or Personal Identifiable Information (PII). The COR informs the CO if any additions or deletions are required throughout the year and the CO will issue funded modifications as required. RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 20 of 21 D.11 START/PERIOD OF PERFORMANCE The performance period i…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -402,7 +483,7 @@
           {
             "text": "===== FILE: files/19GE5026Q0035-Attachment-1-SOW.pdf ===== RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 1 of 21 ATTACHMENT 1 – STATEMENT OF WORK A. GENERAL The U.S. Government requires Health and Life Insurance for its Locally Employed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate P…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -414,7 +495,7 @@
           {
             "text": "mployed Staff (LES) of the United States Embassy Lisbon, Portugal and their eligible dependents as described herein. The Contractor shall provide health insurance services under this contract to eligible employees at U.S. Embassy Lisbon and U.S. Consulate Ponta Delgada, Azores. TYPE OF CONTRACT 1. This is a fixed-price indefinite delivery/indefinite quantity (IDIQ) with economic price adjustment requirement under which annual firm-fixed price task orders will be issued. The fixed premium rates for the health insur…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -424,7 +505,7 @@
           {
             "text": "ed rate. This shall include details regarding specific hourly rates paid to individual employees. For contracts paid in U.S. dollars, the contractor's request for price adjustment shall present data reflecting: (1) The exchange rate in effect on the date of the contractor's proposal that was accepted for the basic contract; and Page 18 of 10 (2) The current exchange rate and its effect on payment of workers in local currency. The allowable adjustment shall be limited to the extent to which increases in direct serv…",
             "source": "files/19GE5026Q0035-CSS-Lisbon.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023255Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2e46f438a856b0f10ba5cebe6c87d01da53aa91548c9ef556039fdb6ddc98e48",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=88facd558d9bf5b1fefa3bda139be7c03d7c8bd2c1d7c386438dae2350aaba2b",
             "source_sha256": "15f635a3c79bf0adbb297c8e612b14ac086b37a358acad6eb9f0284c610cf468",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -436,7 +517,7 @@
           {
             "text": "ignate in writing one or more Government employees, by name or position title, to take action for the Contracting Officer under this contract. Each designee shall be identified as a Contracting Officer’s Representative (COR). Such designation(s) shall specify the scope and limitations of the authority so delegated; provided, that the designee shall not change the terms or conditions of the contract, unless the COR is a warranted Contracting Officer and this authority is delegated in the designation. (b) The COR fo…",
             "source": "files/19GE5026Q0035-CSS-Lisbon.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023255Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2e46f438a856b0f10ba5cebe6c87d01da53aa91548c9ef556039fdb6ddc98e48",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=88facd558d9bf5b1fefa3bda139be7c03d7c8bd2c1d7c386438dae2350aaba2b",
             "source_sha256": "15f635a3c79bf0adbb297c8e612b14ac086b37a358acad6eb9f0284c610cf468",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -446,7 +527,7 @@
           {
             "text": "for this contract will be designated upon award. (End of clause) (VII) SUBMISSION OF QUESTIONS AND QUOTATIONS DEADLINE FOR SUBMISSION OF QUESTIONS Any questions, comments, exceptions, or clarifications concerning any aspect of the solicitation shall be prepared in writing and submitted to Contract Specialist Sarah Pfannkuche at email PfannkucheS@state.gov, no later than 15:00 hours Central European Summer Time (CEST) on October 08, 2026. The email subject line must read “Questions 19GE5026Q0035”. Late questions ma…",
             "source": "files/19GE5026Q0035-CSS-Lisbon.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023255Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2e46f438a856b0f10ba5cebe6c87d01da53aa91548c9ef556039fdb6ddc98e48",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/621/621ad2b45392423f82aaa031cabf322b.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-CSS-Lisbon.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=88facd558d9bf5b1fefa3bda139be7c03d7c8bd2c1d7c386438dae2350aaba2b",
             "source_sha256": "15f635a3c79bf0adbb297c8e612b14ac086b37a358acad6eb9f0284c610cf468",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -458,7 +539,7 @@
           {
             "text": "ses, and any other appointments required for the prosecution of work under this contract, all at no additional cost to the Government. The Contractor shall perform this contract in accordance with local laws. D.5 ERRONEOUS PAYMENT If the U.S. Government becomes eligible for a refund of payment because of erroneous overpayment or other cause, the Contractor shall refund the amounts or use them to offset future payments owed by the U.S. Government, whichever the U.S. Government prefers. The Contractor shall refund a…",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -468,29 +549,7 @@
           {
             "text": "tion: • Contractor’s name and bank account information for payments by Electronic Funds Transfer (EFT). • Invoice date and number. • Contract number and line item number. RFP 19GE5026Q0035 – LES Health Insurance Services for U.S. Embassy Lisbon Page 19 of 21 • A summary showing a listing of each member with total monthly price the currency the contract has been issued in. A detailed invoice for each Agency has to be attached to each summary invoice and should include the cost breakdown by each membership fee line …",
             "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
-            "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
-            "source_kind": "pdf",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "payment_tax": [
-          {
-            "text": "ium rates for the health insurance services as specified in Section C – Statement of Work provided herein are provided in Attachment 3 – Pricing Schedule. The quantities set forth in the pricing section are estimates; the Government does not guarantee that such quantities will be ordered. 2. The contract will be for a one base year period and four (4) one-year periods. In accordance with FAR 52.217-8, the contract may be extended by additional six (6) months period. Services shall commence no later than January 01…",
-            "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
-            "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
-            "source_kind": "pdf",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "ilure to properly estimate or accurately predict the costs or complexity of providing the required health insurance coverage and related administrative services. Except as otherwise expressly provided in the contract, the contract prices shall remain firm for the duration of the contract, and no adjustment shall be made based on increases in operating costs, labor costs, or fluctuations in currency exchange rates. The currency shall be fixed and cannot be changed by modification to the contract. B.1.1 V ALUE ADDED…",
-            "source": "files/19GE5026Q0035-Attachment-1-SOW.pdf",
-            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T023256Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4572e933095f209086f925bae19323ed332896ca95553b7a47082bd40fe9c427",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/774/774d785ad836471789a2507b04d16d7d.pdf?response-content-disposition=attachment%3B%20filename%3D19GE5026Q0035-Attachment-1-SOW.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150851Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b63a239a997a2f1be3cf796f5d9b00faeea9f13f53bac37d790a78b54a8474bf",
             "source_sha256": "98476d41c4dc6a528e3cfd1a69e9f5f640e3fabd3c1df46f3ed2b860015e9cda",
             "source_kind": "pdf",
             "provenance_strength": "SOURCE_URL_ATTRIBUTED",
@@ -499,15 +558,7 @@
           }
         ]
       },
-      "provenance_override": {
-        "applied": true,
-        "refreshed_at": "2026-10-02T10:45:29.741867+00:00",
-        "source_dce_run_id": 36955861695,
-        "release_tag": null,
-        "archive_name": null,
-        "bundle_asset": null,
-        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
-      },
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
@@ -530,7 +581,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-10-20",
       "source_dce_run_id": 36260749662,
       "source_shard": 32,
       "review_key": "a41b25aa0fbadb62593cde023bede5aeba86a1f292464807cab34be838bfe616",
@@ -541,14 +592,323 @@
         "release_tag": "dce-harvest-36260749662"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 5,
+        "text_chars": 195164,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "Tender procedure: Open procedure Tender Deadline 20/10/2026 16:00 2 Contents Part 1: Introduction Part 2: Instructions to Tenderers Part 3: Selection and Award Criteria Appendix 1: Requirements and Specifications Appendix 2: Pricing Schedule Appendix 3: Tenderer’s Statement Appendix 4: Declaration as to Personal Circumstances of Tenderer Appendix 5: Services Contract Appendix 6: Confidentiality Agreement 3 Part 1: Introduction 1.1 The Department of Culture, Communications and Sport (the “Contracting Authority”) in…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "the Data Protection Laws) whose Personal Data is provided by the Tenderer have consented to the processing of such Personal Data by the Tenderer, the Contracting Authority, the Evaluation Team and the supplier of the etenders.gov.ie website, for the purposes of the participation of the Tenderer in this Competition or that the Tenderer otherwise has a legal basis for 5 providing such Personal Data to the Contracting Authority for the purposes of its participation in this Competition. 2.1.5 2.1.6 The Contracting Aut…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "value of that subcontract exceeds 10% of the value of the Services Contract) does not come within the category of prohibited economic operators identified in Regulat ion (EU) No 833/2014 of 31 July 2014 (as amended by EU Regulation 2022/576) then , it shall be excluded from further participation in this Competition unless it replaces the Subcontractor with one which meets all relevant requirements of this RFT. 3.2 SELECTION CRITERIA 3.2 Tenderers will either pass OR fail each of the Select ion Criteria in this par…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ctor with one which meets all relevant requirements of this RFT. 3.2 SELECTION CRITERIA 3.2 Tenderers will either pass OR fail each of the Select ion Criteria in this part 3.2. A Tenderer who fails a selection criterion will be excluded from participating in this Competition. 15 3.2.A Economic and Financial Standing Tenderers must declare by way of eESPD that they satisfy the financial and economic standing requirement(s) set out below and that they are able, upon request and without delay, to provide the supporti…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "ic Office Act s 1995 and 2001, copies of which are available at www.irishstatutebook.ie. The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or terminating any Services Contract entered into by a Tenderer. 2.14 ANTI-COMPETITIVE CONDUCT Tenderers’ attention is drawn to the Competition Act 2002 (as amended, the “2002 Act”). The 2002 Act makes it a criminal offence for Tender…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ing Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or terminating any Services Contract entered into by a Tenderer. 2.14 ANTI-COMPETITIVE CONDUCT Tenderers’ attention is drawn to the Competition Act 2002 (as amended, the “2002 Act”). The 2002 Act makes it a criminal offence for Tenderers to collude on prices or terms in a public procurement competition. 10 2.15 INDUSTRY TERMS USED IN…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "f policies with an aggregate limit of indemnity, any outstanding claims, which could have a material adverse impact on the level of coverage 12 specified above. A formal confirmation from the Tenderer's insurance company or broker to this effect will be requested from the successful Tenderer(s) prior to the award of (and shall be a condition of) any Services Contract. 2.21.3 The successful Tenderer will, during the term of the Services Contract, be required to: (a) immediately advise the Contracting Authority of a…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "by the entity concerned are sufficient to demonstrate its reliability despite the existence of a relevant Exclusion Ground; 14 (iii) in the case of the Prime Contractor and any Subcontractor on whose capacity the Prime Contractor relies, all or any of the supporting documents specified at paragraph 3.2 below; (iv) information concerning the Tenderer, and any proposed subcontractors, for the purposes of Regulation (EU) No 833/2014 (as amended by EU Regulation 2022/576 or any subsequent amendments to same) including…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "and [insert date] (the “Submission Clarifications”). The Submission (including the Submission Clarifications) is hereby incorporated by reference into this Agreement. IT IS HEREBY AGREED AS FOLLOWS: 1. This Agreement consists of the following documents, and in the case of conflict of wording, in the following order of priority: i. This Agreement and Schedules A to E attached hereto; ii. The RFT; iii. The Submission. 2. The Contractor agrees to provide the Services described in Schedule B (“the Services”) to the Cl…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ct that goods or services supplied or provided in the execution of the contract and originating in the third country which is subject to the IPI measure represent no more than 50% of the total value of the contract, irrespective of whether such goods or services are supplied or provided directly by the successful tenderer or by a subcontractor; iii. to provide to the Client, upon request, adequate evidence corresponding to point (i) or (ii) above; iv. to pay a proportionate charge, in the event of non -observance …",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "g Authority’s premises. A site visit to view the Contracting Authority’s premises or facilities at [insert relevant addresses] shall be organised on [date] between the hours of [x and y]. Tenderers wishing to make an appointment to avail of this opportunity must confirm their attendance by contacting [name of person] at [insert email address] by [insert date and time]. Attendance at the Contracting Authority’s premises will be subject to compliance with local security and health and safety arrangements. 2.20.2 “No…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "esses] shall be organised on [date] between the hours of [x and y]. Tenderers wishing to make an appointment to avail of this opportunity must confirm their attendance by contacting [name of person] at [insert email address] by [insert date and time]. Attendance at the Contracting Authority’s premises will be subject to compliance with local security and health and safety arrangements. 2.20.2 “Not Used” [Insert here details of any site visit required by the Contracting Authority to the Tenderer's premises]. 2.21 I…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "t Appendix 3. Tenderers may not amend the Services Contract. 2.4 ACCEPTANCE OF RFT REQUIREMENTS Each Tenderer is required to accept the provisions of this RFT. ALL TENDERERS MUST RETURN, with their Tender, a scanned signed copy of the Tenderer’s Statement, as set out in Appendix 3, printed on the Tenderer’s letterhead. The Contracting Authority must be able to read the scanned signature of the Tenderer. If possible, please sign documents using blue ink. If the Contracting Authority cannot read the scanned signatur…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ing name, title, telephone number, postal address, facsimile number and e-mail address of the nominated entity authorised to represent the Tenderer and to whom all communications shall be directed and accepted until this Competition has been completed or terminated. Correspondence from any other person will NOT be accepted, acknowledged or responded to. Prior to and as a condition of award of any Services Contract, the successful Tenderer shall be required to designate a single entity who will carry overall respon…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf ===== ServicesRFT160125 Request for Tenders dated 14/09/2026 for the provision of Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport Tender procedure: Open procedure Tender Deadline 20/10/2026 16:00 2 Contents Part 1: Introduction Part 2: Instructions to Tenderers Part 3: Selection and Award Criteria Appendix 1: Requirements and Specification…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "paragraph 2.5, to consider the practical ways that SMEs can be included in their proposals to maximise the social and economic benefits of any Services Contracts that may result from this Competition. 4 Part 2: Instructions to Tenderers 2.1 IMPORTANT NOTICES 2.1.1 While every effort has been made to provide comprehensive and accurate information in all notices and documents prepared for the purposes of this Competition, the Contracting Authority does not accept any liability or provide any express or implied warra…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "e before the Tender Deadline, to update or amend the information contained in this document and/or to extend the Tender Deadline. Participating Tenderers will be informed of any such amendment or exten sion through the eTenders website. 2.7.5 Tenderers should ensure that they register their interest in this Competition, by clicking on the “Accept” button on www.etenders.gov.ie, in order to receive all responses to queries and other updates in relation to this Competition. 8 2.8 TENDERING COSTS 2.8.1 All costs and …",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "is not to be disclosed because of it s confidentiality or commercial sensitivity, Tenderers must, when providing such information, clearly identify the specific sections of their Tender containing such information and specify the reasons for its confidentiality or commercial sensitivity. For the avoidance of doubt Tenderers may not assert confidentiality or commercial sensitivity over the entire Tender but must clearly identify the specific section containing such information. If Tenderers do not identify informat…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "e divided into lots (each a “Lot”) as described below. Each Lot will result in a separate contract. 1.4 This public procurement competition (the “Competition”) will be conducted in accordance with the open procedure under the European Union (Award of Public Authority Contracts) Regulations 2016 (Statutory Instrument 284 of 2016) (the “Regulations”). Any contract that may result from this Competition (the “Services Contract”) will be issued for a term of 24 months] (“the Term”). 1.5 The Contracting Authority reserv…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "o lots (each a “Lot”) as described below. Each Lot will result in a separate contract. 1.4 This public procurement competition (the “Competition”) will be conducted in accordance with the open procedure under the European Union (Award of Public Authority Contracts) Regulations 2016 (Statutory Instrument 284 of 2016) (the “Regulations”). Any contract that may result from this Competition (the “Services Contract”) will be issued for a term of 24 months] (“the Term”). 1.5 The Contracting Authority reserves the right …",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "===== FILE: files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf ===== ServicesRFT160125 Request for Tenders dated 14/09/2026 for the provision of Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport Tender procedure: Open procedure Tender Deadline 20/10/2026 16:00 2 Contents Part 1: Introduction Part 2: Instructions to Tenderers Part 3: Selection and Award Criteria Appendix 1: Requirements and Specification…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ontracts that may result from this Competition. 4 Part 2: Instructions to Tenderers 2.1 IMPORTANT NOTICES 2.1.1 While every effort has been made to provide comprehensive and accurate information in all notices and documents prepared for the purposes of this Competition, the Contracting Authority does not accept any liability or provide any express or implied warranty in respect of any such information. Tenderers must form their own conclusions about the solution needed to meet the requirements set out in this RFT …",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf ===== ServicesRFT160125 Request for Tenders dated 14/09/2026 for the provision of Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport Tender procedure: Open procedure Tender Deadline 20/10/2026 16:00 2 Contents Part 1: Introduction Part 2: Instructions to Tenderers Part 3: Selection and Award Criteria Appendix 1: Requirements and Specification…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "1 Status Published Title Contract notice - general directive, standard regime File Associated : ===== FILE: files/2949_9059490_unpacked/2_c4t_9059490_1.xml ===== Complete Tender File MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcS/HFzrEOdM8dvrHouh+haPW9wntN+b1Ylyf0mWtYirtDNLboGCuHNEJ5HlnB7M8XTemOIBHxuE4ddplNhGN20dJuLO+MZ6+itVOr3ZSqgMgLS8iD2u4umG5i18N0ZuG98SM3/R5rXOj41WhHf7eMNCltDfAtiWomxsYooF5fBwIDAQAB ===== FILE: files/2949_9059490_unpacked/9059490_Contract notice - general directive, standard regime_0.pdf ===== Irelan…",
+            "source": "files/2949_9059490_unpacked/2_c4t_9059490_1.xml",
+            "source_url": null,
+            "source_sha256": "da5aa0dfe39419d708f9aacd7d7b711dcbeb4d92f7eb8f271517b84876f72888",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf ===== ServicesRFT160125 Request for Tenders dated 14/09/2026 for the provision of Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport Tender procedure: Open procedure Tender Deadline 20/10/2026 16:00 2 Contents Part 1: Introduction Part 2: Instructions to Tenderers Part 3: Selection and Award Criteria Appendix 1: Requirements and Specification…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nd e-mail address of the nominated entity authorised to represent the Tenderer and to whom all communications shall be directed and accepted until this Competition has been completed or terminated. Correspondence from any other person will NOT be accepted, acknowledged or responded to. Prior to and as a condition of award of any Services Contract, the successful Tenderer shall be required to designate a single entity who will carry overall responsibility for the Services Contract (the “Prime Contractor”), irrespec…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "e Contracting Authority shall not give rise to any enforceable rights by the Tenderer. The Contracting Authority may cancel this Competition at any time prior to a formal written Services Contract being executed by or on behalf of the Contracting Authority. The award of a Services Contract does not confer exclusivity on the successful Tenderer. 2.1.3 This RFT supersedes and replaces any and all previous documentation, communications and correspondence between the Contracting Authority and Tenderers, and Tenderers …",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "n the successful Tenderer. 2.1.3 This RFT supersedes and replaces any and all previous documentation, communications and correspondence between the Contracting Authority and Tenderers, and Tenderers should place no reliance on such previous documentation and correspondence. 2.1.4 In this clause 2.1.4, “Data Protection Laws” means all applicable national and EU data protection laws, regulations and guidelines including but not limited to Regulation (EU) 2016/679 on the protection of natural persons with regard to t…",
+            "source": "files/2949_9059490_unpacked/1_20260914_RFT_DigitalServices.pdf",
+            "source_url": null,
+            "source_sha256": "17a5b42d1d443ee32979fb633ae53f7d2f4aaccee76ac545b9f0fa24459db542",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -697,68 +1057,283 @@
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 36986443571,
-      "source_shard": 1,
-      "review_key": "6fa7ca51f4d840ab10dc5f613057a646d09bd6b75c844fdfb88a6505756c2426",
-      "artifact_locator": {
-        "dce_run_id": 36986443571,
-        "shard": 1,
-        "candidate_id": "US-SAM:319809b926164cd2a7d41268b2ff945c",
-        "release_tag": "dce-harvest-36986443571"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "US-SAM:87ea94da26dc4b8ab4558da8b484e841",
-      "title": "Solicitation: SPE605-26-R-0218 (Guam Post, Camps & Stations (PC&S) PP 1.8R)",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/87ea94da26dc4b8ab4558da8b484e841/view",
-      "deadline": "2026-10-28T13:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 23,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 36986443571,
+      "source_dce_run_id": 37024579301,
       "source_shard": 5,
-      "review_key": "2b6203b052a36ce446c37fd7b066594634757938cfba9d175de9817dc21196a9",
+      "review_key": "753d3384ad12d762306b6c690f473759f524bbb13a07ba64764a8e69571e0c85",
       "artifact_locator": {
-        "dce_run_id": 36986443571,
+        "dce_run_id": 37024579301,
         "shard": 5,
-        "candidate_id": "US-SAM:87ea94da26dc4b8ab4558da8b484e841",
-        "release_tag": "dce-harvest-36986443571"
+        "candidate_id": "US-SAM:319809b926164cd2a7d41268b2ff945c",
+        "release_tag": "dce-harvest-37024579301"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 14,
+        "text_chars": 423770,
+        "attributed_compact_snippets": 23,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "uccessor provisions in subsequent appropriations acts (and as extended in continuing resolutions) use of funds appropriated (or otherwise made available) is prohibited, if the Government determines that the Contractor is not in compliance with the provisions of this clause. (f) The Contractor shall include the substance of this clause, including this paragraph (f), in subcontracts under such contracts. (End of clause) 52.204-9 Personal Identity Veriﬁcation of Contractor Personnel (JAN 2011) (a) The Contractor shal…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ") of this clause, and, in the absence of a properly executed novation or change-of-name agreement, the SAM information that shows the Contractor to be other than the Contractor indicated in the contract will be considered to be incorrect information within the meaning of the “Suspension of Payment” paragraph of the electronic funds transfer (EFT) clause of this contract. (d) Assignees. (1) The Contractor shall not change the legal business name or address for EFT payments or manual payments, as appropriate, in the…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "Ordering Office DODAAC USMC M20371 M20371 Delivery Hours: 0800-1600 MON-SUN INCLUDES WEEKENDS Delivery Notes: FOB ORIGIN PRODUCT TO BE DELIVERY IN 55 USG DRUMS, ALL DRUMS TO BE NEW 55 USG FILLED TO A MAXIMUM OF 53 USG. DRUMS MUST BE PALLATIZED. Unit requests that empty drums be removed by the vendor. Coordination with Ordering Contact for subsequent deliveries is required. ===== FILE: files/Attachment_B_-Philippines_Govt_Preferred_BRP_Indexes_and_Escalators.pdf ===== Attachment B SPE60526R0217 Line Item Location C…",
+            "source": "files/Attachment_B_-Philippines_Govt_Preferred_BRP_Indexes_and_Escalators.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/b53/b53e5ecffee64e7da633ec4d492bca52.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BB%2B-Philippines%2BGovt%2BPreferred%2BBRP%2BIndexes%2Band%2BEscalators.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e45831fc92767d868458357a09417490fde7752b5b091cde62241c2a8148fa78",
+            "source_sha256": "aa0e98f940ec53de713b10abd0795cb1ebfdf104c8e628c87f4511e467de4fa0",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "MENTAL QUALITY ASSURANCE PROVISION (SQAP) DRAWING NUMBERSCALE CODE ID NO. 52838 SIZE DEFENSE LOGISTICS AGENCY ENERGY 8725 JOHN J. KINGMAN RD FORT BELVOIR, VIRGINIA 22060-6222 JUN 2014 08 JUL 2014 8 Jul 2014. ===== FILE: files/Attachment_E_-Provisions_and_Clauses.pdf ===== 1 Attachment E - Provisions and Clauses SPE605-26-R-0217 - Philippines 1.6P 2 52.212-4 Terms and Conditions—Commercial Products and Commercial Services (DEVIATION 2026-O0038)(FEB 2026) (a) Deﬁnitions. The clause at Federal Acquisition Regulation …",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "el cargo compartment(s) Spot C7,14 1.e During loading As close to the custody transfer point as possible Line Sample Hourly Visual6,8, Retain10 1.f After Loading After loading Each vessel cargo compartment All Level (Combine All Levels into one Volumetric Composite Sample13) C 6, 8, 11,14 Remainder of B-112 (Retain fuel for B-1 referee testing) NOTES: 1. Additional requirements to include retain samples may be required. See Quality Assurance Provisions (C or E-QAP) for further details. 2. Refer to ASTM Internation…",
+            "source": "files/Attachment_D_-_Quality_Assurance_ENERGY_EQAPs.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f84/f84e16be48d0465184e5876414e2f51e.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BD%2B-%2BQuality%2BAssurance%2BENERGY%2BEQAPs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1823775210c94c8dccca208e277f0fcab2dd6270e6ee83051eaffd51a341e3a9",
+            "source_sha256": "9cc89eb8cb185d3822e365225e605d02123057335e1b747a2f9f4f6fa171e1e5",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "(Not required for pipeline operations) Each Cargo Compartment or another point that provides a representative sample All Level Appearance on each compartment C on composite 5,6,8 2.g Drums Sample of each lot of product shall be taken from a predetermined number of randomly selected drums14 Multi-drum Composite C13 NOTES: 1. Additional contractual requirements to include retain samples may be required. See Contract Quality Assurance Plans (C or E-QAPs) for further details. 2. Refer to ASTM International D4057 for s…",
+            "source": "files/Attachment_D_-_Quality_Assurance_ENERGY_EQAPs.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f84/f84e16be48d0465184e5876414e2f51e.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BD%2B-%2BQuality%2BAssurance%2BENERGY%2BEQAPs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1823775210c94c8dccca208e277f0fcab2dd6270e6ee83051eaffd51a341e3a9",
+            "source_sha256": "9cc89eb8cb185d3822e365225e605d02123057335e1b747a2f9f4f6fa171e1e5",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "and (B) From the airport or disembarkation point to the worksite; (xii) Security deposits, bonds, and insurance; and (xiii) Equipment charges. (2) A recruitment fee, as described in the introductory text of this deﬁnition, is a recruitment fee, regardless of whether the payment is- (i) Paid in property or money; (ii) Deducted from wages; (iii) Paid back in wage or beneﬁt concessions; (iv) Paid back as a kickback, bribe, in-kind payment, free labor, tip, or tribute; or (v) Collected by an employer or a third party,…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "FOB Spore Cargo Daily POABC00 $3.162857 18 VMU 1 ANTONIO BAUTISTA AIR BASE Philippines (PH) DF2 60,000 UG6 TTWP Platts Gasoil FOB Spore Cargo Daily POABC00 $3.162857 19 MANILA CITY CAMP AGUINALDO Philippines (PH) JA1 5,000 UG6 DR Platts Jet Kero FOB Spore Cargo Daily PJABF00 $3.084048 20 REGION 24 BASA AIR BASE Philippines (PH) DF2 22,000 UG6 TTWP Platts Gasoil FOB Spore Cargo Daily POABC00 $3.162857 21 ZAMBOANGA Philippines (PH) DF2 8,000 UG6 DR Platts Gasoil FOB Spore Cargo Daily POABC00 $3.162857 22 ZAMBOANGA P…",
+            "source": "files/Attachment_C_-_Quality_Assurance_ENERGY_CQAPs.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/afa/afa3e0c839fb4d13bb4a6ca091d5cc9f.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BC%2B-%2BQuality%2BAssurance%2BENERGY%2BCQAPs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=670000116db916e3c6e0da259b0d816c4dda5dca78f8f99a5214bb03bf1e74ce",
+            "source_sha256": "c515771e0bf7b7976382972c74e0b1af575a529f3d315aa6f75fd934a8ab3efc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ontact with submission of relevant details regarding the blend percentage and which Annex of ASTM D7566 for the synthetic blend component used, and which feedstocks and co-processing percentage for co-hydroprocessed synthesized kerosene. Only synthetic blend components approved in ASTM D7566, MIL-DTL-83133, and MIL-DTL-5624 and co- hydroprocessed synthesized kerosene produced from approved feedstock and percentage in ASTM D1655, MIL -DTL-83133, and MIL-DTL-5624 shall be acceptable to the government PREVIOUS EDITIO…",
+            "source": "files/Attachment_C_-_Quality_Assurance_ENERGY_CQAPs.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/afa/afa3e0c839fb4d13bb4a6ca091d5cc9f.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BC%2B-%2BQuality%2BAssurance%2BENERGY%2BCQAPs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=670000116db916e3c6e0da259b0d816c4dda5dca78f8f99a5214bb03bf1e74ce",
+            "source_sha256": "c515771e0bf7b7976382972c74e0b1af575a529f3d315aa6f75fd934a8ab3efc",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "Government upon— (1) Delivery of the supplies to a carrier, if transportation is f.o.b. origin; or (2) Delivery of the supplies to the Government at the destination speciﬁed in the contract, if transportation is f.o.b. destination. (k) Taxes. The contract price includes all applicable Federal, State, and local taxes and duties. (l) Termination.for.the.Government\" s.convenience. The Government reserves the right to terminate this contract, or any part hereof, for its sole convenience. In the event of such terminati…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "the same remedies as in a breach of the contract; and (2) In addition to any other damages provided by law, to exemplary damages of not less than 3 nor more than 10 times the cost incurred by the Contractor in giving gratuities to the person concerned, as determined by the agency head or a designee. (This paragraph (c)(2) is applicable only if this contract uses money appropriated to the Department of Defense.) (d) The rights and remedies of the Government provided in this clause shall not be exclusive and are in …",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/Attachment_A_-_Schedule_of_Supplies.pdf ===== Attachment A – Schedule of Supplies SPE605-26-R-0217 - Philippines 1.6P Item: 0001 Quantity: 8,000.000 UG6 Period of Performance: 01/01/2027-12/31/2029 Escalator: PDSINGGAS - PLATTS DAILY SINGAPORE GASOIL POABC00C Base-Ref: 07/13/2026 Base-Price: 3.162857 NSN Delivery Identiﬁcation State 9140-002865294 (DF2) CDMABABMAG - ABAB MAG13 DIESEL FUEL Delivery Address: Casicaan, Puerto Princessa, 5300 Antonio Bautista Air Base 99999 Service Code Delivery DODA…",
+            "source": "files/Attachment_A_-_Schedule_of_Supplies.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f28/f287c17457764da5b159d0b7efba4ceb.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BA%2B-%2BSchedule%2Bof%2BSupplies.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=98db6e6c2a70dcb8fe7bbf6f83eb8cf25852a5720ceb7e6c12bacf40bbbce833",
+            "source_sha256": "7ad436810ee4d4d08c5194a718f0502b5c39a89869c9011272946e1c310332f7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "se-Price: 3.162857 NSN Delivery Identiﬁcation State 9140-002865294 (DF2) CDMABABMAG - ABAB MAG13 DIESEL FUEL Delivery Address: Casicaan, Puerto Princessa, 5300 Antonio Bautista Air Base 99999 Service Code Delivery DODAAC Ordering Office DODAAC USMC M20371 SC0635 Mode Receipt % Max Parcel Min Parcel FOB Restriction TANK TRUCK W Delivery Hours: 0800-1600 MONDAY - SUNDAY ---------------------------------------------------------------------------------------------------- Item: 0002 Quantity: 8,000.000 UG6 Period of Pe…",
+            "source": "files/Attachment_A_-_Schedule_of_Supplies.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f28/f287c17457764da5b159d0b7efba4ceb.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BA%2B-%2BSchedule%2Bof%2BSupplies.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=98db6e6c2a70dcb8fe7bbf6f83eb8cf25852a5720ceb7e6c12bacf40bbbce833",
+            "source_sha256": "7ad436810ee4d4d08c5194a718f0502b5c39a89869c9011272946e1c310332f7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "02865294 (DF2) CDMVMU1ABA - VMU 1 ANTONIO BAUTISTA AIR DIESEL FUEL Delivery Address: PQV5 7G7 MP Rd Puerto Princesa 5300 Service Code Delivery DODAAC Ordering Office DODAAC USMC M01480 M00013 Mode Receipt % Max Parcel Min Parcel FOB Restriction TANK TRUCK W Delivery Hours: 0800-1600 MONDAY - SUNDAY Delivery Notes: We will need biweekly deliveries. 18a. Location is on a Military Base and will require a pass or escort by VMU-1 personnel to get to location. Fuel is for heavy equipment and TFS Hangar Power. We do not …",
+            "source": "files/Attachment_A_-_Schedule_of_Supplies.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f28/f287c17457764da5b159d0b7efba4ceb.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BA%2B-%2BSchedule%2Bof%2BSupplies.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=98db6e6c2a70dcb8fe7bbf6f83eb8cf25852a5720ceb7e6c12bacf40bbbce833",
+            "source_sha256": "7ad436810ee4d4d08c5194a718f0502b5c39a89869c9011272946e1c310332f7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Service Code Delivery DODAAC Ordering Office DODAAC USMC M01480 M00013 Mode Receipt % Max Parcel Min Parcel FOB Restriction TANK TRUCK W Delivery Hours: 0800-1600 MONDAY - SUNDAY Delivery Notes: We will need biweekly deliveries. 18a. Location is on a Military Base and will require a pass or escort by VMU-1 personnel to get to location. Fuel is for heavy equipment and TFS Hangar Power. We do not have fuel storage on site and will need to keep barrels with a hand pump. Vendor must be able to offload barrels. Request…",
+            "source": "files/Attachment_A_-_Schedule_of_Supplies.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f28/f287c17457764da5b159d0b7efba4ceb.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BA%2B-%2BSchedule%2Bof%2BSupplies.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=98db6e6c2a70dcb8fe7bbf6f83eb8cf25852a5720ceb7e6c12bacf40bbbce833",
+            "source_sha256": "7ad436810ee4d4d08c5194a718f0502b5c39a89869c9011272946e1c310332f7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "ct, grant, loan, or cooperative agreement from using appropriated funds to pay any person for inﬂuencing or attempting to inﬂuence an officer or employee of any agency, a Member of Congress, an officer or employee of Congress, or an employee of a Member of Congress in connection with any covered Federal actions. In accordance with 31 U.S.C. 1352, the Contractor shall not use appropriated funds to pay any person for inﬂuencing or attempting to inﬂuence an officer or employee of any agency, a Member of Congress, an …",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rative agreement from using appropriated funds to pay any person for inﬂuencing or attempting to inﬂuence an officer or employee of any agency, a Member of Congress, an officer or employee of Congress, or an employee of a Member of Congress in connection with any covered Federal actions. In accordance with 31 U.S.C. 1352, the Contractor shall not use appropriated funds to pay any person for inﬂuencing or attempting to inﬂuence an officer or employee of any agency, a Member of Congress, an officer or employee of Co…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "===== FILE: files/Attachment_A_-_Schedule_of_Supplies.pdf ===== Attachment A – Schedule of Supplies SPE605-26-R-0217 - Philippines 1.6P Item: 0001 Quantity: 8,000.000 UG6 Period of Performance: 01/01/2027-12/31/2029 Escalator: PDSINGGAS - PLATTS DAILY SINGAPORE GASOIL POABC00C Base-Ref: 07/13/2026 Base-Price: 3.162857 NSN Delivery Identiﬁcation State 9140-002865294 (DF2) CDMABABMAG - ABAB MAG13 DIESEL FUEL Delivery Address: Casicaan, Puerto Princessa, 5300 Antonio Bautista Air Base 99999 Service Code Delivery DODA…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/Attachment_A_-_Schedule_of_Supplies.pdf ===== Attachment A – Schedule of Supplies SPE605-26-R-0217 - Philippines 1.6P Item: 0001 Quantity: 8,000.000 UG6 Period of Performance: 01/01/2027-12/31/2029 Escalator: PDSINGGAS - PLATTS DAILY SINGAPORE GASOIL POABC00C Base-Ref: 07/13/2026 Base-Price: 3.162857 NSN Delivery Identiﬁcation State 9140-002865294 (DF2) CDMABABMAG - ABAB MAG13 DIESEL FUEL Delivery Address: Casicaan, Puerto Princessa, 5300 Antonio Bautista Air Base 99999 Service Code Delivery DODA…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "U.S. Government, unless the person has a valid license to operate in Venezuela issued by the Office of Foreign Assets Control of the Department of the Treasury. (c) Representation. By submission of its offer, the Offeror represents that the Offeror is a person that— (1) Does not have any business operations with an authority of the Maduro regime or the government of Venezuela that is not recognized as the legitimate government of Venezuela by the U.S. Government; or (2) Has a valid license to operate in Venezuela …",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ties listed on the schedule (Attachment A) are estimates. 5) This procurement is being issued as UNRESTRICTED. North American Industrial Classification Standard (NAICS): 324110 Small Business Size Standard: 1500 employees or refining no more than 200,000 barrels per calendar day. 6) In accordance with FAR 52.216-1 Type of Contract (deviation 2026-O0038 FEB 2026) The Government contemplates award of a Fixed-Priced, Requirements contract with Economic Price Adjustment (EPA) contract resulting from this solicitation.…",
+            "source": "files/Solicitation_SPE60526R0217.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/3aa/3aa100d3f30a4a278ec8016a6ba13703.pdf?response-content-disposition=attachment%3B%20filename%3DSolicitation_SPE60526R0217.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=27863185d064c6304eba116e3e5f3f145a7daff8fd0772875c80cf1008d57df5",
+            "source_sha256": "71f0462d3dbcfc7162b2ae2fb8bde485c99c2b9afef13d8146223a5e146ddb8e",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "TM International D4057 for sampling procedures. 2. Retain for referee testing in the event a failure occurs on receipt tank. Retain sample for 45 days. Sampling is IAW API MPMS Chapter 8 3. Fuel from a new batch will be considered a new receipt for quality control purposes. 11 TABLE III, Definitions of Test Series I. TYPE A: Includes all specification quality conformance tests plus any additional contractual requirements. II. TYPE B-1 & C: As shown in the table below for each product. Properties and test methods w…",
+            "source": "files/Attachment_D_-_Quality_Assurance_ENERGY_EQAPs.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/f84/f84e16be48d0465184e5876414e2f51e.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BD%2B-%2BQuality%2BAssurance%2BENERGY%2BEQAPs.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1823775210c94c8dccca208e277f0fcab2dd6270e6ee83051eaffd51a341e3a9",
+            "source_sha256": "9cc89eb8cb185d3822e365225e605d02123057335e1b747a2f9f4f6fa171e1e5",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e Contracting Officer when the occurrence is over. 3 (g) Invoice. The Government will handle invoices according to the Prompt Payment Act (31 U.S.C. 3903) and 5 CFR part 1315. The Contractor shall submit invoices to the address designated in the contract to receive invoices. An invoice must include the information required by 5 CFR part 1315.9(b). (h) Patent.indemnity. The Contractor shall indemnify the Government and its officers, employees, and agents against liability, including costs, for actual or alleged dir…",
+            "source": "files/Attachment_E_-Provisions_and_Clauses.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/992/99214b5a90d24001af42a89a960819b7.pdf?response-content-disposition=attachment%3B%20filename%3DAttachment%2BE%2B-Provisions%2Band%2BClauses.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261002T150847Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc6f0b2dc226ca32a5c99a5577e05a38f303f75ea516049383b718afa6fcf846",
+            "source_sha256": "fad62e25e037b5fbb4ba05799b6742cbb50d06df23ddd030cd46123807cf7eaf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"

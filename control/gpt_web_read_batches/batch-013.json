@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-02T10:45:41.987380+00:00",
-  "source_inbox_updated_at": "2026-10-02T08:58:50.177807+00:00",
-  "latest_source_dce_run_id": 36986443571,
+  "generated_at": "2026-10-02T15:12:00.121021+00:00",
+  "source_inbox_updated_at": "2026-10-02T15:11:58.539228+00:00",
+  "latest_source_dce_run_id": 37024579301,
   "batch_index": 13,
   "start_rank": 131,
   "end_rank": 140,
@@ -124,9 +124,9 @@
         "release_tag": "dce-harvest-36346746504"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 14,
+        "text_chars": 147588,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
@@ -186,6 +186,48 @@
         "bundle_asset": null,
         "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
       },
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "US-SAM:91771bf66fb746e3b90f1dc6eb53d7dc",
+      "title": "12--PERISCOPE,TUBE,OUT",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/91771bf66fb746e3b90f1dc6eb53d7dc/view",
+      "deadline": "2026-10-15T18:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "evidence_gate_coverage": 0,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 37024579301,
+      "source_shard": 5,
+      "review_key": "8d4d44e27e5af140e36f0de6bffbb7f85803fda1555b7481cbab498076c3bcf2",
+      "artifact_locator": {
+        "dce_run_id": 37024579301,
+        "shard": 5,
+        "candidate_id": "US-SAM:91771bf66fb746e3b90f1dc6eb53d7dc",
+        "release_tag": "dce-harvest-37024579301"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 1233367,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
@@ -385,48 +427,6 @@
         "shard": 4,
         "candidate_id": "SK-UVO:543537",
         "release_tag": "dce-harvest-32265660121"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "US-SAM:842bc2f113cf4e7e91e2cb3514b35e60",
-      "title": "Announcement for Upcoming 2027 NSRP R&D Project Solicitations",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/842bc2f113cf4e7e91e2cb3514b35e60/view",
-      "deadline": "2026-12-01T17:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "evidence_gate_coverage": 0,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32533405555,
-      "source_shard": 1,
-      "review_key": "e926a1ed984483593bb46dba06919bafdcda0657c2d841aa6b5424281c9c0f8b",
-      "artifact_locator": {
-        "dce_run_id": 32533405555,
-        "shard": 1,
-        "candidate_id": "US-SAM:842bc2f113cf4e7e91e2cb3514b35e60",
-        "release_tag": "dce-harvest-32533405555"
       },
       "evidence_quality": {
         "raw_status": null,
