@@ -1,8 +1,8 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-02T20:03:48.355714+00:00",
+  "updated_at": "2026-10-02T23:30:42.054896+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 37057208736,
+  "latest_source_dce_run_id": 37077354868,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
@@ -127,36 +127,37 @@
       "CYPRUS_EPPS": 1
     }
   },
-  "review_index_count": 1277,
+  "review_index_count": 1279,
   "review_index_counts": {
-    "pending_total_uncapped": 1277,
+    "pending_total_uncapped": 1279,
     "by_stage": {
-      "BUSINESS_GATES": 949,
+      "BUSINESS_GATES": 951,
       "DCE_AUTHENTICITY": 328
     },
     "by_spm_fit_band": {
       "HOT": 9,
       "GOOD": 75,
       "MAYBE": 101,
-      "LOW": 1092
+      "LOW": 1094
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1117,
-    "cross_portal_duplicates_collapsed": 1
+    "overflow_beyond_hot_160": 1119,
+    "cross_portal_duplicates_collapsed": 0
   },
-  "true_pending_before_hot_cap": 1277,
-  "overflow_beyond_hot_160": 1117,
+  "true_pending_before_hot_cap": 1279,
+  "overflow_beyond_hot_160": 1119,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
-  "provenance_overrides_applied_in_window": 22,
+  "provenance_overrides_applied_in_window": 20,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 160,
-    "adjudication_rows_scanned_this_refresh": 1261,
-    "gate_rows_seen_this_refresh": 348,
-    "authenticity_rows_seen_this_refresh": 36,
+    "shard_files_scanned_this_refresh": 149,
+    "adjudication_rows_scanned_this_refresh": 1182,
+    "gate_rows_seen_this_refresh": 344,
+    "authenticity_rows_seen_this_refresh": 35,
     "source_runs_seen_this_refresh": [
+      37077354868,
       37057208736,
       37024579301,
       36986443571,
@@ -165,8 +166,7 @@
       36917573341,
       36879017879,
       36831525495,
-      36801481487,
-      36786476005
+      36801481487
     ]
   },
   "healthy": true,
