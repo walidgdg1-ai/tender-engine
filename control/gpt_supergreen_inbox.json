@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-10-02T02:34:03.388107+00:00",
+  "updated_at": "2026-10-02T02:34:18.540769+00:00",
   "latest_source_dce_run_id": 36955861695,
   "review_queue": [
     {
@@ -19382,7 +19382,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 7,
@@ -20075,7 +20075,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 9,
@@ -22207,55 +22207,6 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
-      "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-      "title": "Cyberbezpieczne Wodociągi",
-      "buyer": "Zakład Gospodarki Komunalnej i Mieszkaniowej w Gołańczy",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1ad9-f6b6-3b43-db89-6a000146a074",
-      "deadline": "2026-10-06T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 36346746504,
-      "source_shard": 42,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 36346746504,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-        "release_tag": "dce-harvest-36346746504"
-      },
-      "hot_ready_at": "2026-09-29T18:52:42.591808+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "85eae4eddc0b5508a760cf2ed33bd2be36e6c12572fe9aabdf7bddba068b93ba",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 36346746504,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-        "release_tag": "dce-harvest-36346746504"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
       "title": "Trammide ostmine",
       "buyer": "Aktsiaselts Tallinna Linnatransport",
@@ -22305,52 +22256,50 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
-      "deadline": "2026-10-05T19:00:00+00:00",
+      "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+      "title": "Cyberbezpieczne Wodociągi",
+      "buyer": "Zakład Gospodarki Komunalnej i Mieszkaniowej w Gołańczy",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1ad9-f6b6-3b43-db89-6a000146a074",
+      "deadline": "2026-10-06T08:00:00+00:00",
       "estimated_value": null,
       "currency": null,
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
       "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 62,
-      "spm_post_dce_score": 19,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "source_dce_run_id": 32245477480,
-      "source_shard": 1,
-      "procedure_aliases": [
-        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
-      ],
+      "source_dce_run_id": 36346746504,
+      "source_shard": 42,
+      "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
+        "dce_run_id": 36346746504,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+        "release_tag": "dce-harvest-36346746504"
       },
-      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
+      "hot_ready_at": "2026-09-29T18:52:42.591808+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
+      "review_key": "85eae4eddc0b5508a760cf2ed33bd2be36e6c12572fe9aabdf7bddba068b93ba",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
+      "gpt_priority_score": 15,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "existing_inbox",
       "evidence_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
+        "dce_run_id": 36346746504,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+        "release_tag": "dce-harvest-36346746504"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -22500,6 +22449,57 @@
         "shard": 1,
         "candidate_id": "TED:506157-2026",
         "release_tag": "dce-harvest-32806550298"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
+      "deadline": "2026-10-05T19:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 14,
+      "priority_score": 62,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32245477480,
+      "source_shard": 1,
+      "procedure_aliases": [
+        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 32245477480,
+        "shard": 1,
+        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+        "release_tag": "dce-harvest-32245477480"
+      },
+      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32245477480,
+        "shard": 1,
+        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+        "release_tag": "dce-harvest-32245477480"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -22847,55 +22847,6 @@
         "shard": 5,
         "candidate_id": "WORLD-BANK:OP00469721",
         "release_tag": "dce-harvest-35808033048"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-      "title": "Realizacja usługi doradczo-projektowej, obejmującej swoim zakresem opracowanie kompleksowego Systemu Identyfikacji Wielozmysłowej oraz spójnego systemu wayfinding i nośników reklamowych dla BWAWrocław",
-      "buyer": "BWA Wrocław Galerie Sztuki Współczesnej",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-      "deadline": "2026-10-12T05:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 4,
-      "priority_score": 88,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 36533025084,
-      "source_shard": 4,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 36533025084,
-        "shard": 4,
-        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-        "release_tag": "dce-harvest-36533025084"
-      },
-      "hot_ready_at": "2026-10-01T01:51:43.822407+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "bead9370648194eebfccb4c50a143b89473b46184fb833f543a062bf3c7ca5c6",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 36533025084,
-        "shard": 4,
-        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-        "release_tag": "dce-harvest-36533025084"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -23299,6 +23250,204 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+      "title": "Realizacja usługi doradczo-projektowej, obejmującej swoim zakresem opracowanie kompleksowego Systemu Identyfikacji Wielozmysłowej oraz spójnego systemu wayfinding i nośników reklamowych dla BWAWrocław",
+      "buyer": "BWA Wrocław Galerie Sztuki Współczesnej",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+      "deadline": "2026-10-12T05:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 4,
+      "priority_score": 88,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 36533025084,
+      "source_shard": 4,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 36533025084,
+        "shard": 4,
+        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+        "release_tag": "dce-harvest-36533025084"
+      },
+      "hot_ready_at": "2026-10-01T01:51:43.822407+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "bead9370648194eebfccb4c50a143b89473b46184fb833f543a062bf3c7ca5c6",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 36533025084,
+        "shard": 4,
+        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+        "release_tag": "dce-harvest-36533025084"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "CY-EPPS:9258869",
+      "title": "421/2026 Υπηρεσίες Συμβούλων (time and material) για το Σύστημα SAP R/3 για την περίοδο 01/01/2027-31/12/2027,",
+      "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
+      "portal": "CYPRUS_EPPS",
+      "notice_url": "https://www.eprocurement.gov.cy/epps/notices/viewPublishedContractNotice.do?resourceId=9258869&documentId=9259163&noticeType=17&extId=d2d03266-6c1a-4513-b1fb-ab13507c15bb&lang=el&noticeId=9259107&isNational=true",
+      "deadline": "2026-10-11T00:00:00+03:00",
+      "estimated_value": null,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 64,
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 35425026348,
+      "source_shard": 0,
+      "procedure_aliases": [
+        "ie_resource:9258869"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 35425026348,
+        "shard": 0,
+        "candidate_id": "CY-EPPS:9258869",
+        "release_tag": "dce-harvest-35425026348"
+      },
+      "hot_ready_at": "2026-09-19T05:58:58.240913+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "290eee565b3a4bf389a64a0488ae9ff205030bf53838ce59ee8e7a7b18c3e57a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 35425026348,
+        "shard": 0,
+        "candidate_id": "CY-EPPS:9258869",
+        "release_tag": "dce-harvest-35425026348"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+      "title": "Junta de Gobierno del Ayuntamiento de Albacete",
+      "buyer": null,
+      "portal": "ES_PLACSP",
+      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hurFda9d8GX%2Fa9DgO%2BoYKQ%3D%3D",
+      "deadline": null,
+      "estimated_value": "481905.19",
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
+      "evidence_gate_coverage": 9,
+      "priority_score": 42,
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32481227683,
+      "source_shard": 3,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32481227683,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+        "release_tag": "dce-harvest-32481227683"
+      },
+      "hot_ready_at": "2026-08-24T22:51:31.882814+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c38d2cd2f8a4daf327ca9c581c110eac5236adfa1d38b8a8dfb75810508c7f0b",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32481227683,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+        "release_tag": "dce-harvest-32481227683"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "TED:676644-2024",
+      "title": "Belgium – Electrical services – Kwalificatie als dienstverlener voor flexibiliteit en ondersteunende diensten",
+      "buyer": "Fluvius System Operator cv (Speciale Sectoren)",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/676644-2024",
+      "deadline": null,
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 14,
+      "priority_score": 60,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32383561548,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32383561548,
+        "shard": 0,
+        "candidate_id": "TED:676644-2024",
+        "release_tag": "dce-harvest-32383561548"
+      },
+      "hot_ready_at": "2026-08-24T22:51:30.620124+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "6bdca5b6a267f88c9014b00880cf11a6344ffde46f6eba3b3497878cfbf3e6e0",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32383561548,
+        "shard": 0,
+        "candidate_id": "TED:676644-2024",
+        "release_tag": "dce-harvest-32383561548"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "US-SAM:6cb83f5e6b294853829293c308048e4c",
       "title": "Program Coordinator for Border/Points of Entry (POE) Security",
       "buyer": "STATE, DEPARTMENT OF",
@@ -23658,371 +23807,11 @@
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 11,
         "candidate_id": "US-SAM:6cb83f5e6b294853829293c308048e4c",
-        "release_tag": null
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "CY-EPPS:9258869",
-      "title": "421/2026 Υπηρεσίες Συμβούλων (time and material) για το Σύστημα SAP R/3 για την περίοδο 01/01/2027-31/12/2027,",
-      "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
-      "portal": "CYPRUS_EPPS",
-      "notice_url": "https://www.eprocurement.gov.cy/epps/notices/viewPublishedContractNotice.do?resourceId=9258869&documentId=9259163&noticeType=17&extId=d2d03266-6c1a-4513-b1fb-ab13507c15bb&lang=el&noticeId=9259107&isNational=true",
-      "deadline": "2026-10-11T00:00:00+03:00",
-      "estimated_value": null,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 64,
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35425026348,
-      "source_shard": 0,
-      "procedure_aliases": [
-        "ie_resource:9258869"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 35425026348,
-        "shard": 0,
-        "candidate_id": "CY-EPPS:9258869",
-        "release_tag": "dce-harvest-35425026348"
-      },
-      "hot_ready_at": "2026-09-19T05:58:58.240913+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "290eee565b3a4bf389a64a0488ae9ff205030bf53838ce59ee8e7a7b18c3e57a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 35425026348,
-        "shard": 0,
-        "candidate_id": "CY-EPPS:9258869",
-        "release_tag": "dce-harvest-35425026348"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-      "title": "Junta de Gobierno del Ayuntamiento de Albacete",
-      "buyer": null,
-      "portal": "ES_PLACSP",
-      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hurFda9d8GX%2Fa9DgO%2BoYKQ%3D%3D",
-      "deadline": null,
-      "estimated_value": "481905.19",
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
-      "evidence_gate_coverage": 9,
-      "priority_score": 42,
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32481227683,
-      "source_shard": 3,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32481227683,
-        "shard": 3,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-        "release_tag": "dce-harvest-32481227683"
-      },
-      "hot_ready_at": "2026-08-24T22:51:31.882814+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "c38d2cd2f8a4daf327ca9c581c110eac5236adfa1d38b8a8dfb75810508c7f0b",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 32481227683,
-        "shard": 3,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-        "release_tag": "dce-harvest-32481227683"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "TED:676644-2024",
-      "title": "Belgium – Electrical services – Kwalificatie als dienstverlener voor flexibiliteit en ondersteunende diensten",
-      "buyer": "Fluvius System Operator cv (Speciale Sectoren)",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/676644-2024",
-      "deadline": null,
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 60,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32383561548,
-      "source_shard": 0,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32383561548,
-        "shard": 0,
-        "candidate_id": "TED:676644-2024",
-        "release_tag": "dce-harvest-32383561548"
-      },
-      "hot_ready_at": "2026-08-24T22:51:30.620124+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "6bdca5b6a267f88c9014b00880cf11a6344ffde46f6eba3b3497878cfbf3e6e0",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 32383561548,
-        "shard": 0,
-        "candidate_id": "TED:676644-2024",
-        "release_tag": "dce-harvest-32383561548"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
-      "title": "Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności",
-      "buyer": "GŁÓWNY INSPEKTORAT SANITARNY",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
-      "deadline": "2026-10-07T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "preliminary_score": 88,
-      "priority_score": 88,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "gate_readiness": true,
-      "deadline_authority": {
-        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-        "conflict": false,
-        "notice_deadline_raw": "2026-10-07T08:00:00+00:00",
-        "notice_deadline_date": "2026-10-07",
-        "authoritative_submission_date": "2026-10-07",
-        "submission_deadline_candidates": [
-          "2026-10-07"
-        ],
-        "query_deadline_candidates": [],
-        "dce_deadline_candidates": [
-          "2018-10-04",
-          "2026-09-29",
-          "2026-10-07",
-          "2026-11-05"
-        ],
-        "labelled_evidence": [
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 3,
-            "context": "e wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.)"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 2,
-            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Mak"
-          }
-        ],
-        "evidence": [
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "Przedmiot zamówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te b"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "amówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te będą miały w"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "i zmiany te będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wy"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": " będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wymagania zwi"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "duje następujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji"
-          },
-          {
-            "date": "2026-11-05",
-            "match": "2026-11-05",
-            "context": "składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: \n3\n8.7) Kryteria oceny ofert, które zamawiający za"
-          },
-          {
-            "date": "2018-10-04",
-            "match": "4 października 2018",
-            "context": "do reprezentowania Wykonawcy i złożenia (podpisania) w\nkładki na ubezpieczenia społeczne lub zdrowotne;\n4) zmiany zasad gromadzenia i wysokości wpłat do pracowniczych planów kapitałowych, o których mowa w ustawie z dnia 4 października 2018 r. o pracowniczych planach kapitałowych – jeżeli zmiany te będą miały wpływ na koszty wykonania Umowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z re"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający pr"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: "
-          },
-          {
-            "date": "2026-11-05",
-            "match": "2026-11-05",
-            "context": "min składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: 3\n8.7) Kryteria oceny ofert, które zamawiający zami"
-          }
-        ],
-        "context_stats": {
-          "gate_contexts": 0,
-          "corpus_contexts": 5,
-          "unique_contexts": 5
-        },
-        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
-      },
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_resolved": false,
-      "evidence_gate_coverage": 3,
-      "evidence_by_gate": {
-        "entity_geography": [
-          {
-            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29 2026-09-29",
-            "source": "files/2026_BZP 00462205_01.pdf",
-            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
-            "source_sha256": "93dab8468c1534aa59ab839e7fabfd8032f8657c3e615888d00f34ffe71f664e",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 849,
-            "corpus_end": 2152,
-            "match": "eea"
-          },
-          {
-            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Projekt realizowany z Program",
-            "source": "files/portal_page.txt",
-            "source_url": null,
-            "source_sha256": "2d249199777b2474dd512df69837aaaf0462145e1f1a9bc0565bffef7f974608",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 30221,
-            "corpus_end": 31524,
-            "match": "eea"
-          }
-        ],
-        "turnover_financial": [],
-        "references_experience": [],
-        "certifications_partner": [],
-        "staffing_team": [
-          {
-            "text": "D AO AI AQ AG AN SA AR AM AW AU AT AZ BS BH BD BB BE BZ BJ BM BT BY MM BO BQ BA BW BR BN VG IO BG BF BI CL CN HR CW CY TD ME DK DM DJ EG EC ER EE ET FK RU FJ PH FI TF FR GA GM GH GI GR GD GL GE GU GG GY GF GP GT GN GW GQ HT HM ES NL HN HK IN ID IQ IR IE IS IL JM JP YE JE JO YU KY KH CM CA QA KZ KE KG KI CO KM CG KR KP CR CU KW LA LS LB LR LY LI LT LU LV MK MG MO MW MV MY ML MT MP MA MQ MR MU YT MX FM MD MC MN MS MZ NA NR NP DE NE NG NI NO NC NZ OM PK PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 59617,
-            "corpus_end": 60901,
-            "match": "CV"
-          }
-        ],
-        "insurance_bonds": [],
-        "subcontracting_consortium": [],
-        "deliverables_scope": [],
-        "sla_onsite": [],
-        "term_value": [],
-        "award_criteria": [],
-        "forms_signatures": [],
-        "submission": [],
-        "ip_data_security": [
-          {
-            "text": "K PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 60070,
-            "corpus_end": 60901,
-            "match": "Copyright"
-          }
-        ]
-      },
-      "source_dce_run_id": 36955861695,
-      "source_shard": 6,
-      "hot_ready_at": "2026-10-02T02:32:35.908071+00:00",
-      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "7017672b23c4b8e9df62cac3f81bcc2129a58133b80e7e543b3c97089c6289d0",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 36955861695,
-        "shard": 6,
-        "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -24301,6 +24090,217 @@
         "dce_run_id": 36955861695,
         "shard": 2,
         "candidate_id": "EE-RHR:53e23c1c-addf-4fb8-ace7-fd19eeea073e",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
+      "title": "Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności",
+      "buyer": "GŁÓWNY INSPEKTORAT SANITARNY",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
+      "deadline": "2026-10-07T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 88,
+      "priority_score": 88,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-07T08:00:00+00:00",
+        "notice_deadline_date": "2026-10-07",
+        "authoritative_submission_date": "2026-10-07",
+        "submission_deadline_candidates": [
+          "2026-10-07"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2018-10-04",
+          "2026-09-29",
+          "2026-10-07",
+          "2026-11-05"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "e wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.)"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Mak"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "Przedmiot zamówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te b"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "amówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te będą miały w"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "i zmiany te będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wy"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": " będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wymagania zwi"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "duje następujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji"
+          },
+          {
+            "date": "2026-11-05",
+            "match": "2026-11-05",
+            "context": "składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: \n3\n8.7) Kryteria oceny ofert, które zamawiający za"
+          },
+          {
+            "date": "2018-10-04",
+            "match": "4 października 2018",
+            "context": "do reprezentowania Wykonawcy i złożenia (podpisania) w\nkładki na ubezpieczenia społeczne lub zdrowotne;\n4) zmiany zasad gromadzenia i wysokości wpłat do pracowniczych planów kapitałowych, o których mowa w ustawie z dnia 4 października 2018 r. o pracowniczych planach kapitałowych – jeżeli zmiany te będą miały wpływ na koszty wykonania Umowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z re"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający pr"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: "
+          },
+          {
+            "date": "2026-11-05",
+            "match": "2026-11-05",
+            "context": "min składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: 3\n8.7) Kryteria oceny ofert, które zamawiający zami"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 5,
+          "unique_contexts": 5
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 3,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29 2026-09-29",
+            "source": "files/2026_BZP 00462205_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
+            "source_sha256": "93dab8468c1534aa59ab839e7fabfd8032f8657c3e615888d00f34ffe71f664e",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 849,
+            "corpus_end": 2152,
+            "match": "eea"
+          },
+          {
+            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Projekt realizowany z Program",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "2d249199777b2474dd512df69837aaaf0462145e1f1a9bc0565bffef7f974608",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 30221,
+            "corpus_end": 31524,
+            "match": "eea"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [
+          {
+            "text": "D AO AI AQ AG AN SA AR AM AW AU AT AZ BS BH BD BB BE BZ BJ BM BT BY MM BO BQ BA BW BR BN VG IO BG BF BI CL CN HR CW CY TD ME DK DM DJ EG EC ER EE ET FK RU FJ PH FI TF FR GA GM GH GI GR GD GL GE GU GG GY GF GP GT GN GW GQ HT HM ES NL HN HK IN ID IQ IR IE IS IL JM JP YE JE JO YU KY KH CM CA QA KZ KE KG KI CO KM CG KR KP CR CU KW LA LS LB LR LY LI LT LU LV MK MG MO MW MV MY ML MT MP MA MQ MR MU YT MX FM MD MC MN MS MZ NA NR NP DE NE NG NI NO NC NZ OM PK PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 59617,
+            "corpus_end": 60901,
+            "match": "CV"
+          }
+        ],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "K PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 60070,
+            "corpus_end": 60901,
+            "match": "Copyright"
+          }
+        ]
+      },
+      "source_dce_run_id": 36955861695,
+      "source_shard": 6,
+      "hot_ready_at": "2026-10-02T02:32:35.908071+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "7017672b23c4b8e9df62cac3f81bcc2129a58133b80e7e543b3c97089c6289d0",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 36955861695,
+        "shard": 6,
+        "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -43687,7 +43687,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 7,
@@ -44380,7 +44380,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 9,
@@ -46512,55 +46512,6 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
-      "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-      "title": "Cyberbezpieczne Wodociągi",
-      "buyer": "Zakład Gospodarki Komunalnej i Mieszkaniowej w Gołańczy",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1ad9-f6b6-3b43-db89-6a000146a074",
-      "deadline": "2026-10-06T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 6,
-      "priority_score": 76,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 36346746504,
-      "source_shard": 42,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 36346746504,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-        "release_tag": "dce-harvest-36346746504"
-      },
-      "hot_ready_at": "2026-09-29T18:52:42.591808+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "85eae4eddc0b5508a760cf2ed33bd2be36e6c12572fe9aabdf7bddba068b93ba",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 36346746504,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
-        "release_tag": "dce-harvest-36346746504"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
       "title": "Trammide ostmine",
       "buyer": "Aktsiaselts Tallinna Linnatransport",
@@ -46610,52 +46561,50 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
-      "deadline": "2026-10-05T19:00:00+00:00",
+      "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+      "title": "Cyberbezpieczne Wodociągi",
+      "buyer": "Zakład Gospodarki Komunalnej i Mieszkaniowej w Gołańczy",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1ad9-f6b6-3b43-db89-6a000146a074",
+      "deadline": "2026-10-06T08:00:00+00:00",
       "estimated_value": null,
       "currency": null,
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
       "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 62,
-      "spm_post_dce_score": 19,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 6,
+      "priority_score": 76,
+      "spm_post_dce_score": 15,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "source_dce_run_id": 32245477480,
-      "source_shard": 1,
-      "procedure_aliases": [
-        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
-      ],
+      "source_dce_run_id": 36346746504,
+      "source_shard": 42,
+      "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
+        "dce_run_id": 36346746504,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+        "release_tag": "dce-harvest-36346746504"
       },
-      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
+      "hot_ready_at": "2026-09-29T18:52:42.591808+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
+      "review_key": "85eae4eddc0b5508a760cf2ed33bd2be36e6c12572fe9aabdf7bddba068b93ba",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
+      "gpt_priority_score": 15,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
       "inbox_live_source": "existing_inbox",
       "evidence_locator": {
-        "dce_run_id": 32245477480,
-        "shard": 1,
-        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
-        "release_tag": "dce-harvest-32245477480"
+        "dce_run_id": 36346746504,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df1ad9-f6b6-3b43-db89-6a000146a074",
+        "release_tag": "dce-harvest-36346746504"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -46805,6 +46754,57 @@
         "shard": 1,
         "candidate_id": "TED:506157-2026",
         "release_tag": "dce-harvest-32806550298"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+      "title": "Government-Owned, Contactor-Operated (GOCO) and Contractor-Owned/Contractor-Operated (COCO) fuel services at Marine Corps Air Ground Combat Center 29 Palms, CA",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/98c2200a08414653a9dd7c08fcacdef8/view",
+      "deadline": "2026-10-05T19:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 14,
+      "priority_score": 62,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32245477480,
+      "source_shard": 1,
+      "procedure_aliases": [
+        "sam_opp:98c2200a08414653a9dd7c08fcacdef8"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 32245477480,
+        "shard": 1,
+        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+        "release_tag": "dce-harvest-32245477480"
+      },
+      "hot_ready_at": "2026-08-24T22:51:24.694554+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "619af56a27f2966de33294e8cce7ff599e8a8a1c1495d99029332e9e4286770f",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32245477480,
+        "shard": 1,
+        "candidate_id": "US-SAM:98c2200a08414653a9dd7c08fcacdef8",
+        "release_tag": "dce-harvest-32245477480"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -47152,55 +47152,6 @@
         "shard": 5,
         "candidate_id": "WORLD-BANK:OP00469721",
         "release_tag": "dce-harvest-35808033048"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-      "title": "Realizacja usługi doradczo-projektowej, obejmującej swoim zakresem opracowanie kompleksowego Systemu Identyfikacji Wielozmysłowej oraz spójnego systemu wayfinding i nośników reklamowych dla BWAWrocław",
-      "buyer": "BWA Wrocław Galerie Sztuki Współczesnej",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-      "deadline": "2026-10-12T05:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 4,
-      "priority_score": 88,
-      "spm_post_dce_score": 15,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 36533025084,
-      "source_shard": 4,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 36533025084,
-        "shard": 4,
-        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-        "release_tag": "dce-harvest-36533025084"
-      },
-      "hot_ready_at": "2026-10-01T01:51:43.822407+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "bead9370648194eebfccb4c50a143b89473b46184fb833f543a062bf3c7ca5c6",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 15,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 36533025084,
-        "shard": 4,
-        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
-        "release_tag": "dce-harvest-36533025084"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -47604,6 +47555,204 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+      "title": "Realizacja usługi doradczo-projektowej, obejmującej swoim zakresem opracowanie kompleksowego Systemu Identyfikacji Wielozmysłowej oraz spójnego systemu wayfinding i nośników reklamowych dla BWAWrocław",
+      "buyer": "BWA Wrocław Galerie Sztuki Współczesnej",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+      "deadline": "2026-10-12T05:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 4,
+      "priority_score": 88,
+      "spm_post_dce_score": 15,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 36533025084,
+      "source_shard": 4,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 36533025084,
+        "shard": 4,
+        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+        "release_tag": "dce-harvest-36533025084"
+      },
+      "hot_ready_at": "2026-10-01T01:51:43.822407+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "bead9370648194eebfccb4c50a143b89473b46184fb833f543a062bf3c7ca5c6",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 15,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 36533025084,
+        "shard": 4,
+        "candidate_id": "PL-BZP:08df14a2-8eb2-63bb-db89-6a0001bc4d1b",
+        "release_tag": "dce-harvest-36533025084"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "CY-EPPS:9258869",
+      "title": "421/2026 Υπηρεσίες Συμβούλων (time and material) για το Σύστημα SAP R/3 για την περίοδο 01/01/2027-31/12/2027,",
+      "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
+      "portal": "CYPRUS_EPPS",
+      "notice_url": "https://www.eprocurement.gov.cy/epps/notices/viewPublishedContractNotice.do?resourceId=9258869&documentId=9259163&noticeType=17&extId=d2d03266-6c1a-4513-b1fb-ab13507c15bb&lang=el&noticeId=9259107&isNational=true",
+      "deadline": "2026-10-11T00:00:00+03:00",
+      "estimated_value": null,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 6,
+      "priority_score": 64,
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 35425026348,
+      "source_shard": 0,
+      "procedure_aliases": [
+        "ie_resource:9258869"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 35425026348,
+        "shard": 0,
+        "candidate_id": "CY-EPPS:9258869",
+        "release_tag": "dce-harvest-35425026348"
+      },
+      "hot_ready_at": "2026-09-19T05:58:58.240913+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "290eee565b3a4bf389a64a0488ae9ff205030bf53838ce59ee8e7a7b18c3e57a",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 35425026348,
+        "shard": 0,
+        "candidate_id": "CY-EPPS:9258869",
+        "release_tag": "dce-harvest-35425026348"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+      "title": "Junta de Gobierno del Ayuntamiento de Albacete",
+      "buyer": null,
+      "portal": "ES_PLACSP",
+      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hurFda9d8GX%2Fa9DgO%2BoYKQ%3D%3D",
+      "deadline": null,
+      "estimated_value": "481905.19",
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
+      "evidence_gate_coverage": 9,
+      "priority_score": 42,
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32481227683,
+      "source_shard": 3,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32481227683,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+        "release_tag": "dce-harvest-32481227683"
+      },
+      "hot_ready_at": "2026-08-24T22:51:31.882814+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c38d2cd2f8a4daf327ca9c581c110eac5236adfa1d38b8a8dfb75810508c7f0b",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32481227683,
+        "shard": 3,
+        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
+        "release_tag": "dce-harvest-32481227683"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "TED:676644-2024",
+      "title": "Belgium – Electrical services – Kwalificatie als dienstverlener voor flexibiliteit en ondersteunende diensten",
+      "buyer": "Fluvius System Operator cv (Speciale Sectoren)",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/676644-2024",
+      "deadline": null,
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 14,
+      "priority_score": 60,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 32383561548,
+      "source_shard": 0,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 32383561548,
+        "shard": 0,
+        "candidate_id": "TED:676644-2024",
+        "release_tag": "dce-harvest-32383561548"
+      },
+      "hot_ready_at": "2026-08-24T22:51:30.620124+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "6bdca5b6a267f88c9014b00880cf11a6344ffde46f6eba3b3497878cfbf3e6e0",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 32383561548,
+        "shard": 0,
+        "candidate_id": "TED:676644-2024",
+        "release_tag": "dce-harvest-32383561548"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "US-SAM:6cb83f5e6b294853829293c308048e4c",
       "title": "Program Coordinator for Border/Points of Entry (POE) Security",
       "buyer": "STATE, DEPARTMENT OF",
@@ -47963,371 +48112,11 @@
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 36955861695,
         "shard": 11,
         "candidate_id": "US-SAM:6cb83f5e6b294853829293c308048e4c",
-        "release_tag": null
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "CY-EPPS:9258869",
-      "title": "421/2026 Υπηρεσίες Συμβούλων (time and material) για το Σύστημα SAP R/3 για την περίοδο 01/01/2027-31/12/2027,",
-      "buyer": "Αρχή Ηλεκτρισμού Κύπρου",
-      "portal": "CYPRUS_EPPS",
-      "notice_url": "https://www.eprocurement.gov.cy/epps/notices/viewPublishedContractNotice.do?resourceId=9258869&documentId=9259163&noticeType=17&extId=d2d03266-6c1a-4513-b1fb-ab13507c15bb&lang=el&noticeId=9259107&isNational=true",
-      "deadline": "2026-10-11T00:00:00+03:00",
-      "estimated_value": null,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 6,
-      "priority_score": 64,
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 35425026348,
-      "source_shard": 0,
-      "procedure_aliases": [
-        "ie_resource:9258869"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 35425026348,
-        "shard": 0,
-        "candidate_id": "CY-EPPS:9258869",
-        "release_tag": "dce-harvest-35425026348"
-      },
-      "hot_ready_at": "2026-09-19T05:58:58.240913+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "290eee565b3a4bf389a64a0488ae9ff205030bf53838ce59ee8e7a7b18c3e57a",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 35425026348,
-        "shard": 0,
-        "candidate_id": "CY-EPPS:9258869",
-        "release_tag": "dce-harvest-35425026348"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-      "title": "Junta de Gobierno del Ayuntamiento de Albacete",
-      "buyer": null,
-      "portal": "ES_PLACSP",
-      "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hurFda9d8GX%2Fa9DgO%2BoYKQ%3D%3D",
-      "deadline": null,
-      "estimated_value": "481905.19",
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
-      "evidence_gate_coverage": 9,
-      "priority_score": 42,
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32481227683,
-      "source_shard": 3,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32481227683,
-        "shard": 3,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-        "release_tag": "dce-harvest-32481227683"
-      },
-      "hot_ready_at": "2026-08-24T22:51:31.882814+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "c38d2cd2f8a4daf327ca9c581c110eac5236adfa1d38b8a8dfb75810508c7f0b",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 32481227683,
-        "shard": 3,
-        "candidate_id": "ES-PLACSP:https:_contrataciondelestado.es_sindicacion_licitacionesPerfilContratante_19357592",
-        "release_tag": "dce-harvest-32481227683"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "TED:676644-2024",
-      "title": "Belgium – Electrical services – Kwalificatie als dienstverlener voor flexibiliteit en ondersteunende diensten",
-      "buyer": "Fluvius System Operator cv (Speciale Sectoren)",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/676644-2024",
-      "deadline": null,
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 14,
-      "priority_score": 60,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 32383561548,
-      "source_shard": 0,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 32383561548,
-        "shard": 0,
-        "candidate_id": "TED:676644-2024",
-        "release_tag": "dce-harvest-32383561548"
-      },
-      "hot_ready_at": "2026-08-24T22:51:30.620124+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "6bdca5b6a267f88c9014b00880cf11a6344ffde46f6eba3b3497878cfbf3e6e0",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 32383561548,
-        "shard": 0,
-        "candidate_id": "TED:676644-2024",
-        "release_tag": "dce-harvest-32383561548"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
-      "title": "Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności",
-      "buyer": "GŁÓWNY INSPEKTORAT SANITARNY",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
-      "deadline": "2026-10-07T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "preliminary_score": 88,
-      "priority_score": 88,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "gate_readiness": true,
-      "deadline_authority": {
-        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-        "conflict": false,
-        "notice_deadline_raw": "2026-10-07T08:00:00+00:00",
-        "notice_deadline_date": "2026-10-07",
-        "authoritative_submission_date": "2026-10-07",
-        "submission_deadline_candidates": [
-          "2026-10-07"
-        ],
-        "query_deadline_candidates": [],
-        "dce_deadline_candidates": [
-          "2018-10-04",
-          "2026-09-29",
-          "2026-10-07",
-          "2026-11-05"
-        ],
-        "labelled_evidence": [
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 3,
-            "context": "e wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.)"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 2,
-            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Mak"
-          }
-        ],
-        "evidence": [
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "Przedmiot zamówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te b"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "amówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te będą miały w"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": "i zmiany te będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wy"
-          },
-          {
-            "date": "2026-09-29",
-            "match": "2026-09-29",
-            "context": " będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wymagania zwi"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "duje następujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji"
-          },
-          {
-            "date": "2026-11-05",
-            "match": "2026-11-05",
-            "context": "składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: \n3\n8.7) Kryteria oceny ofert, które zamawiający za"
-          },
-          {
-            "date": "2018-10-04",
-            "match": "4 października 2018",
-            "context": "do reprezentowania Wykonawcy i złożenia (podpisania) w\nkładki na ubezpieczenia społeczne lub zdrowotne;\n4) zmiany zasad gromadzenia i wysokości wpłat do pracowniczych planów kapitałowych, o których mowa w ustawie z dnia 4 października 2018 r. o pracowniczych planach kapitałowych – jeżeli zmiany te będą miały wpływ na koszty wykonania Umowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z re"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający pr"
-          },
-          {
-            "date": "2026-10-07",
-            "match": "2026-10-07",
-            "context": "w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: "
-          },
-          {
-            "date": "2026-11-05",
-            "match": "2026-11-05",
-            "context": "min składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: 3\n8.7) Kryteria oceny ofert, które zamawiający zami"
-          }
-        ],
-        "context_stats": {
-          "gate_contexts": 0,
-          "corpus_contexts": 5,
-          "unique_contexts": 5
-        },
-        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
-      },
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_resolved": false,
-      "evidence_gate_coverage": 3,
-      "evidence_by_gate": {
-        "entity_geography": [
-          {
-            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29 2026-09-29",
-            "source": "files/2026_BZP 00462205_01.pdf",
-            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
-            "source_sha256": "93dab8468c1534aa59ab839e7fabfd8032f8657c3e615888d00f34ffe71f664e",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 849,
-            "corpus_end": 2152,
-            "match": "eea"
-          },
-          {
-            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Projekt realizowany z Program",
-            "source": "files/portal_page.txt",
-            "source_url": null,
-            "source_sha256": "2d249199777b2474dd512df69837aaaf0462145e1f1a9bc0565bffef7f974608",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 30221,
-            "corpus_end": 31524,
-            "match": "eea"
-          }
-        ],
-        "turnover_financial": [],
-        "references_experience": [],
-        "certifications_partner": [],
-        "staffing_team": [
-          {
-            "text": "D AO AI AQ AG AN SA AR AM AW AU AT AZ BS BH BD BB BE BZ BJ BM BT BY MM BO BQ BA BW BR BN VG IO BG BF BI CL CN HR CW CY TD ME DK DM DJ EG EC ER EE ET FK RU FJ PH FI TF FR GA GM GH GI GR GD GL GE GU GG GY GF GP GT GN GW GQ HT HM ES NL HN HK IN ID IQ IR IE IS IL JM JP YE JE JO YU KY KH CM CA QA KZ KE KG KI CO KM CG KR KP CR CU KW LA LS LB LR LY LI LT LU LV MK MG MO MW MV MY ML MT MP MA MQ MR MU YT MX FM MD MC MN MS MZ NA NR NP DE NE NG NI NO NC NZ OM PK PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 59617,
-            "corpus_end": 60901,
-            "match": "CV"
-          }
-        ],
-        "insurance_bonds": [],
-        "subcontracting_consortium": [],
-        "deliverables_scope": [],
-        "sla_onsite": [],
-        "term_value": [],
-        "award_criteria": [],
-        "forms_signatures": [],
-        "submission": [],
-        "ip_data_security": [
-          {
-            "text": "K PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 60070,
-            "corpus_end": 60901,
-            "match": "Copyright"
-          }
-        ]
-      },
-      "source_dce_run_id": 36955861695,
-      "source_shard": 6,
-      "hot_ready_at": "2026-10-02T02:32:35.908071+00:00",
-      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
-      "spm_post_dce_score": 14,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "7017672b23c4b8e9df62cac3f81bcc2129a58133b80e7e543b3c97089c6289d0",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 14,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 36955861695,
-        "shard": 6,
-        "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -48609,6 +48398,217 @@
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
+      "title": "Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności",
+      "buyer": "GŁÓWNY INSPEKTORAT SANITARNY",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
+      "deadline": "2026-10-07T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 88,
+      "priority_score": 88,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-07T08:00:00+00:00",
+        "notice_deadline_date": "2026-10-07",
+        "authoritative_submission_date": "2026-10-07",
+        "submission_deadline_candidates": [
+          "2026-10-07"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2018-10-04",
+          "2026-09-29",
+          "2026-10-07",
+          "2026-11-05"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "e wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.)"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Mak"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "Przedmiot zamówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te b"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "amówienia szczegółowo opisano w załączniku nr 2 do SWZ.\n4.2.6.) Główny kod CPV: \n92111100-3 - Produkcja filmów instruktażowych oraz taśm wideo\n4.2.7.) Dodatkowy kod CPV:\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\n92111250-9 - Produkcja\nach kapitałowych – jeżeli zmiany te będą miały w"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": "i zmiany te będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wy"
+          },
+          {
+            "date": "2026-09-29",
+            "match": "2026-09-29",
+            "context": " będą miały wpływ na koszty wykonania\nUmowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nOgłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29\n2026-09-29 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy - Usługi\nzamówienia: \nTak\n7.6.) Zamawiający przewiduje następujące wymagania zwi"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "duje następujące wymagania związane z realizacją zamówienia:\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "art. 95 ustawy\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji"
+          },
+          {
+            "date": "2026-11-05",
+            "match": "2026-11-05",
+            "context": "składania ofert: \n2026-10-07 10:00\n8.2.) Miejsce składania ofert: \nhttps://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: \n2026-10-07 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: \nTak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: \n3\n8.7) Kryteria oceny ofert, które zamawiający za"
+          },
+          {
+            "date": "2018-10-04",
+            "match": "4 października 2018",
+            "context": "do reprezentowania Wykonawcy i złożenia (podpisania) w\nkładki na ubezpieczenia społeczne lub zdrowotne;\n4) zmiany zasad gromadzenia i wysokości wpłat do pracowniczych planów kapitałowych, o których mowa w ustawie z dnia 4 października 2018 r. o pracowniczych planach kapitałowych – jeżeli zmiany te będą miały wpływ na koszty wykonania Umowy przez Wykonawcę.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z re"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "uje następujące wymagania związane z realizacją zamówienia:\n\nw zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający pr"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "w art. 95 ustawy\n\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: "
+          },
+          {
+            "date": "2026-11-05",
+            "match": "2026-11-05",
+            "context": "min składania ofert: 2026-10-07 10:00\n8.2.) Miejsce składania ofert: https://gis.ezamawiajacy.pl/pn/gis/demand/322740/notice/public/details\n8.3.) Termin otwarcia ofert: 2026-10-07 10:30\n8.4.) Termin związania ofertą: do 2026-11-05\n8.5.) Zamawiający przewiduje wybór najkorzystniejszej oferty z możliwością negocjacji: Tak\n8.6.) Maksymalna liczba wykonawców, którzy zostaną zaproszeni do negocjacji: 3\n8.7) Kryteria oceny ofert, które zamawiający zami"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 5,
+          "unique_contexts": 5
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 3,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak Ogłoszenie nr 2026/BZP 00462205 z dnia 2026-09-29 2026-09-29",
+            "source": "files/2026_BZP 00462205_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df1e37-0ded-4cc8-647d-de0001fc45a3",
+            "source_sha256": "93dab8468c1534aa59ab839e7fabfd8032f8657c3e615888d00f34ffe71f664e",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 849,
+            "corpus_end": 2152,
+            "match": "eea"
+          },
+          {
+            "text": "ny-inspektorat-sanitarny 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - organ władzy publicznej - organ administracji rządowej (centralnej lub terenowej) 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Kompleksowa usługa produkcji filmu edukacyjnego dla pracowników Państwowej Inspekcji Sanitarnej w zakresie urzędowego pobierania próbek żywności 2.4.) Identyfikator postępowania: ocds-148610-aeead9f1-da3a-4b66-b81f-fb5966c9f703 2.5.) Numer ogłoszenia: 2026/BZP 00462205 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-29 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00117733/10/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.15 Realizacja filmu edukacyjnego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu Projekt realizowany z Program",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "2d249199777b2474dd512df69837aaaf0462145e1f1a9bc0565bffef7f974608",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 30221,
+            "corpus_end": 31524,
+            "match": "eea"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [
+          {
+            "text": "D AO AI AQ AG AN SA AR AM AW AU AT AZ BS BH BD BB BE BZ BJ BM BT BY MM BO BQ BA BW BR BN VG IO BG BF BI CL CN HR CW CY TD ME DK DM DJ EG EC ER EE ET FK RU FJ PH FI TF FR GA GM GH GI GR GD GL GE GU GG GY GF GP GT GN GW GQ HT HM ES NL HN HK IN ID IQ IR IE IS IL JM JP YE JE JO YU KY KH CM CA QA KZ KE KG KI CO KM CG KR KP CR CU KW LA LS LB LR LY LI LT LU LV MK MG MO MW MV MY ML MT MP MA MQ MR MU YT MX FM MD MC MN MS MZ NA NR NP DE NE NG NI NO NC NZ OM PK PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 59617,
+            "corpus_end": 60901,
+            "match": "CV"
+          }
+        ],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "K PW PS PA PG PY PE PF PT PR DO CZ CF CD RE ZA RW RO BL LC MF SV AS SM GS SN RS SC SL SG SX SK SI SO LK KN PM SZ SD SR SJ SY CH SE SH TJ TH TW TZ TP TL TG TT TN TR TM TC TV UG UA UY US UZ VU VC ST CV WF VA VE HU GB VN IT CI UM CX IM AX BV CK CC MH NU NF FO PN SB TK TO EH WS ZM ZW AE Adres email: * Temat: * Treść: * Załączniki: Inne Wpisz kod z obrazka: * Powrót --> Klucz tooltipa: PL: EN: Wszystkie Ulubione Wyszukiwarka Nazwa kategorii Opis kategorii Wyczyść Szukaj Wyszukiwarka kodów Nazwa kategorii Opis kategorii Wyczyść Szukaj Akcje Zapisz wybór Akcje jsp.categorypopup.pickfavouritecategory Akcje Zapisz wybór Numer Nazwa x Kalkulator VAT © Copyright by Marketplanet | Wersja 3.9.10-EZAM Zgłoszenia można również kierować pod numerem infolinii: +48 (22) 257 22 24 – dla zamawiających, +48 (22) 257 22 23 – dla wykonawców.",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "9f12175200a124bb8645401fdea248704396354add6db8336326a490c3d97597",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 60070,
+            "corpus_end": 60901,
+            "match": "Copyright"
+          }
+        ]
+      },
+      "source_dce_run_id": 36955861695,
+      "source_shard": 6,
+      "hot_ready_at": "2026-10-02T02:32:35.908071+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "7017672b23c4b8e9df62cac3f81bcc2129a58133b80e7e543b3c97089c6289d0",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 14,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 36955861695,
+        "shard": 6,
+        "candidate_id": "PL-BZP:08df1e37-0ded-4cc8-647d-de0001fc45a3",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "ELASTIC_FILL"
     }
   ],
@@ -48658,7 +48658,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 163,
+    "pending_before_visible_cap": 160,
     "pending_by_stage": {
       "BUSINESS_GATES": 141,
       "DCE_AUTHENTICITY": 19
