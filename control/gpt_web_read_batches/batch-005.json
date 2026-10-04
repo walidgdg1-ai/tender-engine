@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-04T10:46:35.636256+00:00",
-  "source_inbox_updated_at": "2026-10-04T08:22:59.754231+00:00",
+  "generated_at": "2026-10-04T14:12:58.841722+00:00",
+  "source_inbox_updated_at": "2026-10-04T14:12:57.784928+00:00",
   "latest_source_dce_run_id": 37188290954,
   "batch_index": 5,
   "start_rank": 51,
@@ -505,7 +505,7 @@
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 0,
+      "evidence_gate_coverage": 6,
       "spm_post_dce_score": 57,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
@@ -515,33 +515,25 @@
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 37169754989,
+      "source_dce_run_id": 37188290954,
       "source_shard": 2,
-      "review_key": "4197c893f3769b68e8019f2976dbe16b397a922f44f0b26fc35d81ec865e3bb5",
+      "review_key": "770e2513782829951c77a822c7ce1e81b40ea3745862b3dd99c0a35215b41cf8",
       "artifact_locator": {
-        "dce_run_id": 37169754989,
+        "dce_run_id": 37188290954,
         "shard": 2,
         "candidate_id": "CA:WS5799525017",
-        "release_tag": "dce-harvest-37169754989"
+        "release_tag": "dce-harvest-37188290954"
       },
       "evidence_quality": {
-        "raw_status": "DOWNLOADED_PUBLIC",
-        "documents_with_text": 0,
-        "text_chars": 0,
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
         "attributed_compact_snippets": 0,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": false
       },
       "evidence": {},
-      "provenance_override": {
-        "applied": true,
-        "refreshed_at": "2026-10-04T10:46:20.262919+00:00",
-        "source_dce_run_id": 37169754989,
-        "release_tag": null,
-        "archive_name": null,
-        "bundle_asset": null,
-        "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
-      },
+      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
