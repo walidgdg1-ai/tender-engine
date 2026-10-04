@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-04T02:08:01.073819+00:00",
-  "source_inbox_updated_at": "2026-10-04T02:07:59.962404+00:00",
+  "generated_at": "2026-10-04T02:08:47.212583+00:00",
+  "source_inbox_updated_at": "2026-10-04T02:08:46.011978+00:00",
   "latest_source_dce_run_id": 37169754989,
   "batch_index": 14,
   "start_rank": 141,
@@ -363,7 +363,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-10-05",
       "source_dce_run_id": 32179607313,
       "source_shard": 16,
       "review_key": "41dc6ac4101977452627b4f6277f0bf0df4c2abe4be0a07600bc7842831e9c1c",
@@ -374,14 +374,323 @@
         "release_tag": "dce-harvest-32179607313"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 287,
+        "text_chars": 11874334,
         "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
+        "artifact_lookup_required_snippets": 28,
         "all_compact_snippets_document_attributed": false
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "#Addenda ID 1 Status Published Title Contract notice - general directive, standard regime File Associated :<8709163_Contract notice - general directive, standard regime.pdf > #Addenda ID 2 Status Published Title Prior information notice used only for information - general directive File Associated :<8709163_Prior information notice used only for information - general directive.pdf > ===== FILE: files/1337_8709163_unpacked/1_ESPD.docx ===== European Single Procurement Document (ESPD) Part I: Information concerning …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "e Contract notice - general directive, standard regime File Associated :<8709163_Contract notice - general directive, standard regime.pdf > #Addenda ID 2 Status Published Title Prior information notice used only for information - general directive File Associated :<8709163_Prior information notice used only for information - general directive.pdf > ===== FILE: files/1337_8709163_unpacked/1_ESPD.docx ===== European Single Procurement Document (ESPD) Part I: Information concerning the procurement procedure and the c…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "/w:rPr><w:t xml:space=\"preserve\">employ fewer than 250 </w:t></w:r><w:r w:rsidR=\"002A2F5A\" w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\"/><w:b/><w:i/><w:sz w:val=\"14\"/><w:szCs w:val=\"14\"/></w:rPr><w:t>persons,</w:t></w:r><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\"/><w:i/><w:sz w:val=\"14\"/><w:szCs w:val=\"14\"/></w:rPr><w:t xml:space=\"preserve\"> and which have an </w:t></w:r><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asci…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "/w:r><w:r w:rsidR=\"002A2F5A\" w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\"/><w:b/><w:i/><w:sz w:val=\"14\"/><w:szCs w:val=\"14\"/></w:rPr><w:t>persons,</w:t></w:r><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\"/><w:i/><w:sz w:val=\"14\"/><w:szCs w:val=\"14\"/></w:rPr><w:t xml:space=\"preserve\"> and which have an </w:t></w:r><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:hAnsiTheme=\"minorHAnsi\"/><w:b/><w:i/><w:…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "ase=\"dms:DateTime\"/> </xsd:simpleType> </xsd:element> <xsd:element name=\"eDocs_FileStatus\" ma:index=\"5\" ma:displayName=\"Status\" ma:default=\"Live\" ma:format=\"Dropdown\" ma:indexed=\"true\" ma:internalName=\"eDocs_FileStatus\"> <xsd:simpleType> <xsd:restriction base=\"dms:Choice\"> <xsd:enumeration value=\"Live\"/> <xsd:enumeration value=\"Archived\"/> <xsd:enumeration value=\"PendingLive\"/> <xsd:enumeration value=\"PendingArchived\"/> <xsd:enumeration value=\"Cancelled\"/> <xsd:enumeration value=\"SentToNationalArchives\"/> </xsd:re…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "/xs:attribute> <xs:attribute ref=\"pc:EntityName\"></xs:attribute> <xs:attribute ref=\"pc:SystemInstanceName\"></xs:attribute> <xs:attribute ref=\"pc:AssociationName\"></xs:attribute> </xs:complexType> </xs:element> <xs:attribute name=\"EntityNamespace\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"EntityName\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"SystemInstanceName\" type=\"xs:string\"></xs:attribute> <xs:attribute name=\"AssociationName\" type=\"xs:string\"></xs:attribute> <xs:element name=\"BDCEntity\"> <…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ENCY, CONFLICTS OF INTEREST OR PROFESSIONAL MISCONDUCT () Part IV: Selection Criteria Concerning the selection criteria (Section α of this part), the economic operator declares that: α: GLOBAL INDICATION FOR ALL SELECTION CRITERIA Part VS: Reduction of the number of qualified candidates Part VI: Concluding statements The undersigned formally declare that the information stated under Parts II – III above is accurate and that it has been set out in full awareness of the consequences of serious misrepresentation. The…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": ":rPr></w:pPr><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:ascii=\"Calibri\" w:hAnsi=\"Calibri\"/><w:sz w:val=\"22\"/><w:szCs w:val=\"22\"/></w:rPr><w:lastRenderedPageBreak/><w:t xml:space=\"preserve\">If applicable, is the economic operator registered on an official list of approved economic </w:t></w:r><w:r w:rsidR=\"002A2F5A\" w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:ascii=\"Calibri\" w:hAnsi=\"Calibri\"/><w:sz w:val=\"22\"/><w:szCs w:val=\"22\"/></w:rPr><w:t>operators,</w:t></w:r><w:r w:rsidRPr=\"00055B95\"><w:rPr><w:rFonts w:ascii=\"…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "1. This Agreement consists of the following documents, and in the case of conflict of wording, in the following order of priority: i. This Agreement and Schedules A to E attached hereto; ii The Framework Agreement; iii. The RFT; THIS AGREEMENT IS MADE ON THE [DATE E.G. 2ND] DAY [MONTH] OF 20[YEAR] BETWEEN: WHEREAS: IT IS HEREBY AGREED AS FOLLOWS: 99 iv. The SRFT; v. vi. The Submission; The Response. 2. The Contractor agrees to provide the Services described in Schedule B (the “Services”) to the Client in accordanc…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "and originating in the third country which is subject to the IPI measure represent no more than 50% of the total value of the contract, irrespective of whether such goods or services are supplied or provided directly by the successful tenderer or by a subcontractor; iii. to provide , upon request, adequate evidence corresponding to point (i) or (ii) above; iv. to pay a proportionate charge, in the event of non -observance of the obligations referred to at point (i) or (ii) above, of between 10% and 30% of the tota…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "e have complied with all requirements as set out at Part 2 of the RFT. | We confirm that we have complied with all requirements as set out at Part 2 of the RFT. 7. | We confirm that all prices quoted in our Tender will remain valid for the period of time commencing from the Tender Deadline specified at paragraph 2.10.3 of the RFT. | We confirm that all prices quoted in our Tender will remain valid for the period of time commencing from the Tender Deadline specified at paragraph 2.10.3 of the RFT. 8. | We shall, if…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "he period of time commencing from the Tender Deadline specified at paragraph 2.10.3 of the RFT. | We confirm that all prices quoted in our Tender will remain valid for the period of time commencing from the Tender Deadline specified at paragraph 2.10.3 of the RFT. 8. | We shall, if awarded any Services Contract pursuant to a Framework Agreement, have in place on the Effective Date of the Services Contract all insurances (if any) as required by paragraph 2.21.1 of the RFT and as required by the SRFT. | We shall, if…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "information notice used only for information - general directive File Associated :<8709163_Prior information notice used only for information - general directive.pdf > ===== FILE: files/1337_8709163_unpacked/1_ESPD.docx ===== European Single Procurement Document (ESPD) Part I: Information concerning the procurement procedure and the contracting authority Part II: Information concerning the economic operator A: INFORMATION ABOUT THE ECONOMIC OPERATOR B: INFORMATION ABOUT REPRESENTATIVES OF THE ECONOMIC OPERATOR C: …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "cW w:w=\"4482\" w:type=\"dxa\"/><w:shd w:val=\"clear\" w:color=\"auto\" w:fill=\"DBE5F1\" w:themeFill=\"accent1\" w:themeFillTint=\"33\"/></w:tcPr><w:p w14:paraId=\"146072D6\" w14:textId=\"77777777\" w:rsidR=\"008757F8\" w:rsidRPr=\"00055B95\" w:rsidRDefault=\"008757F8\" w:rsidP=\"008757F8\"><w:pPr><w:pStyle w:val=\"ListParagraph\"/><w:spacing w:after=\"120\"/><w:ind w:left=\"0\"/><w:contextualSpacing w:val=\"0\"/><w:rPr><w:rFonts w:ascii=\"Calibri\" w:hAnsi=\"Calibri\"/><w:sz w:val=\"22\"/><w:szCs w:val=\"22\"/></w:rPr></w:pPr><w:r w:rsidRPr=\"00055B95\"><…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "r Framework Agreement for the provision of Accounting, Audit & Financial Advisory Services to the Irish Public Sector Tender Reference: PBF144F Tender Response Document Part A - Selection Criteria Part B - Qualitative Award Criteria Part C - Cost Award Criteria [Tenderers shall complete and return the following form of Tenderer’s Statement printed on the Tenderer’s headed notepaper and signed by the Tenderer.] TENDERER’S STATEMENT TO: (the “Contracting Authority”) RE: Request for Tenders for the Provision of Havin…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "ment for the provision of Accounting, Audit & Financial Advisory Services to the Irish Public Sector Tender Reference: PBF144F Tender Response Document Part A - Selection Criteria Part B - Qualitative Award Criteria Part C - Cost Award Criteria [Tenderers shall complete and return the following form of Tenderer’s Statement printed on the Tenderer’s headed notepaper and signed by the Tenderer.] TENDERER’S STATEMENT TO: (the “Contracting Authority”) RE: Request for Tenders for the Provision of Having examined your R…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "be demonstrated via the submission of a detailed description of their proposal in the allotted space in the Tender Response Document Part B. Tenderers are required to demonstrate their proposed methodology for how they will manage any Service Contracts awarded, effectively and efficiently for delivery of the service requirements and their response is to include, but not be limited to, the following: Overview of Tenderers approach to the management of Service Contracts. Details regarding the role and responsibiliti…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "g a monetary value for each Professional Grade Level regardless of the size of the Tenderers firm/practice. Please Note: One day's work is defined as 7.5 hours. For the avoidance of doubt Tenderers are not required to have staff for all Professional Grade Levels listed on the Blended Daily Rate Card when submitting a price for each Professional Grade Level. Where Tenderers do not have staff for each Professional Grade Level, Tenderers, when inserting a monetary amount for each Professional Grade Level, must carefu…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "term_value": [
+          {
+            "text": "of charge( , or As of 18 October 2018, at the latest ( ), the contracting authority or contracting entity already possesses the documentation concerned. The undersigned formally consent to the contracting authority or contracting entity as set in Part 1 gaining access to documents supporting the information, which has been provided in Part 1 of this European Single Procurement Document Date, place and signature(s): ===== FILE: files/1337_8709163_unpacked/1_ESPD_unpacked/[Content_Types].xml ===== <?xml version=\"1.0…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "g entity already possesses the documentation concerned. The undersigned formally consent to the contracting authority or contracting entity as set in Part 1 gaining access to documents supporting the information, which has been provided in Part 1 of this European Single Procurement Document Date, place and signature(s): ===== FILE: files/1337_8709163_unpacked/1_ESPD_unpacked/[Content_Types].xml ===== <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?> <Types xmlns=\"http://schemas.openxmlformats.org/package/200…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "xsd:string\" ma:index=\"16\" ma:displayName=\"Content Type\"/> <xsd:element ref=\"dc:title\" minOccurs=\"0\" maxOccurs=\"1\" ma:index=\"0\" ma:displayName=\"Title\"/> <xsd:element ref=\"dc:subject\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element ref=\"dc:description\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"keywords\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element ref=\"dc:language\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"category\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"version\" …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "escription\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"keywords\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element ref=\"dc:language\" minOccurs=\"0\" maxOccurs=\"1\"/> <xsd:element name=\"category\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"version\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"/> <xsd:element name=\"revision\" minOccurs=\"0\" maxOccurs=\"1\" type=\"xsd:string\"> <xsd:annotation> <xsd:documentation> This value indicates the number of saves or revisions. The application is…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/1337_8709163_unpacked/10_c4t_8709163_1.xml ===== <c4t cftid=\"8709163\" procedure=\"open\" eval-type=\"prompt.meat\" num-of-lots=\"7\" round=\"1\" offset-24=\"false\" many-for-one=\"false\" pack-in=\"1\" internal-id=\"2026/null/329\"> <envelope type=\"offline\" name=\"envelope.type.offline\" id=\"1\" sequence=\"1\" pos=\"1\"> <section id=\"1787019218241\" level=\"1\" pos=\"1\"> <label>Complete Tender</label> <criterion level=\"1\" pos=\"1\" id=\"17870192182411\" type=\"file\" size=\"99\" mandatory=\"1\" included-in-evaluation=\"1\"> <label>Fil…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "abel>Complete Tender</label> <criterion level=\"1\" pos=\"1\" id=\"17870192182411\" type=\"file\" size=\"99\" mandatory=\"1\" included-in-evaluation=\"1\"> <label>File</label> <value/> </criterion> </section> </envelope> <pub-key>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCExcvRltvXgtmCNx+8N/fKSGq/NmoC1q3uyxBgu17klzB8H1bSPWBG4BIcMhS78tRoWtaGxTG1s4iGbxSdsCqgsuiJVf66uHpnTcBgT4dT52rDhkI4T7ye89Yj1veQ/u9UpJGyY4hbyjZJU3sn1CJ9Y4rSQ0H5SmaUpheIUq6BlwIDAQAB</pub-key> </c4t> ===== FILE: files/1337_8709163_unpacked/1337_8709163.pdf ===== List o…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "submission": [
+          {
+            "text": "he performance of such contract, comply with all applicable obligations in the field of environmental, social and labour law. | We agree that, if awarded any contract pursuant to a Framework Agreement that we shall, in the performance of such contract, comply with all applicable obligations in the field of environmental, social and labour law. 6. | We confirm that we have complied with all requirements as set out at Part 2 of the RFT. | We confirm that we have complied with all requirements as set out at Part 2 of…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "rsuant to a Framework Agreement that we shall, in the performance of such contract, comply with all applicable obligations in the field of environmental, social and labour law. 6. | We confirm that we have complied with all requirements as set out at Part 2 of the RFT. | We confirm that we have complied with all requirements as set out at Part 2 of the RFT. 7. | We confirm that all prices quoted in our Tender will remain valid for the period of time commencing from the Tender Deadline specified at paragraph 2.10.3…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "the Contracting Authority. The award of a Framework Agreement or a Services Contract under the Framework Agreement does not confer exclusivity on the successful Tenderer(s). Tenderers should note that neither the Contracting Authority nor any Framework Client shall be under any obligation to purchase any minimum value of Services under any Framework Agreement. 2.1.3 This RFT supersedes and replaces any and all previous documentation, communications and correspondence between the Contracting Authority and Tenderers…",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          },
+          {
+            "text": "under any Framework Agreement. 2.1.3 This RFT supersedes and replaces any and all previous documentation, communications and correspondence between the Contracting Authority and Tenderers, and Tenderers should place no reliance on such previous documentation and correspondence. 2.1.4 In this clause 2.1.4, “Data Protection Laws” means all applicable national and EU data protection laws, regulations and guidelines including but not limited to Regulation (EU) 2016/679 on the protection of natural persons with regard …",
+            "source": null,
+            "source_url": null,
+            "source_sha256": null,
+            "source_kind": null,
+            "provenance_strength": "LEGACY_UNATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": true
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
