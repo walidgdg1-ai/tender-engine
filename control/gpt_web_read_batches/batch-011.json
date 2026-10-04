@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-03T22:54:19.028156+00:00",
-  "source_inbox_updated_at": "2026-10-03T22:54:18.144059+00:00",
-  "latest_source_dce_run_id": 37159531869,
+  "generated_at": "2026-10-04T02:08:01.072306+00:00",
+  "source_inbox_updated_at": "2026-10-04T02:07:59.962404+00:00",
+  "latest_source_dce_run_id": 37169754989,
   "batch_index": 11,
   "start_rank": 111,
   "end_rank": 120,
@@ -116,14 +116,56 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 37159531869,
+      "source_dce_run_id": 37169754989,
       "source_shard": 1,
-      "review_key": "4015b3583e01ae403c2301b4392df76b05888b447055044e56ae7d695e47564b",
+      "review_key": "a916913297899dee5645ddc5dfd4e7e3229c58eef10d5313a1456cdbd8dac289",
       "artifact_locator": {
-        "dce_run_id": 37159531869,
+        "dce_run_id": 37169754989,
         "shard": 1,
         "candidate_id": "US-SAM:c6f114f657324ed2bf8920c7abc3223d",
-        "release_tag": "dce-harvest-37159531869"
+        "release_tag": "dce-harvest-37169754989"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "MT-EPPS:14023555",
+      "title": "Provision of Microsoft 365 Copilot related solutions and services - DPS 060/26",
+      "buyer": "Malta Information Technology Agency (MITA)",
+      "portal": "MALTA_EPPS",
+      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14023555&documentId=14124426&noticeType=16&extId=5e5aa460-da90-44ec-bfb6-778510abcfff&lang=en&noticeId=14124417&isNational=false",
+      "deadline": null,
+      "estimated_value": 1000000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 23,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 36986443571,
+      "source_shard": 0,
+      "review_key": "1dcd313bef118397e7a810b48b881a498dc231a8e9d9c4bb8c629216781b9782",
+      "artifact_locator": {
+        "dce_run_id": 36986443571,
+        "shard": 0,
+        "candidate_id": "MT-EPPS:14023555",
+        "release_tag": "dce-harvest-36986443571"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -165,48 +207,6 @@
         "dce_run_id": 36260749662,
         "shard": 32,
         "candidate_id": "IE:9059490",
-        "release_tag": "dce-harvest-36260749662"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "MT-EPPS:14023555",
-      "title": "Provision of Microsoft 365 Copilot related solutions and services - DPS 060/26",
-      "buyer": "Malta Information Technology Agency (MITA)",
-      "portal": "MALTA_EPPS",
-      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14023555&documentId=14124426&noticeType=16&extId=5e5aa460-da90-44ec-bfb6-778510abcfff&lang=en&noticeId=14124417&isNational=false",
-      "deadline": null,
-      "estimated_value": 1000000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 23,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_FOUND_NOTICE_MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 36260749662,
-      "source_shard": 33,
-      "review_key": "8e1237beb01ad5514352201b11192ef3ba951fa250d06cb21f16e5b2d8aa6c94",
-      "artifact_locator": {
-        "dce_run_id": 36260749662,
-        "shard": 33,
-        "candidate_id": "MT-EPPS:14023555",
         "release_tag": "dce-harvest-36260749662"
       },
       "evidence_quality": {
@@ -326,14 +326,14 @@
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 37159531869,
+      "source_dce_run_id": 37169754989,
       "source_shard": 1,
-      "review_key": "35dec1d80c4550eee1add01232d67bfcd0418461647f3744fbe8f901d6d27c3c",
+      "review_key": "ec489bec2e6bcf999b71edf8fef2dce7e2a119bfe88a0c22bda524ff44cffd0a",
       "artifact_locator": {
-        "dce_run_id": 37159531869,
+        "dce_run_id": 37169754989,
         "shard": 1,
         "candidate_id": "US-SAM:319809b926164cd2a7d41268b2ff945c",
-        "release_tag": "dce-harvest-37159531869"
+        "release_tag": "dce-harvest-37169754989"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -368,14 +368,14 @@
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 37159531869,
+      "source_dce_run_id": 37169754989,
       "source_shard": 7,
-      "review_key": "f053379412b7bc8e6bcee4e5c8e11d7138348a554ed3704f2476a24bc3888ebe",
+      "review_key": "40bc7c6d17aa1c92ff287db97a557360c9ae0d8eb41fb2893d931756b707b631",
       "artifact_locator": {
-        "dce_run_id": 37159531869,
+        "dce_run_id": 37169754989,
         "shard": 7,
         "candidate_id": "US-SAM:1405e9dbdbfe48f1a3e1fb73eb57f5f8",
-        "release_tag": "dce-harvest-37159531869"
+        "release_tag": "dce-harvest-37169754989"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -410,14 +410,14 @@
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 37159531869,
+      "source_dce_run_id": 37169754989,
       "source_shard": 5,
-      "review_key": "85ad50c03aa03a4b305493154e35079ae84c8cac7ec051822fba860cea9ac315",
+      "review_key": "ddbee3efb17d3460396b68fac58e78d1107d9c3a87033fbbe748c1966b7e4e96",
       "artifact_locator": {
-        "dce_run_id": 37159531869,
+        "dce_run_id": 37169754989,
         "shard": 5,
         "candidate_id": "US-SAM:87ea94da26dc4b8ab4558da8b484e841",
-        "release_tag": "dce-harvest-37159531869"
+        "release_tag": "dce-harvest-37169754989"
       },
       "evidence_quality": {
         "raw_status": null,
