@@ -3,7 +3,6 @@
 Review-order evidence only. No candidate is GREEN before DCE.
 
 ## NO_ONTOLOGY
-- **TED:661852-2026** · FRA · p=62 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magazine municipal et divers supports de communication de la ville
 - **TED:684966-2026** · FRA · p=62 · deadline=2026-10-08T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magazine municipal et divers supports de communication de la ville
 - **TED:652169-2026** · FRA · p=62 · deadline=2026-10-15T02:00:00+00:00 · blockers=none · France – Printing and delivery services – IMPRESSION DE DOCUMENTS DIVERS
 - **TED:668887-2026** · FRA · p=62 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Archiving services – Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
@@ -11,9 +10,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:672161-2026** · FRA · p=60 · deadline=2026-11-02T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et diffusion du magazine externe du Département de l'Ain
 - **TED:612911-2026** · FRA · p=58 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Specialised photography services – Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **FR-BOAMP:26-92073** · FR · p=56 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
-- **FR-BOAMP:26-93939** · FR · p=56 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · IMPRESSION ET DISTRIBUTION DU MAGAZINE DU PAYS DE CHATEAUGIRON COMMUNAUTE
-- **TED:676471-2026** · FRA · p=56 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · France – Printed matter and related products – IMPRESSION ET DISTRIBUTION DU MAGAZINE DU PAYS DE CHATEAUGIRON COMMUNAUTE
 - **FR-BOAMP:26-84869** · FR · p=56 · deadline=2026-10-05T12:00:00+00:00 · blockers=none · Elaboration et impression des "Innovation Book" N°7 et N°8 pour le salon international Mountain Planet 2028
 - **FR-BOAMP:26-81416** · FR · p=56 · deadline=2026-10-05T13:00:00+00:00 · blockers=none · 26A036-Impression des supports de communication grands formats et PLV sur autres matériaux que le papier
 - **TED:577546-2026** · FRA · p=56 · deadline=2026-10-05T13:00:00+00:00 · blockers=none · France – Printing and delivery services – 26A036 - Impression des supports de communication grands formats et publicité sur le lieu de vente (PLV) sur autres matériaux que le papier
@@ -23,6 +19,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-95255** · FR · p=56 · deadline=2026-10-08T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
 - **FR-BOAMP:26-85689** · FR · p=56 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:633774-2026** · FRA · p=56 · deadline=2026-10-15T03:00:00+00:00 · blockers=none · France – Computer equipment and supplies – Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale de Cavani
+- **FR-BOAMP:26-88718** · FR · p=56 · deadline=2026-10-15T09:00:00+00:00 · blockers=none · Fourniture équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale
+- **FR-BOAMP:26-90981** · FR · p=56 · deadline=2026-10-15T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
+- **TED:570412-2026** · FRA · p=56 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des supports de communication de la Communauté de Communes Beaucaire Terre d'Argence
+- **FR-BOAMP:26-89047** · FR · p=56 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -110,7 +110,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## print_broker
 - **FR-BOAMP:26-95596** · FR · p=72 · deadline=2026-11-03T10:00:00+00:00 · blockers=none · Prestations d'impression de supports de communication, distribution de documents institutionnels et fourniture d'objets publicitaires pour le service communication de la Communauté de communes Pays d'
-- **TED:600336-2026** · FRA · p=68 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression et de reprographie décembre 2026 - novembre 2030
 - **TED:620041-2026** · FRA · p=68 · deadline=2026-10-09T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Prestations d'impression et d'expédition de documents en lien avec la relation usage
 - **TED:494111-2026** · FRA · p=68 · deadline=2026-10-12T01:00:00+00:00 · blockers=none · France – Printing services – Prestations d'impression pour l'Institut de France
 - **TED:593085-2026** · FRA · p=68 · deadline=2026-10-15T02:00:00+00:00 · blockers=none · France – Printing services – Prestations d’impression pour 2027 (reconductible 3 fois)
@@ -120,15 +119,16 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:679938-2026** · FRA · p=68 · deadline=2026-11-05T01:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **TED:616521-2026** · FRA · p=66 · deadline=2026-10-15T01:00:00+00:00 · blockers=none · France – Services related to printing – Travaux d'impression des supports de l'IFCE
 - **TED:676650-2026** · FRA · p=66 · deadline=2026-10-30T01:00:00+00:00 · blockers=none · France – Printing and related services – Prestations d'impression et de distribution du magazine de Grand Chambéry
-- **FR-BOAMP:26-82283** · FR · p=64 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Prestations d'impression et de livraison des supports de communication édités sous format papier
-- **FR-BOAMP:26-84480** · FR · p=64 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Prestations d'impression et de reprographie décembre 2026 - novembre 2030
-- **TED:583352-2026** · FRA · p=64 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Prestations d'impression et de livraison des supports de communication édités sous format papier
 - **FR-BOAMP:26-86438** · FR · p=64 · deadline=2026-10-05T12:00:00+00:00 · blockers=none · Réalisation de travaux d'impression et fabrication de supports de communication
 - **FR-BOAMP:26-85999** · FR · p=64 · deadline=2026-10-05T16:00:00+00:00 · blockers=none · FOURNITURES DE TRAVAUX D’IMPRESSION ET DE FACONNAGE
 - **FR-BOAMP:26-89284** · FR · p=64 · deadline=2026-10-06T12:00:00+00:00 · blockers=none · Service d'impression
 - **FR-BOAMP:26-88095** · FR · p=64 · deadline=2026-10-09T11:00:00+00:00 · blockers=none · LOCATION ET MAINTENANCE D’UNE MACHINE DE MISE SOUS PLI MULTI-POCHES, D’UNE MACHINE À AFFRANCHIR, D’UNE MACHINE D’ADRESSAGE ET FOURNITURE DE CARTOUCHES D’ENCRE POUR LE SERVICE COURRIER DE LA VILLE DE V
 - **FR-BOAMP:26-90567** · FR · p=64 · deadline=2026-10-09T11:00:00+00:00 · blockers=none · Réalisation de prestations d’impression, de façonnage, de reproduction et de services associés destinés à répondre aux besoins de communication institutionnelle de la Ville de Villetaneuse.
 - **FR-BOAMP:26-86885** · FR · p=64 · deadline=2026-10-09T21:59:00+00:00 · blockers=none · Prestations d'impression et d'expédition de documents en lien avec la relation usage
+- **TED:633836-2026** · FRA · p=64 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Post and courier services – Prestations de routage des différents documents d'information et de communication du Département de la Seine-Saint-Denis et externalisation de la gestion de courriers
+- **FR-BOAMP:26-88523** · FR · p=64 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de routage des différents documents d'information et de communication du Département de la Seine-Saint-Denis et externalisation de la gestion de courriers
+- **FR-BOAMP:26-88012** · FR · p=64 · deadline=2026-10-13T11:00:00+00:00 · blockers=none · Accord-Cadre D'Impression, De Mise Sous Pli Et D'Envoi De Courriers En Nombre
+- **FR-BOAMP:26-86406** · FR · p=64 · deadline=2026-10-15T11:00:00+00:00 · blockers=none · Travaux d'impression des supports de l'IFCE
 
 ## promo_goods
 - **FR-BOAMP:26-95596** · FR · p=72 · deadline=2026-11-03T10:00:00+00:00 · blockers=none · Prestations d'impression de supports de communication, distribution de documents institutionnels et fourniture d'objets publicitaires pour le service communication de la Communauté de communes Pays d'
@@ -190,7 +190,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:668945-2026** · FIN · p=56 · deadline=2026-10-19T09:00:00+00:00 · blockers=none · Finland – Miscellaneous software package and computer systems – Newsroom Real-time Analytics Solution
 - **FI-HILMA:58023** · FI · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · Newsroom Real-time Analytics Solution
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
-- **TED:626576-2026** · NOR · p=50 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Norway – Software-related services – 2026/7655 Framework agreement for the purchase of licences and licence management
 - **TED:648059-2026** · IRL · p=50 · deadline=2026-10-06T11:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – TR5389 Service Provider to provide Digital workspace Monitoring Software
 - **TED:635218-2026** · BEL · p=50 · deadline=2026-10-06T14:00:00+00:00 · blockers=none · Belgium – IT services: consulting, software development, Internet and support – CEFTA Cloud Infrastructure, Hosting, Managed Services, Security and Business Continuity
 - **TED:622005-2026** · NOR · p=50 · deadline=2026-10-09T02:00:00+00:00 · blockers=none · Norway – IT services: consulting, software development, Internet and support – Microsoft license manager (LSP)
@@ -207,6 +206,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **UK_PCS_OCDS:rls-12-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-14-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-18-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
+- **UK_PCS_OCDS:rls-23-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 
 ## transcription
 - **TED:670162-2026** · FRA · p=78 · deadline=2026-10-27T01:00:00+00:00 · blockers=none · France – Typing, word-processing and desktop publishing services – STENOTYPIE
@@ -225,7 +225,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:657238-2026** · FRA · p=73 · deadline=2026-10-28T01:00:00+00:00 · blockers=none · France – Word-processing services – Traduction et retranscription pour les besoins de la région Guadeloupe
 - **TED:672650-2026** · FRA · p=73 · deadline=2026-10-28T01:00:00+00:00 · blockers=none · France – Word-processing services – Traduction et retranscription pour les besoins de la région Guadeloupe
 - **TED:635579-2026** · FRA · p=61 · deadline=2026-10-14T14:00:00+00:00 · blockers=none · France – Translation services – Prestations de traductions assermentées
-- **TED:615039-2026** · FRA · p=59 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · France – Translation services – Traduction de documents destinés aux publics du Centre Pompidou (2 lots)
 - **FR-BOAMP:26-94428** · FR · p=59 · deadline=2026-10-15T14:00:00+00:00 · blockers=none · Prestations de services de traduction automatisée et assistée en ligne de l’offre de formation de l’Université Sorbonne Paris Nord
 - **FR-BOAMP:26-88787** · FR · p=59 · deadline=2026-10-22T16:00:00+00:00 · blockers=none · Prestations de traduction
 - **FR-BOAMP:26-91154** · FR · p=59 · deadline=2026-10-26T11:00:00+00:00 · blockers=none · Prestations de traduction de documents à caractère institutionnel et scientifique pour les structures du Siège de l'Inserm
@@ -242,11 +241,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:636092-2026** · SWE · p=40 · deadline=2026-10-18T02:00:00+00:00 · blockers=none · Sweden – Translation services – Teckenspråksöversättning
 - **CF:ocds-b5fd17-0104c0df-5996-44e2-92ea-ce578146ab12** · GB · p=40 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Face to Face Translation Services Contract
 - **CF:ocds-b5fd17-c784039f-3789-433a-a7ec-7b17a9920029** · GB · p=40 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Face to Face Translation Services Contract
+- **TED:683267-2026** · DEU · p=40 · deadline=2026-11-02T00:00:00+00:00 · blockers=none · Germany – Translation services – Translation works and services from EN into DE, FR and IT
 
 ## video_media
 - **UK_PCS_OCDS:rls-1-OCT565862** · GB · p=48 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · In-House Design Support and Development
 - **UK_PCS_OCDS:rls-100-OCT565862** · GB · p=48 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · In-House Design Support and Development
-- **TED:623282-2026** · NOR · p=40 · deadline=2026-10-05T10:00:00+00:00 · blockers=none · Norway – Software programming and consultancy services – Consultancy services AV equipment
 - **IE:9059490** · IE · p=40 · deadline=2026-10-20T15:00:00+00:00 · blockers=none · Digital Content Production and Related Services in support of Public and Stakeholder Engagement to the Department of Culture, Communications and Sport
 - **TED:670191-2026** · NOR · p=40 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · Norway – Motion picture and video production services – Framework agreement for film production
 
