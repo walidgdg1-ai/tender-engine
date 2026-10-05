@@ -134,8 +134,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-95596** · FR · p=72 · deadline=2026-11-03T10:00:00+00:00 · blockers=none · Prestations d'impression de supports de communication, distribution de documents institutionnels et fourniture d'objets publicitaires pour le service communication de la Communauté de communes Pays d'
 - **TED:782153-2025** · FRA · p=60 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – Système d'acquisition dynamique (SAD) - Acquisition de goodies et textiles personnalisés
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
-- **FR-BOAMP:26-85100** · FR · p=54 · deadline=2026-10-05T11:00:00+00:00 · blockers=none · Le marché a pour objet la mise en place d’un accord-cadre pour la fourniture et livraison d’objets publicitaires à l’image de l’Université Sorbonne Paris Nord
-- **TED:606186-2026** · FRA · p=54 · deadline=2026-10-05T11:00:00+00:00 · blockers=none · France – Information and promotion products – ACCORD-CADRE DE FOURNITURE ET LIVRAISON D’OBJETS PUBLICITAIRES A L’IMAGE DE L’UNIVERSITE SORBONNE PARIS NORD
 - **TED:645394-2026** · IRL · p=50 · deadline=2026-10-16T01:00:00+00:00 · blockers=none · Ireland – Small office equipment – Single-Party Framework Agreement for The Supply of Promotional Branded Merchandise for Beaumont Hospital
 - **CA:26-108** · CA · p=48 · deadline=2026-10-23T15:00:00+00:00 · blockers=none · EDC Branded Merchandise Platform
 - **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
