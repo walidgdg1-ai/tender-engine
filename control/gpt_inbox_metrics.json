@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-06T07:28:19.094538+00:00",
+  "updated_at": "2026-10-06T14:19:57.006419+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 37428441257,
+  "latest_source_dce_run_id": 37477124669,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 174,
+    "pending_before_visible_cap": 175,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -16,19 +16,18 @@
     "pending_by_inbox_lane": {
       "GPT_PRIORITY": 120,
       "DCE_AUTHENTICITY_REPAIR": 20,
-      "LOW_PORTAL_SURVEILLANCE": 19,
-      "ELASTIC_FILL": 1
+      "LOW_PORTAL_SURVEILLANCE": 20
     },
     "pending_by_fit_band": {
       "HOT": 14,
       "GOOD": 69,
-      "MAYBE": 44,
-      "LOW": 33
+      "MAYBE": 43,
+      "LOW": 34
     },
     "pending_by_portal": {
       "TED": 77,
-      "IRELAND_ETENDERS": 10,
-      "US_SAM": 20,
+      "IRELAND_ETENDERS": 9,
+      "US_SAM": 21,
       "CA_CANADABUYS": 6,
       "WORLD_BANK": 10,
       "GENERIC_PUBLIC_PAGE": 5,
@@ -53,8 +52,7 @@
     "selected_by_lane": {
       "GPT_PRIORITY": 120,
       "DCE_AUTHENTICITY_REPAIR": 20,
-      "LOW_PORTAL_SURVEILLANCE": 19,
-      "ELASTIC_FILL": 1
+      "LOW_PORTAL_SURVEILLANCE": 20
     },
     "selected_by_stage": {
       "BUSINESS_GATES": 140,
@@ -63,13 +61,13 @@
     "selected_by_band": {
       "HOT": 14,
       "GOOD": 69,
-      "MAYBE": 44,
-      "LOW": 33
+      "MAYBE": 43,
+      "LOW": 34
     },
     "selected_by_portal": {
       "TED": 77,
-      "IRELAND_ETENDERS": 10,
-      "US_SAM": 20,
+      "IRELAND_ETENDERS": 9,
+      "US_SAM": 21,
       "CA_CANADABUYS": 6,
       "WORLD_BANK": 10,
       "GENERIC_PUBLIC_PAGE": 5,
@@ -104,8 +102,8 @@
     },
     "selected_by_band": {
       "HOT": 13,
-      "GOOD": 52,
-      "MAYBE": 60,
+      "GOOD": 51,
+      "MAYBE": 61,
       "LOW": 35
     },
     "selected_by_portal": {
@@ -115,8 +113,8 @@
       "WORLD_BANK": 9,
       "GENERIC_PUBLIC_PAGE": 5,
       "IRELAND_ETENDERS": 6,
-      "MALTA_EPPS": 8,
       "PL_EZAMOWIENIA": 4,
+      "MALTA_EPPS": 8,
       "EE_RHR": 4,
       "ES_PLACSP": 4,
       "SK_UVO": 3,
@@ -129,36 +127,37 @@
       "CYPRUS_EPPS": 1
     }
   },
-  "review_index_count": 1252,
+  "review_index_count": 1253,
   "review_index_counts": {
-    "pending_total_uncapped": 1252,
+    "pending_total_uncapped": 1253,
     "by_stage": {
       "BUSINESS_GATES": 929,
-      "DCE_AUTHENTICITY": 323
+      "DCE_AUTHENTICITY": 324
     },
     "by_spm_fit_band": {
       "HOT": 13,
-      "GOOD": 67,
-      "MAYBE": 99,
-      "LOW": 1073
+      "GOOD": 66,
+      "MAYBE": 100,
+      "LOW": 1074
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1092,
+    "overflow_beyond_hot_160": 1093,
     "cross_portal_duplicates_collapsed": 3
   },
-  "true_pending_before_hot_cap": 1252,
-  "overflow_beyond_hot_160": 1092,
+  "true_pending_before_hot_cap": 1253,
+  "overflow_beyond_hot_160": 1093,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 13,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 181,
-    "adjudication_rows_scanned_this_refresh": 1404,
-    "gate_rows_seen_this_refresh": 362,
-    "authenticity_rows_seen_this_refresh": 53,
+    "shard_files_scanned_this_refresh": 167,
+    "adjudication_rows_scanned_this_refresh": 1318,
+    "gate_rows_seen_this_refresh": 330,
+    "authenticity_rows_seen_this_refresh": 50,
     "source_runs_seen_this_refresh": [
+      37477124669,
       37428441257,
       37396828463,
       37305000420,
@@ -167,8 +166,7 @@
       37235501522,
       37223132884,
       37208017698,
-      37188290954,
-      37169754989
+      37188290954
     ]
   },
   "healthy": true,
