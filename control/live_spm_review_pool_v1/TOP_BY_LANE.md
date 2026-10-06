@@ -189,7 +189,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:668945-2026** · FIN · p=56 · deadline=2026-10-19T09:00:00+00:00 · blockers=none · Finland – Miscellaneous software package and computer systems – Newsroom Real-time Analytics Solution
 - **FI-HILMA:58023** · FI · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · Newsroom Real-time Analytics Solution
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
-- **TED:648059-2026** · IRL · p=50 · deadline=2026-10-06T11:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – TR5389 Service Provider to provide Digital workspace Monitoring Software
 - **TED:635218-2026** · BEL · p=50 · deadline=2026-10-06T14:00:00+00:00 · blockers=none · Belgium – IT services: consulting, software development, Internet and support – CEFTA Cloud Infrastructure, Hosting, Managed Services, Security and Business Continuity
 - **TED:622005-2026** · NOR · p=50 · deadline=2026-10-09T02:00:00+00:00 · blockers=none · Norway – IT services: consulting, software development, Internet and support – Microsoft license manager (LSP)
 - **TED:626576-2026** · NOR · p=50 · deadline=2026-10-12T00:00:00+00:00 · blockers=none · Norway – Software-related services – 2026/7655 Framework agreement for the purchase of licences and licence management
@@ -206,6 +205,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **UK_PCS_OCDS:rls-12-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-14-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-18-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
+- **UK_PCS_OCDS:rls-23-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 
 ## transcription
 - **TED:670162-2026** · FRA · p=78 · deadline=2026-10-27T01:00:00+00:00 · blockers=none · France – Typing, word-processing and desktop publishing services – STENOTYPIE
