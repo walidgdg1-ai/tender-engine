@@ -1,40 +1,32 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 37305000420,
+  "latest_source_dce_run_id": 37396828463,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
-    "TED": 2,
-    "US_SAM": 2,
-    "CA_CANADABUYS": 2,
     "DE_DOE": 2,
     "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
-    "GR_KHMDHS": 2,
-    "SK_UVO": 1,
-    "WORLD_BANK": 1,
+    "SK_UVO": 2,
+    "TED": 2,
+    "US_SAM": 2,
+    "WORLD_BANK": 2,
     "ZA_ETENDERS": 1,
+    "CA_CANADABUYS": 1,
     "EE_RHR": 1,
+    "GR_KHMDHS": 1,
     "LV_IUB": 1,
     "PL_EZAMOWIENIA": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 9
+    "UNKNOWN_RETRIEVED_DOCUMENT": 12,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 8
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 20
   },
   "method_counts": {},
   "recovery_opportunities": [
-    {
-      "portal": "CA_CANADABUYS",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
     {
       "portal": "DE_DOE",
       "blocked": 2,
@@ -60,7 +52,7 @@
       }
     },
     {
-      "portal": "GR_KHMDHS",
+      "portal": "SK_UVO",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -84,7 +76,31 @@
       }
     },
     {
+      "portal": "WORLD_BANK",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "CA_CANADABUYS",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
       "portal": "EE_RHR",
+      "blocked": 1,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 1
+      }
+    },
+    {
+      "portal": "GR_KHMDHS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -108,22 +124,6 @@
       }
     },
     {
-      "portal": "SK_UVO",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
-      "portal": "WORLD_BANK",
-      "blocked": 1,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 1
-      }
-    },
-    {
       "portal": "ZA_ETENDERS",
       "blocked": 1,
       "likely_public_recovery_target": 0,
@@ -134,30 +134,6 @@
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
-      {
-        "candidate_id": "TED:598032-2026",
-        "portal": "TED",
-        "title": "Spain – Graphic design services – Acuerdo marco para la homologación de empresas para la prestación de servicios de rotulación, instalación de señalización y singularització de espacios para estaciones, dependencias y oficinas, material móvil y vehículos corporativos dentro del ámbito de la red ferroviaria y de turismo y montaña de Ferrocarriles de la Generalitat de Cataluña (Ref. AM15/26)",
-        "buyer": "Ferrocarrils de la Generalitat de Catalunya",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/598032-2026"
-      },
-      {
-        "candidate_id": "US-SAM:f7f26d167d014c86afa99035f1dac18d",
-        "portal": "US_SAM",
-        "title": "Counternarcotics Technical Advisor",
-        "buyer": "STATE, DEPARTMENT OF",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://sam.gov/opp/f7f26d167d014c86afa99035f1dac18d/view"
-      },
-      {
-        "candidate_id": "CA:EN578-24ISC4/94",
-        "portal": "CA_CANADABUYS",
-        "title": "MINERVA Initiative – Uncrewed Aircraft System Deconfliction",
-        "buyer": null,
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": null
-      },
       {
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "portal": "DE_DOE",
@@ -173,6 +149,30 @@
         "buyer": null,
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j9rBCQI%2FoRxQFSeKCRun4Q%3D%3D"
+      },
+      {
+        "candidate_id": "IT-PVL:fe511593-3ec0-4bd8-8a9a-44dccbe35655",
+        "portal": "GENERIC_PUBLIC_PAGE",
+        "title": "Procedura negoziata, indetta ai sensi dell’articolo 50, comma 1, lettera e) del D.Lgs n. 36/2023, per la realizzazione del servizio finanziato con fondi della legge n. 285/97 denominato “Centro Famiglie Nuovi Legami” del Municipio VII”, scheda X3, finanziato con fondi della legge n. 285/97, per il periodo dal 1 luglio 2024, ovvero dalla data di affidamento del servizio, con esclusione parziale del mese di agosto, al 31 dicembre 2024, con possibilità di rinnovo per ulteriori due distinte annualità nel 2025 e nel 2026.",
+        "buyer": null,
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/fe511593-3ec0-4bd8-8a9a-44dccbe35655?ricercaArchivio=false"
+      },
+      {
+        "candidate_id": "SK-UVO:540250",
+        "portal": "SK_UVO",
+        "title": "Opravy hnacích náprav ZF",
+        "buyer": "Dopravný podnik Bratislava, akciová spoločnosť",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-zakaziek/detail/540250?cHash=1ee2028c89598d4f377712ab29e79a74"
+      },
+      {
+        "candidate_id": "TED:634040-2026",
+        "portal": "TED",
+        "title": "Spain – IT services: consulting, software development, Internet and support – Contratación de los servicios de consultoría para el diseño de una hoja de ruta de evolución a S/4 HANA de los sistemas SAP de Osakidetza.",
+        "buyer": "OSAKIDETZA - Servicio Vasco de Salud - Organización Central",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/634040-2026"
       }
     ]
   },
