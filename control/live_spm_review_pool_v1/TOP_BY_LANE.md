@@ -3,7 +3,6 @@
 Review-order evidence only. No candidate is GREEN before DCE.
 
 ## NO_ONTOLOGY
-- **TED:684966-2026** · FRA · p=62 · deadline=2026-10-08T10:00:00+00:00 · blockers=none · France – Printing and delivery services – Réalisation, impression et distribution du magazine municipal et divers supports de communication de la ville
 - **TED:652169-2026** · FRA · p=62 · deadline=2026-10-15T02:00:00+00:00 · blockers=none · France – Printing and delivery services – IMPRESSION DE DOCUMENTS DIVERS
 - **TED:668887-2026** · FRA · p=62 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Archiving services – Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
 - **TED:694814-2026** · FRA · p=62 · deadline=2026-10-26T01:00:00+00:00 · blockers=none · France – Archiving services – Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
@@ -11,7 +10,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:689362-2026** · FRA · p=60 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
 - **TED:612911-2026** · FRA · p=58 · deadline=2026-10-12T02:00:00+00:00 · blockers=none · France – Specialised photography services – Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **FR-BOAMP:26-95255** · FR · p=56 · deadline=2026-10-08T10:00:00+00:00 · blockers=none · Réalisation, impression et distribution du magasine municipal et divers supports de communication de la ville
 - **FR-BOAMP:26-85689** · FR · p=56 · deadline=2026-10-12T10:00:00+00:00 · blockers=none · Prestations de numérisation à plat d'oeuvres patrimoniales des collections de l'établissement Paris Musées.
 - **TED:633774-2026** · FRA · p=56 · deadline=2026-10-15T03:00:00+00:00 · blockers=none · France – Computer equipment and supplies – Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale de Cavani
 - **FR-BOAMP:26-88718** · FR · p=56 · deadline=2026-10-15T09:00:00+00:00 · blockers=none · Fourniture équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale
@@ -23,6 +21,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-94039** · FR · p=56 · deadline=2026-10-20T12:00:00+00:00 · blockers=none · Impression des magazines et des autres supports de communication pour la Ville de Saint-Paul-Trois-Châteaux
 - **FR-BOAMP:26-92932** · FR · p=56 · deadline=2026-10-26T11:00:00+00:00 · blockers=none · Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **FR-BOAMP:26-96908** · FR · p=56 · deadline=2026-10-26T15:30:00+00:00 · blockers=none · Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
+- **FR-BOAMP:26-93200** · FR · p=56 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · Impression de support de communication en couleur en grand, moyen et petit format pour la Ville de Sète
+- **FR-BOAMP:26-95590** · FR · p=56 · deadline=2026-10-30T16:00:00+00:00 · blockers=none · Impression De Divers Documents
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
