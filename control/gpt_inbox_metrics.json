@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-09T03:20:44.057565+00:00",
+  "updated_at": "2026-10-09T10:34:42.477379+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 37878055543,
+  "latest_source_dce_run_id": 37917818715,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 176,
+    "pending_before_visible_cap": 177,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -102,19 +102,19 @@
     },
     "selected_by_band": {
       "HOT": 13,
-      "GOOD": 48,
-      "MAYBE": 63,
+      "GOOD": 44,
+      "MAYBE": 67,
       "LOW": 36
     },
     "selected_by_portal": {
-      "IRELAND_ETENDERS": 5,
+      "IRELAND_ETENDERS": 4,
       "TED": 77,
       "US_SAM": 25,
-      "CA_CANADABUYS": 3,
+      "CA_CANADABUYS": 4,
       "GENERIC_PUBLIC_PAGE": 4,
       "PL_EZAMOWIENIA": 5,
-      "MALTA_EPPS": 10,
-      "WORLD_BANK": 7,
+      "WORLD_BANK": 6,
+      "MALTA_EPPS": 11,
       "EE_RHR": 7,
       "CYPRUS_EPPS": 2,
       "ES_PLACSP": 4,
@@ -136,13 +136,13 @@
     },
     "by_spm_fit_band": {
       "HOT": 13,
-      "GOOD": 63,
-      "MAYBE": 94,
+      "GOOD": 59,
+      "MAYBE": 98,
       "LOW": 1070
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1080,
-    "cross_portal_duplicates_collapsed": 5
+    "cross_portal_duplicates_collapsed": 0
   },
   "true_pending_before_hot_cap": 1240,
   "overflow_beyond_hot_160": 1080,
@@ -152,22 +152,11 @@
   "provenance_overrides_applied_in_window": 5,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 145,
-    "adjudication_rows_scanned_this_refresh": 1187,
-    "gate_rows_seen_this_refresh": 270,
-    "authenticity_rows_seen_this_refresh": 57,
-    "source_runs_seen_this_refresh": [
-      37878055543,
-      37861947545,
-      37832731516,
-      37787933351,
-      37737887443,
-      37708011124,
-      37685427838,
-      37647871335,
-      37597058766,
-      37561749889
-    ]
+    "shard_files_scanned_this_refresh": 0,
+    "adjudication_rows_scanned_this_refresh": 0,
+    "gate_rows_seen_this_refresh": 0,
+    "authenticity_rows_seen_this_refresh": 0,
+    "source_runs_seen_this_refresh": []
   },
   "healthy": true,
   "contract": "Health sidecar exposes the true uncapped GPT review backlog plus fair-share and read-surface provenance. GPT Web adjudicator remains the assistant; exact-ID authenticity retries are separately cooldown-limited below."
