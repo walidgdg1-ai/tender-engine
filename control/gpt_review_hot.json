@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-10-11T00:18:15.481354+00:00",
+  "updated_at": "2026-10-11T00:18:49.733538+00:00",
   "latest_dce_run_id": 38097863223,
-  "latest_shard": 0,
+  "latest_shard": 2,
   "generation_reset": false,
-  "count": 6,
+  "count": 9,
   "items": [
     {
       "candidate_id": "US-SAM:97361af093484c88a5132193129d3245",
@@ -2956,6 +2956,672 @@
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 23,
       "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "IT-PVL:7bbd8c9e-1d84-4160-b29f-9464be3b7c8f",
+      "title": "Appalto 123/2026. Accordo Quadro per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti, il Protocollo Informatico, la Conservazione a Norma, e l'automazione dei flussi di lavoro (Workflow/BPM), conforme alle Linee Guida AGID e al CAD",
+      "buyer": "ETRA SPA SOCIETA' BENEFIT",
+      "portal": "GENERIC_PUBLIC_PAGE",
+      "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/7bbd8c9e-1d84-4160-b29f-9464be3b7c8f?ricercaArchivio=false",
+      "deadline": "2026-10-13T10:00:00+00:00",
+      "estimated_value": 1987500.0,
+      "currency": "EUR",
+      "preliminary_score": 72,
+      "priority_score": 72,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-13T10:00:00+00:00",
+        "notice_deadline_date": "2026-10-13",
+        "authoritative_submission_date": "2026-10-13",
+        "submission_deadline_candidates": [
+          "2026-10-13"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-10-13"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-13",
+            "match": "13/10/2026",
+            "label": "SUBMISSION",
+            "keyword": "Deadline for receipt of tenders",
+            "distance": 2,
+            "context": "ubmission: Required\nAddress for submission: http://www.etraspa.it\nLanguages in which tenders or requests to participate may be submitted: Italian\nElectronic catalogue: Not allowed\nDeadline for receipt of tenders: 13/10/2026 12:00:00 (UTC+02:00) Eastern European Time, \nCentral European Summer Time\nDuration during which the tender must remain valid: 9 Months\nTerms of contract: \nThe execution of the contract must be performed within the framework of sheltered \nemployment programmes: No\nConditions relating to the performa"
+          },
+          {
+            "date": "2026-10-13",
+            "match": "13/10/2026",
+            "label": "SUBMISSION",
+            "keyword": "Deadline for receipt of tenders",
+            "distance": 2,
+            "context": "ubmission: Required\nAddress for submission: http://www.etraspa.it\nLanguages in which tenders or requests to participate may be submitted: Italian\nElectronic catalogue: Not allowed\nDeadline for receipt of tenders: 13/10/2026 12:00:00 (UTC+02:00) Eastern European Time, \nCentral European Summer Time\nDuration during which the tender must remain valid: 9 Months\nTerms of contract: \nThe execution of the contract must be performed within the framework of sheltered \nemployment programmes: No\nConditions relating to the performa"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-10-13",
+            "match": "13/10/2026",
+            "context": "ronic submission: Required\nAddress for submission: http://www.etraspa.it\nLanguages in which tenders or requests to participate may be submitted: Italian\nElectronic catalogue: Not allowed\nDeadline for receipt of tenders: 13/10/2026 12:00:00 (UTC+02:00) Eastern European Time, \nCentral European Summer Time\nDuration during which the tender must remain valid: 9 Months\nTerms of contract: \nThe execution of the contract must be performed within the frame"
+          },
+          {
+            "date": "2026-10-13",
+            "match": "13/10/2026",
+            "context": "ronic submission: Required\nAddress for submission: http://www.etraspa.it\nLanguages in which tenders or requests to participate may be submitted: Italian\nElectronic catalogue: Not allowed\nDeadline for receipt of tenders: 13/10/2026 12:00:00 (UTC+02:00) Eastern European Time, \nCentral European Summer Time\nDuration during which the tender must remain valid: 9 Months\nTerms of contract: \nThe execution of the contract must be performed within the frame"
+          },
+          {
+            "date": "2026-10-13",
+            "match": "13/10/2026",
+            "context": "nformation updated\nDescription: I seguenti documenti sono stati revisionati: - Capitolato speciale d'appalto; - \nAllegati A, L ed M; - Disciplinare di gara. E' stata dispoista inoltre una proroga del termine di \ngara al 13/10/2026 (ore 12:00)\nNotice information\nNotice identifier/version: b3b4f31f-8390-4015-8fab-4172d7b71b9e  -  02\nForm type: Competition\nNotice type: Contract or concession notice – standard regime\nNotice"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 3,
+          "corpus_contexts": 2,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 5,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "dentifier: 22987ecb-e901-48d2-af8c-2da694927c77 Type of procedure: Open The procedure is accelerated: no 2.1.1. Purpose Main nature of the contract: Supplies Main classification (cpv): 48517000 IT software package 2.1.2. Place of performance Postal address: Largo Parolini 82/B Town: Bassanp del Grappa Postcode: 36061 Country subdivision (NUTS): Vicenza (ITH32) Country: Italy 2.1.3. Value Estimated value excluding VAT: 1 987 500,00 EUR 2.1.4. General information Legal basis: Directive 2014/24/EU 2.1.6. Grounds for exclusion 662280-2026 Page 2/4 Sources of grounds for exclusion: Notice Breaching of obligations set under purely national exclusion grounds: 5. Lot 5.1. Lot: LOT-0001 Title: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Description: Appalto 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti, il Protocollo Informatico, la Conservazione a Norma, e l'automazione dei flussi di lavoro (Workflow/BPM), conforme alle Linee Guida AGID",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37448,
+            "corpus_end": 38765,
+            "match": "exclusion grounds"
+          },
+          {
+            "text": "nte accordo quadro. Durata: 48 mesi 5.1.1. Purpose Main nature of the contract: Supplies Main classification (cpv): 48300000 Document creation, drawing, imaging, scheduling and productivity software package Options: Description of the options: Modifiche contrattuali ai sensi dell'art. 120 D.lgs. 36/2023 come descritto nei documenti di gara 5.1.2. Place of performance Postal address: Largo parolini 82/B Town: Bassano del Grappa Postcode: 36061 Country subdivision (NUTS): Vicenza (ITH32) Country: Italy 5.1.3. Estimated duration Duration: 48 Months 5.1.5. Value Estimated value excluding VAT: 1 987 500,00 EUR 5.1.6. General information Reserved participation: Participation is not reserved. Procurement Project not financed with EU Funds. The procurement is covered by the Government Procurement Agreement (GPA): yes 5.1.9. Selection criteria Sources of selection criteria: Notice Criterion: Enrolment in a trade register Description of selection criterion: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Award criteria Criterion: Type: Quality Description: Criterio dell'offerta economicamente più vantaggiosa 662280-2026 Page 3/4 5.1.11. Procurement documents Access to certain procurement documents is restricted Languages in which the procurement documents are o",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 38781,
+            "corpus_end": 40103,
+            "match": "Reserved participation"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "a: Aperta La procedura è accelerata: no 2.1.1. Finalità Natura dell'appalto: Forniture Classificazione principale (cpv): 48517000 Pacchetti software IT 2.1.2. Luogo di esecuzione Indirizzo postale: Largo Parolini 82/B Località: Bassanp del Grappa Codice postale: 36061 Suddivisione del paese (NUTS): Vicenza (ITH32) Paese: Italia 2.1.3. Valore Valore stimato al netto dell'IVA: 1 987 500,00 EUR 2.1.4. Informazioni generali Base giuridica: Direttiva 2014/24/UE 2.1.6. Motivi di esclusione 662280-2026 Page 2/4 Fonti dei motivi di esclusione: Avviso Violazione degli obblighi connessi a motivi di esclusione previsti esclusivamente dalla legislazione nazionale: 5. Lotto 5.1. Lotto: LOT-0001 Titolo: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Descrizione: Appalto 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti, il Protocollo Informatico, la Conservazione a Norma, e l'automazione dei flussi di lavoro (Workflow/BPM), conforme al",
+            "source": "files/2026-OJS186-00662280-it-ts.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "4900548e3b6840ec20576bc9a7ce31a5415de61efee84c240ed057f3ca047ab1",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 58681,
+            "corpus_end": 59984,
+            "match": "sla"
+          },
+          {
+            "text": "a694927c77 Tipo di procedura: Aperta La procedura è accelerata: no 2.1.1. Finalità Natura dell'appalto: Forniture Classificazione principale (cpv): 48517000 Pacchetti software IT 2.1.2. Luogo di esecuzione Indirizzo postale: Largo Parolini 82/B Località: Bassanp del Grappa Codice postale: 36061 Suddivisione del paese (NUTS): Vicenza (ITH32) Paese: Italia 2.1.3. Valore Valore stimato al netto dell'IVA: 1 987 500,00 EUR 2.1.4. Informazioni generali Base giuridica: Direttiva 2014/24/UE 2.1.6. Motivi di esclusione Fonti dei motivi di esclusione: Avviso Violazione degli obblighi connessi a motivi di esclusione previsti esclusivamente dalla legislazione nazionale: 5. Lotto 5.1. Lotto: LOT-0001 Titolo: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Descrizione: Appalto 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti, il Protocollo Informatico, la Conservazione a Norma, e l'automazione dei flussi di lavoro (Workflow/BPM), conforme alle Lin",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "e7fa94bd764df57a860fd4cefda93ee9f3b62eeb5d905b6ec2a08db5a7955861",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 68464,
+            "corpus_end": 69767,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "g: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Kennung des Verfahrens: 22987ecb-e901-48d2-af8c-2da694927c77 Verfahrensart: Offenes Verfahren Das Verfahren wird beschleunigt: nein 2.1.1. Zweck Art des Auftrags: Lieferleistungen Haupteinstufung (cpv): 48517000 IT-Softwarepaket 2.1.2. Erfüllungsort Postanschrift: Largo Parolini 82/B Stadt: Bassanp del Grappa Postleitzahl: 36061 Land, Gliederung (NUTS): Vicenza (ITH32) Land: Italien 2.1.3. Wert Geschätzter Wert ohne MwSt.: 1 987 500,00 EUR 2.1.4. Allgemeine Informationen Rechtsgrundlage: Richtlinie 2014/24/EU 2.1.6. Ausschlussgründe 662280-2026 Page 2/4 Quellen der Ausschlussgründe: Bekanntmachung Verstoß gegen die in den rein innerstaatlichen Ausschlussgründen verankerten Verpflichtungen: 5. Los 5.1. Los: LOT-0001 Titel: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Beschreibung: Appalto 123/2026. Procedura aperta con modalità telematica per la fo",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22687,
+            "corpus_end": 24003,
+            "match": "Geschätzter Wert"
+          },
+          {
+            "text": "ssi di lavoro (Workflow/BPM), conforme alle Linee Guida AGID e al CAD, mediante accordo quadro. Durata: 48 mesi 5.1.1. Zweck Art des Auftrags: Lieferleistungen Haupteinstufung (cpv): 48300000 Softwarepaket für Dokumentenerstellung, Zeichnen, Bildverarbeitung, Terminplanung und Produktivität Optionen: Beschreibung der Optionen: Modifiche contrattuali ai sensi dell'art. 120 D.lgs. 36/2023 come descritto nei documenti di gara 5.1.2. Erfüllungsort Postanschrift: Largo parolini 82/B Stadt: Bassano del Grappa Postleitzahl: 36061 Land, Gliederung (NUTS): Vicenza (ITH32) Land: Italien 5.1.3. Geschätzte Dauer Laufzeit: 48 Monate 5.1.5. Wert Geschätzter Wert ohne MwSt.: 1 987 500,00 EUR 5.1.6. Allgemeine Informationen Vorbehaltene Teilnahme: Teilnahme ist nicht vorbehalten. Auftragsvergabeprojekt nicht aus EU-Mitteln finanziert Die Beschaffung fällt unter das Übereinkommen über das öffentliche Beschaffungswesen: ja 5.1.9. Eignungskriterien Quellen der Eignungskriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung des Eignungskriteriums: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Zuschlagskriterien Kriterium: Art: Qualität 662280-2026 Page 3/4 Beschreibung: Criterio dell'offerta economicamente più vantaggiosa 5.1.11. Auftr",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24230,
+            "corpus_end": 25546,
+            "match": "Geschätzter Wert"
+          },
+          {
+            "text": "ppalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Procedure identifier: 22987ecb-e901-48d2-af8c-2da694927c77 Type of procedure: Open The procedure is accelerated: no 2.1.1. Purpose Main nature of the contract: Supplies Main classification (cpv): 48517000 IT software package 2.1.2. Place of performance Postal address: Largo Parolini 82/B Town: Bassanp del Grappa Postcode: 36061 Country subdivision (NUTS): Vicenza (ITH32) Country: Italy 2.1.3. Value Estimated value excluding VAT: 1 987 500,00 EUR 2.1.4. General information Legal basis: Directive 2014/24/EU 2.1.6. Grounds for exclusion 662280-2026 Page 2/4 Sources of grounds for exclusion: Notice Breaching of obligations set under purely national exclusion grounds: 5. Lot 5.1. Lot: LOT-0001 Title: Appalto n. 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazione di un sistema software avanzato di Information & Process Management (DMS) per la gestione digitale dei documenti mediante accordo quadro Description: Appalto 123/2026. Procedura aperta con modalità telematica per la fornitura in Saas e implementazio",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37194,
+            "corpus_end": 38509,
+            "match": "Estimated value"
+          },
+          {
+            "text": "si di lavoro (Workflow/BPM), conforme alle Linee Guida AGID e al CAD, mediante accordo quadro. Durata: 48 mesi 5.1.1. Purpose Main nature of the contract: Supplies Main classification (cpv): 48300000 Document creation, drawing, imaging, scheduling and productivity software package Options: Description of the options: Modifiche contrattuali ai sensi dell'art. 120 D.lgs. 36/2023 come descritto nei documenti di gara 5.1.2. Place of performance Postal address: Largo parolini 82/B Town: Bassano del Grappa Postcode: 36061 Country subdivision (NUTS): Vicenza (ITH32) Country: Italy 5.1.3. Estimated duration Duration: 48 Months 5.1.5. Value Estimated value excluding VAT: 1 987 500,00 EUR 5.1.6. General information Reserved participation: Participation is not reserved. Procurement Project not financed with EU Funds. The procurement is covered by the Government Procurement Agreement (GPA): yes 5.1.9. Selection criteria Sources of selection criteria: Notice Criterion: Enrolment in a trade register Description of selection criterion: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Award criteria Criterion: Type: Quality Description: Criterio dell'offerta economicamente più vantaggiosa 662280-2026 Page 3/4 5.1.11. Procurement documents Access to certain pro",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 38705,
+            "corpus_end": 40020,
+            "match": "Estimated value"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "stleitzahl: 36061 Land, Gliederung (NUTS): Vicenza (ITH32) Land: Italien 5.1.3. Geschätzte Dauer Laufzeit: 48 Monate 5.1.5. Wert Geschätzter Wert ohne MwSt.: 1 987 500,00 EUR 5.1.6. Allgemeine Informationen Vorbehaltene Teilnahme: Teilnahme ist nicht vorbehalten. Auftragsvergabeprojekt nicht aus EU-Mitteln finanziert Die Beschaffung fällt unter das Übereinkommen über das öffentliche Beschaffungswesen: ja 5.1.9. Eignungskriterien Quellen der Eignungskriterien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung des Eignungskriteriums: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Zuschlagskriterien Kriterium: Art: Qualität 662280-2026 Page 3/4 Beschreibung: Criterio dell'offerta economicamente più vantaggiosa 5.1.11. Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Sprachen, in denen die Auftragsunterlagen offiziell verfügbar sind: Italienisch Informationen über zugangsbeschränkte Dokumente einsehbar unter: http://www.etraspa. bravosolution.com 5.1.12. Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Elektronische Einreichung: Erforderlich Adresse für die Einreichung: http://www.etraspa.it Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Italienisch Elektronis",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24749,
+            "corpus_end": 26067,
+            "match": "Zuschlagskriterien"
+          },
+          {
+            "text": "/B Town: Bassano del Grappa Postcode: 36061 Country subdivision (NUTS): Vicenza (ITH32) Country: Italy 5.1.3. Estimated duration Duration: 48 Months 5.1.5. Value Estimated value excluding VAT: 1 987 500,00 EUR 5.1.6. General information Reserved participation: Participation is not reserved. Procurement Project not financed with EU Funds. The procurement is covered by the Government Procurement Agreement (GPA): yes 5.1.9. Selection criteria Sources of selection criteria: Notice Criterion: Enrolment in a trade register Description of selection criterion: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Award criteria Criterion: Type: Quality Description: Criterio dell'offerta economicamente più vantaggiosa 662280-2026 Page 3/4 5.1.11. Procurement documents Access to certain procurement documents is restricted Languages in which the procurement documents are officially available: Italian Information about restricted documents is available at: http://www.etraspa.bravosolution.com 5.1.12. Terms of procurement Terms of submission: Electronic submission: Required Address for submission: http://www.etraspa.it Languages in which tenders or requests to participate may be submitted: Italian Electronic catalogue: Not allowed Deadline for receipt of tenders: 1",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 39189,
+            "corpus_end": 40503,
+            "match": "Award criteria"
+          }
+        ],
+        "forms_signatures": [],
+        "submission": [
+          {
+            "text": "ien: Bekanntmachung Kriterium: Eintragung in das Handelsregister Beschreibung des Eignungskriteriums: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Zuschlagskriterien Kriterium: Art: Qualität 662280-2026 Page 3/4 Beschreibung: Criterio dell'offerta economicamente più vantaggiosa 5.1.11. Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Sprachen, in denen die Auftragsunterlagen offiziell verfügbar sind: Italienisch Informationen über zugangsbeschränkte Dokumente einsehbar unter: http://www.etraspa. bravosolution.com 5.1.12. Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Elektronische Einreichung: Erforderlich Adresse für die Einreichung: http://www.etraspa.it Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Italienisch Elektronischer Katalog: Nicht zulässig Frist für den Eingang der Angebote: 13/10/2026 12:00:00 (UTC+02:00) Osteuropäische Zeit, Mitteleuropäische Sommerzeit Dauer, während der das Angebot gültig bleiben muss: 9 Monate Auftragsbedingungen: Die Auftragsausführung muss im Rahmen von Programmen für geschützte Beschäftigungsverhältnisse erfolgen: Nein Bedingungen für die Ausführung des Auftrags: Come descritto nei documenti di gara Elektronische Rechnungsstellung:",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 25213,
+            "corpus_end": 26524,
+            "match": "Einreichung"
+          },
+          {
+            "text": "m: Eintragung in das Handelsregister Beschreibung des Eignungskriteriums: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Zuschlagskriterien Kriterium: Art: Qualität 662280-2026 Page 3/4 Beschreibung: Criterio dell'offerta economicamente più vantaggiosa 5.1.11. Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Sprachen, in denen die Auftragsunterlagen offiziell verfügbar sind: Italienisch Informationen über zugangsbeschränkte Dokumente einsehbar unter: http://www.etraspa. bravosolution.com 5.1.12. Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Elektronische Einreichung: Erforderlich Adresse für die Einreichung: http://www.etraspa.it Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Italienisch Elektronischer Katalog: Nicht zulässig Frist für den Eingang der Angebote: 13/10/2026 12:00:00 (UTC+02:00) Osteuropäische Zeit, Mitteleuropäische Sommerzeit Dauer, während der das Angebot gültig bleiben muss: 9 Monate Auftragsbedingungen: Die Auftragsausführung muss im Rahmen von Programmen für geschützte Beschäftigungsverhältnisse erfolgen: Nein Bedingungen für die Ausführung des Auftrags: Come descritto nei documenti di gara Elektronische Rechnungsstellung: Erforderlich Aufträge werden",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 25241,
+            "corpus_end": 26552,
+            "match": "Einreichung"
+          },
+          {
+            "text": "reibung des Eignungskriteriums: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Zuschlagskriterien Kriterium: Art: Qualität 662280-2026 Page 3/4 Beschreibung: Criterio dell'offerta economicamente più vantaggiosa 5.1.11. Auftragsunterlagen Zugang zu bestimmten Auftragsunterlagen ist beschränkt Sprachen, in denen die Auftragsunterlagen offiziell verfügbar sind: Italienisch Informationen über zugangsbeschränkte Dokumente einsehbar unter: http://www.etraspa. bravosolution.com 5.1.12. Bedingungen für die Auftragsvergabe Bedingungen für die Einreichung: Elektronische Einreichung: Erforderlich Adresse für die Einreichung: http://www.etraspa.it Sprachen, in denen Angebote oder Teilnahmeanträge eingereicht werden können: Italienisch Elektronischer Katalog: Nicht zulässig Frist für den Eingang der Angebote: 13/10/2026 12:00:00 (UTC+02:00) Osteuropäische Zeit, Mitteleuropäische Sommerzeit Dauer, während der das Angebot gültig bleiben muss: 9 Monate Auftragsbedingungen: Die Auftragsausführung muss im Rahmen von Programmen für geschützte Beschäftigungsverhältnisse erfolgen: Nein Bedingungen für die Ausführung des Auftrags: Come descritto nei documenti di gara Elektronische Rechnungsstellung: Erforderlich Aufträge werden elektronisch erteilt: ja Zahlungen werden",
+            "source": "files/2026-OJS186-00662280-de.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "2c42cfbfe107670b462809805f90b12e50679ba131572e37f233470b0f17cd07",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 25283,
+            "corpus_end": 26594,
+            "match": "Einreichung"
+          },
+          {
+            "text": "ion criteria Sources of selection criteria: Notice Criterion: Enrolment in a trade register Description of selection criterion: Requisiti di idoneità professionale: come descritto nei documenti di gara 5.1.10. Award criteria Criterion: Type: Quality Description: Criterio dell'offerta economicamente più vantaggiosa 662280-2026 Page 3/4 5.1.11. Procurement documents Access to certain procurement documents is restricted Languages in which the procurement documents are officially available: Italian Information about restricted documents is available at: http://www.etraspa.bravosolution.com 5.1.12. Terms of procurement Terms of submission: Electronic submission: Required Address for submission: http://www.etraspa.it Languages in which tenders or requests to participate may be submitted: Italian Electronic catalogue: Not allowed Deadline for receipt of tenders: 13/10/2026 12:00:00 (UTC+02:00) Eastern European Time, Central European Summer Time Duration during which the tender must remain valid: 9 Months Terms of contract: The execution of the contract must be performed within the framework of sheltered employment programmes: No Conditions relating to the performance of the contract: Come descritto nei documenti di gara Electronic invoicing: Required Electronic ordering will be used: yes Electroni",
+            "source": "files/2026-OJS186-00662280-en.pdf",
+            "source_url": "https://ted.europa.eu/it/notice/-/detail/662280-2026",
+            "source_sha256": "0c669e588fa91fb754b8a03fbc19b670792be703d78990ab7be58abc9dfaf9ba",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 39627,
+            "corpus_end": 40948,
+            "match": "Electronic submission"
+          }
+        ],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 38097863223,
+      "source_shard": 2,
+      "hot_ready_at": "2026-10-11T00:18:49.267377+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 14,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df246f-467f-966c-647d-de00019d81be",
+      "title": "Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin",
+      "buyer": "Gmina Secemin",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+      "deadline": "2026-10-15T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 82,
+      "priority_score": 82,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-15T08:00:00+00:00",
+        "notice_deadline_date": "2026-10-15",
+        "authoritative_submission_date": "2026-10-15",
+        "submission_deadline_candidates": [
+          "2026-10-15"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-07-10",
+          "2026-09-01",
+          "2026-10-07",
+          "2026-10-15",
+          "2026-11-13"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": " załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-15 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07\n2026-10-07 Biuletyn Zamówień Publicznych\nOgłoszenie o"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "j załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-15 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: 2026-10-15 10:30\n8.4.) Termin związania ofertą: do 2026-11-13\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-09-01",
+            "match": "1.9.2026",
+            "context": "XXV SWZ\nSEKCJA IV – PRZEDMIOT ZAMÓWIENIA\n4.1.) Informacje ogólne odnoszące się do przedmiotu zamówienia.\n4.1.1.) Przed wszczęciem postępowania przeprowadzono konsultacje rynkowe: \nNie\n4.1.2.) Numer referencyjny: \nRG.271.1.9.2026\n4.1.3.) Rodzaj zamówienia: \nDostawy\n4.1.4.) Zamawiający udziela zamówienia w częściach, z których każda stanowi przedmiot odrębnego postępowania: \nNie\n4.1.8.) Możliwe jest składanie ofert częściowych: \nNie\n4.1.13.) Zama"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "owy stanowiącej załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-15 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP "
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "cją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-15 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07\n2026-10-07 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na "
+          },
+          {
+            "date": "2026-11-13",
+            "match": "2026-11-13",
+            "context": "ermin składania ofert: \n2026-10-15 10:00\n8.2.) Miejsce składania ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07\n2026-10-07 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n\n===== FI"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "jsce składania ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07\n2026-10-07 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszen"
+          },
+          {
+            "date": "2026-10-07",
+            "match": "2026-10-07",
+            "context": "nia ofert: \nWykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: \n2026-10-15 10:30\n8.4.) Termin związania ofertą: \ndo 2026-11-13\nOgłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07\n2026-10-07 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamó"
+          },
+          {
+            "date": "2026-07-10",
+            "match": "10/7/2026",
+            "context": "tekstowa\nPomoc kontekstowa\nWyszukiwarka\nMoje Konto\nZaloguj się\nZarejestruj się\n Jesteś na:\nStrona główna>Biuletyn Zamówień Publicznych>Szczegóły ogłoszenia\n2026/BZP 00476184/01\nPobierz pdf\nOgłoszenie o zamówieniu z dnia 10/7/2026\nZobacz powiązane ogłoszenia\nPrzejdź do postępowania\nOgłoszenie o zamówieniu\nDostawy\nWzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin\nSEKCJA I - ZAMAWIAJĄCY\n1.1.) Rola zamawiającego\n\nPostępowanie prowa"
+          },
+          {
+            "date": "2026-09-01",
+            "match": "1.9.2026",
+            "context": "e XXV SWZ\nSEKCJA IV – PRZEDMIOT ZAMÓWIENIA\n4.1.) Informacje ogólne odnoszące się do przedmiotu zamówienia.\n4.1.1.) Przed wszczęciem postępowania przeprowadzono konsultacje rynkowe: Nie\n4.1.2.) Numer referencyjny: RG.271.1.9.2026\n4.1.3.) Rodzaj zamówienia: Dostawy\n4.1.4.) Zamawiający udziela zamówienia w częściach, z których każda stanowi przedmiot odrębnego postępowania: Nie\n4.1.8.) Możliwe jest składanie ofert częściowych: Nie\n4.1.13.) Zamawia"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "umowy stanowiącej załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-15 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: 2026-10-15 10:30\n8.4.) Termin związania ofertą: do 2026-11-13\nStrona główna\nUrząd Zamówi"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "lizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-15 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: 2026-10-15 10:30\n8.4.) Termin związania ofertą: do 2026-11-13\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europe"
+          },
+          {
+            "date": "2026-11-13",
+            "match": "2026-11-13",
+            "context": ".) Termin składania ofert: 2026-10-15 10:00\n8.2.) Miejsce składania ofert: Wykonawca składa ofertę za pośrednictwem Platformy e-Zamówienia.\n8.3.) Termin otwarcia ofert: 2026-10-15 10:30\n8.4.) Termin związania ofertą: do 2026-11-13\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramach Prog"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 2,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "towych środków dowodowych: 1. W celu potwierdzenia zgodności oferowanych dostaw z cechami i wymaganiami określonymi w OPZ, Zamawiający żąda złożenia wraz z ofertą następujących przedmiotowych środków dowodowych: \u0000 Dla pozycji 1 (Serwery): a) wydruk lub link do opublikowanego na stronie spec.org wyniku testu SPECspeed2017_fp_base, potwierdzający spełnienie wymagania określonego w OPZ; b) oświadczenie Producenta lub Autoryzowanego Dystrybutora producenta świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; c) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 2 (Oprogramowanie do monitorowania i zarządzania infrastrukturą IT): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 5 (Platforma SIEM): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony interneto",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8728,
+            "corpus_end": 10036,
+            "match": "ISO 9001"
+          },
+          {
+            "text": "dowodowych: 1. W celu potwierdzenia zgodności oferowanych dostaw z cechami i wymaganiami określonymi w OPZ, Zamawiający żąda złożenia wraz z ofertą następujących przedmiotowych środków dowodowych: \u0000 Dla pozycji 1 (Serwery): a) wydruk lub link do opublikowanego na stronie spec.org wyniku testu SPECspeed2017_fp_base, potwierdzający spełnienie wymagania określonego w OPZ; b) oświadczenie Producenta lub Autoryzowanego Dystrybutora producenta świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; c) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 2 (Oprogramowanie do monitorowania i zarządzania infrastrukturą IT): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 5 (Platforma SIEM): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i n",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8742,
+            "corpus_end": 10051,
+            "match": "ISO 27001"
+          },
+          {
+            "text": "PZ; b) oświadczenie Producenta lub Autoryzowanego Dystrybutora producenta świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; c) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 2 (Oprogramowanie do monitorowania i zarządzania infrastrukturą IT): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 5 (Platforma SIEM): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 6 (Oprogramowanie NAC): a) oświadczenie producenta o posiadaniu przez dostawcę kwalifikacji technicznych niezbędnych do wykonania wdrożenia oferowanego rozwiązania i szkolenia; b) osobowy certyfikat inżynierski pracownika, który będzie wykonywał w",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9111,
+            "corpus_end": 10419,
+            "match": "ISO 9001"
+          },
+          {
+            "text": "zenie Producenta lub Autoryzowanego Dystrybutora producenta świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; c) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 2 (Oprogramowanie do monitorowania i zarządzania infrastrukturą IT): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 5 (Platforma SIEM): a) oświadczenie Producenta lub Dystrybutora świadczącego wsparcie techniczne o gotowości świadczenia na rzecz Zamawiającego wymaganego serwisu, zawierające adres strony internetowej serwisu i numer infolinii telefonicznej; b) certyfikat ISO 9001 oraz ISO 27001 autoryzowanego podmiotu serwisującego. \u0000 Dla pozycji 6 (Oprogramowanie NAC): a) oświadczenie producenta o posiadaniu przez dostawcę kwalifikacji technicznych niezbędnych do wykonania wdrożenia oferowanego rozwiązania i szkolenia; b) osobowy certyfikat inżynierski pracownika, który będzie wykonywał wdrożenie. \u0000 Dla",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9125,
+            "corpus_end": 10434,
+            "match": "ISO 27001"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/2026_BZP 00476184_01.pdf ===== Ogłoszenie o zamówieniu Dostawy Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Gmina Secemin 1.4) Krajowy Numer Identyfikacyjny: REGON 151398994 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Struga 2 1.5.2.) Miejscowość: Secemin 1.5.3.) Kod pocztowy: 29-145 1.5.4.) Województwo: świętokrzyskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL722 - Sandomiersko-jędrzejowski 1.5.9.) Adres poczty elektronicznej: przetargi@secemin.pl 1.5.10.) Adres strony internetowej zamawiającego: https://bip.secemin.pl/ 1.6.) Rodzaj zamawiającego: Zam",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 757,
+            "match": "cyber"
+          },
+          {
+            "text": "okrzyskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL722 - Sandomiersko-jędrzejowski 1.5.9.) Adres poczty elektronicznej: przetargi@secemin.pl 1.5.10.) Adres strony internetowej zamawiającego: https://bip.secemin.pl/ 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - jednostka samorządu terytorialnego 1.7.) Przedmiot działalności zamawiającego: Ogólne usługi publiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin 2.4.) Identyfikator postępowania: ocds-148610-364be58d-5360-41a2-a93e-0da5c9816514 2.5.) Numer ogłoszenia: 2026/BZP 00476184 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-10-07 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00037469/07/P 2.10.) Identyfikator pozycji planu postępowań: 1.2.2 Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy proje",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 496,
+            "corpus_end": 1801,
+            "match": "cyber"
+          },
+          {
+            "text": "JE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin 2.4.) Identyfikator postępowania: ocds-148610-364be58d-5360-41a2-a93e-0da5c9816514 2.5.) Numer ogłoszenia: 2026/BZP 00476184 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-10-07 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00037469/07/P 2.10.) Identyfikator pozycji planu postępowań: 1.2.2 Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu 4. Przedmiot zamówienia jest dofinansowany w ramach projektu Cyberbezpieczne Wodociągi – przedsięwzięcie w ramach Krajowego Planu Odbudowy i Zwiększania Odporności (KPO), inwestycja C3.1.1 Cyberbezpieczeństwo – CyberPL. Ogłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07 2026-10-07 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamó",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 943,
+            "corpus_end": 2248,
+            "match": "cyber"
+          },
+          {
+            "text": "84 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-10-07 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00037469/07/P 2.10.) Identyfikator pozycji planu postępowań: 1.2.2 Wzmocnienie systemu cyberbezpieczeństwa w Wodociągach Gminy Secemin 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa projektu lub programu 4. Przedmiot zamówienia jest dofinansowany w ramach projektu Cyberbezpieczne Wodociągi – przedsięwzięcie w ramach Krajowego Planu Odbudowy i Zwiększania Odporności (KPO), inwestycja C3.1.1 Cyberbezpieczeństwo – CyberPL. Ogłoszenie nr 2026/BZP 00476184 z dnia 2026-10-07 2026-10-07 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Dostawy 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy SEKCJA III – UDOSTĘPNIANIE DOKUMENTÓW ZAMÓWIENIA I KOMUNIKACJA 3.1.) Adres strony internetowej prowadzonego postępowania https://ezamowienia.gov.p",
+            "source": "files/2026_BZP 00476184_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df246f-467f-966c-647d-de00019d81be",
+            "source_sha256": "0be5742b1609e9f6e24aac86a4674b48fcc40c8e92aaef1bea642dc5f7c7beae",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1318,
+            "corpus_end": 2623,
+            "match": "Cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 38097863223,
+      "source_shard": 2,
+      "hot_ready_at": "2026-10-11T00:18:49.267377+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df25ed-bb36-5a3a-5997-b200019b48e3",
+      "title": "Wykonanie publikacji dla Muzeum Narodowego w Lublinie oraz dostarczenie do siedziby Zamawiającego wraz z rozładunkiem i wniesieniem do wskazanego magazynu – 3 części",
+      "buyer": "Muzeum Narodowe w Lublinie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df25ed-bb36-5a3a-5997-b200019b48e3",
+      "deadline": "2026-10-19T07:30:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 88,
+      "priority_score": 88,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-19T07:30:00+00:00",
+        "notice_deadline_date": "2026-10-19",
+        "authoritative_submission_date": "2026-10-19",
+        "submission_deadline_candidates": [
+          "2026-10-19"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2004-03-11",
+          "2026-10-09",
+          "2026-10-19",
+          "2026-11-17"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": " udzielenie zamówienia.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-19 09:30\n8.2.) Miejsce składania ofert: \nOtwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: \n2026-10-19 10:00\n8.4.) Termin związania ofertą: \ndo 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczeni"
+          },
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "o udzielenie zamówienia.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-19 09:30\n8.2.) Miejsce składania ofert: Otwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: 2026-10-19 10:00\n8.4.) Termin związania ofertą: do 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczenia:\n"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "context": " postępowania o udzielenie zamówienia.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-19 09:30\n8.2.) Miejsce składania ofert: \nOtwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: \n2026-10-19 10:00\n8.4.) Termin związania ofertą: \ndo 2026-11-17\nSEKCJA IX – POZOSTAŁE I"
+          },
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "context": "cją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-10-19 09:30\n8.2.) Miejsce składania ofert: \nOtwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: \n2026-10-19 10:00\n8.4.) Termin związania ofertą: \ndo 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczenia:\n1) Wypełniony i podpisany Formularz oferty - w przypadku skła"
+          },
+          {
+            "date": "2026-11-17",
+            "match": "2026-11-17",
+            "context": "ermin składania ofert: \n2026-10-19 09:30\n8.2.) Miejsce składania ofert: \nOtwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: \n2026-10-19 10:00\n8.4.) Termin związania ofertą: \ndo 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczenia:\n1) Wypełniony i podpisany Formularz oferty - w przypadku składania oferty przez podmioty występujące wspólnie nal"
+          },
+          {
+            "date": "2026-10-09",
+            "match": "2026-10-09",
+            "context": " wszystkich wykonawców składających ofertę wspólną oraz informację o części\nzamówienia, której wykonanie, wykonawca zamierza powierzyć podwykonawcom – w przypadku powierzenia przez\nOgłoszenie nr 2026/BZP 00480077 z dnia 2026-10-09\n2026-10-09 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nwykonawcę części zamówienia podwykonawcom. Uwaga! W informac"
+          },
+          {
+            "date": "2026-10-09",
+            "match": "2026-10-09",
+            "context": " wykonawców składających ofertę wspólną oraz informację o części\nzamówienia, której wykonanie, wykonawca zamierza powierzyć podwykonawcom – w przypadku powierzenia przez\nOgłoszenie nr 2026/BZP 00480077 z dnia 2026-10-09\n2026-10-09 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nwykonawcę części zamówienia podwykonawcom. Uwaga! W informacji należy p"
+          },
+          {
+            "date": "2004-03-11",
+            "match": "11 marca\n2004",
+            "context": "wykonania części zamówienia (o ile są już znani na etapie składania ofert).\n2) Oświadczenia wymagane w pkt. 8.1 SWZ.\n3) Ewentualnie informacja dot. powstania u Zamawiającego obowiązku podatkowego zgodnie z ustawą z dnia 11 marca\n2004 r. o podatku od towarów i usług w trybie art. 225 ust. 1 usta\nwie art. 21 RODO prawo sprzeciwu, wobec przetwarzania danych osobowych, gdyż podstawą prawną przetwarzania Pani/Pana danych osobowych jest art. 6 ust. 1 lit."
+          },
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "context": "ie postępowania o udzielenie zamówienia.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-19 09:30\n8.2.) Miejsce składania ofert: Otwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: 2026-10-19 10:00\n8.4.) Termin związania ofertą: do 2026-11-17\nSEKCJA IX – POZOSTAŁE INFO"
+          },
+          {
+            "date": "2026-10-19",
+            "match": "2026-10-19",
+            "context": "lizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-19 09:30\n8.2.) Miejsce składania ofert: Otwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: 2026-10-19 10:00\n8.4.) Termin związania ofertą: do 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczenia:\n1) Wypełniony i podpisany Formularz oferty - w przypadku skład"
+          },
+          {
+            "date": "2026-11-17",
+            "match": "2026-11-17",
+            "context": ".) Termin składania ofert: 2026-10-19 09:30\n8.2.) Miejsce składania ofert: Otwarcie ofert nastąpi przy wykorzystaniu Platformy e-Zamówienia\n8.3.) Termin otwarcia ofert: 2026-10-19 10:00\n8.4.) Termin związania ofertą: do 2026-11-17\nSEKCJA IX – POZOSTAŁE INFORMACJE\nWykonawcy zobowiązani są złożyć następujące dokumenty oraz oświadczenia:\n1) Wypełniony i podpisany Formularz oferty - w przypadku składania oferty przez podmioty występujące wspólnie nal"
+          },
+          {
+            "date": "2004-03-11",
+            "match": "11 marca 2004",
+            "context": "wykonania części zamówienia (o ile są już znani na etapie składania ofert).\n2) Oświadczenia wymagane w pkt. 8.1 SWZ.\n3) Ewentualnie informacja dot. powstania u Zamawiającego obowiązku podatkowego zgodnie z ustawą z dnia 11 marca 2004 r. o podatku od towarów i usług w trybie art. 225 ust. 1 ustawy Pzp.\n4) Odpis lub informacja z Krajowego Rejestru Sądowego, Centralnej Ewidencji i In formacji o Działalności Gospodarczej lub innego właściwego rejestru, "
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 4,
+          "unique_contexts": 4
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 0,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 38097863223,
+      "source_shard": 2,
+      "hot_ready_at": "2026-10-11T00:18:49.267377+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
