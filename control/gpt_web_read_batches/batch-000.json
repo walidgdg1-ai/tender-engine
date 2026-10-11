@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-11T00:25:52.174734+00:00",
-  "source_inbox_updated_at": "2026-10-11T00:25:51.161065+00:00",
+  "generated_at": "2026-10-11T00:33:38.041001+00:00",
+  "source_inbox_updated_at": "2026-10-11T00:33:37.150386+00:00",
   "latest_source_dce_run_id": 38097863223,
   "batch_index": 0,
   "start_rank": 1,
@@ -30,14 +30,14 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38087042860,
+      "source_dce_run_id": 38097863223,
       "source_shard": 12,
-      "review_key": "68160f6d7b91076d87cf56180b29dee667c1a800eebfeebf951c765245a33b5c",
+      "review_key": "f430a25bfe4bbc33e6601e9e860db48656dee53f8fc5c387e15f9e0aac591a82",
       "artifact_locator": {
-        "dce_run_id": 38087042860,
+        "dce_run_id": 38097863223,
         "shard": 12,
         "candidate_id": "TED:640511-2026",
-        "release_tag": "dce-harvest-38087042860"
+        "release_tag": "dce-harvest-38097863223"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -626,6 +626,52 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "TED:685351-2026",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Rahmenvereinbarung Dienstleistungen im Bereich Robotic Process Automation (RPA)",
+      "buyer": "Essener Systemhaus",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/685351-2026",
+      "deadline": "2026-10-26T23:59:59+01:00",
+      "estimated_value": 400000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 13,
+      "spm_post_dce_score": 68,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "rpa",
+        "software-development",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 38097863223,
+      "source_shard": 33,
+      "review_key": "f2ea6aa9eb20ca8e14323e51c14990ceb0987d9b159feab82027619da7c80a3e",
+      "artifact_locator": {
+        "dce_run_id": 38097863223,
+        "shard": 33,
+        "candidate_id": "TED:685351-2026",
+        "release_tag": "dce-harvest-38097863223"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "TED:684434-2026",
       "title": "France – Printing services – Prestations d’impression et de routage pour le compte de l’Ined",
       "buyer": "INED",
@@ -648,14 +694,14 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38087042860,
+      "source_dce_run_id": 38097863223,
       "source_shard": 14,
-      "review_key": "06670455dbcdbdf16c4207bc15a92cc59c4c7c084b3cd7df5d58dc556dffc0d0",
+      "review_key": "6532682c2e620de0d4b2caedd44197ad40c3797e569dfd70d9b53281f5911fe6",
       "artifact_locator": {
-        "dce_run_id": 38087042860,
+        "dce_run_id": 38097863223,
         "shard": 14,
         "candidate_id": "TED:684434-2026",
-        "release_tag": "dce-harvest-38087042860"
+        "release_tag": "dce-harvest-38097863223"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -1019,53 +1065,6 @@
         "bundle_asset": null,
         "policy": "Evidence provenance/presentation refresh only; ranking and procurement verdict are unchanged."
       },
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "US-SAM:97361af093484c88a5132193129d3245",
-      "title": "Procurement of Printing Service for the U.S. Embassy Hanoi, Vietnam",
-      "buyer": "STATE, DEPARTMENT OF",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/97361af093484c88a5132193129d3245/view",
-      "deadline": "2026-10-22T10:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
-      "spm_post_dce_score": 66,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "graphic-design",
-        "printing-services",
-        "printing-service",
-        "communications"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 38097863223,
-      "source_shard": 1,
-      "review_key": "c98242a7af7bdeb7fd8fa20bdc2613e2f62b31a53e93bb8380718ca10d866f94",
-      "artifact_locator": {
-        "dce_run_id": 38097863223,
-        "shard": 1,
-        "candidate_id": "US-SAM:97361af093484c88a5132193129d3245",
-        "release_tag": "dce-harvest-38097863223"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     }
