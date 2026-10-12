@@ -1,8 +1,8 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-12T04:23:57.713856+00:00",
+  "updated_at": "2026-10-12T12:12:47.281587+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 38203061300,
+  "latest_source_dce_run_id": 38246696097,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
@@ -102,16 +102,16 @@
     },
     "selected_by_band": {
       "HOT": 13,
-      "GOOD": 53,
-      "MAYBE": 58,
+      "GOOD": 51,
+      "MAYBE": 60,
       "LOW": 36
     },
     "selected_by_portal": {
       "TED": 81,
-      "US_SAM": 23,
+      "US_SAM": 22,
       "MALTA_EPPS": 12,
       "IRELAND_ETENDERS": 3,
-      "CA_CANADABUYS": 3,
+      "CA_CANADABUYS": 4,
       "GENERIC_PUBLIC_PAGE": 5,
       "PL_EZAMOWIENIA": 5,
       "WORLD_BANK": 6,
@@ -136,9 +136,9 @@
     },
     "by_spm_fit_band": {
       "HOT": 13,
-      "GOOD": 68,
-      "MAYBE": 91,
-      "LOW": 1071
+      "GOOD": 66,
+      "MAYBE": 94,
+      "LOW": 1070
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1083,
@@ -152,16 +152,11 @@
   "provenance_overrides_applied_in_window": 1,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 76,
-    "adjudication_rows_scanned_this_refresh": 589,
-    "gate_rows_seen_this_refresh": 121,
-    "authenticity_rows_seen_this_refresh": 28,
-    "source_runs_seen_this_refresh": [
-      38203061300,
-      38186245081,
-      38173042669,
-      38156894968
-    ]
+    "shard_files_scanned_this_refresh": 0,
+    "adjudication_rows_scanned_this_refresh": 0,
+    "gate_rows_seen_this_refresh": 0,
+    "authenticity_rows_seen_this_refresh": 0,
+    "source_runs_seen_this_refresh": []
   },
   "healthy": true,
   "contract": "Health sidecar exposes the true uncapped GPT review backlog plus fair-share and read-surface provenance. GPT Web adjudicator remains the assistant; exact-ID authenticity retries are separately cooldown-limited below."
