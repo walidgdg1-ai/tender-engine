@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-14T05:31:53.217707+00:00",
-  "source_inbox_updated_at": "2026-10-14T05:31:52.170484+00:00",
-  "latest_source_dce_run_id": 38516326483,
+  "generated_at": "2026-10-14T10:30:12.044212+00:00",
+  "source_inbox_updated_at": "2026-10-14T10:30:11.014525+00:00",
+  "latest_source_dce_run_id": 38549070207,
   "batch_index": 10,
   "start_rank": 101,
   "end_rank": 110,
@@ -30,14 +30,14 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38516326483,
+      "source_dce_run_id": 38549070207,
       "source_shard": 3,
-      "review_key": "938913307953f1d0c629aae6528250cd30107279bc9abac8698a21f195185724",
+      "review_key": "203ab7130d449fd454ca40989c0fe698d3cfce92057122515d9d3433e972d8dc",
       "artifact_locator": {
-        "dce_run_id": 38516326483,
+        "dce_run_id": 38549070207,
         "shard": 3,
         "candidate_id": "WORLD-BANK:OP00473394",
-        "release_tag": "dce-harvest-38516326483"
+        "release_tag": "dce-harvest-38549070207"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -160,14 +160,14 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38516326483,
-      "source_shard": 7,
-      "review_key": "96b197e98b5c2aad29365fbee46716f449b5a526a5f378ee35e9a2d8876e0021",
+      "source_dce_run_id": 38549070207,
+      "source_shard": 1,
+      "review_key": "bd322a3c294813550656873233e601afd2c07c44dd66939a84b08cb0291105e0",
       "artifact_locator": {
-        "dce_run_id": 38516326483,
-        "shard": 7,
+        "dce_run_id": 38549070207,
+        "shard": 1,
         "candidate_id": "US-SAM:c6f114f657324ed2bf8920c7abc3223d",
-        "release_tag": "dce-harvest-38516326483"
+        "release_tag": "dce-harvest-38549070207"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -309,6 +309,48 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "US-SAM:1b0bccb56df6405f9e550e1154f78200",
+      "title": "SOLICITATION: SPE605-26-R-0217 (PHILIPPINES, POST, CAMPS, & STATIONS (PC&S) PP 1.6P)",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/1b0bccb56df6405f9e550e1154f78200/view",
+      "deadline": "2026-10-19T13:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 13,
+      "spm_post_dce_score": 23,
+      "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 38549070207,
+      "source_shard": 7,
+      "review_key": "cc6ec5de403e69dc2b8bd209cd1d176aa430b962bc84d885a48ef02fd41332ff",
+      "artifact_locator": {
+        "dce_run_id": 38549070207,
+        "shard": 7,
+        "candidate_id": "US-SAM:1b0bccb56df6405f9e550e1154f78200",
+        "release_tag": "dce-harvest-38549070207"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "US-SAM:42f9300e1d974fdfbd1b4d9d72545b61",
       "title": "Solicitation: SPE605-26-R-0218 (Guam Post, Camps & Stations (PC&S) PP 1.8R)",
       "buyer": "DEPT OF DEFENSE",
@@ -378,48 +420,6 @@
         "shard": 5,
         "candidate_id": "US-SAM:1405e9dbdbfe48f1a3e1fb73eb57f5f8",
         "release_tag": "dce-harvest-38516326483"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "MT-EPPS:14138858",
-      "title": "CT2323/2026 - Tender for the Supply of Thermal Label Printers for the Office of the Deputy Prime Minister and the Ministry for Health (ODPM)",
-      "buyer": "Department of Contracts",
-      "portal": "MALTA_EPPS",
-      "notice_url": "https://www.etenders.gov.mt/epps/notices/viewPublishedContractNotice.do?resourceId=14138858&documentId=14139680&noticeType=16&extId=51f0366e-b2ee-40de-903b-247371118680&lang=en&noticeId=14139669&isNational=false",
-      "deadline": "2026-11-03T09:30:00+01:00",
-      "estimated_value": 110000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 23,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 38436366907,
-      "source_shard": 47,
-      "review_key": "921dac5205db8c82b34e238a2343a8ae76f32156c0a0837f642c42e91b0d7201",
-      "artifact_locator": {
-        "dce_run_id": 38436366907,
-        "shard": 47,
-        "candidate_id": "MT-EPPS:14138858",
-        "release_tag": "dce-harvest-38436366907"
       },
       "evidence_quality": {
         "raw_status": null,
