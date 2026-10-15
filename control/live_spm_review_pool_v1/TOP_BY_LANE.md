@@ -10,8 +10,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:672161-2026** · FRA · p=60 · deadline=2026-11-02T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et diffusion du magazine externe du Département de l'Ain
 - **TED:689362-2026** · FRA · p=60 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
 - **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **FR-BOAMP:26-88718** · FR · p=56 · deadline=2026-10-15T09:00:00+00:00 · blockers=none · Fourniture équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale
-- **TED:633774-2026** · FRA · p=56 · deadline=2026-10-15T09:00:00+00:00 · blockers=none · France – Computer equipment and supplies – Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale de Cavani
 - **FR-BOAMP:26-90981** · FR · p=56 · deadline=2026-10-15T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
 - **TED:570412-2026** · FRA · p=56 · deadline=2026-10-19T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des supports de communication de la Communauté de Communes Beaucaire Terre d'Argence
 - **FR-BOAMP:26-89047** · FR · p=56 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
@@ -23,6 +21,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-99104** · FR · p=56 · deadline=2026-10-28T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
 - **FR-BOAMP:26-93200** · FR · p=56 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · Impression de support de communication en couleur en grand, moyen et petit format pour la Ville de Sète
 - **FR-BOAMP:26-95590** · FR · p=56 · deadline=2026-10-30T16:00:00+00:00 · blockers=none · Impression De Divers Documents
+- **TED:709395-2026** · FRA · p=56 · deadline=2026-11-02T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
+- **FR-BOAMP:26-94894** · FR · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · IMPRESSION ET LIVRAISON DU MAGAZINE MÉTROPOLE
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
