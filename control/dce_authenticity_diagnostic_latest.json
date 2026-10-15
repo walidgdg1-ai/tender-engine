@@ -1,22 +1,22 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 38716410837,
+  "latest_source_dce_run_id": 38751970516,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
     "DE_DOE": 2,
     "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
+    "PL_EZAMOWIENIA": 2,
     "SK_UVO": 2,
     "TED": 2,
     "US_SAM": 2,
-    "WORLD_BANK": 2,
+    "WORLD_BANK": 1,
     "ZA_ETENDERS": 1,
     "CA_CANADABUYS": 1,
     "EE_RHR": 1,
     "GR_KHMDHS": 1,
-    "LV_IUB": 1,
-    "PL_EZAMOWIENIA": 1
+    "LV_IUB": 1
   },
   "status_counts": {
     "UNKNOWN_RETRIEVED_DOCUMENT": 13,
@@ -52,6 +52,14 @@
       }
     },
     {
+      "portal": "PL_EZAMOWIENIA",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
       "portal": "SK_UVO",
       "blocked": 2,
       "likely_public_recovery_target": 0,
@@ -69,14 +77,6 @@
     },
     {
       "portal": "US_SAM",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
-    {
-      "portal": "WORLD_BANK",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -116,7 +116,7 @@
       }
     },
     {
-      "portal": "PL_EZAMOWIENIA",
+      "portal": "WORLD_BANK",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -159,20 +159,20 @@
         "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/fe511593-3ec0-4bd8-8a9a-44dccbe35655?ricercaArchivio=false"
       },
       {
+        "candidate_id": "PL-BZP:08df29df-72d4-b4dd-5997-b20001ccc5f9",
+        "portal": "PL_EZAMOWIENIA",
+        "title": "Produkcja i emisja w Internecie reklamy typu double billboard",
+        "buyer": "Województwo Wielkopolskie - Wojewódzki Urząd Pracy w Poznaniu",
+        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df29df-72d4-b4dd-5997-b20001ccc5f9"
+      },
+      {
         "candidate_id": "SK-UVO:540250",
         "portal": "SK_UVO",
         "title": "Opravy hnacích náprav ZF",
         "buyer": "Dopravný podnik Bratislava, akciová spoločnosť",
         "status": "UNKNOWN_RETRIEVED_DOCUMENT",
         "notice_url": "https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-zakaziek/detail/540250?cHash=1ee2028c89598d4f377712ab29e79a74"
-      },
-      {
-        "candidate_id": "TED:705814-2026",
-        "portal": "TED",
-        "title": "Germany – IT services: consulting, software development, Internet and support – Einführung von Ki in der Eingangsverarbeitung",
-        "buyer": "ARD ZDF Deutschlandradio Beitragsservice",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ted.europa.eu/en/notice/-/detail/705814-2026"
       }
     ]
   },
