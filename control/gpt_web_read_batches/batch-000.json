@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-17T08:43:46.236726+00:00",
-  "source_inbox_updated_at": "2026-10-17T08:43:45.206204+00:00",
+  "generated_at": "2026-10-17T08:44:35.503966+00:00",
+  "source_inbox_updated_at": "2026-10-17T08:44:34.690218+00:00",
   "latest_source_dce_run_id": 39018020818,
   "batch_index": 0,
   "start_rank": 1,
@@ -30,14 +30,58 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38984837593,
-      "source_shard": 15,
-      "review_key": "1a7904d9a2183e12ea161d634729a6b021394b670dc571fc467e8b00a93d0c51",
+      "source_dce_run_id": 39018020818,
+      "source_shard": 0,
+      "review_key": "e4e61e6dfe8f624c1e90bf0e5848fc71e723068933dc767aa1b8053db6e3be05",
       "artifact_locator": {
-        "dce_run_id": 38984837593,
-        "shard": 15,
+        "dce_run_id": 39018020818,
+        "shard": 0,
         "candidate_id": "TED:650623-2026",
-        "release_tag": "dce-harvest-38984837593"
+        "release_tag": "dce-harvest-39018020818"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:655605-2026",
+      "title": "Germany – Graphic design services – Design-Dienstleistungen für den NDR",
+      "buyer": "Norddeutscher Rundfunk",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/655605-2026",
+      "deadline": "2026-10-22T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 69,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "graphic-design"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 39018020818,
+      "source_shard": 8,
+      "review_key": "96187022d2f217617138c3db8dad0c5bb4b3925858212a0ad68ec84a3da6b405",
+      "artifact_locator": {
+        "dce_run_id": 39018020818,
+        "shard": 8,
+        "candidate_id": "TED:655605-2026",
+        "release_tag": "dce-harvest-39018020818"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -209,14 +253,14 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 38984837593,
+      "source_dce_run_id": 39018020818,
       "source_shard": 6,
-      "review_key": "492bbd767bf325528012e0cfac26061695403ddd8f65789237e09bec3f6bb7d3",
+      "review_key": "33139656d433949fe124230dba5d64119c9e7e2bdc08657399005da7c69ce899",
       "artifact_locator": {
-        "dce_run_id": 38984837593,
+        "dce_run_id": 39018020818,
         "shard": 6,
         "candidate_id": "TED:684434-2026",
-        "release_tag": "dce-harvest-38984837593"
+        "release_tag": "dce-harvest-39018020818"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -399,51 +443,6 @@
         "shard": 13,
         "candidate_id": "MT-EPPS:13861239",
         "release_tag": "dce-harvest-38156894968"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "IE:9290964",
-      "title": "Request for Tender for Microsoft Dynamics Application Development, Enhancement and Continuous Improvement Services and Support and Maintenance Services",
-      "buyer": "Skillnet Ireland",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9290964",
-      "deadline": "2026-11-13T13:00:00+00:00",
-      "estimated_value": 210000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
-      "spm_post_dce_score": 65,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "application-development",
-        "system-integration"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 38895677693,
-      "source_shard": 39,
-      "review_key": "81964e7d16e5bb562f5fec861a305425011baff17fdb8aa6380c9d9b64015a13",
-      "artifact_locator": {
-        "dce_run_id": 38895677693,
-        "shard": 39,
-        "candidate_id": "IE:9290964",
-        "release_tag": "dce-harvest-38895677693"
       },
       "evidence_quality": {
         "raw_status": null,
