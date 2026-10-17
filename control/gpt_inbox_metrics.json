@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-10-17T12:31:51.189063+00:00",
+  "updated_at": "2026-10-17T15:53:35.926979+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 39032364272,
+  "latest_source_dce_run_id": 39046493708,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 172,
+    "pending_before_visible_cap": 176,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -19,20 +19,20 @@
       "LOW_PORTAL_SURVEILLANCE": 20
     },
     "pending_by_fit_band": {
-      "HOT": 12,
-      "GOOD": 58,
-      "MAYBE": 55,
+      "HOT": 13,
+      "GOOD": 59,
+      "MAYBE": 53,
       "LOW": 35
     },
     "pending_by_portal": {
-      "TED": 67,
+      "TED": 66,
       "IRELAND_ETENDERS": 10,
       "US_SAM": 28,
       "MALTA_EPPS": 8,
       "EE_RHR": 9,
+      "WORLD_BANK": 5,
       "GENERIC_PUBLIC_PAGE": 5,
       "PL_EZAMOWIENIA": 6,
-      "WORLD_BANK": 4,
       "CA_CANADABUYS": 6,
       "CYPRUS_EPPS": 3,
       "DE_DOE": 2,
@@ -59,20 +59,20 @@
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "HOT": 12,
-      "GOOD": 58,
-      "MAYBE": 55,
+      "HOT": 13,
+      "GOOD": 59,
+      "MAYBE": 53,
       "LOW": 35
     },
     "selected_by_portal": {
-      "TED": 67,
+      "TED": 66,
       "IRELAND_ETENDERS": 10,
       "US_SAM": 28,
       "MALTA_EPPS": 8,
       "EE_RHR": 9,
+      "WORLD_BANK": 5,
       "GENERIC_PUBLIC_PAGE": 5,
       "PL_EZAMOWIENIA": 6,
-      "WORLD_BANK": 4,
       "CA_CANADABUYS": 6,
       "CYPRUS_EPPS": 3,
       "DE_DOE": 2,
@@ -102,71 +102,64 @@
     },
     "selected_by_band": {
       "HOT": 12,
-      "GOOD": 45,
-      "MAYBE": 67,
+      "GOOD": 39,
+      "MAYBE": 73,
       "LOW": 36
     },
     "selected_by_portal": {
-      "TED": 68,
+      "TED": 69,
       "IRELAND_ETENDERS": 9,
-      "US_SAM": 31,
-      "MALTA_EPPS": 7,
+      "US_SAM": 30,
+      "MALTA_EPPS": 8,
       "EE_RHR": 10,
+      "WORLD_BANK": 7,
       "GENERIC_PUBLIC_PAGE": 4,
-      "PL_EZAMOWIENIA": 5,
-      "WORLD_BANK": 6,
-      "CA_CANADABUYS": 3,
+      "PL_EZAMOWIENIA": 4,
       "CYPRUS_EPPS": 2,
       "ES_PLACSP": 4,
       "SK_UVO": 3,
       "ZA_ETENDERS": 2,
       "DE_DOE": 1,
+      "CA_CANADABUYS": 2,
       "GR_KHMDHS": 2,
       "LV_IUB": 1,
       "NO_DOFFIN": 1,
       "SCOTLAND_PCS": 1
     }
   },
-  "review_index_count": 1210,
+  "review_index_count": 1214,
   "review_index_counts": {
-    "pending_total_uncapped": 1210,
+    "pending_total_uncapped": 1214,
     "by_stage": {
-      "BUSINESS_GATES": 898,
+      "BUSINESS_GATES": 902,
       "DCE_AUTHENTICITY": 312
     },
     "by_spm_fit_band": {
       "HOT": 12,
-      "GOOD": 56,
-      "MAYBE": 80,
-      "LOW": 1062
+      "GOOD": 50,
+      "MAYBE": 88,
+      "LOW": 1064
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1050,
-    "cross_portal_duplicates_collapsed": 1
+    "overflow_beyond_hot_160": 1054,
+    "cross_portal_duplicates_collapsed": 0
   },
-  "true_pending_before_hot_cap": 1210,
-  "overflow_beyond_hot_160": 1050,
+  "true_pending_before_hot_cap": 1214,
+  "overflow_beyond_hot_160": 1054,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 0,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 154,
-    "adjudication_rows_scanned_this_refresh": 1243,
-    "gate_rows_seen_this_refresh": 333,
-    "authenticity_rows_seen_this_refresh": 56,
+    "shard_files_scanned_this_refresh": 35,
+    "adjudication_rows_scanned_this_refresh": 290,
+    "gate_rows_seen_this_refresh": 76,
+    "authenticity_rows_seen_this_refresh": 15,
     "source_runs_seen_this_refresh": [
+      39046493708,
       39032364272,
-      39018020818,
-      38984837593,
-      38972722952,
-      38951527691,
-      38925048705,
-      38895677693,
-      38861196005,
-      38836776346,
-      38826105787
+      39018020818
     ]
   },
   "healthy": true,
