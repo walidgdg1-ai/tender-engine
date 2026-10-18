@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-10-18T08:57:07.054109+00:00",
+  "updated_at": "2026-10-18T08:57:20.299259+00:00",
   "latest_dce_run_id": 39113339235,
-  "latest_shard": 2,
+  "latest_shard": 0,
   "generation_reset": false,
-  "count": 4,
+  "count": 6,
   "items": [
     {
       "candidate_id": "US-SAM:97361af093484c88a5132193129d3245",
@@ -731,6 +731,674 @@
         "printing-services",
         "printing-service",
         "communications"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "TED:653878-2026",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Backup Cloud to Cloud",
+      "buyer": "Deutsche Gesetzliche Unfallversicherung e.V.",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/653878-2026",
+      "deadline": "2026-10-23T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 89,
+      "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-10-23T02:00:00+00:00",
+        "notice_deadline_date": "2026-10-23",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-10-14"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-10-14",
+            "match": "14.10.2026",
+            "context": "ngen, Bieterfragen und deren Antworten und / oder sonstige Aktualisierungen und Än-\nderungen zu diesem Verfahren werden allen Bietern ausschließlich über die Plattform DTVP \nmitgeteilt. Bitte informieren S\nion 2 (Stand: 14.10.2026 ) \n64 / 64 \n \n \n \n \n \n \n \nSofern eine Begrenzung auf den 1,5-fachen Brutto-Gesamtauftragswert \nnicht akzeptiert wird, bitten wir um Mitteilung, ob alternativ eine andere an-\ngemessene betragsmäßige Haftungsobergrenze je"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 8,
+          "corpus_contexts": 4,
+          "unique_contexts": 8
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 12,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "| [SHEET Standorte d. Verarbeitung] Standorte der Verarbeitungen | | | | | | | | | | Hinweis: Bitte nutzen Sie für die Angaben zu Unterauftragnehmern die gesondert vorgesehenen Tabellenblätter. | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten F.1 ff. in einem Drittland | | | | | | | | | | # | A) Standort der Datenverarbeitung Land | B) Drittland1 | C) Niederlassung in Deutschland2 | D) Verarbeitung in der Cloud | E) Angemessenes Datenschutzniveau durch Nur ausfüllen, wenn eine Übermittlung in ein Drittland1 stattfindet. Wichtig: Bei Verarbeitung von Daten der Spalten F.1-F.3. in einem Drittland ist das Vorliegen eines Angemessenheitsbeschlusses obligatorisch. | F.1) Sozialdaten | F.2) Gesundheitsdaten | F.3) Sonst. Art. 9 Daten | G) Leistung Art/Beschreibung der Datenverarbeitung | H) Hinweise Prüfung OK/NOK und ggf. Text 1 | | | | | | | | | | 2 | | | | | | | | | | 3 | | | | | | | | | | 4 | | | | | | | | | | 5 | | | | | | | | | | 6 | | | | | | |",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 249353,
+            "corpus_end": 250666,
+            "match": "Niederlassung"
+          },
+          {
+            "text": "| | | | 9 | | | | | | | | | | … | | | | | | | | | | [SHEET (U)AN Standorte d. Verarbeitung] Unter-/Auftragnehmer: Standorte der Verarbeitungen | | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten G.1 ff. in einem Drittland | | | | | | | | | | | # | A) Firmenbezeichnung U/AN | B) Standort der Datenverarbeitung Land | C) Drittland1 | D) Niederlassung in Deutschland2 | E) Verarbeitung in der Cloud | F) Angemessenes Datenschutzniveau durch Nur ausfüllen, wenn Drittland=J Wichtig: Bei Verarbeitung von Daten der Spalten G.1-G.3 in einem Drittland ist das Vorliegen eines Angemessenheitsbeschlusses obligatorisch. | G.1) Sozialdaten | G.2) Gesundheitsdaten | G.3) Sonst. Art. 9 Daten | H) Leistung Art/Beschreibung der Datenverarbeitung | I) Hinweise Prüfung OK/NOK und ggf. Text 1 | | | | | | | | | | | 2 | | | | | | | | | | | 3 | | | | | | | | | | | 4 | | | | | | | | | | | 5 | | | | | | | | | | | 6 | | | | | | | | | | | 7 | | |",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 250725,
+            "corpus_end": 252038,
+            "match": "Niederlassung"
+          },
+          {
+            "text": "zum Ausschluss führt. Eigenerklärung zu Artikel 5k der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 Wir versichern, dass wir nicht zu den in Artikel 5 k) Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, genannten Personen oder Unternehmen, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen, a) durch die russische Staatsangehörigkeit des Bewerbers/Bieters oder die Niederlassung des Bewerbers/Bieters in Russland, b) durch die Beteiligung einer natürlichen Person oder eines Unternehmens, auf die eines der Kriterien nach Buchstabe a zutrifft, am Bewerber/Bieter über das Halten von Anteilen im Umfang von mehr als 50%, c) durch das Handeln der Bewerber/Bieter im Namen oder auf Anweisung von Personen oder Unternehmen, auf die die Kriterien der Buchstaben a und/oder b zutrifft, gehören. U N D (das nachfolgende 2. Kreuz ist auch zu setzen, sofern DERZEIT kein Einsatz geplant ist) Wir versichern, dass die (ggf. zukünftig) am Auftrag als Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazitäten im Zusammenhang mit",
+            "source": "files/D_20260922_20Eignungsbogen_Version_201.docx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/D+260922+Eignungsbogen_Version+1.docx",
+            "source_sha256": "6d338e10c3ca487f6cbec82f9ec26bc75006d0b5176f6fe0442dca171d03984b",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 347707,
+            "corpus_end": 349020,
+            "match": "Niederlassung"
+          },
+          {
+            "text": "ung der Auskunft ergibt sich § 6 WRegG Handelt es sich bei Ihrem Unternehmen um ein KMU? | Ja, und zwar um ein Kleinstunternehmen Ja, und zwar um ein kleines Unternehmen Ja, und zwar um ein mittleres Unternehmen Nein Ist Ihr Unternehmen börsennotiert? | Ja Nein Sofern Ihr Unternehmen nicht börsennotiert ist: Welche Staatsangehörigkeit/en hat der / haben die wirtschaftliche/n Eigentümer des Unternehmens? Hinweis: Diese und die vorstehende Angabe werden im Fall der Zuschlagserteilung im Rahmen der Bekanntmachung über vergebene Aufträge benötigt. Die Definition des wirtschaftlichen Eigentümers ergibt sich aus § 3 GWG. | Ausführende Niederlassung: | Verbindlicher Ansprechpartner und Verantwortlicher für vorliegendes Vorhaben: | Telefon: | Mobil: | Email: | Hinweis: Bitte beachten Sie, dass die gesamte Kommunikation während des Vergabeverfahrens – ungeachtet der hier und in den übrigen Vergabeunterlagen angegebenen Kontaktdaten – über den Kommunikationsbereich des DTVP abgewickelt wird. | Hinweis: Bitte beachten Sie, dass die gesamte Kommunikation während des Vergabeverfahrens – ungeachtet der hier und in den übrigen Vergabeunterlagen angegebenen Kontaktdaten – über den Kommunikationsbereich des DTVP abgewickelt wird. Verbindlicher Vertreter des Ansprechp",
+            "source": "files/D_20260922_20Eignungsbogen_Version_201.docx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/D+260922+Eignungsbogen_Version+1.docx",
+            "source_sha256": "6d338e10c3ca487f6cbec82f9ec26bc75006d0b5176f6fe0442dca171d03984b",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 351466,
+            "corpus_end": 352779,
+            "match": "Niederlassung"
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "u vertretende Datenschutzverstöße im Innenverhältnis zwischen Auftraggeber und Auftragnehmer keine Haf- tungsbegrenzung statt. Für nicht datenschutzbezogene Ansprüche verweist der Auftraggeber hingegen auf Ziffer 19 der EVB-IT Cloud-AGB. § 11 Abs. 2 und 3 des AVV sieht insbesondere eine Freistellung des Auf- traggebers sowie den Ersatz aller Schäden vor, die auf eine schuldhafte Ver- letzung datenschutzrechtlicher Pflichten durch den Auftragnehmer zurück- zuführen sind; eine betragsmäßige Haftungsobergrenze ist dort nicht vorge- sehen. Eine betragsmäßig unbeschränkte Haftung führt zu einem für den Bieter nur eingeschränkt kalkulierbaren wirtschaftlichen Risiko. Eine angemessene Haftungsbegrenzung schafft demgegenüber eine transparente und kalkulier- bare Grundlage für die Angebotsabgabe. Dieser Ansatz entspricht auch der Argumentation der beigefügten Mustervorlage auf das 1,5-fache Brutto-Ge- samtauftragswert. Wir bitten daher um erneute Prüfung, ob die Haftung im Innenverhältnis für schuldhaft verursachte Datenschutzverstöße auf den 1,5-fachen Brutto-Ge- samtauftragswert begrenzt werden kann. Die zwingende gesetzliche Haftung gegenüber betroffenen Personen soll hiervon unberührt bleiben. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 64 / 64 Sofern eine Begrenzung auf den 1,5-fachen Brutto-Gesamtauftragswert nicht akzeptiert wird, bitten wir um Mitteilung, ob alternativ eine andere an- gemessene betragsmäßige Haftungsobergrenze je Schadensereignis und/oder Vertragsjahr vereinbart werden kann. ===== FILE: files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf ===== Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 1 / 6 A. Allgemeine Hinweise und Verfah- rensablauf Sehr geehrte Damen und Herren, wir bitten Sie uns im Rahmen unseres EU-w",
+            "source": "files/Vergabeunterlagen_CXV1YYDDYRFAHH3P_unpacked/sonstiges/02 261014 Klarstellungen_Version 2.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 112960,
+            "corpus_end": 727147,
+            "match": "wirtschaftlichen Risiko. Eine angemessene \nHaftungsbegrenzung schafft demgegenüber eine transparente und kalkulier-\nbare"
+          }
+        ],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "ordert als Mindestanforderung dagegen eine Zertifizie- rung nach ISO/IEC 27001 oder BSI-Grundschutz. Im Kriterienkatalog ist un- ter Ziffer 1.18 kein C5-Testat als einzureichender Nachweis ausgewählt. Die Einhaltung der C5-Basiskriterien wird bereits über Ziffer 1.2 der EVB-IT Cloud-AGB vertraglich gefordert. Bitte stellen Sie vor diesem Hintergrund klar, ob ein formales BSI-C5-Typ-2- Testat zwingend bereits mit dem Angebot vorliegen und eingereicht werden muss oder ob die Einhaltung der C5-Basiskriterien auch durch gleichwertige Nachweise belegt werden kann. Wir verstehen die Anforderungen dahingehend, dass eine gültige ISO/IEC- 27001-Zertifizierung in Verbindung mit einem ISAE-3402- oder SOC-2-Typ- Der Bieter bezieht sich auf die Ziffer C4 der An- lage 1 zum AVV. Eine Zertifizierung nach ISO 27001 bzw. BSI IT-Grundschutz und eine gleich- zeitige Erfüllung der BSI C5-Basiskriterien schließen sich nicht aus. Die Erfüllung von Ziffer C4 kann auch durch gleichwertige Nachweise erreicht werden. Diese müssen dem Auftraggeber zwingend mittels des Tabellenblatts „Anlagen“ in Anlage 1 zur AVV vorgelegt werden. Auf den letzten Abschnitt der Antwort kann leider nicht eingegangen werden, da hier Informatio- nen fehlen („++“). Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand:",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 71120,
+            "corpus_end": 72434,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "er 1.18 kein C5-Testat als einzureichender Nachweis ausgewählt. Die Einhaltung der C5-Basiskriterien wird bereits über Ziffer 1.2 der EVB-IT Cloud-AGB vertraglich gefordert. Bitte stellen Sie vor diesem Hintergrund klar, ob ein formales BSI-C5-Typ-2- Testat zwingend bereits mit dem Angebot vorliegen und eingereicht werden muss oder ob die Einhaltung der C5-Basiskriterien auch durch gleichwertige Nachweise belegt werden kann. Wir verstehen die Anforderungen dahingehend, dass eine gültige ISO/IEC- 27001-Zertifizierung in Verbindung mit einem ISAE-3402- oder SOC-2-Typ- Der Bieter bezieht sich auf die Ziffer C4 der An- lage 1 zum AVV. Eine Zertifizierung nach ISO 27001 bzw. BSI IT-Grundschutz und eine gleich- zeitige Erfüllung der BSI C5-Basiskriterien schließen sich nicht aus. Die Erfüllung von Ziffer C4 kann auch durch gleichwertige Nachweise erreicht werden. Diese müssen dem Auftraggeber zwingend mittels des Tabellenblatts „Anlagen“ in Anlage 1 zur AVV vorgelegt werden. Auf den letzten Abschnitt der Antwort kann leider nicht eingegangen werden, da hier Informatio- nen fehlen („++“). Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 42 / 64 II-Bericht und einer nachvollziehbaren Zuordnung der nachgewiesenen Kon- trollen zu den C5-Basiskriterien als gle",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 71257,
+            "corpus_end": 72571,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "tlich Rechen- zentren, Cloud Betrieb, Datensicherung, Wiederherstellung, Zertifizierun- gen, Security Monitoring und weiterer betrieblicher Maßnahmen. Die Anlage sieht zugleich vor, dass sie durch den Auftragsverarbeiter auszufüllen ist. Der Auftragnehmer erbringt im Rahmen der ausgeschriebenen Leistung ausschließlich Implementierungs- und Einführungsleistungen. Betrieb, Hosting, Datenspeicherung, Datensicherung und technische Bereitstellung der SaaS-Lösung erfolgen durch den jeweiligen Hersteller auf Basis seiner produkt- und dienstspezifischen Vertragsunterlagen, Datenschutzbestim- mungen, technischen und organisatorischen Maßnahmen, Zertifizierungen sowie weiteren Herstellerbedingungen (z. B. EULA-, Trust-Center- und Com- pliance-Dokumentationen). Entsprechend der bei SaaS-Lösungen üblichen Leistungsabgrenzung werden die cloudseitigen Betriebsleistungen durch den jeweiligen Hersteller erbracht und unterliegen dessen technischen, or- ganisatorischen, datenschutzrechtlichen und vertraglichen Regelungen. Bie- terfrage: Ist es in dieser Konstellation ausreichend, wenn der Auftragnehmer lediglich die für seine eigenen Implementierungsleistungen relevanten Da- tenschutz- und Sicherheitsmaßnahmen nachweist und die Anlage C.2.1 260922 Anlage AVV TOMS Version 1.pdf für die cloud- und betr",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 105797,
+            "corpus_end": 107111,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "iter anwendbarer gesetzlicher Bestimmungen in vollem Umfang einzuhalten. 6.1.4 Der Auftragnehmer verfügt, soweit gesetzlich erforderlich, über einen bestellten betrieblichen Datenschutzbeauftragten mit der erforderlichen Fachkunde und teilt dem Auftraggeber auf Anfrage dessen Kontaktdaten mit. 6.2 IT-Sicherheit 6.2.1 Der Auftragnehmer verfügt für die Bereitstellung der Leistung (inklusive der dazu notwendigen infrastrukturellen, organisatorischen, personellen und technischen Komponenten) über ein angemessenes, dokumentiertes und implementiertes Sicherheitskonzept und ein Informationssicherheits- Managementsystem (ISMS) jeweils gemäß ISO 27001 einschließlich eines Notfall-Managements. Das Sicherheitskonzept hat sich an ISO 27017 auszurichten. Sofern personenbezogene Daten verarbeitet werden, hat es sich zudem an ISO 27018 auszurichten. Cloud-AGB Version 1.0.2 vom 01.03.2026 Seite 6 von 19 Soweit vereinbart, weist der Auftragnehmer dies durch gültige Zertifikate oder gleichwertige Nachweise nach. Sicherheitskonzept, ISMS und Zertifikate müssen, soweit auf die zu erbringende Leistung anwendbar, diese vollumfänglich abdecken und sind entsprechend des festgelegten Prüfungsturnus im relevanten Standard zu erneuern. 6.2.2 Der Auftragnehmer verfügt über einen IT-Sicherheitsbe",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 162277,
+            "corpus_end": 163586,
+            "match": "ISO 27001"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [
+          {
+            "text": ".................................................................................................... 12 17 Mitwirkung des Auftraggebers ..................................................................................................... 13 18 Rechte des Auftraggebers bei Mängeln der Leistungen ............................................................. 14 19 Haftungsbeschränkung ................................................................................................................ 14 20 Laufzeit und Kündigung ............................................................................................................... 14 21 Haftpflichtversicherung ................................................................................................................ 15 22 Zurückbehaltungs- und Leistungsverweigerungsrechte .............................................................. 15 23 Textform....................................................................................................................................... 15 24 Anwendbares Recht, Gerichtsstand ............................................................................................ 15 Cloud-AGB Version 1.0.2 vom 01.03.2026 Seite 2 von 19 Ergänzende Vertragsbedingungen für Cloudleistunge",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 145976,
+            "corpus_end": 147287,
+            "match": "Haftpflicht"
+          },
+          {
+            "text": "cht mehr zugemutet werden kann. Besteht der wichtige Grund in der Verletzung einer vertraglichen Pflicht, ist die Kündigung erst nach erfolglosem Ablauf einer zur Abhilfe gesetzten Frist oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt aber für solche Leistungen, für die der Auftraggeber darlegt, dass sie für ihn aufgrund der Kündigung ohne Interesse sind. 21 Haftpflichtversicherung 21.1 Soweit vereinbart, weist der Auftragnehmer bei Abschluss des Vertrages dem Auftraggeber nach, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt. 21.2 Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende des Vertrages und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 202053,
+            "corpus_end": 203364,
+            "match": "Haftpflicht"
+          },
+          {
+            "text": "st oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt aber für solche Leistungen, für die der Auftraggeber darlegt, dass sie für ihn aufgrund der Kündigung ohne Interesse sind. 21 Haftpflichtversicherung 21.1 Soweit vereinbart, weist der Auftragnehmer bei Abschluss des Vertrages dem Auftraggeber nach, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt. 21.2 Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende des Vertrages und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt. 22 Zurückbehaltungs- und Leistungsverweigerungsrechte Z",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 202239,
+            "corpus_end": 203550,
+            "match": "haftpflicht"
+          },
+          {
+            "text": "................................ 7 8.2 Allgemeine Sicherheitsanforderungen ................................................................................................. 7 8.3 Prüfrechte ............................................................................................................................................ 8 8.4 Unterauftragnehmer ............................................................................................................................. 8 8.5 Vertraulichkeit ...................................................................................................................................... 8 8.6 Haftpflichtversicherung ........................................................................................................................ 8 9 Sonstige Vereinbarungen ................................................................................................................................. 8 Cloudvertrag 26_EU_031 Backup Cloud to Cloud_Version 2 Version 1.0.2 vom 01.03.2026 Seite 2 von 10 Vertrag über Cloudleistungen zwischen Deutsche Gesetzliche Unfallversicherung e.V. (DGUV) Glinkastraße 40, 10117 Berlin vertreten durch den Hauptgeschäftsführer, Herrn Dr. Stephan Fasshauer, dieser vertreten durch den Hauptabteilungs",
+            "source": "files/C_20261009_20EVB_IT_Cloudvertrag_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C+261009+EVB_IT_Cloudvertrag_Version+2.pdf",
+            "source_sha256": "77be6f5c7bfe1762c04d5aed828b945fb33d11dbd780df886f922c18df604b14",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 311625,
+            "corpus_end": 312936,
+            "match": "Haftpflicht"
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ie beschriebene Rol- lenverteilung. Für die technischen und organisatorischen Maß- nahmen siehe Anlage 1 zum AVV. Alle Anforde- rungen an die SaaS-Lösung sind in der Leis- tungsbeschreibung beschrieben. Die TOM dürfen entsprechend der im Auftrag durchzuführenden Verarbeitungen getrennt be- trachtet werden, wenn der Bieter nicht gleichzei- tig der Betreiber der SaaS-Lösung ist. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 2 / 64 • Auftraggeber als Verantwortlicher, • Bieter als Auftragsverarbeiter, • Betreiber der SaaS-Plattform als Unterauftragsverarbeiter. Bitte bestätigen Sie zudem, ob die produktspezifischen Angaben zu den technischen und organisatorischen Maßnahmen durch den Betreiber der SaaS-Plattform ausgefüllt beziehungsweise bereitgestellt und anschließend durch den Bieter mit dem Angebot eingereicht werden können. Bitte teilen Sie außerdem mit, ob die TOM entsprechend den jeweils tatsäch- lich verantworteten Maßnahmen getrennt dargestellt werden dürfen, insbe- sondere nach: • organisatorischen und kaufmännischen Prozessen des Bieters, • technischen und betrieblichen Maßnahmen des SaaS-Betreibers, • Maßnahmen gegebenenfalls weiterer Unterauftragsverarbeiter. Sofer",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1479,
+            "corpus_end": 2791,
+            "match": "Unterauftrag"
+          },
+          {
+            "text": "SaaS-Plattform als Unterauftragsverarbeiter. Bitte bestätigen Sie zudem, ob die produktspezifischen Angaben zu den technischen und organisatorischen Maßnahmen durch den Betreiber der SaaS-Plattform ausgefüllt beziehungsweise bereitgestellt und anschließend durch den Bieter mit dem Angebot eingereicht werden können. Bitte teilen Sie außerdem mit, ob die TOM entsprechend den jeweils tatsäch- lich verantworteten Maßnahmen getrennt dargestellt werden dürfen, insbe- sondere nach: • organisatorischen und kaufmännischen Prozessen des Bieters, • technischen und betrieblichen Maßnahmen des SaaS-Betreibers, • Maßnahmen gegebenenfalls weiterer Unterauftragsverarbeiter. Sofern ein abweichendes Rollen- oder Ausfüllmodell vorgesehen ist, bitten wir um entsprechende Erläuterung. 2 Zeichnung der AVV und Einbeziehung der TOM des SaaS-Betreibers: die I 260922 Zusammenfassende Liste_Version 1.docx verlangt mit dem An- gebot eine ausgefüllte und digital unterschriebene AVV einschließlich Anla- gen. Die C.2.1 260922 Auftragsverarbeitungvertrag -SD_Version 1.docx Wenn der Betreiber der SaaS-Plattform wie un- ter Frage Nr. 1 als Unterauftragsverarbeiter des Bieters agiert, wird der Betreiber der SaaS-Platt- form als Unterauftragsverarbeiter eingebunden. Vorhaben: Backup Cloud to Cloud (26_EU_031),",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2109,
+            "corpus_end": 3421,
+            "match": "Unterauftrag"
+          },
+          {
+            "text": "organisatorischen und kaufmännischen Prozessen des Bieters, • technischen und betrieblichen Maßnahmen des SaaS-Betreibers, • Maßnahmen gegebenenfalls weiterer Unterauftragsverarbeiter. Sofern ein abweichendes Rollen- oder Ausfüllmodell vorgesehen ist, bitten wir um entsprechende Erläuterung. 2 Zeichnung der AVV und Einbeziehung der TOM des SaaS-Betreibers: die I 260922 Zusammenfassende Liste_Version 1.docx verlangt mit dem An- gebot eine ausgefüllte und digital unterschriebene AVV einschließlich Anla- gen. Die C.2.1 260922 Auftragsverarbeitungvertrag -SD_Version 1.docx Wenn der Betreiber der SaaS-Plattform wie un- ter Frage Nr. 1 als Unterauftragsverarbeiter des Bieters agiert, wird der Betreiber der SaaS-Platt- form als Unterauftragsverarbeiter eingebunden. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 3 / 64 weist dem Auftragnehmer umfassende Pflichten zu, unter anderem hinsicht- lich technischer und organisatorischer Maßnahmen, Löschung, Betroffenen- rechten, Datenschutzvorfällen, Kontrollrechten sowie der Steuerung von Un- terauftragsverarbeitern. Zahlreiche dieser Pflichten können bei einer stan- dardisierten SaaS-Lösung operativ nur durch den Betreiber der SaaS-Platt- form erfüllt werden. Bitte stellen Sie klar, ob die AVV ausschließlich zwisc",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2597,
+            "corpus_end": 3909,
+            "match": "Unterauftrag"
+          },
+          {
+            "text": "hen Maßnahmen des SaaS-Betreibers, • Maßnahmen gegebenenfalls weiterer Unterauftragsverarbeiter. Sofern ein abweichendes Rollen- oder Ausfüllmodell vorgesehen ist, bitten wir um entsprechende Erläuterung. 2 Zeichnung der AVV und Einbeziehung der TOM des SaaS-Betreibers: die I 260922 Zusammenfassende Liste_Version 1.docx verlangt mit dem An- gebot eine ausgefüllte und digital unterschriebene AVV einschließlich Anla- gen. Die C.2.1 260922 Auftragsverarbeitungvertrag -SD_Version 1.docx Wenn der Betreiber der SaaS-Plattform wie un- ter Frage Nr. 1 als Unterauftragsverarbeiter des Bieters agiert, wird der Betreiber der SaaS-Platt- form als Unterauftragsverarbeiter eingebunden. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 3 / 64 weist dem Auftragnehmer umfassende Pflichten zu, unter anderem hinsicht- lich technischer und organisatorischer Maßnahmen, Löschung, Betroffenen- rechten, Datenschutzvorfällen, Kontrollrechten sowie der Steuerung von Un- terauftragsverarbeitern. Zahlreiche dieser Pflichten können bei einer stan- dardisierten SaaS-Lösung operativ nur durch den Betreiber der SaaS-Platt- form erfüllt werden. Bitte stellen Sie klar, ob die AVV ausschließlich zwischen dem Auftraggeber und dem Bieter geschlossen und durch den Bieter gezeichnet werden so",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2687,
+            "corpus_end": 3999,
+            "match": "Unterauftrag"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/02_20261014_20Klarstellungen_Version_202.pdf ===== Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 1 / 64 Bieterfragen – Klarstellungen Nr. Bieterfrage Klarstellung 1 Datenschutzrechtliches Rollenmodell, AVV und TOM: nach Abschnitt 3 „Datenschutz“ der B 260922 Leistungsbeschreibung_Ver- sion 1.pdf fungiert der Auftragnehmer als Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § 80 SGB X. Nach § 5 Abs. 6 der C.2.1 260922 Auftragsverarbeitungvertrag-SD_Version 1.docx hat der Auf- tragnehmer die Anlage 1 zu den technischen und organisatorischen Maß- nahmen auszufüllen. Die in der C.2.1 260922 Anlage AVV TOMS Version 1.xlsx abgefragten Maß- nahmen betreffen überwiegend den technischen Betrieb der SaaS-Plattform, insbesondere Rechenzentren, Verschlüsselung, Schlüsselmanagement, Datensicherung, Wiederherstellung, Löschung und tec",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 985,
+            "match": "Leistungsbeschreibung"
+          },
+          {
+            "text": "keiner Änderung der Vergabeunterlagen. 4 Abgrenzung zwischen SaaS-Bereitstellung und operativen Backup- und Restore-Leistungen: Die Formulierung „einschließlich der Datensi- cherung und Wiederherstellung der darin ent- haltenen Daten“ beschreibt den funktionalen Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 8 / 64 nach Ziffer 1.1 des C 260922 EVB_IT_Cloudvertrag_Version 1.pdf ist Ver- tragsgegenstand die Bereitstellung einer cloudbasierten Backup- und Wie- derherstellungslösung als Software as a Service „einschließlich der Daten- sicherung und Wiederherstellung der darin enthaltenen Daten“. Die B 260922 Leistungsbeschreibung_Version 1.pdf verlangt automatisierte Sicherungen sowie granulare und vollständige Wiederherstellungen. Das H 260922 Preisblatt-Kriterien_Version 1 gesperrt.xlsx enthält jedoch aus- schließlich jährliche Lizenzpositionen und keine gesonderten Positionen für die manuelle Durchführung von Datensicherungen oder Wiederherstellun- gen. Bitte stellen Sie klar, ob die Formulierung „einschließlich der Datensicherung und Wiederherstellung der darin enthaltenen Daten“ ausschließlich die Be- reitstellung der entsprechenden Backup- und Restore-Funktionalitäten in- nerhalb der SaaS-Lösung umfasst. Bitte bestätigen Sie insbesondere, ob • die regelm",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11652,
+            "corpus_end": 12973,
+            "match": "Leistungsbeschreibung"
+          },
+          {
+            "text": "Daten“ ausschließlich die Be- reitstellung der entsprechenden Backup- und Restore-Funktionalitäten in- nerhalb der SaaS-Lösung umfasst. Bitte bestätigen Sie insbesondere, ob • die regelmäßigen Datensicherungen automatisiert durch die SaaS-Lösung erfolgen, • die Datensicherungen nicht manuell durch Personal des Auftragnehmers durchgeführt oder einzeln überwacht werden müssen, • Wiederherstellungen grundsätzlich durch den Auftraggeber über die Ma- nagementoberfläche ausgelöst und durchgeführt werden, • der Auftragnehmer keine manuellen Datensicherungen oder Wiederher- stellungen als gesonderte personelle Dienstleistung erbringen muss. Leistungsumfang der bereitzustellenden SaaS- Lösung. Gegenstand der Beschaffung ist die Bereitstel- lung einer cloudbasierten Backup- und Wieder- herstellungslösung einschließlich der hierfür er- forderlichen Backup- und Restore-Funktionali- täten. Der Auftraggeber stellt hierzu klar:  Die regelmäßigen Datensicherungen er- folgen automatisiert durch die SaaS-Lö- sung.  Eine wiederkehrende manuelle Durch- führung oder Einzelüberwachung der Datensicherungen durch Personal des Auftragnehmers wird nicht gefordert.  Wiederherstellungen müssen grund- sätzlich durch berechtigte Administrato- ren des Auftraggebers über die bereit- gestellte Managemen",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12784,
+            "corpus_end": 14099,
+            "match": "Leistungsumfang"
+          },
+          {
+            "text": "ali- täten. Der Auftraggeber stellt hierzu klar:  Die regelmäßigen Datensicherungen er- folgen automatisiert durch die SaaS-Lö- sung.  Eine wiederkehrende manuelle Durch- führung oder Einzelüberwachung der Datensicherungen durch Personal des Auftragnehmers wird nicht gefordert.  Wiederherstellungen müssen grund- sätzlich durch berechtigte Administrato- ren des Auftraggebers über die bereit- gestellte Managementoberfläche ausge- löst und durchgeführt werden können.  Eine regelmäßige manuelle Durchfüh- rung von Sicherungen oder Wiederher- stellungen durch Personal des Auftrag- nehmers ist nicht Gegenstand des aus- geschriebenen Leistungsumfangs. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 9 / 64 Sofern der Auftragnehmer Wiederherstellungen auf Anforderung des Auf- traggebers aktiv durchführen, begleiten oder administrativ unterstützen soll, bitten wir um eine konkrete Beschreibung der erwarteten Tätigkeiten.  Gesonderte personelle Dienstleistungen für die Durchführung von Standard-Ba- ckups oder Standard-Wiederherstellun- gen sind nicht zu kalkulieren. Hiervon unberührt bleiben die vertraglich verein- barten technischen Supportleistungen, insbe- sondere bei Produktstörungen, Fehleranalysen oder technischen Fragen zur Nutzung der bereit- ge",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13673,
+            "corpus_end": 14988,
+            "match": "Leistungsumfang"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "benen Leistungs- umfangs sind. Die technischen Supportleistungen bei Produkt- störungen bleiben hiervon unberührt. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 11 / 64 Sofern keine manuell durch den Auftragnehmer zu erbringenden Backup-, Restore-, Test- oder Unterstützungsleistungen geschuldet werden und ledig- lich die entsprechenden Funktionen der SaaS-Lösung bereitzustellen sind, bitten wir um entsprechende Bestätigung. Diese Klarstellung führt zu einer Änderung der Vergabeunterlagen. Die Änderungen wurden in den Vergabeunterlagen kenntlich gemacht ( siehe B. Leistungsbeschreibung Ziffer 2.2) 6 SLA für Datensicherung und Wiederherstellung: nach Ziffer 2.3 der B 260922 Leistungsbeschreibung_Version 1.pdf muss der Wiederherstellungsservice gemäß den SLA für alle Daten jederzeit mög- lich sein. Unter Ziffer 2.5 wird eine Verfügbarkeit der Backuplösung von 99,9 Prozent im Jahresmittel gefordert. Die Tabelle zu Reaktions- und Wiederherstellungszeiten unter Ziffer 2.2 des C.3 260922 Kriterienkatalog_Cloud_Version 1.pdf enthält keine konkreten Zeitangaben. Bitte konkretisieren Sie, welche SLA für die Datensicherungs- und Wieder- herstellungsprozesse gelten. Bitte stellen Sie insbesondere klar, 1. ob sich die geforderte Verfügbarkei",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18005,
+            "corpus_end": 19308,
+            "match": "SLA"
+          },
+          {
+            "text": "31), Version 2 (Stand: 14.10.2026 ) 11 / 64 Sofern keine manuell durch den Auftragnehmer zu erbringenden Backup-, Restore-, Test- oder Unterstützungsleistungen geschuldet werden und ledig- lich die entsprechenden Funktionen der SaaS-Lösung bereitzustellen sind, bitten wir um entsprechende Bestätigung. Diese Klarstellung führt zu einer Änderung der Vergabeunterlagen. Die Änderungen wurden in den Vergabeunterlagen kenntlich gemacht ( siehe B. Leistungsbeschreibung Ziffer 2.2) 6 SLA für Datensicherung und Wiederherstellung: nach Ziffer 2.3 der B 260922 Leistungsbeschreibung_Version 1.pdf muss der Wiederherstellungsservice gemäß den SLA für alle Daten jederzeit mög- lich sein. Unter Ziffer 2.5 wird eine Verfügbarkeit der Backuplösung von 99,9 Prozent im Jahresmittel gefordert. Die Tabelle zu Reaktions- und Wiederherstellungszeiten unter Ziffer 2.2 des C.3 260922 Kriterienkatalog_Cloud_Version 1.pdf enthält keine konkreten Zeitangaben. Bitte konkretisieren Sie, welche SLA für die Datensicherungs- und Wieder- herstellungsprozesse gelten. Bitte stellen Sie insbesondere klar, 1. ob sich die geforderte Verfügbarkeit von 99,9 Prozent ausschließlich auf die Erreichbarkeit und wesentliche Nutzbarkeit der SaaS-Plattform bezieht, Der Auftraggeber stellt die Anforderungen a",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18163,
+            "corpus_end": 19466,
+            "match": "SLA"
+          },
+          {
+            "text": "derung der Vergabeunterlagen. Die Änderungen wurden in den Vergabeunterlagen kenntlich gemacht ( siehe B. Leistungsbeschreibung Ziffer 2.2) 6 SLA für Datensicherung und Wiederherstellung: nach Ziffer 2.3 der B 260922 Leistungsbeschreibung_Version 1.pdf muss der Wiederherstellungsservice gemäß den SLA für alle Daten jederzeit mög- lich sein. Unter Ziffer 2.5 wird eine Verfügbarkeit der Backuplösung von 99,9 Prozent im Jahresmittel gefordert. Die Tabelle zu Reaktions- und Wiederherstellungszeiten unter Ziffer 2.2 des C.3 260922 Kriterienkatalog_Cloud_Version 1.pdf enthält keine konkreten Zeitangaben. Bitte konkretisieren Sie, welche SLA für die Datensicherungs- und Wieder- herstellungsprozesse gelten. Bitte stellen Sie insbesondere klar, 1. ob sich die geforderte Verfügbarkeit von 99,9 Prozent ausschließlich auf die Erreichbarkeit und wesentliche Nutzbarkeit der SaaS-Plattform bezieht, Der Auftraggeber stellt die Anforderungen an die Service Levels wie folgt klar: 1. Die geforderte Verfügbarkeit von 99,9 Prozent im Jahresmittel bezieht sich auf die Erreichbarkeit und vertragsgemäße Nutzbarkeit der SaaS-Plattform ein- schließlich ihrer wesentlichen Siche- rungs-, Such-, Verwaltungs- und Wie- derherstellungsfunktionen. 2. Die erfolgreiche Durchführung eines ein",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18509,
+            "corpus_end": 19812,
+            "match": "SLA"
+          },
+          {
+            "text": "le Daten jederzeit mög- lich sein. Unter Ziffer 2.5 wird eine Verfügbarkeit der Backuplösung von 99,9 Prozent im Jahresmittel gefordert. Die Tabelle zu Reaktions- und Wiederherstellungszeiten unter Ziffer 2.2 des C.3 260922 Kriterienkatalog_Cloud_Version 1.pdf enthält keine konkreten Zeitangaben. Bitte konkretisieren Sie, welche SLA für die Datensicherungs- und Wieder- herstellungsprozesse gelten. Bitte stellen Sie insbesondere klar, 1. ob sich die geforderte Verfügbarkeit von 99,9 Prozent ausschließlich auf die Erreichbarkeit und wesentliche Nutzbarkeit der SaaS-Plattform bezieht, Der Auftraggeber stellt die Anforderungen an die Service Levels wie folgt klar: 1. Die geforderte Verfügbarkeit von 99,9 Prozent im Jahresmittel bezieht sich auf die Erreichbarkeit und vertragsgemäße Nutzbarkeit der SaaS-Plattform ein- schließlich ihrer wesentlichen Siche- rungs-, Such-, Verwaltungs- und Wie- derherstellungsfunktionen. 2. Die erfolgreiche Durchführung eines einzelnen Backup- oder Restore-Vor- gangs ist nicht unmittelbar Bestandteil der Verfügbarkeitsberechnung. 3. Die Formulierung „jederzeit möglich“ be- zieht sich auf die technische Nutzbarkeit der Wiederherstellungsfunktionen inner- halb der SaaS-Lösung. Eine jederzeitige personelle Durchführung von Wieder- herstellungen",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18823,
+            "corpus_end": 20136,
+            "match": "Service Level"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "altung der C5-Kri- terien bzw. sehen an mehreren Stellen einen Nachweis der Umsetzung ent- sprechender Anforderungen vor. Einige am Markt verfügbare Backup-as-a- Service-Lösungen befinden sich aktuell in einem laufenden C5-Testierungs- verfahren und können zum Zeitpunkt der Angebotsabgabe noch kein abge- schlossenes C5-Testat vorlegen. Wird es als ausreichend angesehen, wenn der Bieter mit Angebotsabgabe eine verbindliche Eigenerklärung des Her- stellers vorlegt, aus der hervorgeht, dass sich die angebotene Lösung be- reits im C5-Testierungsverfahren befindet und das entsprechende C5-Testat innerhalb eines definierten Zeitraums während der Vertragslaufzeit nachge- reicht wird? Falls ja, bis zu welchem Zeitpunkt nach Zuschlagserteilung muss der Nachweis spätestens erbracht werden? Der Nachweis C5-Testat wird nicht verlangt, es gelten die Anforderungen aus B, D und C + C.3. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 32 / 64 29 Die Vergabeunterlagen enthalten Anforderungen an die Einhaltung der C5- Kriterien und sehen verschiedene Nachweisformen im Bereich Informations- sicherheit und Datenschutz vor. Wird ein eigenes C5-Testat der angebote- nen Backup-Lösung als zwingende Mindestanforder",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 52352,
+            "corpus_end": 53668,
+            "match": "Vertragslaufzeit"
+          },
+          {
+            "text": "Version 2 (Stand: 14.10.2026 ) 49 / 64 Daten auf dokumentierte Weisung des Auftraggebers sowie bei Vertrags- ende. Wir verstehen die Anforderung an die Unveränderbarkeit dahingehend, dass unautorisierte Veränderungen und Löschungen von Sicherungsdaten im Re- gelbetrieb ausgeschlossen sein müssen. Gezielte Löschungen auf dokumentierte Weisung des Auftraggebers, insbe- sondere zur Erfüllung von Betroffenenrechten oder im Zusammenhang mit der Beendigung des Vertragsverhältnisses, wären hiervon nicht erfasst. Bitte bestätigen Sie dieses Verständnis. 46 Unter Ziffer 4.4 des EVB-IT-Cloudvertrags ist keine Preisanpassung vorge- sehen. Die Vertragslaufzeit beträgt zunächst 24 Monate und kann sich zweimal um jeweils weitere zwölf Monate verlängern. Bitte stellen Sie klar, ob für die optionalen Verlängerungsjahre 3 und 4 eine transparente und indexbasierte Anpassung der vereinbarten Einheitspreise zugelassen wird, beispielsweise auf Grundlage des vom Statistischen Bun- desamt veröffentlichten Verbraucherpreisindex für Deutschland und unter Festlegung einer angemessenen Obergrenze. Sofern eine solche Anpassung zugelassen wird, bitten wir um Konkretisie- rung: Es ist keine Preisanpassung vorgesehen. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backu",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 86448,
+            "corpus_end": 87764,
+            "match": "Vertragslaufzeit"
+          },
+          {
+            "text": "und Funktionspostfächer, Raum- und Gerätepostfächer, Service- und Administrationskonten, Gäste und externe Nutzer, Gruppen, Sites, Spaces und sonstige nicht personenbezogene Objekte. Bitte bestätigen Sie außerdem, dass die im Preisblatt genannten Mengen sämtliche nach dem vorgesehenen Lizenzmodell erforderlichen Lizenzen abdecken und für die Sicherung des beschriebenen Ausgangsbestands keine zusätzlichen, bislang nicht ausgewiesenen Lizenzeinheiten erforder- lich sind. Sofern einzelne Lizenzmengen auf Schätzungen beruhen, bitten wir um Kennzeichnung und um Mitteilung, nach welchem Verfahren Mehr- oder Mindermengen während der Vertragslaufzeit abgerechnet werden. nutzer- bzw. objektbasiertes Lizenzmodell vor- gesehen. Für die Datenspeicherung inaktiver Nutzerkonten dürfen keine zusätzlichen Kosten anfallen und eine zusätzliche Lizenzierung darf hierfür nicht erforderlich sein. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 56 / 64 51 Nach Ziffer 4.1 des EVB-IT Cloudvertrags ist die Vergütung für wiederkeh- rende Leistungen „jährlich bis zum Ende der laufenden Vertragsperiode“ fäl- lig. Aus der Formulierung geht nicht eindeutig hervor, welcher Zeitraum unter einer Vertragsperio",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 98270,
+            "corpus_end": 99586,
+            "match": "Vertragslaufzeit"
+          },
+          {
+            "text": "en. Der Vertrag wurde entsprechend ange- passt. Diese Klarstellung führt zu einer Änderung der Vergabeunterlagen (vgl. Nr. 4.1 EVB-IT-Cloud- vertrag). Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 57 / 64 Nach unserem Verständnis beginnt das erste Vertragsjahr mit der Zu- schlagserteilung. Bitte bestätigen Sie auch dieses Verständnis. 52 Nach Ziffer IV.4 der Leistungsbeschreibung werden die optionalen Lizenzen der Positionen O1 bis O4 ab dem Abruf anteilig für die verbleibende Ver- tragslaufzeit auf Basis der vereinbarten Einheitspreise abgerechnet. Aus der Formulierung „anteilig für die verbleibende Vertragslaufzeit“ geht nicht eindeutig hervor, ob sich die zeitanteilige Abrechnung auf den verblei- benden Zeitraum des laufenden Vertragsjahres oder auf die gesamte noch verbleibende Vertragslaufzeit bezieht. Wir verstehen die Regelung dahingehend, dass unterjährig abgerufene Li- zenzen ab dem Monat ihrer Bereitstellung zunächst monatsgenau bis zum Ende des laufenden Vertragsjahres abgerechnet werden. Ab dem folgenden Vertragsjahr würden die abgerufenen Lizenzen gemeinsam mit den Positio- nen R1 bis R4 jährlich abgerechnet. Eine Abrechnung in einer Summe für die gesamte verbleibende Vertrags- laufzeit von bis zu 48 Monaten wäre demnach nicht vorgeseh",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 101131,
+            "corpus_end": 102447,
+            "match": "Vertragslaufzeit"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "kumentation, mit den Lizenzpreisen abgegolten sind. Sofern solche personellen Leistungen gleichwohl geschuldet werden, bitten wir um: 1. eine vollständige und abschließende Beschreibung der jeweils erwarteten Tätigkeiten, 2. eine eindeutige Abgrenzung der Verantwortlichkeiten von Auftraggeber, Auftragnehmer und Betreiber der SaaS-Lösung, 3. ein verbindliches Mengengerüst mit geschätzten und maximalen Mengen beziehungsweise Aufwänden, 4. die Festlegung der erforderlichen Mitwirkungsleistungen des Auftragge- bers, Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 38 / 64 5. die Ergänzung gesonderter und wertungsrelevanter Preispositionen, 6. eine Regelung für Leistungen, die die angegebenen Höchstmengen be- ziehungsweise Aufwände überschreiten. Bitte stellen Sie in diesem Fall ein entsprechend angepasstes Preisblatt zur Verfügung, damit sämtliche Bieter die geforderten Leistungen auf derselben Grundlage vollständig und vergleichbar kalkulieren können. 35 Die Vereinbarung über die Auftragsverarbeitung einschließlich Anlage 1 zu den technischen und organisatorischen Maßnahmen ist mit dem Angebot einzureichen. Nach den Hinweisen auf dem Deckblatt der Anlage 1 dient diese zugleich der Kontrolle und Klärung offener Punkte. Noch nicht abschließe",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 64810,
+            "corpus_end": 66117,
+            "match": "wertung"
+          },
+          {
+            "text": "ffen ist. Entsprechende Abweichungen könn- ten demnach im Rahmen der Angebotsaufklärung geklärt und spätestens Vor Zuschlagserteilung erfolgt eine Prüfung der Anlage 1 (Technische und organisatorische Maßnahmen). Sollten dabei klärungsbedüftige Punkte identifiziert werden, erfolgt eine Rück- sprache mit dem Bieter. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 39 / 64 vor Aufnahme der Verarbeitungstätigkeit behoben oder durch gleichwertige Maßnahmen kompensiert werden. Bitte bestätigen Sie dieses Verständnis. Sofern eine abweichende Wertung vorgesehen ist, bitten wir um eindeutige Benennung derjenigen Angaben in- nerhalb der Anlage 1, die unmittelbar zum Ausschluss des Angebots führen. 36 Unter Ziffer 3.c-1.2 der Anlage 1 zu den technischen und organisatorischen Maßnahmen werden bei der Verarbeitung von Sozialdaten mindestens drei redundante Rechenzentren gefordert. Im Kriterienkatalog ist unter Ziffer 1.4 die weitergehende Anforderung an mehr als zwei georedundante Standorte dagegen nicht ausgewählt. Nach unserem Verständnis verbleibt es damit bei der Anforderung des C5-Basis- kriteriums PS-02 an zwei georedundante Standorte. Wir verstehen die Vergabeunterlagen daher d",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 66679,
+            "corpus_end": 67986,
+            "match": "Wertung"
+          },
+          {
+            "text": "ieterfragen.......................................................................................................... 2 3. Angebotsabgabe und Inhalt des Angebotes ......................................................... 3 a) Formale Vollständigkeit, form- und fristgerechter Eingang .................................... 3 b) Vergaberechtliche Ausschlussgründe, Eignung (Ziff. 5.1.9 des Bekanntmachungs-textes) .................................................................................... 3 c) Angemessenheit der Preise ................................................................................. 4 d) Wirtschaftlichstes Angebot / Zuschlagskriterien (Ziff. 5.1.10 des Bekanntmachungstextes) ..................................................................................... 4 III. Nachprüfung......................................................................................................... 4 IV. Hinweise zum Datenschutz – Schutz von personenbezogenen Daten ................. 4 V. Hinweise zur Verwendung bereitgestellter Inhalte für ggf. anzufertigende Arbeiten im Rahmen des Vergabeverfahrens ..................................................................... 5 Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 2 / 6 I. Auftragsgegenstand Details zum Auftragsgege",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 116079,
+            "corpus_end": 117397,
+            "match": "Zuschlagskriterien"
+          },
+          {
+            "text": "erbringenden Leistung ungewöhnlich niedrig, verlangt der öffentliche Auftraggeber vom Bieter Aufklärung, vgl. § 60 VgV. Unbeschadet des § 60 VgV erklärt sich der Bieter mit Abgabe des Angebots generell bereit, sein Angebot kostenfrei zu erläutern. Er hat auf Verlangen des Auftraggebers u.a. die Kalku- lation mit nachvollziehbaren Angaben zur Preisermittlung und Zusammensetzung der einzel- nen Preispositionen zu dem vom Auftraggeber bestimmten Zeitpunkt vorzulegen. Mit den An- gaben der Kalkulation müssen die Angebotspreise rechnerisch nachvollziehbar sein. Dies gilt auch für Unterauftragnehmerleistungen. d) Wirtschaftlichstes Angebot / Zuschlagskriterien (Ziff. 5.1.10 des Bekanntma- chungstextes) Die Bewertung der Wirtschaftlichkeit der Angebote erfolgt anhand der folgenden Zuschlags- kriterien: Das Angebot mit dem niedrigsten Angebotspreis (Wertungspreis brutto gemäß Dokument An- gebotsblatt bzw. Preisblatt) ist das wirtschaftlichste Angebot. III. Nachprüfung Auf die Regelungen der §§ 160 ff. GWB wird ausdrücklich hingewiesen. Nach § 165 Abs. 3 GWB hat jeder Beteiligte im Nachprüfungsverfahren vor der Vergabekam- mer mit der Übersendung seiner Akten oder Stellungnahmen auf die Wahrung der Betriebs- oder Geschäftsgeheimnisse hinzuweisen und diese in den Unterlagen entsprechend deutl",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 121506,
+            "corpus_end": 122824,
+            "match": "Zuschlagskriterien"
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ist mit dem An- gebot einzureichen. Die Vertragsunterlagen mit dem Unterauf- tragsverarbeiter sind nicht vorzulegen. Aller- dings sind der Name und die Standorte der Ver- arbeitung des Unterauftragsverarbeiters zu nen- nen und außerdem die TOM (Anlage 1) des Un- terauftragsverarbeiters einzureichen. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 4 / 64 Angebot einzureichen ist oder erst auf gesonderte Aufforderung des Auftrag- gebers vorzulegen wäre. 3 Einordnung des Betreibers der SaaS-Plattform als Unterauftragneh- mer: nach der Eigenerklärung „Übersicht Unterauftragnehmer“ im D 260922 Eig- nungsbogen_Version 1.docx sind Unternehmen anzugeben, auf die für die Leistungserbringung zurückgegriffen wird. Für Unterauftragnehmer ohne Eignungsleihe sind nach den Ausfüllhinweisen die Erklärungen Nr. 1 bis 3 des Eignungsbogens sowie die F Erklärung UAN.docx einzureichen. Die I 260922 Zusammenfassende Liste_Version 1.docx nennt diese Unterlagen ebenfalls als einzureichende Dokumente im Fall des Einsatzes von Unter- auftragnehmern. Bitte bestätigen Sie, ob der Betreiber einer standardisierten SaaS-Plattform als Unterauftragnehmer im Sinne der Vergabeunterlagen anzugeben ist, wenn der",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5321,
+            "corpus_end": 6630,
+            "match": "erklärung"
+          },
+          {
+            "text": "lage 1) des Un- terauftragsverarbeiters einzureichen. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 4 / 64 Angebot einzureichen ist oder erst auf gesonderte Aufforderung des Auftrag- gebers vorzulegen wäre. 3 Einordnung des Betreibers der SaaS-Plattform als Unterauftragneh- mer: nach der Eigenerklärung „Übersicht Unterauftragnehmer“ im D 260922 Eig- nungsbogen_Version 1.docx sind Unternehmen anzugeben, auf die für die Leistungserbringung zurückgegriffen wird. Für Unterauftragnehmer ohne Eignungsleihe sind nach den Ausfüllhinweisen die Erklärungen Nr. 1 bis 3 des Eignungsbogens sowie die F Erklärung UAN.docx einzureichen. Die I 260922 Zusammenfassende Liste_Version 1.docx nennt diese Unterlagen ebenfalls als einzureichende Dokumente im Fall des Einsatzes von Unter- auftragnehmern. Bitte bestätigen Sie, ob der Betreiber einer standardisierten SaaS-Plattform als Unterauftragnehmer im Sinne der Vergabeunterlagen anzugeben ist, wenn der Bieter den Vertrag mit dem Auftraggeber schließt, die eigentliche SaaS-Plattform jedoch durch den SaaS-Betreiber bereitgestellt und betrie- ben wird. Sofern der SaaS-Betreiber als Unterauftragnehmer anzugeben ist, bitten wir um Klarstellung, 1.",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5570,
+            "corpus_end": 6879,
+            "match": "Erklärung"
+          },
+          {
+            "text": "iese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 4 / 64 Angebot einzureichen ist oder erst auf gesonderte Aufforderung des Auftrag- gebers vorzulegen wäre. 3 Einordnung des Betreibers der SaaS-Plattform als Unterauftragneh- mer: nach der Eigenerklärung „Übersicht Unterauftragnehmer“ im D 260922 Eig- nungsbogen_Version 1.docx sind Unternehmen anzugeben, auf die für die Leistungserbringung zurückgegriffen wird. Für Unterauftragnehmer ohne Eignungsleihe sind nach den Ausfüllhinweisen die Erklärungen Nr. 1 bis 3 des Eignungsbogens sowie die F Erklärung UAN.docx einzureichen. Die I 260922 Zusammenfassende Liste_Version 1.docx nennt diese Unterlagen ebenfalls als einzureichende Dokumente im Fall des Einsatzes von Unter- auftragnehmern. Bitte bestätigen Sie, ob der Betreiber einer standardisierten SaaS-Plattform als Unterauftragnehmer im Sinne der Vergabeunterlagen anzugeben ist, wenn der Bieter den Vertrag mit dem Auftraggeber schließt, die eigentliche SaaS-Plattform jedoch durch den SaaS-Betreiber bereitgestellt und betrie- ben wird. Sofern der SaaS-Betreiber als Unterauftragnehmer anzugeben ist, bitten wir um Klarstellung, 1. ob für den SaaS-Betreiber die F Erklärung UAN.docx einz",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5626,
+            "corpus_end": 6935,
+            "match": "Erklärung"
+          },
+          {
+            "text": "s sowie die F Erklärung UAN.docx einzureichen. Die I 260922 Zusammenfassende Liste_Version 1.docx nennt diese Unterlagen ebenfalls als einzureichende Dokumente im Fall des Einsatzes von Unter- auftragnehmern. Bitte bestätigen Sie, ob der Betreiber einer standardisierten SaaS-Plattform als Unterauftragnehmer im Sinne der Vergabeunterlagen anzugeben ist, wenn der Bieter den Vertrag mit dem Auftraggeber schließt, die eigentliche SaaS-Plattform jedoch durch den SaaS-Betreiber bereitgestellt und betrie- ben wird. Sofern der SaaS-Betreiber als Unterauftragnehmer anzugeben ist, bitten wir um Klarstellung, 1. ob für den SaaS-Betreiber die F Erklärung UAN.docx einzureichen ist, 2. welche konkreten Erklärungen beziehungsweise Abschnitte des D 260922 Eignungsbogen_Version 1.docx durch den SaaS-Betreiber auszufüllen sind, Ein Unterauftragnehmer erbringt einen Teil der ausgeschriebenen Leistung. Ein bloßer Zulieferer oder Anbieter von Hilfsleis- tungen ist dagegen regelmäßig kein Unterauf- tragnehmer. Darunter fällt i.d.R. die Bereitstel- lung der reinen Infrastruktur (IaaS). Die Einordnung hängt von der konkreten ver- traglichen Ausgestaltung des Bieters/AN mit dem SaaS-Betreiber ab und kann vom AG nicht für jeden individuellen Fall beantwortet werden. Das Risiko trägt der AN. Zu",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6262,
+            "corpus_end": 7571,
+            "match": "Erklärung"
+          }
+        ],
+        "submission": [
+          {
+            "text": "rt werden. Die Anlage zur Einbeziehung auftragnehmersei- tiger AGB ist nicht zu verwenden. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. 12 Form der Unterzeichnung von Angebotsblatt, AVV und Anlagen: Das Eintippen (Tastatur) des Namens (Text- form) ist ausreichend. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 21 / 64 die I 260922 Zusammenfassende Liste_Version 1.docx verlangt ein digital unterschriebenes Angebotsblatt sowie eine digital unterschriebene AVV ein- schließlich Anlagen. Im G 260922 Angebotsblatt_Version 1.docx wird zugleich ausgeführt, dass bei elektronischer Angebotseinreichung über das DTVP eigenhändige Un- terschriften nicht erforderlich sind und stattdessen die vorgesehenen Felder am Computer auszufüllen sind. Bitte stellen Sie klar, welche Form der Unterzeichnung für folgende Unterla- gen erforderlich ist: • Angebotsblatt, • AVV, • TOM-Anlage, • gegebenenfalls Unterauftragnehmererklärung. Ist es bei elektronischer Einreichung über das DTVP ausreichend, Ort, Da- tum, Name, Funktion und Firma maschinenschriftlich einzutragen? Oder wird für einzelne Dokumente eine fortgeschrittene beziehungsweise qualifizierte elektronische Signatur verlangt? Bitte stellen Sie gegebenenfalls klar, welche Person beziehung",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37799,
+            "corpus_end": 39110,
+            "match": "einreichung"
+          },
+          {
+            "text": "6 ) 21 / 64 die I 260922 Zusammenfassende Liste_Version 1.docx verlangt ein digital unterschriebenes Angebotsblatt sowie eine digital unterschriebene AVV ein- schließlich Anlagen. Im G 260922 Angebotsblatt_Version 1.docx wird zugleich ausgeführt, dass bei elektronischer Angebotseinreichung über das DTVP eigenhändige Un- terschriften nicht erforderlich sind und stattdessen die vorgesehenen Felder am Computer auszufüllen sind. Bitte stellen Sie klar, welche Form der Unterzeichnung für folgende Unterla- gen erforderlich ist: • Angebotsblatt, • AVV, • TOM-Anlage, • gegebenenfalls Unterauftragnehmererklärung. Ist es bei elektronischer Einreichung über das DTVP ausreichend, Ort, Da- tum, Name, Funktion und Firma maschinenschriftlich einzutragen? Oder wird für einzelne Dokumente eine fortgeschrittene beziehungsweise qualifizierte elektronische Signatur verlangt? Bitte stellen Sie gegebenenfalls klar, welche Person beziehungsweise Funk- tion die jeweiligen Dokumente rechtsverbindlich bestätigen muss und ob AVV und TOM durch unterschiedliche fachlich verantwortliche Personen be- stätigt werden dürfen. Für die AVV und TOM wäre eine elektronische Signatur wünschenswert. Die AVV und TOM dürfen durch die fachlich verantwortlichen Per- sonen gezeichnet werden. Die Rolle der zeich- nend",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 38165,
+            "corpus_end": 39476,
+            "match": "Einreichung"
+          },
+          {
+            "text": "ion 2 (Stand: 14.10.2026 ) 64 / 64 Sofern eine Begrenzung auf den 1,5-fachen Brutto-Gesamtauftragswert nicht akzeptiert wird, bitten wir um Mitteilung, ob alternativ eine andere an- gemessene betragsmäßige Haftungsobergrenze je Schadensereignis und/oder Vertragsjahr vereinbart werden kann. ===== FILE: files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf ===== Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 1 / 6 A. Allgemeine Hinweise und Verfah- rensablauf Sehr geehrte Damen und Herren, wir bitten Sie uns im Rahmen unseres EU-weiten offenen Verfahrens nach VgV, 2. Abschnitt, ein Angebot zu erstellen. Die Angebotsfrist ist dem Projektraum im Deutschen Vergabeportal (DTVP) zu entneh- men unter den Gliederungspunkten „Übersicht“ sowie „Verfahrensangaben, Fristen“. Bitte planen Sie für das Hochladen Ihres Antrags/Angebots im Portal unbedingt einen ausreichenden zeitlichen Puffer ein, um vor Fristablauf auf etwaige technische Prob- leme reagieren zu können! Alle Unterlagen, Informationen zum aktuellen Stand des Vergabeverfahrens wie evtl. Fristver- längerungen, Bieterfragen und deren Antworten und / oder sonstige Aktualisierungen und Än- derungen zu diesem Verfahren werden allen Bietern ausschließlich über die Plattform DTVP mitgeteilt. Bitte informieren S",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 114231,
+            "corpus_end": 115544,
+            "match": "Angebotsfrist"
+          },
+          {
+            "text": "........... 4 V. Hinweise zur Verwendung bereitgestellter Inhalte für ggf. anzufertigende Arbeiten im Rahmen des Vergabeverfahrens ..................................................................... 5 Vorhaben: 26_EU_031 Backup Cloud to Cloud, Version 1 2 / 6 I. Auftragsgegenstand Details zum Auftragsgegenstand sind dem Dokument B. Leistungsbeschreibung zu entneh- men. II. Ablauf des Verfahrens 1. Fristen / Zeitplan – vorläufiger Terminplan Hierbei handelt es sich um einen voraussichtlichen Zeitplan. Etwaige Fristverlängerungen etc. werden über die Vergabeplattform bekanntgemacht. Verfahrensschritt Datum / Frist Frist zur Einreichung von Auf- klärungsfragen Siehe Projektraum im DTVP, Gliederungspunkte „Über- sicht“ sowie „Verfahrensangaben, Fristen“ Spätester Termin zur Fragen- beantwortung Es gilt § 20 Abs. 3 VgV, wonach im Regelfall Fragen spätestens 6 Tage vor Ablauf der Angebotsfrist zu be- antworten sind Ende der Angebotsfrist (Ab- gabefrist) Siehe Projektraum im DTVP, Gliederungspunkte „Über- sicht“ sowie „Verfahrensangaben, Fristen“ Versand der Vorabinformatio- nen Gem. Zeitplan Zuschlagserteilung Frühstens 10 Kalendertage nach Versand der Vorabin- formation 2. Bieterfragen Jeder Bieter hat sich unmittelbar nach Erhalt der Unterlagen über deren Vollst",
+            "source": "files/A_20260922_20Allgemeine_20Hinweise_Version_201.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/address/A+260922+Allgemeine+Hinweise_Version+1.pdf",
+            "source_sha256": "9a704667aa57a132cc75f146119428c93e50e729ed2b0bf1b43bf56ee8be2176",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 117077,
+            "corpus_end": 118388,
+            "match": "Einreichung"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/02_20261014_20Klarstellungen_Version_202.pdf ===== Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 1 / 64 Bieterfragen – Klarstellungen Nr. Bieterfrage Klarstellung 1 Datenschutzrechtliches Rollenmodell, AVV und TOM: nach Abschnitt 3 „Datenschutz“ der B 260922 Leistungsbeschreibung_Ver- sion 1.pdf fungiert der Auftragnehmer als Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § 80 SGB X. Nach § 5 Abs. 6 der C.2.1 260922 Auftragsverarbeitungvertrag-SD_Version 1.docx hat der Auf- tragnehmer die Anlage 1 zu den technischen und organisatorischen Maß- nahmen auszufüllen. Die in der C.2.1 260922 Anlage AVV TOMS Version 1.xlsx abgefragten Maß- nahmen betreffen überwiegend den technischen Betrieb der SaaS-Plattform, insbesondere",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 880,
+            "match": "Datenschutz"
+          },
+          {
+            "text": "tragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § 80 SGB X. Nach § 5 Abs. 6 der C.2.1 260922 Auftragsverarbeitungvertrag-SD_Version 1.docx hat der Auf- tragnehmer die Anlage 1 zu den technischen und organisatorischen Maß- nahmen auszufüllen. Die in der C.2.1 260922 Anlage AVV TOMS Version 1.xlsx abgefragten Maß- nahmen betreffen überwiegend den technischen Betrieb der SaaS-Plattform, insbesondere Rechenzentren, Verschlüsselung, Schlüsselmanagement, Datensicherung, Wiederherstellung, Löschung und technische Zugriffe. Bitte stellen Sie klar, welches datenschutzrechtliche Rollenmodell für den Fall vorgesehen ist, dass der Bieter Vertragspartner des Auftraggebers ist, der technische Betrieb, das Hosting und die Verarbeitung der Daten jedoch durch den Betreiber der angebotenen SaaS-Plattform erfolgen. Ist in diesem Fall folgende Rollenverteilung vorgesehen? Die beschriebene Rollenverteilung ist korrekt. Wenn der Bieter nicht selbst der Betreiber für die SaaS-Lösung ist, entsteht die beschriebene Rol- lenverteilung. Für die technischen und organisatorischen Maß- nahmen siehe Anlage 1 zum AVV. Alle Anforde- rungen an die SaaS-Lösung sind in der Leis- tungsbeschreibung beschrieben. Die TOM dür",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 386,
+            "corpus_end": 1697,
+            "match": "datenschutz"
+          },
+          {
+            "text": ". Nach § 5 Abs. 6 der C.2.1 260922 Auftragsverarbeitungvertrag-SD_Version 1.docx hat der Auf- tragnehmer die Anlage 1 zu den technischen und organisatorischen Maß- nahmen auszufüllen. Die in der C.2.1 260922 Anlage AVV TOMS Version 1.xlsx abgefragten Maß- nahmen betreffen überwiegend den technischen Betrieb der SaaS-Plattform, insbesondere Rechenzentren, Verschlüsselung, Schlüsselmanagement, Datensicherung, Wiederherstellung, Löschung und technische Zugriffe. Bitte stellen Sie klar, welches datenschutzrechtliche Rollenmodell für den Fall vorgesehen ist, dass der Bieter Vertragspartner des Auftraggebers ist, der technische Betrieb, das Hosting und die Verarbeitung der Daten jedoch durch den Betreiber der angebotenen SaaS-Plattform erfolgen. Ist in diesem Fall folgende Rollenverteilung vorgesehen? Die beschriebene Rollenverteilung ist korrekt. Wenn der Bieter nicht selbst der Betreiber für die SaaS-Lösung ist, entsteht die beschriebene Rol- lenverteilung. Für die technischen und organisatorischen Maß- nahmen siehe Anlage 1 zum AVV. Alle Anforde- rungen an die SaaS-Lösung sind in der Leis- tungsbeschreibung beschrieben. Die TOM dürfen entsprechend der im Auftrag durchzuführenden Verarbeitungen getrennt be- trachtet werden, wenn der Bieter nicht gleichzei- tig der Betreiber",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 535,
+            "corpus_end": 1842,
+            "match": "Hosting"
+          },
+          {
+            "text": "I 260922 Zusammenfassende Liste_Version 1.docx verlangt mit dem An- gebot eine ausgefüllte und digital unterschriebene AVV einschließlich Anla- gen. Die C.2.1 260922 Auftragsverarbeitungvertrag -SD_Version 1.docx Wenn der Betreiber der SaaS-Plattform wie un- ter Frage Nr. 1 als Unterauftragsverarbeiter des Bieters agiert, wird der Betreiber der SaaS-Platt- form als Unterauftragsverarbeiter eingebunden. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 3 / 64 weist dem Auftragnehmer umfassende Pflichten zu, unter anderem hinsicht- lich technischer und organisatorischer Maßnahmen, Löschung, Betroffenen- rechten, Datenschutzvorfällen, Kontrollrechten sowie der Steuerung von Un- terauftragsverarbeitern. Zahlreiche dieser Pflichten können bei einer stan- dardisierten SaaS-Lösung operativ nur durch den Betreiber der SaaS-Platt- form erfüllt werden. Bitte stellen Sie klar, ob die AVV ausschließlich zwischen dem Auftraggeber und dem Bieter geschlossen und durch den Bieter gezeichnet werden soll, während der Betreiber der SaaS-Plattform als Unterauftragsverarbeiter ein- gebunden wird. Bitte bestätigen Sie in diesem Zusammenhang, ob der Bieter die techni- schen und organisatorischen Maßnahmen sowie die zugehörigen Nach- weise des SaaS-Betreibers in die AVV einbezie",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2966,
+            "corpus_end": 4277,
+            "match": "Datenschutz"
+          }
+        ]
+      },
+      "source_dce_run_id": 39113339235,
+      "source_shard": 0,
+      "hot_ready_at": "2026-10-18T08:57:20.111257+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "it-services"
       ],
       "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
@@ -2206,6 +2874,194 @@
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 23,
       "spm_fit_band": "MAYBE",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "PL-BZP:08df2abf-be70-ab1c-5997-b200014d7b8f",
+      "title": "Druk trzech publikacji ŻIH: E. Adler Na obrzeżach Zagłady, B. Wojdowski Dziennik tom 1, A. Żółkiewska „Zakład Zaopatrywania Duchowego”. Kultura w getcie warszawskim i losy jej twórców.",
+      "buyer": "Zydowski Instytut Historyczny im. Emanuela Ringelbluma",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2abf-be70-ab1c-5997-b200014d7b8f",
+      "deadline": "2026-10-29T11:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 88,
+      "priority_score": 88,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-10-29T11:00:00+00:00",
+        "notice_deadline_date": "2026-10-29",
+        "authoritative_submission_date": "2026-10-29",
+        "submission_deadline_candidates": [
+          "2026-10-29"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2025-08-05",
+          "2026-10-15",
+          "2026-10-20",
+          "2026-10-29",
+          "2026-11-27"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": "nia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane"
+          },
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 2,
+            "context": "widuje zmiany umowy: Nie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-29 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: 2026-10-29 13:00\n8.4.) Termin związania ofertą: do 2026-11-27\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współf"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "zej niż 91%, oraz gramaturze 90\ng/m2 (ew. Lux Cream 90 g/m2) \n1.1.7. Technologia druku okładki: cyfrowa. Surowiec okładki: Clairbook Natural White 240 g/m2 (ew. \nMasterblank Blanco\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pk\nWZ) wykonanych w okresie ostatnich 3 lat, a jeżeli okres prowadzenia działalnoś"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": ", oraz gramaturze 90\ng/m2 (ew. Lux Cream 90 g/m2) \n1.1.7. Technologia druku okładki: cyfrowa. Surowiec okładki: Clairbook Natural White 240 g/m2 (ew. \nMasterblank Blanco\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pk\nWZ) wykonanych w okresie ostatnich 3 lat, a jeżeli okres prowadzenia działalności jest kró"
+          },
+          {
+            "date": "2025-08-05",
+            "match": "5 sierpnia 2025",
+            "context": "w dowodowych w zakresie, w jakim potwierdzenie\nspełniania warunku udziału w postępowaniu wynika z ważnego certyfikatu wykonawcy zamówień publicznych, z uwzględnieniem\nwyjątków przewidzianych w upzp oraz w ustawie z dnia 5 sierpnia 2025 r. o certyfikacji wykonawców zamówień publicznych.\n5. Jeżeli certyfikat wykonawcy zamówień publicznych potwierdza spełnienie warunku udziału w postępowaniu jedynie w części,\nWykonawca składa odpowiedni podmiotowy środek"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": " przewiduje zmiany umowy: \nNie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsc"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": " zmiany umowy: \nNie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania"
+          },
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "context": "ZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10"
+          },
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "context": "zielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na "
+          },
+          {
+            "date": "2026-11-27",
+            "match": "2026-11-27",
+            "context": " 275 pkt 1 ustawy - Usługi\n8.1.) Termin składania ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FIL"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "ofert: \n2026-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszeni"
+          },
+          {
+            "date": "2026-10-15",
+            "match": "2026-10-15",
+            "context": "6-10-29 12:00\n8.2.) Miejsce składania ofert: \nhttps://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: \n2026-10-29 13:00\n8.4.) Termin związania ofertą: \ndo 2026-11-27\nOgłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15\n2026-10-15 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n\n===== FILE: files/portal_page.txt =====\nSzczegóły ogłoszenia - e-Zamów"
+          },
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "context": "Zamawiający przewiduje zmiany umowy: Nie\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-29 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: 2026-10-29 13:00\n8.4.) Termin związania ofertą: do 2026-11-27\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoj"
+          },
+          {
+            "date": "2026-10-29",
+            "match": "2026-10-29",
+            "context": "acyjne lub etykiety związane z realizacją zamówienia: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-29 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: 2026-10-29 13:00\n8.4.) Termin związania ofertą: do 2026-11-27\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europe"
+          },
+          {
+            "date": "2026-11-27",
+            "match": "2026-11-27",
+            "context": "a: Nie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: 2026-10-29 12:00\n8.2.) Miejsce składania ofert: https://ezamowienia.gov.pl/pl/\n8.3.) Termin otwarcia ofert: 2026-10-29 13:00\n8.4.) Termin związania ofertą: do 2026-11-27\nStrona główna\nUrząd Zamówień Publicznych\nMinisterstwo Rozwoju i Technologii\nRegulamin\nPolityka prywatności\nFAQ\nZgłoś problem\n\nProjekt współfinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego w ramach Prog"
+          },
+          {
+            "date": "2026-10-20",
+            "match": "20.10.2026",
+            "context": " Czcionki A A A Język Pomoc kontekstowa Pomoc kontekstowa Moje Konto Moje Konto Moje Konto Zaloguj się Zarejestruj się × MT Jesteś tutaj: Strona główna Komunikat o planowanej przerwie technicznej Platformy e‑Zamówienia (20.10.2026) Niedostępność Platformy e-Zamówienia 20 października 2026 r. Więcej Komunikat o planowanej przerwie"
+          },
+          {
+            "date": "2026-10-20",
+            "match": "20 października 2026",
+            "context": "tekstowa Moje Konto Moje Konto Moje Konto Zaloguj się Zarejestruj się × MT Jesteś tutaj: Strona główna Komunikat o planowanej przerwie technicznej Platformy e‑Zamówienia (20.10.2026) Niedostępność Platformy e-Zamówienia 20 października 2026 r. Więcej Komunikat o planowanej przerwie"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 8,
+          "unique_contexts": 8
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 1,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "po 130 mm) 1.1.4. Technologia druku środka: cyfrowa 1.1.5. Druk środka: B/W 1+1 1.1.6. Papier środka: Munken Print Cream 18 90 g/m2 lub równoważny, tj. papier niepowlekany, o grubości minimum 162 µm, białości minimum 60 CIE i nieprzezroczystości nie mniejszej niż 91%, oraz gramaturze 90 g/m2 (ew. Lux Cream 90 g/m2) 1.1.7. Technologia druku okładki: cyfrowa. Surowiec okładki: Clairbook Natural White 240 g/m2 (ew. Masterblank Blanco Ogłoszenie nr 2026/BZP 00490313 z dnia 2026-10-15 2026-10-15 Biuletyn Zamówień Publicznych Ogłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi Liso 240 g/m2). Uszlachetnienia dot. okładki: hotstamping czarny błysk (linie na okładce) 1.1.8. Druk okładki: 2+1 (Pantone, Pantone + Pantone) 1.1.9. Liczba stron: 500 (+/-5%) 2. B. Wojdowski Dziennik tom 1 2.1.1. Nakład: 500 egz. 2.1.2. Format okładki: 165 x 248, bloku: 160 x 243 mm 2.1.3. Oprawa: twarda, szyto-klejona, grzbiet płaski 2.1.4. Technologia druku środka: cyfrowa 2.1.5. Druk środka: 4+4 2.1.6. Papier środka: Alto 1.3 Naturel 100 g/m2 lub Munken Print White 100 g/m2 lub równoważny, tj. papier niepowlekany, o grubości minimum 150 µm, białości minimum 116 CIE i nieprzezroczystości nie mniejszej niż 94%, oraz gramaturze 100 g/m2 2.1.7.",
+            "source": "files/2026_BZP 00490313_01.pdf",
+            "source_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2abf-be70-ab1c-5997-b200014d7b8f",
+            "source_sha256": "678daaabcc515e0f1d8f54fdcf4196c9be25f382d1f5cd393381c48e1a02fc3a",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 12308,
+            "corpus_end": 13615,
+            "match": "iso 240"
+          },
+          {
+            "text": "arszawskim i losy jej twórców. Druk publikacji książkowych 1. E. Adler Na obrzeżach Zagłady 1.1.1. Nakład: 500 egz. 1.1.2. Format: 170 x 227 mm, 1.1.3. Oprawa: miękka, szyto-klejona, ze skrzydłami (każde skrzydło po 130 mm) 1.1.4. Technologia druku środka: cyfrowa 1.1.5. Druk środka: B/W 1+1 1.1.6. Papier środka: Munken Print Cream 18 90 g/m2 lub równoważny, tj. papier niepowlekany, o grubości minimum 162 µm, białości minimum 60 CIE i nieprzezroczystości nie mniejszej niż 91%, oraz gramaturze 90 g/m2 (ew. Lux Cream 90 g/m2) 1.1.7. Technologia druku okładki: cyfrowa. Surowiec okładki: Clairbook Natural White 240 g/m2 (ew. Masterblank Blanco Liso 240 g/m2). Uszlachetnienia dot. okładki: hotstamping czarny błysk (linie na okładce) 1.1.8. Druk okładki: 2+1 (Pantone, Pantone + Pantone) 1.1.9. Liczba stron: 500 (+/-5%) 2. B. Wojdowski Dziennik tom 1 2.1.1. Nakład: 500 egz. 2.1.2. Format okładki: 165 x 248, bloku: 160 x 243 mm 2.1.3. Oprawa: twarda, szyto-klejona, grzbiet płaski 2.1.4. Technologia druku środka: cyfrowa 2.1.5. Druk środka: 4+4 2.1.6. Papier środka: Alto 1.3 Naturel 100 g/m2 lub Munken Print White 100 g/m2 lub równoważny, tj. papier niepowlekany, o grubości minimum 150 µm, białości minimum 116 CIE i nieprzezroczystości nie mniejszej niż 94%, oraz gramaturze 100 g/m2 2.1.7. Tech",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "273c20ed2a74209373d09e0259a0241f2e44365c10b28e0117d160ef56992530",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 56372,
+            "corpus_end": 57679,
+            "match": "iso 240"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": []
+      },
+      "source_dce_run_id": 39113339235,
+      "source_shard": 0,
+      "hot_ready_at": "2026-10-18T08:57:20.111257+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "review_lane": "SPM_PRIORITY"
