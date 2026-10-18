@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-17T20:15:41.336193+00:00",
-  "source_inbox_updated_at": "2026-10-17T20:15:40.822963+00:00",
-  "latest_source_dce_run_id": 39065353395,
+  "generated_at": "2026-10-18T00:11:17.580440+00:00",
+  "source_inbox_updated_at": "2026-10-18T00:11:16.745945+00:00",
+  "latest_source_dce_run_id": 39081393739,
   "batch_index": 2,
   "start_rank": 21,
   "end_rank": 30,
@@ -145,50 +145,6 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "TED:649342-2026",
-      "title": "Portugal – Database software development services – Aquisição de serviços de manutenção de suporte aplicacional de solução SAP para os anos de 2026,2027, 2028 e 2029",
-      "buyer": "Unidade Local de Saúde de Santa Maria, EPE",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/649342-2026",
-      "deadline": "2026-10-17T00:00:00+00:00",
-      "estimated_value": 717761.25,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "software-development"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 38186245081,
-      "source_shard": 4,
-      "review_key": "27d241a61f31c32807c4bc0639ff3219c7de878f540995909834874ea7ea3d23",
-      "artifact_locator": {
-        "dce_run_id": 38186245081,
-        "shard": 4,
-        "candidate_id": "TED:649342-2026",
-        "release_tag": "dce-harvest-38186245081"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
       "candidate_id": "TED:636215-2026",
       "title": "Germany – IT services: consulting, software development, Internet and support – Kommunikationslösung für 25.000 Personen im Bildungsbereich (Lehrermail)",
       "buyer": "Brandenburgischer IT-Dienstleister",
@@ -299,26 +255,271 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 39065353395,
+      "source_dce_run_id": 39081393739,
       "source_shard": 4,
-      "review_key": "81239585f9287fc1b0002b8a60b8524c96013d82098c14383873c96ed3645e64",
+      "review_key": "be0a23c60574e827ab4951dbe31aeb7141d28c99db9bf2d728e9e9974b40d380",
       "artifact_locator": {
-        "dce_run_id": 39065353395,
+        "dce_run_id": 39081393739,
         "shard": 4,
         "candidate_id": "TED:718446-2026",
-        "release_tag": "dce-harvest-39065353395"
+        "release_tag": "dce-harvest-39081393739"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 6,
+        "text_chars": 37763,
+        "attributed_compact_snippets": 22,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "rderungen für EU-weit vergebene Aufträge mit der Umstellung auf eForms werden neue und zusätzliche Angaben zum bezuschlagten Bieter (Auftragnehmer) in der Vergabebekanntmachung zu vergebenen Aufträgen pflichtig und sind zu veröffentlichen. Daher bitten wir Sie, für jeden Bieter und bei Bietergemeinschaften für jedes Mitglied der Bietergemeinschaft die folgenden Daten der Eigenerklärung auszufüllen und mit dem Angebot, im Fall vorgelagerter teilnehmerwettbewerbe mit dem Antrag auf Teilnahme am Teilnahmewettbewerb e…",
+            "source": "files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "3757a1782128c374077f39fefb8badc1f0a98f38ccec695003f975eccd627911",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "bezuschlagten Bieter (Auftragnehmer) in der Vergabebekanntmachung zu vergebenen Aufträgen pflichtig und sind zu veröffentlichen. Daher bitten wir Sie, für jeden Bieter und bei Bietergemeinschaften für jedes Mitglied der Bietergemeinschaft die folgenden Daten der Eigenerklärung auszufüllen und mit dem Angebot, im Fall vorgelagerter teilnehmerwettbewerbe mit dem Antrag auf Teilnahme am Teilnahmewettbewerb einzureichen. Nationale Identifikationsnummer Wir bitten um Angabe der Wirtschafts-Identifikationsnummer für Unt…",
+            "source": "files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "3757a1782128c374077f39fefb8badc1f0a98f38ccec695003f975eccd627911",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tsangehörigkeit/-en des/der Eigentümer(s) des beauftragten Unternehmens entsprechend dem Eintrag im gemäß der Rechtsvorschriften zur Bekämpfung der Geldwäsche eingerichteten Register. Sofern kein Register vorhanden ist (z. B. Auftragnehmer aus Nicht-EU Staaten) sind entsprechende Informationen aus anderen zugänglichen Quellen vorzugeben. Größe des Wirtschaftsunternehmens Wir bitten um Angabe der Unternehmensgröße gemäß der Gliederung des Statistischen Bundesamtes. Ich/Wir bestätigen die Richtigkeit der o.a. Angabe…",
+            "source": "files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "3757a1782128c374077f39fefb8badc1f0a98f38ccec695003f975eccd627911",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "hältnis zum Abstand eine geringere Punktzahl. Die Qualität wird anhand des eingereichten Konzepts gemäß der Anlage \"bewertungsmatrix_qualität\" gewertet. Die Rangfolge ergibt sich aus der Gesamtpunktzahl für Preis und Qualität. Es muss bei jedem einzelnen Qualitätskriterium (siehe hierzu Anlage \"bewertungsmatrix_qualität\") mindestens 50% der maximal erreichbaren Punktzahl erreicht werden. Der Bieter, der nach Wertung des Preises und der Qualität die höchste Punktzahl erreicht hat, erhält den Zuschlag. Bei Punktglei…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s und • ähnliche Social-Media-Präsenzen der letzten drei abgeschlossenen Geschäftsjahre (2023 - 2025) einzureichen. Auf die eingesetzten Methoden und Vorgehensweisen ist einzugehen und die Vergleichbarkeit mit dem Ausschreibungsgegenstand in quantitativer und qualitativer Hinsicht ausführlich darzulegen. Es ist zu den Websites und Social-Media-Präsenzen jeweils V_FB1_SG1-2026-0068 Vergabe von Dienstleistungen für Hosting, Betrieb und Content-Erstellung des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Ver…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "===== FILE: files/Fragebogen zur Eignungspruefung.pdf ===== Fragebogen zur Eignungsprüfung Bezeichnung Antwort Kriteriengewi chtung 1 Zulassung Angebote 1.1 Eignungs- und Angebotsprüfung 1.1.1 Eignungskriterien A 1.1.1.1 Handels- bzw. Berufsregisterauskunft (Ist Ausschlusskriterium) Wurde der geforderte Handels- bzw. Berufsregisterauszug beigefügt? Diese Anforderung gilt nur für diejenigen, die HRB eintragungspflichtig sind. Sofern bei Ihnen keine Eintragungspflicht für das Handels- und Berufsregister besteht, rei…",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "df ===== Fragebogen zur Eignungsprüfung Bezeichnung Antwort Kriteriengewi chtung 1 Zulassung Angebote 1.1 Eignungs- und Angebotsprüfung 1.1.1 Eignungskriterien A 1.1.1.1 Handels- bzw. Berufsregisterauskunft (Ist Ausschlusskriterium) Wurde der geforderte Handels- bzw. Berufsregisterauszug beigefügt? Diese Anforderung gilt nur für diejenigen, die HRB eintragungspflichtig sind. Sofern bei Ihnen keine Eintragungspflicht für das Handels- und Berufsregister besteht, reichen Sie uns bitte Ihre Anmeldung zur Gewerbeanmeld…",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "n für Hosting, Betrieb und Content-Erstellung des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Version 3 der Vergabeunterlagen Leistungsverzeichnis Seite 11 von 11 ===== FILE: files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx ===== Eigenerklärung zu neuen Pflichtangaben des Bieters im Rahmen der eForms-Umstellung Im Zuge neuer Anforderungen für EU-weit vergebene Aufträge mit der Umstellung auf eForms werden neue und zusätzliche Angaben zum bezuschlagten Bieter (Auftragnehmer) in der Ve…",
+            "source": "files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "3757a1782128c374077f39fefb8badc1f0a98f38ccec695003f975eccd627911",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "g des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Version 3 der Vergabeunterlagen Leistungsverzeichnis Seite 11 von 11 ===== FILE: files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx ===== Eigenerklärung zu neuen Pflichtangaben des Bieters im Rahmen der eForms-Umstellung Im Zuge neuer Anforderungen für EU-weit vergebene Aufträge mit der Umstellung auf eForms werden neue und zusätzliche Angaben zum bezuschlagten Bieter (Auftragnehmer) in der Vergabebekanntmachung zu vergebenen Aufträgen …",
+            "source": "files/_zu neuen Pflichtangaben des Bieters im Rahmen der eForms.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "3757a1782128c374077f39fefb8badc1f0a98f38ccec695003f975eccd627911",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ergleichbarkeit der eingereichten Konzepte sind die Dokumente wie folgt zu formatieren: Überschrift H1 Schriftart Arial Größe: 16 pt Zeilenabstand 1,5 Überschrift H2 Schriftart: Arial Größe: 14 pt Zeilenabstand 1,5 Standardtext: Schriftart: Arial Größe: 12 pt einfacher Zeilenabstand Ränder: Oben: 3,2 cm Unten: 2,4 cm Links: 2,5 cm Rechts: 1,5 cm Ausrichtung Hochformat Kopf- und Fußzeilen können genutzt werden V_FB1_SG1-2026-0068 Vergabe von Dienstleistungen für Hosting, Betrieb und Content-Erstellung des Internetp…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "weg-ID) gestellt werden. Weitere Informationen (Leitweg-ID etc.) erhalten Sie nach Zuschlagserteilung. Mit der Quartalspauschale sind alle in den Vergabeunterlagen beschriebenen Leistungen (ausgenommen optionale Leistungen), abgegolten. V_FB1_SG1-2026-0068 Vergabe von Dienstleistungen für Hosting, Betrieb und Content-Erstellung des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Version 3 der Vergabeunterlagen Leistungsverzeichnis Seite 1 von 11 3. Servicezeit Die Servicezeit ist Arbeitstäglich 8 bis 18 Uhr…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "n Leistungsverzeichnis Seite 1 von 11 3. Servicezeit Die Servicezeit ist Arbeitstäglich 8 bis 18 Uhr. Unter Servicezeiten ist die garantierte Erreichbarkeit des Anbieters für die Deutsche Rentenversicherung zu verstehen. 4. Vertragslaufzeit Der Vertrag beginnt am 01.01.2027. Die reguläre Grundlaufzeit beträgt 3 Jahre. Es besteht die Option einer einmaligen Verlängerung um ein weiteres Jahr. Die Entscheidung über die Ausübung dieser Verlängerungsoption wird von den Vertragsparteien bis spätestens zum 30.06.2029 get…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "/ Leitweg-ID) gestellt werden. Weitere Informationen (Leitweg-ID etc.) erhalten Sie nach Zuschlagserteilung. Mit der Quartalspauschale sind alle in den Vergabeunterlagen beschriebenen Leistungen (ausgenommen optionale Leistungen), abgegolten. V_FB1_SG1-2026-0068 Vergabe von Dienstleistungen für Hosting, Betrieb und Content-Erstellung des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Version 3 der Vergabeunterlagen Leistungsverzeichnis Seite 1 von 11 3. Servicezeit Die Servicezeit ist Arbeitstäglich 8 bis …",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "terlagen Leistungsverzeichnis Seite 1 von 11 3. Servicezeit Die Servicezeit ist Arbeitstäglich 8 bis 18 Uhr. Unter Servicezeiten ist die garantierte Erreichbarkeit des Anbieters für die Deutsche Rentenversicherung zu verstehen. 4. Vertragslaufzeit Der Vertrag beginnt am 01.01.2027. Die reguläre Grundlaufzeit beträgt 3 Jahre. Es besteht die Option einer einmaligen Verlängerung um ein weiteres Jahr. Die Entscheidung über die Ausübung dieser Verlängerungsoption wird von den Vertragsparteien bis spätestens zum 30.06.2…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "ationen oder Depublikationen. Zur Sicherung extrem kurzer Reaktionszeiten werden direkte Kommunikationswege (z. B. via Signal) sowie agile, verlässliche Vertretungsregelungen auf beiden Seiten etabliert. • Berichtswesen & Gremieninformation: Das quartalsweise, grafisch aufbereitete Reporting dient als Grundlage für die Erfolgsmessung. Die Federführung verbleibt bei der DRV Rheinland, welche die Ergebnisse und abgeleiteten Handlungsempfehlungen nutzt, um in den übergeordneten Gremiensitzungen fundiert über Fortschr…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ft H2 Schriftart: Arial Größe: 14 pt Zeilenabstand 1,5 Standardtext: Schriftart: Arial Größe: 12 pt einfacher Zeilenabstand Ränder: Oben: 3,2 cm Unten: 2,4 cm Links: 2,5 cm Rechts: 1,5 cm Ausrichtung Hochformat Kopf- und Fußzeilen können genutzt werden V_FB1_SG1-2026-0068 Vergabe von Dienstleistungen für Hosting, Betrieb und Content-Erstellung des Internetportals www.Ihre-Vorsorge.de Offenes Verfahren Version 3 der Vergabeunterlagen Leistungsverzeichnis Seite 3 von 11 7. Detaillierter Leistungsumfang (Einzelleistu…",
+            "source": "files/Leistungsverzeichnis.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "57e3dfbc1a737b0dfd9a7af6f0aaea0f536c052b10a47aa9eadf903a7358d66f",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "hre Anmeldung zur Gewerbeanmeldung ein. A 1.1.1.2 Betriebshaftpflichtversicherung (Ist Ausschlusskriterium) Wurde eine Kopie der geforderten Police einer Betriebshaftpflichtversicherung in Höhe von 2.500.000,00 EUR beigefügt? A 1.1.1.3 Referenzen (Ist Ausschlusskriterium) Wurde mindestens 1 Referenz für den Bereich Hosting, Betrieb und Content- Erstellung und 1 Referenz über Online- Veröffentlichungen eingereicht? Die Vergleichbarkeit ergibt sich aus dem Punkt 8 aus dem Leistungsverzeichnis A 1.1.1.4 Konzept (Ist …",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sicherung (Ist Ausschlusskriterium) Wurde eine Kopie der geforderten Police einer Betriebshaftpflichtversicherung in Höhe von 2.500.000,00 EUR beigefügt? A 1.1.1.3 Referenzen (Ist Ausschlusskriterium) Wurde mindestens 1 Referenz für den Bereich Hosting, Betrieb und Content- Erstellung und 1 Referenz über Online- Veröffentlichungen eingereicht? Die Vergleichbarkeit ergibt sich aus dem Punkt 8 aus dem Leistungsverzeichnis A 1.1.1.4 Konzept (Ist Ausschlusskriterium) Wurde das geforderte Konzept gem. Punkt 6 aus dem L…",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "msatz und kein Kleinstunternehmen) □ | Mittleres Unternehmen (bis 249 Beschäftigte und bis 50 Millionen Euro Umsatz und kein kleines Unternehmen) □ | Großunternehmen (über 249 Beschäftigte und über 50 Millionen Euro Umsatz) | Unterschrift des Bieters/ der Mitglieder der Bewerber-/Bietergemeinschaft | | (Ort, Datum Unterschrift) Name des Unternehmens | ===== FILE: files/aanschreiben_aenderung_vergabeunterlagen_v2.docx ===== Änderung der Vergabeunterlagen Aufgrund einer weiteren Bieterfrage wurde eine weitere Positi…",
+            "source": "files/aanschreiben_aenderung_vergabeunterlagen_v2.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "ca642f8595ed5eb257a71e239187c533d3d899f3cddbec918ef155abc0aefd66",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s 50 Millionen Euro Umsatz und kein kleines Unternehmen) □ | Großunternehmen (über 249 Beschäftigte und über 50 Millionen Euro Umsatz) | Unterschrift des Bieters/ der Mitglieder der Bewerber-/Bietergemeinschaft | | (Ort, Datum Unterschrift) Name des Unternehmens | ===== FILE: files/aanschreiben_aenderung_vergabeunterlagen_v2.docx ===== Änderung der Vergabeunterlagen Aufgrund einer weiteren Bieterfrage wurde eine weitere Position dem Leistungsverzeichnis hinzugefügt. Daraus resultiert eine weitere Angebotsfristverl…",
+            "source": "files/aanschreiben_aenderung_vergabeunterlagen_v2.docx",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "ca642f8595ed5eb257a71e239187c533d3d899f3cddbec918ef155abc0aefd66",
+            "source_kind": "docx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "rien A 1.1.1.1 Handels- bzw. Berufsregisterauskunft (Ist Ausschlusskriterium) Wurde der geforderte Handels- bzw. Berufsregisterauszug beigefügt? Diese Anforderung gilt nur für diejenigen, die HRB eintragungspflichtig sind. Sofern bei Ihnen keine Eintragungspflicht für das Handels- und Berufsregister besteht, reichen Sie uns bitte Ihre Anmeldung zur Gewerbeanmeldung ein. A 1.1.1.2 Betriebshaftpflichtversicherung (Ist Ausschlusskriterium) Wurde eine Kopie der geforderten Police einer Betriebshaftpflichtversicherung …",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "n Police einer Betriebshaftpflichtversicherung in Höhe von 2.500.000,00 EUR beigefügt? A 1.1.1.3 Referenzen (Ist Ausschlusskriterium) Wurde mindestens 1 Referenz für den Bereich Hosting, Betrieb und Content- Erstellung und 1 Referenz über Online- Veröffentlichungen eingereicht? Die Vergleichbarkeit ergibt sich aus dem Punkt 8 aus dem Leistungsverzeichnis A 1.1.1.4 Konzept (Ist Ausschlusskriterium) Wurde das geforderte Konzept gem. Punkt 6 aus dem Leistungsverzeichnis dem Angebot beigefügt? A 1.1.1.5 Bietererklärun…",
+            "source": "files/Fragebogen zur Eignungspruefung.pdf",
+            "source_url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19ea6709b6c-3749d95ae5f9da44",
+            "source_sha256": "d6f7293085fa989c6ca037cc32677a7cd52aaa93efe73ff4bfe8122a42e6c8ed",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -344,26 +545,281 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 39065353395,
+      "source_dce_run_id": 39081393739,
       "source_shard": 8,
-      "review_key": "68c879c1a03d74cf3d0c30e6298675596f91a032cb6fbf17799e55b40edc42fe",
+      "review_key": "97ae1af11e3954cf12c187f45ac08ef249343289b48eb626b7ff95c2ad6f044a",
       "artifact_locator": {
-        "dce_run_id": 39065353395,
+        "dce_run_id": 39081393739,
         "shard": 8,
         "candidate_id": "TED:653878-2026",
-        "release_tag": "dce-harvest-39065353395"
+        "release_tag": "dce-harvest-39081393739"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 28,
+        "text_chars": 733633,
+        "attributed_compact_snippets": 23,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "| [SHEET Standorte d. Verarbeitung] Standorte der Verarbeitungen | | | | | | | | | | Hinweis: Bitte nutzen Sie für die Angaben zu Unterauftragnehmern die gesondert vorgesehenen Tabellenblätter. | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten F.1 ff. in einem Drittla…",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "| | | | 9 | | | | | | | | | | … | | | | | | | | | | [SHEET (U)AN Standorte d. Verarbeitung] Unter-/Auftragnehmer: Standorte der Verarbeitungen | | | | | | | | | | | 1 Erfolgt die Verarbeitung nicht ausschließlich innerhalb von Mitgliedsstaaten der EU, in Vertragsstaaten des Abkommens über den EWR oder der Schweiz, liegt ein Drittlandtransfer vor. | | | | | | | | | | | 2 Obligatorisch bei der Verarbeitung von Daten der Kategorien in den Spalten G.1 ff. in einem Drittland | | | | | | | | | | | # | A) Firmenbezeichnu…",
+            "source": "files/C.2.1_20260922_20Anlage_20AVV_20TOMS_20Version_201.xlsx",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/filledByCompany/C.2.1+260922+Anlage+AVV+TOMS+Version+1.xlsx",
+            "source_sha256": "e1d17b164056acedc0abee744de66afe9f169cc287bd0051785b2099b55a07dd",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "u vertretende Datenschutzverstöße im Innenverhältnis zwischen Auftraggeber und Auftragnehmer keine Haf- tungsbegrenzung statt. Für nicht datenschutzbezogene Ansprüche verweist der Auftraggeber hingegen auf Ziffer 19 der EVB-IT Cloud-AGB. § 11 Abs. 2 und 3 des AVV sieht insbesondere eine Freistellung des Auf- traggebers sowie den Ersatz aller Schäden vor, die auf eine schuldhafte Ver- letzung datenschutzrechtlicher Pflichten durch den Auftragnehmer zurück- zuführen sind; eine betragsmäßige Haftungsobergrenze ist do…",
+            "source": "files/Vergabeunterlagen_CXV1YYDDYRFAHH3P_unpacked/sonstiges/02 261014 Klarstellungen_Version 2.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ordert als Mindestanforderung dagegen eine Zertifizie- rung nach ISO/IEC 27001 oder BSI-Grundschutz. Im Kriterienkatalog ist un- ter Ziffer 1.18 kein C5-Testat als einzureichender Nachweis ausgewählt. Die Einhaltung der C5-Basiskriterien wird bereits über Ziffer 1.2 der EVB-IT Cloud-AGB vertraglich gefordert. Bitte stellen Sie vor diesem Hintergrund klar, ob ein formales BSI-C5-Typ-2- Testat zwingend bereits mit dem Angebot vorliegen und eingereicht werden muss oder ob die Einhaltung der C5-Basiskriterien auch dur…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "er 1.18 kein C5-Testat als einzureichender Nachweis ausgewählt. Die Einhaltung der C5-Basiskriterien wird bereits über Ziffer 1.2 der EVB-IT Cloud-AGB vertraglich gefordert. Bitte stellen Sie vor diesem Hintergrund klar, ob ein formales BSI-C5-Typ-2- Testat zwingend bereits mit dem Angebot vorliegen und eingereicht werden muss oder ob die Einhaltung der C5-Basiskriterien auch durch gleichwertige Nachweise belegt werden kann. Wir verstehen die Anforderungen dahingehend, dass eine gültige ISO/IEC- 27001-Zertifizieru…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": ".................................................................................................... 12 17 Mitwirkung des Auftraggebers ..................................................................................................... 13 18 Rechte des Auftraggebers bei Mängeln der Leistungen ............................................................. 14 19 Haftungsbeschränkung ................................................................................................................ 14 20 Laufzeit und Kü…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cht mehr zugemutet werden kann. Besteht der wichtige Grund in der Verletzung einer vertraglichen Pflicht, ist die Kündigung erst nach erfolglosem Ablauf einer zur Abhilfe gesetzten Frist oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt abe…",
+            "source": "files/C.1_20EVB_IT_Cloud_AGB.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/contractCondition/C.1+EVB_IT_Cloud_AGB.pdf",
+            "source_sha256": "ae6074612a26995fb5006fab0f755f437abb67582a52f596fe0574622297fc75",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ie beschriebene Rol- lenverteilung. Für die technischen und organisatorischen Maß- nahmen siehe Anlage 1 zum AVV. Alle Anforde- rungen an die SaaS-Lösung sind in der Leis- tungsbeschreibung beschrieben. Die TOM dürfen entsprechend der im Auftrag durchzuführenden Verarbeitungen getrennt be- trachtet werden, wenn der Bieter nicht gleichzei- tig der Betreiber der SaaS-Lösung ist. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.202…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "SaaS-Plattform als Unterauftragsverarbeiter. Bitte bestätigen Sie zudem, ob die produktspezifischen Angaben zu den technischen und organisatorischen Maßnahmen durch den Betreiber der SaaS-Plattform ausgefüllt beziehungsweise bereitgestellt und anschließend durch den Bieter mit dem Angebot eingereicht werden können. Bitte teilen Sie außerdem mit, ob die TOM entsprechend den jeweils tatsäch- lich verantworteten Maßnahmen getrennt dargestellt werden dürfen, insbe- sondere nach: • organisatorischen und kaufmännischen …",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/02_20261014_20Klarstellungen_Version_202.pdf ===== Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 1 / 64 Bieterfragen – Klarstellungen Nr. Bieterfrage Klarstellung 1 Datenschutzrechtliches Rollenmodell, AVV und TOM: nach Abschnitt 3 „Datenschutz“ der B 260922 Leistungsbeschreibung_Ver- sion 1.pdf fungiert der Auftragnehmer als Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § …",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "keiner Änderung der Vergabeunterlagen. 4 Abgrenzung zwischen SaaS-Bereitstellung und operativen Backup- und Restore-Leistungen: Die Formulierung „einschließlich der Datensi- cherung und Wiederherstellung der darin ent- haltenen Daten“ beschreibt den funktionalen Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 8 / 64 nach Ziffer 1.1 des C 260922 EVB_IT_Cloudvertrag_Version 1.pdf ist Ver- tragsgegenstand die Bereitstellung einer cloudbasierten Backup- und Wie- derherstellungslösung als So…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "benen Leistungs- umfangs sind. Die technischen Supportleistungen bei Produkt- störungen bleiben hiervon unberührt. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 11 / 64 Sofern keine manuell durch den Auftragnehmer zu erbringenden Backup-, Restore-, Test- oder Unterstützungsleistungen geschuldet werden und ledig- lich die entsprechenden Funktionen der SaaS-Lösung bereitzustellen sind, bitten wir um entsprechende Bestätigung. Diese Klarstellung führt zu einer Änderung der Vergabeunterla…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "31), Version 2 (Stand: 14.10.2026 ) 11 / 64 Sofern keine manuell durch den Auftragnehmer zu erbringenden Backup-, Restore-, Test- oder Unterstützungsleistungen geschuldet werden und ledig- lich die entsprechenden Funktionen der SaaS-Lösung bereitzustellen sind, bitten wir um entsprechende Bestätigung. Diese Klarstellung führt zu einer Änderung der Vergabeunterlagen. Die Änderungen wurden in den Vergabeunterlagen kenntlich gemacht ( siehe B. Leistungsbeschreibung Ziffer 2.2) 6 SLA für Datensicherung und Wiederherst…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "altung der C5-Kri- terien bzw. sehen an mehreren Stellen einen Nachweis der Umsetzung ent- sprechender Anforderungen vor. Einige am Markt verfügbare Backup-as-a- Service-Lösungen befinden sich aktuell in einem laufenden C5-Testierungs- verfahren und können zum Zeitpunkt der Angebotsabgabe noch kein abge- schlossenes C5-Testat vorlegen. Wird es als ausreichend angesehen, wenn der Bieter mit Angebotsabgabe eine verbindliche Eigenerklärung des Her- stellers vorlegt, aus der hervorgeht, dass sich die angebotene Lösung…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Version 2 (Stand: 14.10.2026 ) 49 / 64 Daten auf dokumentierte Weisung des Auftraggebers sowie bei Vertrags- ende. Wir verstehen die Anforderung an die Unveränderbarkeit dahingehend, dass unautorisierte Veränderungen und Löschungen von Sicherungsdaten im Re- gelbetrieb ausgeschlossen sein müssen. Gezielte Löschungen auf dokumentierte Weisung des Auftraggebers, insbe- sondere zur Erfüllung von Betroffenenrechten oder im Zusammenhang mit der Beendigung des Vertragsverhältnisses, wären hiervon nicht erfasst. Bitte be…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "kumentation, mit den Lizenzpreisen abgegolten sind. Sofern solche personellen Leistungen gleichwohl geschuldet werden, bitten wir um: 1. eine vollständige und abschließende Beschreibung der jeweils erwarteten Tätigkeiten, 2. eine eindeutige Abgrenzung der Verantwortlichkeiten von Auftraggeber, Auftragnehmer und Betreiber der SaaS-Lösung, 3. ein verbindliches Mengengerüst mit geschätzten und maximalen Mengen beziehungsweise Aufwänden, 4. die Festlegung der erforderlichen Mitwirkungsleistungen des Auftragge- bers, V…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ffen ist. Entsprechende Abweichungen könn- ten demnach im Rahmen der Angebotsaufklärung geklärt und spätestens Vor Zuschlagserteilung erfolgt eine Prüfung der Anlage 1 (Technische und organisatorische Maßnahmen). Sollten dabei klärungsbedüftige Punkte identifiziert werden, erfolgt eine Rück- sprache mit dem Bieter. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 39 / 64 vor Aufnahme der Verarbeitungstätigkeit behoben ode…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ist mit dem An- gebot einzureichen. Die Vertragsunterlagen mit dem Unterauf- tragsverarbeiter sind nicht vorzulegen. Aller- dings sind der Name und die Standorte der Ver- arbeitung des Unterauftragsverarbeiters zu nen- nen und außerdem die TOM (Anlage 1) des Un- terauftragsverarbeiters einzureichen. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 4 / 64 Angebot einzureichen ist oder erst auf gesonderte Aufforderung des A…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "lage 1) des Un- terauftragsverarbeiters einzureichen. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 4 / 64 Angebot einzureichen ist oder erst auf gesonderte Aufforderung des Auftrag- gebers vorzulegen wäre. 3 Einordnung des Betreibers der SaaS-Plattform als Unterauftragneh- mer: nach der Eigenerklärung „Übersicht Unterauftragnehmer“ im D 260922 Eig- nungsbogen_Version 1.docx sind Unternehmen anzugeben, auf die für die …",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "rt werden. Die Anlage zur Einbeziehung auftragnehmersei- tiger AGB ist nicht zu verwenden. Diese Klarstellung führt zu keiner Änderung der Vergabeunterlagen. 12 Form der Unterzeichnung von Angebotsblatt, AVV und Anlagen: Das Eintippen (Tastatur) des Namens (Text- form) ist ausreichend. Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 21 / 64 die I 260922 Zusammenfassende Liste_Version 1.docx verlangt ein digital unterschriebenes Angebotsblatt sowie eine digital unterschriebene AVV ein- s…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "6 ) 21 / 64 die I 260922 Zusammenfassende Liste_Version 1.docx verlangt ein digital unterschriebenes Angebotsblatt sowie eine digital unterschriebene AVV ein- schließlich Anlagen. Im G 260922 Angebotsblatt_Version 1.docx wird zugleich ausgeführt, dass bei elektronischer Angebotseinreichung über das DTVP eigenhändige Un- terschriften nicht erforderlich sind und stattdessen die vorgesehenen Felder am Computer auszufüllen sind. Bitte stellen Sie klar, welche Form der Unterzeichnung für folgende Unterla- gen erforderl…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "===== FILE: files/02_20261014_20Klarstellungen_Version_202.pdf ===== Vorhaben: Backup Cloud to Cloud (26_EU_031), Version 2 (Stand: 14.10.2026 ) 1 / 64 Bieterfragen – Klarstellungen Nr. Bieterfrage Klarstellung 1 Datenschutzrechtliches Rollenmodell, AVV und TOM: nach Abschnitt 3 „Datenschutz“ der B 260922 Leistungsbeschreibung_Ver- sion 1.pdf fungiert der Auftragnehmer als Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § …",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO. Die Parteien schließen eine Auftragsverarbeitungsver- einbarung gemäß Art. 28 DSGVO und § 80 SGB X. Nach § 5 Abs. 6 der C.2.1 260922 Auftragsverarbeitungvertrag-SD_Version 1.docx hat der Auf- tragnehmer die Anlage 1 zu den technischen und organisatorischen Maß- nahmen auszufüllen. Die in der C.2.1 260922 Anlage AVV TOMS Version 1.xlsx abgefragten Maß- nahmen betreffen überwiegend den technischen Betrieb der SaaS-Plattform, insbesondere Rechenzentren, Verschlüsselun…",
+            "source": "files/02_20261014_20Klarstellungen_Version_202.pdf",
+            "source_url": "https://www.dtvp.de/Satellite/public/company/project/CXV1YYDDYRFAHH3P/de/documents/misc/02+261014+Klarstellungen_Version+2.pdf",
+            "source_sha256": "8b289fbd1e004280a0da80a32506f5a95fc3c4f73929973d770be7abcbb3fadf",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -444,6 +900,51 @@
         "shard": 15,
         "candidate_id": "TED:676856-2026",
         "release_tag": "dce-harvest-38491462300"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:696163-2026",
+      "title": "Ireland – IT services: consulting, software development, Internet and support – Request for Tender for Website Optimisation, Hosting, Maintenance, Support and Development Services",
+      "buyer": "Skillnet Ireland",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/696163-2026",
+      "deadline": "2026-10-30T13:00:00+01:00",
+      "estimated_value": 215000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 37878055543,
+      "source_shard": 10,
+      "review_key": "adb6308e302a6befdab2a7bee290fbd726d6acb290e1b691cc64cf77458b044f",
+      "artifact_locator": {
+        "dce_run_id": 37878055543,
+        "shard": 10,
+        "candidate_id": "TED:696163-2026",
+        "release_tag": "dce-harvest-37878055543"
       },
       "evidence_quality": {
         "raw_status": null,
