@@ -69,8 +69,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-98149** · FR · p=64 · deadline=2026-11-09T15:00:00+00:00 · blockers=none · Préparation éditoriale, mise en page, gravure, impression et diffusion du journal municipal de la Ville de Grenoble
 - **FR-BOAMP:26-97469** · FR · p=64 · deadline=2026-11-10T10:00:00+00:00 · blockers=none · 2626 - Mise en page et création graphique du bulletin d'informations municipales (Bezons Info le Mag) de la commune de Bezons (95870)
 - **FR-BOAMP:26-100161** · FR · p=64 · deadline=2026-11-18T17:00:00+00:00 · blockers=none · Exécution graphique, mise en page, relecture et correction de textes, création de PDF, mise en accessibilité de supports de communication écrits de type PDF, au profit de personnes en situation de...
+- **FR-BOAMP:26-100189** · FR · p=64 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 - **FR-BOAMP:26-86431** · FR · p=58 · deadline=UNKNOWN · blockers=none · Magazine municipal, Agenda et Plan de ville de la Commune de Privas : Conception, mise en page, régie publicitaire, impression, façonnage et livraison sans diffusion
-- **FR-BOAMP:26-91257** · FR · p=58 · deadline=UNKNOWN · blockers=none · Refonte de la maquette graphique et mise en page du magazine de Saint-Malo Agglomération
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -215,7 +215,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-88536** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **TED:694228-2026** · NOR · p=48 · deadline=2026-11-23T00:00:00+00:00 · blockers=none · Norway – Translation services – Framework Agreement for Norwegian-Northern Sami Translation Services
-- **TED:636092-2026** · SWE · p=40 · deadline=2026-10-18T02:00:00+00:00 · blockers=none · Sweden – Translation services – Teckenspråksöversättning
+- **TED:636092-2026** · SWE · p=40 · deadline=2026-10-18T21:59:00+00:00 · blockers=none · Sweden – Translation services – Teckenspråksöversättning
 - **CF:ocds-b5fd17-0104c0df-5996-44e2-92ea-ce578146ab12** · GB · p=40 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Face to Face Translation Services Contract
 - **CF:ocds-b5fd17-c784039f-3789-433a-a7ec-7b17a9920029** · GB · p=40 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Face to Face Translation Services Contract
 - **TED:683267-2026** · DEU · p=40 · deadline=2026-11-02T00:00:00+00:00 · blockers=none · Germany – Translation services – Translation works and services from EN into DE, FR and IT
