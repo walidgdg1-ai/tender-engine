@@ -169,7 +169,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FI-HILMA:58941** · FI · p=38 · deadline=2026-10-30T13:00:00+00:00 · blockers=none · Sosiaalisen median hallintatyökalun hankinta - Tender of social media management tool
 
 ## software_resale
-- **TED:668945-2026** · FIN · p=56 · deadline=2026-10-19T09:00:00+00:00 · blockers=none · Finland – Miscellaneous software package and computer systems – Newsroom Real-time Analytics Solution
 - **CA:26-58124** · CA · p=56 · deadline=2026-10-26T14:00:00+00:00 · blockers=none · 26-58124 Remotely Piloted Aircraft System (RPAS)-Deployable Integrated Topographic and Bathymetric (Topo-Bathymetric) LiDAR System
 - **FI-HILMA:58023** · FI · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · Newsroom Real-time Analytics Solution
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
@@ -189,6 +188,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **UK_PCS_OCDS:rls-23-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-3-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 - **UK_PCS_OCDS:rls-5-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
+- **UK_PCS_OCDS:rls-6-SEP564950** · GB · p=50 · deadline=2026-10-26T12:00:00+00:00 · blockers=none · Backup & Recovery Solution
 
 ## transcription
 - **TED:670162-2026** · FRA · p=78 · deadline=2026-10-27T01:00:00+00:00 · blockers=none · France – Typing, word-processing and desktop publishing services – STENOTYPIE
