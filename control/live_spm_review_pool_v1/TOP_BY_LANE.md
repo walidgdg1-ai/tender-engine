@@ -9,11 +9,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:719580-2026** · FRA · p=62 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Multi-modal courier services – Solution de gestion, d’impression et d’envoi de courriers multicanal
 - **TED:672161-2026** · FRA · p=60 · deadline=2026-11-02T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et diffusion du magazine externe du Département de l'Ain
 - **TED:689362-2026** · FRA · p=60 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
-- **TED:637854-2026** · FRA · p=58 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · France – Printing and distribution services – ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
 - **TED:721368-2026** · FRA · p=58 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 - **TED:715996-2026** · FRA · p=57 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-89047** · FR · p=56 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · ELABORATION, IMPRESSION ET DISTRIBUTION DU JOURNAL DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD
-- **TED:570412-2026** · FRA · p=56 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · France – Printing and related services – Impression des supports de communication de la Communauté de Communes Beaucaire Terre d'Argence
 - **FR-BOAMP:26-89541** · FR · p=56 · deadline=2026-10-19T12:00:00+00:00 · blockers=none · CONCEPTION RÉALISATION GRAPHIQUE, IMPRESSION ET DISTRIBUTION DES PUBLICATIONS MUNICIPALES POUR LA COMMUNE D'EZANVILLE
 - **FR-BOAMP:26-93132** · FR · p=56 · deadline=2026-10-19T14:30:00+00:00 · blockers=none · Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
 - **FR-BOAMP:26-94039** · FR · p=56 · deadline=2026-10-20T12:00:00+00:00 · blockers=none · Impression des magazines et des autres supports de communication pour la Ville de Saint-Paul-Trois-Châteaux
@@ -23,6 +20,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-96908** · FR · p=56 · deadline=2026-10-26T15:30:00+00:00 · blockers=none · Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
 - **FR-BOAMP:26-99104** · FR · p=56 · deadline=2026-10-28T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
 - **FR-BOAMP:26-93200** · FR · p=56 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · Impression de support de communication en couleur en grand, moyen et petit format pour la Ville de Sète
+- **FR-BOAMP:26-95590** · FR · p=56 · deadline=2026-10-30T16:00:00+00:00 · blockers=none · Impression De Divers Documents
+- **TED:709395-2026** · FRA · p=56 · deadline=2026-11-02T02:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
+- **FR-BOAMP:26-94894** · FR · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · IMPRESSION ET LIVRAISON DU MAGAZINE MÉTROPOLE
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -62,7 +62,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:675549-2026** · FRA · p=68 · deadline=2026-10-30T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Accord-cadre mise en page, impression et distribution du journal intercommunal, du magazine municipal et de leurs suppléments pour les besoins de la CCSB et de Belleville-en-Beaujolais
 - **TED:696733-2026** · FRA · p=68 · deadline=2026-11-10T02:00:00+00:00 · blockers=none · France – Graphic design services – 2626 - Mise en page et création graphique du bulletin d'informations municipales (Bezons Info le Mag) de la commune de Bezons (95870)
 - **TED:722529-2026** · FRA · p=68 · deadline=2026-11-20T02:00:00+00:00 · blockers=none · France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
-- **TED:643403-2026** · FRA · p=64 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · France – Graphic design services – Rédaction, conception graphique et mise en page du Journal de l'Institut Curie (JIC)
 - **FR-BOAMP:26-94283** · FR · p=64 · deadline=2026-10-21T12:00:00+00:00 · blockers=none · Prestations de création de maquettes et mise en page de publications de la Ville de Meyzieu
 - **TED:657297-2026** · FRA · p=64 · deadline=2026-10-23T02:00:00+00:00 · blockers=none · France – News-agency services – MISE EN PAGE ET IMPRESSION DE LA REVUE DU CEA
 - **FR-BOAMP:26-95243** · FR · p=64 · deadline=2026-10-23T11:00:00+00:00 · blockers=none · Conception et édition des supports de communication et de médiation culturelle de la Ville d'Ajaccio. Relance lot 01 : Création, conception, mise en page, cession de droit et impr
@@ -72,6 +71,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-98149** · FR · p=64 · deadline=2026-11-09T15:00:00+00:00 · blockers=none · Préparation éditoriale, mise en page, gravure, impression et diffusion du journal municipal de la Ville de Grenoble
 - **FR-BOAMP:26-97469** · FR · p=64 · deadline=2026-11-10T10:00:00+00:00 · blockers=none · 2626 - Mise en page et création graphique du bulletin d'informations municipales (Bezons Info le Mag) de la commune de Bezons (95870)
 - **FR-BOAMP:26-100161** · FR · p=64 · deadline=2026-11-18T17:00:00+00:00 · blockers=none · Exécution graphique, mise en page, relecture et correction de textes, création de PDF, mise en accessibilité de supports de communication écrits de type PDF, au profit de personnes en situation de...
+- **FR-BOAMP:26-100189** · FR · p=64 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -197,8 +197,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
 - **FR-BOAMP:26-91622** · FR · p=59 · deadline=2026-10-28T16:00:00+00:00 · blockers=none · Traduction et retranscription pour les besoins de la région Guadeloupe
 - **FR-BOAMP:26-93581** · FR · p=59 · deadline=2026-10-28T16:00:00+00:00 · blockers=none · Traduction et retranscription pour les besoins de la région Guadeloupe
-- **TED:653421-2026** · FRA · p=58 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · France – Other services – PRESTATIONS DE RETRANSCRIPTION INTEGRALE DE REUNIONS ET DE REDACTION DE SYNTHESES POUR L'OPERA NATIONAL DE PARIS
-- **FR-BOAMP:26-90620** · FR · p=54 · deadline=2026-10-19T10:00:00+00:00 · blockers=none · PRESTATIONS DE RETRANSCRIPTION INTEGRALE DE REUNIONS ET DE REDACTION DE SYNTHESES POUR L'OPERA NATIONAL DE PARIS
 - **FR-BOAMP:26-92950** · FR · p=54 · deadline=2026-10-27T11:00:00+00:00 · blockers=none · - Les prestations de sténotypie
 - **US-SAM:2634dd8ad3a346cc838c63fc4435206e** · US · p=38 · deadline=2026-10-21T20:00:00+00:00 · blockers=none · R699--MEDICAL TRANSCRIPTION SERVICE
 - **UK-PCS:SEP563830** · GB · p=38 · deadline=2026-10-23T22:59:59+00:00 · blockers=none · Interpreting, Communication Support and Transcription Services
