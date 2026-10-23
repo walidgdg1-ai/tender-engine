@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-10-23T10:38:53.964317+00:00",
+  "updated_at": "2026-10-23T10:39:54.626775+00:00",
   "latest_source_dce_run_id": 39938643710,
   "review_queue": [
     {
@@ -34,7 +34,7 @@
         "candidate_id": "TED:705774-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.883319+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.885853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -44,7 +44,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 14,
@@ -78,14 +78,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 42,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9334077"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 42,
         "candidate_id": "TED:731037-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.800758+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.078284+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -136,7 +138,7 @@
         "candidate_id": "TED:685125-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.864637+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.865483+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -146,7 +148,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 12,
@@ -187,7 +189,7 @@
         "candidate_id": "TED:722529-2026",
         "release_tag": "dce-harvest-39686518411"
       },
-      "hot_ready_at": "2026-10-23T10:31:34.916551+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.207971+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -233,14 +235,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 38,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs0yegdydsyb25j"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 38,
         "candidate_id": "TED:685351-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.741626+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.020044+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -293,7 +297,7 @@
         "candidate_id": "IE:9239900",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.058721+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.333417+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -345,7 +349,7 @@
         "candidate_id": "TED:655623-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.871253+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.872610+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -355,7 +359,7 @@
       "gpt_priority_score": 66,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 13,
@@ -488,7 +492,10 @@
       "spm_post_dce_score": 66,
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
-        "printing-service"
+        "graphic-design",
+        "printing-services",
+        "printing-service",
+        "communications"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39938643710,
@@ -502,7 +509,7 @@
         "candidate_id": "US-SAM:7db276ed882449ad90facd36f383442d",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.580521+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.852659+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -554,7 +561,7 @@
         "candidate_id": "TED:699483-2026",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.456273+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.729603+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -647,7 +654,8 @@
       "spm_post_dce_score": 65,
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
-        "application-development"
+        "application-development",
+        "system-integration"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
@@ -661,7 +669,7 @@
         "candidate_id": "IE:9290964",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.715040+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.993956+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -714,7 +722,7 @@
         "candidate_id": "TED:661793-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.938019+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.966126+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -724,7 +732,7 @@
       "gpt_priority_score": 65,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 8,
@@ -766,7 +774,7 @@
         "candidate_id": "TED:718008-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.494517+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.777784+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -830,7 +838,7 @@
       "gpt_priority_score": 64,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39728069690,
         "shard": 19,
@@ -872,7 +880,7 @@
         "candidate_id": "TED:730357-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.555120+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.827504+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -926,7 +934,7 @@
         "candidate_id": "TED:659361-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.895665+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.899462+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -936,11 +944,64 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 15,
         "candidate_id": "TED:659361-2026",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "IE:9332753",
+      "title": "Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services",
+      "buyer": "Sport Ireland Facilities DAC",
+      "portal": "IRELAND_ETENDERS",
+      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9332753",
+      "deadline": "2026-11-26T12:00:00+00:00",
+      "estimated_value": 500000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 89,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "digital-marketing"
+      ],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 33,
+      "procedure_aliases": [
+        "ie_resource:9332753"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 33,
+        "candidate_id": "IE:9332753",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.944302+00:00",
+      "review_lane": "SPM_PRIORITY",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "a5598ec465482005e6d0949ab7299bd8c5446fe096008b1ce5252fcf10e07b87",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 63,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 33,
+        "candidate_id": "IE:9332753",
         "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -988,7 +1049,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 15,
@@ -1017,6 +1078,7 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
+        "wordpress",
         "digital-marketing"
       ],
       "spm_friction_signals": [],
@@ -1031,7 +1093,7 @@
         "candidate_id": "IE:9303562",
         "release_tag": "dce-harvest-39880312524"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.215111+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.489863+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1083,7 +1145,7 @@
         "candidate_id": "TED:688774-2026",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.075436+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.350278+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1191,7 +1253,7 @@
         "candidate_id": "TED:626082-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.762379+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.040815+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1230,19 +1292,23 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "e-learning"
+        "graphic-design",
+        "e-learning",
+        "lms"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 43,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9294691"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 43,
         "candidate_id": "TED:716110-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.811611+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.088804+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1303,65 +1369,12 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 36,
         "candidate_id": "TED:665772-2026",
         "release_tag": "dce-harvest-39804643657"
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "GPT_PRIORITY"
-    },
-    {
-      "candidate_id": "IE:9332753",
-      "title": "Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services",
-      "buyer": "Sport Ireland Facilities DAC",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9332753",
-      "deadline": "2026-11-26T12:00:00+00:00",
-      "estimated_value": 500000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 89,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "digital-marketing"
-      ],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39762790887,
-      "source_shard": 31,
-      "procedure_aliases": [
-        "ie_resource:9332753"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39762790887,
-        "shard": 31,
-        "candidate_id": "IE:9332753",
-        "release_tag": "dce-harvest-39762790887"
-      },
-      "hot_ready_at": "2026-10-23T10:31:35.477433+00:00",
-      "review_lane": "SPM_PRIORITY",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ec512679ca25e4633ff97dad91b90e979010d3ed43e271729d8bebe9f67cbc40",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 63,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 39762790887,
-        "shard": 31,
-        "candidate_id": "IE:9332753",
-        "release_tag": "dce-harvest-39762790887"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -1491,19 +1504,22 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "software-resale"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39762790887,
       "source_shard": 15,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9103777"
+      ],
       "artifact_locator": {
         "dce_run_id": 39762790887,
         "shard": 15,
         "candidate_id": "TED:648059-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.429444+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.713963+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1555,7 +1571,7 @@
         "candidate_id": "TED:720914-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.942520+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.971250+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1565,7 +1581,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 8,
@@ -1607,7 +1623,7 @@
         "candidate_id": "TED:721796-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.747272+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.025853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -1803,7 +1819,9 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
-        "printing-service"
+        "printing-service",
+        "rpa",
+        "software-development"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39905848940,
@@ -1815,7 +1833,7 @@
         "candidate_id": "TED:734404-2026",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.439767+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.713456+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2022,7 +2040,7 @@
         "candidate_id": "TED:657896-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.879751+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.881816+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2032,7 +2050,7 @@
       "gpt_priority_score": 62,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 14,
@@ -2074,7 +2092,7 @@
         "candidate_id": "TED:665658-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.906496+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.911893+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2084,7 +2102,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 16,
@@ -2177,7 +2195,7 @@
         "candidate_id": "TED:700970-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.448052+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.731976+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2342,7 +2360,7 @@
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 9,
@@ -2383,7 +2401,7 @@
         "candidate_id": "EE-RHR:665bdfd7-b30c-459c-b849-0396aedd7977",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.701555+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.980499+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2486,7 +2504,7 @@
         "candidate_id": "TED:682794-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.721026+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.999827+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2537,7 +2555,7 @@
         "candidate_id": "WORLD-BANK:OP00475705",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.860841+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.861478+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2547,7 +2565,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 11,
@@ -2589,7 +2607,7 @@
         "candidate_id": "TED:701881-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.796684+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.074345+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2695,7 +2713,7 @@
         "candidate_id": "IE:9267249",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.507971+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.791424+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2705,7 +2723,7 @@
       "gpt_priority_score": 54,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39762790887,
         "shard": 36,
@@ -2751,7 +2769,7 @@
         "candidate_id": "MT-EPPS:14183960",
         "release_tag": "dce-harvest-39880312524"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.228181+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.502817+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2761,7 +2779,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39880312524,
         "shard": 14,
@@ -2804,7 +2822,7 @@
         "candidate_id": "MT-EPPS:14142387",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.733685+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.012135+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2814,7 +2832,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 38,
@@ -2965,7 +2983,7 @@
         "candidate_id": "IE:9082188",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.494369+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.767712+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -2975,7 +2993,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 4,
@@ -3019,7 +3037,7 @@
         "candidate_id": "IE:9293745",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.522134+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.805196+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3029,7 +3047,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39762790887,
         "shard": 37,
@@ -3460,7 +3478,7 @@
         "candidate_id": "WORLD-BANK:OP00476000",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.935386+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.963126+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3470,7 +3488,7 @@
       "gpt_priority_score": 50,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 7,
@@ -3511,7 +3529,7 @@
         "candidate_id": "WORLD-BANK:OP00472721",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.599271+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.929841+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3564,7 +3582,7 @@
         "candidate_id": "MT-EPPS:14167618",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.519298+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.792443+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3574,7 +3592,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 8,
@@ -3617,7 +3635,7 @@
         "candidate_id": "IE:9304329",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.432170+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.705853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -3627,7 +3645,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 25,
@@ -4221,7 +4239,7 @@
         "candidate_id": "EE-RHR:7493db0c-b4da-4f13-9699-c9ecb0598ec2",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.092504+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.367386+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4231,7 +4249,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39865125720,
         "shard": 18,
@@ -4273,7 +4291,7 @@
         "candidate_id": "EE-RHR:41f5b086-ca10-4bd3-9568-7a555f2193f0",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.890171+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.893253+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -4283,7 +4301,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 15,
@@ -10834,7 +10852,7 @@
         "candidate_id": "CA:WS5903365206",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.504208+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.777527+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -10844,7 +10862,7 @@
       "gpt_priority_score": 42,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 6,
@@ -10885,7 +10903,7 @@
         "candidate_id": "CA:WS5793879032",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.418774+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.692391+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -10895,7 +10913,7 @@
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 23,
@@ -11093,7 +11111,7 @@
         "candidate_id": "CA:Doc2371626845",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.774649+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.052818+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -11103,7 +11121,7 @@
       "gpt_priority_score": 39,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -11304,7 +11322,7 @@
         "candidate_id": "CA:WS5869845551",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.697706+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.976718+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -11314,7 +11332,7 @@
       "gpt_priority_score": 38,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 36,
@@ -11972,7 +11990,7 @@
         "candidate_id": "EE-RHR:20d0d4a2-11ff-481d-a423-eb5cd8796a4a",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.481864+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.755210+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -11982,7 +12000,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 31,
@@ -12963,7 +12981,7 @@
         "candidate_id": "US-SAM:2ba6a03ce1454dfd8f25f0c48d8a5694",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.948774+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.978194+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -12973,7 +12991,7 @@
       "gpt_priority_score": 31,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 9,
@@ -14872,7 +14890,7 @@
         "candidate_id": "MT-EPPS:14202193",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.359622+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.632738+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -14882,7 +14900,7 @@
       "gpt_priority_score": 29,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 10,
@@ -14925,7 +14943,7 @@
         "candidate_id": "MT-EPPS:14069012",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.783984+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.062065+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -14935,7 +14953,7 @@
       "gpt_priority_score": 29,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -15133,7 +15151,7 @@
         "candidate_id": "US-SAM:94664d8dffa44cc6a09db763b5beb89a",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.601576+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.951595+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15143,7 +15161,7 @@
       "gpt_priority_score": 26,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 5,
@@ -15287,7 +15305,7 @@
         "candidate_id": "US-SAM:0efc539290014b8f95908c9f1baa64ef",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.929536+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.956457+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15297,7 +15315,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 7,
@@ -15348,7 +15366,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -15440,7 +15458,7 @@
         "candidate_id": "US-SAM:42f9300e1d974fdfbd1b4d9d72545b61",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.569197+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.841479+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15491,7 +15509,7 @@
         "candidate_id": "US-SAM:1405e9dbdbfe48f1a3e1fb73eb57f5f8",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.593381+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.924078+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15542,7 +15560,7 @@
         "candidate_id": "US-SAM:d3c866b6104a4486a4adb5b4b990de00",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.958794+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.989132+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15552,7 +15570,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 9,
@@ -15593,7 +15611,7 @@
         "candidate_id": "MT-EPPS:14138858",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.488437+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.761740+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -15612,57 +15630,6 @@
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
-    },
-    {
-      "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-      "title": "AN/BYG-1 Applications Re-Architecture",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/6c47414f904c470c95769e361f99bb54/view",
-      "deadline": "2026-11-05T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "MISSING",
-      "evidence_gate_coverage": 0,
-      "priority_score": 89,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39938643710,
-      "source_shard": 7,
-      "procedure_aliases": [
-        "sam_opp:6c47414f904c470c95769e361f99bb54"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "hot_ready_at": "2026-10-23T10:29:46.935014+00:00",
-      "review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "97fdce17ead40a5fb50e80048c93bc32d7e205f697027209371be17ec6da64ad",
-      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
-      "gpt_priority_score": 11,
-      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
       "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
@@ -16091,14 +16058,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39762790887,
       "source_shard": 35,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs0ymwdy6381aaf"
+      ],
       "artifact_locator": {
         "dce_run_id": 39762790887,
         "shard": 35,
         "candidate_id": "TED:705814-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.501332+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.784763+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16114,6 +16083,57 @@
         "shard": 35,
         "candidate_id": "TED:705814-2026",
         "release_tag": "dce-harvest-39762790887"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
+      "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+      "title": "AN/BYG-1 Applications Re-Architecture",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/6c47414f904c470c95769e361f99bb54/view",
+      "deadline": "2026-11-05T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "MISSING",
+      "evidence_gate_coverage": 0,
+      "priority_score": 89,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 7,
+      "procedure_aliases": [
+        "sam_opp:6c47414f904c470c95769e361f99bb54"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.962646+00:00",
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "97fdce17ead40a5fb50e80048c93bc32d7e205f697027209371be17ec6da64ad",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 11,
+      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -16248,7 +16268,7 @@
         "candidate_id": "CA:EN578-24ISC4/94",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.086485+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.361356+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16346,7 +16366,7 @@
         "candidate_id": "GR-KHMDHS:26PROC020028844",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.493582+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.776855+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16444,7 +16464,7 @@
         "candidate_id": "PL-BZP:08df2ea4-5ff1-b628-701a-d0000155f68d",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.740931+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.019325+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -16460,57 +16480,6 @@
         "shard": 38,
         "candidate_id": "PL-BZP:08df2ea4-5ff1-b628-701a-d0000155f68d",
         "release_tag": "dce-harvest-39804643657"
-      },
-      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
-    },
-    {
-      "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-      "title": "12--PERISCOPE,TUBE,OUT",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/b0c92505f46448c5874364db7d6917fb/view",
-      "deadline": "2026-11-05T18:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "MISSING",
-      "evidence_gate_coverage": 0,
-      "priority_score": 89,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39938643710,
-      "source_shard": 7,
-      "procedure_aliases": [
-        "sam_opp:b0c92505f46448c5874364db7d6917fb"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "hot_ready_at": "2026-10-23T10:29:46.935210+00:00",
-      "review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "c8b3e0191527cbd133711a06bfd0ce90f3236f68f5ef0741651d2499aa0d5f10",
-      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
-      "gpt_priority_score": 11,
-      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -16764,6 +16733,57 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
+      "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+      "title": "12--PERISCOPE,TUBE,OUT",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/b0c92505f46448c5874364db7d6917fb/view",
+      "deadline": "2026-11-05T18:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "MISSING",
+      "evidence_gate_coverage": 0,
+      "priority_score": 89,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 7,
+      "procedure_aliases": [
+        "sam_opp:b0c92505f46448c5874364db7d6917fb"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.962893+00:00",
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c8b3e0191527cbd133711a06bfd0ce90f3236f68f5ef0741651d2499aa0d5f10",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 11,
+      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
       "candidate_id": "WORLD-BANK:OP00036569",
       "title": "Ethiopia PFM Project",
       "buyer": null,
@@ -16900,7 +16920,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32056472546,
         "shard": 8,
@@ -16941,7 +16961,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.428469+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.702021+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17088,7 +17108,7 @@
         "candidate_id": "PL-BZP:08df2ba2-019e-4872-701a-d0000184efaf",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.859375+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.859801+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -17098,7 +17118,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 10,
@@ -17407,13 +17427,13 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-      "title": "Praktika ja töökohapõhise õppe kommunikatsiooniplaanide tellimine koos elluviimisega",
-      "buyer": "Haridus- ja Noorteamet",
+      "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+      "title": "Õppekirjanduse kirjastamise ja trükiteenuse tellimine (Eesti Keele Instituut)",
+      "buyer": "Riigi Tugiteenuste Keskus",
       "portal": "EE_RHR",
-      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10861844/general-info",
-      "deadline": "2026-10-26T14:00:00+00:00",
-      "estimated_value": 139000.0,
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10790304/general-info",
+      "deadline": "2026-10-27T09:00:00+00:00",
+      "estimated_value": 840000.0,
       "currency": "EUR",
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
@@ -17426,31 +17446,31 @@
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "source_dce_run_id": 39905848940,
-      "source_shard": 2,
+      "source_dce_run_id": 39938643710,
+      "source_shard": 31,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 39905848940,
-        "shard": 2,
-        "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-        "release_tag": "dce-harvest-39905848940"
+        "dce_run_id": 39938643710,
+        "shard": 31,
+        "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+        "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T05:43:06.107609+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.932052+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "69fac640eb8d849b19622a06b7c808c55fb97d8aef7b1a9991670c5b6bf0a2dc",
+      "review_key": "1b1bf4860fbb953f506c2bf5a7df7f7b22141781d4bb6022d8cc7dcf9b4dc046",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 39905848940,
-        "shard": 2,
-        "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-        "release_tag": "dce-harvest-39905848940"
+        "dce_run_id": 39938643710,
+        "shard": 31,
+        "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -18515,7 +18535,7 @@
         "candidate_id": "TED:705774-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.883319+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.885853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18525,7 +18545,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 14,
@@ -18559,14 +18579,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 42,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9334077"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 42,
         "candidate_id": "TED:731037-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.800758+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.078284+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18617,7 +18639,7 @@
         "candidate_id": "TED:685125-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.864637+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.865483+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18627,7 +18649,7 @@
       "gpt_priority_score": 69,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 12,
@@ -18668,7 +18690,7 @@
         "candidate_id": "TED:722529-2026",
         "release_tag": "dce-harvest-39686518411"
       },
-      "hot_ready_at": "2026-10-23T10:31:34.916551+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.207971+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18714,14 +18736,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 38,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs0yegdydsyb25j"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 38,
         "candidate_id": "TED:685351-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.741626+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.020044+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18774,7 +18798,7 @@
         "candidate_id": "IE:9239900",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.058721+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.333417+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18826,7 +18850,7 @@
         "candidate_id": "TED:655623-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.871253+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.872610+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -18836,7 +18860,7 @@
       "gpt_priority_score": 66,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 13,
@@ -18969,7 +18993,10 @@
       "spm_post_dce_score": 66,
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
-        "printing-service"
+        "graphic-design",
+        "printing-services",
+        "printing-service",
+        "communications"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39938643710,
@@ -18983,7 +19010,7 @@
         "candidate_id": "US-SAM:7db276ed882449ad90facd36f383442d",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.580521+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.852659+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19035,7 +19062,7 @@
         "candidate_id": "TED:699483-2026",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.456273+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.729603+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19128,7 +19155,8 @@
       "spm_post_dce_score": 65,
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
-        "application-development"
+        "application-development",
+        "system-integration"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
@@ -19142,7 +19170,7 @@
         "candidate_id": "IE:9290964",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.715040+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.993956+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19195,7 +19223,7 @@
         "candidate_id": "TED:661793-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.938019+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.966126+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19205,7 +19233,7 @@
       "gpt_priority_score": 65,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 8,
@@ -19247,7 +19275,7 @@
         "candidate_id": "TED:718008-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.494517+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.777784+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19311,7 +19339,7 @@
       "gpt_priority_score": 64,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39728069690,
         "shard": 19,
@@ -19353,7 +19381,7 @@
         "candidate_id": "TED:730357-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.555120+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.827504+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19407,7 +19435,7 @@
         "candidate_id": "TED:659361-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.895665+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.899462+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19417,11 +19445,64 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 15,
         "candidate_id": "TED:659361-2026",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "GPT_PRIORITY"
+    },
+    {
+      "candidate_id": "IE:9332753",
+      "title": "Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services",
+      "buyer": "Sport Ireland Facilities DAC",
+      "portal": "IRELAND_ETENDERS",
+      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9332753",
+      "deadline": "2026-11-26T12:00:00+00:00",
+      "estimated_value": 500000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 14,
+      "priority_score": 89,
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "digital-marketing"
+      ],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 33,
+      "procedure_aliases": [
+        "ie_resource:9332753"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 33,
+        "candidate_id": "IE:9332753",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.944302+00:00",
+      "review_lane": "SPM_PRIORITY",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "a5598ec465482005e6d0949ab7299bd8c5446fe096008b1ce5252fcf10e07b87",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 63,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 33,
+        "candidate_id": "IE:9332753",
         "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -19469,7 +19550,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 15,
@@ -19498,6 +19579,7 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
+        "wordpress",
         "digital-marketing"
       ],
       "spm_friction_signals": [],
@@ -19512,7 +19594,7 @@
         "candidate_id": "IE:9303562",
         "release_tag": "dce-harvest-39880312524"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.215111+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.489863+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19564,7 +19646,7 @@
         "candidate_id": "TED:688774-2026",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.075436+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.350278+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19672,7 +19754,7 @@
         "candidate_id": "TED:626082-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.762379+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.040815+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19711,19 +19793,23 @@
       "spm_post_dce_score": 63,
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
-        "e-learning"
+        "graphic-design",
+        "e-learning",
+        "lms"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39804643657,
       "source_shard": 43,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9294691"
+      ],
       "artifact_locator": {
         "dce_run_id": 39804643657,
         "shard": 43,
         "candidate_id": "TED:716110-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.811611+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.088804+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -19784,65 +19870,12 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 36,
         "candidate_id": "TED:665772-2026",
         "release_tag": "dce-harvest-39804643657"
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "GPT_PRIORITY"
-    },
-    {
-      "candidate_id": "IE:9332753",
-      "title": "Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services",
-      "buyer": "Sport Ireland Facilities DAC",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9332753",
-      "deadline": "2026-11-26T12:00:00+00:00",
-      "estimated_value": 500000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 14,
-      "priority_score": 89,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "digital-marketing"
-      ],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39762790887,
-      "source_shard": 31,
-      "procedure_aliases": [
-        "ie_resource:9332753"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39762790887,
-        "shard": 31,
-        "candidate_id": "IE:9332753",
-        "release_tag": "dce-harvest-39762790887"
-      },
-      "hot_ready_at": "2026-10-23T10:31:35.477433+00:00",
-      "review_lane": "SPM_PRIORITY",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "ec512679ca25e4633ff97dad91b90e979010d3ed43e271729d8bebe9f67cbc40",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 63,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 39762790887,
-        "shard": 31,
-        "candidate_id": "IE:9332753",
-        "release_tag": "dce-harvest-39762790887"
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
@@ -19972,19 +20005,22 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "software-development",
-        "it-services"
+        "it-services",
+        "software-resale"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39762790887,
       "source_shard": 15,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "ie_resource:9103777"
+      ],
       "artifact_locator": {
         "dce_run_id": 39762790887,
         "shard": 15,
         "candidate_id": "TED:648059-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.429444+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.713963+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20036,7 +20072,7 @@
         "candidate_id": "TED:720914-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.942520+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.971250+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20046,7 +20082,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 8,
@@ -20088,7 +20124,7 @@
         "candidate_id": "TED:721796-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.747272+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.025853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20284,7 +20320,9 @@
       "spm_fit_band": "GOOD",
       "spm_fit_reasons": [
         "printing-services",
-        "printing-service"
+        "printing-service",
+        "rpa",
+        "software-development"
       ],
       "spm_friction_signals": [],
       "source_dce_run_id": 39905848940,
@@ -20296,7 +20334,7 @@
         "candidate_id": "TED:734404-2026",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.439767+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.713456+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20503,7 +20541,7 @@
         "candidate_id": "TED:657896-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.879751+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.881816+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20513,7 +20551,7 @@
       "gpt_priority_score": 62,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 14,
@@ -20555,7 +20593,7 @@
         "candidate_id": "TED:665658-2026",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.906496+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.911893+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20565,7 +20603,7 @@
       "gpt_priority_score": 61,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 16,
@@ -20658,7 +20696,7 @@
         "candidate_id": "TED:700970-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.448052+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.731976+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20823,7 +20861,7 @@
       "gpt_priority_score": 59,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 9,
@@ -20864,7 +20902,7 @@
         "candidate_id": "EE-RHR:665bdfd7-b30c-459c-b849-0396aedd7977",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.701555+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.980499+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -20967,7 +21005,7 @@
         "candidate_id": "TED:682794-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.721026+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.999827+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21018,7 +21056,7 @@
         "candidate_id": "WORLD-BANK:OP00475705",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.860841+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.861478+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21028,7 +21066,7 @@
       "gpt_priority_score": 57,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 11,
@@ -21070,7 +21108,7 @@
         "candidate_id": "TED:701881-2026",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.796684+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.074345+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21176,7 +21214,7 @@
         "candidate_id": "IE:9267249",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.507971+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.791424+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21186,7 +21224,7 @@
       "gpt_priority_score": 54,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39762790887,
         "shard": 36,
@@ -21232,7 +21270,7 @@
         "candidate_id": "MT-EPPS:14183960",
         "release_tag": "dce-harvest-39880312524"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.228181+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.502817+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21242,7 +21280,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39880312524,
         "shard": 14,
@@ -21285,7 +21323,7 @@
         "candidate_id": "MT-EPPS:14142387",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.733685+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.012135+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21295,7 +21333,7 @@
       "gpt_priority_score": 53,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 38,
@@ -21446,7 +21484,7 @@
         "candidate_id": "IE:9082188",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.494369+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.767712+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21456,7 +21494,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 4,
@@ -21500,7 +21538,7 @@
         "candidate_id": "IE:9293745",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.522134+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.805196+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21510,7 +21548,7 @@
       "gpt_priority_score": 52,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39762790887,
         "shard": 37,
@@ -21941,7 +21979,7 @@
         "candidate_id": "WORLD-BANK:OP00476000",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.935386+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.963126+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -21951,7 +21989,7 @@
       "gpt_priority_score": 50,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 7,
@@ -21992,7 +22030,7 @@
         "candidate_id": "WORLD-BANK:OP00472721",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.599271+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.929841+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22045,7 +22083,7 @@
         "candidate_id": "MT-EPPS:14167618",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.519298+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.792443+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22055,7 +22093,7 @@
       "gpt_priority_score": 48,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 8,
@@ -22098,7 +22136,7 @@
         "candidate_id": "IE:9304329",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.432170+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.705853+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22108,7 +22146,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 25,
@@ -22702,7 +22740,7 @@
         "candidate_id": "EE-RHR:7493db0c-b4da-4f13-9699-c9ecb0598ec2",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.092504+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.367386+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22712,7 +22750,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39865125720,
         "shard": 18,
@@ -22754,7 +22792,7 @@
         "candidate_id": "EE-RHR:41f5b086-ca10-4bd3-9568-7a555f2193f0",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.890171+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.893253+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -22764,7 +22802,7 @@
       "gpt_priority_score": 47,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 15,
@@ -29315,7 +29353,7 @@
         "candidate_id": "CA:WS5903365206",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.504208+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.777527+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -29325,7 +29363,7 @@
       "gpt_priority_score": 42,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 6,
@@ -29366,7 +29404,7 @@
         "candidate_id": "CA:WS5793879032",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.418774+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.692391+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -29376,7 +29414,7 @@
       "gpt_priority_score": 41,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 23,
@@ -29574,7 +29612,7 @@
         "candidate_id": "CA:Doc2371626845",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.774649+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.052818+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -29584,7 +29622,7 @@
       "gpt_priority_score": 39,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -29785,7 +29823,7 @@
         "candidate_id": "CA:WS5869845551",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.697706+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.976718+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -29795,7 +29833,7 @@
       "gpt_priority_score": 38,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 36,
@@ -30453,7 +30491,7 @@
         "candidate_id": "EE-RHR:20d0d4a2-11ff-481d-a423-eb5cd8796a4a",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.481864+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.755210+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -30463,7 +30501,7 @@
       "gpt_priority_score": 32,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 31,
@@ -31444,7 +31482,7 @@
         "candidate_id": "US-SAM:2ba6a03ce1454dfd8f25f0c48d8a5694",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.948774+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.978194+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -31454,7 +31492,7 @@
       "gpt_priority_score": 31,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 9,
@@ -33353,7 +33391,7 @@
         "candidate_id": "MT-EPPS:14202193",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.359622+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.632738+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33363,7 +33401,7 @@
       "gpt_priority_score": 29,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39905848940,
         "shard": 10,
@@ -33406,7 +33444,7 @@
         "candidate_id": "MT-EPPS:14069012",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.783984+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.062065+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33416,7 +33454,7 @@
       "gpt_priority_score": 29,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -33614,7 +33652,7 @@
         "candidate_id": "US-SAM:94664d8dffa44cc6a09db763b5beb89a",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.601576+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.951595+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33624,7 +33662,7 @@
       "gpt_priority_score": 26,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 5,
@@ -33768,7 +33806,7 @@
         "candidate_id": "US-SAM:0efc539290014b8f95908c9f1baa64ef",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.929536+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.956457+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33778,7 +33816,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 7,
@@ -33829,7 +33867,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 39804643657,
         "shard": 41,
@@ -33921,7 +33959,7 @@
         "candidate_id": "US-SAM:42f9300e1d974fdfbd1b4d9d72545b61",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.569197+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.841479+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -33972,7 +34010,7 @@
         "candidate_id": "US-SAM:1405e9dbdbfe48f1a3e1fb73eb57f5f8",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.593381+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.924078+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34023,7 +34061,7 @@
         "candidate_id": "US-SAM:d3c866b6104a4486a4adb5b4b990de00",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.958794+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.989132+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34033,7 +34071,7 @@
       "gpt_priority_score": 23,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 9,
@@ -34074,7 +34112,7 @@
         "candidate_id": "MT-EPPS:14138858",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.488437+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.761740+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34093,57 +34131,6 @@
       },
       "upstream_review_lane": "SPM_PRIORITY",
       "inbox_lane": "GPT_PRIORITY"
-    },
-    {
-      "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-      "title": "AN/BYG-1 Applications Re-Architecture",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/6c47414f904c470c95769e361f99bb54/view",
-      "deadline": "2026-11-05T21:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "MISSING",
-      "evidence_gate_coverage": 0,
-      "priority_score": 89,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39938643710,
-      "source_shard": 7,
-      "procedure_aliases": [
-        "sam_opp:6c47414f904c470c95769e361f99bb54"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "hot_ready_at": "2026-10-23T10:29:46.935014+00:00",
-      "review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "97fdce17ead40a5fb50e80048c93bc32d7e205f697027209371be17ec6da64ad",
-      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
-      "gpt_priority_score": 11,
-      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
       "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
@@ -34572,14 +34559,16 @@
       "spm_friction_signals": [],
       "source_dce_run_id": 39762790887,
       "source_shard": 35,
-      "procedure_aliases": [],
+      "procedure_aliases": [
+        "dtvp_notice:cxs0ymwdy6381aaf"
+      ],
       "artifact_locator": {
         "dce_run_id": 39762790887,
         "shard": 35,
         "candidate_id": "TED:705814-2026",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.501332+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.784763+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34595,6 +34584,57 @@
         "shard": 35,
         "candidate_id": "TED:705814-2026",
         "release_tag": "dce-harvest-39762790887"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
+      "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+      "title": "AN/BYG-1 Applications Re-Architecture",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/6c47414f904c470c95769e361f99bb54/view",
+      "deadline": "2026-11-05T21:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "MISSING",
+      "evidence_gate_coverage": 0,
+      "priority_score": 89,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 7,
+      "procedure_aliases": [
+        "sam_opp:6c47414f904c470c95769e361f99bb54"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.962646+00:00",
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "97fdce17ead40a5fb50e80048c93bc32d7e205f697027209371be17ec6da64ad",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 11,
+      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
+        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -34729,7 +34769,7 @@
         "candidate_id": "CA:EN578-24ISC4/94",
         "release_tag": "dce-harvest-39865125720"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.086485+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.361356+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34827,7 +34867,7 @@
         "candidate_id": "GR-KHMDHS:26PROC020028844",
         "release_tag": "dce-harvest-39762790887"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.493582+00:00",
+      "hot_ready_at": "2026-10-23T10:39:21.776855+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34925,7 +34965,7 @@
         "candidate_id": "PL-BZP:08df2ea4-5ff1-b628-701a-d0000155f68d",
         "release_tag": "dce-harvest-39804643657"
       },
-      "hot_ready_at": "2026-10-23T10:31:35.740931+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.019325+00:00",
       "review_lane": "DCE_AUTHENTICITY_REPAIR",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -34941,57 +34981,6 @@
         "shard": 38,
         "candidate_id": "PL-BZP:08df2ea4-5ff1-b628-701a-d0000155f68d",
         "release_tag": "dce-harvest-39804643657"
-      },
-      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
-    },
-    {
-      "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-      "title": "12--PERISCOPE,TUBE,OUT",
-      "buyer": "DEPT OF DEFENSE",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/b0c92505f46448c5874364db7d6917fb/view",
-      "deadline": "2026-11-05T18:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "MISSING",
-      "evidence_gate_coverage": 0,
-      "priority_score": 89,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 39938643710,
-      "source_shard": 7,
-      "procedure_aliases": [
-        "sam_opp:b0c92505f46448c5874364db7d6917fb"
-      ],
-      "artifact_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-        "release_tag": "dce-harvest-39938643710"
-      },
-      "hot_ready_at": "2026-10-23T10:29:46.935210+00:00",
-      "review_lane": "DCE_AUTHENTICITY_REPAIR",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "c8b3e0191527cbd133711a06bfd0ce90f3236f68f5ef0741651d2499aa0d5f10",
-      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
-      "gpt_priority_score": 11,
-      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 39938643710,
-        "shard": 7,
-        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
-        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
@@ -35245,6 +35234,57 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
+      "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+      "title": "12--PERISCOPE,TUBE,OUT",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/b0c92505f46448c5874364db7d6917fb/view",
+      "deadline": "2026-11-05T18:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "MISSING",
+      "evidence_gate_coverage": 0,
+      "priority_score": 89,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 39938643710,
+      "source_shard": 7,
+      "procedure_aliases": [
+        "sam_opp:b0c92505f46448c5874364db7d6917fb"
+      ],
+      "artifact_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "hot_ready_at": "2026-10-23T10:39:22.962893+00:00",
+      "review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "c8b3e0191527cbd133711a06bfd0ce90f3236f68f5ef0741651d2499aa0d5f10",
+      "recommended_gpt_action": "GPT_WEB_VERIFY_DCE_AUTHENTICITY",
+      "gpt_priority_score": 11,
+      "upstream_signal": "DCE_AUTHENTICITY_REVIEW",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "control/gpt_review_hot.json",
+      "evidence_locator": {
+        "dce_run_id": 39938643710,
+        "shard": 7,
+        "candidate_id": "US-SAM:b0c92505f46448c5874364db7d6917fb",
+        "release_tag": "dce-harvest-39938643710"
+      },
+      "upstream_review_lane": "DCE_AUTHENTICITY_REPAIR",
+      "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
+    },
+    {
       "candidate_id": "WORLD-BANK:OP00036569",
       "title": "Ethiopia PFM Project",
       "buyer": null,
@@ -35381,7 +35421,7 @@
       "gpt_priority_score": 15,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 32056472546,
         "shard": 8,
@@ -35422,7 +35462,7 @@
         "candidate_id": "CY-EPPS:9255764",
         "release_tag": "dce-harvest-39905848940"
       },
-      "hot_ready_at": "2026-10-23T10:31:36.428469+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.702021+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35569,7 +35609,7 @@
         "candidate_id": "PL-BZP:08df2ba2-019e-4872-701a-d0000184efaf",
         "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T10:29:46.859375+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.859801+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
@@ -35579,7 +35619,7 @@
       "gpt_priority_score": 14,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
         "dce_run_id": 39938643710,
         "shard": 10,
@@ -35888,13 +35928,13 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-      "title": "Praktika ja töökohapõhise õppe kommunikatsiooniplaanide tellimine koos elluviimisega",
-      "buyer": "Haridus- ja Noorteamet",
+      "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+      "title": "Õppekirjanduse kirjastamise ja trükiteenuse tellimine (Eesti Keele Instituut)",
+      "buyer": "Riigi Tugiteenuste Keskus",
       "portal": "EE_RHR",
-      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10861844/general-info",
-      "deadline": "2026-10-26T14:00:00+00:00",
-      "estimated_value": 139000.0,
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10790304/general-info",
+      "deadline": "2026-10-27T09:00:00+00:00",
+      "estimated_value": 840000.0,
       "currency": "EUR",
       "review_stage": "BUSINESS_GATES",
       "gate_readiness": true,
@@ -35907,31 +35947,31 @@
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "source_dce_run_id": 39905848940,
-      "source_shard": 2,
+      "source_dce_run_id": 39938643710,
+      "source_shard": 31,
       "procedure_aliases": [],
       "artifact_locator": {
-        "dce_run_id": 39905848940,
-        "shard": 2,
-        "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-        "release_tag": "dce-harvest-39905848940"
+        "dce_run_id": 39938643710,
+        "shard": 31,
+        "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+        "release_tag": "dce-harvest-39938643710"
       },
-      "hot_ready_at": "2026-10-23T05:43:06.107609+00:00",
+      "hot_ready_at": "2026-10-23T10:39:22.932052+00:00",
       "review_lane": "LOW_PORTAL_SURVEILLANCE",
       "finalization_allowed": false,
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "69fac640eb8d849b19622a06b7c808c55fb97d8aef7b1a9991670c5b6bf0a2dc",
+      "review_key": "1b1bf4860fbb953f506c2bf5a7df7f7b22141781d4bb6022d8cc7dcf9b4dc046",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 39905848940,
-        "shard": 2,
-        "candidate_id": "EE-RHR:a20fb7bf-3bf3-4e43-964e-545de2b6788d",
-        "release_tag": "dce-harvest-39905848940"
+        "dce_run_id": 39938643710,
+        "shard": 31,
+        "candidate_id": "EE-RHR:865179c9-18fe-4f37-bd40-9c63eb9b38bc",
+        "release_tag": "dce-harvest-39938643710"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -37009,7 +37049,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 180,
+    "pending_before_visible_cap": 175,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
