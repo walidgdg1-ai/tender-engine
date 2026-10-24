@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-24T21:50:11.945504+00:00",
-  "source_inbox_updated_at": "2026-10-24T21:50:11.331498+00:00",
-  "latest_source_dce_run_id": 40134590709,
+  "generated_at": "2026-10-24T23:40:45.637068+00:00",
+  "source_inbox_updated_at": "2026-10-24T23:40:45.096271+00:00",
+  "latest_source_dce_run_id": 40143302558,
   "batch_index": 0,
   "start_rank": 1,
   "end_rank": 10,
@@ -30,14 +30,14 @@
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 40134590709,
-      "source_shard": 8,
-      "review_key": "d55b186990143cb62aa22953ec89422a87773642f6d84a0603c70415446570ad",
+      "source_dce_run_id": 40143302558,
+      "source_shard": 2,
+      "review_key": "58f3d3e2f63ee3cffaaf391b06947013a2eb8aca4a771c02c5d485508e145c5c",
       "artifact_locator": {
-        "dce_run_id": 40134590709,
-        "shard": 8,
+        "dce_run_id": 40143302558,
+        "shard": 2,
         "candidate_id": "TED:705774-2026",
-        "release_tag": "dce-harvest-40134590709"
+        "release_tag": "dce-harvest-40143302558"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -97,6 +97,50 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "TED:722529-2026",
+      "title": "France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE",
+      "buyer": "Région des Pays de la Loire",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/722529-2026",
+      "deadline": "2026-11-20T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 69,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "graphic-design"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 40143302558,
+      "source_shard": 14,
+      "review_key": "9e566e5c2c6a3862817e54fb5daf24c97fac61d6f98fb9edbc8506de7e4ce089",
+      "artifact_locator": {
+        "dce_run_id": 40143302558,
+        "shard": 14,
+        "candidate_id": "TED:722529-2026",
+        "release_tag": "dce-harvest-40143302558"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "TED:685125-2026",
       "title": "Germany – Graphic design services – Rahmenvertrag Grafik ab 2027",
       "buyer": "Verbraucherzentrale Bundesverband e.V.",
@@ -126,50 +170,6 @@
         "shard": 0,
         "candidate_id": "TED:685125-2026",
         "release_tag": "dce-harvest-40134590709"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:722529-2026",
-      "title": "France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE",
-      "buyer": "Région des Pays de la Loire",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/722529-2026",
-      "deadline": "2026-11-20T02:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
-      "spm_post_dce_score": 69,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "graphic-design"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 40113094320,
-      "source_shard": 17,
-      "review_key": "01151a7c7d07568850c2f50684aa1529f19c154b2881b2eabcfd40a0b3f82c76",
-      "artifact_locator": {
-        "dce_run_id": 40113094320,
-        "shard": 17,
-        "candidate_id": "TED:722529-2026",
-        "release_tag": "dce-harvest-40113094320"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -297,14 +297,59 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 40134590709,
-      "source_shard": 8,
-      "review_key": "2149d36430c54bf864ab3688455e599b7104d3b64efa9ab363fed27924830b5f",
+      "source_dce_run_id": 40143302558,
+      "source_shard": 6,
+      "review_key": "d4d94ffbeaa40d63a0af2f38ab447d363117262519c29ccaabc7aa6a46a098af",
       "artifact_locator": {
-        "dce_run_id": 40134590709,
-        "shard": 8,
+        "dce_run_id": 40143302558,
+        "shard": 6,
         "candidate_id": "TED:655623-2026",
-        "release_tag": "dce-harvest-40134590709"
+        "release_tag": "dce-harvest-40143302558"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:684434-2026",
+      "title": "France – Printing services – Prestations d’impression et de routage pour le compte de l’Ined",
+      "buyer": "INED",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/684434-2026",
+      "deadline": "2026-10-30T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 13,
+      "spm_post_dce_score": 66,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "printing-services",
+        "printing-service"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 40143302558,
+      "source_shard": 15,
+      "review_key": "7db93a4e74c5a32962a4b6a37e811e2b48b620332a07d48ac607515a0d504547",
+      "artifact_locator": {
+        "dce_run_id": 40143302558,
+        "shard": 15,
+        "candidate_id": "TED:684434-2026",
+        "release_tag": "dce-harvest-40143302558"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -365,51 +410,6 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "TED:684434-2026",
-      "title": "France – Printing services – Prestations d’impression et de routage pour le compte de l’Ined",
-      "buyer": "INED",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/684434-2026",
-      "deadline": "2026-10-30T02:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 66,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "printing-services",
-        "printing-service"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 40113094320,
-      "source_shard": 16,
-      "review_key": "56287ba5423273ffa078b142a0e313f54d9570c09d4a43dd3cbf08792aa7023c",
-      "artifact_locator": {
-        "dce_run_id": 40113094320,
-        "shard": 16,
-        "candidate_id": "TED:684434-2026",
-        "release_tag": "dce-harvest-40113094320"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
       "candidate_id": "US-SAM:7db276ed882449ad90facd36f383442d",
       "title": "Procurement of Printing Service for the U.S. Embassy Hanoi, Vietnam",
       "buyer": "STATE, DEPARTMENT OF",
@@ -434,14 +434,14 @@
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 40134590709,
+      "source_dce_run_id": 40143302558,
       "source_shard": 1,
-      "review_key": "ee66ef8c8e780df8b19a18a4765fae395810640cce0a3d2e1e1d7d6179e82f27",
+      "review_key": "471f36458ab9be01eea960ad21929e00e0bf6a1b69be11934e127c91a53b0add",
       "artifact_locator": {
-        "dce_run_id": 40134590709,
+        "dce_run_id": 40143302558,
         "shard": 1,
         "candidate_id": "US-SAM:7db276ed882449ad90facd36f383442d",
-        "release_tag": "dce-harvest-40134590709"
+        "release_tag": "dce-harvest-40143302558"
       },
       "evidence_quality": {
         "raw_status": null,
