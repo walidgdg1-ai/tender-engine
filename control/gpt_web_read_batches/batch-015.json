@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-24T05:08:32.385584+00:00",
-  "source_inbox_updated_at": "2026-10-24T05:08:31.853454+00:00",
-  "latest_source_dce_run_id": 40064581857,
+  "generated_at": "2026-10-24T09:28:31.822409+00:00",
+  "source_inbox_updated_at": "2026-10-24T09:28:30.813452+00:00",
+  "latest_source_dce_run_id": 40081697792,
   "batch_index": 15,
   "start_rank": 151,
   "end_rank": 160,
@@ -78,6 +78,48 @@
         "shard": 7,
         "candidate_id": "WORLD-BANK:OP00472559",
         "release_tag": "dce-harvest-39204191616"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "US-SAM:3b9ab33cdf1a462cba702391680fd016",
+      "title": "UNITED STATES ARMY RESEARCH INSTITUTE FOR THE BEHAVIORAL AND SOCIAL SCIENCES (ARI) BROAD AGENCY ANNOUNCEMENT FOR BASIC, APPLIED, AND ADVANCED SCIENTIFIC RESEARCH",
+      "buyer": "DEPT OF DEFENSE",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/3b9ab33cdf1a462cba702391680fd016/view",
+      "deadline": "2028-05-01T03:59:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 32064225479,
+      "source_shard": 9,
+      "review_key": "ce64e6ce95ec36e004cc952f8a49d7665a9031968702f0069e9f9639d81bf9b9",
+      "artifact_locator": {
+        "dce_run_id": 32064225479,
+        "shard": 9,
+        "candidate_id": "US-SAM:3b9ab33cdf1a462cba702391680fd016",
+        "release_tag": "dce-harvest-32064225479"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -410,14 +452,183 @@
         "release_tag": "dce-harvest-40064581857"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 15,
+        "text_chars": 438097,
+        "attributed_compact_snippets": 15,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "stVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER 5e506c16-26ab-4e32-bb78-b27f87dc0565 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE Teenuslepingute puhul: täpsustatud liiki teenuste osutamine Ainult teenuste riigihankelepingute puhul: \"nimekiri hankija kindlaksmääratud tunnustele vastavate teenuste osutamise lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu jooksul, koos teabega nende maksumuse, kuupäevade ja teiste lepingupoolte kohta.\" Avaliku sektori hankijad…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "d726bac9-e153-4e75-bfca-c5385587766d CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE Kvaliteedistandardite kohta sõltumatute asutuste väljastatud tõendid Kas ettevõtjal on võimalik esitada sõltumatute asutuste koostatud tõendeid selle kohta, et ettevõtja järgib teatavaid kvaliteedistandardeid, sealhulgas puudega inimeste ligipääsu tagamise nõuet. c753a2c5-59e6-4970-b6eb-27224e96bf76 RHS § 101 lg 5",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "p> d726bac9-e153-4e75-bfca-c5385587766d CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE Kvaliteedistandardite kohta sõltumatute asutuste väljastatud tõendid Kas ettevõtjal on võimalik esitada sõltumatute asutuste koostatud tõendeid selle kohta, et ettevõtja järgib teatavaid kvaliteedistandardeid, sealhulgas puudega inimeste ligipääsu tagamise nõuet. c753a2c5-59e6-4970-b6eb-27224e96bf76 RHS § 101 lg 5 „kui hankija nõuab sõltumatute asutuste tõendi",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "janduspiirkonna lepinguriik või Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud riik). Riigihankes ei ole lubatud osaleda ettevõtjatel, kelle elu- või asukoht on Venemaa Föderatsioonis või Valgevene Vabariigis. Küsimused ettevõtjale: 1. Kas pakkuja kinnitab, et tema elu- või asukoht on Eestis, mõnes muus Euroopa Liidu liikmesriigis, muus Euroopa Majanduspiirkonna lepinguriigis või Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud riigis? (Raadionupp valikutega \"Jah/Ei\") 2. Kas pakkuja kin…",
+            "source": "files/files_unpacked/316099_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "ab392d41a45ebda7e3e0a42d813b2238e425c4b806e192fe9007a5fc8a16b20a",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nguga ühinenud riik). Riigihankes ei ole lubatud osaleda ettevõtjatel, kelle elu- või asukoht on Venemaa Föderatsioonis või Valgevene Vabariigis. Küsimused ettevõtjale: 1. Kas pakkuja kinnitab, et tema elu- või asukoht on Eestis, mõnes muus Euroopa Liidu liikmesriigis, muus Euroopa Majanduspiirkonna lepinguriigis või Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud riigis? (Raadionupp valikutega \"Jah/Ei\") 2. Kas pakkuja kinnitab, et tema elu- või asukoht ei ole Venemaa Föderatsioonis või Valgevene Vab…",
+            "source": "files/files_unpacked/316099_vastavustingimused.pdf",
+            "source_url": null,
+            "source_sha256": "ab392d41a45ebda7e3e0a42d813b2238e425c4b806e192fe9007a5fc8a16b20a",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ringCriterionPropertyGroup> d726bac9-e153-4e75-bfca-c5385587766d CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE Kvaliteedistandardite kohta sõltumatute asutuste väljastatud tõendid Kas ettevõtjal on võimalik esitada sõltumatute asutuste koostatud tõendeid selle kohta, et ettevõtja järgib teatavaid kvaliteedistandardeid, sealhulgas puudega inimeste ligipääsu tagamise nõuet. c753a2c5-59e6-4970-b6eb-27224e96bf76 RHS § 101 lg 5 „kui hankija nõuab",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "EVIDENCE_IDENTIFIER 72c0c4b1-ca50-4667-9487-461f3eed4ed7 CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES Teave nende allhankijate kohta, kelle näitajatele ettevõtja ei tugine Kas ettevõtja kavatseb sõlmida lepingu mis tahes osa kohta allhanke kolmanda isikuga? c753a2c5-59e6-4970-b6eb-27224e96bf76 <cbc:LocaleCode listID=\"LanguageCodeEU\" listAgencyName=\"E",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-componen…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "stID=\"PropertyGroupType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">ON* 8b872fb8365dbbaf6c3343fc9cb93081-1.1 Minimaalne teostatud tööde arv REQUIREMENT QUANTITY_INTEGER 2 53c9aad8-dc80-48f8-85d9-755c2aab8e95 ON* <cbc:ID schemeID=\"CriteriaTaxonomy\" schemeAgencyID=\"EU-COM-GROW\" sche",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "onID=\"2.0.2\">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Osalemine kuritegelikus organisatsioonis Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus ühenduses osalemise eest\". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette näinud. ET 7c637c0c-7703-4389-ba52-02997a055bd7 ON* 8a42266c5fb24e32ff421942459d66ac-1.1 Mis on …",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "===== FILE: files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-componen…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "D_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1\" xmlns:efbc=\"http://data.europa.eu/p27…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml ===== <QualificationApplicationRequest xmlns:ext=\"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2\" xmlns=\"urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2\" xmlns:cac=\"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\" xmlns:cbc=\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\" xmlns:efac=\"http://data.europa.eu/p27/eforms-ubl-extension-aggregate-componen…",
+            "source": "files/files_unpacked/316099_ESPD_v2.0_laiendatud.xml",
+            "source_url": null,
+            "source_sha256": "3582c722276512867a312f143941bd52c4ce02ba0ca2256a546dcd2c7ea34b26",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "N</cbc:TypeCode> <cbc:ValueDataTypeCode listID=\"ResponseDataType\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"2.0.2\">EVIDENCE_IDENTIFIER</cbc:ValueDataTypeCode> </cac:TenderingCriterionProperty> </cac:SubsidiaryTenderingCriterionPropertyGroup> </cac:TenderingCriterionPropertyGroup> </cac:TenderingCriterion> </QualificationApplicationRequest> ===== FILE: files/files_unpacked/316099_hankepass_taiendavate_selgitustega.pdf ===== 1 / 20 Koostatud 23.10.2026 10:49:51 https://riigihanked.riik.ee/rhr-web/#/procurement/10872…",
+            "source": "files/files_unpacked/316099_hankepass_taiendavate_selgitustega.pdf",
+            "source_url": null,
+            "source_sha256": "f1e39178dd1d0520dd45fa8aa654eb3dcdda4059962ee0649c4f31621ef47816",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -507,59 +718,93 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
-      "candidate_id": "NO-DOFFIN:2026-115925",
-      "title": "Annonsetjenester",
-      "buyer": "Harstad Kommune",
+      "candidate_id": "NO-DOFFIN:2026-116308",
+      "title": "Digital løsning for ombruk av møbler, inventar og utstyr",
+      "buyer": "Eidsvoll Kommune",
       "portal": "NO_DOFFIN",
-      "notice_url": "https://www.doffin.no/notices/2026-115925",
-      "deadline": "2026-11-16T11:00:00+00:00",
-      "estimated_value": 4500000.0,
+      "notice_url": "https://www.doffin.no/notices/2026-116308",
+      "deadline": "2026-11-12T11:00:00+00:00",
+      "estimated_value": 650000.0,
       "currency": "NOK",
       "review_stage": null,
       "gate_readiness": true,
       "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 6,
-      "spm_post_dce_score": 16,
+      "evidence_gate_coverage": 7,
+      "spm_post_dce_score": 17,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "deadline_conflict": false,
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 39096660336,
-      "source_shard": 0,
-      "review_key": "18ca3be4cf7f69c6cc4dd4fe2c0e2683a35a122e3d790e69566d11463c56e2ee",
+      "source_dce_run_id": 40081697792,
+      "source_shard": 4,
+      "review_key": "a2c84a6cef00ffc14ffffa855b83a11261df5f36404d1cbad3ff7e54e0e5c220",
       "artifact_locator": {
-        "dce_run_id": 39096660336,
-        "shard": 0,
-        "candidate_id": "NO-DOFFIN:2026-115925",
-        "release_tag": "dce-harvest-39096660336"
+        "dce_run_id": 40081697792,
+        "shard": 4,
+        "candidate_id": "NO-DOFFIN:2026-116308",
+        "release_tag": "dce-harvest-40081697792"
       },
       "evidence_quality": {
         "raw_status": null,
         "documents_with_text": null,
         "text_chars": null,
-        "attributed_compact_snippets": 11,
+        "attributed_compact_snippets": 12,
         "artifact_lookup_required_snippets": 0,
         "all_compact_snippets_document_attributed": true
       },
       "evidence": {
-        "references_experience": [
+        "entity_geography": [
           {
-            "text": "asjonsnummer. For leverandører utenfor Norge benyttes prefix 9908 for adressering av NHN i PEPPOL. 2.2 Innhold EHF fakturaen skal utformes som beskrevet i dette dokumentet. Det understrekes at PDF vedlegg ikke representerer maskinlesbar informasjon, som er definert som felter i EHF v3.0. 3 Fakturering av tjenesteleveranser 3.1 Fakturahode for tjenesteleveranser (konsulent, rådgivere, vikarer mm) Informasjonen under skal fremkomme både i PDF-vedlegget til E-faktura og i EHF3.0-filen (xml): Faktura merking Krav Felt…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
+            "text": "ntar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automa…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
             "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
             "source_kind": "pdf",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
           },
           {
-            "text": "efix 9908 for adressering av NHN i PEPPOL. 2.2 Innhold EHF fakturaen skal utformes som beskrevet i dette dokumentet. Det understrekes at PDF vedlegg ikke representerer maskinlesbar informasjon, som er definert som felter i EHF v3.0. 3 Fakturering av tjenesteleveranser 3.1 Fakturahode for tjenesteleveranser (konsulent, rådgivere, vikarer mm) Informasjonen under skal fremkomme både i PDF-vedlegget til E-faktura og i EHF3.0-filen (xml): Faktura merking Krav Felt innhold Spesifikasjon av felt i EHF 3.0 Avtaleeier Må <…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
+            "text": "ktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualif…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
             "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "tyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier estab…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ed as tildelingskrav: 1.1, 6.2, 6.3 and 9.1. a) How are these four answers weighted against each other? b) Do the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight in the evaluation of requirement 1.1? Svar fra oppdragsgiver 23. oktober 2026 11:42 a) De evalueres etter en helhetsvurdering. Dette er en konkurranse som følger regle…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "o the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight in the evaluation of requirement 1.1? Svar fra oppdragsgiver 23. oktober 2026 11:42 a) De evalueres etter en helhetsvurdering. Dette er en konkurranse som følger regler etter Del I. b) Nei. c) De 6 kommunene som er omtalt i konkurransen skal tilsluttes avtalen. Spørsmål 5: G…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
             "source_kind": "pdf",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
@@ -568,20 +813,20 @@
         ],
         "deliverables_scope": [
           {
-            "text": "..................... ................................ ........ 6 6 Kreditering ................................ ................................ ................................ ..... 6 1 Krav om elektronisk fakturering I medhold av Forskrift om elektronisk faktura i offentlige anskaffelser (2.april 2019) er EHF faktura obligatorisk ved fakturering til kommunene. All fakturering til Harstad kommune og samarbeidskommuner som inngår i kontrakten, må gjennomføres i Elektronisk Handels Format (EHF). Godkjente standar…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
+            "text": "være oppfylt. Svarform | Bruk Ja/Nei | Brukes for konkrete krav der leverandøren skal bekrefte om kravet oppfylles. Redegjørelse | Brukes der leverandøren skal beskrive hvordan løsningen fungerer eller hvordan behovet ivaretas i tillegg til å svare i \"Krav\" kolonnen. ===== FILE: files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar o…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
             "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
             "source_kind": "pdf",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
           },
           {
-            "text": "999 Eks for delavtale: 26/9999-1 Fakturaperiode (start, slutt): Fra dato – til dato som faktura gjelder for (leveranseperiode). 3.2 Fakturalinjer ifm. Fakturering av tjenesteleveranser (konsulent, rådgivere, vikarer mm) Informasjonen under skal fremkomme både i PDF-vedlegget til E-faktura og i EHF3.0-filen (xml): Faktura merking Krav Felt innhold Spesifikasjon av felt i EHF 3.0 Tjeneste /varenummer Må <Varenummer> InvoiceLine/Item/SellersItemIdentification/ID Beskrivelse Må <konsulent – navn, rolle> InvoiceLine/It…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
+            "text": "\"Krav\" kolonnen. ===== FILE: files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
             "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
             "source_kind": "pdf",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
@@ -590,54 +835,32 @@
         ],
         "sla_onsite": [
           {
-            "text": "... ................................ ........... 10 9.1 Hva anses som mislighold ................................ ................................ ............. 10 9.2 Reklamasjon ................................ ................................ ................................ . 10 9.3 Retting ................................ ................................ ................................ ......... 10 9.4 Tilleggsfrist ................................ ................................ ...........................…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Kontrakt/Generelle kontraktsvilkår tjenestekjøp.pdf",
+            "text": "Løsningen skal være nettbasert og fungere godt på PC, nettbrett og mobil uten behov for lokal installasjon for ordinære brukere. | Ja/Nei | M | | | | | | | | | | | | Generelt om løsningen | 1.4 | Løsningen skal være universelt utformet. | Redegjørelse | M | | | | | | | | | | | | Drift og support | 46026 | Leverandøren skal ha ansvar for nødvendig drift, vedlikehold og løpende oppdatering av løsningen, og beskrive hvordan planlagte endringer og oppdateringer kommuniseres til kundene. | Redegjørelse | M | | | | | | …",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 1.1 - Kravspesifikasjon/Kravspesifikasjon_Digital_ombruk_Øvre_Romerike.xlsx",
             "source_url": null,
-            "source_sha256": "f7065c0538d296a8873b22f5eb3f5898df0b1db3cec8eb82ac4384a132a6299a",
-            "source_kind": "pdf",
+            "source_sha256": "cd5935c01fa4aa12105ee6af09db2168dedb5b7858557af549dba2c4019edc3b",
+            "source_kind": "xlsx",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
           },
           {
-            "text": "d mindre annet følger av særskilt avtale. 4.4 Garanti Med mindre annet er avtalt, er garantiperioden for tjenestene, eller eventuelle varer som er inkludert i tjenestene, to (2) år regnet fra tidspunktet tjenestene er fullført i henhold til punkt 7.1. For deloppdrag regnes fristen fra alle tjenestene er fullført. Garantitiden skal likevel ikke være kortere enn alminnelig praksis for den aktuelle bransjen. Leverandøren påtar seg i garantitiden ansvar for feil eller mangler ved tjenestene. Leverandøren skal i denne …",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Kontrakt/Generelle kontraktsvilkår tjenestekjøp.pdf",
+            "text": "inger og kostnader knyttet til dette. | Redegjørelse | M | | Integrasjoner og dokumentasjon* | 6.2* | Leverandøren skal kunne levere nødvendig teknisk dokumentasjon som beskriver løsningens arkitektur, logisk arkitekturdiagram, integrasjoner, avhengigheter og eventuelle nettverks- eller brannmurbehov. | Redegjørelse | M | | Risiko og personvernvurderinger | 7.1 | Leverandøren skal på forespørsel gi nødvendig dokumentasjon og bistand slik at kommunene kan gjennomføre risiko- og sårbarhetsvurdering (ROS) og eventuel…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 2.1 - IT Krav/IT_Krav_Digital__ombruk_Øvre_Romerike_kommentar_DGI_Final.xlsx",
             "source_url": null,
-            "source_sha256": "f7065c0538d296a8873b22f5eb3f5898df0b1db3cec8eb82ac4384a132a6299a",
-            "source_kind": "pdf",
+            "source_sha256": "82aa4ac6c6703bf8fd762a469f8539adee81e307850989db563ce029a129b1fc",
+            "source_kind": "xlsx",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
           }
         ],
-        "term_value": [
+        "award_criteria": [
           {
-            "text": "riode). 3.2 Fakturalinjer ifm. Fakturering av tjenesteleveranser (konsulent, rådgivere, vikarer mm) Informasjonen under skal fremkomme både i PDF-vedlegget til E-faktura og i EHF3.0-filen (xml): Faktura merking Krav Felt innhold Spesifikasjon av felt i EHF 3.0 Tjeneste /varenummer Må <Varenummer> InvoiceLine/Item/SellersItemIdentification/ID Beskrivelse Må <konsulent – navn, rolle> InvoiceLine/Item/Description Alternativt felt: InvoiceLine/Item/Name Antall timer Må <Antall timer> InvoiceLine/InvoicedQuantity Pris …",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
+            "text": "dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tender and its annexes 23. oktober 2026 11:40 The permitted language is stated as Norwegian. a) May the tender be submitted in English, or in Norwegian with annexes such as technical documentation and system descriptions in English? b) If Norwegian is required throughout, does this also apply to such annexes? We ask because the requirement affects how widely the competition is open to suppliers established outside Norway. Svar fra oppdragsgiver 23. oktober 2…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
             "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          },
-          {
-            "text": "kontraktsnummer skrives inn med bindestrek og tall som oppgitt. 4.2 Fakturalinjer ifm. vareleveranser Informasjonen under skal fremkomme både i PDF-vedlegget til E-faktura og i EHF3.0-filen (xml): Faktura merking Krav Felt innhold Spesifikasjon av felt i EHF 3.0 Varenummer Må <varenummer> InvoiceLine/Item/SellersItemIdentification/ID Beskrivelse Må <Varenavn> InvoiceLine/Item/Description Alternativt felt: InvoiceLine/Item/Name Antall Må <Antall av samme produkt pr varenummer> InvoiceLine/InvoicedQuantity Pris Må <…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Vedlegg/Krav til merking av EHF faktura.pdf",
-            "source_url": null,
-            "source_sha256": "3a6e1f8ef6bf866a88a507ec63bf78754d0f69d7bd97310eda03c6cfe90c327f",
-            "source_kind": "pdf",
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "artifact_lookup_required": false
-          }
-        ],
-        "forms_signatures": [
-          {
-            "text": "1000 - Reklamevirksomhet Varighet: Oppstart: 5. desember 2026 Slutt: 5. desember 2028 Varighet: 2 år Opsjoner: 1 + 1 år Total mulig varighet: 4 år (2+1+1) Tidsfrister: Frist for å stille spørsmål: 9. november 2026, 12:00 Tilbudsfrist: 16. november 2026, 12:00 Demonstrasjon av løsningen/portalen: Leverandørene inviteres til 30 minutters presentasjon av løsningen, via Teams. 19. november 2026, 00:00 Tildeling: 30. november 2026, 12:00 Karensperiode: Fra utsendelse av tildelingsbeslutning 10 dager Vedståelsesfrist: 6…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/konkurransegrunnlag.pdf",
-            "source_url": null,
-            "source_sha256": "79af1f9ba10073ade5043fb52babaf15e839199581417f5613c0d716b17a4123",
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
             "source_kind": "pdf",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
@@ -646,21 +869,21 @@
         ],
         "ip_data_security": [
           {
-            "text": "reve erstattet ethvert direkte tap og skade som springer ut av kontraktsbrudd fra den annen part eller noen den svarer for, med mindre den misligholdende parten godtgjør at misligholdet eller årsaken til misligholdet ikke skyldes den misligholdende parten. Direkte kostnader omfatter, men er ikke begrenset til, kostnader oppdragsgiver får ved dekningstjenester, utlegg og kostnader som følge av merarbeid i oppdragsgivers organisasjon. Dagbøter kommer til fradrag i eventuell erstatning for samme forsinkelse. Indirekt…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Kontrakt/Generelle kontraktsvilkår tjenestekjøp.pdf",
+            "text": "mtidig (i bulk / som samlet operasjon). Ved skanning med mobil skal autoriserte brukere kunne åpne objektet og utføre relevante handlinger. | Redegjørelse | M | | | | | | | | | | | | Registrering og kartlegging | 3.7 | Det skal være mulig å knytte veiledning eller informasjon til bestemte kategorier, for eksempel særskilt informasjon som brukeren bør være oppmerksom på ved registrering av IKT-utstyr. | Ja/Nei | M | | | | | | | | | | | | Ombruk og markedsplass | 5.1 | Løsningen skal støtte bestilling eller reservas…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 1.1 - Kravspesifikasjon/Kravspesifikasjon_Digital_ombruk_Øvre_Romerike.xlsx",
             "source_url": null,
-            "source_sha256": "f7065c0538d296a8873b22f5eb3f5898df0b1db3cec8eb82ac4384a132a6299a",
-            "source_kind": "pdf",
+            "source_sha256": "cd5935c01fa4aa12105ee6af09db2168dedb5b7858557af549dba2c4019edc3b",
+            "source_kind": "xlsx",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
           },
           {
-            "text": "krav. Dersom det oppdages brudd på ovennevnte konvensjoner, skal Leverandøren iverksette tiltak for å sikre oppfyllelse av kravene, eller at samarbeid med aktuelle underleverandører avsluttes. 12 Tvister 12.1 Forhandlinger og mekling Dersom det oppstår tvist mellom partene om tolkning eller rettsvirkningene av kontrakten, skal tvisten først søkes løst ved forhandlinger og/eller mekling. 12.2 Domstols- eller voldgiftsbehandling Dersom en tvist ikke løses gjennom forhandlinger eller mekling, kan hver av partene brin…",
-            "source": "files/26-0032 - Annonsetjenester_unpacked/26-0032 - Annonsetjenester/Kontrakt/Generelle kontraktsvilkår tjenestekjøp.pdf",
+            "text": "ring av sikkerhetshendelser som kan påvirke kommunenes data, personopplysninger eller tjenestens tilgjengelighet. | Redegjørelse | M | | IKT-sikkerhet | 3.7 | Leverandøren skal beskrive rutiner for håndtering av sårbarheter, sikkerhetsoppdateringer og kritiske feil i løsningen. | Redegjørelse | M | | IKT-sikkerhet | 3.8 | Eventuelle standardkontoer og standardpassord skal deaktiveres, endres eller sikres før løsningen settes i ordinær drift. | Ja/Nei | M | | IKT-sikkerhet* | 3.9* | Leverandør skal registrere seg i…",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 2.1 - IT Krav/IT_Krav_Digital__ombruk_Øvre_Romerike_kommentar_DGI_Final.xlsx",
             "source_url": null,
-            "source_sha256": "f7065c0538d296a8873b22f5eb3f5898df0b1db3cec8eb82ac4384a132a6299a",
-            "source_kind": "pdf",
+            "source_sha256": "82aa4ac6c6703bf8fd762a469f8539adee81e307850989db563ce029a129b1fc",
+            "source_kind": "xlsx",
             "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
             "raw_machine_format": false,
             "artifact_lookup_required": false
@@ -690,7 +913,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-10-30",
       "source_dce_run_id": 40031881976,
       "source_shard": 0,
       "review_key": "75cb80d84c920e760f5c4583d2fe0376b524f1c6521bedc55693bd6628dd57e7",
@@ -701,56 +924,81 @@
         "release_tag": "dce-harvest-40031881976"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 21,
+        "text_chars": 378301,
+        "attributed_compact_snippets": 6,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:205030-2024",
-      "title": "Belgium – Hotel, restaurant and retail trade services – Deelnemen aan een marktconsultatie in het station van ANTWERPEN-CENTRAAL concept LOT FOOD ( 4 ruimtes)",
-      "buyer": "SNCB",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/205030-2024",
-      "deadline": null,
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_UNLABELLED_DATE_FOUND_NOTICE_MISSING_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32372433989,
-      "source_shard": 7,
-      "review_key": "28b757974567c67fef5f88be5bf2ee425d140343f68aa6d5c0f32a6ce056c7c3",
-      "artifact_locator": {
-        "dce_run_id": 32372433989,
-        "shard": 7,
-        "candidate_id": "TED:205030-2024",
-        "release_tag": "dce-harvest-32372433989"
+      "evidence": {
+        "certifications_partner": [
+          {
+            "text": "cji podpisu elektronicznego za pomocą interfejsu GUI, 5) Zgłoszenia unieważnienia certyfikatu za pomocą panelu operatora PPT, 6) Działania API bramki usług zaufania. 7) Rejestru zaakceptowanych wniosków o wydanie certyfikatu. znak postępowania ZP-DI-34/26 4 W tym celu Zamawiający może zaprosić Wykonawcę i wskazać Wykonawcy (przed wyborem najkorzystniejszej oferty ) termin prezentacji nie krótszy niż 3 dni robocze w siedzibie Zamawiającego – ul. Szczęśliwicka 34, Warszawa lub on-line. 10. Zamawiający wymaga, aby Wy…",
+            "source": "files/34_26_Specyfikacja_Warunkow_Zamowienia.pdf",
+            "source_url": "https://zamowienia.udt.gov.pl/przetargi/pobierz.php?21476",
+            "source_sha256": "762e7cb55b808caf14b87b7c13925fa50c959fc14f143c570a3edac1e7651065",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "znak postępowania ZP-DI-34/26 4 W tym celu Zamawiający może zaprosić Wykonawcę i wskazać Wykonawcy (przed wyborem najkorzystniejszej oferty ) termin prezentacji nie krótszy niż 3 dni robocze w siedzibie Zamawiającego – ul. Szczęśliwicka 34, Warszawa lub on-line. 10. Zamawiający wymaga, aby Wykonawca posiadał (co wykonawca potwierdzi przed podpisaniem umowy) podpisany przez podmiot uprawniony: 1) Certyfikat ISO 9001 w zakresie usług certyfikacyjnych związanych z podpisem elektronicznym lub równoważny; 2) Certyfikat…",
+            "source": "files/34_26_Specyfikacja_Warunkow_Zamowienia.pdf",
+            "source_url": "https://zamowienia.udt.gov.pl/przetargi/pobierz.php?21476",
+            "source_sha256": "762e7cb55b808caf14b87b7c13925fa50c959fc14f143c570a3edac1e7651065",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "st tak uzupełnić dokumenty oferty i edytować przeznaczone do tego elementy ich treści (zaznaczanie, skreślenia), aby jednoznacznie sformułować treść oświadczenia woli Wykonawcy. znak postępowania ZP-DI-34/26 10 6. Złożona oferta musi odpowiadać treści niniejszej SWZ. 7. Oferta musi być sporządzona w języku polskim, podpisana przez osobę(y) upoważnioną do reprezentowania Wykonawcy. 8. Podmiotowe środki dowodowe oraz inne dokumenty lub oświadczenia, sporządzone w języku obcym przekazuje się wraz z tłumaczeniem na ję…",
+            "source": "files/34_26_Specyfikacja_Warunkow_Zamowienia.pdf",
+            "source_url": "https://zamowienia.udt.gov.pl/przetargi/pobierz.php?21476",
+            "source_sha256": "762e7cb55b808caf14b87b7c13925fa50c959fc14f143c570a3edac1e7651065",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "......................................................................................1 2 Przedmiot zamówienia .................................................................................................................................1 3 Wymagania dla bramki usług zaufania .........................................................................................................2 4 Wymagania dla Usługi utrzymania punktów potwierdzania tożsamości .....................................................3 5 Wymagani…",
+            "source": "files/34_26_zal_nr_7_do_SWZ_zal_nr_1_do_PPU_OPZ.pdf",
+            "source_url": "https://zamowienia.udt.gov.pl/przetargi/pobierz.php?21465",
+            "source_sha256": "98d03003368f2437570a60d1dafc0be559e468c292609042064ef002f38e7c45",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "do badań PT/MT; Dygestorium do trawienia próbek metalograficznych i badań korozji międzykrystalicznej; Głowica segmentowa do badań metoda PEC typu PECA (Pulsed Eddy Current Array) - ZP-DL-66/26 Link do platformy zakupowej eb2b. Dokumenty do pobrania. Przetarg nieograniczony Dostawa wyposażenia pomiarowo-badawczego -urządzenia do przeprowadzania pomiarów elektrycznych oraz prób funkcjonalnych stacji i punktów ładowania (DC) pojazdów elektrycznych , znak postępowania ZP-DT-54/26 Link do platformy zakupowej eb2b. 09.…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "28963ddc2a7901feb51b850b26d307179eca9c305e9af58f473fe6124abeeec2",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "b2b. Dokumenty do pobrania. Przetarg nieograniczony Zapewnienie subskrypcji oprogramowania systemu typu PAM (Privileged Account Management) wraz ze świadczeniem usług asysty technicznej i rozwoju, a także przeprowadzeniem warsztatów - nr sprawy: ZP-DI-27/26 Link do platformy zakupowej eb2b. Dokumenty do pobrania. Tryb podstawowy (bez negocjacji) Remont elementów zewnętrznych oraz piwnic w Biurze UDT w Gorzowie Wielkopolskim w formule Zaprojektuj i Wybuduj - znak postępowania ZP-DA-10/25 Link do platformy zakupowej…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "28963ddc2a7901feb51b850b26d307179eca9c305e9af58f473fe6124abeeec2",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
       },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
