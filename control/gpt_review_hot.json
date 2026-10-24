@@ -1,10 +1,10 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-10-24T09:25:08.640662+00:00",
+  "updated_at": "2026-10-24T09:25:16.452843+00:00",
   "latest_dce_run_id": 40081697792,
-  "latest_shard": 7,
+  "latest_shard": 4,
   "generation_reset": false,
-  "count": 10,
+  "count": 11,
   "items": [
     {
       "candidate_id": "TED:685125-2026",
@@ -4905,6 +4905,334 @@
       "hot_ready_at": "2026-10-24T09:23:58.600913+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
+      "candidate_id": "NO-DOFFIN:2026-116308",
+      "title": "Digital løsning for ombruk av møbler, inventar og utstyr",
+      "buyer": "Eidsvoll Kommune",
+      "portal": "NO_DOFFIN",
+      "notice_url": "https://www.doffin.no/notices/2026-116308",
+      "deadline": "2026-11-12T11:00:00+00:00",
+      "estimated_value": 650000.0,
+      "currency": "NOK",
+      "preliminary_score": 83,
+      "priority_score": 83,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-11-12T11:00:00+00:00",
+        "notice_deadline_date": "2026-11-12",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-11-17",
+          "2026-11-23"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-11-17",
+            "match": "17 November 2026",
+            "context": "ould be grateful for an estimate of the number of users per municipality, \nand how many assets are expected to be registered in the solution during the first year.\nb) In the competition details, the start date is set to 17 November 2026, while the award date is set to 23 November 2026. Could you \nconfirm which start date is correct?\nSvar fra oppdragsgiver\n23. oktober 2026 11:43\na)\tOppdragsgiver har per i dag ikke konkrete estimater for antall brukere p"
+          },
+          {
+            "date": "2026-11-23",
+            "match": "23 November 2026",
+            "context": " users per municipality, \nand how many assets are expected to be registered in the solution during the first year.\nb) In the competition details, the start date is set to 17 November 2026, while the award date is set to 23 November 2026. Could you \nconfirm which start date is correct?\nSvar fra oppdragsgiver\n23. oktober 2026 11:43\na)\tOppdragsgiver har per i dag ikke konkrete estimater for antall brukere per kommune eller antall gjenstander som forventes"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 2,
+          "unique_contexts": 2
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 7,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": "ntar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established outside Norway cannot be found and selected there. How should such a supplier register and submit a tender? Svar fra oppdragsgiver 23. oktober 2026 11:39",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18986,
+            "corpus_end": 20289,
+            "match": "EEA"
+          },
+          {
+            "text": "ktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established outside Norway cannot be found and selected there. How should such a supplier register and submit a tender? Svar fra oppdragsgiver 23. oktober 2026 11:39 a) Ja b) Ja c) Dere stiller dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tender and its annexes 23. oktober 2026 11:40 The permitted language is stated as Norwegian. a) May the tender be submitted in E",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 19190,
+            "corpus_end": 20503,
+            "match": "registered in"
+          },
+          {
+            "text": "Oppdragsgiver stiller ingen begrensninger for hvordan tilbyder organiserer seg. Det skal imidlertid angis én leverandør som oppdragsgivers kontraktspart. Øvrige virksomheter kan benyttes som underleverandører eller samarbeidspartnere. Dersom flere leverandører opptrer som likeverdige tilbydere, skal det vedlegges samsvarserklæringer fra samtlige deltakende leverandører. Spørsmål 6: Volume and contract start date 23. oktober 2026 11:43 Two practical clarifications. a) In order to dimension and price the solution correctly, we would be grateful for an estimate of the number of users per municipality, and how many assets are expected to be registered in the solution during the first year. b) In the competition details, the start date is set to 17 November 2026, while the award date is set to 23 November 2026. Could you confirm which start date is correct? Svar fra oppdragsgiver 23. oktober 2026 11:43 a) Oppdragsgiver har per i dag ikke konkrete estimater for antall brukere per kommune eller antall gjenstander som forventes registrert det første året. Vi ønsker at leverandørene selv foreslår en hensiktsmessig løsning og et antall brukere innenfor prosjektets økonomiske ramme på 650 000 kroner, fordelt på de seks kommunene. Leverandøren bes beskrive hva som inngår i tilbudt pris, herunder",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22630,
+            "corpus_end": 23943,
+            "match": "registered in"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [
+          {
+            "text": "tyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established outside Norway cannot be found and selected there. How should such a supplier register and submit a tender? Svar fra oppdragsgiver 23. oktober 2026 11:39 a) Ja b) Ja c) Dere stiller dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tender and its annexes 23. oktober",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 19098,
+            "corpus_end": 20409,
+            "match": "certificate"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [
+          {
+            "text": "ed as tildelingskrav: 1.1, 6.2, 6.3 and 9.1. a) How are these four answers weighted against each other? b) Do the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight in the evaluation of requirement 1.1? Svar fra oppdragsgiver 23. oktober 2026 11:42 a) De evalueres etter en helhetsvurdering. Dette er en konkurranse som følger regler etter Del I. b) Nei. c) De 6 kommunene som er omtalt i konkurransen skal tilsluttes avtalen. Spørsmål 5: Group of suppliers and subcontractors 23. oktober 2026 11:42 Is it permitted to submit a tender as a group of suppliers, or to use subcontractors, for example for user support in Norwegian? Svar fra oppdragsgiver 23. oktober 2026 11:42 Oppdragsgiver stiller ingen begrensninger for hvordan tilbyder organiserer seg. Det skal imidlertid angis én leverandør som oppdragsgivers kontraktspart. Øvrige virksomheter kan benyttes som underleverandører eller samarbeidspartnere. Dersom flere leverandører opptrer som likeverdige tilbydere, skal det vedlegges samsvarserklæringer fra samtlige deltakende leverandører. Spørsmål 6: Volume and contract start date 23. oktober 2026 11:43 Two pr",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 21768,
+            "corpus_end": 23079,
+            "match": "subcontract"
+          },
+          {
+            "text": "o the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight in the evaluation of requirement 1.1? Svar fra oppdragsgiver 23. oktober 2026 11:42 a) De evalueres etter en helhetsvurdering. Dette er en konkurranse som følger regler etter Del I. b) Nei. c) De 6 kommunene som er omtalt i konkurransen skal tilsluttes avtalen. Spørsmål 5: Group of suppliers and subcontractors 23. oktober 2026 11:42 Is it permitted to submit a tender as a group of suppliers, or to use subcontractors, for example for user support in Norwegian? Svar fra oppdragsgiver 23. oktober 2026 11:42 Oppdragsgiver stiller ingen begrensninger for hvordan tilbyder organiserer seg. Det skal imidlertid angis én leverandør som oppdragsgivers kontraktspart. Øvrige virksomheter kan benyttes som underleverandører eller samarbeidspartnere. Dersom flere leverandører opptrer som likeverdige tilbydere, skal det vedlegges samsvarserklæringer fra samtlige deltakende leverandører. Spørsmål 6: Volume and contract start date 23. oktober 2026 11:43 Two practical clarifications. a) In order to dimension and price the solution correctly, we would be grateful for",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 21876,
+            "corpus_end": 23187,
+            "match": "subcontract"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "være oppfylt. Svarform | Bruk Ja/Nei | Brukes for konkrete krav der leverandøren skal bekrefte om kravet oppfylles. Redegjørelse | Brukes der leverandøren skal beskrive hvordan løsningen fungerer eller hvordan behovet ivaretas i tillegg til å svare i \"Krav\" kolonnen. ===== FILE: files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18572,
+            "corpus_end": 19884,
+            "match": "requirements"
+          },
+          {
+            "text": "\"Krav\" kolonnen. ===== FILE: files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf ===== Digital løsning for ombruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18823,
+            "corpus_end": 20135,
+            "match": "requirements"
+          },
+          {
+            "text": "ruk av møbler, inventar og utstyr Spørsmål og svar Offentlige spørsmål, svar og kunngjorte meldinger på nedlastingstidspunktet. Spørsmål 1: Qualification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established outside Norway cannot be found and selected there. How should such a supplier register and submit a tender? Svar fra oppdragsgiver 23. oktober 2026 11:39 a) Ja b) Ja c) Dere stiller dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tende",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 19068,
+            "corpus_end": 20380,
+            "match": "requirements"
+          },
+          {
+            "text": "e of VAT? b) Shall it cover all costs in the period, including establishment, implementation, training, operation and user support? c) Shall the price be given as a total sum for the whole period, or divided per year? Svar fra oppdragsgiver 23. oktober 2026 11:41 a) Ja b) 650 000 kroner er for hele kontraktsperioden og skal dekke alle kostander. c) Nei, tilbyder skal akseptere de betingelsene om pris i konkurransen. Henviser til punkt 3.1. Spørsmål 4: Evaluation of the quality criterion 23. oktober 2026 11:42 The award criterion Kvalitet carries 100 percent of the weight and is tied to the completed Kravspesifikasjon. Within that file, four requirements are marked as tildelingskrav: 1.1, 6.2, 6.3 and 9.1. a) How are these four answers weighted against each other? b) Do the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight in the evaluation of requirement 1.1? Svar fra oppdragsgiver 23. oktober 2026 11:42 a) De evalueres etter en helhetsvurdering. Dette er en konkurranse som følger regler etter Del I. b) Nei. c) De 6 kommunene som er omtalt i konkurransen skal tilsluttes avtalen. Spørsmål 5: Group of suppl",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 21097,
+            "corpus_end": 22409,
+            "match": "requirements"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "Løsningen skal være nettbasert og fungere godt på PC, nettbrett og mobil uten behov for lokal installasjon for ordinære brukere. | Ja/Nei | M | | | | | | | | | | | | Generelt om løsningen | 1.4 | Løsningen skal være universelt utformet. | Redegjørelse | M | | | | | | | | | | | | Drift og support | 46026 | Leverandøren skal ha ansvar for nødvendig drift, vedlikehold og løpende oppdatering av løsningen, og beskrive hvordan planlagte endringer og oppdateringer kommuniseres til kundene. | Redegjørelse | M | | | | | | | | | | | | Drift og support | 10.2 | Leverandøren skal tilby brukerstøtte i avtaleperioden (SLA) og beskrive åpningstider, kontaktkanaler, responstider og rutiner for håndtering av feil og henvendelser. | Redegjørelse | M | | | | | | | | | | | | Brukervennlighet | 2.1 | Det skal foreligge oppdatert brukerveiledning for ordinære brukere og administratorer. Løsningen bør tilby en chatbot der brukeren kan stille spørsmål på sitt eget språk og få konkrete svar tilpasset spørsmålet, uten å måtte lese veiledninger. | Ja/Nei | M | | | | | | | | | | | | Registrering og kartlegging | 3.1 | Det skal være mulig å registrere eiendeler fra mobil, nettbrett og PC på en enkelt og effektivt måte i løsningen. | Ja/Nei | M",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 1.1 - Kravspesifikasjon/Kravspesifikasjon_Digital_ombruk_Øvre_Romerike.xlsx",
+            "source_url": null,
+            "source_sha256": "cd5935c01fa4aa12105ee6af09db2168dedb5b7858557af549dba2c4019edc3b",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2256,
+            "corpus_end": 3559,
+            "match": "SLA"
+          },
+          {
+            "text": "inger og kostnader knyttet til dette. | Redegjørelse | M | | Integrasjoner og dokumentasjon* | 6.2* | Leverandøren skal kunne levere nødvendig teknisk dokumentasjon som beskriver løsningens arkitektur, logisk arkitekturdiagram, integrasjoner, avhengigheter og eventuelle nettverks- eller brannmurbehov. | Redegjørelse | M | | Risiko og personvernvurderinger | 7.1 | Leverandøren skal på forespørsel gi nødvendig dokumentasjon og bistand slik at kommunene kan gjennomføre risiko- og sårbarhetsvurdering (ROS) og eventuell personvernkonsekvensvurdering (DPIA) av løsningen. | Ja/Nei | M | | IKT-sikkerhet* | 7.2* | Leverandøren skal beskrive hva slags metadata som bør og kan registreres for hver enhet og hvordan metadata kan brukes ved analyseformål | Redegjørelse | M | | IKT-sikkerhet* | 7.3* | Leverandøren skal redgjøre for hvordan fysisk sporing av gjenstander kan håndteres eksempelvis via RFID-merking og hvordan systemet støtter registrering ev gjenstander | Redegjørelse | M | | [SHEET Veiledning] Veiledning til IT-kravspesifikasjonen | Kravtype | Betydning M | Må-krav – kravet skal være oppfylt. Svarform | Bruk Ja/Nei | Brukes for konkrete krav der leverandøren skal bekrefte om kravet oppfylles. Redegjørelse | Brukes der leverandøren skal beskrive hvordan løsningen fungerer el",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 2.1 - IT Krav/IT_Krav_Digital__ombruk_Øvre_Romerike_kommentar_DGI_Final.xlsx",
+            "source_url": null,
+            "source_sha256": "82aa4ac6c6703bf8fd762a469f8539adee81e307850989db563ce029a129b1fc",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17468,
+            "corpus_end": 18771,
+            "match": "sla"
+          },
+          {
+            "text": "M | | | | | | | | | | | | Registrering og kartlegging | 3.6 | Det skal være mulig å knytte veiledning eller informasjon til bestemte kategorier, for eksempel særskilt informasjon som brukeren bør være oppmerksom på ved registrering av IKT-utstyr. | Ja/Nei | M | | | | | | | | | | | | Drift og support | 4.1 | Leverandøren skal ha ansvar for nødvendig drift, vedlikehold og løpende oppdatering av løsningen, og beskrive hvordan planlagte endringer og oppdateringer kommuniseres til kundene. | Redegjørelse | M | | | | | | | | | | | | Drift og support | 4.2 | Leverandøren skal tilby brukerstøtte i avtaleperioden (SLA) og beskrive åpningstider, kontaktkanaler, responstider og rutiner for håndtering av feil og henvendelser. | Redegjørelse | M | | | | | | | | | | | | Ombruk og markedsplass | 5.1 | Løsningen skal støtte bestilling eller reservasjon av tilgjengelige eiendeler og oppfølging frem til ombruket er gjennomført. Det skal fremgå hvem som er avgiver og mottaker, hvilke varer og mengder bestillingen omfatter, og hvilken status den har. Partene skal kunne kommunisere om bestillingen i løsningen. Leverandøren skal beskrive varsling og arbeidsflyt for godkjenning, henting eller levering og ferdigstilling. | Ja/Nei | M | | | | | |",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Vedlegg/Kravspesifikasjon_Digital_ombruk_Øvre_Romerike.xlsx",
+            "source_url": null,
+            "source_sha256": "795d489a6d2f27e783bd5c03661478f22db936788a957e01d4b6f9e947cb0852",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 39910,
+            "corpus_end": 41213,
+            "match": "SLA"
+          },
+          {
+            "text": "ser 10 4.3 Forsinkelsesrenter 11 4.4 Betalingsmislighold 11 4.5 Prisendringer 11 5. Varighet, Avbestilling og avslutning 12 5.1 Varighet 12 5.2 Avbestilling 12 5.3 Avslutning av avtalen 12 5.4 Midlertidig forlengelse av avtalen 13 6. informasjonssikkerhets- og personopplysningsvern 14 6.1 Informasjonssikkerhet 14 6.2 Personopplysninger 14 7. Eiendoms- og disposisjonsrett 15 7.1 Partenes rettigheter 15 7.2 rettigheter til data 16 8. Andre reguleringer kan angis av Kunden i Bilag 1.Rekonstruksjon av data 16 9. Mislighold og sanksjoner 17 9.1 Leverandørens mislighold 17 9.1.1 Varslingsplikt 17 9.2 Misligholdssanksjoner 18 9.2.1 Avhjelp og prisavslag 18 9.2.2 Tilbakehold av tjenester 18 9.2.3 Dagbot ved forsinkelse 18 9.2.4 Økonomisk kompensasjon for brudd på avtalt tjenestenivå 19 9.2.5 Heving 19 9.2.6 Erstatning 19 9.2.7 Erstatningsbegrensning 19 9.2.8 Krenkelse av andres immaterielle rettigheter (rettsmangel) 20 9.3 Kundens mislighold og misligholdssanksjoner 20 9.3.1 Mislighold og reklamasjon 20 9.3.2 Varslingsplikt 20 9.3.3 Heving 20 9.3.4 Erstatning 21 10. Force majeure 21 11. ØVRIGE BESTEMMELSER 21 11.1 Overdragelse av rettigheter og plikter 21 11.2 Lønns- og arbeidsvilkår 22 11.3 Taushetsplikt 22 11.4 Skriftlighet 23 11.5 Konkurs, akkord e.l. 23 12. TVISTER 23 12.1 Rettsvalg 23",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Vedlegg/ssa-l_generell_avtaletekst_2026-bok.docx",
+            "source_url": null,
+            "source_sha256": "e8ad78062172c00eab1d0cabcac2c9f14c18c2881bcccbe83b8396796c904940",
+            "source_kind": "docx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 70359,
+            "corpus_end": 71662,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [
+          {
+            "text": "dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tender and its annexes 23. oktober 2026 11:40 The permitted language is stated as Norwegian. a) May the tender be submitted in English, or in Norwegian with annexes such as technical documentation and system descriptions in English? b) If Norwegian is required throughout, does this also apply to such annexes? We ask because the requirement affects how widely the competition is open to suppliers established outside Norway. Svar fra oppdragsgiver 23. oktober 2026 11:40 a) Svarene må være på norsk, mens vedlegg kan være på engelsk. b) Vedlegg kan være på engelsk. Spørsmål 3: Scope of the price framework 23. oktober 2026 11:41 The framework is stated as 650 000 NOK for the contract period. a) Is this amount exclusive of VAT? b) Shall it cover all costs in the period, including establishment, implementation, training, operation and user support? c) Shall the price be given as a total sum for the whole period, or divided per year? Svar fra oppdragsgiver 23. oktober 2026 11:41 a) Ja b) 650 000 kroner er for hele kontraktsperioden og skal dekke alle kostander. c) Nei, tilbyder skal akseptere de betingelsene om pris i konkurransen. Henviser til punkt 3.1. Spørsmål 4: Evaluation of the quality criterion 23. oktober 2026 11:42 The award criterion Kvalitet carries 100 percent of the weight and is tied to the completed Kravspesifikasjon. Within that file, four requirements are marked as tildelingskrav: 1.1, 6.2, 6.3 and 9.1. a) How are these four answers weighted against each other? b) Do the answers to the må-krav and bør-krav also affect the quality score? c) The requirement specification does not state that the solution must already be in operation at other municipalities. Can you confirm that this will not be given weight ",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 20318,
+            "corpus_end": 22591,
+            "match": "price framework\n23. oktober 2026 11:41\nThe framework is stated as 650 000 NOK for the contract period.\na) Is this amount"
+          }
+        ],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "mtidig (i bulk / som samlet operasjon). Ved skanning med mobil skal autoriserte brukere kunne åpne objektet og utføre relevante handlinger. | Redegjørelse | M | | | | | | | | | | | | Registrering og kartlegging | 3.7 | Det skal være mulig å knytte veiledning eller informasjon til bestemte kategorier, for eksempel særskilt informasjon som brukeren bør være oppmerksom på ved registrering av IKT-utstyr. | Ja/Nei | M | | | | | | | | | | | | Ombruk og markedsplass | 5.1 | Løsningen skal støtte bestilling eller reservasjon av tilgjengelige eiendeler og oppfølging frem til ombruket er gjennomført. Det skal fremgå hvem som er avgiver og mottaker, hvilke varer og mengder bestillingen omfatter, og hvilken status den har. Partene skal kunne kommunisere om bestillingen i løsningen. Leverandøren skal beskrive varsling og arbeidsflyt for godkjenning, henting eller levering og ferdigstilling. | Ja/Nei | M | | | | | | | | | | | | Ombruk og markedsplass | 5.2 | Det skal være mulig å prioritere ombruk i egen kommune før eiendeler gjøres tilgjengelige for øvrige kommuner i samarbeidet. Dersom ombruk ikke oppnås internt eller i kommunesamarbeidet, skal annonsen/eiendelen kunne tilgjengeliggjøres for eksterne. | Ja/Nei | M | | | | | | | | | | | | Ombruk o",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 1.1 - Kravspesifikasjon/Kravspesifikasjon_Digital_ombruk_Øvre_Romerike.xlsx",
+            "source_url": null,
+            "source_sha256": "cd5935c01fa4aa12105ee6af09db2168dedb5b7858557af549dba2c4019edc3b",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4478,
+            "corpus_end": 5781,
+            "match": "avg"
+          },
+          {
+            "text": "ring av sikkerhetshendelser som kan påvirke kommunenes data, personopplysninger eller tjenestens tilgjengelighet. | Redegjørelse | M | | IKT-sikkerhet | 3.7 | Leverandøren skal beskrive rutiner for håndtering av sårbarheter, sikkerhetsoppdateringer og kritiske feil i løsningen. | Redegjørelse | M | | IKT-sikkerhet | 3.8 | Eventuelle standardkontoer og standardpassord skal deaktiveres, endres eller sikres før løsningen settes i ordinær drift. | Ja/Nei | M | | IKT-sikkerhet* | 3.9* | Leverandør skal registrere seg i vår gjeldende løsning som vi benytter for leverandør-kontroll, for tiden OneMore Secure for at vi kan oppnå samsvar med EUs cybersikkerhetsdirektiv NIS2 | Ja/Nei | M | | IKT-sikkerhet* | 4.0* | Løsningen skal benytte MFA(Phising-resistant) for all administrativ tilgang og for leverandørens fjernaksess. Ansattes pålogging skjer via kommunens SSO, som håndhever MFA og Conditional Access. | Redegjørelse | M | | Personvern og misbruk | 4.1 | Løsningen og leveransen skal kunne oppfylle kravene i personopplysningsloven og personvernforordningen (GDPR). | Ja/Nei | M | | Personvern og misbruk | 4.2 | Leverandøren skal opplyse om løsningen behandler eller lagrer personopplysninger, hvilke kategorier personopplysninger som behandles og formålet med behandlingen. | Redegjør",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 2.1 - IT Krav/IT_Krav_Digital__ombruk_Øvre_Romerike_kommentar_DGI_Final.xlsx",
+            "source_url": null,
+            "source_sha256": "82aa4ac6c6703bf8fd762a469f8539adee81e307850989db563ce029a129b1fc",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14132,
+            "corpus_end": 15437,
+            "match": "cyber"
+          },
+          {
+            "text": "settes i ordinær drift. | Ja/Nei | M | | IKT-sikkerhet* | 3.9* | Leverandør skal registrere seg i vår gjeldende løsning som vi benytter for leverandør-kontroll, for tiden OneMore Secure for at vi kan oppnå samsvar med EUs cybersikkerhetsdirektiv NIS2 | Ja/Nei | M | | IKT-sikkerhet* | 4.0* | Løsningen skal benytte MFA(Phising-resistant) for all administrativ tilgang og for leverandørens fjernaksess. Ansattes pålogging skjer via kommunens SSO, som håndhever MFA og Conditional Access. | Redegjørelse | M | | Personvern og misbruk | 4.1 | Løsningen og leveransen skal kunne oppfylle kravene i personopplysningsloven og personvernforordningen (GDPR). | Ja/Nei | M | | Personvern og misbruk | 4.2 | Leverandøren skal opplyse om løsningen behandler eller lagrer personopplysninger, hvilke kategorier personopplysninger som behandles og formålet med behandlingen. | Redegjørelse | M | | Personvern og misbruk | 4.3 | Det skal kunne inngås databehandleravtale med den enkelte behandlingsansvarlige kommune dersom leveransen innebærer behandling av personopplysninger på kommunens vegne. | Ja/Nei | M | | Personvern og misbruk | 4.4 | Leverandøren skal beskrive hvilke underleverandører/databehandlere som benyttes, hvilke tjenester de leverer og i hvilke land kommunenes data og eventuelle person",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Kravvedlegg/Krav 2.1 - IT Krav/IT_Krav_Digital__ombruk_Øvre_Romerike_kommentar_DGI_Final.xlsx",
+            "source_url": null,
+            "source_sha256": "82aa4ac6c6703bf8fd762a469f8539adee81e307850989db563ce029a129b1fc",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14558,
+            "corpus_end": 15862,
+            "match": "GDPR"
+          },
+          {
+            "text": "ification requirements for suppliers established outside Norway 23. oktober 2026 11:39 Vi beklager at spørsmålene stilles på engelsk. Tilbudet vil bli levert på norsk i tråd med konkurransegrunnlaget. The competition documents state that all four qualification requirements are verified automatically via eBevis, which requires a Norwegian organisation number and access to Altinn. a) Can a supplier established in another EEA state submit a tender in this competition, documenting the four qualification requirements with equivalent certificates issued in its home country? b) Requirement 2 states that the supplier shall be registered in Merverdiavgiftsregisteret. For a supplier established outside Norway, is VAT registration in its home country accepted as equivalent? c) We would also note that the organisation field in this portal appears to search the Norwegian Enhetsregisteret only, so a supplier established outside Norway cannot be found and selected there. How should such a supplier register and submit a tender? Svar fra oppdragsgiver 23. oktober 2026 11:39 a) Ja b) Ja c) Dere stiller dette spørsmålet til Hyyr.no Spørsmål 2: Language of the tender and its annexes 23. oktober 2026 11:40 The permitted language is stated as Norwegian. a) May the tender be submitted in English, or i",
+            "source": "files/260005 - Digital l_sning for ombruk av m_bler_ inventar og utstyr_unpacked/260005 - Digital løsning for ombruk av møbler, inventar og utstyr/Spørsmål og svar/Spørsmål og svar.pdf",
+            "source_url": null,
+            "source_sha256": "5eed161ead8bac014e4011d332011cdc2a8c12d0bd6dda104826df270bf327b0",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 19212,
+            "corpus_end": 20515,
+            "match": "avg"
+          }
+        ]
+      },
+      "source_dce_run_id": 40081697792,
+      "source_shard": 4,
+      "hot_ready_at": "2026-10-24T09:25:15.614047+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 17,
       "spm_fit_band": "LOW",
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
