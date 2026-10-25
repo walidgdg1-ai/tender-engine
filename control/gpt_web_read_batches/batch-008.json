@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-25T06:51:08.904528+00:00",
-  "source_inbox_updated_at": "2026-10-25T06:51:07.851162+00:00",
+  "generated_at": "2026-10-25T07:04:35.781554+00:00",
+  "source_inbox_updated_at": "2026-10-25T07:04:34.133588+00:00",
   "latest_source_dce_run_id": 40170068559,
   "batch_index": 8,
   "start_rank": 81,
@@ -28,7 +28,7 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 40143302558,
       "source_shard": 4,
@@ -40,14 +40,75 @@
         "release_tag": "dce-harvest-40143302558"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 3164,
+        "attributed_compact_snippets": 5,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "irements Description PLEASE DISREGARD THE LEAD TYPE INDICATED IN THE DISCOVERY POSTING HEADER. THE CORRECT NOTICE TYPE FOR THIS OPPORTUNITY CAN BE FOUND IN THE CORRESPONDING NOTICE ON CANADABUYS. Please note that late submissions will not be considered or accepted. Where to find amendments to the tender document: The event messages tab and/or the event contents section in the SAP Business Network event. It is important you regularly check both. Where to submit questions about the tender document: The event message…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "7b2baf9edc8c14108d390a00a05eed3940be06560d82809dd7aa59c8471743f9",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "934246754 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,999,999 CAD Emphasized Respond By 20 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Application or technology research and development service Ship-to or Service Locatio…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "7b2baf9edc8c14108d390a00a05eed3940be06560d82809dd7aa59c8471743f9",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ourcing - Doc5934246754 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,999,999 CAD Emphasized Respond By 20 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Application or technology research and development service Ship-to or S…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "7b2baf9edc8c14108d390a00a05eed3940be06560d82809dd7aa59c8471743f9",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "da Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,000 - 99,999,999 CAD Emphasized Respond By 20 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Application or technology research and development service Ship-to or Service Locations Ottawa-Gatineau - Ontario, Quebec Prefer suppliers with a physical presence in…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "7b2baf9edc8c14108d390a00a05eed3940be06560d82809dd7aa59c8471743f9",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/portal_page.txt ===== Business Network Message Strip Information Closable This is a public sector / buyer funded posting and you can respond for free. RFP - Transformation of the HIPLAB Toolbox / DDP - Transformation de la boîte à outils HIPLAB ID - 1110028655 Sourcing - Doc5934246754 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length - Object Status Opportunity Amount 1,…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "7b2baf9edc8c14108d390a00a05eed3940be06560d82809dd7aa59c8471743f9",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -128,14 +189,281 @@
         "release_tag": "dce-harvest-32774656738"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 3,
+        "text_chars": 26359,
+        "attributed_compact_snippets": 24,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "atures et les offres des concurrents seront rédigées en langue française ou accompagné es d’une traduction en langue française exprimées en EUROS. Chaque candidat aura à produire un dossier complet comprenant les pièces listées aux articles suivants. L'acheteur procède à l'examen des offres avant celui des candidatures, conformément à l’article R2161-4 du Code de la Commande Publique. Dès lors, l'acheteur ne procède à l'analyse de la candidature que du seul titulaire pressenti, cette vérification s'effectuant au p…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "en langue française ou accompagné es d’une traduction en langue française exprimées en EUROS. Chaque candidat aura à produire un dossier complet comprenant les pièces listées aux articles suivants. L'acheteur procède à l'examen des offres avant celui des candidatures, conformément à l’article R2161-4 du Code de la Commande Publique. Dès lors, l'acheteur ne procède à l'analyse de la candidature que du seul titulaire pressenti, cette vérification s'effectuant au plus tard avant l'attribution du marché. En applicatio…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "fres est ouverte. Tout pli déposé sera considéré comme une offre. 4.1 - Contenu de la candidature électronique Pièces à remettre au titre de la candidature (aucune signature n’est exigée à ce stade) Renseignements relatifs à la situation juridique et la capacité économique / financière du candidat Formulaire DC1* ( Lettre de candidature) , que la candidature soit présentée à titre individuel ou en groupement. Point d'attention sur la rubrique \"F1 – Exclusions de la procédure\" case à cocher le cas échéant. Renseign…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "éposé sera considéré comme une offre. 4.1 - Contenu de la candidature électronique Pièces à remettre au titre de la candidature (aucune signature n’est exigée à ce stade) Renseignements relatifs à la situation juridique et la capacité économique / financière du candidat Formulaire DC1* ( Lettre de candidature) , que la candidature soit présentée à titre individuel ou en groupement. Point d'attention sur la rubrique \"F1 – Exclusions de la procédure\" case à cocher le cas échéant. Renseignements relatifs à la capacit…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "DE NANTES MÉTROPOLE N3M RÈGLEMENT DE LA CONSULTATION (RC) Procédure formalisée (Article R.2161-2 et suivants du Code de la commande publique) Procédure entièrement dématérialisée depuis https://marchespublics.nantesmetropole.fr (cf. Annexe au présent règlement de la consultation) RC – Maintenance modèle N3M 2/7 ARTICLE 1 - Objet de la consultation 1.1 – Objet de la consultation La présente consultation porte sur la maintenance du modèle de simulation multimodale des déplacements et de transport de marchandises de …",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "upement. Point d'attention sur la rubrique \"F1 – Exclusions de la procédure\" case à cocher le cas échéant. Renseignements relatifs à la capacité économique / financière du candidat et des co-traitants et sous-traitants éventuels Chiffre d'affaires global et chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des 3 derniers exercices disponibles. Renseignements relatifs à l’aptitude à exercer l'activité professionnelle et aux capacités techniques et professionnelles du candidat et des…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "s physiques de terrain , privilégier les réunions à distance, …) : proposer des indicateurs de suivis et de réalisation tels que le nombre de déplacements et de CO2 évités • de sobriété numérique : o réduction de la consommation d’énergie numérique par le recours par exemple à des serveurs ou datacenters alimenté s en électricité décarbonée ou à haute efficacité énergétique, optimiser les temps de calculs et limiter les simulations inutiles et les recalages lourds, veiller à un archivage raisonné des données lourd…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "distance, …) : proposer des indicateurs de suivis et de réalisation tels que le nombre de déplacements et de CO2 évités • de sobriété numérique : o réduction de la consommation d’énergie numérique par le recours par exemple à des serveurs ou datacenters alimenté s en électricité décarbonée ou à haute efficacité énergétique, optimiser les temps de calculs et limiter les simulations inutiles et les recalages lourds, veiller à un archivage raisonné des données lourdes (éviter les doub lons, recourir à un référencemen…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "n, ainsi que le planning d'organisation des prestations, en précisant le plan qualité en termes de gestion des données, de traçabilité dans la démarche, d'organisation des contrôles de la qualité des rendus, les moyens humains (avec temps-homme) et les compétences mobilisées pour chacune des prestations, le nombre et la qualité des échanges proposés avec les services techniques de Nantes Métropole. • Les ressources que le candidat projette de mobiliser : ◦ Le rôle et la qualité des personnes que le candidat entend…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Parmi les indicateurs possibles : la certification des centres de données utilisés (ex ISO50001), la part ou nbr de scripts évitant les recalculs complets, arrêt systématique des machines inutilisées, etc. o Sobriété de la documentation numérique (suppression des impressions papier, limitation des volumes de données échangées et archivées, utilisation de formats adaptés, limitation des versions intermédiaire, recourir à une plateforme collaborative, etc.) o Achats responsables et RSE (politique de l’entreprise de …",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "liminée. Le soumissionnaire dont l’offre a été classée immédiatement après la sienne est alors sollicité pour produire les documents nécessaires. Seule la dernière offre reçue par l’acheteur dans le délai fixé pour la remise des offres est ouverte. Tout pli déposé sera considéré comme une offre. 4.1 - Contenu de la candidature électronique Pièces à remettre au titre de la candidature (aucune signature n’est exigée à ce stade) Renseignements relatifs à la situation juridique et la capacité économique / financière d…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "fixé pour la remise des offres est ouverte. Tout pli déposé sera considéré comme une offre. 4.1 - Contenu de la candidature électronique Pièces à remettre au titre de la candidature (aucune signature n’est exigée à ce stade) Renseignements relatifs à la situation juridique et la capacité économique / financière du candidat Formulaire DC1* ( Lettre de candidature) , que la candidature soit présentée à titre individuel ou en groupement. Point d'attention sur la rubrique \"F1 – Exclusions de la procédure\" case à coche…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "o afin de signaler mon problème. En cas de difficultés vous empêchant de déposer votre offre, il est recommandé de solliciter l’assistance en ligne afin de déclarer officiellement votre problème et d’en avoir une traçabilité.  Je remplis le formulaire avec un descriptif du problème rencontré et si possible des copies d’écran que je joins à ce formulaire ===== FILE: files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf ===== DIRECTION GÉNÉRALE DÉLÉGUÉE À LA FABRIQUE DE LA VILLE ÉCOLOGIQUE ET SOLIDAIRE DÉP…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "consultation 1.1 – Objet de la consultation La présente consultation porte sur la maintenance du modèle de simulation multimodale des déplacements et de transport de marchandises de Nantes Métropole , il s'agit de l' entretenir et d'améliorer le modèle de référence de manière à garantir leur pertinence, fiabilité et fonctionnement pour la réalisation des études déplacements. 1.2 – Mode de consultation Appel d'offres ouvert ( procédure formalisée soumise aux articles R.2161-2 et suivants du Code de la commande publ…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "citer directement l’assistance Atexo afin de signaler mon problème. En cas de difficultés vous empêchant de déposer votre offre, il est recommandé de solliciter l’assistance en ligne afin de déclarer officiellement votre problème et d’en avoir une traçabilité.  Je remplis le formulaire avec un descriptif du problème rencontré et si possible des copies d’écran que je joins à ce formulaire ===== FILE: files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf ===== DIRECTION GÉNÉRALE DÉLÉGUÉE À LA FABRIQUE DE L…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tre offre, il est recommandé de solliciter l’assistance en ligne afin de déclarer officiellement votre problème et d’en avoir une traçabilité.  Je remplis le formulaire avec un descriptif du problème rencontré et si possible des copies d’écran que je joins à ce formulaire ===== FILE: files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf ===== DIRECTION GÉNÉRALE DÉLÉGUÉE À LA FABRIQUE DE LA VILLE ÉCOLOGIQUE ET SOLIDAIRE DÉPARTEMENT DES MOBILITÉS DIRECTION STRATÉGIE ET ÉTUDES DE DÉPLACEMENTS MARCHÉ PUBLIC …",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "– Maintenance d'outils logiciels et prestations associées Code CPV 72267000-4 – Services de maintenance et de réparation de logiciels ARTICLE 2 – Caractéristiques du marché 2.1 – Décomposition et forme du marché Aucun allotissement n'est prévu, les prestations ne présentent aucune singularité technique et il est nécessaire de préserver l'homogénéité technique et globale du marché. Il s’agit d’un marché à prix mixtes, dénué de tout montant minimum mais assorti d’un seuil maximum arrêté à 900 000€ HT (hors révisions…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "formulaire DC4* dûment renseigné *disponible gratuitement sur le site https://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat ARTICLE 5 – Jugement des offres et sélection des candidatures 5.1 – Critères intervenant pour la sélection des candidatures La capacité économique et financière, l’aptitude à exercer l'activité professionnelle, les capacités techniques et professionnelles. 5.2 – Critères pondérés retenus pour le jugement des offres Critère et sous-critères techniques Valeur technique de l’offre…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ent renseigné *disponible gratuitement sur le site https://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat ARTICLE 5 – Jugement des offres et sélection des candidatures 5.1 – Critères intervenant pour la sélection des candidatures La capacité économique et financière, l’aptitude à exercer l'activité professionnelle, les capacités techniques et professionnelles. 5.2 – Critères pondérés retenus pour le jugement des offres Critère et sous-critères techniques Valeur technique de l’offre appréciée au regar…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "aux conditions de participations fixées, ne peut produire dans le délai imparti les documents justificatifs, les moyens de preuves, les compléments ou les explications d emandées, sa candidature est déclarée irrecevable et son offre est éliminée. Le soumissionnaire dont l’offre a été classée immédiatement après la sienne est alors sollicité pour produire les documents nécessaires. Seule la dernière offre reçue par l’acheteur dans le délai fixé pour la remise des offres est ouverte. Tout pli déposé sera considéré c…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cernant les prestations objet du contrat, réalisées au cours des 3 derniers exercices disponibles. Renseignements relatifs à l’aptitude à exercer l'activité professionnelle et aux capacités techniques et professionnelles du candidat et des co-traitants et sous-traitants éventuels Effectifs moyens annuels du candidat et pour chacune des 3 dernières années. Références du candidat pour des prestations similaires effectuées au cours des 3 dernières années : montant, date, nature des prestations/travaux réalisés et ide…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "e CCAS ont choisi la solution Atexo comme profil d’acheteur pour pu- blier leurs consultations. Pour accéder à cette plateforme, cliquer sur le lien : Portail des marchés publics Le bouton présent en haut à droite de l’écran vous permet de vous connecter avec votre compte ou de vous inscrire le cas échéant. Dans tous les cas, un compte sera nécessaire pour déposer votre offre. Si vous n’avez pas encore de compte entreprise sur la plateforme Atexo, commencez par cette démarche. RECHERCHER UNE CONSU LTATION En cliqu…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_ANNEXE_DEMATERIALISATION.pdf",
+            "source_url": null,
+            "source_sha256": "a6844dbcc49afac84bb09ef5bdc25ad3b3bb060ecbed61d39df38bb7d140f531",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cherche de procédure restreinte si vous avez été invités sur celle-ci. Les informations à saisir seront inscrites dans le message d’invitation à concourir que vous aurez reçu en amont. Une fois la consultation trouvée, cliquez sur pour accéder aux éléments principaux de la consultation LES PRINCIPALES ACTIONS SUR UNE CONSULTATION 2/3  L’onglet Publicité/Téléchargement vous permettra de télécharger les pièces de la consultation (RC, DCE).  L’onglet Question vous permet de poser une question au sujet de la consult…",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_ANNEXE_DEMATERIALISATION.pdf",
+            "source_url": null,
+            "source_sha256": "a6844dbcc49afac84bb09ef5bdc25ad3b3bb060ecbed61d39df38bb7d140f531",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ité en termes de gestion des données, de traçabilité dans la démarche, d'organisation des contrôles de la qualité des rendus, les moyens humains (avec temps-homme) et les compétences mobilisées pour chacune des prestations, le nombre et la qualité des échanges proposés avec les services techniques de Nantes Métropole. • Les ressources que le candidat projette de mobiliser : ◦ Le rôle et la qualité des personnes que le candidat entend affecter à la réalisa tion des prestations, en fournissant les curriculums vitae …",
+            "source": "files/RC_MAINTENANCE_MODELE_unpacked/RC_MAINTENANCE_MODELE.pdf",
+            "source_url": null,
+            "source_sha256": "73f7ae686cb5cf90e324c5af74013fda690f858ad02dd035fc741f995f68c177",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -161,7 +489,7 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 40151041640,
       "source_shard": 2,
@@ -173,14 +501,109 @@
         "release_tag": "dce-harvest-40151041640"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 7135,
+        "attributed_compact_snippets": 8,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "0502 Walk-up buyer Respond Not Interested Buyer: Canada Post Corporation Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 60 Months Object Status Opportunity Amount 10,000 - 10,000,000 CAD Emphasized Respond By 29 Oct 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Database management system software maintenance, System management software maintenance…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ng - Doc2371680502 Walk-up buyer Respond Not Interested Buyer: Canada Post Corporation Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 60 Months Object Status Opportunity Amount 10,000 - 10,000,000 CAD Emphasized Respond By 29 Oct 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Database management system software maintenance, System management softwa…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "e RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 60 Months Object Status Opportunity Amount 10,000 - 10,000,000 CAD Emphasized Respond By 29 Oct 2026 18:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Database management system software maintenance, System management software maintenance Ship-to or Service Locations Canada Prefer suppliers with a physical presence in…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "ian Aid - Added Keywords - Post Overview Requirements Description Canada Post is seeking a single Service Provider (the Selected Proponent) to deliver a Maximo Spare Parts Management solution, including software, implementation, system integration, and ongoing support services. The solution will enable Canada Post to improve the quality, accuracy, governance, and sustainability of spare parts master data within IBM Maximo. The requirement to be performed by the successful Participant is outlined in the Ariba Sourc…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "hments (0) Basic Information Product and Service Categories Database management system software maintenance, System management software maintenance Ship-to or Service Locations Canada Prefer suppliers with a physical presence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description Canada Post is seeking a single Service Provider (the Selected Proponent) to deliver a Maximo Spare Parts Management solution, includin…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "652ecf4d179e069119848a424a84f33ece0d0c64bb83482bca1e988452386d66",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/portal_page.txt ===== Business Network Message Strip Information Closable This is a public sector / buyer funded posting and you can respond for free. RFP_IT_Maximo Spare Parts Tool_Phase 1_2026 ID - 1110023782 Sourcing - Doc2371680502 Walk-up buyer Respond Not Interested Buyer: Canada Post Corporation Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 60 Months Object Status Opportunity Amount 10,000 - 10,000,000 CAD Emphasized Respond By 29 O…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sence in the selected location No Supplier Certification Preferences - Visibility Public Humanitarian Aid - Added Keywords - Post Overview Requirements Description Canada Post is seeking a single Service Provider (the Selected Proponent) to deliver a Maximo Spare Parts Management solution, including software, implementation, system integration, and ongoing support services. The solution will enable Canada Post to improve the quality, accuracy, governance, and sustainability of spare parts master data within IBM Ma…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "3839d28bcb428fb077bd41b382e9aa247b097aa2d740cb34929dc05b786504cf",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "hern Ontario $23.00 $30.99 Ottawa & surroundings $50.75 $68.99 Toronto & surroundings $74.83 $99.99 Quebec $ / month Montreal & surroundings $57.42 $75.99 Quebec City & surroundings $45.92 $60.99 Choose Sector Displayed prices are billed annually in Canadian currency and do not include applicable taxes. Displayed prices are billed monthly in Canadian currency and do not include applicable taxes. Need help making the right choice? An Account Executive is here to help: 844-964-6380 Quick Links Suppliers Buyers Compa…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "652ecf4d179e069119848a424a84f33ece0d0c64bb83482bca1e988452386d66",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -295,7 +718,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-10-27",
       "source_dce_run_id": 39204191616,
       "source_shard": 0,
       "review_key": "3fd648131b0351946bca072946d1229eb069620033bd9c136ff6d7ebcbca342a",
@@ -306,14 +729,323 @@
         "release_tag": "dce-harvest-39204191616"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 6,
+        "text_chars": 299536,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "and delivery of digital services through this platform. Corporate Plan & Digital Strategy This tender relates to the continued provision of a Digital Services Development platform to ensure continuity and expansion of the digital programme in the Contracting Authority. The Contracting Authority has a people-centred Corporate Plan in place underpinned by innovative digital and communications strategies. The Contracting Authority’s vision is “Vibrant and inclusive communities inspired by a progressive economic envir…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "solute discretion, the Contracting Authority may elect to terminate this procurement process, or any contract awarded in accordance with the agreed termination provisions of the contract. A Framework Agreement constitutes a means of establishing overall terms and conditions in accordance with which, for a specified duration, individual contracts may or not be awarded. In the context of a single-party Framework Agreement, the successful framework member does not have to compete for each new contract. It is emphasis…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "ll be required to establish legal personality to enter the Framework Agreement / contract. Candidates are reminded that they may rely on the resources of other entities to establish the requirements on condition that they can prove to the satisfaction of the Contracting Authority that they will have these resources at their disposal when necessary. If the tender is from a consortium / joint venture, Candidates must ensure that all the relevant information is provided and where necessary, provide the information re…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ne Number | Selection Criteria, Rules & Weightings | Selection Criteria, Rules & Weightings | Selection Criteria, Rules & Weightings Ref | Pass/Fail Criteria | Pass Requirements A1 | General information | Candidates must complete this section. If the Candidate is a grouping, then a separate questionnaire must be completed for each group member. A2 | Tax Compliance | Candidate(s) are required to complete the information and meet the minimum requirements in relation to Sections A2, A3 & A4. Candidates should note th…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "ablish legal personality to enter the Framework Agreement / contract. Candidates are reminded that they may rely on the resources of other entities to establish the requirements on condition that they can prove to the satisfaction of the Contracting Authority that they will have these resources at their disposal when necessary. If the tender is from a consortium / joint venture, Candidates must ensure that all the relevant information is provided and where necessary, provide the information requested separately fo…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "stics include – Over 74,500 registered users of www.yourcouncil.ie portal Over 668,000 online service requests since the launch of the current platform to the end of 2025 Over 100 public facing services online at any one time Over 500 public and staff services developed to date - forms and also processes with associated workflows. Given the current trend of increasing demand for and expansion of digital services the following assumptions can be made – Increasing demand for the online channel from the public and fr…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "st provide reports for Contracting Authority contact centre (CSA) agents showing numbers of cases by date range service agent, etc Non-Functional Requirements Platform must be intuitive, easily used and adopted by all users who do not specialise in IT Platforms are required to cater for Irish language presentations and input and output, phones numbers, postal codes, etc. with no additional development required Development of in-house teams to develop services and manage the platform must be included as part of the…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "information which demonstrates operation of Health & Safety systems and procedures in line with all relevant Safety, Health & Welfare at Work legislation. The Contracting Authority reserves the right to seek further information to verify compliance. Evidence of compliance will be required as condition of contract award. A6 | Data hosting | Candidates must declare that data will be hosted and processed within the European Economic Area (EEA), or any country determined to offer an adequate level of data protection b…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "ersonnel have the skills outlined below by checking the relevant boxes. For information purposes only, they are also required to provide the number of staff available. Please also attach an organisation chart, clearly identifying all relevant departments, divisions, and third parties, if applicable. Please note: The skills outlined may reside in the same person. Candidates are reminded that they may rely on the resources of other entities on condition that they are fully described (refer to Section A1 above), and …",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rsonnel have the skills outlined below by checking the relevant boxes. For information purposes only, they are also required to provide the number of staff available. Please also provide an organisation chart, clearly identifying all relevant departments, divisions, and third parties, if applicable. Please note: The skills outlined may reside in the same person. Candidates are reminded that they may rely on the resources of other entities on condition that they are fully described (refer to Section A1 above), and …",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ts and SLAs Technical Requirements While the Contracting Authority Digital Services Development platform is available 24 / 7, the support requirements are 09:00 to 17:00 (Irish Standard Time), Monday to Friday (Irish business days) – based on ISO / ITIL / Other frameworks. The underlying architecture must be supported, maintained and managed Providing documentation/Information detailing the approach to Business Continuity for all layers in the platform architecture, proactively monitoring backups and proactively t…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "naire must be completed for each group member. A2 | Tax Compliance | Candidate(s) are required to complete the information and meet the minimum requirements in relation to Sections A2, A3 & A4. Candidates should note that if invited to tender, they will be required to provide the evidence self-declared prior to receipt of Request for Tender. A3 | Financial Capacity | Candidate(s) are required to complete the information and meet the minimum requirements in relation to Sections A2, A3 & A4. Candidates should note t…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "inancial, economic or technical capacity requirements of the competition, if required. Candidates may include individuals, partnerships, limited companies, groupings or any combination of the foregoing with or without legal personality. However, a grouping if successful will be required to establish legal personality to enter the Framework Agreement / contract. Candidates are reminded that they may rely on the resources of other entities to establish the requirements on condition that they can prove to the satisfa…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t / contract. Candidates are reminded that they may rely on the resources of other entities to establish the requirements on condition that they can prove to the satisfaction of the Contracting Authority that they will have these resources at their disposal when necessary. If the tender is from a consortium / joint venture, Candidates must ensure that all the relevant information is provided and where necessary, provide the information requested separately for each party. Relevant information relates to where a Ca…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "response is either commercially sensitive or confidential in nature, this should be highlighted and the reasons for its sensitivity specified. In such cases the relevant material will, in response to a request under the FOI Act, be examined in the light of the exceptions provided for in the Act. Small and Medium Enterprise participation It is the policy of the Contracting Authority to promote participation by Small and Medium Enterprises (SMEs) on a fair and equal basis. SMEs are encouraged to explore the possibil…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "and Medium Enterprises (SMEs) on a fair and equal basis. SMEs are encouraged to explore the possibilities of forming relationships with other SMEs or with larger enterprises to meet the financial, economic or technical capacity requirements of the competition, if required. Candidates may include individuals, partnerships, limited companies, groupings or any combination of the foregoing with or without legal personality. However, a grouping if successful will be required to establish legal personality to enter the …",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "on-Functional Requirements Platform must be intuitive, easily used and adopted by all users who do not specialise in IT Platforms are required to cater for Irish language presentations and input and output, phones numbers, postal codes, etc. with no additional development required Development of in-house teams to develop services and manage the platform must be included as part of the proposal and include: Description of training to be provided Training materials and manuals available Training channels Training ac…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Framework Agreement will be established as a single-party Framework Agreement with the Tenderer selected following the tender stage and the application of the award criteria. Thereafter they will be considered for the award of all contracts within the scope of the Framework Agreement. The successful Tenderer will be invited to enter into a Framework Agreement and initial contract after the expiry of the standstill period. Formal acceptance of the terms and conditions of the Framework Agreement and the contract wil…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "a platform in a shorter period would cause significant disruption to the workings of the Contracting Authority and the delivery of services. The financial cost for the Contracting Authority in procuring the services will amount to a significant investment and this investment could not be optimised and the necessary return achieved if the services were required for a shorter period and would ultimately not deliver value for money on behalf of the taxpayer. For the avoidance of doubt, the Contracting Authority confi…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ng Authority in procuring the services will amount to a significant investment and this investment could not be optimised and the necessary return achieved if the services were required for a shorter period and would ultimately not deliver value for money on behalf of the taxpayer. For the avoidance of doubt, the Contracting Authority confirms that the period of any contracts awarded under the Framework Agreement may extend beyond the date of expiry of the agreement. Estimated Value of the Framework Agreement In o…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "fication of essential system updates and / or maintenance Quality Assurance Requirements Throughout the Contract, regular and ad hoc meetings between the Service Partner and the Contracting Authority will be arranged in order to analyse the quality of the services provided, discuss major problems, improve quality, and assess needs for changes. Continual improvements in service delivery are expected during the Contract About the Framework Agreement Numbers Admitted to the Framework The Framework Agreement will be e…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "enders or by consultation with the framework member and invitation to provide a supplementary tender within the constraints laid down in this tender documentation and the Framework Agreement terms and conditions. Award to Runner up Where, following the conclusion of the procurement process, it is not possible to award the Framework Agreement/Contract to the successful tenderer for any reason, the Contracting Authority reserves the right, at its sole discretion, to re-examine the remaining tenders and award the Fra…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/1392_9123020_unpacked/1392_9123020.pdf ===== List of Contract Documents #Addenda ID N/A Status Final Title Cork_Co_Co_DigServ_Dev_Platform_PQQ File Associated :<1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx > #Addenda ID N/A Status Final Title Cork_Co_Co_DigServ_Dev_Platform Appendix A Response Document File Associated :<2_Cork_Co_Co_DigServ_Dev_Platform Appendix A Response Document.docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<3_c4t_9123020_1.xml > List …",
+            "source": "files/1392_9123020_unpacked/1392_9123020.pdf",
+            "source_url": null,
+            "source_sha256": "1969481e6e047f92e632890fd20d44b379725d1d84e0f1ac57f7bc947dd6f538",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "y conflict of interest or a distortion of competition to the satisfaction of the Contracting Authority. For the avoidance of doubt a Lead Candidate may only be involved in one submission. Use of eTenders Please note that information relating to this Qualification Questionnaire, including clarifications and changes, will be published on the Irish Government Procurement Opportunities Portal www.etenders.gov.ie. Registration is free of charge and there is no charge for documents. Please note that the Contracting Auth…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "enter into negotiations directly with the chosen framework member and will seek a formal submission which will be contractually binding. Competitive Dialogue Procedure The Framework Agreement is being awarded under the competitive dialogue procedure on the basis that the Contracting Authority seeks to explore innovative solutions and the contract is a high-risk procurement. The procedure is considered the optimum procedure to support the achievement of this objective. Stage I – Qualification (this Stage) Intereste…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "d out. Fig. 1 - Competition Flowchart: Instructions to Candidates Every effort has been made to ensure that this Document contains all the necessary information for the completion of applications. The Contracting Authority does not warrant or represent that this Document, or any other information given to Candidates, is accurate or complete. No liability is accepted for any error, misstatement, or omission (negligent or otherwise) in this Document, or in any other information given to Candidates. An “Application” …",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Should the contract be awarded to a new service provider, a robust transition/migration plan will be required to ensure continuity of service, including but not limited to the new Service Provider redeveloping the existing business processes and migrating all relevant data onto their platform and delivering relevant training to the Contracting Authority team to enable them to be highly self-sufficient. Scope of Requirements under the Framework Agreement High level description of requirements The Contracting Author…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "the contract be awarded to a new service provider, a robust transition/migration plan will be required to ensure continuity of service, including but not limited to the new Service Provider redeveloping the existing business processes and migrating all relevant data onto their platform and delivering relevant training to the Contracting Authority team to enable them to be highly self-sufficient. Scope of Requirements under the Framework Agreement High level description of requirements The Contracting Authority pro…",
+            "source": "files/1392_9123020_unpacked/1_Cork_Co_Co_DigServ_Dev_Platform_PQQ.docx",
+            "source_url": null,
+            "source_sha256": "b87ccef4bf7817ef07df169916e350ea9df2a4f46f8139f134f799a0582ecd3c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -338,7 +1070,7 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 40151041640,
       "source_shard": 10,
@@ -350,14 +1082,127 @@
         "release_tag": "dce-harvest-40151041640"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 12869,
+        "attributed_compact_snippets": 10,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "eror on Projects, Achievements of Key Personnel on Projects, Understanding of the Project, Scope of Services, Delivery of Technical Advisory Services, Design Philosophy; Approach; Methodology and Socio-Economic Criteria - Indigenous Participation Plan. Firms and individuals who believe they have the necessary skills to carry out this work can submit their bids to the government's electronic tendering service. Please note that late submissions will not be considered or accepted. The Crown retains the right to negot…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "89380757 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 28 Months Object Status Opportunity Amount 1 - 3,449,250 CAD Emphasized Respond By 10 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Architectural engineering, Detailed engineering services Ship-to or Service Locatio…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "techniques ou tout autre aspect de cette demande d'offres (DDO) doivent être soumises dans la section « Messages relatifs à l'événement » de SAP Ariba. Pour accéder à cette section, vous devez être connecté à votre compte SAP Ariba et avoir rempli votre profil du gouvernement du Canada. Les réponses aux questions seront également affichées dans la section « Messages relatifs à l'événement » afin que tous les offrants puissent les consulter. AVIS DE PROJET DE MARCHÉ (APM) Travaux publics et Services gouvernementaux…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "urcing - Doc5889380757 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 28 Months Object Status Opportunity Amount 1 - 3,449,250 CAD Emphasized Respond By 10 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Architectural engineering, Detailed engineering services Ship-to or S…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "sequencing, permitting and approvals, cost implications, and alignment with Project objectives and Design Requirements. The Technical Advisor (TA) Team shall ensure that Enabling Works are appropriately scoped, coordinated with the evolving design, and implemented in a manner that does not constrain future design development or introduce risk or inefficiencies. This procurement will follow single-phase proposal submission process. The selected Prime Consultant will be required to provide services as specified in t…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tting and approvals, cost implications, and alignment with Project objectives and Design Requirements. The Technical Advisor (TA) Team shall ensure that Enabling Works are appropriately scoped, coordinated with the evolving design, and implemented in a manner that does not constrain future design development or introduce risk or inefficiencies. This procurement will follow single-phase proposal submission process. The selected Prime Consultant will be required to provide services as specified in the Annex Project …",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "a Lead Type RFI Object Status Status Open Object Status Decision Deadline - Object Status Contract Length 28 Months Object Status Opportunity Amount 1 - 3,449,250 CAD Emphasized Respond By 10 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Architectural engineering, Detailed engineering services Ship-to or Service Locations Ottawa-Gatineau - Ontario, Quebec Prefer suppliers with a physical presence in…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "d page where they can find: A registration checklist to help understand what is needed before creating an account and; Step-by-step instructions on how to create an account For technical support with SAP Ariba, please contact the CanadaBuys Service Desk agents: https://canadabuys.canada.ca/en/contact-support FAQ: Where will amendments to the Solicitation of Offers (RFP) be posted? All amendments to this Solicitation of Offers (RFP) will be posted in the Event Messages section of SAP Ariba. Offerors are responsible…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/portal_page.txt ===== Business Network Message Strip Information Closable This is a public sector / buyer funded posting and you can respond for free. EP938-270214-RFP-Technical Advisor Services for the Cultural Heritage Science (CHS) Project [EP938-270214-DDO-Services de conseillers techniques pour le projet des Sciences du patrimoine culturel (SPC)] ID - 1110025626 Sourcing - Doc5889380757 Walk-up buyer Buyer: Viewer Government of Canada / Gouvernement du Canada Lead Type RFI Object Status Stat…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Status Decision Deadline - Object Status Contract Length 28 Months Object Status Opportunity Amount 1 - 3,449,250 CAD Emphasized Respond By 10 Nov 2026 19:00 GMTZ UTC Object Status Sector Public Object Status Basic Information Post Overview Attachments (0) Basic Information Product and Service Categories Architectural engineering, Detailed engineering services Ship-to or Service Locations Ottawa-Gatineau - Ontario, Quebec Prefer suppliers with a physical presence in the selected location No Supplier Certification …",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "b00d72776debde8094ad3bd654f9ea508eb1b0f9f77b75b615b34d29d23cd096",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -383,7 +1228,7 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
+      "authoritative_submission_date": "2026-11-06",
       "source_dce_run_id": 40134590709,
       "source_shard": 35,
       "review_key": "796e4127fdc4962dcd6947883f05d4e11a414710df198697ba5bbcd596e4be55",
@@ -394,14 +1239,313 @@
         "release_tag": "dce-harvest-40134590709"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 6,
+        "text_chars": 140348,
+        "attributed_compact_snippets": 27,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "or marketing material, shall be made by the Contractor without the prior written consent of the Client. 20. Conflicts, Registrable Interests and Corrupt Gifts 21. Access to Premises 22. Equipment 23. Non Solicitation 24. Change Control Procedure 25. DATA PROTECTION AND SECURITY 26. Additional Condition(s) Schedule B: Services: The Specification Schedule C: Charges Schedule D: Service Levels Schedule E: Data Protection Appendix 6: Confidentiality Agreement Schedule A to the Confidentiality Agreement: Data Protectio…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "be required to: | The successful Tenderer will, during the term of the Services Contract, be required to: | (a) | immediately advise the Contracting Authority of any material change to its insured status; | (b) | produce proof of current premiums paid upon request; | (c) | produce valid certificates of insurance upon request. 3.1 | 3.1 | Only those Tenderers who have:- | (a) | Submitted compliant Tenders pursuant to paragraph 2.2 above, and | (b) | Declared by way of eESPD that either: no mandatory grounds for exc…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "city the Prime Contractor relies of the Selection Criteria (or any one of them) in accordance with this RFT and (ii) the absence of Exclusion Grounds in respect of any Subcontractor, or the reliability of any Subcontractor despite the existence of a relevant Exclusion Ground, it shall be excluded from further participation in this Competition unless it replaces the Subcontractor with one which meets all relevant requirements of this RFT. 3.2 | 3.2 | Tenderers will either pass OR fail each of the Selection Criteria…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "delay, to provide the supporting documentation specified below to the Contracting Authority in each case. | | Tenderers must provide the supporting documentation specified above without delay when requested by the Contracting Authority. However, where the Tenderer is unable, for a valid reason, to provide the specified documentation, the Tenderer must inform the Contracting Authority of the valid reason as to why the documentation cannot be supplied and, if the Contracting Authority considers the reason given to b…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "Ethics in Public Office Acts 1995 and 2001, copies of which are available at www.irishstatutebook.ie. The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or terminating any Services Contract entered into by a Tenderer. 2.14 Anti-Competitive Conduct Tenderers’ attention is drawn to the Competition Act 2002 (as amended, the “2002 Act”). The 2002 Act makes it a criminal offen…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or terminating any Services Contract entered into by a Tenderer. 2.14 Anti-Competitive Conduct Tenderers’ attention is drawn to the Competition Act 2002 (as amended, the “2002 Act”). The 2002 Act makes it a criminal offence for Tenderers to collude on prices or terms in a public procurement competition. 2.15 Industry Term…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "material adverse impact on the level of coverage specified above. A formal confirmation from the Tenderer's insurance company or broker to this effect will be requested from the successful Tenderer(s) prior to the award of (and shall be a condition of) any Services Contract. 2.21.3 | The successful Tenderer will, during the term of the Services Contract, be required to: | The successful Tenderer will, during the term of the Services Contract, be required to: | (a) | immediately advise the Contracting Authority of …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ding whether or not Services have been accepted, rejected, satisfactorily re-performed or as the case may be) must be raised by the Client’s Contact within 14 calendar days of receipt of invoice. In circumstances where no queries are raised within the said 14 day period the invoice shall be deemed accepted. Upon resolution of any queries on the invoice to the satisfaction of the Client or upon such deemed acceptance the invoice shall be payable by the Client. Payment is subject to any rights reserved by the Client…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "participation in this or future tenders, and I make this solemn declaration conscientiously believing the same to be true and by virtue of the Statutory Declarations Act, 1938. This declaration is made for the benefit of the Contracting Authority. Appendix 5: Services Contract and [ AGREEMENT Relating to the provision of Services pursuant to Request for Tenders for the provision of THIS AGREEMENT is made on the day of 20 BETWEEN: , of [address] (“the Client”); and , of (“the Contractor”) (each a “Party” and togeth…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "the same to be true and by virtue of the Statutory Declarations Act, 1938. This declaration is made for the benefit of the Contracting Authority. Appendix 5: Services Contract and [ AGREEMENT Relating to the provision of Services pursuant to Request for Tenders for the provision of THIS AGREEMENT is made on the day of 20 BETWEEN: , of [address] (“the Client”); and , of (“the Contractor”) (each a “Party” and together “the Parties”). WHEREAS: IT IS HEREBY AGREED AS FOLLOWS: Schedule A: Terms and Conditions 1. Contra…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "derers, the Contracting Authority may seek further information to confirm the Tenders have been prepared independently. The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or any Mini-Competition or terminating any Framework Agreement or Services Contract entered into by a Tenderer. 2.19 Withdrawal from this Competition Tenderers are required to notify the Contracting Auth…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rers”) for the provision of the services as described in Appendix 1 to this RFT (the “Services”). 1.2 | In summary, the Services comprise: Internal Audit Services for NIBRT for a 3-year period starting in Q4 2026, based on a risk assessment of all areas of NIBRT activity, to be approved by the Audit and Risk Committee (ARC) which is a subcommittee of the NIBRT Board. The internal audit plan will be reviewed and updated in advance of each calendar year, with adjustments made as appropriate. The plan is to complete …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "rs 2.1 Important Notices 2.2 Compliant Tenders 2.3 Services Contract 2.4 Acceptance of RFT Requirements Each Tenderer is required to accept the provisions of this RFT. ALL TENDERERS MUST RETURN, with their Tender, a scanned signed copy of the Tenderer’s Statement, as set out in Appendix 3, printed on the Tenderer’s letterhead. The Contracting Authority must be able to read the scanned signature of the Tenderer. If possible, please sign documents using blue ink. If the Contracting Authority cannot read the scanned …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "s including name, title, telephone number, postal address, facsimile number and e-mail address of the nominated entity authorised to represent the Tenderer and to whom all communications shall be directed and accepted until this Competition has been completed or terminated. Correspondence from any other person will NOT be accepted, acknowledged or responded to. Prior to and as a condition of award of any Services Contract, the successful Tenderer shall be required to designate a single entity who will carry overal…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "denda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<3_c4t_9210443_1.xml > List of Notices #Addenda ID 1 Status Published Title Contract notice - general directive, standard regime File Associated :<9210443_Contract notice - general directive, standard regime.pdf > ===== FILE: files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx ===== Request for Tenders dated for the provision of Tender procedure: Open procedure Tender Deadline Contents Part 1: Introduction Part 2: Instructions …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "address of the nominated entity authorised to represent the Tenderer and to whom all communications shall be directed and accepted until this Competition has been completed or terminated. Correspondence from any other person will NOT be accepted, acknowledged or responded to. Prior to and as a condition of award of any Services Contract, the successful Tenderer shall be required to designate a single entity who will carry overall responsibility for the Services Contract (the “Prime Contractor”), irrespective of wh…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "links between Tenderers, the Contracting Authority may seek further information to confirm the Tenders have been prepared independently. The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or any Mini-Competition or terminating any Framework Agreement or Services Contract entered into by a Tenderer. 2.19 Withdrawal from this Competition Tenderers are required to notify the…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "purchasing services (or Services) from a third party at any time during the currency of the Agreement. 19. Media No media releases, public announcements or public disclosures relating to this Agreement or its subject matter, including but not limited to promotional or marketing material, shall be made by the Contractor without the prior written consent of the Client. 20. Conflicts, Registrable Interests and Corrupt Gifts 21. Access to Premises 22. Equipment 23. Non Solicitation 24. Change Control Procedure 25. DAT…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "tion will be divided into lots (each a “Lot”) as described below. Each Lot will result in a separate contract. 1.4 | This public procurement competition (the “Competition”) will be conducted in accordance with the open procedure under the European Union (Award of Public Authority Contracts) Regulations 2016 (Statutory Instrument 284 of 2016) (the “Regulations”). Any contract that may result from this Competition (the “Services Contract”) will be issued for a term of 3 years (“the Term”). 1.5 | The Contracting Auth…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "divided into lots (each a “Lot”) as described below. Each Lot will result in a separate contract. 1.4 | This public procurement competition (the “Competition”) will be conducted in accordance with the open procedure under the European Union (Award of Public Authority Contracts) Regulations 2016 (Statutory Instrument 284 of 2016) (the “Regulations”). Any contract that may result from this Competition (the “Services Contract”) will be issued for a term of 3 years (“the Term”). 1.5 | The Contracting Authority reserve…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "r. The terms “Registrable Interest” and “Relative” shall be interpreted as per Section 2 of the Ethics in Public Office Acts 1995 and 2001, copies of which are available at www.irishstatutebook.ie. The Contracting Authority will, at its absolute discretion, decide on the appropriate course of action, which may in appropriate circumstances include eliminating a Tenderer from this Competition or terminating any Services Contract entered into by a Tenderer. 2.14 Anti-Competitive Conduct Tenderers’ attention is drawn …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/1456_9210443_unpacked/1456_9210443.pdf ===== List of Contract Documents #Addenda ID N/A Status Final Title CfT Internal Audit Services Document File Associated :<1_NIBRT CfT Internal Audit.docx > #Addenda ID N/A Status Final Title NIBRT ESPD File Associated :<2_NIBRT ESPD (1).docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<3_c4t_9210443_1.xml > List of Notices #Addenda ID 1 Status Published Title Contract notice - general directive, standard regime File …",
+            "source": "files/1456_9210443_unpacked/1456_9210443.pdf",
+            "source_url": null,
+            "source_sha256": "f9207fb643ea15fd01c9f4c6dd28b19d0cb674c4a998c7acc4e1a7cda78fba41",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "al directive, standard regime File Associated :<9210443_Contract notice - general directive, standard regime.pdf > ===== FILE: files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx ===== Request for Tenders dated for the provision of Tender procedure: Open procedure Tender Deadline Contents Part 1: Introduction Part 2: Instructions to Tenderers 2.1 Important Notices 2.2 Compliant Tenders 2.3 Services Contract 2.4 Acceptance of RFT Requirements Each Tenderer is required to accept the provisions of this RFT. A…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "t Services Document File Associated :<1_NIBRT CfT Internal Audit.docx > #Addenda ID N/A Status Final Title NIBRT ESPD File Associated :<2_NIBRT ESPD (1).docx > #Addenda ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated :<3_c4t_9210443_1.xml > List of Notices #Addenda ID 1 Status Published Title Contract notice - general directive, standard regime File Associated :<9210443_Contract notice - general directive, standard regime.pdf > ===== FILE: files/1456_9210443_unpacked/1_NIBRT CfT Internal A…",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "number and e-mail address of the nominated entity authorised to represent the Tenderer and to whom all communications shall be directed and accepted until this Competition has been completed or terminated. Correspondence from any other person will NOT be accepted, acknowledged or responded to. Prior to and as a condition of award of any Services Contract, the successful Tenderer shall be required to designate a single entity who will carry overall responsibility for the Services Contract (the “Prime Contractor”), …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ces under this Agreement becomes unable to provide the Services for whatever reason then, the Contractor acknowledges and undertakes that it shall immediately notify the Client in writing of the inability of any Key Personnel and replace that person with a person of equivalent experience and expertise (“Replacement Personnel”). The Contractor shall provide to the Client such details as the Client may reasonably require in writing regarding any Replacement Personnel. The Client shall have absolute discretion as to …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "r exercise of same or some other right, power or remedy. 18. Non-exclusivity Nothing in this Agreement shall preclude the Client from purchasing services (or Services) from a third party at any time during the currency of the Agreement. 19. Media No media releases, public announcements or public disclosures relating to this Agreement or its subject matter, including but not limited to promotional or marketing material, shall be made by the Contractor without the prior written consent of the Client. 20. Conflicts, …",
+            "source": "files/1456_9210443_unpacked/1_NIBRT CfT Internal Audit.docx",
+            "source_url": null,
+            "source_sha256": "48074c61cf0bf28f32283c14fcc4d8dc5615ddc7ec383e1d6f28ddd39b283624",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -426,7 +1570,7 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 40134590709,
       "source_shard": 34,
@@ -438,14 +1582,323 @@
         "release_tag": "dce-harvest-40134590709"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 15,
+        "text_chars": 155862,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "BondPerLot=\"false\" internal-id=\"2026/null/532\"> SECTION 1 - Exclusion (including Blacklisting) and Selection Criteria We hereby confirm that both the contractor and any sub-contractor/s, if any, engaged throughout the execution of the contract do not fall under any of the exclusion grounds or are blacklisted under any offence listed under Part VI of the Public Procurement Regulations as per Instructions to Tenderers. I Confirm SECTION 2 - Eligibility and Administrative Information Tenderer’s Declaration - In respo…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "d-in-evaluation=\"0\" type=\"list\" appearance=\"check\" multiple=\"1\" size=\"2\"> We hereby confirm that both the contractor and any sub-contractor/s, if any, engaged throughout the execution of the contract do not fall under any of the exclusion grounds or are blacklisted under any offence listed under Part VI of the Public Procurement Regulations as per Instructions to Tenderers. I Confirm SECTION 2 - Eligibility and Administrative Information Tenderer’s Declaration - In response to your invitation to tender for this co…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "ation, Option 1 shall be compiled by the Declarant. On the other hand, if the Contracted Economic Operator is a Joint Venture (JV), Consortium, (Limited) Partnership or any other form that constitutes a Group of Economic Operators, Option 2 shall be compiled by the Declarant. Section C relates to information pertaining to all Sub-Contractor/s known and declared by the Contracted Economic Operator. Section C shall be compiled by the Declarant of each Sub-Contractor. Section D relates to information pertaining to En…",
+            "source": "files/18607_14178549_unpacked/4_SPD62026061  - UBO Declaration Form.docx",
+            "source_url": null,
+            "source_sha256": "3999bf220738e841fefa19821d74c6bc162ec40653af363b8929018c582788ed",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tor. Section C shall be compiled by the Declarant of each Sub-Contractor. Section D relates to information pertaining to Entities upon whom the Contracted Economic Operator relied on for their capacities in meeting the Selection Criteria vis-à-vis the Economic and Financial Standing and/or Professional Ability. Section D shall be compiled by the Declarant of each Entity. Section E relates to information pertaining to all the Beneficial Owner(s) of the (i) Contracted Economic Operator (ii) Sub-Contractor/s (iii) En…",
+            "source": "files/18607_14178549_unpacked/4_SPD62026061  - UBO Declaration Form.docx",
+            "source_url": null,
+            "source_sha256": "3999bf220738e841fefa19821d74c6bc162ec40653af363b8929018c582788ed",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "nd if applicable, Professionals Declaration Form and if applicable, qualification certificates and updated CVs. (Note 2)]]> 100 <![CDATA[In addition to the confirmations outlined in the TTO, I/We declare that, as part of our technical offer, we confirm that the supplies will be delivered and that the services or works will be carried out in full compliance with the Technical Specifications/Terms of Reference (Section 3) and as detailed in the Financial Bid Form/Bill of Quantities. Furthermore, I/We assume full and…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ancial year ending 31 December 2027, as per tender requirements. | | | | | | | | | | | | | GRAND TOTAL EXCLUDING VAT - CARRIED FORWARD TO FINANCIAL SECTION OF ONLINE TENDER RESPONSE FORMAT | | 0 | | | | | | | | | | | | Tenderers are reminded that the Contracting Authority is entitled to reject any offer which is considered to be abnormally low according to Regulation 243 of the Public Procurement Regulations, S.L. 601.03, as amended. | | | | | | | | | | | | | | [SHEET Sheet2] [SHEET Sheet3] ===== FILE: files/18607…",
+            "source": "files/18607_14178549_unpacked/4_SPD62026061  - UBO Declaration Form.docx",
+            "source_url": null,
+            "source_sha256": "3999bf220738e841fefa19821d74c6bc162ec40653af363b8929018c582788ed",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "e/> We are not bankrupt or under an administration appointed by the Court, or under proceedings leading to a declaration of bankruptcy. We also declare that we have not been convicted criminally, or found guilty of professional misconduct. Furthermore, we are up-to-date in the payment of social security contributions and other taxes. We accept that we shall be excluded from participation in the award of this tender if compliance certificates in respect of these declarations are not submitted by the indicated dates…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "<![CDATA[b)Enrolment in a Relevant Professional Register The Economic Operator shall be licensed by The Accountancy Board in Malta. The Economic Operator, irrespective of the country where it is legally registered, shall be licensed/registered (as applicable) by the Accountancy Board* in Malta to perform statutory auditing services in accordance with the Laws of Malta. ]]><![CDATA[ By virtue of the Accountancy Profession Act (Chapter 281 of the Laws of Malta), The Accountancy Board in Malta is the regulator of the…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "estionnaire Technical Offer (Note 3)]]> 100 <![CDATA[Please upload here all documentation related to the Key Experts as per Section 1 - Instructions to Tenderers Article 5(C)(ii) of the tender document, (ii) Key Experts Form, the Statement of Availability Form, the Self-declaration form for Key Experts (relating to public employees) and if applicable, Professionals Declaration Form and if applicable, qualification certificates and updated CVs. (Note 2)]]> 100 <![CDATA[In addition to the confirmations outlined in t…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Please provide an explanation of the reasons for identifying the Senior Managing Official/s of the Entity relied upon (for its Capacities) by the Contracted Economic Operator as beneficial owners. | Please provide an explanation of the reasons for identifying the Senior Managing Official/s of the Entity relied upon (for its Capacities) by the Contracted Economic Operator as beneficial owners. ===== FILE: files/18607_14178549_unpacked/5_SPD62026061 - Technical Offer.docx ===== TENDERER’S TECHNICAL OFFER N.B. The Ke…",
+            "source": "files/18607_14178549_unpacked/5_SPD62026061 - Technical Offer.docx",
+            "source_url": null,
+            "source_sha256": "b218934fa99796874b4b74b31e3919bbe009c90b8aabcdb046d23fa870a9b9c3",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": ", including the submission of the final Systems Audit Report, within the calendar year immediately following the financial year under review. For the avoidance of doubt, the final Systems Audit Report shall be submitted not later than six (6) months following the end of the financial year under review. The Systems Audit shall include, but not be limited to, a review of the billing system environment, billing processes and controls, user access management, segregation of duties, data integrity, billing accuracy, ta…",
+            "source": "files/18607_14178549_unpacked/5_SPD62026061 - Technical Offer.docx",
+            "source_url": null,
+            "source_sha256": "b218934fa99796874b4b74b31e3919bbe009c90b8aabcdb046d23fa870a9b9c3",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "FILE: files/18607_14178549_unpacked/6_SPD62026061 - GDPR Questionnaire - Administrative.docx ===== [DOCX_EXTRACTION_ERROR ValueError('no `tc` element at grid_offset=4')] ===== FILE: files/18607_14178549_unpacked/7_SPD62026061 - External Audit Tender Document.pdf ===== Version 2.8 Departmental e-procurement document SPD6/2026/061 I 1 Reference number: SPD6/2026/061 SERVICES - TENDER FOR THE PROVISION OF EXTERNAL FINANCIAL AUDIT SERVICES AND A BILLING SYSTEM AUDIT TO ARMS LTD This project is being financed through l…",
+            "source": "files/18607_14178549_unpacked/7_SPD62026061  - External Audit Tender Document.pdf",
+            "source_url": null,
+            "source_sha256": "62ae31ef9d39bc10630c32c462be31bbc171af56042daa2f9a216d74ab163fd2",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ry=\"1\" included-in-evaluation=\"0\" type=\"list\" appearance=\"check\" multiple=\"1\" size=\"2\"> This tender is valid for a period of 90 days from the final date for submission of tenders. If our tender is accepted, we undertake to provide a Performance Guarantee of 4 percent of the contract value as dictated by the applicable General Conditions. Agreed Power of Attorney (In case of a Joint Venture/Consortium/Group of Economic Operators this section is mandatory) <![CDATA[(It is accepted that should we form a Joint Venture…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "uded-in-evaluation=\"0\" type=\"list\" appearance=\"check\" multiple=\"1\" size=\"2\"> This tender is valid for a period of 90 days from the final date for submission of tenders. If our tender is accepted, we undertake to provide a Performance Guarantee of 4 percent of the contract value as dictated by the applicable General Conditions. Agreed Power of Attorney (In case of a Joint Venture/Consortium/Group of Economic Operators this section is mandatory) <![CDATA[(It is accepted that should we form a Joint Venture/Consortium…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "pt in full and in its entirety, the content of this tender document (including subsequent Clarification Notes issued by the SPD/Contracting Authority) and the General Rules Governing Tenders applicable on the date of the publication of this tender. We hereby accept the contents thereto in their entirety, without reservation or restriction. We also understand that any disagreement, contradiction, alteration, deviation or omission shall lead to our offer not being considered any further. We offer to provide, in acco…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nd Transfer of Personal Data by ALL Bidders]]> 100 Technical Specifications <![CDATA[Please duly fill in and upload here the form marked 'Technical Offer' as per Section 1 - Instructions to Tenderers Article 5(C)(i) of the tender document which shall constitute of the following: a)Technical Offer Questionnaire. (Note 3) and b)GDPR Questionnaire Technical Offer (Note 3)]]> 100 <",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "Agreed We note that we take full responsibility to submit the electronic documentation required well before the tender submission deadline in order to avoid last minute upload restrictions. We agree that the GoM will not be responsible for late submissions due to reasons outside its control, such as internet latency, service unavailability, online payment failure and internet access. Agreed This tender is valid for a period of 90 days from the final date for submission of tenders. If our tender is accepted, we und…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "<![CDATA[The provisions of this tender are without prejudice to the obligations of the SPD/Contracting Authority in terms of the Freedom of Information Act (Cap. 496 of the Laws of Malta). The SPD/Contracting Authority, prior to disclosure of any information to a third party in relation any provision of this tender, which has not yet been made public, shall consult the tenderer in accordance with the provisions of the said Act, pertinent subsidiary legislation and the Code of Practice issued pursuant to the Act. S…",
+            "source": "files/18607_14178549_unpacked/1_c4t_14178549_1.xml",
+            "source_url": null,
+            "source_sha256": "3f12395eaa769817a4d8a9da90cddc43f9260c6533d59a91b87e00bd44274a77",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "6/2026/061 ­ SERVICES ­ TENDER FOR THE PROVISION OF EXTERNAL FINANCIAL AUDIT SERVICES AND A BILLING SYSTEM AUDIT TO ARMS LTD https://ted.europa.eu/TED Page 1/4 Description: SPD6/2026/061 ­ SERVICES ­ TENDER FOR THE PROVISION OF EXTERNAL FINANCIAL AUDIT SERVICES AND A BILLING SYSTEM AUDIT TO ARMS LTD 5.1.1 Purpose Main nature of the contract: Services Main classification (cpv): 79221000 Tax consultancy services Additional classification (cpv): 79212100 Financial auditing services 5.1.2 Place of performance Country …",
+            "source": "files/18607_14178549_unpacked/14178549_National Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "50062c3a355c9ec574731f7963f7e14644538b9bb847e8b9709912c1f5540a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "VICES ­ TENDER FOR THE PROVISION OF EXTERNAL FINANCIAL AUDIT SERVICES AND A BILLING SYSTEM AUDIT TO ARMS LTD https://ted.europa.eu/TED Page 1/4 Description: SPD6/2026/061 ­ SERVICES ­ TENDER FOR THE PROVISION OF EXTERNAL FINANCIAL AUDIT SERVICES AND A BILLING SYSTEM AUDIT TO ARMS LTD 5.1.1 Purpose Main nature of the contract: Services Main classification (cpv): 79221000 Tax consultancy services Additional classification (cpv): 79212100 Financial auditing services 5.1.2 Place of performance Country subdivision (NUT…",
+            "source": "files/18607_14178549_unpacked/14178549_National Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "50062c3a355c9ec574731f7963f7e14644538b9bb847e8b9709912c1f5540a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Associated :<7_SPD62026061 - External Audit Tender Document.pdf > #Addend a ID N/A Status Final Title SPD62026061 - Key Expert Forms File Associated :<8_SPD62026061 - Key Expert Forms.pdf > #Addend a ID 1 Status Final Title SPD6_2026_061_Clarifcation Note 1 File Associated :<9_SPD6_2026_061_Clarifcation Note 1..ip > List of Notices #Addend a ID 1 Status Published Title National Contract notice - general directive, standard regime File Associated :<14178549_National Contract notice - general directive, standard reg…",
+            "source": "files/18607_14178549_unpacked/7_SPD62026061  - External Audit Tender Document.pdf",
+            "source_url": null,
+            "source_sha256": "62ae31ef9d39bc10630c32c462be31bbc171af56042daa2f9a216d74ab163fd2",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sts that the proposed Key Expert/s has/have been duly authorised by the relevant official bod y to operate the requested and indicated profession in Malta. I also confirm that the aforementioned documentation shall be made available to the CA within one (1) month from notification of contract award (letter to successful bidder) date. In addition to the aforesaid, if the named authorisation is not made available within the stipulated timeframe, the Key Expert/s being proposed shall be substituted without further de…",
+            "source": "files/18607_14178549_unpacked/8_SPD62026061 - Key Expert Forms.pdf",
+            "source_url": null,
+            "source_sha256": "a2b605ec7ef93c4db42eba913addacb408563f4f49dd39086367d7f0cc5c6160",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "eurodyn.com Telephone: +30 2108094500 Roles of this organisation: TED eSender Notice information Notice identifier/version: d63139c0­c65a­4224­8ba3­3b82be72ea02 ­ 01 Form type: Competition Notice type: Contract or concession notice – standard regime Notice dispatch date: 15/10/2026 07:42 +02:00 Languages in which this notice is officially available: English https://ted.europa.eu/TED Page 4/4 ===== FILE: files/18607_14178549_unpacked/18607_14178549.pdf ===== List of Contract Documents #Addend a ID N/A Status Final …",
+            "source": "files/18607_14178549_unpacked/18607_14178549.pdf",
+            "source_url": null,
+            "source_sha256": "698319dcf2b23fb9977e86d15ae4603a496e8a4df5d864ef49c98115ff4e9de4",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rganisation: TED eSender Notice information Notice identifier/version: d63139c0­c65a­4224­8ba3­3b82be72ea02 ­ 01 Form type: Competition Notice type: Contract or concession notice – standard regime Notice dispatch date: 15/10/2026 07:42 +02:00 Languages in which this notice is officially available: English https://ted.europa.eu/TED Page 4/4 ===== FILE: files/18607_14178549_unpacked/18607_14178549.pdf ===== List of Contract Documents #Addend a ID N/A Status Final Title Tender Structure XML - Cycle 1 File Associated …",
+            "source": "files/18607_14178549_unpacked/18607_14178549.pdf",
+            "source_url": null,
+            "source_sha256": "698319dcf2b23fb9977e86d15ae4603a496e8a4df5d864ef49c98115ff4e9de4",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "documents Languages in which the procurement documents are officially available: English Languages in which the procurement documents (or their parts) are unofficially available: English Address of the procurement documents: https://www.etenders.gov.mt/epps/cft/listContractDocuments.do? resourceId=14178549 5.1.12 Terms of procurement Terms of submission: Electronic submission: Required Address for submission: https://www.etenders.gov.mt/epps/cft/viewTenders.do?resourceId=14178549 Languages in which tenders or requ…",
+            "source": "files/18607_14178549_unpacked/14178549_National Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "50062c3a355c9ec574731f7963f7e14644538b9bb847e8b9709912c1f5540a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ening date: 05/11/2026 10:00 +02:00 Place: https://www.etenders.gov.mt/epps/cft/prepareViewCfTWS.do?resourceId=14178549 Terms of contract: The execution of the contract must be performed within the framework of sheltered employment programmes: No Electronic invoicing: Allowed Electronic ordering will be used: yes https://ted.europa.eu/TED Page 2/4 Electronic payment will be used: yes 5.1.15 Techniques Framework agreement: No framework agreement Information about the dynamic purchasing system: No dynamic purchase s…",
+            "source": "files/18607_14178549_unpacked/14178549_National Contract notice - general directive, standard regime_0.pdf",
+            "source_url": null,
+            "source_sha256": "50062c3a355c9ec574731f7963f7e14644538b9bb847e8b9709912c1f5540a3e",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Final Title Tender Structure XML - Cycle 1 File Associated :<1_c4t_14178549_1.xml > #Addend a ID N/A Status Final Title SPD62026061 - Power of Attorney File Associated :<2_SPD62026061 - Power of Attorney.docx > #Addend a ID N/A Status Final Title SPD62026061 - Financial Bid Form File Associated :<3_SPD62026061 - Financial Bid Form.xlsx > #Addend a ID N/A Status Final Title SPD62026061 - UBO Declaration Form File Associated :<4_SPD62026061 - UBO Declaration Form.docx > #Addend a ID N/A Status Final Title SPD6202606…",
+            "source": "files/18607_14178549_unpacked/18607_14178549.pdf",
+            "source_url": null,
+            "source_sha256": "698319dcf2b23fb9977e86d15ae4603a496e8a4df5d864ef49c98115ff4e9de4",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "78549_1.xml > #Addend a ID N/A Status Final Title SPD62026061 - Power of Attorney File Associated :<2_SPD62026061 - Power of Attorney.docx > #Addend a ID N/A Status Final Title SPD62026061 - Financial Bid Form File Associated :<3_SPD62026061 - Financial Bid Form.xlsx > #Addend a ID N/A Status Final Title SPD62026061 - UBO Declaration Form File Associated :<4_SPD62026061 - UBO Declaration Form.docx > #Addend a ID N/A Status Final Title SPD62026061 - Technical Ofer File Associated :<5_SPD62026061 - Technical Ofer.do…",
+            "source": "files/18607_14178549_unpacked/18607_14178549.pdf",
+            "source_url": null,
+            "source_sha256": "698319dcf2b23fb9977e86d15ae4603a496e8a4df5d864ef49c98115ff4e9de4",
+            "source_kind": "pdf",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
