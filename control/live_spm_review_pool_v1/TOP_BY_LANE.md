@@ -171,6 +171,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:728118-2026** · IRL · p=40 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Ireland – Advertising and marketing services – Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
 - **FI-HILMA:58941** · FI · p=38 · deadline=2026-10-30T13:00:00+00:00 · blockers=none · Sosiaalisen median hallintatyökalun hankinta - Tender of social media management tool
+- **CA:WS5612173135** · CA · p=38 · deadline=2026-10-30T14:00:00+00:00 · blockers=none · Request for Proposal - Government of Canada Social Media Management Service (SMMS) -
 
 ## software_resale
 - **CA:26-58124** · CA · p=56 · deadline=2026-10-26T14:00:00+00:00 · blockers=none · 26-58124 Remotely Piloted Aircraft System (RPAS)-Deployable Integrated Topographic and Bathymetric (Topo-Bathymetric) LiDAR System
