@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-25T16:01:16.267461+00:00",
-  "source_inbox_updated_at": "2026-10-25T16:01:15.629636+00:00",
-  "latest_source_dce_run_id": 40208944833,
+  "generated_at": "2026-10-25T18:42:45.607202+00:00",
+  "source_inbox_updated_at": "2026-10-25T18:42:45.040272+00:00",
+  "latest_source_dce_run_id": 40221940318,
   "batch_index": 0,
   "start_rank": 1,
   "end_rank": 10,
@@ -118,14 +118,14 @@
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 40208944833,
+      "source_dce_run_id": 40221940318,
       "source_shard": 4,
-      "review_key": "41146c6235a6a1feb365a9f4bf30336851b56fb8f669499703ff394f6357d993",
+      "review_key": "1dc0f1dc64757160b5a42b1c7af122f453d534899e50ab1167d9d29a88af2083",
       "artifact_locator": {
-        "dce_run_id": 40208944833,
+        "dce_run_id": 40221940318,
         "shard": 4,
         "candidate_id": "TED:722529-2026",
-        "release_tag": "dce-harvest-40208944833"
+        "release_tag": "dce-harvest-40221940318"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -275,6 +275,51 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "TED:684434-2026",
+      "title": "France – Printing services – Prestations d’impression et de routage pour le compte de l’Ined",
+      "buyer": "INED",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/684434-2026",
+      "deadline": "2026-10-30T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 13,
+      "spm_post_dce_score": 66,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "printing-services",
+        "printing-service"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 40221940318,
+      "source_shard": 13,
+      "review_key": "9987e6b76cd716725b324f213d907a68b58295bf65af5c98c7c580d399449d65",
+      "artifact_locator": {
+        "dce_run_id": 40221940318,
+        "shard": 13,
+        "candidate_id": "TED:684434-2026",
+        "release_tag": "dce-harvest-40221940318"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "TED:708343-2026",
       "title": "Germany – Digital printing services – Zentraldruck Tagespost",
       "buyer": "IKK - Die Innovationskasse",
@@ -304,51 +349,6 @@
         "dce_run_id": 40208944833,
         "shard": 15,
         "candidate_id": "TED:708343-2026",
-        "release_tag": "dce-harvest-40208944833"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:684434-2026",
-      "title": "France – Printing services – Prestations d’impression et de routage pour le compte de l’Ined",
-      "buyer": "INED",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/684434-2026",
-      "deadline": "2026-10-30T02:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 13,
-      "spm_post_dce_score": 66,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "printing-services",
-        "printing-service"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 40208944833,
-      "source_shard": 13,
-      "review_key": "49b30aa9b0e0e86099079fc075c8a25bbc10957192a9109d2b053f1a6a24f695",
-      "artifact_locator": {
-        "dce_run_id": 40208944833,
-        "shard": 13,
-        "candidate_id": "TED:684434-2026",
         "release_tag": "dce-harvest-40208944833"
       },
       "evidence_quality": {
