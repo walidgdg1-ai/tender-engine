@@ -11,8 +11,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:689362-2026** · FRA · p=60 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
 - **TED:721368-2026** · FRA · p=58 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 - **TED:715996-2026** · FRA · p=57 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-99896** · FR · p=56 · deadline=2026-10-26T09:00:00+00:00 · blockers=none · Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale Cavani
-- **TED:717450-2026** · FRA · p=56 · deadline=2026-10-26T09:00:00+00:00 · blockers=none · France – Computer equipment and supplies – Fourniture d'équipements informatiques, numériques et RFID pour l'informatisation, la numérisation de la lecture publique et la sécurisation des ouvrages de la Bibliothèque Départementale de Cavani
 - **FR-BOAMP:26-92932** · FR · p=56 · deadline=2026-10-26T11:00:00+00:00 · blockers=none · Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **FR-BOAMP:26-96908** · FR · p=56 · deadline=2026-10-26T15:30:00+00:00 · blockers=none · Accord-cadre à bons de commande et à marchés subséquents numérisation des fonds d'archives pour les Archives du Département du Nord - 2 lots
 - **FR-BOAMP:26-99104** · FR · p=56 · deadline=2026-10-28T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
@@ -23,6 +21,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-98739** · FR · p=56 · deadline=2026-11-02T10:00:00+00:00 · blockers=none · Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
 - **FR-BOAMP:26-93404** · FR · p=56 · deadline=2026-11-02T11:00:00+00:00 · blockers=none · Impression et diffusion du magazine externe du Département de l'Ain
 - **FR-BOAMP:26-93970** · FR · p=56 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · Programme pluri-annuel de numérisation d'archives - Registres et documents écrits reliés
+- **FR-BOAMP:26-92496** · FR · p=56 · deadline=2026-11-03T14:00:00+00:00 · blockers=none · IMPRESSION DE SUPPORTS DE COMMUNICATION POUR LE COMPTE DU CROUS DE NANTES PAYS DE LA LOIRE
+- **FR-BOAMP:26-94736** · FR · p=56 · deadline=2026-11-05T11:00:00+00:00 · blockers=none · Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
