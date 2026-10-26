@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-10-26T01:20:07.873839+00:00",
-  "source_inbox_updated_at": "2026-10-26T01:20:07.138643+00:00",
+  "generated_at": "2026-10-26T01:21:21.603316+00:00",
+  "source_inbox_updated_at": "2026-10-26T01:21:20.540946+00:00",
   "latest_source_dce_run_id": 40253107860,
   "batch_index": 5,
   "start_rank": 51,
@@ -82,6 +82,51 @@
         "shard": 39,
         "candidate_id": "TED:662118-2026",
         "release_tag": "dce-harvest-38186245081"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:737413-2026",
+      "title": "Germany – IT services: consulting, software development, Internet and support – Beschaffung, Implementierung und Einführung eines integrierten Cloud-LIMS (native SaaS) für ein akkreditiertes Auftragslabor",
+      "buyer": "Berliner Wasserbetriebe",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/737413-2026",
+      "deadline": "2026-11-23T10:00:00+01:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 7,
+      "spm_post_dce_score": 58,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 40253107860,
+      "source_shard": 8,
+      "review_key": "b74e13059a3b7ed95db2199fed0fd65424147f42be72b043055dd4a9735bc9e9",
+      "artifact_locator": {
+        "dce_run_id": 40253107860,
+        "shard": 8,
+        "candidate_id": "TED:737413-2026",
+        "release_tag": "dce-harvest-40253107860"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -207,14 +252,14 @@
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 40243908734,
-      "source_shard": 11,
-      "review_key": "23888c7f7c1b9950b6f49e4148c8f32bf3ac264baa2a381694ab47167ae1ba3d",
+      "source_dce_run_id": 40253107860,
+      "source_shard": 9,
+      "review_key": "ab635f4e57b3ab6d0ebd7945c45e8884c3f61fdae2e679ef0d70cdfa34a42f7a",
       "artifact_locator": {
-        "dce_run_id": 40243908734,
-        "shard": 11,
+        "dce_run_id": 40253107860,
+        "shard": 9,
         "candidate_id": "WORLD-BANK:OP00475705",
-        "release_tag": "dce-harvest-40243908734"
+        "release_tag": "dce-harvest-40253107860"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -397,52 +442,6 @@
         "shard": 12,
         "candidate_id": "MT-EPPS:14183960",
         "release_tag": "dce-harvest-40170068559"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "IE:9234228",
-      "title": "Request for Tender for Website Optimisation, Hosting, Maintenance, Support and Development Services",
-      "buyer": "Skillnet Ireland",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9234228",
-      "deadline": "2026-11-06T13:00:00+00:00",
-      "estimated_value": 215000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
-      "spm_post_dce_score": 53,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "website-development",
-        "landing-page",
-        "digital-services"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 37597058766,
-      "source_shard": 6,
-      "review_key": "ffa4e1e619c0b203d4ec02be5da84afcb44cd45757850c3f95d0cd9974b95055",
-      "artifact_locator": {
-        "dce_run_id": 37597058766,
-        "shard": 6,
-        "candidate_id": "IE:9234228",
-        "release_tag": "dce-harvest-37597058766"
       },
       "evidence_quality": {
         "raw_status": null,
