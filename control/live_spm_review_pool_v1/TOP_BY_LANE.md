@@ -86,7 +86,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## hosting_support
 - **TED:745397-2026** · FRA · p=78 · deadline=2026-12-01T15:00:00+00:00 · blockers=none · France – Electronic message and information services – 2026-032 - Prestation E-Mailing et hébergement des diffusions presse
-- **TED:696581-2026** · FRA · p=69 · deadline=2026-10-30T10:00:00+00:00 · blockers=none · France – System maintenance services – Renouvellement de la TMA et de l'hébergement du site internet de l'OMECA
 - **TED:657289-2026** · FRA · p=69 · deadline=2026-11-04T01:00:00+00:00 · blockers=none · France – World wide web (www) site operation host services – TMA HEBERGEMENT SITE INTERNET CNAP
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
 - **FR-BOAMP:26-98596** · FR · p=67 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · Hébergement infogéré du site internet de Public Sénat
@@ -105,6 +104,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-83037** · FR · p=61 · deadline=UNKNOWN · blockers=none · Conception, réalisation, mise en production, maintenance et évolution du futur site internet de la CNCCFP
 - **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 - **IE:9082188** · IE · p=59 · deadline=2026-10-30T12:00:00+00:00 · blockers=none · Single-party Framework for the Provision of Website Design, Hosting and Support for New Website and Related Services
+- **IE:9293745** · IE · p=59 · deadline=2026-11-11T12:00:00+00:00 · blockers=none · Provision of Website Hosting and Support Services
 
 ## media_monitoring
 - **IE:9326986** · IE · p=40 · deadline=2026-11-10T18:00:00+00:00 · blockers=none · The provision of Media Monitoring Services for the Department of Foreign Affairs and Trade
@@ -125,11 +125,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:750730-2026** · FRA · p=70 · deadline=2026-11-22T22:00:00+00:00 · blockers=none · France – Printing and delivery services – Le présent Marché a pour objet des prestations d'impression, façonnage et livraison d'affiches, de flyers, de brochures, de magazines, de calicots, de roll-ups et de X-banners, ainsi que des travaux d'impression pour la communication de la Ville (6 lots)
 - **TED:723828-2026** · FRA · p=70 · deadline=2026-11-23T02:00:00+00:00 · blockers=none · France – Printing and related services – Accord cadre relatif à la réalisation de travaux d'impression
 - **TED:722759-2026** · FRA · p=70 · deadline=2026-12-03T01:00:00+00:00 · blockers=none · France – Printing and distribution services – IMPRESSION, FAÇONNAGE, MISE SOUS PLI ET ROUTAGE DE SUPPORTS DE COMMUNICATION POUR LES SERVICES DU DEPARTEMENT DE LOT-ET-GARONNE - 4 Lots
-- **TED:691064-2026** · FRA · p=68 · deadline=2026-10-30T10:00:00+00:00 · blockers=none · France – Printing and related services – Prestations d'impression de documents courants et à caractère confidentiel
 - **TED:667782-2026** · FRA · p=68 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · France – Printing services – Impression de support de communication en couleur en grand, moyen et petit format pour la Ville de Sète
 - **TED:679938-2026** · FRA · p=68 · deadline=2026-11-05T01:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre pour l'impression de documents d'information de la communauté d'agglomération ACCM
 - **TED:701740-2026** · FRA · p=68 · deadline=2026-11-06T01:00:00+00:00 · blockers=none · France – Technical author services – Rédaction, impression, routage du magazine de la Chambre de Métiers et de l'Artisanat Auvergne Rhône-Alpes
 - **TED:694811-2026** · FRA · p=68 · deadline=2026-11-09T02:00:00+00:00 · blockers=none · France – Invoicing services – Édition, mise sous pli, affranchissement et mise en poste des factures, lettres de relance, courriers d'information et pièces jointes associées à l'attention des abonnés pour le compte de la Régie de l'Eau de la CA GPS Seine-Essonne-Sénart.
+- **TED:687376-2026** · FRA · p=68 · deadline=2026-11-10T01:00:00+00:00 · blockers=none · France – Printing and related services – Accord-cadre de maquettage, d'impression, de mise sous pli, d'affranchissement et d'envoi de courriers en nombre dans le cadre du cycle de cotisations du CNOMK
 
 ## promo_goods
 - **TED:687329-2026** · FRA · p=74 · deadline=2026-11-03T01:00:00+00:00 · blockers=none · France – Post and courier services – Prestations d'impression de supports de communication, distribution de documents institutionnels et fourniture d'objets publicitaires pour le service communication de la Communauté de communes Pays d'Evian - Vallée d'Abondance (CCPEVA)
@@ -245,7 +245,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 ## web_cms
 - **TED:692531-2026** · FRA · p=78 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Courier services – Fourniture d’une solution externalisée d’envoi de documents en masse (impression, mise sous pli, affranchissement, et remise à un distributeur), d’archivage, et de suivi des envois via un portail web pour le compte de l’Agence de l’Eau Artois-Picardie
 - **FR-BOAMP:26-96025** · FR · p=72 · deadline=2026-11-06T12:00:00+00:00 · blockers=none · Fourniture d’une solution externalisée d’envoi de documents en masse (impression, mise sous pli, affranchissement, et remise à un distributeur), d’archivage, et de suivi des envois via un portail web
-- **TED:696581-2026** · FRA · p=69 · deadline=2026-10-30T10:00:00+00:00 · blockers=none · France – System maintenance services – Renouvellement de la TMA et de l'hébergement du site internet de l'OMECA
 - **TED:657289-2026** · FRA · p=69 · deadline=2026-11-04T01:00:00+00:00 · blockers=none · France – World wide web (www) site operation host services – TMA HEBERGEMENT SITE INTERNET CNAP
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
 - **FR-BOAMP:26-98596** · FR · p=67 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · Hébergement infogéré du site internet de Public Sénat
@@ -263,4 +262,5 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:730357-2026** · DEU · p=65 · deadline=2026-11-23T09:00:00+00:00 · blockers=none · Germany – IT services: consulting, software development, Internet and support – Ausschreibung über den Betrieb, Hosting und Weiterentwicklung der Website www.kkh.de inklusive Migration auf ein zukunftsfähiges CMS-System
 - **TED:754067-2026** · DEU · p=65 · deadline=2026-12-01T11:00:00+00:00 · blockers=none · Germany – Internet services – Vergabeverfahren Relaunch Website
 - **TED:712676-2026** · IRL · p=63 · deadline=2026-10-30T11:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – Single-party Framework for the Provision of Website Design, Hosting and Support for New Website and Related Services
+- **DE-DOE:25885758:1** · DE · p=61 · deadline=UNKNOWN · blockers=none · Rahmenvertrag Pflege Webseiten
 
