@@ -1,16 +1,16 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 41180771303,
+  "latest_source_dce_run_id": 41207197575,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
-    "US_SAM": 2,
     "DE_DOE": 2,
     "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
     "PL_EZAMOWIENIA": 2,
     "SK_UVO": 2,
-    "TED": 1,
+    "TED": 2,
+    "US_SAM": 1,
     "WORLD_BANK": 1,
     "CA_CANADABUYS": 1,
     "CYPRUS_EPPS": 1,
@@ -20,8 +20,8 @@
     "ZA_ETENDERS": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 9
+    "UNKNOWN_RETRIEVED_DOCUMENT": 12,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 8
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 20
@@ -69,7 +69,7 @@
       }
     },
     {
-      "portal": "US_SAM",
+      "portal": "TED",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -117,7 +117,7 @@
       }
     },
     {
-      "portal": "TED",
+      "portal": "US_SAM",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -143,14 +143,6 @@
   ],
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
-      {
-        "candidate_id": "US-SAM:6c47414f904c470c95769e361f99bb54",
-        "portal": "US_SAM",
-        "title": "AN/BYG-1 Applications Re-Architecture",
-        "buyer": "DEPT OF DEFENSE",
-        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
-        "notice_url": "https://sam.gov/opp/6c47414f904c470c95769e361f99bb54/view"
-      },
       {
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "portal": "DE_DOE",
@@ -182,6 +174,14 @@
         "buyer": "FILMOTEKA NARODOWA - INSTYTUT AUDIOWIZUALNY",
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
         "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df368f-ca09-5149-e2d6-6b000120ba41"
+      },
+      {
+        "candidate_id": "SK-UVO:540250",
+        "portal": "SK_UVO",
+        "title": "Opravy hnacích náprav ZF",
+        "buyer": "Dopravný podnik Bratislava, akciová spoločnosť",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://www.uvo.gov.sk/vyhladavanie/vyhladavanie-zakaziek/detail/540250?cHash=1ee2028c89598d4f377712ab29e79a74"
       }
     ]
   },
