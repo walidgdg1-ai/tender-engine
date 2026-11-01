@@ -141,7 +141,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-97050** · FR · p=54 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · Fourniture et livraison d’articles et objets publicitaires logotés pour la CCINCA
 - **FR-BOAMP:26-103951** · FR · p=54 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Acquisition, marquage et livraison d'objets publicitaires pour la ville de Bussy-Saint-Georges
 - **FR-BOAMP:26-101868** · FR · p=54 · deadline=2026-11-23T15:00:00+00:00 · blockers=none · FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
-- **CA:WS4246767482** · CA · p=48 · deadline=2026-10-31T18:00:00+00:00 · blockers=none · EN578-191297 Request for Supply Arrangement
 - **CA:26-108** · CA · p=48 · deadline=2026-11-03T13:00:00+00:00 · blockers=none · EDC Branded Merchandise Platform
 
 ## research_surveys
@@ -190,14 +189,14 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:699650-2026** · NOR · p=50 · deadline=2032-11-22T11:00:00+00:00 · blockers=none · Norway – Network equipment – Dynamic purchasing system for supplementary procurements, assistance and consultancy services for network systems and equipment.
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:b43661b912ce4ea2a5f2be890a593c79** · US · p=48 · deadline=2026-10-31T23:00:00+00:00 · blockers=none · SOFTWARE LICENSING OPPORTUNITY: CorrelateIQ - Correlation-Based System Intelligence
-- **US-SAM:4ffe8380e6c24c78a74e625cf6c208e2** · US · p=48 · deadline=2026-11-01T00:00:00+00:00 · blockers=none · ArcGIS Software
 - **CA:BPM026777/35173** · CA · p=48 · deadline=2026-11-02T14:00:00+00:00 · blockers=none · Red Hat OpenShift Bare Metal Node
 - **TED:699068-2026** · DEU · p=48 · deadline=2026-11-02T22:59:59+00:00 · blockers=none · Germany – Data-processing machines (hardware) – Neubeschaffung zentraler NetApp Speichersysteme
 - **US-SAM:384e046332864732aa827550df739410** · US · p=48 · deadline=2026-11-05T00:00:00+00:00 · blockers=none · B27-047-082903-0177-Zendesk Licenses
 - **US-SAM:f2413ed545264d0baf1785bbaea33e61** · US · p=48 · deadline=2026-11-05T17:00:00+00:00 · blockers=none · 7A21--CVI 42 Evolve Tier 1 License Subscription
 - **TED:694172-2026** · FIN · p=48 · deadline=2026-11-09T00:00:00+00:00 · blockers=none · Finland – Analytical, scientific, mathematical or forecasting software package – Full spectrum vibro-acoustic software
 - **US-SAM:d86acee05f0a4eb8b91e85cff6342d55** · US · p=48 · deadline=2026-11-09T09:00:00+00:00 · blockers=none · Veeam Data Platform Advanced subscription licenses renewal
+- **FI-HILMA:58923** · FI · p=48 · deadline=2026-11-09T10:00:00+00:00 · blockers=none · Full spectrum vibro-acoustic software
+- **US-SAM:7716091b214f4c8a9aedd224690fcdba** · US · p=48 · deadline=2026-11-13T00:00:00+00:00 · blockers=none · Platform Automation, Implementation, Sustainment, Operations and Licensing
 
 ## transcription
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
