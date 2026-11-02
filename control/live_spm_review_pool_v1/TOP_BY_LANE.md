@@ -6,12 +6,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:752438-2026** · FRA · p=62 · deadline=2026-11-04T02:00:00+00:00 · blockers=none · France – Printing and delivery services – IMPRESSION DE DOCUMENTS DIVERS
 - **TED:719580-2026** · FRA · p=62 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Multi-modal courier services – Solution de gestion, d’impression et d’envoi de courriers multicanal
 - **TED:733363-2026** · FRA · p=62 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Computer archiving services – Numérisation des objets de collection et documents conservés aux Archives et au Musée Français de la Photographie - 2 lots
-- **TED:672161-2026** · FRA · p=60 · deadline=2026-11-02T11:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et diffusion du magazine externe du Département de l'Ain
 - **TED:689362-2026** · FRA · p=60 · deadline=2026-11-06T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
 - **TED:721368-2026** · FRA · p=58 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 - **TED:742950-2026** · FRA · p=58 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution de Haute-Saône Magazine
 - **TED:715996-2026** · FRA · p=57 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-93404** · FR · p=56 · deadline=2026-11-02T11:00:00+00:00 · blockers=none · Impression et diffusion du magazine externe du Département de l'Ain
 - **FR-BOAMP:26-93970** · FR · p=56 · deadline=2026-11-02T12:00:00+00:00 · blockers=none · Programme pluri-annuel de numérisation d'archives - Registres et documents écrits reliés
 - **FR-BOAMP:26-92496** · FR · p=56 · deadline=2026-11-03T14:00:00+00:00 · blockers=none · IMPRESSION DE SUPPORTS DE COMMUNICATION POUR LE COMPTE DU CROUS DE NANTES PAYS DE LA LOIRE
 - **FR-BOAMP:26-104668** · FR · p=56 · deadline=2026-11-04T10:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS
@@ -23,6 +21,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-98852** · FR · p=56 · deadline=2026-11-10T17:00:00+00:00 · blockers=none · Impression des supports de communication de la Ville d'Abbeville
 - **TED:758928-2026** · FRA · p=56 · deadline=2026-11-12T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
 - **FR-BOAMP:26-105832** · FR · p=56 · deadline=2026-11-12T11:00:00+00:00 · blockers=none · Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
+- **FR-BOAMP:26-102761** · FR · p=56 · deadline=2026-11-13T12:00:00+00:00 · blockers=none · Impression de supports de communication
+- **FR-BOAMP:26-100574** · FR · p=56 · deadline=2026-11-16T10:00:00+00:00 · blockers=none · Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -214,7 +214,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **TED:694228-2026** · NOR · p=48 · deadline=2026-11-23T00:00:00+00:00 · blockers=none · Norway – Translation services – Framework Agreement for Norwegian-Northern Sami Translation Services
 - **US-SAM:8db4fcf432f943ad90f0b82920bdfef1** · US · p=45 · deadline=2026-11-10T15:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · CDC Technical Assistance for Program Implementation, Messaging, Evaluation, and Translation Services in Support of Nutrition, Physical Activity, and Obesity Prevention
-- **TED:683267-2026** · DEU · p=40 · deadline=2026-11-02T11:00:00+00:00 · blockers=none · Germany – Translation services – Translation works and services from EN into DE, FR and IT
 - **TED:658505-2026** · NLD · p=40 · deadline=2026-11-06T01:00:00+00:00 · blockers=none · Netherlands – Translation services – Vertaaldiensten Nederlands-Engels
 - **TED:755696-2026** · NLD · p=40 · deadline=2026-11-06T01:00:00+00:00 · blockers=none · Netherlands – Translation services – Vertaaldiensten Nederlands-Engels
 - **TED:709040-2026** · ESP · p=40 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de interpretación y traducción para la Dirección General de Infancia, Familia y Fomento de la Natalidad en el ámbito de sus competencias de protección.
