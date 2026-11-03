@@ -26,12 +26,12 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
-- **TED:716110-2026** · IRL · p=48 · deadline=2026-11-03T11:00:00+00:00 · blockers=none · Ireland – E-learning services – TR5866 A Single Supplier Framework Agreement Digital Learning Design, Development and Maintenance Services pursuant to a framework agreement
 - **TED:737646-2026** · ROU · p=48 · deadline=2026-12-02T02:00:00+00:00 · blockers=none · Romania – Software-related services – Servicii de de dezvoltare, testare și pilotare a soluțiilor digitale, inclusiv instruirea personalului și a utilizatorilor în cadrul proiectului „Dezvoltarea digitală în cadrul parteneriatului între Comuna Căpâlnița și Comuna Lueta”
 - **TED:737382-2026** · POL · p=46 · deadline=2026-12-03T01:00:00+00:00 · blockers=none · Poland – System and support services – Usługa asysty technicznej narzędzia CMS wraz z jego rozbudową
 - **TED:725720-2026** · FRA · p=42 · deadline=2026-11-17T01:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Hébergement, maintenance et gestion des sites internet de l'agglomération, accessibilité numérique, et prestations de marketing digital et de visibilité
 - **FR-BOAMP:26-100835** · FR · p=42 · deadline=2026-11-17T11:00:00+00:00 · blockers=none · Hébergement, maintenance et gestion des sites internet de l'agglomération, accessibilité numérique, et prestations de marketing digital et de visibilité
 - **PL-BZP:08df38e6-ed10-7812-e2d6-6b000120cbb7** · PL · p=38 · deadline=2026-11-10T08:00:00+00:00 · blockers=none · Opracowanie i realizacja 15 filmów edukacyjnych wraz ze scenariuszami i dostosowaniem do standardu WCAG 2.1 (...) i Pracowni AI w działalności dydaktycznej szkoły
+- **TED:703458-2026** · POL · p=38 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · Poland – Command and control system – Budowa oraz wyposażenie układu do monitorowania i sterowania obiektów sieciowych eksploatowanych przez Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. w Rudzie Śląskiej
 
 ## automation_data
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
