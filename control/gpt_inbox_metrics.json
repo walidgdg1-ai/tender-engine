@@ -1,8 +1,8 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-11-03T18:56:22.230116+00:00",
+  "updated_at": "2026-11-03T23:46:57.309834+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 41696364859,
+  "latest_source_dce_run_id": 41741075978,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
@@ -127,36 +127,37 @@
       "SCOTLAND_PCS": 1
     }
   },
-  "review_index_count": 1187,
+  "review_index_count": 1189,
   "review_index_counts": {
-    "pending_total_uncapped": 1187,
+    "pending_total_uncapped": 1189,
     "by_stage": {
-      "BUSINESS_GATES": 873,
+      "BUSINESS_GATES": 875,
       "DCE_AUTHENTICITY": 314
     },
     "by_spm_fit_band": {
       "HOT": 16,
       "GOOD": 59,
       "MAYBE": 78,
-      "LOW": 1034
+      "LOW": 1036
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1027,
-    "cross_portal_duplicates_collapsed": 3
+    "overflow_beyond_hot_160": 1029,
+    "cross_portal_duplicates_collapsed": 1
   },
-  "true_pending_before_hot_cap": 1187,
-  "overflow_beyond_hot_160": 1027,
+  "true_pending_before_hot_cap": 1189,
+  "overflow_beyond_hot_160": 1029,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 0,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 186,
-    "adjudication_rows_scanned_this_refresh": 1420,
-    "gate_rows_seen_this_refresh": 352,
-    "authenticity_rows_seen_this_refresh": 78,
+    "shard_files_scanned_this_refresh": 179,
+    "adjudication_rows_scanned_this_refresh": 1373,
+    "gate_rows_seen_this_refresh": 340,
+    "authenticity_rows_seen_this_refresh": 73,
     "source_runs_seen_this_refresh": [
+      41741075978,
       41696364859,
       41630675962,
       41575743149,
@@ -165,8 +166,7 @@
       41402462858,
       41368532312,
       41350795192,
-      41330398940,
-      41302003899
+      41330398940
     ]
   },
   "healthy": true,
