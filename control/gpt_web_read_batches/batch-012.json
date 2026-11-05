@@ -1,13 +1,55 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-11-05T03:56:24.688571+00:00",
-  "source_inbox_updated_at": "2026-11-05T03:56:23.280059+00:00",
-  "latest_source_dce_run_id": 41963819604,
+  "generated_at": "2026-11-05T11:44:01.066778+00:00",
+  "source_inbox_updated_at": "2026-11-05T11:43:59.173571+00:00",
+  "latest_source_dce_run_id": 42020533787,
   "batch_index": 12,
   "start_rank": 121,
   "end_rank": 130,
   "count": 10,
   "items": [
+    {
+      "candidate_id": "US-SAM:ec03308fb0ff457e9ac4c0418ed3b963",
+      "title": "Enterprise Next (ENX) Draft RFP",
+      "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+      "portal": "US_SAM",
+      "notice_url": "https://sam.gov/opp/ec03308fb0ff457e9ac4c0418ed3b963/view",
+      "deadline": "2026-11-13T20:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
+      "evidence_gate_coverage": 0,
+      "spm_post_dce_score": 11,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 42020533787,
+      "source_shard": 5,
+      "review_key": "65f4f85502cbb5703467f247ee1682cd457f3fbe88e579f987177ded9aa4bd8c",
+      "artifact_locator": {
+        "dce_run_id": 42020533787,
+        "shard": 5,
+        "candidate_id": "US-SAM:ec03308fb0ff457e9ac4c0418ed3b963",
+        "release_tag": "dce-harvest-42020533787"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 4129,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
     {
       "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
       "title": "Messe Augsburg: großflächiger Werbedruck für die Werbeflächen auf dem Messegelände",
@@ -333,14 +375,84 @@
         "release_tag": "dce-harvest-41402462858"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 30379,
+        "attributed_compact_snippets": 1,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "sla_onsite": [
+          {
+            "text": "2016 όπως τροποποιήθηκε και αντικαταστάθηκε με το άρθρο 22 του ν. Ν.4782/2021 (παρ. 1,2 & 4), για τις οποίες οι οικονομικοί φορείς αποκλείονται ή μπορούν να αποκλεισθούν Είναι ενήμεροι ως προς τις υποχρεώσεις που αφορούν της εισφορές κοινωνικής ασφάλισης (κύριας & επικουρικής) και τις φορολογικές τους υποχρεώσεις Οι νόμιμοι εκπρόσωποι Πρόσκληση Υποβολής Προσφοράς Σελίδα 6 Ότι δεν έχουν καταδικασθεί για αδίκημα σχετικά με την άσκηση της επαγγελματικής τους δραστηριότητας και ούτε υπάρχει τελεσίδικη και δεσμευτικ…",
+            "source": "files/26PROC020091342.pdf",
+            "source_url": "https://cerpp.eprocurement.gov.gr/khmdhs-opendata/notice/attachment/26PROC020091342",
+            "source_sha256": "5c3abb5bc2f699f8159b09cc546741b509e81592ae20adfe108b2651cebc98c7",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df368f-ca09-5149-e2d6-6b000120ba41",
+      "title": "Usługa druku materiałów poligraficznych FINA na podstawie projektów i wzorów graficznych dostarczonych przez FINA",
+      "buyer": "FILMOTEKA NARODOWA - INSTYTUT AUDIOWIZUALNY",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df368f-ca09-5149-e2d6-6b000120ba41",
+      "deadline": "2026-11-10T09:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "DCE_AUTHENTICITY",
+      "gate_readiness": false,
+      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
+      "evidence_gate_coverage": 1,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [
+        "workshop"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "MISSING",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 41368532312,
+      "source_shard": 6,
+      "review_key": "783c312b081a68407e88b54591fad168cfe6682a923749151dd63629f9d9b567",
+      "artifact_locator": {
+        "dce_run_id": 41368532312,
+        "shard": 6,
+        "candidate_id": "PL-BZP:08df368f-ca09-5149-e2d6-6b000120ba41",
+        "release_tag": "dce-harvest-41368532312"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 7,
+        "text_chars": 85393,
+        "attributed_compact_snippets": 1,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": true
+      },
+      "evidence": {
+        "submission": [
+          {
+            "text": "jadacz dyń”, reż. Jack Clayton [nośnik: taśma 35 mm] 13 listopada (piątek), godz. 18.00. Tym razem bohaterką odsłony cyklu „Ikony kina | Role nieoczywiste” jest aktorka Anne Bancroft Kino Iluzjon „Pasażer Andrzej Munk” | Pokaz dla nauczycieli 17 listopada (wtorek), godz. 11.00. Specjalny, bezpłatny pokaz oraz spotkanie z reżyserem filmu Archiwa FINA „Archiwa odporne na kryzys” – warsztaty [PL] Do 15 listopada można zgłaszać się do udziału w warsztatach dla pracowników sektora GLAM i pokrewnych FINA Archives Crisis…",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "d98ed8bf0b6cd20291fa9180c9a988f8ff85a1afe0e95bf1bea520a5e031d9e3",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -421,56 +533,73 @@
         "release_tag": "dce-harvest-41765930254"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 4,
+        "text_chars": 175223,
+        "attributed_compact_snippets": 5,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "US-SAM:ec03308fb0ff457e9ac4c0418ed3b963",
-      "title": "Enterprise Next (ENX) Draft RFP",
-      "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
-      "portal": "US_SAM",
-      "notice_url": "https://sam.gov/opp/ec03308fb0ff457e9ac4c0418ed3b963/view",
-      "deadline": "2026-11-13T20:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "UNKNOWN_RETRIEVED_DOCUMENT",
-      "evidence_gate_coverage": 0,
-      "spm_post_dce_score": 11,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 41963819604,
-      "source_shard": 5,
-      "review_key": "7f3dfd5bcde42eb8827ec8841939a792d2f0e2b1710efdaebcb351d208fa3948",
-      "artifact_locator": {
-        "dce_run_id": 41963819604,
-        "shard": 5,
-        "candidate_id": "US-SAM:ec03308fb0ff457e9ac4c0418ed3b963",
-        "release_tag": "dce-harvest-41963819604"
+      "evidence": {
+        "references_experience": [
+          {
+            "text": "(hereinafter referred to as “the Contract”), with contract amount of € ------------------ (in words -------------------------------------------------------------------------------------------------------------- Euro) (hereinafter referred to as “the Contract Amount”), and that the terms of the Contact require the provision of a performance guarantee for an amount equal to 10 percent (10%) of the annual amount of the maintenance and the total amount of the upgrade. At the request of the Consultant, we the undersign…",
+            "source": "files/23391_9374684_unpacked/2_ΕΔ_Head_of_Digital_Services.docx",
+            "source_url": null,
+            "source_sha256": "3511866e7e222a48d91fd106567b6d4bccfa02c69699005df8de8e11a72bc13c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ρατηγικό πλάνο (roadmap) και να διαχειρίζεται το χαρτοφυλάκιο των υπηρεσιών (ψηφιακών και μη), σε πλήρη ευθυγράμμιση με τις προτεραιότητες και τις πολιτικές κατευθύνσεις του Υφυπουργείου (για τη μεγιστοποίηση της προστιθέμενης αξίας και την επίτευξη ουσιαστικού αντίκτυπου για πολίτες και επιχειρήσεις), καθώς και εποπτεία της ανάπτυξης και υλοποίησής τους σε όλα τα στάδια (end-to-end). Σχεδιάζει, συντονίζει και υποστηρίζει την υλοποίηση καινοτόμων οριζόντιων ψηφιακών υπηρεσιών (πέραν των παραδοσιακών υπηρεσιών) και…",
+            "source": "files/23391_9374684_unpacked/2_ΕΔ_Head_of_Digital_Services.docx",
+            "source_url": null,
+            "source_sha256": "3511866e7e222a48d91fd106567b6d4bccfa02c69699005df8de8e11a72bc13c",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/23391_9374684_unpacked/1_c4t_9374684_1.xml ===== Ενότητα «Προϋποθέσεις Συμμετοχής» Παρακαλώ όπως δηλώσετε κατά πόσο είσαστε: Νομικό Πρόσωπο (Να υποβληθούν και τα αποδεικτικά στοιχεία σύστασης) Φυσικό Πρόσωπο</opti",
+            "source": "files/23391_9374684_unpacked/1_c4t_9374684_1.xml",
+            "source_url": null,
+            "source_sha256": "643734c259c347859db35fb7eaa865ea2702aba55a564a15511a7dc111843776",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "set-24=\"false\" many-for-one=\"false\" pack-in=\"2\" xmlversion=\"1\" internal-id=\"2026/null/16\"> Ενότητα «Προϋποθέσεις Συμμετοχής» Παρακαλώ όπως δηλώσετε κατά πόσο είσαστε: Νομικό Πρόσωπο (Να υποβληθούν και τα αποδεικτικά στοιχεία σύστασης) Φυσικό Πρόσωπο Κοινοπραξία Σε περίπτωση που ο προσφέρων είναι Νομικό π",
+            "source": "files/23391_9374684_unpacked/1_c4t_9374684_1.xml",
+            "source_url": null,
+            "source_sha256": "643734c259c347859db35fb7eaa865ea2702aba55a564a15511a7dc111843776",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "Προκηρύξεις Έγγραφα Διαγωνισμού 10 20 50 100 Αποτελέσματα ανά σελίδα | Προβολή του 1 αποτελέσματος. Columns Κωδικός Παραρτήματος Τίτλος Αρχείο Περιγραφή Γλώσσα Ενέργειες N/A Παροχή Υπηρεσιών Εμπειρογνώμονα Head of Digital Services για τις ανάγκες του Υφυπουργείου Έρευνας, Καινοτομίας και Ψηφιακής Πολιτικής ΕΔ_Head_of_Digital_Services.docx EL Φόρτωση Zip αρχείου Δημοσιευμένο Ετήσιο Πλάνο Διαγωνισμών. Πρόσφατοι Διαγωνισμοί Πληροφορίες Αποσφράγισης Νομοθεσία Δημοσίων Συμβάσεων Στατιστικά Ημερολόγιο Ηλεκτρονικές Δημόσ…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "bf7b09c6d7c95abda0db0b06d9c41260636bb1ae7cfb7b971aa70446dca2f374",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
       },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -545,48 +674,6 @@
         "shard": 5,
         "candidate_id": "za_etenders_ocds:ocds-9t57fa-160797",
         "release_tag": "dce-harvest-32300419254"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "CA:EN578-24ISC4/94",
-      "title": "MINERVA Initiative – Uncrewed Aircraft System Deconfliction",
-      "buyer": null,
-      "portal": "CA_CANADABUYS",
-      "notice_url": null,
-      "deadline": "2026-11-18T14:00:00+00:00",
-      "estimated_value": null,
-      "currency": "CAD",
-      "review_stage": "DCE_AUTHENTICITY",
-      "gate_readiness": false,
-      "content_quality": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 22,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "MISSING",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 41817737543,
-      "source_shard": 22,
-      "review_key": "ba854b1c749104ee6dc830366fe5c6340d0c583b70926984239c62e5d16ff66d",
-      "artifact_locator": {
-        "dce_run_id": 41817737543,
-        "shard": 22,
-        "candidate_id": "CA:EN578-24ISC4/94",
-        "release_tag": "dce-harvest-41817737543"
       },
       "evidence_quality": {
         "raw_status": null,
