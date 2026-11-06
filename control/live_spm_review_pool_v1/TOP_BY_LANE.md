@@ -58,8 +58,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## design_dtp
 - **TED:744409-2026** · FRA · p=74 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Digital printing services – TRAITEMENT DES INFORMATIONS, MISE EN PAGE, IMPRESSION, CONDITIONNEMENT ET ACHEMINEMENT DES DOCUMENTS DES PUBLICITES DE COLLECTES (AFFICHES ET FLYERS) DES ETABLISSEMENTS DE METROPOLE DE L’EFS
-- **FR-BOAMP:26-97117** · FR · p=72 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · Magazine « CCI Économie » Rédaction – régie publicitaire – mise en page – impression – routage -Photographie Période : février 2027 – décembre 2029
-- **TED:699934-2026** · FRA · p=72 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · France – Advertising services – Magazine « CCI Économie » Rédaction – régie publicitaire – mise en page – impression – routage et photographie 2027 - 2029
 - **TED:704649-2026** · FRA · p=70 · deadline=2026-11-09T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Préparation éditoriale, mise en page, gravure, impression et diffusion du journal municipal de la Ville de Grenoble
 - **TED:719073-2026** · FRA · p=70 · deadline=2026-11-17T01:00:00+00:00 · blockers=none · France – Graphic design services – MISSION DE GRAPHISME ET D'ILLUSTRATION POUR LA CONCEPTION, LA REALISATION ET LE SUIVI D'INTEGRATION DU VISUEL ET DU GRAPHISME GENERAL DU DISPOSITIF ITINERANT "PULSE"
 - **TED:757529-2025** · FRA · p=70 · deadline=UNKNOWN · blockers=none · France – Typing, word-processing and desktop publishing services – Prestations de reconnaissance vocale ou de sténotypie suivie de retranscription des séances du Conseil d'administration du CASVP et de ses organes consultatifs.
@@ -77,6 +75,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-105321** · FR · p=58 · deadline=UNKNOWN · blockers=none · Mise en page du magazine Topo de la Bml - Relance
 - **FR-BOAMP:26-86431** · FR · p=58 · deadline=UNKNOWN · blockers=none · Magazine municipal, Agenda et Plan de ville de la Commune de Privas : Conception, mise en page, régie publicitaire, impression, façonnage et livraison sans diffusion
 - **FR-BOAMP:26-91257** · FR · p=58 · deadline=UNKNOWN · blockers=none · Refonte de la maquette graphique et mise en page du magazine de Saint-Malo Agglomération
+- **FR-BOAMP:26-92126** · FR · p=58 · deadline=UNKNOWN · blockers=none · Refonte graphique de la maquette, réalisation de la mise en page et d'impression du magazine municipal
+- **FR-BOAMP:26-92654** · FR · p=58 · deadline=UNKNOWN · blockers=none · Refonte graphique de la maquette, réalisation de la mise en page et d'impression du magazine municipal
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -118,8 +118,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 ## print_broker
 - **TED:745397-2026** · FRA · p=78 · deadline=2026-12-01T15:00:00+00:00 · blockers=none · France – Electronic message and information services – 2026-032 - Prestation E-Mailing et hébergement des diffusions presse
 - **TED:744409-2026** · FRA · p=74 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Digital printing services – TRAITEMENT DES INFORMATIONS, MISE EN PAGE, IMPRESSION, CONDITIONNEMENT ET ACHEMINEMENT DES DOCUMENTS DES PUBLICITES DE COLLECTES (AFFICHES ET FLYERS) DES ETABLISSEMENTS DE METROPOLE DE L’EFS
-- **FR-BOAMP:26-97117** · FR · p=72 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · Magazine « CCI Économie » Rédaction – régie publicitaire – mise en page – impression – routage -Photographie Période : février 2027 – décembre 2029
-- **TED:699934-2026** · FRA · p=72 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · France – Advertising services – Magazine « CCI Économie » Rédaction – régie publicitaire – mise en page – impression – routage et photographie 2027 - 2029
 - **FR-BOAMP:26-96025** · FR · p=72 · deadline=2026-11-06T12:00:00+00:00 · blockers=none · Fourniture d’une solution externalisée d’envoi de documents en masse (impression, mise sous pli, affranchissement, et remise à un distributeur), d’archivage, et de suivi des envois via un portail web
 - **TED:690101-2026** · FRA · p=70 · deadline=2026-11-09T01:00:00+00:00 · blockers=none · France – Printing and related services – Travaux d'impression et sérigraphie des véhicules pour les besoins de la Chambre de Métiers d'Alsace
 - **TED:770584-2026** · FRA · p=70 · deadline=2026-11-10T10:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression, routage des avis d’échéances mensuels des loyers, des enquêtes SLS et OPS, et des avis de notification de charges au profit de Côte d’Azur Habitat
@@ -136,6 +134,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:713873-2026** · FRA · p=68 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing services – Prestations d’impression de supports de communication pour le groupement de commandes composé de la Commune de Bezons et de son Centre Communal d'Action Sociale (CCAS)
 - **TED:717452-2026** · FRA · p=68 · deadline=2026-11-20T01:00:00+00:00 · blockers=none · France – Printing and related services – Prestations d’impression pour le Conservatoire National Supérieur de Musique et de Danse de Paris
 - **TED:755541-2026** · FRA · p=68 · deadline=2026-12-03T01:00:00+00:00 · blockers=none · France – Printing services – IMPRESSION DES DOCUMENTS ADMINISTRATIFS ET DE COMMUNICATION POUR LE GROUPEMENT DE COMMANDES : VILLE DE CANET-EN-ROUSSILLON, CCAS, CANET TOURISME ET SPL SILLAGES
+- **TED:688836-2026** · FRA · p=66 · deadline=2026-11-09T02:00:00+00:00 · blockers=none · France – Printing and delivery services – 26GHT24 - Relance suite à déclaration sans suite du lot 2 pour les travaux d'impression et façonnage
+- **TED:713442-2026** · FRA · p=66 · deadline=2026-11-12T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression, conditionnement, stockage et routage de sujets de concours et d'examens professionnels pour l'ensemble des services du ministère de la Justice
 
 ## promo_goods
 - **TED:726457-2026** · FRA · p=60 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
@@ -219,14 +219,13 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **TED:694228-2026** · NOR · p=48 · deadline=2026-11-23T00:00:00+00:00 · blockers=none · Norway – Translation services – Framework Agreement for Norwegian-Northern Sami Translation Services
 - **US-SAM:8db4fcf432f943ad90f0b82920bdfef1** · US · p=45 · deadline=2026-11-10T15:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · CDC Technical Assistance for Program Implementation, Messaging, Evaluation, and Translation Services in Support of Nutrition, Physical Activity, and Obesity Prevention
-- **TED:658505-2026** · NLD · p=40 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · Netherlands – Translation services – Vertaaldiensten Nederlands-Engels
-- **TED:755696-2026** · NLD · p=40 · deadline=2026-11-06T11:00:00+00:00 · blockers=none · Netherlands – Translation services – Vertaaldiensten Nederlands-Engels
 - **TED:709040-2026** · ESP · p=40 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de interpretación y traducción para la Dirección General de Infancia, Familia y Fomento de la Natalidad en el ámbito de sus competencias de protección.
 - **TED:750606-2026** · DEU · p=40 · deadline=2026-11-20T22:59:00+00:00 · blockers=none · Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)
 - **TED:755183-2026** · ESP · p=40 · deadline=2026-11-27T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de traducción, interpretación y transcripción en los órganos judiciales, la fiscalía, el instituto de medicina legal y ciencias forenses de Cantabria y la oficina de asistencia a las víctimas del delito que tienen su sede en la comunidad Autónoma de Cantabria.
 - **TED:756747-2026** · BEL · p=40 · deadline=2026-11-30T11:00:00+00:00 · blockers=none · Belgium – Translation services – Aanleveren van OT voor VRT-producties
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
 - **TED:715138-2026** · FIN · p=38 · deadline=2026-11-16T00:00:00+00:00 · blockers=none · Finland – Translation services – Käännöspalvelut
+- **TED:763025-2026** · FIN · p=38 · deadline=2026-11-17T13:00:00+00:00 · blockers=none · Finland – Translation services – Valtioneuvoston ja oikeuskanslerinviraston monikielisiä käännöspalveluita koskeva puitejärjestely 2027-2029 (2030/2031)
 
 ## video_media
 - **TED:761518-2026** · FRA · p=68 · deadline=2027-01-08T01:00:00+00:00 · blockers=none · France – Motion picture and video tape production and related services – Restauration, numérisation et sauvegarde de films cinématographiques et prestations associées
