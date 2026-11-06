@@ -1,15 +1,15 @@
 {
   "schema": "GPT_LIVE_BUSINESS_REVIEW_BATCH_V1",
-  "generated_at": "2026-11-05T22:24:03.010159+00:00",
-  "source_inbox_updated_at": "2026-11-05T19:08:55.216011+00:00",
-  "latest_source_dce_run_id": 42089288309,
-  "unreviewed_gate_ready_total": 140,
+  "generated_at": "2026-11-06T02:40:10.964680+00:00",
+  "source_inbox_updated_at": "2026-11-06T00:05:56.359536+00:00",
+  "latest_source_dce_run_id": 42133193112,
+  "unreviewed_gate_ready_total": 139,
   "selected": 30,
   "skipped": {
     "wrong_stage": 20,
     "not_gate_ready": 0,
     "already_final": 0,
-    "already_reviewed": 0
+    "already_reviewed": 1
   },
   "items": [
     {
@@ -158,7 +158,7 @@
     },
     {
       "candidate_id": "TED:685125-2026",
-      "review_key": "a9c248ec2faf10404e1705c28a8cabb89e6bef29031f6c20c0a30a13a44544dd",
+      "review_key": "08da94d1d5bf420fc5e3b785b097903ec60df572ef5e817e9c5d68b48e8f3ff0",
       "title": "Germany – Graphic design services – Rahmenvertrag Grafik ab 2027",
       "buyer": "Verbraucherzentrale Bundesverband e.V.",
       "portal": "TED",
@@ -167,7 +167,7 @@
       "best_submission_deadline": "2026-11-09T01:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 42089288309,
+      "source_dce_run_id": 42133193112,
       "source_shard": 0,
       "spm_post_dce_score": 69,
       "pipeline_priority": 100,
@@ -254,7 +254,7 @@
     },
     {
       "candidate_id": "TED:699483-2026",
-      "review_key": "6587a1ea96650828d1f88ebe630ede641f7e4a7a24267b6a3344acad11fca0df",
+      "review_key": "934dbd3dca6ac527ad1f9d85cc5b83216b3e995ce2d80c17430f574683d33d9f",
       "title": "France – Printing services – Groupement de commande relatif à l’impression, au façonnage, à la mise sous pli, la livraison et le routage de support de communication et d’information",
       "buyer": "COMUE de Toulouse",
       "portal": "TED",
@@ -263,7 +263,7 @@
       "best_submission_deadline": "2026-11-09T02:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 42020533787,
+      "source_dce_run_id": 42133193112,
       "source_shard": 12,
       "spm_post_dce_score": 66,
       "pipeline_priority": 97,
@@ -272,8 +272,92 @@
         "authoritative_gate_ready"
       ],
       "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
+      "deadline_authority": {
+        "status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
+        "conflict": true,
+        "notice_deadline_raw": "2026-11-09T02:00:00+00:00",
+        "notice_deadline_date": "2026-11-09",
+        "authoritative_submission_date": null,
+        "submission_deadline_candidates": [],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-11-09"
+        ],
+        "labelled_evidence": [],
+        "evidence": [
+          {
+            "date": "2026-11-09",
+            "match": "9 novembre 2026",
+            "context": "rt en application des articles L.2124-1, L.2124-2 et R.2124-1 et R.2124-2, \nR.2161-2 à R.2161-5 du Code de la Commande Publique \n \n \n  \n \n \nREGISTRE DES QUESTIONS REPONSES \n \n \n \n \nDate limite de remise des plis : Lundi 9 novembre 2026 à 12h00 (GMT +1) \n \n \n\n \n \n \n \n \nQuestion 1 : Bonjour, Sur quel format doit on établir notre tarif pour le panneau d'exposition \nen PVC 5mm et en Dibond svp?  Le plus grand format proposé par la fourchette ou le plus \np"
+          },
+          {
+            "date": "2026-11-09",
+            "match": "9 novembre 2026",
+            "context": "rt en application des articles L.2124-1, L.2124-2 et R.2124-1 et R.2124-2, \nR.2161-2 à R.2161-5 du Code de la Commande Publique \n \n \n  \n \n \nREGISTRE DES QUESTIONS REPONSES \n \n \n \n \nDate limite de remise des plis : Lundi 9 novembre 2026 à 12h00 (GMT +1) \n \n \n\n \n \n \n \n \nQuestion 1 : Bonjour, Sur quel format doit on établir notre tarif pour le panneau d'exposition \nen PVC 5mm et en Dibond svp?  Le plus grand format proposé par la fourchette ou le plus \np"
+          },
+          {
+            "date": "2026-11-09",
+            "match": "9 novembre 2026",
+            "context": "rt en application des articles L.2124-1, L.2124-2 et R.2124-1 et R.2124-2, \nR.2161-2 à R.2161-5 du Code de la Commande Publique \n \n \n  \n \n \nREGISTRE DES QUESTIONS REPONSES \n \n \n \n \nDate limite de remise des plis : Lundi 9 novembre 2026 à 12h00 (GMT +1) \n \n \n\n \n \n \n \n \nQuestion 1 : Bonjour, Sur quel format doit on établir notre tarif pour le panneau d'exposition \nen PVC 5mm et en Dibond svp?  Le plus grand format proposé par la fourchette ou le plus \np"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 7,
+          "corpus_contexts": 5,
+          "unique_contexts": 9
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "evidence": {
+        "entity_geography": [
+          "numéro du compte bancaire ou postal ; · la date d’exécution des prestations ; · la nature des prestations exécutées ; · la désignation de l’organisme débiteur · le montant des prestations admises, établi conformément aux stipulations du marché, hors TVA · les montants et taux de TVA légalement applicables ou le cas échéant le bénéfice d’une exonération ; · le cas échéant, applications des réfactions fixées conformément aux dispositions du CCAG-FCS ; · Tout rabais, remises, ristournes ou escomptes · le montant total",
+          "estations ; · la nature des prestations exécutées ; · la désignation de l’organisme débiteur · le montant des prestations admises, établi conformément aux stipulations du marché, hors TVA · les montants et taux de TVA légalement applicables ou le cas échéant le bénéfice d’une exonération ; · le cas échéant, applications des réfactions fixées conformément aux dispositions du CCAG-FCS ; · Tout rabais, remises, ristournes ou escomptes · le montant total TTC des prestations livrées ou exécutées ; · la date de facturati"
+        ],
+        "references_experience": [
+          "..................... 7 1.7 Maximum de l’accord cadre .................................................................. 7 1.8 Lieu de livraison ..................................................................................... 7 1.9 Variantes/ tranches/ PSE ....................................................................... 8 1.9.1 Variantes ........................................................................................ 8 1.9.2 Tranches...............................................................",
+          "1 Avenue Marc Pélegrin - BP 84373 31055 Toulouse Cedex 4 – France 8 COMUE : Du Lundi au Vendredi de 9h à 16h hors jours fériés et périodes de fermeture estivales. • MRV : 75 cours des sciences 31400 Toulouse • AJG : 41 allées Jules Guesde 31000 Toulouse • RDL :15 rue des Lois 31000 Toulouse • MFJA : 1 rue Tarfaya 31400 Toulouse • SGE : 75 allées des platanes 31400 Toulouse 1.9 Variantes/ tranches/ PSE 1.9.1 Variantes La présente procédure n’autorise pas les variantes 1.9.2 Tranches Le présent marché ne comprend pas"
+        ],
+        "certifications_partner": [
+          "hé est cédé : - Une copie de l’acte de fusion ou d’abs orption définitif déposé au greffe du Tribunal de Commerce territorialement compétent ; - Une copie de l’annonce légale ; - Le pouvoir de la personne habilitée à engager la société ; - Un RIB pour les nouvelles coordonnées bancaires ; - Un extrait Kbis original de moins de trois mois faisant apparaître la fusion ou l’absorption de la société correspondante ; - Les attestations fiscales et sociales mentionnées dans les articles R2143 -7 à R2143-9 et l’arrêté du ",
+          "stifiée au stade de l’offre. Dans ce cas et seulement dans ce cas, la transmission des documents évoqués ci-dessus n’est pas nécessaire. 1.2 QUALITE ECORESPONSABLE DES SUPPORTS IMPRIMES Le titulaire doit proposer des supports ayant un caractère éco -responsable, et doit également veiller à l’optimisation des matières utilisées : • Le choix du papier devra être, par ordre de priorité décroissant : papier recyclé, papier éco - labellisé écolabel européen, NF environnement, Ange bleu ou équivalent, papier certifié iss"
+        ],
+        "staffing_team": [
+          "les 20260720_SaisonsEtudiantes_FlyerA5_BAT.indd 120260720_SaisonsEtudiantes_FlyerA5_BAT.indd 1 20/07/2026 12:2420/07/2026 12:24 FOCUS SUR LES ÉVÉNEMENTS DE LA RENTRÉE Mardi 6 octobre CONCERT D’ORGUE 20h • Église du Gesù En avant-première du 31e Festival international Toulouse les Orgues, la jeune organiste ukrainienne Dariia Lytvishko alternera des pièces du répertoire classique aux thèmes de musiques de films qu’elle a adaptés pour son instrument. Samedi 17 octobre PROMENADES INSOLITES 14h • La Turbine - Cité inte",
+          "pliants, affiches sucettes, bâches, etc.). ARTICLE 3 ENGAGEMENT DU TITULAIRE Conformément aux dispositions de l’article R2111-4 du code de la commande publique , la fabrication de l’ensemble des imprimés définis ci-dessous, le choix du papier, l’encre utilisée, et les conditions de travail dans les ateliers de fabrication desdits documents devront répondre aux normes en vigueur. Les titulaires s’engagent à exécuter les prestations avec tout le soin en usage dans la profession. Il s s’engagent également à mettre en "
+        ],
+        "insurance_bonds": [
+          "a Comue vis-à-vis du titulaire ............................. 28 13.13 Utilisation des données par le facilitateur de la clause sociale ..... 28 ARTICLE 14– MODIFICATIONS RELATIVES AU TITULAIRE DU MARCHE . 29 14.1 Changement de dénomination sociale du titulaire ......................... 29 14.2 Nouvelle entreprise née de la fusion ou de l’absorption du titulaire 29 14.3 Modifications de la structure d’exercice du titulaire ...................... 30 ARTICLE 15 – RESILIATION ...........................................",
+          "régularisation. ARTICLE 7– REGIME FINANCIER 7.1 Monnaie L’unité monétaire qui s’applique est l’Euro. 7.2 Taux de TVA Sont applicables les taux de TVA en vigueur lors du fait générateur de la taxe au sens de l'article 269 du code général des impôts. 7.3 Forme et contenu des prix Le présent accord cadre est conclu à prix unitaires. Les prix sont révisables. 17 Les prix du marché comprennent toutes les c harges fiscales, parafiscales ou autres frappant obligatoirement la prestation, ainsi que tous les frais afférents "
+        ],
+        "subcontracting_consortium": [
+          "| | Montauban | | | | | | | Figeac | | | | | | | Albi | | | | | | | Foix | | | | | | | Auch | | | | | | | Tarbes | | | | | | | Montpellier | | | | | | | Aurtres villes France métropolitaine | | | | | | | Suppléments | PRIX FORFAITAIRE HT | PRIX FORFAITAIRE TTC | PRIX FORFAITAIRE HT | PRIX FORFAITAIRE TTC | PRIX FORFAITAIRE HT | PRIX FORFAITAIRE TTC | Supplément pour course flash: délai compris entre ……..h et ………h | | | | | | | ===== FILE: files/DCE 2026-099_101_unpacked/DCE 2026-099à101/CCAP impression v.2.pdf ====",
+          "minimum et avec un maximum de 480 000€ HT (lot 1),220 000€ HT (lot 2), 45 000€ HT (lot 3) sur la durée totale du marché . Le présent marché est composé de 3 lots Révision du prix : annuelle L’avance peut -être versée si le montant du bon de commande est supérieur à 50 000€ HT et si la durée d’exécution est supérieure à 2 mois. : 20% du montant TTC du bon de commande 3 Table des matières Synthèse de la consultation ............................................................................. 2 ARTICLE 1 – DISPOSITIO"
+        ],
+        "deliverables_scope": [
+          "..................... 7 1.7 Maximum de l’accord cadre .................................................................. 7 1.8 Lieu de livraison ..................................................................................... 7 1.9 Variantes/ tranches/ PSE ....................................................................... 8 1.9.1 Variantes ........................................................................................ 8 1.9.2 Tranches...............................................................",
+          "......................................... 13 4 5.3 Bons de commande ............................................................................. 14 5.4 Modification d’un bon de commande ................................................. 14 5.5 Suspension d’un bon de commande .................................................. 15 5.6 Résiliation d’un bon de commande .................................................... 15 5.7 Commandes hors BPU ........................................................................ 1"
+        ],
+        "sla_onsite": [
+          "au long de la durée de régularisation. ARTICLE 7– REGIME FINANCIER 7.1 Monnaie L’unité monétaire qui s’applique est l’Euro. 7.2 Taux de TVA Sont applicables les taux de TVA en vigueur lors du fait générateur de la taxe au sens de l'article 269 du code général des impôts. 7.3 Forme et contenu des prix Le présent accord cadre est conclu à prix unitaires. Les prix sont révisables. 17 Les prix du marché comprennent toutes les c harges fiscales, parafiscales ou autres frappant obligatoirement la prestation, ainsi que to",
+          "ail de facturation Chorus Pro. Siret du CREPS de Toulouse : 193 100 989 00014 8.7 Paiement des co-traitants En cas de groupement conjoint, chaque membre du groupement perçoit directement les sommes se rapportant à l'exécution de ses propres prestations. En cas de groupement solidaire, le paiement est effectué sur un compte unique, ouvert au nom du mandataire, sauf stipulation contraire prévue à l'acte d'engagement. 8.8 Les intérêts moratoires Les sommes dues en exécution du marché sont payées conformément aux dispo"
+        ],
+        "term_value": [
+          "utage de support de communication et d’information Appel d’offre ouvert en application des articles L.2124-1, L.2124-2 et R.2124-1 et R.2124-2, R.2161-2 à R.2161-5 du Code de la Commande Publique Cahier des Clauses Administratives particulières (C.C.A.P) Coordonateur : Comue de Toulouse 41 allées Jules Guesde CS 61321 31013 TOULOUSE CEDEX 6 Tél : 05 61 14 80 11 2 Synthèse de la consultation Le CCAG applicable au présent marché est le CCAG FCS Le présent CCAP contient de considérations environnementales Le présent C",
+          "ation et d’information Appel d’offre ouvert en application des articles L.2124-1, L.2124-2 et R.2124-1 et R.2124-2, R.2161-2 à R.2161-5 du Code de la Commande Publique Cahier des Clauses Administratives particulières (C.C.A.P) Coordonateur : Comue de Toulouse 41 allées Jules Guesde CS 61321 31013 TOULOUSE CEDEX 6 Tél : 05 61 14 80 11 2 Synthèse de la consultation Le CCAG applicable au présent marché est le CCAG FCS Le présent CCAP contient de considérations environnementales Le présent CCAP contient de considératio"
+        ],
+        "forms_signatures": [
+          "arrive qu’une fois dans l’année ! Mardi 13 octobre NUIT DES ÉTUDIANTS DU MONDE 18h • Hôtel de Ville Dès 19h • Flashback Café Réception officielle à l’Hôtel de Ville réservée aux étudiants internationaux, suivie d’une soirée karaoké, quiz, jeux et DJ set au Flashback Café ouverte à toute la communauté étudiante ! Les Saisons étudiantes vous donnent rendez-vous toute l’année pour un ensemble de manifestations sportives, culturelles et festives gratuites, dans un cadre convivial. Saisissez ces occasions pour sortir, d",
+          "pénalités à sa discrétion car il appartient toutefois aux candidats de choisir les réseaux et partenaires lui garantissant les meilleurs résultats. Cette possibilité de suspension est laissée à la libre appréciation du coordonnateur selon le caractère exceptionnel des dysfonctionnements évoqués et les problèmes provoqués. ARTICLE 3 – PIECES CONTRACTUELLES Par dérogation à l’article 4.1 du CCAG FCS le marché est constitué des documents contractuels énumérés ci -dessous, par ordre de priorité décroissante dont l’exem"
+        ],
+        "submission": [
+          "la demande de révision sera rejetée. La demande doit être en voyée au service marché de la Comue : marche@univ-toulouse.fr. Lors de la demande de révision, le titulaire indique le mois de l’indice utilisé pour le calcul. La révision entre en vigueur 1 mois après la notification au coordonnateur sans observation de sa part. Ce délai de 1 mois est prolongé lors des fermetures de l’établissement à savoir 2 semaines sur les vacances de Noël et 3 semaines et demi sur les vacances d’été. La révision se fera selon la form",
+          "t à savoir 2 semaines sur les vacances de Noël et 3 semaines et demi sur les vacances d’été. La révision se fera selon la formule suivante ; P= Po X (0.15 + 0.85 X I/Io) Dans laquelle : P : prix révisé Po : prix initial fixé à la date de remise des offres I : dernière valeur de l’indice INSEE de prix de production de l'industrie française pour le marché français − CPF 18.1 − Travaux d'impression et services connexes https://www.insee.fr/fr/statistiques/serie/010764131 Io : indice des de production de l'industrie fr"
+        ],
+        "ip_data_security": [
+          "énalités en cas de non-respect des dispositions du code du travail sur le travail dissimulé ................................................................................ 22 9.6 Pénalités pour non-conformité d’un document livré ......................... 22 ARTICLE 10- EXECUTION AUX FRAIS ET RISQUES POUR PROBLEMES TEMPORAIRES ................................................................................................ 23 ARTICLE 11- STATISTIQUES ..................................................................",
+          "............... 24 5 13.1 Description du traitement de données à caractère personnel ....... 24 13.2 Obligation du titulaire vis-à-vis de la Comue .................................. 24 13.3 Droit d’information des personnes concernées ............................. 26 13.4 Exercice droits des personnes ......................................................... 26 13.5 Notification des violations de données à caractère personnel ...... 26 13.6 Aide du titulaire dans le cadre du respect par la Comue de ses obligations "
+        ]
+      },
       "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
     },
     {
@@ -565,54 +649,6 @@
       "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
     },
     {
-      "candidate_id": "TED:688774-2026",
-      "review_key": "a4c0c576ac3b34b8f7b3b315e47f987e672af1c636d9ccda90d3fa3d0b0c4ed7",
-      "title": "Germany – IT services: consulting, software development, Internet and support – Streaming Portal und ZDFheute",
-      "buyer": "Zweites Deutsches Fernsehen",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/688774-2026",
-      "notice_deadline": "2026-11-05T12:00:00+01:00",
-      "best_submission_deadline": "2026-11-05T12:00:00+01:00",
-      "estimated_value": null,
-      "currency": null,
-      "source_dce_run_id": 41368532312,
-      "source_shard": 0,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
-      "candidate_id": "TED:665772-2026",
-      "review_key": "4b99d52dfdd8e72e9c07c3ec2a4b12b3333278579a7b0d219b2fe0e7dcc6fd9a",
-      "title": "Belgium – Custom software development services – Vernieuwing en functionele uitbreiding van de „Espace Personnel“ – Oplossing voor de digitalisering van administratieve procedures voor burgers van de gemeente Schaerbeek",
-      "buyer": "Schaerbeek",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/665772-2026",
-      "notice_deadline": "2026-11-05T01:00:00+00:00",
-      "best_submission_deadline": "2026-11-05T01:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "source_dce_run_id": 41368532312,
-      "source_shard": 46,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
       "candidate_id": "TED:757551-2026",
       "review_key": "ffef51a628499ca47517607adcc20a5ffebae60f9af6a3728be0846e955288dd",
       "title": "Germany – Business intelligence software development services – Business Intelligence (BI) Software",
@@ -638,7 +674,7 @@
     },
     {
       "candidate_id": "US-SAM:7ef48ec2fcc64118a1233db9cb4ff9a9",
-      "review_key": "846df9c14335a89967880e23493e57fead5370d5cb4e46d9933bb0e051672085",
+      "review_key": "9214d212c5f3188444a1cef78287730473ae0c5c18c66136274916a82d7d908b",
       "title": "GUATEMALA Software Development Services for GIO Information Exchange Platform",
       "buyer": "STATE, DEPARTMENT OF",
       "portal": "US_SAM",
@@ -647,32 +683,8 @@
       "best_submission_deadline": "2026-11-30T23:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 42089288309,
+      "source_dce_run_id": 42133193112,
       "source_shard": 7,
-      "spm_post_dce_score": 63,
-      "pipeline_priority": 94,
-      "rank_reasons": [
-        "native_spm_scope",
-        "authoritative_gate_ready"
-      ],
-      "gate_burden_signals": [],
-      "deadline_authority": null,
-      "evidence": {},
-      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
-    },
-    {
-      "candidate_id": "TED:721796-2026",
-      "review_key": "4ffc039b57f963d02c5fef9a50dc2d1a6bff0049b20edb6f2a5b1ad1f9d7eb96",
-      "title": "Germany – IT services: consulting, software development, Internet and support – L-Bank - Europaweite Vergabe einer KI-gestützten Lösung zur Verarbeitung von Elterngeldanträgen und Nachweisen im Verhandlungsverfahren mit Teilnahmewettbewerb nach VgV",
-      "buyer": "Landeskreditbank Baden-Württemberg - Förderbank - (L-Bank)",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/721796-2026",
-      "notice_deadline": "2026-11-05T23:59:59+01:00",
-      "best_submission_deadline": "2026-11-05T23:59:59+01:00",
-      "estimated_value": null,
-      "currency": null,
-      "source_dce_run_id": 41696364859,
-      "source_shard": 0,
       "spm_post_dce_score": 63,
       "pipeline_priority": 94,
       "rank_reasons": [
@@ -710,7 +722,7 @@
     },
     {
       "candidate_id": "TED:734404-2026",
-      "review_key": "3f959e7b54e54dd245c9fe9b123cce0a016b860a64779f7b650b51ecd25f13bd",
+      "review_key": "6e10c6d615e275938f57065f472e6ce0fe268d0d879b9357da76416366d03052",
       "title": "Poland – Printing services – Wykonanie usługi wydruku biuletynu wroclaw.pl",
       "buyer": "Agencja Rozwoju Aglomeracji Wrocławskiej Spółka Akcyjna",
       "portal": "TED",
@@ -719,10 +731,82 @@
       "best_submission_deadline": "2026-11-09T01:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "source_dce_run_id": 42089288309,
+      "source_dce_run_id": 42133193112,
       "source_shard": 8,
       "spm_post_dce_score": 63,
       "pipeline_priority": 94,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:746825-2026",
+      "review_key": "5f20e3c6c4a3b1c9ec678779daba563a806ec423cd0496bc970e9622a440c77f",
+      "title": "Lithuania – Printing services – Spausdinimo paslaugos (Atviras tarptautinis pirkimas)",
+      "buyer": "VšĮ Vilniaus pirkimų agentūra",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/746825-2026",
+      "notice_deadline": "2026-11-27T02:00:00+00:00",
+      "best_submission_deadline": "2026-11-27T02:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "source_dce_run_id": 41630675962,
+      "source_shard": 36,
+      "spm_post_dce_score": 63,
+      "pipeline_priority": 94,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:787674-2025",
+      "review_key": "7e36892e6ce2b7cdc5a2b577b446f43f22ead8fd6b03afd5622caa68f518a633",
+      "title": "Belgium – IT services: consulting, software development, Internet and support – Migration du système ERP de la SOWAER",
+      "buyer": "SOWAER SA",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/787674-2025",
+      "notice_deadline": null,
+      "best_submission_deadline": null,
+      "estimated_value": null,
+      "currency": null,
+      "source_dce_run_id": 32375581606,
+      "source_shard": 0,
+      "spm_post_dce_score": 62,
+      "pipeline_priority": 93,
+      "rank_reasons": [
+        "native_spm_scope",
+        "authoritative_gate_ready"
+      ],
+      "gate_burden_signals": [],
+      "deadline_authority": null,
+      "evidence": {},
+      "finality": "COMPACT_REVIEW_INPUT_NOT_A_VERDICT"
+    },
+    {
+      "candidate_id": "TED:539663-2026",
+      "review_key": "bf7b476ad8c95a4b940198b6f98da3cbee00601c5e1f5301e4e3ba1e1e2306dd",
+      "title": "Belgium – Custom software development services – Ontwerpen, opstarten en begeleiden van een systeem voor geassisteerd varen en informatiedeling aan boord van een autoveer",
+      "buyer": "Vlaamse Overheid",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/539663-2026",
+      "notice_deadline": "2027-09-03T09:30:00+02:00",
+      "best_submission_deadline": "2027-09-03T09:30:00+02:00",
+      "estimated_value": null,
+      "currency": null,
+      "source_dce_run_id": 32262216923,
+      "source_shard": 29,
+      "spm_post_dce_score": 62,
+      "pipeline_priority": 93,
       "rank_reasons": [
         "native_spm_scope",
         "authoritative_gate_ready"
