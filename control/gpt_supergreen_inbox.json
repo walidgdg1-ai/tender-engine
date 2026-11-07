@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-11-07T03:21:33.372022+00:00",
+  "updated_at": "2026-11-07T03:21:58.787819+00:00",
   "latest_source_dce_run_id": 42333254482,
   "review_queue": [
     {
@@ -22133,7 +22133,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 14,
@@ -22544,7 +22544,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 13,
@@ -23862,55 +23862,6 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
-      "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-      "title": "Wykonanie, wdrożenie oraz utrzymanie strony internetowej Zamawiającego",
-      "buyer": "Krakowski Holding Komunalny S. A. w Krakowie",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df334b-8858-cbd3-c385-c60001666164",
-      "deadline": "2026-11-10T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 2,
-      "priority_score": 89,
-      "spm_post_dce_score": 13,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 41630675962,
-      "source_shard": 42,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 41630675962,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-        "release_tag": "dce-harvest-41630675962"
-      },
-      "hot_ready_at": "2026-11-05T19:06:13.825034+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "14657d62d620226ffd1ecc1d7da5dc20563b512c83c905ed19f18fe8ca6a5a34",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 13,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 41630675962,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-        "release_tag": "dce-harvest-41630675962"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
       "title": "Trammide ostmine",
       "buyer": "Aktsiaselts Tallinna Linnatransport",
@@ -23955,6 +23906,55 @@
         "shard": 18,
         "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
         "release_tag": "dce-harvest-32021740468"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+      "title": "Wykonanie, wdrożenie oraz utrzymanie strony internetowej Zamawiającego",
+      "buyer": "Krakowski Holding Komunalny S. A. w Krakowie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df334b-8858-cbd3-c385-c60001666164",
+      "deadline": "2026-11-10T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 2,
+      "priority_score": 89,
+      "spm_post_dce_score": 13,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 41630675962,
+      "source_shard": 42,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 41630675962,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+        "release_tag": "dce-harvest-41630675962"
+      },
+      "hot_ready_at": "2026-11-05T19:06:13.825034+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "14657d62d620226ffd1ecc1d7da5dc20563b512c83c905ed19f18fe8ca6a5a34",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 13,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 41630675962,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+        "release_tag": "dce-harvest-41630675962"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -24407,6 +24407,55 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+      "title": "Majandustarkvara Microsoft Dynamics 365 Business Central toeteenuse osutamine ja litsentside rentimine",
+      "buyer": "aktsiaselts Saarte Liinid",
+      "portal": "EE_RHR",
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10872444/general-info",
+      "deadline": "2026-11-09T12:00:00+00:00",
+      "estimated_value": 95000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 9,
+      "priority_score": 82,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 42020533787,
+      "source_shard": 17,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 42020533787,
+        "shard": 17,
+        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+        "release_tag": "dce-harvest-42020533787"
+      },
+      "hot_ready_at": "2026-11-06T00:05:05.587908+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "9965f025d9772386b06987f3b8b3db92589dfe9a7b9a67fb377552311d5fc538",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 42020533787,
+        "shard": 17,
+        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+        "release_tag": "dce-harvest-42020533787"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "PL-BZP:08df39a1-c47c-8916-e2d6-6b000120da76",
       "title": "267.2026 wyłonienie Wykonawcy w zakresie wykonania podwójnej korekty utworów, książek lub czasopism opatrzonych numerami ISBN lub ISSN, zleconej przez Wydawnictwo UJ, w podziale na 11 części",
       "buyer": "UNIWERSYTET JAGIELLOŃSKI",
@@ -24613,7 +24662,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 8,
@@ -24621,55 +24670,6 @@
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-      "title": "Majandustarkvara Microsoft Dynamics 365 Business Central toeteenuse osutamine ja litsentside rentimine",
-      "buyer": "aktsiaselts Saarte Liinid",
-      "portal": "EE_RHR",
-      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10872444/general-info",
-      "deadline": "2026-11-09T12:00:00+00:00",
-      "estimated_value": 95000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 9,
-      "priority_score": 82,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 42020533787,
-      "source_shard": 17,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 42020533787,
-        "shard": 17,
-        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-        "release_tag": "dce-harvest-42020533787"
-      },
-      "hot_ready_at": "2026-11-06T00:05:05.587908+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "9965f025d9772386b06987f3b8b3db92589dfe9a7b9a67fb377552311d5fc538",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 42020533787,
-        "shard": 17,
-        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-        "release_tag": "dce-harvest-42020533787"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -25760,239 +25760,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
-      "title": "Świadczenie usług informatycznych i zarządzania danymi badawczymi - OPUS 28 -Wpływ zanieczysz. powietrza na rozwijaj. się umysł: wielokohort. bad. okresów kryt. i efektów działania zanieczysz. na mózg",
-      "buyer": "UNIWERSYTET JAGIELLOŃSKI",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3c04-5435-37dc-c1c5-d5000193dc58",
-      "deadline": "2026-11-20T09:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "preliminary_score": 82,
-      "priority_score": 82,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "gate_readiness": true,
-      "deadline_authority": {
-        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-        "conflict": false,
-        "notice_deadline_raw": "2026-11-20T09:00:00+00:00",
-        "notice_deadline_date": "2026-11-20",
-        "authoritative_submission_date": "2026-11-20",
-        "submission_deadline_candidates": [
-          "2026-11-20"
-        ],
-        "query_deadline_candidates": [],
-        "dce_deadline_candidates": [
-          "2022-04-13",
-          "2026-11-06",
-          "2026-11-20"
-        ],
-        "labelled_evidence": [
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 3,
-            "context": " załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy:https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w"
-          }
-        ],
-        "evidence": [
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "kowy kod CPV:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważ"
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "V:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważnienie post"
-          },
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "context": "wy stanowiących załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy"
-          },
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "context": ":https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w formie elektronicznej za pośrednictwem\nwyżej wymienionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane "
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "nionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Z"
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "formy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający "
-          },
-          {
-            "date": "2022-04-13",
-            "match": "13 kwietnia 2022",
-            "context": "e: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający wykluczy wykonawcę w przypadku zaistnienia\nokoliczności przewidzianych postanowieniami art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach\nw zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz.U.\nz 2025, poz. 514 ze zm.).\nZamówienie realizowane jest w ramach pro"
-          }
-        ],
-        "context_stats": {
-          "gate_contexts": 0,
-          "corpus_contexts": 2,
-          "unique_contexts": 2
-        },
-        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
-      },
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_resolved": false,
-      "evidence_gate_coverage": 2,
-      "evidence_by_gate": {
-        "entity_geography": [],
-        "turnover_financial": [],
-        "references_experience": [],
-        "certifications_partner": [],
-        "staffing_team": [],
-        "insurance_bonds": [],
-        "subcontracting_consortium": [],
-        "deliverables_scope": [],
-        "sla_onsite": [
-          {
-            "text": "realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj .: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. 8. Kluczowe obszary świadczenia usługi informatycznej: Lp. Obszar Zakres czynności w ramach świadczonej usługi informatycznej: 1. Zarządzanie bazą danych Neurosmog 1.1 utrzymanie i rozwój bazy danych SQL; 1.2 eksport zmiennych; 1.3 integracja nowych zmiennych; 1.4 przygotowywanie zapytań; 1.5 kontrola spójności danych; 1.6 dok",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 110268,
-            "corpus_end": 111571,
-            "match": "Sla"
-          },
-          {
-            "text": "go. W okresie realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj.: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. Kluczowe obszary świadczenia usługi informatycznej: Wykonawca przy realizacji powyższej usługi informatycznej: zapewni zabezpieczenie danych, szyfrowanie dysku, aktualizacje bezpieczeństwa, hasła o odpowiedniej złożoności, brak współdzielenia kont oraz bezpieczne przechowywanie kluczy i haseł będzie wykonywał zadania na udostępnionych mu zasobach UJ",
-            "source": "files/190-2026 (3) SWZ.docx",
-            "source_url": "https://platformazakupowa.pl/file/get_new/417c5c1f85967886701ee8823a76d5d3.docx",
-            "source_sha256": "0951d60d4f3afe4ea5a5e34998bf1b7def35b05e29ac78934a6100141cf21e10",
-            "source_kind": "docx",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 245049,
-            "corpus_end": 246352,
-            "match": "Sla"
-          },
-          {
-            "text": "zachęcamy do kontaktu z​ Centrum Wsparcia Klienta​ : ● tel. ​ 22 101 02 02 ● e-mail: ​ cwk@platformazakupowa.pl OPEN NEXUS Sp. z o.o., 28 Czerwca 1956 Roku 406, 61-441 Poznań 22 101 02 02 ​ | ​ PRZETARGowa.pl ​ | ​ cwk@platformazakupowa.pl ===== FILE: files/portal_page_http.txt ===== Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi al",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 406797,
-            "corpus_end": 408100,
-            "match": "sla"
-          },
-          {
-            "text": "= Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi albo wybrać szczegółowe ustawienia Polityce prywatności Niezbędne pliki cookies Niezbędne pliki cookie są nieodzowne dla prawidłowego funkcjonowania serwisu. Umożliwiają podstawowe działania, takie jak nawigacja po stronie, logowanie czy zapewnienie bezpieczeństwa. Bez tych plików strona nie może działać poprawni",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 407109,
-            "corpus_end": 408412,
-            "match": "sla"
-          }
-        ],
-        "term_value": [],
-        "award_criteria": [],
-        "forms_signatures": [],
-        "submission": [],
-        "ip_data_security": [
-          {
-            "text": "ych i efektów działania zanieczyszczeń na mózg” (nr umowy o dofinansowanie: UMO-2024/55/B/HS6/01202). 4. Wykonawca musi oświadczyć, że: 4.1 jego oferta nie obejmuje produktu ICT, usługi ICT lub procesu ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym SWZ – na świadczenie usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzys",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 22934,
-            "corpus_end": 24239,
-            "match": "cyber"
-          },
-          {
-            "text": "ych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzystał przede wszystkim z istniejących narzędzi, oprogramowania i infrastruktury udostępnionej lub zaakceptowanej przez Zamawiającego. Na potwierdzenie powyższego Wykonawca składa wraz z ofertą oświadczenie według Załącznika nr 7 do Formularza oferty, potwierdzające zgodność oferowanych usług i procesów ICT z opisem przygotowanym przez Zamawiająceg",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 23286,
-            "corpus_end": 24591,
-            "match": "cyber"
-          },
-          {
-            "text": "re zamierza wprowadzić do realizacji zamówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 24796,
-            "corpus_end": 26101,
-            "match": "Cyber"
-          },
-          {
-            "text": "amówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie łączna wartość zamówień na podstawie pr",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 24835,
-            "corpus_end": 26140,
-            "match": "cyber"
-          }
-        ]
-      },
-      "source_dce_run_id": 42333254482,
-      "source_shard": 8,
-      "hot_ready_at": "2026-11-07T03:19:54.941217+00:00",
-      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
-      "spm_post_dce_score": 12,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "52e458507632a6987a1507e24e29a69cad8e6371d3c62ea73042d5b2e303ca4b",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 12,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 42333254482,
-        "shard": 8,
-        "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
-        "release_tag": null
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:4edaf688-86a0-4535-9d1a-f028660d5d01",
       "title": "Ida-Virumaa terviseteejuhi teenuse turunduskampaania",
       "buyer": "Ida-Virumaa Omavalitsuste Liit",
@@ -26274,7 +26041,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 14,
@@ -26282,7 +26049,7 @@
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "ELASTIC_FILL"
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
       "candidate_id": "US-SAM:b8d06282ff634e3ba9796ee62d3f0363",
@@ -26822,6 +26589,239 @@
         "dce_run_id": 42333254482,
         "shard": 6,
         "candidate_id": "EE-RHR:abb225dd-1207-48f4-bc30-5a22c751fa0a",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "ELASTIC_FILL"
+    },
+    {
+      "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
+      "title": "Świadczenie usług informatycznych i zarządzania danymi badawczymi - OPUS 28 -Wpływ zanieczysz. powietrza na rozwijaj. się umysł: wielokohort. bad. okresów kryt. i efektów działania zanieczysz. na mózg",
+      "buyer": "UNIWERSYTET JAGIELLOŃSKI",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3c04-5435-37dc-c1c5-d5000193dc58",
+      "deadline": "2026-11-20T09:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 82,
+      "priority_score": 82,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-11-20T09:00:00+00:00",
+        "notice_deadline_date": "2026-11-20",
+        "authoritative_submission_date": "2026-11-20",
+        "submission_deadline_candidates": [
+          "2026-11-20"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2022-04-13",
+          "2026-11-06",
+          "2026-11-20"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": " załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy:https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "kowy kod CPV:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważ"
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "V:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważnienie post"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "context": "wy stanowiących załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "context": ":https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w formie elektronicznej za pośrednictwem\nwyżej wymienionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane "
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "nionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Z"
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "formy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający "
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "e: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający wykluczy wykonawcę w przypadku zaistnienia\nokoliczności przewidzianych postanowieniami art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach\nw zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz.U.\nz 2025, poz. 514 ze zm.).\nZamówienie realizowane jest w ramach pro"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 2,
+          "unique_contexts": 2
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 2,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj .: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. 8. Kluczowe obszary świadczenia usługi informatycznej: Lp. Obszar Zakres czynności w ramach świadczonej usługi informatycznej: 1. Zarządzanie bazą danych Neurosmog 1.1 utrzymanie i rozwój bazy danych SQL; 1.2 eksport zmiennych; 1.3 integracja nowych zmiennych; 1.4 przygotowywanie zapytań; 1.5 kontrola spójności danych; 1.6 dok",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 110268,
+            "corpus_end": 111571,
+            "match": "Sla"
+          },
+          {
+            "text": "go. W okresie realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj.: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. Kluczowe obszary świadczenia usługi informatycznej: Wykonawca przy realizacji powyższej usługi informatycznej: zapewni zabezpieczenie danych, szyfrowanie dysku, aktualizacje bezpieczeństwa, hasła o odpowiedniej złożoności, brak współdzielenia kont oraz bezpieczne przechowywanie kluczy i haseł będzie wykonywał zadania na udostępnionych mu zasobach UJ",
+            "source": "files/190-2026 (3) SWZ.docx",
+            "source_url": "https://platformazakupowa.pl/file/get_new/417c5c1f85967886701ee8823a76d5d3.docx",
+            "source_sha256": "0951d60d4f3afe4ea5a5e34998bf1b7def35b05e29ac78934a6100141cf21e10",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 245049,
+            "corpus_end": 246352,
+            "match": "Sla"
+          },
+          {
+            "text": "zachęcamy do kontaktu z​ Centrum Wsparcia Klienta​ : ● tel. ​ 22 101 02 02 ● e-mail: ​ cwk@platformazakupowa.pl OPEN NEXUS Sp. z o.o., 28 Czerwca 1956 Roku 406, 61-441 Poznań 22 101 02 02 ​ | ​ PRZETARGowa.pl ​ | ​ cwk@platformazakupowa.pl ===== FILE: files/portal_page_http.txt ===== Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi al",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 406797,
+            "corpus_end": 408100,
+            "match": "sla"
+          },
+          {
+            "text": "= Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi albo wybrać szczegółowe ustawienia Polityce prywatności Niezbędne pliki cookies Niezbędne pliki cookie są nieodzowne dla prawidłowego funkcjonowania serwisu. Umożliwiają podstawowe działania, takie jak nawigacja po stronie, logowanie czy zapewnienie bezpieczeństwa. Bez tych plików strona nie może działać poprawni",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 407109,
+            "corpus_end": 408412,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "ych i efektów działania zanieczyszczeń na mózg” (nr umowy o dofinansowanie: UMO-2024/55/B/HS6/01202). 4. Wykonawca musi oświadczyć, że: 4.1 jego oferta nie obejmuje produktu ICT, usługi ICT lub procesu ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym SWZ – na świadczenie usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzys",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22934,
+            "corpus_end": 24239,
+            "match": "cyber"
+          },
+          {
+            "text": "ych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzystał przede wszystkim z istniejących narzędzi, oprogramowania i infrastruktury udostępnionej lub zaakceptowanej przez Zamawiającego. Na potwierdzenie powyższego Wykonawca składa wraz z ofertą oświadczenie według Załącznika nr 7 do Formularza oferty, potwierdzające zgodność oferowanych usług i procesów ICT z opisem przygotowanym przez Zamawiająceg",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 23286,
+            "corpus_end": 24591,
+            "match": "cyber"
+          },
+          {
+            "text": "re zamierza wprowadzić do realizacji zamówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24796,
+            "corpus_end": 26101,
+            "match": "Cyber"
+          },
+          {
+            "text": "amówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie łączna wartość zamówień na podstawie pr",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24835,
+            "corpus_end": 26140,
+            "match": "cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 42333254482,
+      "source_shard": 8,
+      "hot_ready_at": "2026-11-07T03:19:54.941217+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "52e458507632a6987a1507e24e29a69cad8e6371d3c62ea73042d5b2e303ca4b",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 12,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 42333254482,
+        "shard": 8,
+        "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
@@ -49158,7 +49158,7 @@
       "gpt_priority_score": 63,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 14,
@@ -49569,7 +49569,7 @@
       "gpt_priority_score": 20,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 13,
@@ -50887,55 +50887,6 @@
       "inbox_lane": "DCE_AUTHENTICITY_REPAIR"
     },
     {
-      "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-      "title": "Wykonanie, wdrożenie oraz utrzymanie strony internetowej Zamawiającego",
-      "buyer": "Krakowski Holding Komunalny S. A. w Krakowie",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df334b-8858-cbd3-c385-c60001666164",
-      "deadline": "2026-11-10T08:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 2,
-      "priority_score": 89,
-      "spm_post_dce_score": 13,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 41630675962,
-      "source_shard": 42,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 41630675962,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-        "release_tag": "dce-harvest-41630675962"
-      },
-      "hot_ready_at": "2026-11-05T19:06:13.825034+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "14657d62d620226ffd1ecc1d7da5dc20563b512c83c905ed19f18fe8ca6a5a34",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 13,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 41630675962,
-        "shard": 42,
-        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
-        "release_tag": "dce-harvest-41630675962"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
       "title": "Trammide ostmine",
       "buyer": "Aktsiaselts Tallinna Linnatransport",
@@ -50980,6 +50931,55 @@
         "shard": 18,
         "candidate_id": "EE-RHR:8552a8f3-abbf-47d8-8215-d7451ad5f554",
         "release_tag": "dce-harvest-32021740468"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+      "title": "Wykonanie, wdrożenie oraz utrzymanie strony internetowej Zamawiającego",
+      "buyer": "Krakowski Holding Komunalny S. A. w Krakowie",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df334b-8858-cbd3-c385-c60001666164",
+      "deadline": "2026-11-10T08:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "evidence_gate_coverage": 2,
+      "priority_score": 89,
+      "spm_post_dce_score": 13,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 41630675962,
+      "source_shard": 42,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 41630675962,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+        "release_tag": "dce-harvest-41630675962"
+      },
+      "hot_ready_at": "2026-11-05T19:06:13.825034+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "14657d62d620226ffd1ecc1d7da5dc20563b512c83c905ed19f18fe8ca6a5a34",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 13,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 41630675962,
+        "shard": 42,
+        "candidate_id": "PL-BZP:08df334b-8858-cbd3-c385-c60001666164",
+        "release_tag": "dce-harvest-41630675962"
       },
       "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
@@ -51432,6 +51432,55 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
+      "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+      "title": "Majandustarkvara Microsoft Dynamics 365 Business Central toeteenuse osutamine ja litsentside rentimine",
+      "buyer": "aktsiaselts Saarte Liinid",
+      "portal": "EE_RHR",
+      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10872444/general-info",
+      "deadline": "2026-11-09T12:00:00+00:00",
+      "estimated_value": 95000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "deadline_resolved": false,
+      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
+      "evidence_gate_coverage": 9,
+      "priority_score": 82,
+      "spm_post_dce_score": 19,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "source_dce_run_id": 42020533787,
+      "source_shard": 17,
+      "procedure_aliases": [],
+      "artifact_locator": {
+        "dce_run_id": 42020533787,
+        "shard": 17,
+        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+        "release_tag": "dce-harvest-42020533787"
+      },
+      "hot_ready_at": "2026-11-06T00:05:05.587908+00:00",
+      "review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "finalization_allowed": false,
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "9965f025d9772386b06987f3b8b3db92589dfe9a7b9a67fb377552311d5fc538",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 19,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 42020533787,
+        "shard": 17,
+        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
+        "release_tag": "dce-harvest-42020533787"
+      },
+      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
+    },
+    {
       "candidate_id": "PL-BZP:08df39a1-c47c-8916-e2d6-6b000120da76",
       "title": "267.2026 wyłonienie Wykonawcy w zakresie wykonania podwójnej korekty utworów, książek lub czasopism opatrzonych numerami ISBN lub ISSN, zleconej przez Wydawnictwo UJ, w podziale na 11 części",
       "buyer": "UNIWERSYTET JAGIELLOŃSKI",
@@ -51638,7 +51687,7 @@
       "gpt_priority_score": 13,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 8,
@@ -51646,55 +51695,6 @@
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
-      "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-      "title": "Majandustarkvara Microsoft Dynamics 365 Business Central toeteenuse osutamine ja litsentside rentimine",
-      "buyer": "aktsiaselts Saarte Liinid",
-      "portal": "EE_RHR",
-      "notice_url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10872444/general-info",
-      "deadline": "2026-11-09T12:00:00+00:00",
-      "estimated_value": 95000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
-      "evidence_gate_coverage": 9,
-      "priority_score": 82,
-      "spm_post_dce_score": 19,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 42020533787,
-      "source_shard": 17,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 42020533787,
-        "shard": 17,
-        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-        "release_tag": "dce-harvest-42020533787"
-      },
-      "hot_ready_at": "2026-11-06T00:05:05.587908+00:00",
-      "review_lane": "LOW_PORTAL_SURVEILLANCE",
-      "finalization_allowed": false,
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "9965f025d9772386b06987f3b8b3db92589dfe9a7b9a67fb377552311d5fc538",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 19,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
-      "evidence_locator": {
-        "dce_run_id": 42020533787,
-        "shard": 17,
-        "candidate_id": "EE-RHR:51d7dd29-497b-4199-bca9-fd0efcca4e7e",
-        "release_tag": "dce-harvest-42020533787"
-      },
-      "upstream_review_lane": "LOW_PORTAL_SURVEILLANCE",
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
@@ -52785,239 +52785,6 @@
       "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
-      "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
-      "title": "Świadczenie usług informatycznych i zarządzania danymi badawczymi - OPUS 28 -Wpływ zanieczysz. powietrza na rozwijaj. się umysł: wielokohort. bad. okresów kryt. i efektów działania zanieczysz. na mózg",
-      "buyer": "UNIWERSYTET JAGIELLOŃSKI",
-      "portal": "PL_EZAMOWIENIA",
-      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3c04-5435-37dc-c1c5-d5000193dc58",
-      "deadline": "2026-11-20T09:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "preliminary_score": 82,
-      "priority_score": 82,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "gate_readiness": true,
-      "deadline_authority": {
-        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-        "conflict": false,
-        "notice_deadline_raw": "2026-11-20T09:00:00+00:00",
-        "notice_deadline_date": "2026-11-20",
-        "authoritative_submission_date": "2026-11-20",
-        "submission_deadline_candidates": [
-          "2026-11-20"
-        ],
-        "query_deadline_candidates": [],
-        "dce_deadline_candidates": [
-          "2022-04-13",
-          "2026-11-06",
-          "2026-11-20"
-        ],
-        "labelled_evidence": [
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "label": "SUBMISSION",
-            "keyword": "Termin składania ofert",
-            "distance": 3,
-            "context": " załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy:https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w"
-          }
-        ],
-        "evidence": [
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "kowy kod CPV:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważ"
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "V:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważnienie post"
-          },
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "context": "wy stanowiących załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy"
-          },
-          {
-            "date": "2026-11-20",
-            "match": "2026-11-20",
-            "context": ":https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w formie elektronicznej za pośrednictwem\nwyżej wymienionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane "
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "nionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Z"
-          },
-          {
-            "date": "2026-11-06",
-            "match": "2026-11-06",
-            "context": "formy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający "
-          },
-          {
-            "date": "2022-04-13",
-            "match": "13 kwietnia 2022",
-            "context": "e: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający wykluczy wykonawcę w przypadku zaistnienia\nokoliczności przewidzianych postanowieniami art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach\nw zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz.U.\nz 2025, poz. 514 ze zm.).\nZamówienie realizowane jest w ramach pro"
-          }
-        ],
-        "context_stats": {
-          "gate_contexts": 0,
-          "corpus_contexts": 2,
-          "unique_contexts": 2
-        },
-        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
-      },
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_resolved": false,
-      "evidence_gate_coverage": 2,
-      "evidence_by_gate": {
-        "entity_geography": [],
-        "turnover_financial": [],
-        "references_experience": [],
-        "certifications_partner": [],
-        "staffing_team": [],
-        "insurance_bonds": [],
-        "subcontracting_consortium": [],
-        "deliverables_scope": [],
-        "sla_onsite": [
-          {
-            "text": "realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj .: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. 8. Kluczowe obszary świadczenia usługi informatycznej: Lp. Obszar Zakres czynności w ramach świadczonej usługi informatycznej: 1. Zarządzanie bazą danych Neurosmog 1.1 utrzymanie i rozwój bazy danych SQL; 1.2 eksport zmiennych; 1.3 integracja nowych zmiennych; 1.4 przygotowywanie zapytań; 1.5 kontrola spójności danych; 1.6 dok",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 110268,
-            "corpus_end": 111571,
-            "match": "Sla"
-          },
-          {
-            "text": "go. W okresie realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj.: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. Kluczowe obszary świadczenia usługi informatycznej: Wykonawca przy realizacji powyższej usługi informatycznej: zapewni zabezpieczenie danych, szyfrowanie dysku, aktualizacje bezpieczeństwa, hasła o odpowiedniej złożoności, brak współdzielenia kont oraz bezpieczne przechowywanie kluczy i haseł będzie wykonywał zadania na udostępnionych mu zasobach UJ",
-            "source": "files/190-2026 (3) SWZ.docx",
-            "source_url": "https://platformazakupowa.pl/file/get_new/417c5c1f85967886701ee8823a76d5d3.docx",
-            "source_sha256": "0951d60d4f3afe4ea5a5e34998bf1b7def35b05e29ac78934a6100141cf21e10",
-            "source_kind": "docx",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 245049,
-            "corpus_end": 246352,
-            "match": "Sla"
-          },
-          {
-            "text": "zachęcamy do kontaktu z​ Centrum Wsparcia Klienta​ : ● tel. ​ 22 101 02 02 ● e-mail: ​ cwk@platformazakupowa.pl OPEN NEXUS Sp. z o.o., 28 Czerwca 1956 Roku 406, 61-441 Poznań 22 101 02 02 ​ | ​ PRZETARGowa.pl ​ | ​ cwk@platformazakupowa.pl ===== FILE: files/portal_page_http.txt ===== Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi al",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 406797,
-            "corpus_end": 408100,
-            "match": "sla"
-          },
-          {
-            "text": "= Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi albo wybrać szczegółowe ustawienia Polityce prywatności Niezbędne pliki cookies Niezbędne pliki cookie są nieodzowne dla prawidłowego funkcjonowania serwisu. Umożliwiają podstawowe działania, takie jak nawigacja po stronie, logowanie czy zapewnienie bezpieczeństwa. Bez tych plików strona nie może działać poprawni",
-            "source": "files/portal_page_http.txt",
-            "source_url": null,
-            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
-            "source_kind": "text",
-            "source_provenance_match": null,
-            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 407109,
-            "corpus_end": 408412,
-            "match": "sla"
-          }
-        ],
-        "term_value": [],
-        "award_criteria": [],
-        "forms_signatures": [],
-        "submission": [],
-        "ip_data_security": [
-          {
-            "text": "ych i efektów działania zanieczyszczeń na mózg” (nr umowy o dofinansowanie: UMO-2024/55/B/HS6/01202). 4. Wykonawca musi oświadczyć, że: 4.1 jego oferta nie obejmuje produktu ICT, usługi ICT lub procesu ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym SWZ – na świadczenie usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzys",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 22934,
-            "corpus_end": 24239,
-            "match": "cyber"
-          },
-          {
-            "text": "ych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzystał przede wszystkim z istniejących narzędzi, oprogramowania i infrastruktury udostępnionej lub zaakceptowanej przez Zamawiającego. Na potwierdzenie powyższego Wykonawca składa wraz z ofertą oświadczenie według Załącznika nr 7 do Formularza oferty, potwierdzające zgodność oferowanych usług i procesów ICT z opisem przygotowanym przez Zamawiająceg",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 23286,
-            "corpus_end": 24591,
-            "match": "cyber"
-          },
-          {
-            "text": "re zamierza wprowadzić do realizacji zamówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 24796,
-            "corpus_end": 26101,
-            "match": "Cyber"
-          },
-          {
-            "text": "amówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie łączna wartość zamówień na podstawie pr",
-            "source": "files/190-2026 (2) SWZ.pdf",
-            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
-            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
-            "source_kind": "pdf",
-            "source_provenance_match": "SHA256",
-            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
-            "raw_machine_format": false,
-            "corpus_start": 24835,
-            "corpus_end": 26140,
-            "match": "cyber"
-          }
-        ]
-      },
-      "source_dce_run_id": 42333254482,
-      "source_shard": 8,
-      "hot_ready_at": "2026-11-07T03:19:54.941217+00:00",
-      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
-      "spm_post_dce_score": 12,
-      "spm_fit_band": "LOW",
-      "spm_fit_reasons": [],
-      "spm_friction_signals": [],
-      "review_lane": "SPM_PRIORITY",
-      "review_state": "PENDING_GPT_WEB",
-      "review_tick": false,
-      "review_key": "52e458507632a6987a1507e24e29a69cad8e6371d3c62ea73042d5b2e303ca4b",
-      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
-      "gpt_priority_score": 12,
-      "upstream_signal": "DCE_REVIEW_READY",
-      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
-      "evidence_locator": {
-        "dce_run_id": 42333254482,
-        "shard": 8,
-        "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
-        "release_tag": null
-      },
-      "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
-    },
-    {
       "candidate_id": "EE-RHR:4edaf688-86a0-4535-9d1a-f028660d5d01",
       "title": "Ida-Virumaa terviseteejuhi teenuse turunduskampaania",
       "buyer": "Ida-Virumaa Omavalitsuste Liit",
@@ -53299,7 +53066,7 @@
       "gpt_priority_score": 19,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "control/gpt_review_hot.json",
+      "inbox_live_source": "existing_inbox",
       "evidence_locator": {
         "dce_run_id": 42333254482,
         "shard": 14,
@@ -53307,7 +53074,7 @@
         "release_tag": null
       },
       "upstream_review_lane": "SPM_PRIORITY",
-      "inbox_lane": "ELASTIC_FILL"
+      "inbox_lane": "LOW_PORTAL_SURVEILLANCE"
     },
     {
       "candidate_id": "US-SAM:b8d06282ff634e3ba9796ee62d3f0363",
@@ -53853,6 +53620,239 @@
       "inbox_lane": "ELASTIC_FILL"
     },
     {
+      "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
+      "title": "Świadczenie usług informatycznych i zarządzania danymi badawczymi - OPUS 28 -Wpływ zanieczysz. powietrza na rozwijaj. się umysł: wielokohort. bad. okresów kryt. i efektów działania zanieczysz. na mózg",
+      "buyer": "UNIWERSYTET JAGIELLOŃSKI",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3c04-5435-37dc-c1c5-d5000193dc58",
+      "deadline": "2026-11-20T09:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 82,
+      "priority_score": 82,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-11-20T09:00:00+00:00",
+        "notice_deadline_date": "2026-11-20",
+        "authoritative_submission_date": "2026-11-20",
+        "submission_deadline_candidates": [
+          "2026-11-20"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2022-04-13",
+          "2026-11-06",
+          "2026-11-20"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "label": "SUBMISSION",
+            "keyword": "Termin składania ofert",
+            "distance": 3,
+            "context": " załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy:https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "kowy kod CPV:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważ"
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "V:\n72300000-8 - Usługi w zakresie danych\n72316000-3 - Usługi analizy danych\n72260000-5 - Usługi w zakresie oprogramowania\n72263000-6 - Usługi wdrażania oprogramowania\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\n4.2.8.) Zamówienie obe\n\n6.7.) Zamawiający przewiduje unieważnienie post"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "context": "wy stanowiących załącznik nr 2 do SWZ.\n7.5.) Zamawiający uwzględnił aspekty społeczne, środowiskowe, innowacyjne lub etykiety związane z realizacją\nzamówienia: \nNie\nSEKCJA VIII – PROCEDURA\n8.1.) Termin składania ofert: \n2026-11-20 10:00\n8.2.) Miejsce składania ofert: \nMiejsce składania ofert określone w są w Rozdziale IX SWZ ust. 2 Wykonawca składa ofertę za\npośrednictwem narzędzia komercyjnego https://platformazakupowa.pl – adres profilu\nnabywcy"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "2026-11-20",
+            "context": ":https://platformazakupowa.pl/pn/uj_edu. Składanie i otwarcie ofert odbywa się w formie elektronicznej za pośrednictwem\nwyżej wymienionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane "
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "nionej platformy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Z"
+          },
+          {
+            "date": "2026-11-06",
+            "match": "2026-11-06",
+            "context": "formy zakupowej, na zasadach określonych w SWZ.\n8.3.) Termin otwarcia ofert: \n2026-11-20 10:30\n8.4.) Termin związania ofertą: \n30 dni\nSEKCJA IX – POZOSTAŁE INFORMACJE\nOgłoszenie nr 2026/BZP 00527839/01 z dnia 2026-11-06\n2026-11-06 Biuletyn Zamówień Publicznych\nOgłoszenie o zamówieniu - Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający "
+          },
+          {
+            "date": "2022-04-13",
+            "match": "13 kwietnia 2022",
+            "context": "e: art. 275 pkt 1 ustawy - Usługi\nDodatkowe przesłanki wykluczenia wykonawcy z postępowania: Zamawiający wykluczy wykonawcę w przypadku zaistnienia\nokoliczności przewidzianych postanowieniami art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach\nw zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego (t.j.: Dz.U.\nz 2025, poz. 514 ze zm.).\nZamówienie realizowane jest w ramach pro"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 0,
+          "corpus_contexts": 2,
+          "unique_contexts": 2
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 2,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [],
+        "references_experience": [],
+        "certifications_partner": [],
+        "staffing_team": [],
+        "insurance_bonds": [],
+        "subcontracting_consortium": [],
+        "deliverables_scope": [],
+        "sla_onsite": [
+          {
+            "text": "realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj .: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. 8. Kluczowe obszary świadczenia usługi informatycznej: Lp. Obszar Zakres czynności w ramach świadczonej usługi informatycznej: 1. Zarządzanie bazą danych Neurosmog 1.1 utrzymanie i rozwój bazy danych SQL; 1.2 eksport zmiennych; 1.3 integracja nowych zmiennych; 1.4 przygotowywanie zapytań; 1.5 kontrola spójności danych; 1.6 dok",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 110268,
+            "corpus_end": 111571,
+            "match": "Sla"
+          },
+          {
+            "text": "go. W okresie realizacji umowy Zamawiający będzie zlecał Wykonawcy wykonanie poszczególnych czynności i prac objętych przedmiotem zamówienia, zgodnie z bieżącymi potrzebami projektu oraz zakresem usług określonym w niniejszym OPZ. Zlecenia mogą dotyczyć dowolnego z obszarów wskazanych w Rozdziale II OPZ i będą przekazywane przez Zespół Projektu tj.: Kierownika Projektu, Koordynatora Projektu lub osoby przez nich upoważnione. Przekazywanie zleceń, informacji roboczych, wytycznych, materiałów oraz zgłoszeń może następować w formie dokumentowej lub elektronicznej, w szczególności za pośrednictwem poczty elektronicznej, platform Microsoft Teams, Slack, systemu obsługi zgłoszeń lub innych uzgodnionych narzędzi komunikacji wykorzystywanych przez Zamawiającego. Zakres, termin oraz priorytet realizacji poszczególnych czynności będą określane każdorazowo przez Zamawiającego z uwzględnieniem aktualnych potrzeb związanych z realizacją projektu. Kluczowe obszary świadczenia usługi informatycznej: Wykonawca przy realizacji powyższej usługi informatycznej: zapewni zabezpieczenie danych, szyfrowanie dysku, aktualizacje bezpieczeństwa, hasła o odpowiedniej złożoności, brak współdzielenia kont oraz bezpieczne przechowywanie kluczy i haseł będzie wykonywał zadania na udostępnionych mu zasobach UJ",
+            "source": "files/190-2026 (3) SWZ.docx",
+            "source_url": "https://platformazakupowa.pl/file/get_new/417c5c1f85967886701ee8823a76d5d3.docx",
+            "source_sha256": "0951d60d4f3afe4ea5a5e34998bf1b7def35b05e29ac78934a6100141cf21e10",
+            "source_kind": "docx",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 245049,
+            "corpus_end": 246352,
+            "match": "Sla"
+          },
+          {
+            "text": "zachęcamy do kontaktu z​ Centrum Wsparcia Klienta​ : ● tel. ​ 22 101 02 02 ● e-mail: ​ cwk@platformazakupowa.pl OPEN NEXUS Sp. z o.o., 28 Czerwca 1956 Roku 406, 61-441 Poznań 22 101 02 02 ​ | ​ PRZETARGowa.pl ​ | ​ cwk@platformazakupowa.pl ===== FILE: files/portal_page_http.txt ===== Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi al",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 406797,
+            "corpus_end": 408100,
+            "match": "sla"
+          },
+          {
+            "text": "= Postępowanie: Wyłonienie Wykonawcy w zakresie świadczenia usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo-kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" - Platforma Zakupowa @{ appsTranslations[resolvedActiveApplication] } Załóż profil wykonawcy Zaloguj się Zaloguj się Zamknij Wykonawca Zamawiający Powrót do wyboru Logowanie jako zamawiający Zamknij Podaj adres e-mail Podaj hasło Zaloguj się Nie pamiętasz hasła? 1\" class=\"tabs\" data-testid=\"tabs-selected-sidemenu\"> @{ tab.tooltip } @{appsTranslations[key]} Ta strona korzysta z plików cookies O plikach cookie Używamy plików cookies, aby zapewnić prawidłowe działanie serwisu oraz – za Twoją zgodą – do celów analitycznych. Wykorzystujemy w tym zakresie rozwiązania naszych partnerów: Google i Meta. Możesz zaakceptować wszystkie pliki cookies, odrzucić wszystkie poza niezbędnymi albo wybrać szczegółowe ustawienia Polityce prywatności Niezbędne pliki cookies Niezbędne pliki cookie są nieodzowne dla prawidłowego funkcjonowania serwisu. Umożliwiają podstawowe działania, takie jak nawigacja po stronie, logowanie czy zapewnienie bezpieczeństwa. Bez tych plików strona nie może działać poprawni",
+            "source": "files/portal_page_http.txt",
+            "source_url": null,
+            "source_sha256": "a9d8cf7b9f07ae6e29c88c1116c386fae7b6f569f01d9a544f3d684be03e73b1",
+            "source_kind": "text",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 407109,
+            "corpus_end": 408412,
+            "match": "sla"
+          }
+        ],
+        "term_value": [],
+        "award_criteria": [],
+        "forms_signatures": [],
+        "submission": [],
+        "ip_data_security": [
+          {
+            "text": "ych i efektów działania zanieczyszczeń na mózg” (nr umowy o dofinansowanie: UMO-2024/55/B/HS6/01202). 4. Wykonawca musi oświadczyć, że: 4.1 jego oferta nie obejmuje produktu ICT, usługi ICT lub procesu ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym SWZ – na świadczenie usług informatycznych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzys",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22934,
+            "corpus_end": 24239,
+            "match": "cyber"
+          },
+          {
+            "text": "ych i zarządzania danymi badawczymi na potrzeby projektu badawczego OPUS 28, pt. \"Wpływ zanieczyszczeń powietrza na rozwijający się umysł: wielo -kohortowe badania okresów krytycznych i efektów działania zanieczyszczeń na mózg.\" Nr sprawy 80.272.190.2026 Strona 2 z 47 systemie cyberbezpieczeństwa (Dz.U. z 2026 r., poz. 20 ze zm.), stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa, oraz nie obejmuje produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mo wa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usługi ICT lub procesu ICT określonych w tej decyzji. Przedmiot zamówienia obejmuje usługi ICT i procesy ICT związane z realizacją opisanych w SWZ usług informatycznych. Co do zasady zamówienie nie obejmuje odrębnej dostawy produktów ICT przez Wykona wcę, który będzie korzystał przede wszystkim z istniejących narzędzi, oprogramowania i infrastruktury udostępnionej lub zaakceptowanej przez Zamawiającego. Na potwierdzenie powyższego Wykonawca składa wraz z ofertą oświadczenie według Załącznika nr 7 do Formularza oferty, potwierdzające zgodność oferowanych usług i procesów ICT z opisem przygotowanym przez Zamawiająceg",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 23286,
+            "corpus_end": 24591,
+            "match": "cyber"
+          },
+          {
+            "text": "re zamierza wprowadzić do realizacji zamówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24796,
+            "corpus_end": 26101,
+            "match": "Cyber"
+          },
+          {
+            "text": "amówienia w zakresie dopuszczonym przez SWZ, podając ich nazwę, dostawcę oraz przeznaczenie. Jeżeli takich dodatkowych rozwiązań nie przewiduje, wskazuje „nie dotyczy”. Wprowadzenie w toku realizacji zamówienia dodatkowego produktu, usługi lub procesu ICT niewskazanego wcześniej w Załączniku nr 7 wymaga uprzedn iego zgłoszenia Zamawiającemu i podlega weryfikacji zgodności z wymaganiami bezpieczeństwa określonymi w SWZ i Umowie. 4.2 Definicja ICT ujęta została w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2019/881 z dnia 17 kwietnia 2019 r. w sprawie ENISA (Agencji Unii Europejskiej ds. Cyberbezpieczeństwa) oraz certyfikacji cyberbezpieczeństwa w zakresie technologii informacyjno-komunikacyjnych oraz uchylenia rozporządzenia (UE) nr 526/2013 (akt o cyberbezpieczeństwie). 5. Prawo opcji: 5.1 Zamawiający zastrzega możliwość skorzystania z prawa opcji określonego między innymi w art. 441 ustawy Pzp , tj. zwiększenia zakresu przedmiotu zamówienia o świadczenie usługi informatycznej stacjonarnie w Norwegii opisanej szczegółowo w Załączniku B do SWZ. Część przedmiotu zamówienia opisana w SWZ i umowie w zakresie opcji dotyczy możliwości zlecenia świadczenia usługi informatycznej na Uniwersytecie Oslo w Norwegii. Maksymalnie łączna wartość zamówień na podstawie pr",
+            "source": "files/190-2026 (2) SWZ.pdf",
+            "source_url": "https://platformazakupowa.pl/file/get_new/0543c31594c6b2289e48c3ef4cfcb30e.pdf",
+            "source_sha256": "30b0e3bba5624e900dc8ada15f1280cf736575b18d599fe19f894a211d45b427",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24835,
+            "corpus_end": 26140,
+            "match": "cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 42333254482,
+      "source_shard": 8,
+      "hot_ready_at": "2026-11-07T03:19:54.941217+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 12,
+      "spm_fit_band": "LOW",
+      "spm_fit_reasons": [],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY",
+      "review_state": "PENDING_GPT_WEB",
+      "review_tick": false,
+      "review_key": "52e458507632a6987a1507e24e29a69cad8e6371d3c62ea73042d5b2e303ca4b",
+      "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
+      "gpt_priority_score": 12,
+      "upstream_signal": "DCE_REVIEW_READY",
+      "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
+      "inbox_live_source": "existing_inbox",
+      "evidence_locator": {
+        "dce_run_id": 42333254482,
+        "shard": 8,
+        "candidate_id": "PL-BZP:08df3c04-5435-37dc-c1c5-d5000193dc58",
+        "release_tag": null
+      },
+      "upstream_review_lane": "SPM_PRIORITY",
+      "inbox_lane": "ELASTIC_FILL"
+    },
+    {
       "candidate_id": "PL-BZP:08df39ba-42f4-4f35-e2d6-6b000120df7a",
       "title": "Promocja Województwa Mazowieckiego i Marki Mazowsze tj. ,,Mazowsze. serce Polski’’ poprzez sport – kolarstwo",
       "buyer": "Województwo Mazowieckie",
@@ -54099,7 +54099,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 162,
+    "pending_before_visible_cap": 160,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
