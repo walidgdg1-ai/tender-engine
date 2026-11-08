@@ -1,6 +1,6 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-11-08T09:36:43.900558+00:00",
+  "updated_at": "2026-11-08T09:37:19.630402+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
   "latest_source_dce_run_id": 42467495935,
   "counts": {
@@ -8,7 +8,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 173,
+    "pending_before_visible_cap": 175,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -104,8 +104,8 @@
     },
     "selected_by_band": {
       "HOT": 17,
-      "GOOD": 43,
-      "MAYBE": 63,
+      "GOOD": 35,
+      "MAYBE": 71,
       "LOW": 37
     },
     "selected_by_portal": {
@@ -115,8 +115,7 @@
       "US_SAM": 25,
       "WORLD_BANK": 7,
       "PL_EZAMOWIENIA": 4,
-      "EE_RHR": 10,
-      "CA_CANADABUYS": 4,
+      "EE_RHR": 12,
       "CYPRUS_EPPS": 2,
       "ES_PLACSP": 4,
       "GENERIC_PUBLIC_PAGE": 3,
@@ -124,6 +123,7 @@
       "ZA_ETENDERS": 1,
       "DE_DOE": 1,
       "GR_KHMDHS": 2,
+      "CA_CANADABUYS": 2,
       "LV_IUB": 1,
       "UK_CONTRACTS_FINDER": 1,
       "NO_DOFFIN": 1,
@@ -139,9 +139,9 @@
     },
     "by_spm_fit_band": {
       "HOT": 17,
-      "GOOD": 56,
-      "MAYBE": 84,
-      "LOW": 1032
+      "GOOD": 48,
+      "MAYBE": 91,
+      "LOW": 1033
     },
     "rich_hot_window_target": 160,
     "overflow_beyond_hot_160": 1029,
@@ -155,21 +155,13 @@
   "provenance_overrides_applied_in_window": 0,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 163,
-    "adjudication_rows_scanned_this_refresh": 1290,
-    "gate_rows_seen_this_refresh": 380,
-    "authenticity_rows_seen_this_refresh": 101,
+    "shard_files_scanned_this_refresh": 24,
+    "adjudication_rows_scanned_this_refresh": 198,
+    "gate_rows_seen_this_refresh": 51,
+    "authenticity_rows_seen_this_refresh": 14,
     "source_runs_seen_this_refresh": [
       42467495935,
-      42439821137,
-      42426690113,
-      42411061020,
-      42391638043,
-      42363347792,
-      42333254482,
-      42314314554,
-      42281109403,
-      42217497317
+      42439821137
     ]
   },
   "healthy": true,
