@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-11-09T13:20:57.063541+00:00",
-  "source_inbox_updated_at": "2026-11-09T12:08:05.644418+00:00",
-  "latest_source_dce_run_id": 42613295016,
+  "generated_at": "2026-11-09T22:05:09.320197+00:00",
+  "source_inbox_updated_at": "2026-11-09T22:05:08.179905+00:00",
+  "latest_source_dce_run_id": 42707518270,
   "batch_index": 5,
   "start_rank": 51,
   "end_rank": 60,
@@ -30,14 +30,14 @@
       "deadline_authority_status": "UNKNOWN_NO_DCE_DEADLINE_PARSED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 42613295016,
-      "source_shard": 11,
-      "review_key": "ea10d489d3e41ac1c3746e8e1af39d87150feff1d7083a8887ff82e4f92042a4",
+      "source_dce_run_id": 42707518270,
+      "source_shard": 9,
+      "review_key": "66e017350baf1314f2382d7a2af838c8228e766ea0dfbd116fb98d34afbfb796",
       "artifact_locator": {
-        "dce_run_id": 42613295016,
-        "shard": 11,
+        "dce_run_id": 42707518270,
+        "shard": 9,
         "candidate_id": "WORLD-BANK:OP00476881",
-        "release_tag": "dce-harvest-42613295016"
+        "release_tag": "dce-harvest-42707518270"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -798,14 +798,14 @@
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
       "deadline_conflict": false,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 42613295016,
+      "source_dce_run_id": 42707518270,
       "source_shard": 7,
-      "review_key": "12e553be2a2585322abd7cee8ee6c7154c572533eecc91e55aa37ed40144c417",
+      "review_key": "df233fb84adc38d8313f0d49758414e647bc33a48d362d2ffe66c1ab1c09b445",
       "artifact_locator": {
-        "dce_run_id": 42613295016,
+        "dce_run_id": 42707518270,
         "shard": 7,
         "candidate_id": "US-SAM:3757e5440d2c47d494f415af3d213f63",
-        "release_tag": "dce-harvest-42613295016"
+        "release_tag": "dce-harvest-42707518270"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -1222,6 +1222,50 @@
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
     },
     {
+      "candidate_id": "IE:9304329",
+      "title": "Request for Tender for Website Hosting, Development, Support and Maintenance of the Contracting Authority’s Websites",
+      "buyer": "Department of Housing Local Government and Heritage",
+      "portal": "IRELAND_ETENDERS",
+      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9304329",
+      "deadline": "2026-12-09T12:00:00+00:00",
+      "estimated_value": 400000.0,
+      "currency": "EUR",
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 14,
+      "spm_post_dce_score": 48,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "wordpress"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 42707518270,
+      "source_shard": 2,
+      "review_key": "72fcdb35f94a7dd5dd657ae05579023c61603057f955e8a83ccf343a7c9e5f6a",
+      "artifact_locator": {
+        "dce_run_id": 42707518270,
+        "shard": 2,
+        "candidate_id": "IE:9304329",
+        "release_tag": "dce-harvest-42707518270"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
       "candidate_id": "IE:9414947",
       "title": "PEACEPLUS Church of Ireland Animation Robbie Burns Project",
       "buyer": "Louth County Council_381",
@@ -1251,50 +1295,6 @@
         "dce_run_id": 42411061020,
         "shard": 15,
         "candidate_id": "IE:9414947",
-        "release_tag": "dce-harvest-42411061020"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "IE:9304329",
-      "title": "Request for Tender for Website Hosting, Development, Support and Maintenance of the Contracting Authority’s Websites",
-      "buyer": "Department of Housing Local Government and Heritage",
-      "portal": "IRELAND_ETENDERS",
-      "notice_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=9304329",
-      "deadline": "2026-12-09T12:00:00+00:00",
-      "estimated_value": 400000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 47,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "wordpress"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 42411061020,
-      "source_shard": 37,
-      "review_key": "86939572cb6d36a34861f080def9d90681829119234e997a95fa561a12733d66",
-      "artifact_locator": {
-        "dce_run_id": 42411061020,
-        "shard": 37,
-        "candidate_id": "IE:9304329",
         "release_tag": "dce-harvest-42411061020"
       },
       "evidence_quality": {
