@@ -8,21 +8,21 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:733363-2026** · FRA · p=62 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Computer archiving services – Numérisation des objets de collection et documents conservés aux Archives et au Musée Français de la Photographie - 2 lots
 - **TED:775389-2026** · FRA · p=62 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Computer archiving services – Numérisation des objets de collection et documents conservés aux Archives et au Musée Français de la Photographie - 2 lots
 - **TED:776863-2026** · FRA · p=60 · deadline=2026-11-12T01:00:00+00:00 · blockers=none · France – Printing and related services – Impression des ouvrages de l'ENS de Lyon
+- **TED:785673-2026** · FRA · p=60 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Scanning services – NUMERISATION DE DOSSIERS - ACCORD CADRE MONO-ATTRIBUTAIRE A BONS DE COMMANDE
 - **TED:721368-2026** · FRA · p=58 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing and delivery services – Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 - **TED:742950-2026** · FRA · p=58 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution de Haute-Saône Magazine
 - **TED:764550-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Documentation services – Mise en place d'une solution de dématérialisation et de correction en ligne sécurisée des épreuves écrites et orales du Concours Commun Mines-Ponts et des épreuves écrites de la procédure d'admission sur titre GEI-UNIV
 - **TED:715996-2026** · FRA · p=57 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-98852** · FR · p=56 · deadline=2026-11-10T17:00:00+00:00 · blockers=none · Impression des supports de communication de la Ville d'Abbeville
 - **TED:758928-2026** · FRA · p=56 · deadline=2026-11-12T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
 - **FR-BOAMP:26-105832** · FR · p=56 · deadline=2026-11-12T11:00:00+00:00 · blockers=none · Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
 - **FR-BOAMP:26-108146** · FR · p=56 · deadline=2026-11-12T12:00:00+00:00 · blockers=none · Impression des ouvrages de l'ENS de Lyon
 - **FR-BOAMP:26-102761** · FR · p=56 · deadline=2026-11-13T12:00:00+00:00 · blockers=none · Impression de supports de communication
 - **FR-BOAMP:26-100574** · FR · p=56 · deadline=2026-11-16T10:00:00+00:00 · blockers=none · Impression et livraison des documents de communication de la Communauté d'Agglomération Royan Atlantique - 2 lots
 - **FR-BOAMP:26-100753** · FR · p=56 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · Solution de gestion, d’impression et d’envoi de courriers multicanal
+- **TED:784418-2026** · FRA · p=56 · deadline=2026-11-19T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
+- **FR-BOAMP:26-109040** · FR · p=56 · deadline=2026-11-19T11:00:00+00:00 · blockers=none · Impression et distribution du magazine communautaire bimestriel et du supplément d’été de la Communauté de l’Auxerrois - Années 2027 à 2030
 - **FR-BOAMP:26-108805** · FR · p=56 · deadline=2026-11-19T12:00:00+00:00 · blockers=none · Solution de gestion, d’impression et d’envoi de courriers multicanal
 - **TED:709025-2026** · FRA · p=56 · deadline=2026-11-20T01:00:00+00:00 · blockers=none · France – Scanning services – 2026_PFRAGE_NUM_67_68
-- **FR-BOAMP:26-100366** · FR · p=56 · deadline=2026-11-20T11:00:00+00:00 · blockers=none · Fourniture de papier d'impression et de fournitures de bureau
-- **FR-BOAMP:26-99038** · FR · p=56 · deadline=2026-11-20T11:00:00+00:00 · blockers=none · Prestations de numérisation au profit des services de l’État et de certains des établissements publics en département 67 (Bas-Rhin) et 68 (Haut-Rhin).
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -42,9 +42,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:723838-2026** · FRA · p=48 · deadline=2026-11-19T11:00:00+00:00 · blockers=none · France – Software programming and consultancy services – Mise en place d'un chatbot à destination client pour le site actionlogement.fr
 - **TED:739769-2026** · FRA · p=48 · deadline=2026-11-23T11:00:00+00:00 · blockers=none · France – Software programming and consultancy services – Mise en place d'un chatbot à destination client pour le site actionlogement.fr
 - **TED:737646-2026** · ROU · p=48 · deadline=2026-12-02T02:00:00+00:00 · blockers=none · Romania – Software-related services – Servicii de de dezvoltare, testare și pilotare a soluțiilor digitale, inclusiv instruirea personalului și a utilizatorilor în cadrul proiectului „Dezvoltarea digitală în cadrul parteneriatului între Comuna Căpâlnița și Comuna Lueta”
-- **TED:702015-2026** · DEU · p=46 · deadline=2026-11-11T09:00:00+00:00 · blockers=none · Germany – Public relations consultancy services – Chat-Bot
 - **US-SAM:1f3b99ab814149fd8b37e50bfb677475** · US · p=46 · deadline=2026-11-13T22:00:00+00:00 · blockers=none · ID FLAP KOOTEN 8450(1), Yellowstone Trail Road, Segment 1
 - **US-SAM:2a78c1b366bb41d7a1dec775267191e0** · US · p=46 · deadline=2026-11-13T22:00:00+00:00 · blockers=none · ID FLAP KOOTEN 8450(1), Yellowstone Trail Road, Segment 1
+- **US-SAM:35827c8f1331443a8ff7c1a6e5d8c27b** · US · p=46 · deadline=2026-11-13T22:00:00+00:00 · blockers=none · ID FLAP KOOTEN 8450(1), Yellowstone Trail Road, Segment 1
 - **US-SAM:780bb5b1908f4de198bf5d0ca8b720a7** · US · p=46 · deadline=2026-11-13T22:00:00+00:00 · blockers=none · ID FLAP KOOTEN 8450(1), Yellowstone Trail Road, Segment 1
 - **US-SAM:efb33d0b6130408ab7e7a45987a1174b** · US · p=46 · deadline=2026-11-13T22:00:00+00:00 · blockers=none · ID FLAP KOOTEN 8450(1), Yellowstone Trail Road, Segment 1
 - **US-SAM:96b0e6b0986c4c8583e0f3be78bb652c** · US · p=46 · deadline=2026-11-18T15:00:00+00:00 · blockers=none · Fiscal Year 2027 FDA Small Business Fair
@@ -113,9 +113,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## media_monitoring
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
-- **IE:9326986** · IE · p=40 · deadline=2026-11-10T18:00:00+00:00 · blockers=none · The provision of Media Monitoring Services for the Department of Foreign Affairs and Trade
 - **CA:PRCP0003653** · CA · p=38 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Media monitoring and newsletter production services
-- **FI-HILMA:60721** · FI · p=38 · deadline=2026-11-23T10:00:00+00:00 · blockers=none · Media Monitoring Services and Social Media Publishing & Analytics Services
 
 ## print_broker
 - **TED:745397-2026** · FRA · p=78 · deadline=2026-12-01T15:00:00+00:00 · blockers=none · France – Electronic message and information services – 2026-032 - Prestation E-Mailing et hébergement des diffusions presse
@@ -131,17 +129,18 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:713873-2026** · FRA · p=68 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Printing services – Prestations d’impression de supports de communication pour le groupement de commandes composé de la Commune de Bezons et de son Centre Communal d'Action Sociale (CCAS)
 - **TED:717452-2026** · FRA · p=68 · deadline=2026-11-20T01:00:00+00:00 · blockers=none · France – Printing and related services – Prestations d’impression pour le Conservatoire National Supérieur de Musique et de Danse de Paris
 - **TED:755541-2026** · FRA · p=68 · deadline=2026-12-03T01:00:00+00:00 · blockers=none · France – Printing services – IMPRESSION DES DOCUMENTS ADMINISTRATIFS ET DE COMMUNICATION POUR LE GROUPEMENT DE COMMANDES : VILLE DE CANET-EN-ROUSSILLON, CCAS, CANET TOURISME ET SPL SILLAGES
+- **TED:783685-2026** · FRA · p=68 · deadline=2026-12-15T01:00:00+00:00 · blockers=none · France – Digital printing services – 2026EPC0011 - IMPRESSION ET FABRICATION DE SUPPORT DE COMMUNICATION ET DE SIGNALETIQUE EVENEMENTIELLE
 - **TED:713442-2026** · FRA · p=66 · deadline=2026-11-12T02:00:00+00:00 · blockers=none · France – Printing and related services – Impression, conditionnement, stockage et routage de sujets de concours et d'examens professionnels pour l'ensemble des services du ministère de la Justice
 - **TED:718640-2026** · FRA · p=66 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Services related to printing – SERVICES D’IMPRESSION – ACHAT ET LOCATION DES MATERIELS D’IMPRESSION BUREAUTIQUES, PRESTATIONS DE SERVICES ASSOCIEES POUR LES ADHERENTS DE LA CAIH
 - **TED:739310-2026** · FRA · p=66 · deadline=2026-11-24T01:00:00+00:00 · blockers=none · France – Printing services – Réalisation de prestations d'impressions de supports de communication et de livraison pour les besoins d'OPCO Mobilités
 - **TED:762945-2026** · FRA · p=66 · deadline=2026-11-26T14:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre de services de publications et d'impression de 2027 à 2030 (5 lots) Groupement de commande entre le Ville de Menton et le Centre Communal d'Aide Sociale de la Ville de Menton pour l'achat de prestations d'imprimerie
 - **FR-BOAMP:26-98356** · FR · p=64 · deadline=2026-11-12T11:00:00+00:00 · blockers=none · Impression et façonnage de divers travaux d'impression pour la Ville de Blagnac
 - **FR-BOAMP:26-100152** · FR · p=64 · deadline=2026-11-12T12:00:00+00:00 · blockers=none · PRESTATIONS D'IMPRESSION
-- **FR-BOAMP:26-99332** · FR · p=64 · deadline=2026-11-12T12:00:00+00:00 · blockers=none · Impression, de conditionnement, de stockage et de routage de sujets de concours et d'examens professionnels au profit de l'ensemble des services du ministère de la Justice
 
 ## promo_goods
 - **TED:726457-2026** · FRA · p=60 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
 - **TED:782153-2025** · FRA · p=60 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – Système d'acquisition dynamique (SAD) - Acquisition de goodies et textiles personnalisés
+- **TED:783997-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Information and promotion products – Fourniture et marquage d'objets promotionnels pour la Région Provence-Alpes-Côte d'Azur - relance des lots 2 et 3 de l'AAPC 2026-0988
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
 - **TED:699693-2026** · FRA · p=54 · deadline=2026-11-16T02:00:00+00:00 · blockers=none · France – Information and promotion products – Fourniture et livraison d’articles et objets publicitaires logotés pour la CCINCA
 - **FR-BOAMP:26-97050** · FR · p=54 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · Fourniture et livraison d’articles et objets publicitaires logotés pour la CCINCA
@@ -155,7 +154,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:8f2c81e8b86f44d59ee4540988491b3a** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:f2fb6bafa6ec4f72aeba3231e4961a44** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:fa59c8d3be7b4ea98fb6372bc9f99ccc** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
-- **US-SAM:886c3d6103494239ac0779362e8bf7ad** · US · p=46 · deadline=2026-11-10T20:00:00+00:00 · blockers=none · 20--HATCH,MARINE, IN REPAIR/MODIFICATION OF
 - **US-SAM:74048eb901f14a0aa9248173ccba89a6** · US · p=46 · deadline=2026-11-11T21:00:00+00:00 · blockers=SOLE_SOURCE_OR_OEM,SOURCES_SOUGHT_OR_RFI · J065--Omnicell IVX Software Maintenance and Support
 - **US-SAM:38102e8a0a1c4d51920cd6ddbbd740c4** · US · p=46 · deadline=2026-11-12T20:30:00+00:00 · blockers=none · 48--PARTS KIT,BALL VALV, IN REPAIR/MODIFICATION OF
 - **US-SAM:67e4ef2b7fc1497aaf8b25ecee75906d** · US · p=46 · deadline=2026-11-13T18:00:00+00:00 · blockers=none · 15--RADOME - AND OTHER REPLACEMENT PARTS, IN REPAIR/MODIFICATION OF
@@ -170,6 +168,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:e629baaf44f8419692f53b3cb6e6d1ff** · US · p=46 · deadline=2026-11-17T18:00:00+00:00 · blockers=none · 59--HEAT SINK,ELECTRICA
 - **US-SAM:7242b3187c60467596d8bddd0bc5be57** · US · p=46 · deadline=2026-11-18T04:00:00+00:00 · blockers=none · 59--ANTENNA, IN REPAIR/MODIFICATION OF
 - **US-SAM:4531250b2a034990b4150ba4352da286** · US · p=46 · deadline=2026-11-19T04:00:00+00:00 · blockers=none · 48--ACTUATOR,HYDRAULIC-- AND SIMILAR REPLACEMENT PARTS
+- **US-SAM:ab623a37cdcf49c38e09c9eba477b234** · US · p=46 · deadline=2026-11-19T20:30:00+00:00 · blockers=none · 16--ACTUATOR,ELECTROMEC, IN REPAIR/MODIFICATION OF
 
 ## social_marketing
 - **TED:716382-2026** · FRA · p=53 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · France – Benefit services – Marché de service Hospitality pour l'immeuble Silver Island de la SCI le Galion
@@ -217,7 +216,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-88536** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **TED:694228-2026** · NOR · p=48 · deadline=2026-11-23T00:00:00+00:00 · blockers=none · Norway – Translation services – Framework Agreement for Norwegian-Northern Sami Translation Services
-- **US-SAM:8db4fcf432f943ad90f0b82920bdfef1** · US · p=45 · deadline=2026-11-10T15:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · CDC Technical Assistance for Program Implementation, Messaging, Evaluation, and Translation Services in Support of Nutrition, Physical Activity, and Obesity Prevention
 - **TED:709040-2026** · ESP · p=40 · deadline=2026-11-16T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de interpretación y traducción para la Dirección General de Infancia, Familia y Fomento de la Natalidad en el ámbito de sus competencias de protección.
 - **TED:750606-2026** · DEU · p=40 · deadline=2026-11-20T22:59:00+00:00 · blockers=none · Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)
 - **TED:755183-2026** · ESP · p=40 · deadline=2026-11-27T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de traducción, interpretación y transcripción en los órganos judiciales, la fiscalía, el instituto de medicina legal y ciencias forenses de Cantabria y la oficina de asistencia a las víctimas del delito que tienen su sede en la comunidad Autónoma de Cantabria.
