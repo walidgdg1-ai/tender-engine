@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-11-11T00:22:43.761286+00:00",
+  "updated_at": "2026-11-11T06:28:03.898247+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 42929766530,
+  "latest_source_dce_run_id": 42971847091,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 170,
+    "pending_before_visible_cap": 171,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -21,17 +21,17 @@
     "pending_by_fit_band": {
       "HOT": 17,
       "GOOD": 55,
-      "MAYBE": 52,
-      "LOW": 36
+      "MAYBE": 51,
+      "LOW": 37
     },
     "pending_by_portal": {
       "IRELAND_ETENDERS": 15,
       "TED": 61,
       "MALTA_EPPS": 10,
-      "US_SAM": 29,
+      "US_SAM": 30,
       "WORLD_BANK": 6,
       "PL_EZAMOWIENIA": 4,
-      "EE_RHR": 9,
+      "EE_RHR": 8,
       "CA_CANADABUYS": 4,
       "CYPRUS_EPPS": 2,
       "DE_DOE": 2,
@@ -62,17 +62,17 @@
     "selected_by_band": {
       "HOT": 17,
       "GOOD": 55,
-      "MAYBE": 52,
-      "LOW": 36
+      "MAYBE": 51,
+      "LOW": 37
     },
     "selected_by_portal": {
       "IRELAND_ETENDERS": 15,
       "TED": 61,
       "MALTA_EPPS": 10,
-      "US_SAM": 29,
+      "US_SAM": 30,
       "WORLD_BANK": 6,
       "PL_EZAMOWIENIA": 4,
-      "EE_RHR": 9,
+      "EE_RHR": 8,
       "CA_CANADABUYS": 4,
       "CYPRUS_EPPS": 2,
       "DE_DOE": 2,
@@ -103,23 +103,23 @@
       "DCE_AUTHENTICITY": 20
     },
     "selected_by_band": {
-      "HOT": 16,
-      "GOOD": 34,
-      "MAYBE": 73,
+      "HOT": 15,
+      "GOOD": 44,
+      "MAYBE": 64,
       "LOW": 37
     },
     "selected_by_portal": {
-      "IRELAND_ETENDERS": 15,
       "TED": 65,
+      "IRELAND_ETENDERS": 14,
       "MALTA_EPPS": 10,
-      "US_SAM": 28,
-      "WORLD_BANK": 6,
+      "US_SAM": 29,
+      "WORLD_BANK": 7,
       "PL_EZAMOWIENIA": 4,
       "GR_KHMDHS": 3,
-      "EE_RHR": 9,
-      "CYPRUS_EPPS": 2,
+      "EE_RHR": 8,
+      "CYPRUS_EPPS": 1,
       "ES_PLACSP": 4,
-      "GENERIC_PUBLIC_PAGE": 3,
+      "GENERIC_PUBLIC_PAGE": 4,
       "SK_UVO": 3,
       "ZA_ETENDERS": 1,
       "DE_DOE": 1,
@@ -130,36 +130,47 @@
       "SCOTLAND_PCS": 1
     }
   },
-  "review_index_count": 1160,
+  "review_index_count": 1163,
   "review_index_counts": {
-    "pending_total_uncapped": 1160,
+    "pending_total_uncapped": 1163,
     "by_stage": {
-      "BUSINESS_GATES": 850,
+      "BUSINESS_GATES": 853,
       "DCE_AUTHENTICITY": 310
     },
     "by_spm_fit_band": {
-      "HOT": 16,
-      "GOOD": 47,
-      "MAYBE": 84,
-      "LOW": 1013
+      "HOT": 15,
+      "GOOD": 57,
+      "MAYBE": 76,
+      "LOW": 1015
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1000,
-    "cross_portal_duplicates_collapsed": 0
+    "overflow_beyond_hot_160": 1003,
+    "cross_portal_duplicates_collapsed": 4
   },
-  "true_pending_before_hot_cap": 1160,
-  "overflow_beyond_hot_160": 1000,
+  "true_pending_before_hot_cap": 1163,
+  "overflow_beyond_hot_160": 1003,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 0,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 0,
-    "adjudication_rows_scanned_this_refresh": 0,
-    "gate_rows_seen_this_refresh": 0,
-    "authenticity_rows_seen_this_refresh": 0,
-    "source_runs_seen_this_refresh": []
+    "shard_files_scanned_this_refresh": 157,
+    "adjudication_rows_scanned_this_refresh": 1273,
+    "gate_rows_seen_this_refresh": 338,
+    "authenticity_rows_seen_this_refresh": 75,
+    "source_runs_seen_this_refresh": [
+      42971847091,
+      42929766530,
+      42887454808,
+      42812934862,
+      42752816322,
+      42707518270,
+      42613295016,
+      42556689323,
+      42537454737,
+      42520378000
+    ]
   },
   "healthy": true,
   "contract": "Health sidecar exposes the true uncapped GPT review backlog plus fair-share and read-surface provenance. GPT Web adjudicator remains the assistant; exact-ID authenticity retries are separately cooldown-limited below."
