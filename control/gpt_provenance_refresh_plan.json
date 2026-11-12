@@ -1,12 +1,12 @@
 {
   "schema": "DCE_PROVENANCE_REFRESH_PLAN_V4_REAL_SHARD_ARTIFACT_NAME",
-  "source_inbox_updated_at": "2026-11-10T12:15:43.107413+00:00",
-  "eligible_legacy_reviews": 109,
-  "selected": 3,
+  "source_inbox_updated_at": "2026-11-12T10:12:08.497168+00:00",
+  "eligible_legacy_reviews": 107,
+  "selected": 9,
   "release_count": 2,
   "release_tags": [
     "dce-harvest-42020533787",
-    "dce-harvest-41254711324"
+    "dce-harvest-42971847091"
   ],
   "items": [
     {
@@ -33,14 +33,80 @@
     },
     {
       "candidate_id": "TED:755937-2026",
-      "dce_run_id": 41254711324,
-      "source_shard": 29,
-      "workflow_artifact_name": "dce-shard-29",
-      "release_tag": "dce-harvest-41254711324",
+      "dce_run_id": 42971847091,
+      "source_shard": 15,
+      "workflow_artifact_name": "dce-shard-15",
+      "release_tag": "dce-harvest-42971847091",
       "archive_name": "candidate-TED-755937-2026.tar.gz",
       "spm_fit_band": "HOT",
       "score": 71,
       "portal": "TED"
+    },
+    {
+      "candidate_id": "TED:730054-2026",
+      "dce_run_id": 42971847091,
+      "source_shard": 14,
+      "workflow_artifact_name": "dce-shard-14",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-TED-730054-2026.tar.gz",
+      "spm_fit_band": "GOOD",
+      "score": 56,
+      "portal": "TED"
+    },
+    {
+      "candidate_id": "US-SAM:3757e5440d2c47d494f415af3d213f63",
+      "dce_run_id": 42971847091,
+      "source_shard": 9,
+      "workflow_artifact_name": "dce-shard-9",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-US-SAM-3757e5440d2c47d494f415af3d213f63.tar.gz",
+      "spm_fit_band": "GOOD",
+      "score": 52,
+      "portal": "US_SAM"
+    },
+    {
+      "candidate_id": "IE:9304329",
+      "dce_run_id": 42971847091,
+      "source_shard": 6,
+      "workflow_artifact_name": "dce-shard-6",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-IE-9304329.tar.gz",
+      "spm_fit_band": "GOOD",
+      "score": 48,
+      "portal": "IRELAND_ETENDERS"
+    },
+    {
+      "candidate_id": "MT-EPPS:14202193",
+      "dce_run_id": 42971847091,
+      "source_shard": 15,
+      "workflow_artifact_name": "dce-shard-15",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-MT-EPPS-14202193.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 29,
+      "portal": "MALTA_EPPS"
+    },
+    {
+      "candidate_id": "IE:9398519",
+      "dce_run_id": 42971847091,
+      "source_shard": 14,
+      "workflow_artifact_name": "dce-shard-14",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-IE-9398519.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 22,
+      "portal": "IRELAND_ETENDERS"
+    },
+    {
+      "candidate_id": "MT-EPPS:14052512",
+      "dce_run_id": 42971847091,
+      "source_shard": 10,
+      "workflow_artifact_name": "dce-shard-10",
+      "release_tag": "dce-harvest-42971847091",
+      "archive_name": "candidate-MT-EPPS-14052512.tar.gz",
+      "spm_fit_band": "MAYBE",
+      "score": 22,
+      "portal": "MALTA_EPPS"
     }
   ],
   "policy": "HOT/GOOD/MAYBE legacy evidence only. Exact dce-shard-<source_shard> workflow artifact is preferred because it contains the original worker output; immutable canonical release bundle is fallback. No procurement fact or verdict is changed."
