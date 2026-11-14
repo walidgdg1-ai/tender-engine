@@ -1,8 +1,8 @@
 {
   "schema": "GPT_REVIEW_HOT_V3",
-  "updated_at": "2026-11-14T17:05:16.377759+00:00",
+  "updated_at": "2026-11-14T17:05:18.124036+00:00",
   "latest_dce_run_id": 43617561206,
-  "latest_shard": 45,
+  "latest_shard": 47,
   "generation_reset": false,
   "count": 40,
   "items": [
@@ -1073,31 +1073,596 @@
       "deadline": "2026-11-20T02:00:00+00:00",
       "estimated_value": null,
       "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
-      "evidence_gate_coverage": 12,
+      "preliminary_score": 89,
       "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+        "conflict": false,
+        "notice_deadline_raw": "2026-11-20T02:00:00+00:00",
+        "notice_deadline_date": "2026-11-20",
+        "authoritative_submission_date": "2026-11-20",
+        "submission_deadline_candidates": [
+          "2026-11-20"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2026-11-20"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2026-11-20",
+            "match": "20 novembre 2026",
+            "label": "SUBMISSION",
+            "keyword": "remise des offres",
+            "distance": 6,
+            "context": "ECTUELLES \nSOUMIS AU CODE DE LA COMMANDE PUBLIQUE \n \n \nREGLEMENT DE LA CONSULTATION (R.C) \n \n \nMAGAZINE DES PAYS DE LA LOIRE \nLOT1 : MISE EN PAGE \n \n \n \n \nDate et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 \n \n \n \n \nAccord-cadre n° DCOM209-202660245 \n \nL’acheteur : \nRégion des Pays de la Loire \nDirection de la Communication \nHôtel de Région - 1 rue de la Loire \n44 966 NANTES CEDEX 9 \n \n \nEtendue de la Consultation : \nProcédure lancée en appel d’offres ouvert en application des articles L"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "20 novembre 2026",
+            "label": "SUBMISSION",
+            "keyword": "remise des offres",
+            "distance": 6,
+            "context": "ECTUELLES \nSOUMIS AU CODE DE LA COMMANDE PUBLIQUE \n \n \nREGLEMENT DE LA CONSULTATION (R.C) \n \n \nMAGAZINE DES PAYS DE LA LOIRE \nLOT1 : MISE EN PAGE \n \n \n \n \nDate et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 \n \n \n \n \nAccord-cadre n° DCOM209-202660245 \n \nL’acheteur : \nRégion des Pays de la Loire \nDirection de la Communication \nHôtel de Région - 1 rue de la Loire \n44 966 NANTES CEDEX 9 \n \n \nEtendue de la Consultation : \nProcédure lancée en appel d’offres ouvert en application des articles L"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2026-11-20",
+            "match": "20 novembre 2026",
+            "context": "RESTATIONS INTELLECTUELLES \nSOUMIS AU CODE DE LA COMMANDE PUBLIQUE \n \n \nREGLEMENT DE LA CONSULTATION (R.C) \n \n \nMAGAZINE DES PAYS DE LA LOIRE \nLOT1 : MISE EN PAGE \n \n \n \n \nDate et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 \n \n \n \n \nAccord-cadre n° DCOM209-202660245 \n \nL’acheteur : \nRégion des Pays de la Loire \nDirection de la Communication \nHôtel de Région - 1 rue de la Loire \n44 966 NANTES CEDEX 9 \n \n \nEtendue de la Consult"
+          },
+          {
+            "date": "2026-11-20",
+            "match": "20 novembre 2026",
+            "context": "RESTATIONS INTELLECTUELLES \nSOUMIS AU CODE DE LA COMMANDE PUBLIQUE \n \n \nREGLEMENT DE LA CONSULTATION (R.C) \n \n \nMAGAZINE DES PAYS DE LA LOIRE \nLOT1 : MISE EN PAGE \n \n \n \n \nDate et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 \n \n \n \n \nAccord-cadre n° DCOM209-202660245 \n \nL’acheteur : \nRégion des Pays de la Loire \nDirection de la Communication \nHôtel de Région - 1 rue de la Loire \n44 966 NANTES CEDEX 9 \n \n \nEtendue de la Consult"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 3,
+          "corpus_contexts": 3,
+          "unique_contexts": 6
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 12,
+      "evidence_by_gate": {
+        "entity_geography": [
+          {
+            "text": ".............................. 15 8. 5 - Echanges électroniques entre l’acheteur et les candidats lors de la procédure de consultation ........ 15 ARTICLE 9 - RENSEIGNEMENTS COMPLEMENTAIRES _______________________ 15 ARTICLE 10 - DIFFERENDS ______________________________________________ 15 RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 4 / 16 PREAMBULE L’attention des candidats est attirée sur le fait que les prestations demandées font l’objet d’un accord-cadre mono- attributaire prévu par les articles R2162-1 à R2162-14 du code de la commande publique. L’accord- cadre est un contrat, conclu entre l’acheteur et un opérateur économique public ou privé, ayant pour objet d’établir les termes régissant les marchés ou les bons de commandes à passer au cours d’une période donnée. A chaque besoin, l’acheteur émettra soit un bon de commande sur la base du bordereau de prix unitaires joint au présent accord-cadre soit rédigera un marché subséquent. Dans ce dernier cas, un dossier de consultation (comprenant un acte d’engagement, un cahier des clauses particulières et une lettre de consultation) sera adressé au titulaire de l’accord-cadre précisant les caractéristiques et les modalités d’exécution des prestations demandées. Le titulaire remettra alors une proposition tech",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5822,
+            "corpus_end": 7142,
+            "match": "opérateur économique"
+          },
+          {
+            "text": "suivantes : 1. La « lettre de candidature-désignation du mandataire par ses cotraitants » dûment complétée, – DC1 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment l’attestation sur l’honneur prévue à l’article R2143-3 du code de la commande publique ; 2. La déclaration du candidat dûment complétée– DC2 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment : • La déclaration concernant le chiffre d’affaires, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l’entreprise ou du début d’activité de l’opérateur économique, dans la mesure où les informations sur ces chiffres d’affaires sont disponibles. Elle comportera également : • Une déclaration indiquant les effectifs moyens annuels du candidat pendant les trois dernières années ; • Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années ; 3. L’Acte d'Engagement et ses annexes, dûment complétés ; 4. Un mémoire technique composé des éléments suivants : • Une note méthodologique comprenant le planning détaillé de réalisation d’un numéro, l’identification d’un interlocuteur Région, les moyens humains et techniques mis à la disposit",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 16164,
+            "corpus_end": 17484,
+            "match": "opérateur économique"
+          }
+        ],
+        "turnover_financial": [],
+        "references_experience": [
+          {
+            "text": "er pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16 La sous-traitance est autorisée dans les conditions fixées au CCP. Les opérations sous traitées devront être identifiées dans le formulaire DC4 – déclaration de sous-traitance. 2. 3 - Conditions financières relatives à l’accord-cadre Le financement est assuré sur des fonds régionaux propres. Le mode de règlement choisi par l’administration est le virement bancaire. Les références du ou des comptes bancaires où les paiements seront effectués doivent être précisées dans l'acte d'engagement. Le délai maximum de paiement ne peut excéder trente jours à compter de la réception de la facture par la Région. Le taux de TVA applicable est celui en vigueur à la date du fait générateur de la TVA. Sauf renoncement du titulaire porté à l’acte d’engagement, une avance lui est accordée dans les conditions fixées au CCP. 2. 4 - Conditions d'accès à la commande publique relatives à la lutte contre le travail illégal, au respect de l'obligation d'emploi des travailleurs handicapés et au respect de l’égalité professionn",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11003,
+            "corpus_end": 12313,
+            "match": "références"
+          },
+          {
+            "text": "; • Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années ; 3. L’Acte d'Engagement et ses annexes, dûment complétés ; 4. Un mémoire technique composé des éléments suivants : • Une note méthodologique comprenant le planning détaillé de réalisation d’un numéro, l’identification d’un interlocuteur Région, les moyens humains et techniques mis à la disposition de la Région pour accomplir la mission, dont les curriculums vitae de l’équipe dédiée, en relation avec l’objet de l’accord-cadre. • La présentation de 3 réalisations de mise en page de magazines existantes, de préférence de collectivités publiques, réalisées par l’équipe dédiée. Si le candidat remet plus de 3 réalisations de mise en page de magazines, seules les 3 premières par ordre de présentation dans l’offre du candidat, seront analysées. • La réalisation d’une maquette composée de 4 à 6 pages maximum proposant une nouvelle approche créative d’une à trois rubriques au choix du candidat, sur la base du contenu du magazine Ma Région automne 2026 n°17. La réalisation devra répondre à un triple objectif : l’optimisation de la lecture des informations, la mise en valeur de l’iconographie choisie et l’impact de la créativité éditoriale. (Cf. Maquette m",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17053,
+            "corpus_end": 18362,
+            "match": "référence"
+          },
+          {
+            "text": "utre valeur que celle d’une copie et ne peut pas remplacer la signature électronique. Un dossier ZIP signé n’est pas accepté comme équivalent à la signature de chaque document qui constitue le dossier zip. Après avoir constitué leur enveloppe électronique comprenant l’ensemble des documents demandés par le règlement de la consultation, les soumissionnaires se connectent au site https://marchespublics.paysdelaloire.fr/ et la déposent aux endroits prévus sur la page de constitution de la réponse. Les candidats et soumissionnaires veilleront à bien déposer leur pli sous la consultation concernée par le présent accord-cadre (voir référence et objet sur la page de garde). Les candidats transmettent leur offre impérativement avant les date et heure limites indiquées au présent règlement de la consultation, à défaut, elle ne sera pas ouverte et rejetée. Un message leur indiquant que l’opération de dépôt de leur offre a été réalisée avec succès leur est affiché puis un accusé de réception leur est adressé par courrier électronique avec signature électronique donnant à leur dépôt une date certaine, la date et l’heure de fin de réception faisant référence. L’absence de message de confirmation de bonne réception et d’accusé de réception électronique signifie pour le soumissi",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 34113,
+            "corpus_end": 35422,
+            "match": "référence"
+          },
+          {
+            "text": "et soumissionnaires veilleront à bien déposer leur pli sous la consultation concernée par le présent accord-cadre (voir référence et objet sur la page de garde). Les candidats transmettent leur offre impérativement avant les date et heure limites indiquées au présent règlement de la consultation, à défaut, elle ne sera pas ouverte et rejetée. Un message leur indiquant que l’opération de dépôt de leur offre a été réalisée avec succès leur est affiché puis un accusé de réception leur est adressé par courrier électronique avec signature électronique donnant à leur dépôt une date certaine, la date et l’heure de fin de réception faisant référence. L’absence de message de confirmation de bonne réception et d’accusé de réception électronique signifie pour le soumissionnaire que sa réponse n’est pas parvenue à la Région des Pays de la Loire. Il est rappelé que la durée du téléchargement et de la remise des plis est fonction du débit de l’accès à Internet du soumissionnaire et de la taille des documents à transmettre. L’attention des candidats est attirée sur le fait que la remise d’une offre électronique peut prendre du temps et qu’il leur appartient de se connecter suffisamment en amont des dates et heures limites afin d’être sûrs de pouvoir déposer leur offre dans les délai",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 34641,
+            "corpus_end": 35950,
+            "match": "référence"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": ". 3 - Documents à remettre par l’attributaire de l’accord-cadre IMPORTANT : L’attributaire recevra un courrier lui précisant les documents qu’il doit fournir à l’acheteur (dans la mesure où il ne les a pas déjà fournis dans son offre) : - l’acte d’engagement signé par une personne dûment habilitée (cf. article 4.3 du présent règlement de la consultation), accompagnés des pouvoirs donnant délégation de signature au signataire des documents. L’attributaire s’engage à ne pas modifier son offre lors de cette signature. La signature de l’acte d’engagement vaudra signature de toutes les pièces contractuelles ; - les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu’il a satisfait à ses obligations fiscales datant du dernier jour du mois précédent la demande de délivrance de l’attestation; - s’il fait l’objet d’une procédure de redressement judiciaire ou d’une procédure étrangère équivalente, la copie du ou des jugements prononcés à cet effet prouvant qu’il est autorisé à poursuivre son activité au-delà de la durée de l’accord-cadre; - l’attestation de vigilance URSSAF datant de moins de 6 mois, valant pour les entreprises de plus de 20 salariés, attestation de conformité à l’obligation d’emploi des travailleurs handicapés. -",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 24731,
+            "corpus_end": 26041,
+            "match": "certificat"
+          },
+          {
+            "text": "sultation (modifications de dates, rectificatifs/compléments de dossier, etc) et en assument l’entière responsabilité dans l’élaboration de leur offre. Le dossier de consultation des entreprises est disponible au format compressé .zip. Le logiciel nécessaire à la décompression des documents est mis à disposition sur le site. Les échanges d’information sont sécurisés grâce à l’utilisation du protocole https. Le candidat devra veiller à conserver son identifiant et son mot de passe pour tout échange ultérieur. 8. 2 - Préalable à l’envoi de plis dématérialisés IMPORTANT – RECOMMANDATION AU CANDIDAT : NECESSITE PREALABLE D’UN CERTIFICAT ELECTRONIQUE - CONFIGURATION A L’AVANCE DU POSTE DE TRAVAIL DU CANDIDAT – PREPARATION AVEC LA CONSULTATION DE TEST Pour signer électroniquement son offre, le candidat doit avoir acquis au préalable un certificat électronique permettant la signature électronique de ses fichiers selon les dispositions règlementaires. Obtenir ce certificat nécessite plusieurs jours, voire plusieurs semaines. Si le candidat ne dispose pas de certificat électronique valable pour la réponse à un marché dématérialisé, il est impératif qu’il en fasse la demande à l’avance. Il est également fortement recommandé au candidat de prendre ses dispositions de",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 31341,
+            "corpus_end": 32651,
+            "match": "CERTIFICAT"
+          },
+          {
+            "text": "u format compressé .zip. Le logiciel nécessaire à la décompression des documents est mis à disposition sur le site. Les échanges d’information sont sécurisés grâce à l’utilisation du protocole https. Le candidat devra veiller à conserver son identifiant et son mot de passe pour tout échange ultérieur. 8. 2 - Préalable à l’envoi de plis dématérialisés IMPORTANT – RECOMMANDATION AU CANDIDAT : NECESSITE PREALABLE D’UN CERTIFICAT ELECTRONIQUE - CONFIGURATION A L’AVANCE DU POSTE DE TRAVAIL DU CANDIDAT – PREPARATION AVEC LA CONSULTATION DE TEST Pour signer électroniquement son offre, le candidat doit avoir acquis au préalable un certificat électronique permettant la signature électronique de ses fichiers selon les dispositions règlementaires. Obtenir ce certificat nécessite plusieurs jours, voire plusieurs semaines. Si le candidat ne dispose pas de certificat électronique valable pour la réponse à un marché dématérialisé, il est impératif qu’il en fasse la demande à l’avance. Il est également fortement recommandé au candidat de prendre ses dispositions de manière à ce que sa réponse électronique soit déposée dans les délais impartis. Un test de configuration de son poste de travail ainsi que des consultations de test sont mis à sa disposition sur la plateforme (cf.",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 31557,
+            "corpus_end": 32867,
+            "match": "certificat"
+          },
+          {
+            "text": "s d’information sont sécurisés grâce à l’utilisation du protocole https. Le candidat devra veiller à conserver son identifiant et son mot de passe pour tout échange ultérieur. 8. 2 - Préalable à l’envoi de plis dématérialisés IMPORTANT – RECOMMANDATION AU CANDIDAT : NECESSITE PREALABLE D’UN CERTIFICAT ELECTRONIQUE - CONFIGURATION A L’AVANCE DU POSTE DE TRAVAIL DU CANDIDAT – PREPARATION AVEC LA CONSULTATION DE TEST Pour signer électroniquement son offre, le candidat doit avoir acquis au préalable un certificat électronique permettant la signature électronique de ses fichiers selon les dispositions règlementaires. Obtenir ce certificat nécessite plusieurs jours, voire plusieurs semaines. Si le candidat ne dispose pas de certificat électronique valable pour la réponse à un marché dématérialisé, il est impératif qu’il en fasse la demande à l’avance. Il est également fortement recommandé au candidat de prendre ses dispositions de manière à ce que sa réponse électronique soit déposée dans les délais impartis. Un test de configuration de son poste de travail ainsi que des consultations de test sont mis à sa disposition sur la plateforme (cf. Aide - Guide d’utilisation) à l’adresse https://marchespublics.paysdelaloire.fr/. 8. 3 - Constitution, remise et traitement d",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 31688,
+            "corpus_end": 32998,
+            "match": "certificat"
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "nibles. Elle comportera également : • Une déclaration indiquant les effectifs moyens annuels du candidat pendant les trois dernières années ; • Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années ; 3. L’Acte d'Engagement et ses annexes, dûment complétés ; 4. Un mémoire technique composé des éléments suivants : • Une note méthodologique comprenant le planning détaillé de réalisation d’un numéro, l’identification d’un interlocuteur Région, les moyens humains et techniques mis à la disposition de la Région pour accomplir la mission, dont les curriculums vitae de l’équipe dédiée, en relation avec l’objet de l’accord-cadre. • La présentation de 3 réalisations de mise en page de magazines existantes, de préférence de collectivités publiques, réalisées par l’équipe dédiée. Si le candidat remet plus de 3 réalisations de mise en page de magazines, seules les 3 premières par ordre de présentation dans l’offre du candidat, seront analysées. • La réalisation d’une maquette composée de 4 à 6 pages maximum proposant une nouvelle approche créative d’une à trois rubriques au choix du candidat, sur la base du contenu du magazine Ma Région automne 2026 n°17. La réalisation devra répondre à un triple objectif : l’",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 16910,
+            "corpus_end": 18216,
+            "match": "équipe"
+          },
+          {
+            "text": "des principaux services fournis au cours des trois dernières années ; 3. L’Acte d'Engagement et ses annexes, dûment complétés ; 4. Un mémoire technique composé des éléments suivants : • Une note méthodologique comprenant le planning détaillé de réalisation d’un numéro, l’identification d’un interlocuteur Région, les moyens humains et techniques mis à la disposition de la Région pour accomplir la mission, dont les curriculums vitae de l’équipe dédiée, en relation avec l’objet de l’accord-cadre. • La présentation de 3 réalisations de mise en page de magazines existantes, de préférence de collectivités publiques, réalisées par l’équipe dédiée. Si le candidat remet plus de 3 réalisations de mise en page de magazines, seules les 3 premières par ordre de présentation dans l’offre du candidat, seront analysées. • La réalisation d’une maquette composée de 4 à 6 pages maximum proposant une nouvelle approche créative d’une à trois rubriques au choix du candidat, sur la base du contenu du magazine Ma Région automne 2026 n°17. La réalisation devra répondre à un triple objectif : l’optimisation de la lecture des informations, la mise en valeur de l’iconographie choisie et l’impact de la créativité éditoriale. (Cf. Maquette magazine jointe au présent DCE). • Une note environ",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17108,
+            "corpus_end": 18414,
+            "match": "équipe"
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "gère équivalente, la copie du ou des jugements prononcés à cet effet prouvant qu’il est autorisé à poursuivre son activité au-delà de la durée de l’accord-cadre; - l’attestation de vigilance URSSAF datant de moins de 6 mois, valant pour les entreprises de plus de 20 salariés, attestation de conformité à l’obligation d’emploi des travailleurs handicapés. - le cas échéant, un document d’habilitation du mandataire signé par les autres membres du groupement, en cas de groupement, et précisant les conditions de cette habilitation (personne(s) autorisées à signer l’accord-cadre et toutes ses modifications ultérieures) ; - une attestation d’assurance conformément aux dispositions du CCP ; - la liste nominative des salariés étrangers employés par le titulaire et soumis à l’autorisation de travail prévue à l’article L.5221-2 du Code du travail datant de moins de 6 mois. L’attribution est faite, à titre provisoire : si le candidat retenu ne peut produire ces documents, dans un délai de 10 jours calendaires à compter de la date de réception du courrier de demande, son offre est rejetée. L’acheteur présente la même demande au candidat suivant dans le classement des offres. Les co-traitants et/ou sous-traitants éventuels pourront être amenés à produire ces documents dans le même dél",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 25679,
+            "corpus_end": 26988,
+            "match": "assurance"
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "LE 2 - CONDITIONS DE LA CONSULTATION 2. 1 - Etendue de la consultation La présente consultation est passée en procédure d’appel d’offres ouvert en application des articles L2124-2 et R2124-2 du code de la commande publique. L’accord-cadre se réfère aux stipulations du Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG-PI) ; arrêté du 30 mars 2021 – NOR : ECOM2106874A. Ce document ne sera pas fourni par l’administration, il est réputé connu par le candidat. 2. 2 - Type de co-contractants Les entreprises candidates se présentent soit individuellement, soit en groupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupeme",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9836,
+            "corpus_end": 11146,
+            "match": "groupement"
+          },
+          {
+            "text": "SULTATION 2. 1 - Etendue de la consultation La présente consultation est passée en procédure d’appel d’offres ouvert en application des articles L2124-2 et R2124-2 du code de la commande publique. L’accord-cadre se réfère aux stipulations du Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG-PI) ; arrêté du 30 mars 2021 – NOR : ECOM2106874A. Ce document ne sera pas fourni par l’administration, il est réputé connu par le candidat. 2. 2 - Type de co-contractants Les entreprises candidates se présentent soit individuellement, soit en groupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membre",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9863,
+            "corpus_end": 11173,
+            "match": "groupement"
+          },
+          {
+            "text": "archés publics de prestations intellectuelles (CCAG-PI) ; arrêté du 30 mars 2021 – NOR : ECOM2106874A. Ce document ne sera pas fourni par l’administration, il est réputé connu par le candidat. 2. 2 - Type de co-contractants Les entreprises candidates se présentent soit individuellement, soit en groupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16 La sous-traitance est autorisée dans les conditions fixées au CCP. Les opérations sous traitées devront être identifiées dans le formulaire DC4 – déclaration de sous-traitance. 2. 3 - Conditions financières relat",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10179,
+            "corpus_end": 11489,
+            "match": "groupement"
+          },
+          {
+            "text": "oupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16 La sous-traitance est autorisée dans les conditions fixées au CCP. Les opérations sous traitées devront être identifiées dans le formulaire DC4 – déclaration de sous-traitance. 2. 3 - Conditions financières relatives à l’accord-cadre Le financement est assuré sur des fonds régionaux propres. Le mode de règlement choisi par l’administration est le virement bancaire. Les références du ou des comptes bancaires où les paiements seront effectués doivent être précisées dans l'acte d'engagement. Le délai maximum de",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10488,
+            "corpus_end": 11798,
+            "match": "groupement"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/RC_LOT1_DCOM209-202660245.pdf ===== RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 1 / 16 ACCORD-CADRE DE PRESTATIONS INTELLECTUELLES SOUMIS AU CODE DE LA COMMANDE PUBLIQUE REGLEMENT DE LA CONSULTATION (R.C) MAGAZINE DES PAYS DE LA LOIRE LOT1 : MISE EN PAGE Date et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 Accord-cadre n° DCOM209-202660245 L’acheteur : Région des Pays de la Loire Direction de la Communication Hôtel de Région - 1 rue de la Loire 44 966 NANTES CEDEX 9 Etendue de la Consultation : Procédure lancée en appel d’offres ouvert en application des articles L2124-2 et R2124-2 du code de la commande publique RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 2",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 820,
+            "match": "PRESTATIONS"
+          },
+          {
+            "text": "............................................... 6 2. 5 - Traitement des données personnelles .................................................................................................. 7 2. 6 - Obligations en matière environnementale ........................................................................................... 7 ARTICLE 3 - MODALITES DE TELECHARGEMENT ET CONTENU DU DOSSIER DE _ 7 ARTICLE 4 - PRESENTATION DES PROPOSITIONS ___________________________ 7 4. 1 - Variantes ............................................................................................................................................. 7 4. 2 - Prestations supplémentaires éventuelles ............................................................................................. 7 4. 3 - Documents à produire ......................................................................................................................... 8 4. 4 - Mise à disposition de documents via un espace de stockage numérique ............................................ 9 4. 5 - Langue de rédaction des propositions ................................................................................................. 9 4. 6 - Délai de validité des offres ...................................................................",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2856,
+            "corpus_end": 4167,
+            "match": "Prestations"
+          },
+          {
+            "text": "et traitement des plis dématérialisés ................................................................ 13 8. 4 - Signature électronique des fichiers par le candidat ........................................................................... 15 8. 5 - Echanges électroniques entre l’acheteur et les candidats lors de la procédure de consultation ........ 15 ARTICLE 9 - RENSEIGNEMENTS COMPLEMENTAIRES _______________________ 15 ARTICLE 10 - DIFFERENDS ______________________________________________ 15 RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 4 / 16 PREAMBULE L’attention des candidats est attirée sur le fait que les prestations demandées font l’objet d’un accord-cadre mono- attributaire prévu par les articles R2162-1 à R2162-14 du code de la commande publique. L’accord- cadre est un contrat, conclu entre l’acheteur et un opérateur économique public ou privé, ayant pour objet d’établir les termes régissant les marchés ou les bons de commandes à passer au cours d’une période donnée. A chaque besoin, l’acheteur émettra soit un bon de commande sur la base du bordereau de prix unitaires joint au présent accord-cadre soit rédigera un marché subséquent. Dans ce dernier cas, un dossier de consultation (comprenant un acte d’engagement, un cahier des clauses partic",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5611,
+            "corpus_end": 6922,
+            "match": "prestations"
+          },
+          {
+            "text": "adre est un contrat, conclu entre l’acheteur et un opérateur économique public ou privé, ayant pour objet d’établir les termes régissant les marchés ou les bons de commandes à passer au cours d’une période donnée. A chaque besoin, l’acheteur émettra soit un bon de commande sur la base du bordereau de prix unitaires joint au présent accord-cadre soit rédigera un marché subséquent. Dans ce dernier cas, un dossier de consultation (comprenant un acte d’engagement, un cahier des clauses particulières et une lettre de consultation) sera adressé au titulaire de l’accord-cadre précisant les caractéristiques et les modalités d’exécution des prestations demandées. Le titulaire remettra alors une proposition technique et financière. Un marché, dit « marché subséquent », sera alors conclu entre le titulaire et la Région des Pays de la Loire. ARTICLE 1 – OBJET DE LA CONSULTATION 1. 1 - Objet de l’accord-cadre Edité auparavant mensuellement pour une diffusion toutes boites aux lettres sur l’ensemble du territoire régional (aux alentours de 2 millions d’exemplaires à ce jour), la Région a fait évoluer son magazine régional. Le présent accord-cadre a pour objet la mise en page, l’impression et la diffusion du magazine de la Région des Pays de la Loire dont la distribution à date",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6421,
+            "corpus_end": 7732,
+            "match": "prestations"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "durable. Ces dernières sont fixées au 9.4 du CCP. ARTICLE 3 - MODALITES DE TELECHARGEMENT ET CONTENU DU DOSSIER DE CONSULTATION DES ENTREPRISES (DCE) Le Dossier de Consultation des Entreprises (DCE) est téléchargeable gratuitement via le site internet https://marchespublics.paysdelaloire.fr/ Les modalités de téléchargement du DCE sont précisées à l’article 7.1 du présent règlement. Le DCE comprend les pièces suivantes : • Règlement de la Consultation (RC) • Maquette du magazine Ma Région automne 2026 n°17 • Acte d’engagement (AE) et ses annexes • Cahier des Clauses Particulières (CCP) et ses annexes • Arrêtés frais de déplacement et hébergement et repas • La lettre de candidature (Imprimé DC1) • Habilitation du mandataire en cas de groupement • La déclaration du candidat (Imprimé DC2) • La déclaration de sous-traitance (Imprimé DC4) • L’attestation d’emploi ou de non emploi de salariés étrangers • La stratégie d’achat régionale. ARTICLE 4 - PRESENTATION DES PROPOSITIONS 4. 1 - Variantes 4. 1. 1 - Variantes exigées par l’acheteur (prestations exigées) Le présent accord-cadre ne comporte pas de variantes. 4. 1. 2 - Variantes proposées par les soumissionnaires Les soumissionnaires ne sont pas autorisés à proposer des variantes. 4. 2 -",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14558,
+            "corpus_end": 15869,
+            "match": "déplacement"
+          },
+          {
+            "text": "on d’une maquette composée de 4 à 6 pages maximum proposant une nouvelle approche créative d’une à trois rubriques au choix du candidat, sur la base du contenu du magazine Ma Région automne 2026 n°17. La réalisation devra répondre à un triple objectif : l’optimisation de la lecture des informations, la mise en valeur de l’iconographie choisie et l’impact de la créativité éditoriale. (Cf. Maquette magazine jointe au présent DCE). • Une note environnementale et sociale portant sur les points ci-après : - en matière environnementale : ▪ Les démarches du candidat en vue de la limitation d’émission de gaz à effet de serre en matière de déplacements des personnes affectées à la réalisation des prestations objet du présent marché. ▪ La démarche mise en œuvre pour alléger l’impact carbone des flux numériques objet du présent marché. - en matière sociale : ▪ Note explicative sur les sujets sociaux notamment l’insertion professionnelle, le programme de formation, et les contrats d’apprentissage mis en œuvre dans le cadre de l’exécution de la prestation. Ce mémoire technique constituera un document contractuel. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 9 / 16 La signature électronique de l’acte d’engagement n’est pas obligatoire au stade de la remise de l’o",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17957,
+            "corpus_end": 19268,
+            "match": "déplacement"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "sion du magazine de la Région des Pays de la Loire dont la distribution à date est trimestrielle dans toutes les boîtes aux lettres du territoire. Le présent accord-cadre fait l’objet de l’allotissement suivant : Lot 1 Mise en page Lot 2 Impression Lot 3 Diffusion Le présent règlement concerne uniquement le lot 1 Mise en page. Les spécificités du lot 1 de cet accord-cadre sont détaillées dans le Cahier des Clauses Particulières (CCP) du lot 1. 1. 2 - Durée de l’accord-cadre L’accord-cadre prend effet compter du 07/02/2027 ou de la date de notification si celle-ci est postérieure. Il est conclu pour une durée de 12 mois reconductible 3 fois par tacite reconduction pour une nouvelle période de 12 mois sans que sa durée ne puisse excéder 48 mois. Le cas échéant, la personne publique prend par écrit la décision de ne pas reconduire l’accord-cadre 3 mois au moins avant la date anniversaire de notification du marché ou de l’accord-cadre au titulaire. En cas de non reconduction, le titulaire ne pourra prétendre à aucune indemnité. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 5 / 16 1. 3 - Forme de l’accord-cadre Le présent accord-cadre est mixte (article R2162-3 du code de la commande publique) ; il pourra donc s’exécuter au moyen de bons",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7652,
+            "corpus_end": 8961,
+            "match": "reconduct"
+          },
+          {
+            "text": "es Pays de la Loire dont la distribution à date est trimestrielle dans toutes les boîtes aux lettres du territoire. Le présent accord-cadre fait l’objet de l’allotissement suivant : Lot 1 Mise en page Lot 2 Impression Lot 3 Diffusion Le présent règlement concerne uniquement le lot 1 Mise en page. Les spécificités du lot 1 de cet accord-cadre sont détaillées dans le Cahier des Clauses Particulières (CCP) du lot 1. 1. 2 - Durée de l’accord-cadre L’accord-cadre prend effet compter du 07/02/2027 ou de la date de notification si celle-ci est postérieure. Il est conclu pour une durée de 12 mois reconductible 3 fois par tacite reconduction pour une nouvelle période de 12 mois sans que sa durée ne puisse excéder 48 mois. Le cas échéant, la personne publique prend par écrit la décision de ne pas reconduire l’accord-cadre 3 mois au moins avant la date anniversaire de notification du marché ou de l’accord-cadre au titulaire. En cas de non reconduction, le titulaire ne pourra prétendre à aucune indemnité. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 5 / 16 1. 3 - Forme de l’accord-cadre Le présent accord-cadre est mixte (article R2162-3 du code de la commande publique) ; il pourra donc s’exécuter au moyen de bons de commandes sur la base des pr",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7684,
+            "corpus_end": 8993,
+            "match": "reconduct"
+          },
+          {
+            "text": "ficités du lot 1 de cet accord-cadre sont détaillées dans le Cahier des Clauses Particulières (CCP) du lot 1. 1. 2 - Durée de l’accord-cadre L’accord-cadre prend effet compter du 07/02/2027 ou de la date de notification si celle-ci est postérieure. Il est conclu pour une durée de 12 mois reconductible 3 fois par tacite reconduction pour une nouvelle période de 12 mois sans que sa durée ne puisse excéder 48 mois. Le cas échéant, la personne publique prend par écrit la décision de ne pas reconduire l’accord-cadre 3 mois au moins avant la date anniversaire de notification du marché ou de l’accord-cadre au titulaire. En cas de non reconduction, le titulaire ne pourra prétendre à aucune indemnité. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 5 / 16 1. 3 - Forme de l’accord-cadre Le présent accord-cadre est mixte (article R2162-3 du code de la commande publique) ; il pourra donc s’exécuter au moyen de bons de commandes sur la base des prix indiqués au bordereau des prix unitaires mais également au moyen de marchés subséquents qui pourront être : - soit à prix global et forfaitaire ; - soit à prix unitaires ; - soit à prix mixtes. Le présent accord cadre est mono-attributaire. Les quantités minimales et maximales cumulées des commandes et mar",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8004,
+            "corpus_end": 9313,
+            "match": "reconduct"
+          },
+          {
+            "text": "oste de travail ainsi que des consultations de test sont mis à sa disposition sur la plateforme (cf. Aide - Guide d’utilisation) à l’adresse https://marchespublics.paysdelaloire.fr/. 8. 3 - Constitution, remise et traitement des plis dématérialisés Le fichier contenant tous les documents listés au présent règlement doit être compressé au format .zip. Les documents contenus doivent être présentés dans l’un des formats suivants : - format Word (« .doc ») ou (« .docx ») - format acrobat (« .pdf ») - format Excel (« .xls » ou « .xlsx ») - format RTF (« .rtf ») - format DWG pour les plans Ces documents sont nommés « nom_fichier.extension » où : - « nom_fichier » correspond au libellé du document - exemple : memoire_technique, acte_d_engagement etc.… Les libellés ne devront contenir ni espace, ni accent - «.extension » correspond au format utilisé – exemple : .pdf, .doc, etc.… RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 14 / 16 Les candidats signent individuellement les fichiers dont la signature est demandée grâce à leur certificat électronique, afin que chaque signature puisse être vérifiée indépendamment des autres. Il est recommandé aux candidats de convertir leurs fichiers dans un format PDF avant d’y apposer leur signature électronique. Une s",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 32765,
+            "corpus_end": 34074,
+            "match": "extension"
+          }
+        ],
+        "award_criteria": [],
+        "forms_signatures": [
+          {
+            "text": "......................................................................................... 11 ARTICLE 8 - DÉMATÉRIALISATION DE LA PROCÉDURE DE PASSATION DE L’ACCORD- CADRE _______________________________________________________________ 12 8. 1 - Modalités de téléchargement du dossier de consultation des entreprises ......................................... 12 8. 2 - Préalable à l’envoi de plis dématérialisés ......................................................................................... 13 8. 3 - Constitution, remise et traitement des plis dématérialisés ................................................................ 13 8. 4 - Signature électronique des fichiers par le candidat ........................................................................... 15 8. 5 - Echanges électroniques entre l’acheteur et les candidats lors de la procédure de consultation ........ 15 ARTICLE 9 - RENSEIGNEMENTS COMPLEMENTAIRES _______________________ 15 ARTICLE 10 - DIFFERENDS ______________________________________________ 15 RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 4 / 16 PREAMBULE L’attention des candidats est attirée sur le fait que les prestations demandées font l’objet d’un accord-cadre mono- attributaire prévu par les articles R2162-1 à R2162-14 du code",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 5075,
+            "corpus_end": 6384,
+            "match": "Signature"
+          },
+          {
+            "text": "’appel d’offres ouvert en application des articles L2124-2 et R2124-2 du code de la commande publique. L’accord-cadre se réfère aux stipulations du Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG-PI) ; arrêté du 30 mars 2021 – NOR : ECOM2106874A. Ce document ne sera pas fourni par l’administration, il est réputé connu par le candidat. 2. 2 - Type de co-contractants Les entreprises candidates se présentent soit individuellement, soit en groupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 9964,
+            "corpus_end": 11270,
+            "match": "mandat"
+          },
+          {
+            "text": "re se réfère aux stipulations du Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG-PI) ; arrêté du 30 mars 2021 – NOR : ECOM2106874A. Ce document ne sera pas fourni par l’administration, il est réputé connu par le candidat. 2. 2 - Type de co-contractants Les entreprises candidates se présentent soit individuellement, soit en groupement. La forme du groupement sera précisée par les candidats sur l’acte d’engagement ainsi que le nom de l’entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16 La sous-traitance est autorisée dans les conditions fixées au CCP. Les opérations sous traitées devront être identif",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10083,
+            "corpus_end": 11389,
+            "match": "mandat"
+          },
+          {
+            "text": "candidatures et les offres, s’il joint à la candidature du groupement les habilitations nécessaires pour représenter l’ensemble des co-traitants au stade de la passation de l’accord-cadre. Il est interdit aux candidats de présenter pour l’accord-cadre plusieurs offres en agissant à la fois : - en qualité de candidats individuels et de membres d’un ou plusieurs groupements - en qualité de membres de plusieurs groupements. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 6 / 16 La sous-traitance est autorisée dans les conditions fixées au CCP. Les opérations sous traitées devront être identifiées dans le formulaire DC4 – déclaration de sous-traitance. 2. 3 - Conditions financières relatives à l’accord-cadre Le financement est assuré sur des fonds régionaux propres. Le mode de règlement choisi par l’administration est le virement bancaire. Les références du ou des comptes bancaires où les paiements seront effectués doivent être précisées dans l'acte d'engagement. Le délai maximum de paiement ne peut excéder trente jours à compter de la réception de la facture par la Région. Le taux de TVA applicable est celui en vigueur à la date du fait générateur de la TVA. Sauf renoncement du titulaire porté à l’acte d’engagement, une avance lui est accordée dans le",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10769,
+            "corpus_end": 12080,
+            "match": "déclaration"
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/RC_LOT1_DCOM209-202660245.pdf ===== RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 1 / 16 ACCORD-CADRE DE PRESTATIONS INTELLECTUELLES SOUMIS AU CODE DE LA COMMANDE PUBLIQUE REGLEMENT DE LA CONSULTATION (R.C) MAGAZINE DES PAYS DE LA LOIRE LOT1 : MISE EN PAGE Date et heure limites de remise des offres : le 20 novembre 2026 avant 12 h 00 Accord-cadre n° DCOM209-202660245 L’acheteur : Région des Pays de la Loire Direction de la Communication Hôtel de Région - 1 rue de la Loire 44 966 NANTES CEDEX 9 Etendue de la Consultation : Procédure lancée en appel d’offres ouvert en application des articles L2124-2 et R2124-2 du code de la commande publique RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 2 / 16 Conformément aux dispositions des articles R2132-7 et R2132-8 du code de la commande publique, les communications et les échanges d’informations lors de la passation d’un marché ont lieu par voie",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 1024,
+            "match": "remise des offres"
+          },
+          {
+            "text": "ent marché. - en matière sociale : ▪ Note explicative sur les sujets sociaux notamment l’insertion professionnelle, le programme de formation, et les contrats d’apprentissage mis en œuvre dans le cadre de l’exécution de la prestation. Ce mémoire technique constituera un document contractuel. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 9 / 16 La signature électronique de l’acte d’engagement n’est pas obligatoire au stade de la remise de l’offre. Pour autant, dans un souci de simplification des démarches après attribution, il est conseillé aux soumissionnaires de signer électroniquement l'acte d'engagement dès la remise des offres. Il leur faudra également fournir une copie des pouvoirs donnant délégation de signature au signataire des documents. Dans le cas où les candidats se présenteraient sous la forme d’un groupement, chaque membre du groupement fournira les pièces demandées au point n°2 ci-dessus. Les autres pièces seront remplies en un seul exemplaire par tous les membres du groupement. Dans le cas où le candidat présenterait dès la candidature des sous-traitants, il devra produire une déclaration de sous-traitance signée du titulaire et de son sous-traitant (formulaire DC4 ou document de forme libre comportant les mêmes informations). Les sous-trait",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 18796,
+            "corpus_end": 20113,
+            "match": "remise des offres"
+          },
+          {
+            "text": "publique, les documents et renseignements visés aux articles R2143-6 à R2143-12 (documents prévus à l’article 6.3 du présent règlement) peuvent être mis à disposition de l’acheteur via un espace de stockage numérique. Les candidats veilleront à ce que les modalités de cette mise à disposition soient clairement explicitées et que l’accès aux éléments soit gratuit, faute de quoi ils ne seront pas pris en compte par l’acheteur. 4. 5 - Langue de rédaction des propositions Les propositions doivent être rédigées en langue française. 4. 6 - Délai de validité des offres Le délai de validité des offres est de 4 mois à compter de la date limite fixée pour la remise des propositions fixée sur la page de garde du présent document ARTICLE 5 - INDEMNITE POUR REALISATION D’UNE MAQUETTE DEMATERIALISEE A l’exception du titulaire, les candidats non retenus et ayant remis une offre conforme et complète, comprenant l’ensemble des documents tels que définis à l’article 4.3 ci-dessus, seront indemnisés pour la réalisation de la maquette à hauteur de 800 € net chacun sur présentation d’une facture adressée à la Direction de la Communication de la Région des Pays de la Loire. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 10 / 16 ARTICLE 6 - CRITERES DE JUGEMENT",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 20892,
+            "corpus_end": 22203,
+            "match": "date limite"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "action constituée par toute discrimination ; - en cas de non-respect de l’obligation de négociation en matière d’égalité professionnelle entre les femmes et les hommes. RC _ MAGAZINE DES PAYS DE LA LOIRE - LOT1 : MISE EN PAGE 7 / 16 2. 5 - Traitement des données personnelles Dans le cadre de leurs relations contractuelles, le titulaire et la Région s’engagent à respecter la réglementation en vigueur applicable au traitement de données à caractère personnel et, en particulier, le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 applicable à compter du 25 mai 2018 (« le règlement européen sur la protection des données »). 2. 6 - Obligations en matière environnementale Les conditions d'exécution des prestations comportent des éléments à caractère environnemental prenant en compte les objectifs de développement durable. Ces dernières sont fixées au 9.4 du CCP. ARTICLE 3 - MODALITES DE TELECHARGEMENT ET CONTENU DU DOSSIER DE CONSULTATION DES ENTREPRISES (DCE) Le Dossier de Consultation des Entreprises (DCE) est téléchargeable gratuitement via le site internet https://marchespublics.paysdelaloire.fr/ Les modalités de téléchargement du DCE sont précisées à l’article 7.1 du présent règlement. Le DCE comprend les pièces suivantes : • Règ",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13683,
+            "corpus_end": 15005,
+            "match": "protection des données"
+          },
+          {
+            "text": "ernières sont fixées au 9.4 du CCP. ARTICLE 3 - MODALITES DE TELECHARGEMENT ET CONTENU DU DOSSIER DE CONSULTATION DES ENTREPRISES (DCE) Le Dossier de Consultation des Entreprises (DCE) est téléchargeable gratuitement via le site internet https://marchespublics.paysdelaloire.fr/ Les modalités de téléchargement du DCE sont précisées à l’article 7.1 du présent règlement. Le DCE comprend les pièces suivantes : • Règlement de la Consultation (RC) • Maquette du magazine Ma Région automne 2026 n°17 • Acte d’engagement (AE) et ses annexes • Cahier des Clauses Particulières (CCP) et ses annexes • Arrêtés frais de déplacement et hébergement et repas • La lettre de candidature (Imprimé DC1) • Habilitation du mandataire en cas de groupement • La déclaration du candidat (Imprimé DC2) • La déclaration de sous-traitance (Imprimé DC4) • L’attestation d’emploi ou de non emploi de salariés étrangers • La stratégie d’achat régionale. ARTICLE 4 - PRESENTATION DES PROPOSITIONS 4. 1 - Variantes 4. 1. 1 - Variantes exigées par l’acheteur (prestations exigées) Le présent accord-cadre ne comporte pas de variantes. 4. 1. 2 - Variantes proposées par les soumissionnaires Les soumissionnaires ne sont pas autorisés à proposer des variantes. 4. 2 - Prestations su",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14573,
+            "corpus_end": 15884,
+            "match": "hébergement"
+          },
+          {
+            "text": "rue de la Loire / 44966 NANTES Cedex 9 – France. Les réceptions sont assurées du lundi au vendredi de 9 h 30 à 16 h 30. La Région des Pays de la Loire étant soumise à l’application du plan Vigipirate, les mesures de sécurisation d’accès aux bâtiments impliquent la présentation d’une pièce d’identité auprès du service chargé de l’accueil du public. Les candidats ne supportent aucun autre frais que ceux liés à l’accès au réseau et à l’obtention de la signature électronique. Ils doivent cependant disposer d’un navigateur Internet ayant une puissance de chiffrement (128 bits) et d’un environnement informatique mis à jour en matière de sécurité et d’antivirus. En cas de difficulté dans l’utilisation de la plateforme, les candidats peuvent contacter le support technique du profil acheteur. Ce service est ouvert de 9h à 19h00 les jours ouvrés. Le numéro d'accès est le : 01 53 43 05 44 8. 1 - Modalités de téléchargement du dossier de consultation des entreprises Le règlement de la consultation est en accès libre. Les candidats peuvent télécharger les autres documents du dossier de consultation : ✓ en complétant le formulaire de demande de renseignements. Dans ce cas, ils seront automatiquement informés électroniquement en cas de modifications du RC _ MAGAZINE DES",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 29625,
+            "corpus_end": 30933,
+            "match": "sécurité"
+          },
+          {
+            "text": "it être conforme à l’arrêté du 22 mars 2019 relatif à la signature électronique des contrats de la commande publique et au Règlement (UE) n°910/2014 du Parlement européen et du Conseil sur l'identification électronique et les services de confiance pour les transactions électroniques au sein du marché intérieur (https://eur-lex.europa.eu/legal- content/FR/TXT/?uri=celex%3A32014R0910). Le certificat de signature doit avoir été émis par un prestataire de services de confiance qualifié au sens de l’article 20 du Règlement précité. La liste des prestataires de service de confiance qualifiés français se trouve sur le lien suivant : https://cyber.gouv.fr/prestataires-de-services-de-delivrance-de-certificats-de-signature- electronique La signature électronique doit être au minimum de niveau avancé. La signature doit être sous l’un des formats suivants : XAdES, CAdES ou PAdES mentionnés aux articles 1 et 2 de la décision d'exécution (UE) n° 2015/1506 de la Commission du 8 septembre 2015. Les candidats doivent prévoir un délai d’obtention pouvant aller jusqu’à plusieurs semaines selon les fournisseurs. Si le candidat possède un certificat de signature électronique RGS ; il est libre de l’utiliser jusqu’à expiration de celui-ci et s’il a été délivré avant le 01 octobre 2018",
+            "source": "files/RC_LOT1_DCOM209-202660245.pdf",
+            "source_url": "https://marchespublics.paysdelaloire.fr/index.php?page=Entreprise.EntrepriseDownloadReglement&id=NTExNjEx&orgAcronyme=t5y",
+            "source_sha256": "61180f2fd22a91fa292a7ec7ab3f5e7a54e8e50e120c4334eac9deb2a260b2fc",
+            "source_kind": "pdf",
+            "source_provenance_match": "SHA256",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 37139,
+            "corpus_end": 38444,
+            "match": "cyber"
+          }
+        ]
+      },
+      "source_dce_run_id": 43617561206,
+      "source_shard": 47,
+      "hot_ready_at": "2026-11-14T17:05:17.932928+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 69,
       "spm_fit_band": "HOT",
       "spm_fit_reasons": [
         "graphic-design"
       ],
       "spm_friction_signals": [],
-      "source_dce_run_id": 43587519255,
-      "source_shard": 4,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 43587519255,
-        "shard": 4,
-        "candidate_id": "TED:722529-2026",
-        "release_tag": "dce-harvest-43587519255"
-      },
-      "hot_ready_at": "2026-11-14T16:55:21.413783+00:00",
-      "review_lane": "SPM_PRIORITY",
-      "finalization_allowed": false
+      "review_lane": "SPM_PRIORITY"
     },
     {
       "candidate_id": "IE:9437374",
@@ -2439,6 +3004,745 @@
       "finalization_allowed": false
     },
     {
+      "candidate_id": "TED:769391-2026",
+      "title": "Germany – IT services: consulting, software development, Internet and support – LMS Lernmanagementsoftware und E-Learning für die Stadtverwaltung Ludwigshafen - Dienstleistung",
+      "buyer": "Stadt Ludwigshafen, Bereich Organisations- und Personalentwicklung",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/769391-2026",
+      "deadline": "2026-12-08T01:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "preliminary_score": 89,
+      "priority_score": 89,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "gate_readiness": true,
+      "deadline_authority": {
+        "status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
+        "conflict": false,
+        "notice_deadline_raw": "2026-12-08T01:00:00+00:00",
+        "notice_deadline_date": "2026-12-08",
+        "authoritative_submission_date": "2027-03-25",
+        "submission_deadline_candidates": [
+          "2027-03-25"
+        ],
+        "query_deadline_candidates": [],
+        "dce_deadline_candidates": [
+          "2016-01-20",
+          "2016-02-17",
+          "2026-12-08",
+          "2027-03-25"
+        ],
+        "labelled_evidence": [
+          {
+            "date": "2027-03-25",
+            "match": "25.03.2027",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 37,
+            "context": "mit Teilnahmewettbewerb \nnicht offenes Verfahren ohne Teilnahmewettbewerb \nVerhandlungsverfahren mit Teilnahmewettbewerb \nVerhandlungsverfahren ohne Teilnahmewettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und Personalentwicklung\nBerliner Platz  1\n67059 Ludwigshafen am Rhein\nVergabenummer:"
+          },
+          {
+            "date": "2027-03-25",
+            "match": "25.03.2027",
+            "label": "SUBMISSION",
+            "keyword": "Angebotsfrist",
+            "distance": 37,
+            "context": "mit Teilnahmewettbewerb \nnicht offenes Verfahren ohne Teilnahmewettbewerb \nVerhandlungsverfahren mit Teilnahmewettbewerb \nVerhandlungsverfahren ohne Teilnahmewettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und Personalentwicklung\nBerliner Platz  1\n67059 Ludwigshafen am Rhein\nVergabenummer:"
+          }
+        ],
+        "evidence": [
+          {
+            "date": "2027-03-25",
+            "match": "25.03.2027",
+            "context": "hmewettbewerb \nnicht offenes Verfahren ohne Teilnahmewettbewerb \nVerhandlungsverfahren mit Teilnahmewettbewerb \nVerhandlungsverfahren ohne Teilnahmewettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und "
+          },
+          {
+            "date": "2026-12-08",
+            "match": "08.12.2026",
+            "context": "wettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und Personalentwicklung\nBerliner Platz  1\n67059 Ludwigshafen am Rhein\nVergabenummer:\n2026 / 295\nAufforderung zur Abgabe eines Angebots \n(Vergabeverfahre"
+          },
+          {
+            "date": "2016-02-17",
+            "match": "17.02.2016",
+            "context": "Angebotes sicher, dass Sie die aktuellen Vergabeunterlagen/Infor-\nmationen verwenden. \n \nAllgemeine Verfahrenshinweise \nDas Vergabeverfahren erfolgt in Anlehnung nach dem Gesetz zur Modernisierung des Vergaberechts \nvom 17.02.2016 (GWB) und der „Verordnung zur Modernisierung des Vergaberechts“ Artikel 1 in der \nFassung vom 20.01.2016, „Verordnung über die Vergabe öffentlicher Aufträge“ (VgV).\ng ist ausgeschlossen, soweit der Benutzer noch an eine"
+          },
+          {
+            "date": "2016-01-20",
+            "match": "20.01.2016",
+            "context": "hrenshinweise \nDas Vergabeverfahren erfolgt in Anlehnung nach dem Gesetz zur Modernisierung des Vergaberechts \nvom 17.02.2016 (GWB) und der „Verordnung zur Modernisierung des Vergaberechts“ Artikel 1 in der \nFassung vom 20.01.2016, „Verordnung über die Vergabe öffentlicher Aufträge“ (VgV).\ng ist ausgeschlossen, soweit der Benutzer noch an einem über die \nVergabeplattform abgewickelten Vergabeverfahren teilnimmt. \n• Für die Kündigung eines kostenp"
+          },
+          {
+            "date": "2027-03-25",
+            "match": "25.03.2027",
+            "context": "hmewettbewerb \nnicht offenes Verfahren ohne Teilnahmewettbewerb \nVerhandlungsverfahren mit Teilnahmewettbewerb \nVerhandlungsverfahren ohne Teilnahmewettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und "
+          },
+          {
+            "date": "2026-12-08",
+            "match": "08.12.2026",
+            "context": "wettbewerb\nAblauf der Angebotsfrist:\nUhrzeit:\n10:00\nBindefrist endet am 25.03.2027\nAnlagen\nA) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind\nFormblatt 632 EU VgV - Bewerbungsbedingungen EU\nB)\nDatum:\n08.12.2026\nStadtverwaltung Ludwigshafen am Rhein \nBereich 1-11 Organisations- und Personalentwicklung\nBerliner Platz  1\n67059 Ludwigshafen am Rhein\nVergabenummer:\n2026 / 295\nAufforderung zur Abgabe eines Angebots \n(Vergabeverfahre"
+          },
+          {
+            "date": "2016-02-17",
+            "match": "17.02.2016",
+            "context": "Angebotes sicher, dass Sie die aktuellen Vergabeunterlagen/Infor-\nmationen verwenden. \n \nAllgemeine Verfahrenshinweise \nDas Vergabeverfahren erfolgt in Anlehnung nach dem Gesetz zur Modernisierung des Vergaberechts \nvom 17.02.2016 (GWB) und der „Verordnung zur Modernisierung des Vergaberechts“ Artikel 1 in der \nFassung vom 20.01.2016, „Verordnung über die Vergabe öffentlicher Aufträge“ (VgV).                               \nDas Vergabeverfahren wi"
+          },
+          {
+            "date": "2016-01-20",
+            "match": "20.01.2016",
+            "context": "hrenshinweise \nDas Vergabeverfahren erfolgt in Anlehnung nach dem Gesetz zur Modernisierung des Vergaberechts \nvom 17.02.2016 (GWB) und der „Verordnung zur Modernisierung des Vergaberechts“ Artikel 1 in der \nFassung vom 20.01.2016, „Verordnung über die Vergabe öffentlicher Aufträge“ (VgV).                               \nDas Vergabeverfahren wird ausschließlich elektronisch über die Ausschreibungsplattform der \nMetropolregion Rhein Neckar (MRN) un"
+          }
+        ],
+        "context_stats": {
+          "gate_contexts": 6,
+          "corpus_contexts": 6,
+          "unique_contexts": 12
+        },
+        "rule": "Only dates locally attached to tender/bid/quotation submission or requests-to-participate language can automatically resolve bid timing. Query/clarification dates are never accepted as submission deadlines. Missing/ambiguous submission evidence remains review-required before FINAL_SUPER_GREEN."
+      },
+      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
+      "deadline_resolved": false,
+      "evidence_gate_coverage": 12,
+      "evidence_by_gate": {
+        "entity_geography": [],
+        "turnover_financial": [
+          {
+            "text": "in folgendem Vergabeverfahren sowie Ergänzung Einheitliche Europäische Eigenerklärung 1 vom Bieter anzukreuzen und beizufügen Name und Anschrift der Vergabestelle 2026 / 295 LMS und E-Learning für die Stadtverwaltung Ludwigshafen Liefer- und Dienstleistung 633 (Angebotsschreiben – Liefer-/Dienstleistungen) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 2 von 2 1 Ich/Wir biete(n) die Ausführung der oben genannten Leistung zu den von mir/uns eingesetz- ten Preisen an. An mein/unser Angebot halte(n) ich/wir mich/uns bis zum Ablauf der Bindefrist gebunden. 2 Die Angebotsendsumme des Hauptangebotes gem. Leistungs- beschreibung beträgt einschl. Umsatzsteuer Euro 3 Anzahl der Nebenangebote St. 4 Preisnachlass ohne Bedingung auf die Abrechnungssumme für Haupt- und alle Nebenangebote % 5 Bestandteil meines/unseres Angebots sind neben diesem Angebotsschreiben und seinen An- lagen: - Allgemeine Vertragsbedingungen für die Ausführung von Leistungen (VOL/B), Ausgabe 2003, - Unterlagen gem. Aufforderung zur Angebotsabgabe, Anlagen – Teil B 6 Ich/Wir erklären, dass – ich/wir die gewerberechtlichen Voraussetzungen für die Ausführung der angebotenen Leistung erfülle(n). – ich/wir den Wortlaut der vom Auftraggeber verfassten Langfassung des Leistungsverzeichnisses als alleinverbindlich anerkenne(n).",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/01_Angebotsschreiben_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "409c1b07dbca94627e30a0ea668989f4b2899e88371d3ec1ce93127ff35b315e",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 7532,
+            "corpus_end": 8838,
+            "match": "Umsatz"
+          },
+          {
+            "text": "reichen. 3.5 Alle Eintragungen müssen dokumentenecht sein. 3.6 Ein Bieter, der in seinem Angebot die von ihm tatsächlich für einzelne Leistungspositionen geforder- ten Einheitspreise auf verschiedene Einheitspreise anderer Leistungspositionen verteilt, benennt nicht die von ihm geforderten Preise. Deshalb werden Angebote, bei denen der Bieter die Einheitspreise einzelner Leistungspositionen in „Mischkalkulationen“ auf andere Leistungspositionen umlegt, von der Wertung ausgeschlossen. 3.7 Alle Preise sind in Euro mit höchstens drei Nachkommastellen anzugeben. Die Preise (Einheitspreise, Pauschalpreise, Verrechnungssätze usw.) sind ohne Umsatzsteuer an- zugeben. Der Umsatzsteuerbetrag ist unter Zugrundelegung des geltenden Steuersatzes am Schluss des Angebotes hinzuzufügen. Es werden nur Preisnachlässe gewertet, die - ohne Bedingungen als Vomhundertsatz auf die Abrechnungssumme gewährt werden und - an der im Angebotsschreiben bezeichneten Stelle aufgeführt sind. Nicht zu wertende Preisnachlässe bleiben Inhalt des Angebotes und werden im Fall der Auftragser- teilung Vertragsinhalt. 4 Nebenangebote 4.1 Nebenangebote müssen die geforderten Mindestanforderungen erfüllen; dies ist mit Angebotsabgabe nachzuweisen. 4.2 Der Bieter hat die in Nebenangeboten enthaltenen Leistu",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11867,
+            "corpus_end": 13173,
+            "match": "Umsatz"
+          },
+          {
+            "text": "n müssen dokumentenecht sein. 3.6 Ein Bieter, der in seinem Angebot die von ihm tatsächlich für einzelne Leistungspositionen geforder- ten Einheitspreise auf verschiedene Einheitspreise anderer Leistungspositionen verteilt, benennt nicht die von ihm geforderten Preise. Deshalb werden Angebote, bei denen der Bieter die Einheitspreise einzelner Leistungspositionen in „Mischkalkulationen“ auf andere Leistungspositionen umlegt, von der Wertung ausgeschlossen. 3.7 Alle Preise sind in Euro mit höchstens drei Nachkommastellen anzugeben. Die Preise (Einheitspreise, Pauschalpreise, Verrechnungssätze usw.) sind ohne Umsatzsteuer an- zugeben. Der Umsatzsteuerbetrag ist unter Zugrundelegung des geltenden Steuersatzes am Schluss des Angebotes hinzuzufügen. Es werden nur Preisnachlässe gewertet, die - ohne Bedingungen als Vomhundertsatz auf die Abrechnungssumme gewährt werden und - an der im Angebotsschreiben bezeichneten Stelle aufgeführt sind. Nicht zu wertende Preisnachlässe bleiben Inhalt des Angebotes und werden im Fall der Auftragser- teilung Vertragsinhalt. 4 Nebenangebote 4.1 Nebenangebote müssen die geforderten Mindestanforderungen erfüllen; dies ist mit Angebotsabgabe nachzuweisen. 4.2 Der Bieter hat die in Nebenangeboten enthaltenen Leistungen eindeutig und erschöpfend",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 11897,
+            "corpus_end": 13203,
+            "match": "Umsatz"
+          },
+          {
+            "text": "e Mitglieder als Gesamtschuldner haften. Auf Verlangen der Vergabestelle ist eine von allen Mitgliedern unterzeichnete bzw. fortgeschritten oder qualifiziert signierte Erklärung abzugeben. 5.2 Sofern nicht im offenen Verfahren ausgeschrieben wird, werden Angebote von Bietergemeinschaften, die sich erst nach der Aufforderung zur Angebotsabgabe aus aufgeforderten Unternehmern gebildet haben, nicht zugelassen. 6 Kapazitäten anderer Unternehmen (Unteraufträge, Eignungsleihe) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen der Vergabestelle zu einem von ihr bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen und diese Unternehmen geeignet sind. Er hat den Namen, den gesetzlichen Vertreter sowie die Kontaktdaten dieser Unternehmen anzugeben und entsprechende Verpflichtungserklärungen dieser Unternehmen vorzulegen. Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der Verpflichtungserklärung abzugeben. Der Bieter hat andere Unternehmen, bei denen Ausschlussgründe vorliegen oder die das entsprechende Eignungskriterium nicht erfüllen, innerhalb einer von der Vergabestelle gesetzten Frist zu ersetzen. 7 Eignung Unternehmen haben als ",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14547,
+            "corpus_end": 128934,
+            "match": "wirtschaftliche, finanzielle, \ntechnische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er"
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "en) und die Leitweg-ID, deren korrekte Angabe essenziell für die korrekte Zustellung der Rechnung ist. Unsere Leitweg-ID finden Sie am Anfang dieses Dokuments. Bitte achten Sie darauf, dass sie ohne Leerzeichen und im Zeichensatz UTF-8 im Feld „BT-10“ eingetragen wird. „BT“ steht für „Business Term“ und bezeichnet ein Informationselement. Detaillierte Informationen dazu können Sie der Spezifikation der Koordinierungsstelle für IT-Standards (KoSIT) entnehmen. 17.02.2025 3 | 3 Zusätzlich zu den Pflichtfeldern befüllen Sie bitte in jeder Rechnung die folgenden BT-Felder, sofern diese Angaben vorliegen: Name ID Eingabe Contract reference BT-12 Vertragsnummer Purchase order reference BT-13 Bestellnummer (LUX…/LUA..) Seller identifier BT-29 Lieferantennummer Buyer identifier BT-46 Kundennummer des Käufers Buyer contact point BT-56 Ansprechperson oder Kontaktstelle (z. B. Referat / Abteilung) beim Käufer Buyer contact email address BT-58 Eine E-Mail-Adresse der Ansprechperson oder Kontaktstelle aus BT-56 Actual delivery date BT-72 Lieferdatum (alternativ kann in BT-73 und BT-74 der Lieferzeitraum angegeben werden) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_2026",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/15_Information_Rechnungsstellung.pdf",
+            "source_url": null,
+            "source_sha256": "a7b33512976e21123854c97d814650d8049b5b8ca66b90e62525c64aa2474942",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 117924,
+            "corpus_end": 119233,
+            "match": "reference"
+          },
+          {
+            "text": "essenziell für die korrekte Zustellung der Rechnung ist. Unsere Leitweg-ID finden Sie am Anfang dieses Dokuments. Bitte achten Sie darauf, dass sie ohne Leerzeichen und im Zeichensatz UTF-8 im Feld „BT-10“ eingetragen wird. „BT“ steht für „Business Term“ und bezeichnet ein Informationselement. Detaillierte Informationen dazu können Sie der Spezifikation der Koordinierungsstelle für IT-Standards (KoSIT) entnehmen. 17.02.2025 3 | 3 Zusätzlich zu den Pflichtfeldern befüllen Sie bitte in jeder Rechnung die folgenden BT-Felder, sofern diese Angaben vorliegen: Name ID Eingabe Contract reference BT-12 Vertragsnummer Purchase order reference BT-13 Bestellnummer (LUX…/LUA..) Seller identifier BT-29 Lieferantennummer Buyer identifier BT-46 Kundennummer des Käufers Buyer contact point BT-56 Ansprechperson oder Kontaktstelle (z. B. Referat / Abteilung) beim Käufer Buyer contact email address BT-58 Eine E-Mail-Adresse der Ansprechperson oder Kontaktstelle aus BT-56 Actual delivery date BT-72 Lieferdatum (alternativ kann in BT-73 und BT-74 der Lieferzeitraum angegeben werden) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/16_Clo",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/15_Information_Rechnungsstellung.pdf",
+            "source_url": null,
+            "source_sha256": "a7b33512976e21123854c97d814650d8049b5b8ca66b90e62525c64aa2474942",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 117971,
+            "corpus_end": 119280,
+            "match": "reference"
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "Software muss konfigurierbare automatische Genehmigungsworkflows einschließlich Benachrichtigungen nach A 2.3 unterstützen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 5.8 | Die Software muss Reporting, Controlling und ein automatisiertes Berichtswesen mit Export mindestens im Format XLSX und PDF unterstützen. Bei Reporting muss folgende Aus- wertung möglich sein: Individuelle Lernstandsberichte, Kursbezogene Berichte, Gruppen-/ Abteilungs- /Standortberichte, Pflichtschulungs-/Compliance-Reports (wer hat Pflichtkurs X bis Datum Y nicht abgeschlossen), Zertifikats- und Ablaufmanagement (Reports zu bald ablaufenden Zertifizierungen) und individuelle Berichte (Report-Builder mit wählbaren Feldern und Filtern) Bei Controlling muss folgende Auswertungen möglich sein: Übersichten mit bspw. Abschlussquote, Budget/Kosten pro Kurs, Soll-Ist-Vergleich (z. B. Zielvorgabe „100 % Abschluss bis Q2\" vs. tatsächlicher Stand), Alarmierungs-/Eskalationsfunktion (automatische Benachrichtigung bei Fristüberschreitung an Mitarbeiter, Vorgesetzte, Personalabteilung) und Rollenbasierte Sichten (Mitarbeiter sieht nur sich selbst, Führungskraft sieht Team, Admin sieht global) | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 5.9 | Lernhistorien einzelner Benutzer sow",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 66545,
+            "corpus_end": 67859,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "nzösisch, Spanisch, Italienisch, Arabisch, Türkisch zur Verfügung gestellt werden kann. Bitte nennen Sie uns in schriftlicher Form die möglichen Sprachen. | | | | 0.04 | 0.013999999999999999 | | 0 | 0 Punkte: ausschließlich Deutsch bei E-Learning-Kurse die Lernmanagementplattform 1 Punkt: Deutsch und ein Teil in Englisch die Lernmanagementplattform 3 Punkte: mind. in Deutsch und Englisch die Lernmanagementplattform 5 Punkte: Deutsch, Englisch und mindestens eine weitere Sprache die Lernmanagementplattform | | | | B 3 | Betrieb, Sicherheit und Nachweise | | | | 0.15 | 1 | | | | | | | | | B 3.1 | Geben Sie an, über welche Zertifizierungen das für die Leistungserbringung eingesetzte Rechenzentrum verfügt, und fügen Sie die Zertifikate bei. | | | | 0.4 | 0.06 | | 0 | 0 Punkte: kein Nachweis (führt zum Ausschluss!) 2 Punkte: Managementsystem-Zertifizierung ohne Informationssicherheitsbezug (z. B. ISO 9001) 4 Punkte: ISO/IEC 27001 oder BSI IT-Grundschutz-Zertifikat 5 Punkte: ISO/IEC 27001 bzw. BSI IT-Grundschutz zusätzlich mit BSI C5-Testat | | | | | B 3.2 | Weisen Sie den Grad der Barrierefreiheit der Plattform und der E-Trainings nach (ergänzend zu A 9.1). Legen Sie einen Prüfbericht nach BITV 2.0 bzw. EN 301 549 oder eine Barrierefreiheitserklärung mit Angabe der be",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 89879,
+            "corpus_end": 91193,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "ch Deutsch bei E-Learning-Kurse die Lernmanagementplattform 1 Punkt: Deutsch und ein Teil in Englisch die Lernmanagementplattform 3 Punkte: mind. in Deutsch und Englisch die Lernmanagementplattform 5 Punkte: Deutsch, Englisch und mindestens eine weitere Sprache die Lernmanagementplattform | | | | B 3 | Betrieb, Sicherheit und Nachweise | | | | 0.15 | 1 | | | | | | | | | B 3.1 | Geben Sie an, über welche Zertifizierungen das für die Leistungserbringung eingesetzte Rechenzentrum verfügt, und fügen Sie die Zertifikate bei. | | | | 0.4 | 0.06 | | 0 | 0 Punkte: kein Nachweis (führt zum Ausschluss!) 2 Punkte: Managementsystem-Zertifizierung ohne Informationssicherheitsbezug (z. B. ISO 9001) 4 Punkte: ISO/IEC 27001 oder BSI IT-Grundschutz-Zertifikat 5 Punkte: ISO/IEC 27001 bzw. BSI IT-Grundschutz zusätzlich mit BSI C5-Testat | | | | | B 3.2 | Weisen Sie den Grad der Barrierefreiheit der Plattform und der E-Trainings nach (ergänzend zu A 9.1). Legen Sie einen Prüfbericht nach BITV 2.0 bzw. EN 301 549 oder eine Barrierefreiheitserklärung mit Angabe der bestehenden Abweichungen vor. | | | | 0.35 | 0.0525 | | 0 | 0 Punkte: kein Nachweis, nur pauschale Erklärung 2 Punkte: Selbsterklärung ohne Angabe von Abweichungen 4 Punkte: Prüfbericht einer unabhängigen Stelle mit benannt",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 90104,
+            "corpus_end": 91418,
+            "match": "Zertifizierung"
+          },
+          {
+            "text": "orm 1 Punkt: Deutsch und ein Teil in Englisch die Lernmanagementplattform 3 Punkte: mind. in Deutsch und Englisch die Lernmanagementplattform 5 Punkte: Deutsch, Englisch und mindestens eine weitere Sprache die Lernmanagementplattform | | | | B 3 | Betrieb, Sicherheit und Nachweise | | | | 0.15 | 1 | | | | | | | | | B 3.1 | Geben Sie an, über welche Zertifizierungen das für die Leistungserbringung eingesetzte Rechenzentrum verfügt, und fügen Sie die Zertifikate bei. | | | | 0.4 | 0.06 | | 0 | 0 Punkte: kein Nachweis (führt zum Ausschluss!) 2 Punkte: Managementsystem-Zertifizierung ohne Informationssicherheitsbezug (z. B. ISO 9001) 4 Punkte: ISO/IEC 27001 oder BSI IT-Grundschutz-Zertifikat 5 Punkte: ISO/IEC 27001 bzw. BSI IT-Grundschutz zusätzlich mit BSI C5-Testat | | | | | B 3.2 | Weisen Sie den Grad der Barrierefreiheit der Plattform und der E-Trainings nach (ergänzend zu A 9.1). Legen Sie einen Prüfbericht nach BITV 2.0 bzw. EN 301 549 oder eine Barrierefreiheitserklärung mit Angabe der bestehenden Abweichungen vor. | | | | 0.35 | 0.0525 | | 0 | 0 Punkte: kein Nachweis, nur pauschale Erklärung 2 Punkte: Selbsterklärung ohne Angabe von Abweichungen 4 Punkte: Prüfbericht einer unabhängigen Stelle mit benannten Abweichungen und Maßnahmenplan 5 Punkte: aktuel",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 90160,
+            "corpus_end": 91468,
+            "match": "ISO 9001"
+          }
+        ],
+        "staffing_team": [],
+        "insurance_bonds": [
+          {
+            "text": ".......................................................................................................................12 17 Mitwirkung des Auftraggebers..................................................................................................13 18 Rechte des Auftraggebers bei Mängeln der Leistungen ...........................................................14 19 Haftungsbeschränkung ............................................................................................................14 20 Laufzeit und Kündigung ...........................................................................................................14 21 Haftpflichtversicherung ............................................................................................................15 22 Zurückbehaltungs- und Leistungsverweigerungsrechte ............................................................15 23 Textform ..................................................................................................................................15 24 Anwendbares Recht, Gerichtsstand .........................................................................................15 Cloud-AGB Version 1.0.2 vom 01.03.2026 Seite 2 von 19 Ergänzende Vertragsbedingungen für Cloudleistungen – EVB-IT Cloud",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/16_Cloud_AGB.pdf",
+            "source_url": null,
+            "source_sha256": "614cef92c2b244a3c6f1442cb0735abe66aae8d87c9382f574900b21a9a96029",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 121451,
+            "corpus_end": 122762,
+            "match": "Haftpflicht"
+          },
+          {
+            "text": "cht mehr zugemutet werden kann. Besteht der wichtige Grund in der Verletzung einer vertraglichen Pflicht, ist die Kündigung erst nach erfolglosem Ablauf einer zur Abhilfe gesetzten Frist oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt aber für solche Leistungen, für die der Auftraggeber darlegt, dass sie für ihn aufgrund der Kündigung ohne Interesse sind. 21 Haftpflichtversicherung 21.1 Soweit vereinbart, weist der Auftragnehmer bei Abschluss des Vertrages dem Auft raggeber nach, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt. 21.2 Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende des Vertrages und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/16_Cloud_AGB.pdf",
+            "source_url": null,
+            "source_sha256": "614cef92c2b244a3c6f1442cb0735abe66aae8d87c9382f574900b21a9a96029",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 177600,
+            "corpus_end": 178911,
+            "match": "Haftpflicht"
+          },
+          {
+            "text": "t oder nach erfolgloser Abmahnung zulässig, soweit nicht gemäß § 314 i.V.m. § 323 Absatz 2 BGB eine Fristsetzung entbehrlich ist. Im Falle der Kündigung aus wichtigem Grund hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung aufgrund des Vertrages erbrachten Leistungen. Die Vergütung entfällt aber für solche Leistungen, für die der Auftraggeber darlegt, dass sie für ihn aufgrund der Kündigung ohne Interesse sind. 21 Haftpflichtversicherung 21.1 Soweit vereinbart, weist der Auftragnehmer bei Abschluss des Vertrages dem Auft raggeber nach, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt. 21.2 Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende des Vertrages und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt. 22 Zurückbehaltungs- und Leistungsverweigerungsrechte Z",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/16_Cloud_AGB.pdf",
+            "source_url": null,
+            "source_sha256": "614cef92c2b244a3c6f1442cb0735abe66aae8d87c9382f574900b21a9a96029",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 177787,
+            "corpus_end": 179098,
+            "match": "haftpflicht"
+          },
+          {
+            "text": "nkung ............................................................................................................10 14 Mitwirkung des Auftraggebers..................................................................................................10 15 Laufzeit und Kündigung ...........................................................................................................10 16 Pflichten nach Vertragsende ....................................................................................................11 17 Änderung der Leistung nach Vertragsschluss ..........................................................................11 18 Haftpflichtversicherung ............................................................................................................11 19 Datenschutz, Geheimhaltung und Sicherheit............................................................................11 20 Zurückbehaltungsrechte ..........................................................................................................12 21 Textform ..................................................................................................................................12 22 Anwendbares Recht ..................................................................................................",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/17_EVB_IT_Dienstleistung_AGB.pdf",
+            "source_url": null,
+            "source_sha256": "b93d4126d56ee2156603b80ec5119c0dfd0b0c2e8e0a3113622b2e4613bb6f96",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 191230,
+            "corpus_end": 192541,
+            "match": "Haftpflicht"
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "istung anbietet, deren Ausführung nicht in den Vergabeunterlagen geregelt ist, hat er im Angebot entsprechende Angaben über Ausführung und Beschaffenheit dieser Leistung zu machen. 632EU (VgV - Bewerbungsbedingungen EU) © VHB - Bund - Ausgabe 2017 Seite 2 von 2 4.3 Nebenangebote sind, soweit sie Teilleistungen (Positionen) des Leistungsverzeichnisses beeinflus- sen (ändern, ersetzen, entfallen lassen, zusätzlich erfordern), nach Mengenansätzen und Einzel- preisen aufzugliedern (auch bei Vergütung durch Pauschalsumme). 4.4 Nebenangebote, die den Nummern 4.1 bis 4.3 nicht entsprechen, werden von der Wertung ausgeschlossen. 5 Bietergemeinschaften 5.1 Die Bietergemeinschaft hat mit ihrem Angebot eine Erklärung aller Mitglieder in Textform abzugeben, - in der die Bildung einer Arbeitsgemeinschaft im Auftragsfall erklärt ist, - in der alle Mitglieder aufgeführt sind und der für die Durchführung des Vertrags bevollmächtigte Vertreter bezeichnet ist, - dass der bevollmächtigte Vertreter die Mitglieder gegenüber dem Auftraggeber rechtsverbindlich vertritt, - dass alle Mitglieder als Gesamtschuldner haften. Auf Verlangen der Vergabestelle ist eine von allen Mitgliedern unterzeichnete bzw. fortgeschritten oder qualifiziert signierte Erklärung abzugeben. 5.2 Sofern nicht im offen",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13446,
+            "corpus_end": 14764,
+            "match": "Bietergemeinschaft"
+          },
+          {
+            "text": "ung nicht in den Vergabeunterlagen geregelt ist, hat er im Angebot entsprechende Angaben über Ausführung und Beschaffenheit dieser Leistung zu machen. 632EU (VgV - Bewerbungsbedingungen EU) © VHB - Bund - Ausgabe 2017 Seite 2 von 2 4.3 Nebenangebote sind, soweit sie Teilleistungen (Positionen) des Leistungsverzeichnisses beeinflus- sen (ändern, ersetzen, entfallen lassen, zusätzlich erfordern), nach Mengenansätzen und Einzel- preisen aufzugliedern (auch bei Vergütung durch Pauschalsumme). 4.4 Nebenangebote, die den Nummern 4.1 bis 4.3 nicht entsprechen, werden von der Wertung ausgeschlossen. 5 Bietergemeinschaften 5.1 Die Bietergemeinschaft hat mit ihrem Angebot eine Erklärung aller Mitglieder in Textform abzugeben, - in der die Bildung einer Arbeitsgemeinschaft im Auftragsfall erklärt ist, - in der alle Mitglieder aufgeführt sind und der für die Durchführung des Vertrags bevollmächtigte Vertreter bezeichnet ist, - dass der bevollmächtigte Vertreter die Mitglieder gegenüber dem Auftraggeber rechtsverbindlich vertritt, - dass alle Mitglieder als Gesamtschuldner haften. Auf Verlangen der Vergabestelle ist eine von allen Mitgliedern unterzeichnete bzw. fortgeschritten oder qualifiziert signierte Erklärung abzugeben. 5.2 Sofern nicht im offenen Verfahren ausgeschrieben wi",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 13476,
+            "corpus_end": 14794,
+            "match": "Bietergemeinschaft"
+          },
+          {
+            "text": "ne Erklärung aller Mitglieder in Textform abzugeben, - in der die Bildung einer Arbeitsgemeinschaft im Auftragsfall erklärt ist, - in der alle Mitglieder aufgeführt sind und der für die Durchführung des Vertrags bevollmächtigte Vertreter bezeichnet ist, - dass der bevollmächtigte Vertreter die Mitglieder gegenüber dem Auftraggeber rechtsverbindlich vertritt, - dass alle Mitglieder als Gesamtschuldner haften. Auf Verlangen der Vergabestelle ist eine von allen Mitgliedern unterzeichnete bzw. fortgeschritten oder qualifiziert signierte Erklärung abzugeben. 5.2 Sofern nicht im offenen Verfahren ausgeschrieben wird, werden Angebote von Bietergemeinschaften, die sich erst nach der Aufforderung zur Angebotsabgabe aus aufgeforderten Unternehmern gebildet haben, nicht zugelassen. 6 Kapazitäten anderer Unternehmen (Unteraufträge, Eignungsleihe) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen der Vergabestelle zu einem von ihr bestimmten Zeit",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 14169,
+            "corpus_end": 15487,
+            "match": "Bietergemeinschaft"
+          },
+          {
+            "text": "b nachgewiesen ist. ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf ===== 124 LD (Eigenerklärung zur Eignung Liefer- / Dienstleistungen) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 1 von 2 Eigenerklärung zur Eignung in folgendem Vergabeverfahren Offenes Verfahren Nichtoffenes Verfahren Verhandlungsverfahren Beschränkte Ausschreibung Verhandlungsvergabe Internationale NATO-Ausschreibung Wettbewerblicher Dialog Bewerber Bieter Mitglied der Bewerber- bzw. Bietergemeinschaft Nachunternehmer anderes Unternehmen Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren (inkl. Angabe der betreffenden Jahreszahlen), soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Euro Euro Euro Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind Ich/Wir erkläre(n), dass ich/wir in den letzten drei1 Jahren vergleichbare Leistungen ausgeführt habe/haben. Falls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich/werden wir drei Referenzen aus den l",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf",
+            "source_url": null,
+            "source_sha256": "2e4a613a2cbf466e3024dd1d4272c2524b714648d85f0ae2e2f4d7ada2be57e3",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 17369,
+            "corpus_end": 18687,
+            "match": "Bietergemeinschaft"
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "n Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung Bieter-/Arbeitsgemeinschaft (falls zutreffend) Eigenerklärung EU-Sanktionen Russland Scientology-Erklärung Stadt Ludwigshafen am Rhein - vertreten durch den Oberbürgermeister - Bismarckstraße 25 67059 Ludwigshafen am Rhein zu vergeben. Es ist beabsichtigt, die in beiliegender Leistungsbeschreibung bezeichneten Leistungen im Namen und für Rechnung 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 3 von 4 3.2 Folgende Unterlagen sind auf gesondertes Verlangen der Vergabestelle vorzulegen 3.3 Entfällt 4 Losweise Vergabe nein ja, Angebote sind möglich für eine maximale Anzahl an Losen: siehe Bekanntmachung oder Aufforderung zur Interessensbe- stätigung nur ein Los bei zugelassener Angebotsabgabe für mehr als ein Los: Beschränkung der Zahl der Lose, für die ein Bieter den Zuschlag erhalten kann Höchstzahl: siehe Bekanntmachung bzw. Aufforderung zur Interessensbestätigung",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2418,
+            "corpus_end": 3739,
+            "match": "Leistungsbeschreibung"
+          },
+          {
+            "text": "gebotsschreiben und seinen An- lagen: - Allgemeine Vertragsbedingungen für die Ausführung von Leistungen (VOL/B), Ausgabe 2003, - Unterlagen gem. Aufforderung zur Angebotsabgabe, Anlagen – Teil B 6 Ich/Wir erklären, dass – ich/wir die gewerberechtlichen Voraussetzungen für die Ausführung der angebotenen Leistung erfülle(n). – ich/wir den Wortlaut der vom Auftraggeber verfassten Langfassung des Leistungsverzeichnisses als alleinverbindlich anerkenne(n). – mir/uns zugegangene Änderungen der Vergabeunterlagen Gegenstand meines/unseres Ange- botes sind. – das vom Auftraggeber vorgeschlagene Produkt Inhalt meines/unseres Angebotes ist, wenn Teil- leistungsbeschreibungen des Auftraggebers den Zusatz „oder gleichwertig“ enthalten und von mir/uns keine Produktangaben (Hersteller- und Typbezeichnung) eingetragen wurden. – falls von mir/uns mehrere Nebenangebote abgegeben wurden, mein/unser Angebot auch die Kumulation der Nebenangebote, die sich nicht gegenseitig ausschließen, umfasst. – ich/wir einen pauschalen Schadensersatz in Höhe von 15 Prozent der Bruttoabrechnungssumme dieses Vertrages entrichten werde, falls ich/wir aus Anlass der Vergabe nachweislich eine Abre- de getroffen habe(n), die eine unzulässige Wettbewerbsbeschränkung darstellt, es sei denn, ich/wir weise(n) einen geringeren Schaden nach. In",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/01_Angebotsschreiben_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "409c1b07dbca94627e30a0ea668989f4b2899e88371d3ec1ce93127ff35b315e",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 8382,
+            "corpus_end": 9703,
+            "match": "leistungsbeschreibung"
+          },
+          {
+            "text": "wenn die Unterlagen nicht vollständig innerhalb dieser Frist vorgelegt werden. In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) 2 soweit das Finanzamt derartige Bescheinigungen ausstellt Ergänzung zum Dokument 124 LD (Eigenerklärung zur Eignung Liefer- / Dienstleistungen) Eigenerklärung zur Eignung in folgendem Vergabeverfahren Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind Weisen Sie 3 Referenzen für die Einführung und den Betrieb eines Lernmanagement- systems im öffentlichen Dienst bei Kommunen nach. Geben Sie je Referenz Auftrag- geber, Nutzerzahl und Leistungsumfang an. Ich/Wir erkläre(n), dass ich/wir uns während der gesamten Vertragslaufzeit mindestens alle 2 Jahre einem Datenschutz- oder IT-Sicherheits-Audit durch eine unabhängige Stelle unterwerfen und das Ergebnis der Auftraggeberin auf Anforderung vorlegen. __________________________________________________________________ In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/04_LTTG_Erklaerung_1_AEntG_2026 295",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf",
+            "source_url": null,
+            "source_sha256": "2e4a613a2cbf466e3024dd1d4272c2524b714648d85f0ae2e2f4d7ada2be57e3",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22346,
+            "corpus_end": 23661,
+            "match": "Leistungsumfang"
+          },
+          {
+            "text": "er- tes gilt § 3 Abs. 1 Vergabeverordnung (VgV). Danach ist von der geschätzten Ge- samtvergütung für die vorgesehene Leistung einschließlich etwaiger Prämien oder Zahlungen an Bewerber oder Bieter auszugehen. Dabei sind alle Optionen oder etwaige Vertragsverlängerungen zu berücksichtigen. LTTG – Merkblatt – Stand: Dezember 2025 Seite 2 von 7 Wenn danach das LTTG grundsätzlich anwendbar ist, kann der öffentliche Auftragge- ber beim Einsatz von Nachunternehmern oder Beschäftigten eines Verleihers durch den Auftragnehmer oder Nachunternehmer auf die Vorlage von Tariftreue- bzw. Min- destentgelterklärungen verzichten, wenn das Auftragsvolumen eines Nachunterneh- mers oder Verleihers weniger als 10.000 Euro beträgt. Dieser Verzicht tritt jedoch nicht kraft Gesetzes ein, sondern bedarf einer gesonderten Er klärung des öffentlichen Auftraggebers. 2. Welche Erklärung muss ich/müssen wir als Bieter/Bewerber abgeben? 2.1 Tariftreueerklärung Es ist vorrangig zu prüfen, ob nach § 4 Abs. 1 oder 3 LTTG eine Tariftreueerklärung abzugeben ist. a) Tariftreueerklärung nach § 4 Abs. 1 LTTG Eine Pflicht zur Abgabe einer Tariftreuerklärung besteht nach § 4 Abs. 1 LTTG für solche Unternehmen, die sich um öffentliche Aufträge bewerben, die vom Arbeitnehmer-Entsendegesetz (AEntG) erfass",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/05_Merkblatt_LTTG_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "625aa7194a8c1a1b0f9d8f59191c9a182bc3bb63afc052d465386ececf36aabf",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 31913,
+            "corpus_end": 33219,
+            "match": "volume"
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "entralregister beim Bundesamt für Justiz anfordern. 3.1 Folgende Unterlagen sind mit dem Angebot einzureichen: siehe Punkt C) Formblatt 633 Angebotsschreiben Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung Bieter-/Arbeitsgemeinschaft (falls zutreffend) Eigenerklärung EU-Sanktionen Russland Scientology-Erklärung Stadt Ludwigshafen am Rhein - vertreten durch den Oberbürgermeister - Bismarckstraße 25 67059 Ludwigshafen am Rhein zu vergeben. Es ist beabsichtigt, die in beiliegender Leistungsbeschreibung bezeichneten Leistungen im Namen und für Rechnung 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 3 von 4 3.2 Folgende Unterlagen sind auf gesondertes Verlangen der Vergabestelle vorzulegen 3.3 Entfällt 4 Losweise Vergabe nein ja, Angebote sind möglich für eine maximale Anzahl an Losen: siehe Bekanntmachung oder Aufforderung zur Interessensbe- stätigung nur ein L",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 2220,
+            "corpus_end": 3523,
+            "match": "sla"
+          },
+          {
+            "text": "Baukoordinierung Jaegerstraße 1 67059 Ludwigshafen am Rhein Registergericht BImA-Nummer Angebotsschreiben Bezeichnung der Leistung: Vergabenummer: Leistung: Anlagen1, die Vertragsbestandteil werden Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung der Bieter-/Arbeitsgemeinschaft (falls zutreffend) Eigenerklärung über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren Scientology Erklärung Anlagen1, die der Angebotserläuterung dienen, ohne Vertragsbestandteil zu werden Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren sowie Ergänzung Einheitliche Europäische Eigenerklärung 1 vom Bieter anzukreuzen und beizufügen Name und Anschrift der Vergabestelle 2026 / 295 LMS und E-Learning für die Stadtverwaltung Ludwigshafen Liefer- und Dienstleistung 633 (Angebotsschreiben – Liefer-/Dienstleistungen) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 2 von 2 1 Ich/Wir biete(n) die Ausführung der oben genannten Leistung zu den von mir/u",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/01_Angebotsschreiben_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "409c1b07dbca94627e30a0ea668989f4b2899e88371d3ec1ce93127ff35b315e",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 6673,
+            "corpus_end": 7976,
+            "match": "sla"
+          },
+          {
+            "text": "m unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) 2 soweit das Finanzamt derartige Bescheinigungen ausstellt Ergänzung zum Dokument 124 LD (Eigenerklärung zur Eignung Liefer- / Dienstleistungen) Eigenerklärung zur Eignung in folgendem Vergabeverfahren Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind Weisen Sie 3 Referenzen für die Einführung und den Betrieb eines Lernmanagement- systems im öffentlichen Dienst bei Kommunen nach. Geben Sie je Referenz Auftrag- geber, Nutzerzahl und Leistungsumfang an. Ich/Wir erkläre(n), dass ich/wir uns während der gesamten Vertragslaufzeit mindestens alle 2 Jahre einem Datenschutz- oder IT-Sicherheits-Audit durch eine unabhängige Stelle unterwerfen und das Ergebnis der Auftraggeberin auf Anforderung vorlegen. __________________________________________________________________ In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/04_LTTG_Erklaerung_1_AEntG_2026 295.pdf ===== LTTG – Mustererklärung 1 – Stand: Dezember 2025 Seite 1 von 2 Mu",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf",
+            "source_url": null,
+            "source_sha256": "2e4a613a2cbf466e3024dd1d4272c2524b714648d85f0ae2e2f4d7ada2be57e3",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22436,
+            "corpus_end": 23739,
+            "match": "sla"
+          },
+          {
+            "text": "ab 01.01.2024:12,41 €; ab 01.01.2025: 12,82 €; ab 01.01.2026: 13,90 €; ab 01.01.2027: 14,60 € brutto je Zeitstunde), muss sich der Bieter/Bewerber, bei Leistungen, die vom Mindestlohn- gesetz in der jeweils geltenden Fassung erfasst werden, bei Angebotsabgabe ver- pflichten, seinen Beschäftigten, die nicht dem AEntG unterfallen oder auf die der Tarif- vertrag nach dem AEntG keine Anwendung findet, bei der Ausführung der Leistung ein Entgelt zu zahlen, das mindestens den jeweils geltenden Vorgaben des Mindest- lohngesetzes und der gemäß § 1 Abs. 2 Satz 2 MiLoG erlassenen Rechtsverordnung entspricht und Änderungen während der Ausführungslaufzeit gegenüber den Beschäf- tigten nachzuvollziehen. Keine Verpflichtung besteht in folgenden Fällen: ■ bei der Leistungserbringung durch Auszubildende, ■ wenn ein Bieter/Bewerber mit Sitz in einem anderen EU -Mitgliedsstaat beab- sichtigt, einen öffentlichen Auftrag ausschließlich durch die Inanspruchnahme dort beschäftigter Arbeitnehmern auszuführen; ■ falls ein Bieter/Bewerber beabsichtigt, einen öffentlichen Auftrag ausschließlich durch die Inanspruchnahme von Arbeitnehmern auszuführen, die bei einem Nachunternehmen mit Sitz in einem anderen EU-Mitgliedstaat beschäftigt sind. Ein Muster zur Abgabe der Mindestentgelterklärung na",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/05_Merkblatt_LTTG_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "625aa7194a8c1a1b0f9d8f59191c9a182bc3bb63afc052d465386ececf36aabf",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 40812,
+            "corpus_end": 42115,
+            "match": "sla"
+          }
+        ],
+        "term_value": [
+          {
+            "text": "Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) 2 soweit das Finanzamt derartige Bescheinigungen ausstellt Ergänzung zum Dokument 124 LD (Eigenerklärung zur Eignung Liefer- / Dienstleistungen) Eigenerklärung zur Eignung in folgendem Vergabeverfahren Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind Weisen Sie 3 Referenzen für die Einführung und den Betrieb eines Lernmanagement- systems im öffentlichen Dienst bei Kommunen nach. Geben Sie je Referenz Auftrag- geber, Nutzerzahl und Leistungsumfang an. Ich/Wir erkläre(n), dass ich/wir uns während der gesamten Vertragslaufzeit mindestens alle 2 Jahre einem Datenschutz- oder IT-Sicherheits-Audit durch eine unabhängige Stelle unterwerfen und das Ergebnis der Auftraggeberin auf Anforderung vorlegen. __________________________________________________________________ In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/04_LTTG_Erklaerung_1_AEntG_2026 295.pdf ===== LTTG – Mustererklärung 1 – Stand: Dezember 2025 Seite 1 von 2 Musterer",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf",
+            "source_url": null,
+            "source_sha256": "2e4a613a2cbf466e3024dd1d4272c2524b714648d85f0ae2e2f4d7ada2be57e3",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22429,
+            "corpus_end": 23745,
+            "match": "Vertragslaufzeit"
+          },
+          {
+            "text": "von Anteil en im Umfang von mehr als 50%, c) durch d as Handeln der Bewerber/Bieter im Namen oder auf Anweisung von Personen oder Unternehmen, auf die die Kriterien der Buchstaben a und/oder b zutrifft. 2. Die am Au ftrag als Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazit äten im Zusammenhang mit der Erbringung des Eignungsnachweises in Anspruch genommen werden, beteiligten Unternehmen, auf die mehr als 10 % des Auftrags werts entfällt, gehören ebenfalls nicht zu dem in der Vorschrift genannten Personenkr eis mit einem Bezug zu Russland im Sinne der Vorschrift. 3. Es wird bestätigt u nd sichergestellt, dass auch während der Vertragslaufzeit keine als Unterauftragneh mer, Lieferanten oder Unternehmen, deren Kapazitäten im Zusammenhang m it der Erbringung des Eignungsnachweises in Anspruch genommen werden, beteili gten Unternehmen eingesetzt werden, auf die mehr als 10 % des Auftrags werts entfällt. _______________________, den _______________________________ In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) Artikel 5k der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 lautet wie folgt: (1) Es ist verboten, öffentliche Aufträge oder Konzessionen, die in den Anwendun",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/08_Eigenerklärung-VO-2022-833_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "0de130378595083cfc0a74c9acee9f28e58d383455be84a7b1d5d1d4fd3ddfce",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 47642,
+            "corpus_end": 48958,
+            "match": "Vertragslaufzeit"
+          },
+          {
+            "text": "| | A 5.8 | Die Software muss Reporting, Controlling und ein automatisiertes Berichtswesen mit Export mindestens im Format XLSX und PDF unterstützen. Bei Reporting muss folgende Aus- wertung möglich sein: Individuelle Lernstandsberichte, Kursbezogene Berichte, Gruppen-/ Abteilungs- /Standortberichte, Pflichtschulungs-/Compliance-Reports (wer hat Pflichtkurs X bis Datum Y nicht abgeschlossen), Zertifikats- und Ablaufmanagement (Reports zu bald ablaufenden Zertifizierungen) und individuelle Berichte (Report-Builder mit wählbaren Feldern und Filtern) Bei Controlling muss folgende Auswertungen möglich sein: Übersichten mit bspw. Abschlussquote, Budget/Kosten pro Kurs, Soll-Ist-Vergleich (z. B. Zielvorgabe „100 % Abschluss bis Q2\" vs. tatsächlicher Stand), Alarmierungs-/Eskalationsfunktion (automatische Benachrichtigung bei Fristüberschreitung an Mitarbeiter, Vorgesetzte, Personalabteilung) und Rollenbasierte Sichten (Mitarbeiter sieht nur sich selbst, Führungskraft sieht Team, Admin sieht global) | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 5.9 | Lernhistorien einzelner Benutzer sowie von Benutzergruppen müssen entsprechend der jeweiligen Berechtigung einsehbar und exportierbar sein. Die E-Learning sollten als Scorm-Datei und die Benutzer sowie Benutzergruppen",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 66735,
+            "corpus_end": 68041,
+            "match": "Budget"
+          },
+          {
+            "text": "indung und Nutzung externer Lernelemente sowie gängiger Medienformate, mindestens PDF, MP4 und PPTX, ermöglichen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 6.3 | Die angegebotenen E-Learning-Kurse müssen mindestens vollständig in deutscher Sprache zur Verfügung stehen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 6.4 | Es müssen mindestens 100 unterschiedliche E-Learning-Kurse angeboten werden. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | A 7 | Support, Wartung & Einführung | | | | | | | | | | | | | | | A 7.1 | Der Anbieter muss während der gesamten Vertragslaufzeit Updates und Sicherheitspatches ohne Zusatzkosten bereitstellen. Kritische Sicherheitslücken sind unverzüglich, spätestens innerhalb von 7 Tagen nach Bekanntwerden zu schließen. Die Plattform ist an neue Browserversionen sowie an geänderte rechtliche Anforderungen anzupassen; der vereinbarte Funktionsumfang darf während der Vertragslaufzeit nicht eingeschränkt werden. Wesentliche Änderungen sind mindestens 14 Tage im Voraus mit Release Notes anzukündigen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 7.2 | Bei Softwareupdates dürfen auf keinen Fall Konfigurationen, bestehende Daten der Auftraggeberin sowie Lerninhalt",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 68792,
+            "corpus_end": 70108,
+            "match": "Vertragslaufzeit"
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "Losen: siehe Bekanntmachung oder Aufforderung zur Interessensbe- stätigung nur ein Los bei zugelassener Angebotsabgabe für mehr als ein Los: Beschränkung der Zahl der Lose, für die ein Bieter den Zuschlag erhalten kann Höchstzahl: siehe Bekanntmachung bzw. Aufforderung zur Interessensbestätigung Bedingungen zur Ermittlung derjenigen Lose, für die ein Bieter den Zuschlag erhält, falls sein An- gebot in mehr Losen das wirtschaftlichste ist als der angegebenen Höchstzahl an Losen 5 Nebenangebote 5.1 5.2 nur für nachfolgend genannte Bereiche: mit Ausnahme nachfolgend genannter Bereiche: unter folgenden weiteren Bedingungen: 6 Angebotswertung Kriterien für die Wertung der Haupt- und ggf. Nebenangebote Zuschlagskriterium Preis Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesonde- re unter Berücksichtigung von Nachlässen. Nebenangebote sind nicht zugelassen, Nummer 4 der Bewerbungsbedingungen EU gilt nicht. Nebenangebot e sind zugelassen (si ehe auch Nummer 4 der Bewerbungsbedingungen EU) - au s- genommen Nebenangebote, die ausschließlic h Preisnachlässe mit Bedingungen beinhalten - für die gesamte Leistung alle Lose 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) ©",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3438,
+            "corpus_end": 4745,
+            "match": "wertung"
+          },
+          {
+            "text": "oder Aufforderung zur Interessensbe- stätigung nur ein Los bei zugelassener Angebotsabgabe für mehr als ein Los: Beschränkung der Zahl der Lose, für die ein Bieter den Zuschlag erhalten kann Höchstzahl: siehe Bekanntmachung bzw. Aufforderung zur Interessensbestätigung Bedingungen zur Ermittlung derjenigen Lose, für die ein Bieter den Zuschlag erhält, falls sein An- gebot in mehr Losen das wirtschaftlichste ist als der angegebenen Höchstzahl an Losen 5 Nebenangebote 5.1 5.2 nur für nachfolgend genannte Bereiche: mit Ausnahme nachfolgend genannter Bereiche: unter folgenden weiteren Bedingungen: 6 Angebotswertung Kriterien für die Wertung der Haupt- und ggf. Nebenangebote Zuschlagskriterium Preis Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesonde- re unter Berücksichtigung von Nachlässen. Nebenangebote sind nicht zugelassen, Nummer 4 der Bewerbungsbedingungen EU gilt nicht. Nebenangebot e sind zugelassen (si ehe auch Nummer 4 der Bewerbungsbedingungen EU) - au s- genommen Nebenangebote, die ausschließlic h Preisnachlässe mit Bedingungen beinhalten - für die gesamte Leistung alle Lose 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 -",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3465,
+            "corpus_end": 4772,
+            "match": "Wertung"
+          },
+          {
+            "text": "für mehr als ein Los: Beschränkung der Zahl der Lose, für die ein Bieter den Zuschlag erhalten kann Höchstzahl: siehe Bekanntmachung bzw. Aufforderung zur Interessensbestätigung Bedingungen zur Ermittlung derjenigen Lose, für die ein Bieter den Zuschlag erhält, falls sein An- gebot in mehr Losen das wirtschaftlichste ist als der angegebenen Höchstzahl an Losen 5 Nebenangebote 5.1 5.2 nur für nachfolgend genannte Bereiche: mit Ausnahme nachfolgend genannter Bereiche: unter folgenden weiteren Bedingungen: 6 Angebotswertung Kriterien für die Wertung der Haupt- und ggf. Nebenangebote Zuschlagskriterium Preis Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesonde- re unter Berücksichtigung von Nachlässen. Nebenangebote sind nicht zugelassen, Nummer 4 der Bewerbungsbedingungen EU gilt nicht. Nebenangebot e sind zugelassen (si ehe auch Nummer 4 der Bewerbungsbedingungen EU) - au s- genommen Nebenangebote, die ausschließlic h Preisnachlässe mit Bedingungen beinhalten - für die gesamte Leistung alle Lose 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 4 von 4 7 8 Zugelassene Angebotsabgabe Elektronisch: mit fortgeschrittener/",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3558,
+            "corpus_end": 4865,
+            "match": "Wertung"
+          },
+          {
+            "text": "l der Lose, für die ein Bieter den Zuschlag erhalten kann Höchstzahl: siehe Bekanntmachung bzw. Aufforderung zur Interessensbestätigung Bedingungen zur Ermittlung derjenigen Lose, für die ein Bieter den Zuschlag erhält, falls sein An- gebot in mehr Losen das wirtschaftlichste ist als der angegebenen Höchstzahl an Losen 5 Nebenangebote 5.1 5.2 nur für nachfolgend genannte Bereiche: mit Ausnahme nachfolgend genannter Bereiche: unter folgenden weiteren Bedingungen: 6 Angebotswertung Kriterien für die Wertung der Haupt- und ggf. Nebenangebote Zuschlagskriterium Preis Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesonde- re unter Berücksichtigung von Nachlässen. Nebenangebote sind nicht zugelassen, Nummer 4 der Bewerbungsbedingungen EU gilt nicht. Nebenangebot e sind zugelassen (si ehe auch Nummer 4 der Bewerbungsbedingungen EU) - au s- genommen Nebenangebote, die ausschließlic h Preisnachlässe mit Bedingungen beinhalten - für die gesamte Leistung alle Lose 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 4 von 4 7 8 Zugelassene Angebotsabgabe Elektronisch: mit fortgeschrittener/m Signatur/Siegel mit qualifizierter/m Signa",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 3602,
+            "corpus_end": 4909,
+            "match": "Wertung"
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "GB - Ergänzende Vertragsbedingungen für Cloudleistungen - EVB-IT Cloud-AGB - Ergänzende Vertragsbedingungen für IT-Dienstleistungen - EVB-IT Dienstleistungs-AGB -X X Information Datenschutz X Vergabe- und Vertragsunterlagen X Information zum Einreichen elektr. Rechnungen über zentralen E-Rechnungseingangen RLP (ZRE) 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 2 von 4 & die, soweit erforderlich, ausgefüllt mit dem Angebot einzureichen sind 1 2 Kommunikation 3 Die Kommunikation erfolgt elektronisch über die Vergabeplattform (http://www.auftragsboerse.de) Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen oder sonstige Nachweise) Der Auftraggeber wird ab einer Auftragssumme von mehr als 50.000 Euro für den Bieter, der den Zu- schlag erhalten soll, zur Bestätigung der Erklärung (Angebotsschreiben Nummer 6) einen Auszug aus dem Gewerbezentralregister beim Bundesamt für Justiz anfordern. 3.1 Folgende Unterlagen sind mit dem Angebot einzureichen: siehe Punkt C) Formblatt 633 Angebotsschreiben Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1298,
+            "corpus_end": 2607,
+            "match": "erklärung"
+          },
+          {
+            "text": "gabe- und Vertragsunterlagen X Information zum Einreichen elektr. Rechnungen über zentralen E-Rechnungseingangen RLP (ZRE) 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 2 von 4 & die, soweit erforderlich, ausgefüllt mit dem Angebot einzureichen sind 1 2 Kommunikation 3 Die Kommunikation erfolgt elektronisch über die Vergabeplattform (http://www.auftragsboerse.de) Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen oder sonstige Nachweise) Der Auftraggeber wird ab einer Auftragssumme von mehr als 50.000 Euro für den Bieter, der den Zu- schlag erhalten soll, zur Bestätigung der Erklärung (Angebotsschreiben Nummer 6) einen Auszug aus dem Gewerbezentralregister beim Bundesamt für Justiz anfordern. 3.1 Folgende Unterlagen sind mit dem Angebot einzureichen: siehe Punkt C) Formblatt 633 Angebotsschreiben Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung Bieter-/Arbeitsgeme",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1501,
+            "corpus_end": 2810,
+            "match": "Erklärung"
+          },
+          {
+            "text": "mit dem Angebot einzureichen sind 1 2 Kommunikation 3 Die Kommunikation erfolgt elektronisch über die Vergabeplattform (http://www.auftragsboerse.de) Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen oder sonstige Nachweise) Der Auftraggeber wird ab einer Auftragssumme von mehr als 50.000 Euro für den Bieter, der den Zu- schlag erhalten soll, zur Bestätigung der Erklärung (Angebotsschreiben Nummer 6) einen Auszug aus dem Gewerbezentralregister beim Bundesamt für Justiz anfordern. 3.1 Folgende Unterlagen sind mit dem Angebot einzureichen: siehe Punkt C) Formblatt 633 Angebotsschreiben Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung Bieter-/Arbeitsgemeinschaft (falls zutreffend) Eigenerklärung EU-Sanktionen Russland Scientology-Erklärung Stadt Ludwigshafen am Rhein - vertreten durch den Oberbürgermeister - Bismarckstraße 25 67059 Ludwigshafen am Rhein zu vergeben. Es ist beabsichtigt, die in beiliegender Leistungsbeschreibun",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1779,
+            "corpus_end": 3088,
+            "match": "Erklärung"
+          },
+          {
+            "text": "lgt elektronisch über die Vergabeplattform (http://www.auftragsboerse.de) Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen oder sonstige Nachweise) Der Auftraggeber wird ab einer Auftragssumme von mehr als 50.000 Euro für den Bieter, der den Zu- schlag erhalten soll, zur Bestätigung der Erklärung (Angebotsschreiben Nummer 6) einen Auszug aus dem Gewerbezentralregister beim Bundesamt für Justiz anfordern. 3.1 Folgende Unterlagen sind mit dem Angebot einzureichen: siehe Punkt C) Formblatt 633 Angebotsschreiben Kriterienkatalog inkl. aller geforderten Angaben, Erklärungen, Nachweise und Bescheinigungen Preisblatt Formblatt 124 LD Eigenerklärung zur Eignung in folgendem Vergabeverfahren und Ergänzung Formblatt Verpflichtungserklärung zur Einhaltung des Tariftreue- und Mindestlohngesetzes RLP (LTTG) Formblatt 235 Verzeichnis der Leistungen/Kapazitäten anderer Unternehmen (falls zutreffend) Formblatt 234 Erklärung Bieter-/Arbeitsgemeinschaft (falls zutreffend) Eigenerklärung EU-Sanktionen Russland Scientology-Erklärung Stadt Ludwigshafen am Rhein - vertreten durch den Oberbürgermeister - Bismarckstraße 25 67059 Ludwigshafen am Rhein zu vergeben. Es ist beabsichtigt, die in beiliegender Leistungsbeschreibung bezeichneten Leistungen im Namen und für Rechnung 631 EU (VgV – Aufforde",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 1856,
+            "corpus_end": 3165,
+            "match": "erklärung"
+          }
+        ],
+        "submission": [
+          {
+            "text": "===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf ===== 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 1 von 4 Vergabestelle: Vergabeart: Offenes Verfahren nicht offenes Verfahren mit Teilnahmewettbewerb nicht offenes Verfahren ohne Teilnahmewettbewerb Verhandlungsverfahren mit Teilnahmewettbewerb Verhandlungsverfahren ohne Teilnahmewettbewerb Ablauf der Angebotsfrist: Uhrzeit: 10:00 Bindefrist endet am 25.03.2027 Anlagen A) die beim Bieter verbleiben und im Vergabeverfahren zu beachten sind Formblatt 632 EU VgV - Bewerbungsbedingungen EU B) Datum: 08.12.2026 Stadtverwaltung Ludwigshafen am Rhein Bereich 1-11 Organisations- und Personalentwicklung Berliner Platz 1 67059 Ludwigshafen am Rhein Vergabenummer: 2026 / 295 Aufforderung zur Abgabe eines Angebots (Vergabeverfahren gem. VgV) Bezeichnung der Leistung: Leistung: LMS und E-Learning für die Stadtverwaltung Ludwigshafen Liefer- und Dienstleistung die beim Bieter verbleiben und Vertragsbestandteil werden Ergänzende Vertragsbedingungen für die Pflege",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 0,
+            "corpus_end": 1257,
+            "match": "Angebotsfrist"
+          },
+          {
+            "text": "erbungsbedingungen EU) - au s- genommen Nebenangebote, die ausschließlic h Preisnachlässe mit Bedingungen beinhalten - für die gesamte Leistung alle Lose 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 4 von 4 7 8 Zugelassene Angebotsabgabe Elektronisch: mit fortgeschrittener/m Signatur/Siegel mit qualifizierter/m Signatur/Siegelin Textform Bei elektronischer Angebotsübermittlung in Textform muss der Bieter zu erkennen sein; falls vorgegeben, ist das Angebot mit der geforderten Signatur/dem geforderten Siegel zu versehen. Das Angebot ist zusammen mit den Anlagen bis zum Ablauf der Angebotsfrist über die Vergabeplatt- form der Vergabestelle zu übermitteln. Behörde, an die sich der Bewerber oder Bieter zur Nachprüfung behaupteter Verstöße gegen die Vergabebestimmungen wenden kann: Vergabekammer (§ 156 GWB): Ministerium für Wirtschaft, Tourismus, Energie und Klima - Vergabekammer Rheinland-Pfalz - Stiftstraße 9 55116 Mainz Telefon: +49 (0)6131 16-2234 Fax: +49 (0)6131 16-2113 Internet-Adresse: https://mwtek.rlp.de E-Mail: vergabekammer.rlp@mwvlw.rlp.de Mehrere Zuschlagskriterien gemäß Vergabe- und Vertragsunterlagen: Der Zuschlag wird auf das wirtschaftlichste Angebot unter Berücksichtigung des besten Preis- (40%) / Leistungsverhält",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 4528,
+            "corpus_end": 5841,
+            "match": "Angebotsfrist"
+          },
+          {
+            "text": "in Textform darauf hinzuweisen. 2 Unzulässige Wettbewerbsbeschränkungen Angebote von Bietern, die sich im Zusammenhang mit diesem Vergabeverfahren an einer unzuläs- sigen Wettbewerbsbeschränkung beteiligen, werden ausgeschlossen. Zur Bekämpfung von Wettbewerbsbeschränkungen hat der Bieter auf Verlangen Auskünfte darüber zu geben, ob und auf welche Art er wirtschaftlich und rechtlich mit Unternehmen verbunden ist. 3 Angebot 3.1 Das Angebot ist in deutscher Sprache abzufassen. 3.2 Für das Angebot sind die von der Vergabestelle vorgegebenen Vordrucke zu verwenden. Das Angebot ist bis zu dem von der Vergabestelle angegebenen Ablauf der Angebotsfrist einzureichen. Ein nicht form- oder fristgerecht eingereichtes Angebot wird ausgeschlossen. 3.3 Eine selbst gefertigte Abschrift oder Kurzfassung des Leistungsverzeichnisses ist zulässig. Die von der Vergabestelle vorgegebene Langfassung des Leistungsverzeichnisses ist allein verbindlich. 3.4 Unterlagen, die von der Vergabestelle nach Angebotsabgabe verlangt werden, sind zu dem von der Vergabestelle bestimmten Zeitpunkt einzureichen. 3.5 Alle Eintragungen müssen dokumentenecht sein. 3.6 Ein Bieter, der in seinem Angebot die von ihm tatsächlich für einzelne Leistungspositionen geforder- ten Einheitspreise auf verschiedene Einheitspreis",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/02_Bewerbungsbedingungen_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "a0dc2cafd42d20c99488a97e494f744eeb28613b0f1ba0bc144879fab4d6f076",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 10769,
+            "corpus_end": 12082,
+            "match": "Angebotsfrist"
+          },
+          {
+            "text": "rechnung beinhaltet, wieder eine eigene Visualisierung anfertigt. Rechnungsbegründende Anlagen müssen Base64-kodiert sein und können in den folgenden Formaten zur E-Rechnung hinzugefügt werden: PDF, PNG, JPG, JPEG, CSV, XLSX, ODS. Alle Anlagen müssen unterschiedliche Namen haben. Dies betrifft auch eingebettete, Base64 codierte Anlagen innerhalb der E- Rechnung. Die Dateinamen dürfen kein @-Zeichen enthalten und werden ggf. abgeschnitten, wenn sie zu lang sind. Es darf nur eine Rechnung pro E-Mail eingereicht werden, die Gesamtgröße inkl. aller Anhänge darf 20 MB nicht überschreiten. Genauere Infos und Angaben dazu, was Sie noch bei der Einreichung beachten sollten, finden Sie hier. Inhalt der E-Rechnung („BT-Felder“) Die Pflichtfelder des Standards XRechnung – der nach Beschluss des IT-Planungsrats grundsätzlich maßgebliche Standard für die Verwendung der E-Rechnung in Deutschland – ergeben sich in den meisten Fällen aus dem Umsatzsteuergesetz. Zusätzliche Pflichtangaben sind Zahlungsbedingungen, Bankverbindungsdaten, die Mailadresse des Rechnungsstellers („BT-43“, wichtig für Rückmeldungen) und die Leitweg-ID, deren korrekte Angabe essenziell für die korrekte Zustellung der Rechnung ist. Unsere Leitweg-ID finden Sie am Anfang dieses Dokuments. Bitte achten Sie darauf, dass si",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/15_Information_Rechnungsstellung.pdf",
+            "source_url": null,
+            "source_sha256": "a7b33512976e21123854c97d814650d8049b5b8ca66b90e62525c64aa2474942",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 116807,
+            "corpus_end": 118118,
+            "match": "Einreichung"
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "am Rhein Bereich 1-11 Organisations- und Personalentwicklung Berliner Platz 1 67059 Ludwigshafen am Rhein Vergabenummer: 2026 / 295 Aufforderung zur Abgabe eines Angebots (Vergabeverfahren gem. VgV) Bezeichnung der Leistung: Leistung: LMS und E-Learning für die Stadtverwaltung Ludwigshafen Liefer- und Dienstleistung die beim Bieter verbleiben und Vertragsbestandteil werden Ergänzende Vertragsbedingungen für die Pflege von Standardsoftware - EVB-IT Pflege S-AGB - Ergänzende Vertragsbedingungen für Cloudleistungen - EVB-IT Cloud-AGB - Ergänzende Vertragsbedingungen für IT-Dienstleistungen - EVB-IT Dienstleistungs-AGB -X X Information Datenschutz X Vergabe- und Vertragsunterlagen X Information zum Einreichen elektr. Rechnungen über zentralen E-Rechnungseingangen RLP (ZRE) 631 EU (VgV – Aufforderung zur Abgabe eines Angebots EU) © VHB - Bund - Ausgabe 2017 - Stand 2019 Seite 2 von 4 & die, soweit erforderlich, ausgefüllt mit dem Angebot einzureichen sind 1 2 Kommunikation 3 Die Kommunikation erfolgt elektronisch über die Vergabeplattform (http://www.auftragsboerse.de) Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen oder sonstige Nachweise) Der Auftraggeber wird ab einer Auftragssumme von mehr als 50.000 Euro für den Bieter, der den Zu- schlag erhalten soll, zur Bestätig",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/00_Angebotsaufforderung_2026 295.pdf",
+            "source_url": null,
+            "source_sha256": "4e6a8a460088ed40a252ebdeabe8f5b3e7925a5a20b3b69c96718a21f4c0917f",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 832,
+            "corpus_end": 2143,
+            "match": "Datenschutz"
+          },
+          {
+            "text": ", Name Erklärender i.S.d. § 126 b BGB) 2 soweit das Finanzamt derartige Bescheinigungen ausstellt Ergänzung zum Dokument 124 LD (Eigenerklärung zur Eignung Liefer- / Dienstleistungen) Eigenerklärung zur Eignung in folgendem Vergabeverfahren Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind Weisen Sie 3 Referenzen für die Einführung und den Betrieb eines Lernmanagement- systems im öffentlichen Dienst bei Kommunen nach. Geben Sie je Referenz Auftrag- geber, Nutzerzahl und Leistungsumfang an. Ich/Wir erkläre(n), dass ich/wir uns während der gesamten Vertragslaufzeit mindestens alle 2 Jahre einem Datenschutz- oder IT-Sicherheits-Audit durch eine unabhängige Stelle unterwerfen und das Ergebnis der Auftraggeberin auf Anforderung vorlegen. __________________________________________________________________ In Textform unterzeichnen (Datum, Firma, Rechtsform, Name Erklärender i.S.d. § 126 b BGB) ===== FILE: files/Vergabeunterlagen_2026 295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/04_LTTG_Erklaerung_1_AEntG_2026 295.pdf ===== LTTG – Mustererklärung 1 – Stand: Dezember 2025 Seite 1 von 2 Mustererklärung 1 für öffentliche Aufträge, die v",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/03_Eigenerklärung_2026 295 und Ergänzung.pdf",
+            "source_url": null,
+            "source_sha256": "2e4a613a2cbf466e3024dd1d4272c2524b714648d85f0ae2e2f4d7ada2be57e3",
+            "source_kind": "pdf",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 22477,
+            "corpus_end": 23788,
+            "match": "Datenschutz"
+          },
+          {
+            "text": "n. Fehlt eine Angabe oder ist nicht den Anmerkungen nach korrekt ausgefüllt worden, kann dies zum Ausschluss des Angebots führen. | | | | | | | | | | | | | | | Name des Anbieters: | | | | | | | | | | | | | | | Kriterienhauptgruppe (KHG) | | | | Anmerkungen | | | | | | | | Antwort des Bieters (JA / NEIN) | | | | Kriteriengruppe (KG) | | | | | | | | | | | | | | | | Einzelkriterien (K) | | | | | | | | | | | | | | | | Leistungsanfrage (L) | | | | | | | | | | | | A | Ausschlusskriterien / Mindestanforderungen | | | | | | | | | | | | | | | A 1 | Hosting & Betriebsumgebung | | | | | | | | | | | | | | | A 1.1 | Die Lösung muss als Software as a Service (SaaS) durch den Auftragnehmer betrieben werden. Der Betrieb von Server-, Datenbank- oder sonstigen Systemkomponenten in der Infrastruktur der Auftraggeberin darf nicht erforderlich sein. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 1.2 | Verarbeitung, Speicherung und Datensicherung der Daten der Auftraggeberin müssen ausschließlich in Rechenzentren innerhalb der EU bzw. des EWR erfolgen. Eine Übermittlung von Daten in Drittländer, insbesondere in die USA, darf nicht stattfinden; dies gilt auch für Fern",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 56194,
+            "corpus_end": 57501,
+            "match": "Hosting"
+          },
+          {
+            "text": "anisationseinheiten, Kurse, Teilnahmen und Lernergebnisse bereitstellen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 2.5 | Das Lernmanagementsystem muss bei Mitarbeitenden bzw. Benutzerstammdaten eine 1-zu-n-Beziehung zwischen Mitarbeitenden und Einsatzstellen unterstützen. Ein Mitarbeitender muss mehreren Einsatzstellen gleichzeitig oder nacheinander zugeordnet werden können. Es muss daher möglich sein, mehrere entsprechende Zuordnungen je Mitarbeitendem abzubilden, zu speichern und bei der Verarbeitung der Personaldaten zu berücksichtigen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | A 3 | Datenschutz & Informationssicherheit | | | | | | | | | | | | | | | A 3.1 | Die Software muss die Anforderungen der DSGVO erfüllen und eine Auftragsverarbeitung gemäß Art. 28 DSGVO ermöglichen. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 3.2 | Die Daten der Auftraggeberin müssen logisch oder physisch von Daten anderer Kunden getrennt verarbeitet und gespeichert werden. Ergänzend zu A 2.2 müssen sämtliche gespeicherten Daten einschließlich der Datensicherungen nach dem Stand der Technik verschlüsselt abgelegt werden. | nur \"JA\" oder \"NEIN\" möglich | | | | | | | | | | | | | A 3.3 | Die Software muss e",
+            "source": "files/Vergabeunterlagen_2026  295_LMS Lernmanagementsoftware und E-Learning fuer die Stadtverwaltung Ludwigshafen - Dienstleistung_20261104T101127_unpacked/Dateien für Angebot/10_Kriterienkatalog_2026 295.xlsx",
+            "source_url": null,
+            "source_sha256": "df7eb6d61d3ea72ae28e140e25934cb6de4a633338b6b8289d9ad6a63267d226",
+            "source_kind": "xlsx",
+            "source_provenance_match": null,
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "corpus_start": 59873,
+            "corpus_end": 61184,
+            "match": "Datenschutz"
+          }
+        ]
+      },
+      "source_dce_run_id": 43617561206,
+      "source_shard": 47,
+      "hot_ready_at": "2026-11-14T17:05:17.932928+00:00",
+      "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
+      "spm_post_dce_score": 63,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "software-development",
+        "e-learning",
+        "it-services"
+      ],
+      "spm_friction_signals": [],
+      "review_lane": "SPM_PRIORITY"
+    },
+    {
       "candidate_id": "US-SAM:7ef48ec2fcc64118a1233db9cb4ff9a9",
       "title": "GUATEMALA Software Development Services for GIO Information Exchange Platform",
       "buyer": "STATE, DEPARTMENT OF",
@@ -2472,43 +3776,6 @@
         "release_tag": "dce-harvest-43587519255"
       },
       "hot_ready_at": "2026-11-14T16:55:21.471415+00:00",
-      "review_lane": "SPM_PRIORITY",
-      "finalization_allowed": false
-    },
-    {
-      "candidate_id": "TED:769391-2026",
-      "title": "Germany – IT services: consulting, software development, Internet and support – LMS Lernmanagementsoftware und E-Learning für die Stadtverwaltung Ludwigshafen - Dienstleistung",
-      "buyer": "Stadt Ludwigshafen, Bereich Organisations- und Personalentwicklung",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/769391-2026",
-      "deadline": "2026-12-08T01:00:00+00:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "deadline_resolved": false,
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
-      "evidence_gate_coverage": 12,
-      "priority_score": 89,
-      "spm_post_dce_score": 63,
-      "spm_fit_band": "GOOD",
-      "spm_fit_reasons": [
-        "software-development",
-        "e-learning",
-        "it-services"
-      ],
-      "spm_friction_signals": [],
-      "source_dce_run_id": 43587519255,
-      "source_shard": 4,
-      "procedure_aliases": [],
-      "artifact_locator": {
-        "dce_run_id": 43587519255,
-        "shard": 4,
-        "candidate_id": "TED:769391-2026",
-        "release_tag": "dce-harvest-43587519255"
-      },
-      "hot_ready_at": "2026-11-14T16:55:21.422882+00:00",
       "review_lane": "SPM_PRIORITY",
       "finalization_allowed": false
     },
