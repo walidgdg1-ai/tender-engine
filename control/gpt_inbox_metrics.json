@@ -1,14 +1,14 @@
 {
   "schema": "GPT_INBOX_HEALTH_V4_FAIR_SHARE_PROVENANCE",
-  "updated_at": "2026-11-15T14:55:36.430118+00:00",
+  "updated_at": "2026-11-15T20:05:33.543277+00:00",
   "inbox_schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "latest_source_dce_run_id": 43726247288,
+  "latest_source_dce_run_id": 43755453220,
   "counts": {
     "pending_gpt_web_review": 160,
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 175,
+    "pending_before_visible_cap": 176,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
@@ -130,36 +130,37 @@
       "SCOTLAND_PCS": 1
     }
   },
-  "review_index_count": 1161,
+  "review_index_count": 1162,
   "review_index_counts": {
-    "pending_total_uncapped": 1161,
+    "pending_total_uncapped": 1162,
     "by_stage": {
       "BUSINESS_GATES": 852,
-      "DCE_AUTHENTICITY": 309
+      "DCE_AUTHENTICITY": 310
     },
     "by_spm_fit_band": {
       "HOT": 16,
       "GOOD": 55,
       "MAYBE": 79,
-      "LOW": 1011
+      "LOW": 1012
     },
     "rich_hot_window_target": 160,
-    "overflow_beyond_hot_160": 1001,
+    "overflow_beyond_hot_160": 1002,
     "cross_portal_duplicates_collapsed": 2
   },
-  "true_pending_before_hot_cap": 1161,
-  "overflow_beyond_hot_160": 1001,
+  "true_pending_before_hot_cap": 1162,
+  "overflow_beyond_hot_160": 1002,
   "assistant_read_batch_count": 16,
   "assistant_read_batch_size": 10,
   "assistant_read_batch_schema": "GPT_WEB_READ_BATCH_MANIFEST_V3_PROVENANCE_REFRESH",
   "provenance_overrides_applied_in_window": 0,
   "recovery_metrics": {},
   "index_recovery": {
-    "shard_files_scanned_this_refresh": 156,
-    "adjudication_rows_scanned_this_refresh": 1270,
-    "gate_rows_seen_this_refresh": 390,
+    "shard_files_scanned_this_refresh": 155,
+    "adjudication_rows_scanned_this_refresh": 1259,
+    "gate_rows_seen_this_refresh": 387,
     "authenticity_rows_seen_this_refresh": 62,
     "source_runs_seen_this_refresh": [
+      43755453220,
       43726247288,
       43689130296,
       43659808852,
@@ -168,8 +169,7 @@
       43587519255,
       43552757892,
       43530314383,
-      43484901736,
-      43417383569
+      43484901736
     ]
   },
   "healthy": true,
