@@ -110,13 +110,11 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## media_monitoring
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
-- **CA:PRCP0003653** · CA · p=38 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Media monitoring and newsletter production services
 - **FI-HILMA:60721** · FI · p=38 · deadline=2026-11-23T10:00:00+00:00 · blockers=none · Media Monitoring Services and Social Media Publishing & Analytics Services
 
 ## print_broker
 - **TED:745397-2026** · FRA · p=78 · deadline=2026-12-01T15:00:00+00:00 · blockers=none · France – Electronic message and information services – 2026-032 - Prestation E-Mailing et hébergement des diffusions presse
 - **TED:744409-2026** · FRA · p=74 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Digital printing services – TRAITEMENT DES INFORMATIONS, MISE EN PAGE, IMPRESSION, CONDITIONNEMENT ET ACHEMINEMENT DES DOCUMENTS DES PUBLICITES DE COLLECTES (AFFICHES ET FLYERS) DES ETABLISSEMENTS DE METROPOLE DE L’EFS
-- **TED:721529-2026** · FRA · p=70 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · France – Printing and delivery services – Accord-cadre multi-attributaires à bons de commande relatif à des prestations de service d'impression des supports de communication et de signalétique pour les besoins de Val d'Oise Habitat Lot 1 - Imprimés classiques Lot 2 - Grand format &amp;amp; signalétique Lot 3 - Cartographie &amp;amp; supports spécifiques
 - **TED:750730-2026** · FRA · p=70 · deadline=2026-11-22T22:00:00+00:00 · blockers=none · France – Printing and delivery services – Le présent Marché a pour objet des prestations d'impression, façonnage et livraison d'affiches, de flyers, de brochures, de magazines, de calicots, de roll-ups et de X-banners, ainsi que des travaux d'impression pour la communication de la Ville (6 lots)
 - **TED:778854-2026** · FRA · p=70 · deadline=2026-11-22T22:00:00+00:00 · blockers=none · France – Printing and delivery services – Le présent Marché a pour objet des prestations d'impression, façonnage et livraison d'affiches, de flyers, de brochures, de magazines, de calicots, de roll-ups et de X-banners, ainsi que des travaux d'impression pour la communication de la Ville (6 lots)
 - **TED:723828-2026** · FRA · p=70 · deadline=2026-11-23T02:00:00+00:00 · blockers=none · France – Printing and related services – Accord cadre relatif à la réalisation de travaux d'impression
@@ -128,12 +126,13 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:739310-2026** · FRA · p=66 · deadline=2026-11-24T01:00:00+00:00 · blockers=none · France – Printing services – Réalisation de prestations d'impressions de supports de communication et de livraison pour les besoins d'OPCO Mobilités
 - **TED:762945-2026** · FRA · p=66 · deadline=2026-11-26T14:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre de services de publications et d'impression de 2027 à 2030 (5 lots) Groupement de commande entre le Ville de Menton et le Centre Communal d'Aide Sociale de la Ville de Menton pour l'achat de prestations d'imprimerie
 - **TED:795129-2026** · FRA · p=66 · deadline=2026-12-15T02:00:00+00:00 · blockers=none · France – Printing services – Impression de divers documents pour la commune de Choisy-le-Roi
-- **FR-BOAMP:26-100445** · FR · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Mise sous pli de documents de propagande à destination des électeurs, colisage des bulletins de vote à destination des mairies, pour toute élection.
-- **FR-BOAMP:26-97741** · FR · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Travaux d’impression Offset et de reprographie pour l’agence de l’Eau Loire-Bretagne
-- **FR-BOAMP:26-98651** · FR · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Travaux d’impression Offset et de reprographie pour l’agence de l’Eau Loire-Bretagne
-- **TED:702084-2026** · FRA · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · France – Printing services – Travaux d’impression Offset et de reprographie pour l’agence de l’Eau Loire- Bretagne
-- **TED:710911-2026** · FRA · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · France – Printing services – Travaux d’impression Offset et de reprographie pour l’agence de l’Eau Loire- Bretagne
-- **TED:719522-2026** · FRA · p=64 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · France – Printing services – Externalisation d'impression, de mise sous pli et d'affranchissement
+- **FR-BOAMP:26-97115** · FR · p=64 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · PRESTATIONS D'IMPRESSION POUR LE POLE PROMOTION et COMMUNICATION DU SIBA - ACCORD-CADRE
+- **FR-BOAMP:26-98883** · FR · p=64 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · Prestations d'impression du bulletin municipal et de supports de communication
+- **FR-BOAMP:26-100116** · FR · p=64 · deadline=2026-11-20T10:30:00+00:00 · blockers=none · Prestations d’impression pour le Conservatoire National Supérieur de Musique et de Danse de Paris
+- **FR-BOAMP:26-105197** · FR · p=64 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Travaux d'impression pour les services du Département de la Savoie - Lot 3 : Impression de carnet de santé avec personnalisation et d'imprimés Cerfa pour le pôle social du Départem
+- **FR-BOAMP:26-101160** · FR · p=64 · deadline=2026-11-23T10:00:00+00:00 · blockers=none · Accord cadre relatif à la réalisation de travaux d'impression
+- **FR-BOAMP:26-102826** · FR · p=64 · deadline=2026-11-24T11:00:00+00:00 · blockers=none · Réalisation de prestations d'impressions de supports de communication et de livraison pour les besoins d'OPCO Mobilités
+- **FR-BOAMP:26-106778** · FR · p=64 · deadline=2026-11-24T12:00:00+00:00 · blockers=none · Marché public de services de prestations d'impression, façonnage et livraison du journal municipal pour la ville de Savigny-le-Temple
 
 ## promo_goods
 - **TED:726457-2026** · FRA · p=60 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
@@ -172,7 +171,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:716382-2026** · FRA · p=53 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · France – Benefit services – Marché de service Hospitality pour l'immeuble Silver Island de la SCI le Galion
 - **TED:350690-2026** · DEU · p=46 · deadline=2030-02-19T23:00:59+00:00 · blockers=none · Germany – Advertising and marketing services – Development of Technical Aviation Safety Promotion Content
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
-- **TED:728118-2026** · IRL · p=40 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Ireland – Advertising and marketing services – Provision of Digital Marketing Strategy, Media Planning, Buying, Optimisation and Reporting Services
 - **GR-KHMDHS:26PROC020194768** · GR · p=40 · deadline=2026-11-18T14:00:00+00:00 · blockers=none · Υπηρεσίες δημιουργίας αφισών ηλεκτρονικών banners, διαφημιστικού – τηλεοπτικού σποτ Χριστ εκδηλ Δ. Βόλου
 - **TED:772936-2026** · IRL · p=40 · deadline=2026-11-26T12:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – Provision of Social Media Management Platform
 - **UK_FTS_OCDS:108199-2026** · GB · p=40 · deadline=2026-12-15T12:00:00+00:00 · blockers=none · Glasgow Business Growth Framework - Phase 4
@@ -181,7 +179,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## software_resale
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
-- **TED:710480-2026** · NOR · p=50 · deadline=2026-11-16T11:00:00+00:00 · blockers=none · Norway – Information technology services – Procurement of software licences from Splunk
 - **TED:725595-2026** · POL · p=50 · deadline=2026-11-17T22:59:59+00:00 · blockers=none · Poland – Computer equipment and supplies – Multiple framework contract for the supply of ICT hardware, spare parts, accessories and associated services (SUPEPAAS)
 - **TED:781846-2026** · IRL · p=50 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – HSE 28439 - Restricted Procedure to procure a HSE Enterprise Integration Platform as a Service ( EiPaaS)
 - **TED:724104-2026** · SWE · p=50 · deadline=2026-11-25T23:00:00+00:00 · blockers=none · Sweden – Financial analysis software package – ALM System and Services
@@ -200,6 +197,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:ed3a615be8f04a5aa0d8583beb38677c** · US · p=48 · deadline=2026-11-19T00:00:00+00:00 · blockers=none · F-16 CENTER DISPLAY UNIT LINE REPLACEABLE UNIT (CDU)
 - **US-SAM:7bc9f227e78745ff950928601bc9929a** · US · p=48 · deadline=2026-11-19T22:00:00+00:00 · blockers=none · MicroFocus Software Subscriptions
 - **TED:778984-2026** · FIN · p=48 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · Finland – Software package and information systems – Crypto Asset Tax Calculation Solution
+- **US-SAM:6370d30d6bf54fc3b0668120edb19965** · US · p=48 · deadline=2026-11-21T00:00:00+00:00 · blockers=none · WebEx and Expressway Software Licenses
 
 ## transcription
 - **FR-BOAMP:26-102718** · FR · p=54 · deadline=2026-11-16T12:00:00+00:00 · blockers=none · PRESTATION DE RETRANSCRIPTION INTEGRALE ET DE REDACTION DE COMPTE-RENDUS DES DEBATS TENUS LORS DES INSTANCES PARITAIRES ET DES SEANCES DE CONSEIL MUNICIPAL
