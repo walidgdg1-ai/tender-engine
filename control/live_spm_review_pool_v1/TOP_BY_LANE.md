@@ -89,7 +89,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:776841-2026** · FRA · p=73 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Computer-related services – Hébergement du site internet et applications associées de Lyon Métropole Habitat
 - **TED:768490-2026** · FRA · p=71 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · France – Software development services – Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
-- **FR-BOAMP:26-100646** · FR · p=67 · deadline=2026-11-17T12:00:00+00:00 · blockers=none · Accord-cadre portant sur le conseil, le suivi, la maintenance, l'hébergement et les évolutions du site internet de Paris & Métropole aménagement
 - **FR-BOAMP:26-103645** · FR · p=67 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Hébergement, maintenance et développement Site internet des Célestins, Théâtre de Lyon
 - **FR-BOAMP:26-103141** · FR · p=67 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Réalisation, maintenance et hébergement du site internet du Centre de mémoire et d'histoire d'ORADOUR-SUR-GLANE
 - **TED:773434-2026** · FRA · p=67 · deadline=2026-12-08T11:00:00+00:00 · blockers=none · France – Maintenance of information technology software – Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
@@ -105,6 +104,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 - **TED:665833-2026** · CHE · p=54 · deadline=2027-01-12T01:00:00+00:00 · blockers=none · Switzerland – Data services – (26163) 998 Technikpartner WEB
 - **CH-SIMAP:390cdb30-9e68-4c25-bed9-8384e4a366cc** · CH · p=54 · deadline=2027-01-12T22:59:00+00:00 · blockers=none · (26163) 998 Partenaire technique WEB
+- **TED:767325-2026** · FRA · p=48 · deadline=2026-11-20T14:00:00+00:00 · blockers=none · France – Repair and maintenance services of locomotives – Prestations de maintenance préventive et corrective d'engins moteur de type DE18 (4 lots)
 
 ## media_monitoring
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
@@ -231,7 +231,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:776841-2026** · FRA · p=73 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Computer-related services – Hébergement du site internet et applications associées de Lyon Métropole Habitat
 - **TED:768490-2026** · FRA · p=71 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · France – Software development services – Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
-- **FR-BOAMP:26-100646** · FR · p=67 · deadline=2026-11-17T12:00:00+00:00 · blockers=none · Accord-cadre portant sur le conseil, le suivi, la maintenance, l'hébergement et les évolutions du site internet de Paris & Métropole aménagement
 - **FR-BOAMP:26-103645** · FR · p=67 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Hébergement, maintenance et développement Site internet des Célestins, Théâtre de Lyon
 - **FR-BOAMP:26-103141** · FR · p=67 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Réalisation, maintenance et hébergement du site internet du Centre de mémoire et d'histoire d'ORADOUR-SUR-GLANE
 - **TED:773434-2026** · FRA · p=67 · deadline=2026-12-08T11:00:00+00:00 · blockers=none · France – Maintenance of information technology software – Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
@@ -248,4 +247,5 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-106967** · FR · p=61 · deadline=UNKNOWN · blockers=none · Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **FR-BOAMP:26-107505** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
 - **FR-BOAMP:26-83037** · FR · p=61 · deadline=UNKNOWN · blockers=none · Conception, réalisation, mise en production, maintenance et évolution du futur site internet de la CNCCFP
+- **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 
