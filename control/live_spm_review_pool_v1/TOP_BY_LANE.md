@@ -10,7 +10,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:742950-2026** · FRA · p=58 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Impression et distribution de Haute-Saône Magazine
 - **TED:764550-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Documentation services – Mise en place d'une solution de dématérialisation et de correction en ligne sécurisée des épreuves écrites et orales du Concours Commun Mines-Ponts et des épreuves écrites de la procédure d'admission sur titre GEI-UNIV
 - **TED:790943-2026** · FRA · p=57 · deadline=2026-11-26T01:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-108805** · FR · p=56 · deadline=2026-11-19T12:00:00+00:00 · blockers=none · Solution de gestion, d’impression et d’envoi de courriers multicanal
 - **TED:709025-2026** · FRA · p=56 · deadline=2026-11-20T01:00:00+00:00 · blockers=none · France – Scanning services – 2026_PFRAGE_NUM_67_68
 - **FR-BOAMP:26-100366** · FR · p=56 · deadline=2026-11-20T11:00:00+00:00 · blockers=none · Fourniture de papier d'impression et de fournitures de bureau
 - **FR-BOAMP:26-99038** · FR · p=56 · deadline=2026-11-20T11:00:00+00:00 · blockers=none · Prestations de numérisation au profit des services de l’État et de certains des établissements publics en département 67 (Bas-Rhin) et 68 (Haut-Rhin).
@@ -23,6 +22,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-104147** · FR · p=56 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS DE COMMUNICATION
 - **FR-BOAMP:26-106495** · FR · p=56 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · Impression et livraison de supports d'information municipale pour la commune de Castelsarrasin
 - **FR-BOAMP:26-105959** · FR · p=56 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Fabrication, l'impression et la pose/dépose d'adhésifs événementiels du parc tramways et bus et des agences commerciales de M TAG
+- **FR-BOAMP:26-105885** · FR · p=56 · deadline=2026-12-03T14:00:00+00:00 · blockers=none · Accord-cadre de services de publications et d'impression de 2027 à 2030 (5 lots) Groupement de commande entre le Ville de Menton et le Centre Communal d'Aide Sociale de la Ville de Menton pour l'ac...
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -59,7 +59,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:722529-2026** · FRA · p=68 · deadline=2026-11-20T02:00:00+00:00 · blockers=none · France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 - **TED:778274-2026** · FRA · p=68 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Printing and delivery services – Accord cadre relatif à l'externalisation de la mise en page, de l'édition, de l'envoi et de la dématérialisation des avis d'échéance, des avis de régularisation et des relances assurances pour Partenord Le Groupe et Partenium - 2027-2030 suite à déclaration d'infructuosité
 - **TED:804965-2026** · FRA · p=66 · deadline=2026-12-21T02:00:00+00:00 · blockers=none · France – Graphic design services – Studio & indépendant direction artistique, graphisme, illustration & design volume (objet & merchandising)
-- **FR-BOAMP:26-103561** · FR · p=64 · deadline=2026-11-19T12:00:00+00:00 · blockers=none · Création, Mise en page, exécution et impression du Bouscat Mag
 - **FR-BOAMP:26-100189** · FR · p=64 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 - **TED:804212-2026** · FRA · p=64 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 - **FR-BOAMP:26-111744** · FR · p=64 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
@@ -74,6 +73,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FI-HILMA:60605** · FI · p=54 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · Marketing Communications and Advertising Agency Services
 - **FI-HILMA:61398** · FI · p=54 · deadline=2026-11-20T10:00:00+00:00 · blockers=none · Marketing Communications and Advertising Agency Services
 - **TED:665833-2026** · CHE · p=54 · deadline=2027-01-12T01:00:00+00:00 · blockers=none · Switzerland – Data services – (26163) 998 Technikpartner WEB
+- **CH-SIMAP:390cdb30-9e68-4c25-bed9-8384e4a366cc** · CH · p=54 · deadline=2027-01-12T22:59:00+00:00 · blockers=none · (26163) 998 Partenaire technique WEB
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -143,7 +143,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:783997-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Information and promotion products – Fourniture et marquage d'objets promotionnels pour la Région Provence-Alpes-Côte d'Azur - relance des lots 2 et 3 de l'AAPC 2026-0988
 - **TED:794697-2026** · ITA · p=58 · deadline=2026-12-14T11:00:00+00:00 · blockers=none · Italy – Public relations services – TECHNICAL SPECIFICATIONS AND SELECTION PROCEDURE FOR THE IMPLEMENTING BODY FOR THE MULTIPLE PROGRAMME FOR THE INFORMATION AND PROMOTION OF AGRICULTURAL PRODUCTS IN THIRD-COUNTRY MARKETS: BRAZIL – COLOMBIA – MEXICO
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
-- **FR-BOAMP:26-106130** · FR · p=54 · deadline=2026-11-19T12:00:00+00:00 · blockers=none · Fourniture d'objets publicitaires – 2 Lots
 - **FR-BOAMP:26-103951** · FR · p=54 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Acquisition, marquage et livraison d'objets publicitaires pour la ville de Bussy-Saint-Georges
 - **FR-BOAMP:26-101868** · FR · p=54 · deadline=2026-11-23T15:00:00+00:00 · blockers=none · FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
 - **FR-BOAMP:26-111015** · FR · p=54 · deadline=2026-11-26T15:00:00+00:00 · blockers=none · FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
