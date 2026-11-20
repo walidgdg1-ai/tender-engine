@@ -91,7 +91,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:808178-2026** · FRA · p=73 · deadline=2026-12-18T11:00:00+00:00 · blockers=none · France – World wide web (www) site design services – MARCHE DE REFONTE ET MAINTENANCE DU SITE INTERNET ACCORARENA.COM
 - **TED:768490-2026** · FRA · p=71 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · France – Software development services – Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
-- **FR-BOAMP:26-103645** · FR · p=67 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Hébergement, maintenance et développement Site internet des Célestins, Théâtre de Lyon
 - **FR-BOAMP:26-103141** · FR · p=67 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Réalisation, maintenance et hébergement du site internet du Centre de mémoire et d'histoire d'ORADOUR-SUR-GLANE
 - **TED:773434-2026** · FRA · p=67 · deadline=2026-12-08T11:00:00+00:00 · blockers=none · France – Maintenance of information technology software – Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
 - **FR-BOAMP:26-102613** · FR · p=67 · deadline=2026-12-11T12:00:00+00:00 · blockers=none · Refonte, développement, maintenance et prestations associées pour le site internet du Chu de Bordeaux Le présent marché est un accord-cadre composite qui se décompose co
@@ -106,6 +105,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-83037** · FR · p=61 · deadline=UNKNOWN · blockers=none · Conception, réalisation, mise en production, maintenance et évolution du futur site internet de la CNCCFP
 - **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 - **TED:665833-2026** · CHE · p=54 · deadline=2027-01-12T01:00:00+00:00 · blockers=none · Switzerland – Data services – (26163) 998 Technikpartner WEB
+- **CH-SIMAP:390cdb30-9e68-4c25-bed9-8384e4a366cc** · CH · p=54 · deadline=2027-01-12T22:59:00+00:00 · blockers=none · (26163) 998 Partenaire technique WEB
 
 ## media_monitoring
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
@@ -131,9 +131,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:762945-2026** · FRA · p=66 · deadline=2026-11-26T14:00:00+00:00 · blockers=none · France – Printing services – Accord-cadre de services de publications et d'impression de 2027 à 2030 (5 lots) Groupement de commande entre le Ville de Menton et le Centre Communal d'Aide Sociale de la Ville de Menton pour l'achat de prestations d'imprimerie
 - **TED:795129-2026** · FRA · p=66 · deadline=2026-12-15T02:00:00+00:00 · blockers=none · France – Printing services – Impression de divers documents pour la commune de Choisy-le-Roi
 - **TED:804311-2026** · FRA · p=66 · deadline=2027-01-11T01:00:00+00:00 · blockers=none · France – Printing services – IMPRESSION DES SUPPORTS DE COMMUNICATION POUR LES BESOINS DE LA CAPL ET DE SA REGIE PALM BUS
-- **FR-BOAMP:26-105197** · FR · p=64 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Travaux d'impression pour les services du Département de la Savoie - Lot 3 : Impression de carnet de santé avec personnalisation et d'imprimés Cerfa pour le pôle social du Départem
 - **FR-BOAMP:26-101160** · FR · p=64 · deadline=2026-11-23T10:00:00+00:00 · blockers=none · Accord cadre relatif à la réalisation de travaux d'impression
 - **FR-BOAMP:26-102826** · FR · p=64 · deadline=2026-11-24T11:00:00+00:00 · blockers=none · Réalisation de prestations d'impressions de supports de communication et de livraison pour les besoins d'OPCO Mobilités
+- **FR-BOAMP:26-106778** · FR · p=64 · deadline=2026-11-24T12:00:00+00:00 · blockers=none · Marché public de services de prestations d'impression, façonnage et livraison du journal municipal pour la ville de Savigny-le-Temple
 
 ## promo_goods
 - **TED:726457-2026** · FRA · p=60 · deadline=2026-11-23T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
@@ -144,7 +144,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:794697-2026** · ITA · p=58 · deadline=2026-12-14T11:00:00+00:00 · blockers=none · Italy – Public relations services – TECHNICAL SPECIFICATIONS AND SELECTION PROCEDURE FOR THE IMPLEMENTING BODY FOR THE MULTIPLE PROGRAMME FOR THE INFORMATION AND PROMOTION OF AGRICULTURAL PRODUCTS IN THIRD-COUNTRY MARKETS: BRAZIL – COLOMBIA – MEXICO
 - **TED:808364-2026** · ITA · p=58 · deadline=2026-12-14T11:00:00+00:00 · blockers=none · Italy – Public relations services – TECHNICAL SPECIFICATIONS AND SELECTION PROCEDURE FOR THE BODY RESPONSIBLE FOR IMPLEMENTING THE SIMPLE PROGRAMME FOR THE INFORMATION AND PROMOTION OF AGRICULTURAL PRODUCTS IN THIRD-COUNTRY MARKETS: USA – CANADA
 - **TED:426994-2026** · FRA · p=56 · deadline=2026-12-31T01:00:00+00:00 · blockers=none · France – Information and promotion products – FOURNITURE DE GOODIES
-- **FR-BOAMP:26-103951** · FR · p=54 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Acquisition, marquage et livraison d'objets publicitaires pour la ville de Bussy-Saint-Georges
 - **FR-BOAMP:26-101868** · FR · p=54 · deadline=2026-11-23T15:00:00+00:00 · blockers=none · FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
 - **FR-BOAMP:26-111015** · FR · p=54 · deadline=2026-11-26T15:00:00+00:00 · blockers=none · FOURNITURE D'ARTICLES PROMOTIONNELS POUR LES BESOINS DU CONSEIL DEPARTEMENTAL DU GARD
 
@@ -181,7 +180,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## software_resale
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
-- **TED:781846-2026** · IRL · p=50 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – HSE 28439 - Restricted Procedure to procure a HSE Enterprise Integration Platform as a Service ( EiPaaS)
 - **TED:805578-2026** · POL · p=50 · deadline=2026-11-24T22:59:59+00:00 · blockers=none · Poland – Computer equipment and supplies – Multiple framework contract for the supply of ICT hardware, spare parts, accessories and associated services (SUPEPAAS)
 - **TED:725595-2026** · POL · p=50 · deadline=2026-11-25T01:00:00+00:00 · blockers=none · Poland – Computer equipment and supplies – Multiple framework contract for the supply of ICT hardware, spare parts, accessories and associated services (SUPEPAAS)
 - **TED:724104-2026** · SWE · p=50 · deadline=2026-11-25T23:00:00+00:00 · blockers=none · Sweden – Financial analysis software package – ALM System and Services
@@ -200,6 +198,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:835bc55d51914c5d9dff6cedabdba2c1** · US · p=48 · deadline=2026-11-23T22:00:00+00:00 · blockers=none · Radio Detection Kit with Accessories - No Alternatives
 - **US-SAM:f1f18bee9d474db0918820b8baf8303d** · US · p=48 · deadline=2026-11-23T22:00:00+00:00 · blockers=none · Radio Detection Kit with Accessories - No Alternatives
 - **TED:750821-2026** · NLD · p=48 · deadline=2026-11-24T11:00:00+00:00 · blockers=none · Netherlands – Air traffic control software package – UTM Drone Flight Planning Tool
+- **US-SAM:355f236ce5374e48a1732e29c4fa0f32** · US · p=48 · deadline=2026-11-24T19:00:00+00:00 · blockers=none · MIM SOFTWARE SOFTWARE LICENSES AND MAINTENANCE
 
 ## transcription
 - **FR-BOAMP:26-106148** · FR · p=54 · deadline=2026-12-01T12:00:00+00:00 · blockers=none · Retranscription de réunions débats et discours de la Région Grand Est
@@ -232,7 +231,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:808178-2026** · FRA · p=73 · deadline=2026-12-18T11:00:00+00:00 · blockers=none · France – World wide web (www) site design services – MARCHE DE REFONTE ET MAINTENANCE DU SITE INTERNET ACCORARENA.COM
 - **TED:768490-2026** · FRA · p=71 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · France – Software development services – Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **TED:753953-2026** · FRA · p=69 · deadline=2027-01-10T10:00:00+00:00 · blockers=none · France – World wide web (www) site design services – Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory.
-- **FR-BOAMP:26-103645** · FR · p=67 · deadline=2026-11-20T12:00:00+00:00 · blockers=none · Hébergement, maintenance et développement Site internet des Célestins, Théâtre de Lyon
 - **FR-BOAMP:26-103141** · FR · p=67 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Réalisation, maintenance et hébergement du site internet du Centre de mémoire et d'histoire d'ORADOUR-SUR-GLANE
 - **TED:773434-2026** · FRA · p=67 · deadline=2026-12-08T11:00:00+00:00 · blockers=none · France – Maintenance of information technology software – Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
 - **FR-BOAMP:26-102613** · FR · p=67 · deadline=2026-12-11T12:00:00+00:00 · blockers=none · Refonte, développement, maintenance et prestations associées pour le site internet du Chu de Bordeaux Le présent marché est un accord-cadre composite qui se décompose co
@@ -248,4 +246,5 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:807367-2026** · DEU · p=63 · deadline=2026-12-10T22:59:59+00:00 · blockers=none · Germany – World wide web (www) site design services – Weiterentwicklung und Betrieb der Website sowie des Cybersicherheitsportals der CSBW
 - **DE-DOE:25885758:1** · DE · p=61 · deadline=UNKNOWN · blockers=none · Rahmenvertrag Pflege Webseiten
 - **FR-BOAMP:26-106967** · FR · p=61 · deadline=UNKNOWN · blockers=none · Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
+- **FR-BOAMP:26-107505** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
 
