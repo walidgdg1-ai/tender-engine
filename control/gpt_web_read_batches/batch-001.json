@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-11-21T02:31:02.795088+00:00",
-  "source_inbox_updated_at": "2026-11-21T02:31:01.519788+00:00",
-  "latest_source_dce_run_id": 44855126821,
+  "generated_at": "2026-11-21T10:03:05.762363+00:00",
+  "source_inbox_updated_at": "2026-11-21T10:03:04.239816+00:00",
+  "latest_source_dce_run_id": 44891934285,
   "batch_index": 1,
   "start_rank": 11,
   "end_rank": 20,
@@ -74,26 +74,303 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 44855126821,
+      "source_dce_run_id": 44891934285,
       "source_shard": 10,
-      "review_key": "6bc5543871afd0f8d1abd0360264172a4814941345c57665120aee5a5f58cdb1",
+      "review_key": "e783367ed292c568ef6e87137a30fb81fc2e1fd779464c5374ee74c6f9b20eff",
       "artifact_locator": {
-        "dce_run_id": 44855126821,
+        "dce_run_id": 44891934285,
         "shard": 10,
         "candidate_id": "TED:755673-2026",
-        "release_tag": "dce-harvest-44855126821"
+        "release_tag": "dce-harvest-44891934285"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 20,
+        "text_chars": 725396,
+        "attributed_compact_snippets": 25,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "talAddress> 0 005eb9ed-1347-4ca3-bb29-9bc0db64e1ab CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Participation in a criminal organisation Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion peri…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "EU-COM-GROW\" schemeVersionID=\"1.0\">c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4 Issuer c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in …",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "PTION\"> 5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Direct…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On p…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": ":Name> Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on t…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cription> DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Directive 2014/24/EU EU_DIRECTIVE 57(1) http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024 7c637c0c-7703-4389-ba52-02997a055bd7 974c8196-9d1c-419c-9ca9-45bb9f5fd59a Your answer? f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "0\">15778db8-0d84-42ba-931b-774c1b3d3f9f Please specify bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 2014/…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "riaID\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 20…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC <ccv-cbc:JurisdictionLevelCode listID=\"Crite…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC EU_DIRECTIVE…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcon…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "AgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then p…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "o que necessariamente só ocorrerá após terminado o prazo de apresentação de propostas, salvo se os documentos que constituem a proposta forem classificados como confidenciais por parte do interessado. CLÁUSULA 16.ª - CONDIÇÕES DE PAGAMENTO 1. O pagamento das faturas processar-se-á nas condições legais e regulamentares que disciplinam o processamento, liquidação e pagamento de despesas pelo contraente público. 2. Os acertos do número de páginas efetivamente produzidas pelos equipamentos serão efetuados semestralmen…",
+            "source": "files/Caderno de Encargos_CP 45-2026.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=NUJDNTFCNTI1RjhEM0FBNjhGRjc5OTc2NDE3QjZENkE0NkRFOTkyMzFDNzY0NDMxMjYxQjFBMDc0MDM3NDc1RSNDYWRlcm5vIGRlIEVuY2FyZ29zX0NQIDQ1LTIwMjYucGRmI3siQnV5ZXJQUEkiOiJQVDEuUFBJLjE0MTc5NDA5OSIsIkNvbXBhbnlDb2RlIjoiVk9SVEFMIn0=",
+            "source_sha256": "6dc6bb4614d76006ce3ea5ae87550a8052b962ba073065355501c408c9fbabe6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "á após terminado o prazo de apresentação de propostas, salvo se os documentos que constituem a proposta forem classificados como confidenciais por parte do interessado. CLÁUSULA 16.ª - CONDIÇÕES DE PAGAMENTO 1. O pagamento das faturas processar-se-á nas condições legais e regulamentares que disciplinam o processamento, liquidação e pagamento de despesas pelo contraente público. 2. Os acertos do número de páginas efetivamente produzidas pelos equipamentos serão efetuados semestralmente após apresentação de relatóri…",
+            "source": "files/Caderno de Encargos_CP 45-2026.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=NUJDNTFCNTI1RjhEM0FBNjhGRjc5OTc2NDE3QjZENkE0NkRFOTkyMzFDNzY0NDMxMjYxQjFBMDc0MDM3NDc1RSNDYWRlcm5vIGRlIEVuY2FyZ29zX0NQIDQ1LTIwMjYucGRmI3siQnV5ZXJQUEkiOiJQVDEuUFBJLjE0MTc5NDA5OSIsIkNvbXBhbnlDb2RlIjoiVk9SVEFMIn0=",
+            "source_sha256": "6dc6bb4614d76006ce3ea5ae87550a8052b962ba073065355501c408c9fbabe6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "vantajosas. SERVIÇO DE LOGÍSTICA HOSPITALAR – CONCURSO PÚBLICO N.º 45/2026 – CADERNO DE ENCARGOS Unidade Local de Saúde da Cova da Beira, EPE Sede: Quinta do Alvito, 6200-251 Covilhã, PORTUGAL | Telf + 351 275 33 00 00 Fax + 351 275 33 00 01 E-Mail info@ulscbeira.min-saude.pt www.chcbeira.pt IMP.ULSCBEIRA.06 Ed.3 Rev.2 2/12 CLÁUSULA 4.ª - PRINCIPAIS OBRIGAÇÕES Sem prejuízo de outras obrigações previstas na legislação aplicável, no presente Caderno de Encargos, nomeadamente nas cláusulas técnicas, ou nas cláusulas …",
+            "source": "files/Caderno de Encargos_CP 45-2026.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=NUJDNTFCNTI1RjhEM0FBNjhGRjc5OTc2NDE3QjZENkE0NkRFOTkyMzFDNzY0NDMxMjYxQjFBMDc0MDM3NDc1RSNDYWRlcm5vIGRlIEVuY2FyZ29zX0NQIDQ1LTIwMjYucGRmI3siQnV5ZXJQUEkiOiJQVDEuUFBJLjE0MTc5NDA5OSIsIkNvbXBhbnlDb2RlIjoiVk9SVEFMIn0=",
+            "source_sha256": "6dc6bb4614d76006ce3ea5ae87550a8052b962ba073065355501c408c9fbabe6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Ed.3 Rev.2 5/12 software de gestão, digitalização (quando aplicável), estando todos os serviços operacionais e funcionais. 4. Para cada um dos locais, o serviço considera-se aceite e ativo quando o teste referido nos parágrafos anteriores tenha sido realizado com êxito, e o respetivo relatório técnico tenha sido analisado e aprovado pelo contraente público no prazo máximo de 15 (quinze) dias. CLÁUSULA 11.ª - NÍVEIS DE SERVIÇO 1. O contrato a celebrar deverá incluir um acordo de níveis de serviço “Service Level Agr…",
+            "source": "files/Caderno de Encargos_CP 45-2026.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=NUJDNTFCNTI1RjhEM0FBNjhGRjc5OTc2NDE3QjZENkE0NkRFOTkyMzFDNzY0NDMxMjYxQjFBMDc0MDM3NDc1RSNDYWRlcm5vIGRlIEVuY2FyZ29zX0NQIDQ1LTIwMjYucGRmI3siQnV5ZXJQUEkiOiJQVDEuUFBJLjE0MTc5NDA5OSIsIkNvbXBhbnlDb2RlIjoiVk9SVEFMIn0=",
+            "source_sha256": "6dc6bb4614d76006ce3ea5ae87550a8052b962ba073065355501c408c9fbabe6",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_2_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCom…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "da na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCo…",
+            "source": "files/espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "cbc:ID schemeID=\"CriterionRelatedIDs\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 3aaca389-4a7b-406b-a4b9-080845d127e7 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL Technicians or technical bodies for quality control It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's unde…",
+            "source": "files/espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "c2e0fd87acac36181f0b42c4d57b11296708207d6b4d6dd3b8524af1ee1c93dc",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "nitário excedente de cópia/ impressão a preto e branco Fator C - Preço unitário excedente de cópia/ impressão a cores Quad Core Fator G - Tipologia de Unidades de Armazenamento original de Fábrica (sem opcionais ou qualquer outra alteração) para as Tipologias C, D, E, F e G SSD Fator F - Número de Núcleos do Processador original de Fábrica (sem opcionais ou qualquer outra alteração) para os Tipos C, D, E, F e G Dual Core HDD Fatores Fator A - Valor Global da Proposta Fator C - Preço unitário excedente de cópia/ im…",
+            "source": "files/Programa_CP 45-2026_2.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=OTY5RTk4RTlCMzdCMzA1RUM5MDZFOUI2MUNDREJEMzZDMDg1NkZGOTM1QkUyMkJGOUE4N0NDRTM4NkUyMTc4QiNQcm9ncmFtYV9DUCA0NS0yMDI2LnBkZiN7IkJ1eWVyUFBJIjoiUFQxLlBQSS4xNDE3OTQwOTkiLCJDb21wYW55Q29kZSI6IlZPUlRBTCJ9",
+            "source_sha256": "9faaea0546869c455f39f931276433b5003b90ebd6f7ae27c92ef15ea090b487",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Tipologia de Unidades de Armazenamento original de Fábrica (sem opcionais ou qualquer outra alteração) para as Tipologias C, D, E, F e G SSD Fator F - Número de Núcleos do Processador original de Fábrica (sem opcionais ou qualquer outra alteração) para os Tipos C, D, E, F e G Dual Core HDD Fatores Fator A - Valor Global da Proposta Fator C - Preço unitário excedente de cópia/ impressão a cores Fator B - Preço unitário excedente de cópia/ impressão a preto e branco ===== FILE: files/espd-request_2_unpacked/README.t…",
+            "source": "files/espd-request_2_unpacked/README.txt",
+            "source_url": null,
+            "source_sha256": "98bea34542876253e4a55c414f577a46a64a38744f4948c47f27a5b448020c55",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "cac:AdditionalDocumentReference> <cac:AdditionalDocumentReference> <cbc:ID schemeAgencyID=\"EU-COM-GROW\" schemeAgencyName=\"DG GROW (European Commission)\" schemeVersionID=\"1.1\"> 26282/2026</cbc:ID> <cbc:DocumentTypeCode listID=\"ReferencesTypeCodes\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"1.0\">NGOJ</cbc:DocumentTypeCode> </cac:AdditionalDocumentReference> </espd-req:ESPDRequest> ===== FILE: files/portal_page.txt ===== I want to join! Request search EN Public Area>Contract Notice Contract Notice - Public tender Titl…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "054331f38ee7c99935548dab9bc7e38b431ef24daeef25d6ea3ed46b65fc2c91",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "pressão e digitalização Procedure Type VortalGOV - Open Tender CPV Classification CPV Main Vocabulary 79810000-5 - Printing services (CPV) Object Of The Contract Type of Contract Acquisition of Services Main site or location of works, place of delivery or of performance Quinta do Alvito 6200-251 Covilhã Castelo Branco PORTUGAL Base Price 415,000.00 EUR Estimated Value 415,000.00 EUR Scheduling Start Request Online Publishing Date 30/10/2026 10:29 Due date for receiving replies 27/11/2026 23:59 End Financial Settin…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "054331f38ee7c99935548dab9bc7e38b431ef24daeef25d6ea3ed46b65fc2c91",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "forme as políticas da organização. 7.6 | A administração do módulo deve ser efetuada através da interface web central do Dispatcher Paragon, acessível apenas a utilizadores com permissões de gestão financeira 7.7 | O sistema deve registar as operações de crédito e débito associadas a cada utilizador, permitindo a consulta do saldo atual e o acompanhamento das utilizações associadas aos serviços de impressão e cópia, através dos relatórios e logs disponibilizados pelo Dispatcher Paragon. 7.8 | Toda a comunicação e …",
+            "source": "files/Anexo II - Requisitos de Software.xlsx",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=NEI5QTU1QzQ2MjU3MUYzRkQ1RTk1NEM5QzEzMERFNDg1RDMwNDZGRkQyRDgxODA0RDM0NUFFRTc2MUIwRTkwMyNBbmV4byBJSSAtIFJlcXVpc2l0b3MgZGUgU29mdHdhcmUueGxzeCN7IkJ1eWVyUFBJIjoiUFQxLlBQSS4xNDE3OTQwOTkiLCJDb21wYW55Q29kZSI6IlZPUlRBTCJ9",
+            "source_sha256": "651c7871352580e1b912b4e0d9f41ca8ab08eb3f6a2dcd23707bfdd98a801c5c",
+            "source_kind": "xlsx",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ftware.xlsx - Anexo II - Requisitos de Software.xlsx See Details Anexo I - Requisitos Mínimos dos Equipamentos V2.xlsx Anexo I - Requisitos Mínimos dos Equipamentos V2.xlsx - Anexo I - Requisitos Mínimos dos Equipamentos V2.xlsx See Details Anexo III ao Programa - Critério de Adjudicação.xlsx Anexo III ao Programa - Critério de Adjudicação.xlsx - Anexo III ao Programa - Critério de Adjudicação.xlsx See Details espd-request.zip espd-request.zip - espd-request.zip See Details 6 - PUBLIC MESSAGES Origin Reference Sub…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "054331f38ee7c99935548dab9bc7e38b431ef24daeef25d6ea3ed46b65fc2c91",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -120,25 +397,312 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 44855126821,
+      "authoritative_submission_date": "2019-03-22",
+      "source_dce_run_id": 44891934285,
       "source_shard": 15,
-      "review_key": "60e0561afc93e00c71b6f333c7248db126d82f04a368371b74f66f32a54dd0b2",
+      "review_key": "6746f93561a9f1d1f6ef8431d743ae3e9470a461103ff2f2dddfbe4d9b11608d",
       "artifact_locator": {
-        "dce_run_id": 44855126821,
+        "dce_run_id": 44891934285,
         "shard": 15,
         "candidate_id": "TED:781913-2026",
-        "release_tag": "dce-harvest-44855126821"
+        "release_tag": "dce-harvest-44891934285"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 8,
+        "text_chars": 149809,
+        "attributed_compact_snippets": 26,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "DIQUES DE L’ACCORD-CADRE 3 3.1 : REGLEMENTATION 3 3.2 : CONDITIONS JURIDIQUES DE L’ACCORD-CADRE 3 ARTICLE 4 : Pièces CONSTITUTIVES DE L’ACCORD-CADRE 4 ARTICLE 5 : DATE D’EFFET - DUREE DE L’ACCORD-CADRE 5 ARTICLE 6 : MODALITES D’EXECUTION DU MARCHE 5 ARTICLE 7 : SOUS-TRAITANCE 6 ARTICLE 8 : OBLIGATIONS GENERALES - SECRET PROFESSIONNEL 7 8.1 : OBLIGATIONS GENERALES 7 8.2 : SECRET PROFESSIONNEL – OBLIGATIONS DE CONFIDENTIALITE 7 8.3 : CONTINUITE DE SERVICE 8 8.4 : PROPRIETE DES RESULTATS DE REPORTING 8 ARTICLE 9 : PE…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "mande publique. Le présent accord cadre est passé en application de l’article L124-4 du Code de la Sécurité sociale, de l’arrêté du 19 juillet 2018 relatif aux marchés des organismes de sécurité sociale et des dispositions du Code de la Commande publique. L’accord-cadre est régi par référence aux Cahiers des Clauses Administratives Générales et Techniques applicables aux Marchés Publics de Fournitures Courantes et de Services (C.C.A.G.F.C.S.) (Arrêté du 30 mars 2021 paru au Journal Officiel du 1er avril 2021). 3.2…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "apporter la preuve du respect de ses obligations, conformément au décret n°2018-347 du 9 mai 2018 relatif à la lettre recommandée électronique. ARTICLE 3 : Réglementation – CONDITIONS JURIDIQUES DE L’ACCORD-CADRE 3.1 : REGLEMENTATION La consultation est engagée sous la forme d’un appel d’offres ouvert, selon les dispositions des articles L2124-2 du code de la Commande publique. Le présent accord cadre est passé en application de l’article L124-4 du Code de la Sécurité sociale, de l’arrêté du 19 juillet 2018 relati…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "marché pourrait être résilié dans les conditions visées à l’article 12 du Cahier des Clauses Administratives Particulières (C.C.A.P). ARTICLE 6 : MODALITES D’EXECUTION DU MARCHE 6.1 : MODE DE PASSATION DES COMMANDES L’émission des bons de commande s’effectuera après notification de l’accord-cadre, au fur et à mesure des besoins, par chacun des membres du groupement pour ses besoins propres : par le service Achats de la Caf de la Seine-Saint-Denis. Ces bons de commandes comporteront en outre les mentions générales …",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "re est reconductible : (cocher la case correspondante) C – SOUS TRAITANCE Les dispositions relatives à la sous-traitance sont régies par les articles L2193-1 et suivants et R2193-1 et suivants du Code de la Commande Publique. Le Titulaire peut sous-traiter l’exécution de certaines parties des prestations objet de l’accord-cadre, à condition d’avoir obtenu du Pouvoir adjudicateur l’acceptation de chaque sous-traitant et l’agrément des conditions de paiement de chaque contrat de sous-traitance. En cas de recours à l…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "de groupement. Les membres du groupement d’opérateurs économiques désignent le mandataire suivant (art. R2142-24 du décret n° 2018-1075 du 03 décembre 2018) [Indiquer le nom commercial et la dénomination sociale du mandataire] : ………………………………………………………………………… ………………………………………………………………………. ……………………………………………………………………. En cas de groupement conjoint, le mandataire du groupement est : (Cocher la case correspondante) (Cocher la ou les cases correspondantes) (Cocher la case correspondante) Le signataire doit avoir le pouvoi…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "t doit décrire les moyens mis en place pour garantir ce délai maximum d’indisponibilité et les solutions de contournement qu’il peut mettre en place. ……………..………………………………………….. ……………………………………………………………………. ……………………………………………………………………… | Disponibilité de la solution : La solution ne doit pas être indisponible pendant une durée supérieure à 24h (5.3 du CCTP). Le candidat doit décrire les moyens mis en place pour garantir ce délai maximum d’indisponibilité et les solutions de contournement qu’il peut mettre en place. ………",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/ANNEXE 2  A L'AE def.docx",
+            "source_url": null,
+            "source_sha256": "7c1d4a18fe799b5375eef13de2b74d7afb7c717357d6b30b8d4ebc16539cfec2",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "conditions de l’accord-cadre à bons de commandes que l’organisme contractant entend passer pour une prestation d'envoi de courriers en recommandé avec suivi de l'accusé de réception de façon dématérialisée destinée aux différents services de la Caf de la Seine-Saint-Denis (93). L’affranchissement en recommandé fait partie intégrante du marché. Le marché passé implique une obligation de résultat. ARTICLE 2 : CONTEXTE Cette prestation vise à faciliter les envois de courriers en recommandé, activité manuelle chronoph…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCTP AOO 10 2026 Envoi LRAR Démat.docx",
+            "source_url": null,
+            "source_sha256": "5767260296c12d1141b0ec1ecfe6d0d82d38c60ba9b1ffd0fb37f91ba490574d",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "6 ARTICLE 8 : OBLIGATIONS GENERALES - SECRET PROFESSIONNEL 7 8.1 : OBLIGATIONS GENERALES 7 8.2 : SECRET PROFESSIONNEL – OBLIGATIONS DE CONFIDENTIALITE 7 8.3 : CONTINUITE DE SERVICE 8 8.4 : PROPRIETE DES RESULTATS DE REPORTING 8 ARTICLE 9 : PENALITES 8 ARTICLE 10 : VERIFICATION ET ADMISSION 8 10.1 : DISPOSITIF DE VERIFICATION 8 10.2 : AUDIT DES PRESTATIONS 9 ARTICLE 11 : SANCTIONS - RESILIATION 9 ARTICLE 12 : CONDITIONS FINANCIERES 9 12.1 : CONTENU DES PRIX 9 12.2 : REVISION DES PRIX 9 ARTICLE 13 : LIQUIDATION DES …",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "intervient au moment du dépôt de l’offre ou de la proposition, le candidat fournit une déclaration mentionnant : La nature des prestations sous-traitées, Le nom, la raison ou la dénomination sociale et l'adresse du sous-traitant proposé, Le montant maximum des sommes à verser par paiement direct au sous-traitant, Les conditions de paiement prévues par le projet de contrat de sous-traitance et, le cas échéant, les modalités de variation des prix, Les capacités techniques, professionnelles et financières du sous-tra…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "° (Cadre réservé à l’Organisme contractant) Date d’établissement : 28/10/2026 A – OBJET DE L’ACTE D’ENGAGEMENT Objet de l’accord-cadre Le présent accord-cadre a pour objet l'envoi de courriers en recommandé avec suivi de l'accusé de réception de façon dématérialisée, destiné à la Caf de la Seine-Saint-Denis. Le Titulaire de l’accord-cadre est soumis à une obligation de résultat. Il s’agit d’un accord-cadre exécuté au moyen de bons de commande, sans minimum et avec un maximum de 250 000 € HT en application des arti…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e l’accord-cadre Le présent accord-cadre a pour objet l'envoi de courriers en recommandé avec suivi de l'accusé de réception de façon dématérialisée, destiné à la Caf de la Seine-Saint-Denis. Le Titulaire de l’accord-cadre est soumis à une obligation de résultat. Il s’agit d’un accord-cadre exécuté au moyen de bons de commande, sans minimum et avec un maximum de 250 000 € HT en application des articles R 2123-1, R 2162-1 à R 2162-6 et R 2162-13 et R 2162-14 du code de la commande publique. L’accord cadre pour l’en…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "ccusé de réception de façon dématérialisée, destiné à la Caf de la Seine-Saint-Denis. Le Titulaire de l’accord-cadre est soumis à une obligation de résultat. Il s’agit d’un accord-cadre exécuté au moyen de bons de commande, sans minimum et avec un maximum de 250 000 € HT en application des articles R 2123-1, R 2162-1 à R 2162-6 et R 2162-13 et R 2162-14 du code de la commande publique. L’accord cadre pour l’ensemble du groupement sur la durée de vingt-quatre (24) mois est estimé à environ 14 000 plis. B – ENGAGEME…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "l’accord-cadre est soumis à une obligation de résultat. Il s’agit d’un accord-cadre exécuté au moyen de bons de commande, sans minimum et avec un maximum de 250 000 € HT en application des articles R 2123-1, R 2162-1 à R 2162-6 et R 2162-13 et R 2162-14 du code de la commande publique. L’accord cadre pour l’ensemble du groupement sur la durée de vingt-quatre (24) mois est estimé à environ 14 000 plis. B – ENGAGEMENT DU TITULAIRE OU DU GROUPEMENT TITULAIRE Et conformément à leurs clauses, à livrer les fournitures d…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "valeur probatoire de 10 ans de l'ensemble des pièces | | | | | | | | | | Réversibilité de la solution (restitution des courriers archivés et traités pendant la durée de la prestation) | | | | | | | | | | Affranchissement | | | | | | | | | | Pli recommandé avec AR (R2) poids 20< 35 g | | | | | | | | | | Pli recommandé avec AR poids 35<50 g | | | | | | | | | | Pli recommandé avec AR poids 50<100 g | | | | | | | | | | Formation complémentaire (hors formation initiale comprise dans le socle de mise en œuvre de la solu…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/Annexe 1 Bdx de prix def.xlsx",
+            "source_url": null,
+            "source_sha256": "f851cbcf508f3f57e175a42a044ce61a169038e36642b8599564fbdda231eebe",
+            "source_kind": "xlsx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ers archivés et traités pendant la durée de la prestation) | | | | | | | | | | Affranchissement | | | | | | | | | | Pli recommandé avec AR (R2) poids 20< 35 g | | | | | | | | | | Pli recommandé avec AR poids 35<50 g | | | | | | | | | | Pli recommandé avec AR poids 50<100 g | | | | | | | | | | Formation complémentaire (hors formation initiale comprise dans le socle de mise en œuvre de la solution) | | | | | | | | | | Formation administrateurs sur site (prix par session de formation pour 1 à 3 administrateurs) | | |…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/Annexe 1 Bdx de prix def.xlsx",
+            "source_url": null,
+            "source_sha256": "f851cbcf508f3f57e175a42a044ce61a169038e36642b8599564fbdda231eebe",
+            "source_kind": "xlsx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "nt conjoint indiquent dans le tableau ci-dessous la répartition des prestations que chacun d’entre eux s’engage à réaliser) B3 – Compte (s) à créditer (Joindre un ou des relevé(s) d’identité bancaire ou postal) Nom de l’établissement bancaire : …………………………… Numéro de compte : ………………………………. B4 – Avance (article R 2191-63 du décret n° 2018-1075 du 03 décembre 2018) Je renonce au bénéfice de l’avance (cocher la case correspondante) B5 – Durée d’exécution du marché ou de l’accord –cadre La durée d’exécution de l’accord…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "JO du 05 décembre 2018) portant partie réglementaire du code de la commande publique, L'arrêté du 19 juillet 2018 (JO du 27 juillet 2018), portant règlement sur les marchés publics passés par les Organismes de Sécurité Sociale, Le décret n°2018-347 du 9 mai 2018 relatif à la lettre recommandée électronique, Le Cahier de Clauses Administratives Générales Particulières applicable aux Marchés Publics de Fourniture Courantes et de Services (C.C.A.G.F.C.S.) visé à l'article 3.1. Les normes et règlements en vigueur. ART…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "res, appréciées à hauteur de 30 points, Critère 3 : Les mesures prises en matière environnementale et sociale (mesures spécifiques prises pour prendre en compte l’impact environnemental de l’activité exercée : par exemple, stockage des données dans des “green datacenter”aux méthodes de refroidissement à moindre impact environnemental, moins consommateurs d’electricité, équipements fonctionnant grâce à des énergies renouvelables, etc.), utilisation de papier et enveloppes recyclés ou éco-labelisés ou équivalent, et…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/RC_AOO 10 2026_Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "ca2b70364e926049d0e7b1a5a9fc27aace5deb1d0d12d20cb78b5e9f16162cbc",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "QUES: 1°/ Méthode de notation des paramètres des critères 1 et 3 : Les paramètres seront notés en fonction d’un seuil de satisfaction : 1 = mauvais, inadéquat, insuffisant. Le candidat ne répond pas suffisamment ou trop rapidement, sans détail, ou son organisation ne permet pas de répondre à la demande. 2 = correct, moyen. Organisation qui répond a minima à la demande, sans valeur ajoutée, ou laisse des incertitudes sur plusieurs aspects. 3 = bon. Réponse tout à fait adéquate, manquant de précision sur un ou deux …",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/RC_AOO 10 2026_Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "ca2b70364e926049d0e7b1a5a9fc27aace5deb1d0d12d20cb78b5e9f16162cbc",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "===== FILE: files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx ===== ACTE D'ENGAGEMENT (A.E.) OBJET DE L’APPEL D’OFFRES OUVERT N° 10/2026 ACCORD CADRE : PRESTATION D'ENVOI DE COURRIERS EN RECOMMANDÉ AVEC SUIVI DE L'ACCUSÉ DE RÉCEPTION DE FAÇON DEMATERIALISÉE DESTINÉE À LA CAF DE LA SEINE SAINT DENIS ACCORD-CADRE À BONS DE COMMANDE ACCORD-CADRE PASSE PAR APPEL D’OFFRES OUVERT EN APPLICATION DES DISPOSITIONS DES ARTICLES R 2124-2, R.2161-2 A R.2161-5 DU CODE DE LA COMMANDE PUBLIQUE A.E …",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ts et R2193-1 et suivants du Code de la Commande Publique. Le Titulaire peut sous-traiter l’exécution de certaines parties des prestations objet de l’accord-cadre, à condition d’avoir obtenu du Pouvoir adjudicateur l’acceptation de chaque sous-traitant et l’agrément des conditions de paiement de chaque contrat de sous-traitance. En cas de recours à la sous-traitance, il est rappelé au candidat que ce dernier doit produire, obligatoirement, tous les éléments, justificatifs et certificats requis mentionnés à l’artic…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "…………………………………………………………………… ……………………………………………………………………………………….. | Engage la société ………………………..sur la base de son offre ; [Indiquer le mon commercial et la dénomination sociale du candidat, les adresses de son établissement et de son siège social (si elle est différente, son adresse électronique, ses numéros de téléphone, de fax, et son numéro SIRET] : ………………………………………………………………………………………… ………………………………………………………………………………………… ……………………………………………………………………………………….. | Aux prix indiqués à l’annexe 1 à l’acte d’engagement « bo…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "…………………………… ……………………………………………………………………………………….. | Engage la société ………………………..sur la base de son offre ; [Indiquer le mon commercial et la dénomination sociale du candidat, les adresses de son établissement et de son siège social (si elle est différente, son adresse électronique, ses numéros de téléphone, de fax, et son numéro SIRET] : ………………………………………………………………………………………… ………………………………………………………………………………………… ……………………………………………………………………………………….. | Aux prix indiqués à l’annexe 1 à l’acte d’engagement « bordereau de prix…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/AE AOO 10 2026 Envoi LRAR démat.docx",
+            "source_url": null,
+            "source_sha256": "d83b04f5f31a2821ccee9fdcc9ac2a0301914545acfb9c5d43e95cbd432479b8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "s prestations est indiquée au Cahier des Clauses Techniques Particulières (C.C.T.P) du marché. Le marché passé implique une obligation de résultat. Par ailleurs, le prestataire devra apporter la preuve du respect de ses obligations, conformément au décret n°2018-347 du 9 mai 2018 relatif à la lettre recommandée électronique. ARTICLE 3 : Réglementation – CONDITIONS JURIDIQUES DE L’ACCORD-CADRE 3.1 : REGLEMENTATION La consultation est engagée sous la forme d’un appel d’offres ouvert, selon les dispositions des artic…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "marché. Le marché passé implique une obligation de résultat. Par ailleurs, le prestataire devra apporter la preuve du respect de ses obligations, conformément au décret n°2018-347 du 9 mai 2018 relatif à la lettre recommandée électronique. ARTICLE 3 : Réglementation – CONDITIONS JURIDIQUES DE L’ACCORD-CADRE 3.1 : REGLEMENTATION La consultation est engagée sous la forme d’un appel d’offres ouvert, selon les dispositions des articles L2124-2 du code de la Commande publique. Le présent accord cadre est passé en appli…",
+            "source": "files/AOO 10 2026 Envoi LRAR d_mat_unpacked/CCAP AOO 10 2026 Envoi LRAR Démat def.docx",
+            "source_url": null,
+            "source_sha256": "dd946e2eb551cb6d0deff467c1eee7f4c033feef5b499e1649ef9c9d2b097771",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -165,7 +729,7 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "NOTICE_DATE_FOUND_BUT_UNLABELLED_IN_DCE_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 44490344638,
       "source_shard": 28,
@@ -175,6 +739,328 @@
         "shard": 28,
         "candidate_id": "TED:779391-2026",
         "release_tag": "dce-harvest-44490344638"
+      },
+      "evidence_quality": {
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 14,
+        "text_chars": 728727,
+        "attributed_compact_snippets": 25,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": true
+      },
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "talAddress> 0 005eb9ed-1347-4ca3-bb29-9bc0db64e1ab CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION Participation in a criminal organisation Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion peri…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "EU-COM-GROW\" schemeVersionID=\"1.0\">c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4 Issuer c27b7c4e-c837-4529-b867-ed55ce639db5 CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION Corruption Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in …",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "PTION\"> 5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Direct…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "eAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 499efc97-2ac1-4af2-9e84-323c2ca67747 CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY General yearly turnover Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On p…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": ":Name> Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on t…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "cription> DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Directive 2014/24/EU EU_DIRECTIVE 57(1) http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024 7c637c0c-7703-4389-ba52-02997a055bd7 974c8196-9d1c-419c-9ca9-45bb9f5fd59a Your answer? f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "0\">15778db8-0d84-42ba-931b-774c1b3d3f9f Please specify bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 2014/…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "riaID\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">bdf0601d-2480-4250-b870-658d0ee95be6 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS For supply contracts: samples, descriptions or photographs without certification of authenticity For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity. DIRECTIVE 20…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC <ccv-cbc:JurisdictionLevelCode listID=\"Crite…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 7604bd40-4462-4086-8763-a50da51a869c CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE Professional risk indemnity insurance The insured amount in its professional risk indemnity insurance is the following: DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC On public procurement and repealing Directive 2004/18/EC EU_DIRECTIVE…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcon…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "AgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 612a1625-118d-4ea4-a6db-413184e7c0a8 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION Subcontracting proportion The economic operator intends possibly to subcontract the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then p…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "documentos em causa. O operador económico autoriza expressamente a autoridade ou entidade adjudicante, conforme indicada na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_2_unpacked/esp…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "dade adjudicante, conforme indicada na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_2_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specificatio…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "trato mantém-se em vigor desde 1 de janeiro de 2027, cessando os seus efeitos a 31 de dezembro de 2029, sem prejuízo das obrigações acessórias que devam perdurar para além da cessação do contrato, designadamente em matéria de sigilo e proteção de dados pessoais. CADERNO DE ENCARGOS SGC INSTITUTO PORTUGUÊS DE ONCOLOGIA DE LISBOA FRANCISCO GENTIL, EPE Serviço de Gestão de Compras Pág. 3 CAPÍTULO II OBRIGAÇÕES CONTRATUAIS SECÇÃO I OBRIGAÇÕES DO PRESTADOR DE SERVIÇOS SUBSECÇÃO I DISPOSIÇÕES GERAIS Cláusula 4.ª Obrigaç…",
+            "source": "files/Caderno Encargos_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=RDI0MThGOUQ1MUYyMDdEOUU2QUVGOEMwOUQzMUY0MjUxMUFFNDM1QTQzOUJBNTU5NTk4NTZGMzExMEM5RkI5QiNDYWRlcm5vIEVuY2FyZ29zX1BJXzFfMjAyNy5wZGYjeyJCdXllclBQSSI6IlBUMS5QUEkuMTQyMDcxNDc1IiwiQ29tcGFueUNvZGUiOiJWT1JUQUwifQ==",
+            "source_sha256": "81531adb9873afa6144def6f6c40a5814ef61063db1bdf1fb32ab6225d6c44bb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "trato, entregar ao IPOLFG toda a documentação resultante da execução dos trabalhos, em formato eletrónico; i. Fornecer um total de 374 equipamentos, bem como os componentes, acessórios e consumíveis CADERNO DE ENCARGOS SGC INSTITUTO PORTUGUÊS DE ONCOLOGIA DE LISBOA FRANCISCO GENTIL, EPE Serviço de Gestão de Compras Pág. 4 de impressão e digitalização de documentos integrados e funcionando em rede (rede informática do IPOLFG); j. Prestar os serviços técnicos nas instalações do IPOLFG e/ou remotamente, com uma Equip…",
+            "source": "files/Caderno Encargos_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=RDI0MThGOUQ1MUYyMDdEOUU2QUVGOEMwOUQzMUY0MjUxMUFFNDM1QTQzOUJBNTU5NTk4NTZGMzExMEM5RkI5QiNDYWRlcm5vIEVuY2FyZ29zX1BJXzFfMjAyNy5wZGYjeyJCdXllclBQSSI6IlBUMS5QUEkuMTQyMDcxNDc1IiwiQ29tcGFueUNvZGUiOiJWT1JUQUwifQ==",
+            "source_sha256": "81531adb9873afa6144def6f6c40a5814ef61063db1bdf1fb32ab6225d6c44bb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_2_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCom…",
+            "source": "files/espd-request_2_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "da na parte I, a ter acesso aos documentos comprovativos das informações prestadas nas informações constantes da parte III e da parte IV do presente Documento Europeu Único de Contratação Pública para efeitos do procedimento de adjudicação estabelecido na parte I. Data, local e, quando exigido ou necessário, assinatura(s): Data - Local - Assinatura -22- ===== FILE: files/espd-request_unpacked/espd-request.xml ===== <espd-req:ESPDRequest xmlns:espd-cbc=\"urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicCo…",
+            "source": "files/espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "cbc:ID schemeID=\"CriterionRelatedIDs\" schemeAgencyID=\"EU-COM-GROW\" schemeVersionID=\"1.0\">5cbf74d9-a1e2-4233-921d-8b298842ee7d Issuer 3aaca389-4a7b-406b-a4b9-080845d127e7 CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL Technicians or technical bodies for quality control It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's unde…",
+            "source": "files/espd-request_unpacked/espd-request.xml",
+            "source_url": null,
+            "source_sha256": "37ce2f268581e57961e7e6d74217281b366868897e5b438142631309ec873d14",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "pm Resolução de digitalização (Preto e Cor) ≥ 600 x 600 dpi Disco Rígido com encriptação (HDD/SSD) ≥ 320 Gb PostScript Sim Finalizador agrafador, empilhador 2500 folhas, furador, booklet, dobrador C/Z, módulo eliminador de curvatura e módulo de inserção Sim (1 equipamento) b) Critérios Ecológicos – RCM 132/2023 O adjudicatário deverá garantir que os equipamentos disponibilizados no âmbito dos serviços a prestar devem seguir os seguintes requisitos/especificações: 1. Certificação dos equipamentos Blue Angel, Nordic…",
+            "source": "files/Caderno Encargos_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=RDI0MThGOUQ1MUYyMDdEOUU2QUVGOEMwOUQzMUY0MjUxMUFFNDM1QTQzOUJBNTU5NTk4NTZGMzExMEM5RkI5QiNDYWRlcm5vIEVuY2FyZ29zX1BJXzFfMjAyNy5wZGYjeyJCdXllclBQSSI6IlBUMS5QUEkuMTQyMDcxNDc1IiwiQ29tcGFueUNvZGUiOiJWT1JUQUwifQ==",
+            "source_sha256": "81531adb9873afa6144def6f6c40a5814ef61063db1bdf1fb32ab6225d6c44bb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ias a fim de os interessados ou concorrentes não serem prejudicados. 5. Os documentos submetidos na Plataforma Eletrónica devem ser assinados com recurso a assinatura eletrónica qualificada, nos termos do disposto nos n.os 2 a 6 do artigo 54.º da Lei n.º PROGRAMA DO PROCEDIMENTO SGC INSTITUTO PORTUGUÊS DE ONCOLOGIA DE LISBOA FRANCISCO GENTIL, EPE Serviço de Gestão de Compras Pág. 5 96/2015, de 17 de agosto. 6. No caso de a proposta ser apresentada por um agrupamento concorrente, deverá ser assinada eletronicamente…",
+            "source": "files/Programa Procedimento_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=QjQxMzM5NjY3OTU4RjA1Q0U1MzNDMjUxNjBGODVDMDkyOTQyQUM1NjlCQzAxMUY1OTQwREZEMEZFNDcwMEUzQiNQcm9ncmFtYSBQcm9jZWRpbWVudG9fUElfMV8yMDI3LnBkZiN7IkJ1eWVyUFBJIjoiUFQxLlBQSS4xNDIwNzE0NzUiLCJDb21wYW55Q29kZSI6IlZPUlRBTCJ9",
+            "source_sha256": "c8146c30f2029ed2c03ffa7d5193a88777d148d9c2a9d437e22049adb705c86b",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "dditionalDocumentReference> <cbc:ID schemeAgencyID=\"EU-COM-GROW\" schemeAgencyName=\"DG GROW (European Commission)\" schemeVersionID=\"1.1\">26928/2026</cbc:ID> <cbc:DocumentTypeCode listID=\"ReferencesTypeCodes\" listAgencyID=\"EU-COM-GROW\" listVersionID=\"1.0\">NGOJ</cbc:DocumentTypeCode> </cac:AdditionalDocumentReference> </espd-req:ESPDRequest> ===== FILE: files/portal_page.txt ===== I want to join! Request search EN Public Area>Contract Notice Contract Notice - Public tender Title/Designation: PI/1/2027 - Prestação de …",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "27c194ae6c21809814c5e4fcd837f81663994e970a50f5e72d5749d415c0dc08",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Procedure Type VortalGOV - Open Tender CPV Classification CPV Main Vocabulary 79810000-5 - Printing services (CPV) Object Of The Contract Type of Contract Acquisition of Services Main site or location of works, place of delivery or of performance Rua Professor Lima Basto 1099-023 São Domingos de Benfica Lisboa PORTUGAL Base Price 380,000.000000 EUR Estimated Value 380,000.000000 EUR Scheduling Start Request Online Publishing Date 10/11/2026 10:32 Due date for receiving replies 09/12/2026 17:59 End Financial Settin…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "27c194ae6c21809814c5e4fcd837f81663994e970a50f5e72d5749d415c0dc08",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "prestador de serviços e a cessão da posição contratual por qualquer das partes depende da autorização da outra, nos termos do CCP. 2. O contrato pode autorizar a cessão da posição contratual e a subcontratação a entidades nele identificadas. Cláusula 20.ª Dados pessoais 1. Para efeitos da execução e ao abrigo do contrato, o contraente público e o prestador de serviço/fornecedor vinculam-se ao estrito cumprimento da legislação europeia e nacional em matéria de dados pessoais, designadamente ao cumprimento das obrig…",
+            "source": "files/Caderno Encargos_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=RDI0MThGOUQ1MUYyMDdEOUU2QUVGOEMwOUQzMUY0MjUxMUFFNDM1QTQzOUJBNTU5NTk4NTZGMzExMEM5RkI5QiNDYWRlcm5vIEVuY2FyZ29zX1BJXzFfMjAyNy5wZGYjeyJCdXllclBQSSI6IlBUMS5QUEkuMTQyMDcxNDc1IiwiQ29tcGFueUNvZGUiOiJWT1JUQUwifQ==",
+            "source_sha256": "81531adb9873afa6144def6f6c40a5814ef61063db1bdf1fb32ab6225d6c44bb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "atéria de dados pessoais, designadamente ao cumprimento das obrigações decorrentes do Regulamento Geral de Proteção de Dados - Regulamento (EU) 2016/679, de 27 de abril (doravante, RGPD), demais legislação que lhe seja aplicável relativa a dados pessoais e da Política de Confidencialidade, Privacidade, e Proteção de Dados Pessoais do IPO Lisboa (disponível no site do IPO Lisboa, em https://www.ipolisboa.min-saude.pt/encarregado-protecao-de-dados/), durante a vigência do contrato e, sempre que exigível, após a sua …",
+            "source": "files/Caderno Encargos_PI_1_2027.pdf",
+            "source_url": "https://community.vortal.biz/archive/api/PublicDownload/download?token=RDI0MThGOUQ1MUYyMDdEOUU2QUVGOEMwOUQzMUY0MjUxMUFFNDM1QTQzOUJBNTU5NTk4NTZGMzExMEM5RkI5QiNDYWRlcm5vIEVuY2FyZ29zX1BJXzFfMjAyNy5wZGYjeyJCdXllclBQSSI6IlBUMS5QUEkuMTQyMDcxNDc1IiwiQ29tcGFueUNvZGUiOiJWT1JUQUwifQ==",
+            "source_sha256": "81531adb9873afa6144def6f6c40a5814ef61063db1bdf1fb32ab6225d6c44bb",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "TED:756720-2026",
+      "title": "Germany – Digital printing services – Zentraler Druckoutput",
+      "buyer": "BMW BKK",
+      "portal": "TED",
+      "notice_url": "https://ted.europa.eu/en/notice/-/detail/756720-2026",
+      "deadline": "2026-12-01T23:59:59+01:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 12,
+      "spm_post_dce_score": 66,
+      "spm_fit_band": "HOT",
+      "spm_fit_reasons": [
+        "printing-services",
+        "printing-service"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 44855126821,
+      "source_shard": 18,
+      "review_key": "d6efe5653f88ce8404d6113cf0d94d375e5de38bfeee4c055ac888ca5ecab077",
+      "artifact_locator": {
+        "dce_run_id": 44855126821,
+        "shard": 18,
+        "candidate_id": "TED:756720-2026",
+        "release_tag": "dce-harvest-44855126821"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -220,51 +1106,6 @@
         "shard": 4,
         "candidate_id": "TED:734910-2026",
         "release_tag": "dce-harvest-44818697516"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:756720-2026",
-      "title": "Germany – Digital printing services – Zentraler Druckoutput",
-      "buyer": "BMW BKK",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/756720-2026",
-      "deadline": "2026-12-01T23:59:59+01:00",
-      "estimated_value": null,
-      "currency": null,
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 12,
-      "spm_post_dce_score": 66,
-      "spm_fit_band": "HOT",
-      "spm_fit_reasons": [
-        "printing-services",
-        "printing-service"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_MULTIPLE_SUBMISSION_DEADLINES_REVIEW_REQUIRED",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 42411061020,
-      "source_shard": 32,
-      "review_key": "0456ad60d5d642360c333a11dbfeb51f7aa386d83f0f815573a71f5ec5487983",
-      "artifact_locator": {
-        "dce_run_id": 42411061020,
-        "shard": 32,
-        "candidate_id": "TED:756720-2026",
-        "release_tag": "dce-harvest-42411061020"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -347,26 +1188,303 @@
       ],
       "spm_friction_signals": [],
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
-      "source_dce_run_id": 44855126821,
+      "source_dce_run_id": 44891934285,
       "source_shard": 1,
-      "review_key": "608d4ed56267ba8dcec179b8b933cea6d6c364ba4abb0e8240d33aaf0752ab01",
+      "review_key": "ace01074e46cb9019740317dbb85fc870377ac3ac26e694bd01bd2ce0c6494fd",
       "artifact_locator": {
-        "dce_run_id": 44855126821,
+        "dce_run_id": 44891934285,
         "shard": 1,
         "candidate_id": "US-SAM:1489759659dd478ab2af56447c6974ae",
-        "release_tag": "dce-harvest-44855126821"
+        "release_tag": "dce-harvest-44891934285"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 2,
+        "text_chars": 286517,
+        "attributed_compact_snippets": 25,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "at the sole discretion of the Government. C- 6.1.9. Continuous Vetting. In alignment with the Trusted Workforce (TW) 2.0 framework, the legacy system of periodic reinvestigations is replaced by Continuous Vetting (CV). All contractor personnel shall be enrolled in and subject to CV protocols once their initial background investigation is favorably adjudicated. Enrollment and monitoring will be managed through the Defense Information System for Security (DISS), the National Background Investigation Services (NBIS),…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "965, as Amended (Contracts over $2,500) NARS.I037 Equal Opportunity for Veterans (Supplies and Service over $150,000) NARS.I041 Privacy Act Notification (JAN 2008) NARS.I042 Privacy Act (PR 1984) NARS.I045 Restrictions on Certain Foreign Purchases NARS.I052 Payments NARS.I053 Discounts for Prompt Payments N4571A-27-R-0002 Page 51 of 106 NARS.I055 Extras NARS.I057 Mandatory Information for Electronic Funds Transfer (EFT) NARS.I061 Bankruptcy NARS.I075 Convict Labor (Contracts over $2,500) NARS.I081 Employment Repor…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "(NAFI), hereinafter referred to as NAFI. B-2. TYPE OF CONTRACT. It is anticipated that this solicitation is to be awarded as a Firm-Fixed-Price type contract with a Base Year of One (1) year with Four (4) One-year option periods. B-3. SUPPLIES AND/OR SERVICES PRICE/COST SCHEDULE. Offeror is to fill in the proposed pricing table below. The Government anticipates a labor mix from the below list of CLINS that will be utilized against the contract. B-4. AWARD. Upon award of contract, Sections K, L, and M of the solici…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "; survivors; service providers; DoW civilians; MC&FP staff; community support organizations; and contractors. On February 26, 2026, consistent with Executive Order 14179, Removing Barriers to American Leadership in Artificial Intelligence, MC&FP’s Online Learning Systems team began integrating artificial intelligence into four of the five phases (Analysis, Design, Development and Evaluation) of the ADDIE model. This effort supports the modernization of outdated, manual processes, reduces subject-matter expert revi…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "LL: A. NAME B. TELEPHONE (NO COLLECT CALLS) C. E-MAIL ADDRESS Kelly Cline AREA CODE NUMBER EXT. kelly.l.cline7.naf@us.navy.mil 901 305-3378 11. TABLE OF CONTENTS (X) SEC. DESCRIPTION PAGE(S) (X) SEC. DESCRIPTION PAGE(S) PART I - THE SCHEDULE PART II - CONTRACT CLAUSES X A SOLICITATION/CONTRACT FORM 1 X I CONTRACT CLAUSES 31-56 X B SUPPLIES OR SERVICES AND PRICES/COSTS 2-7 PART III - LIST OF DOCUMENTS, EXHIBITS AND OTHER ATTACH. X C DESCRIPTION/SPECS./WORK STATEMENT 8-28 X J LIST OF ATTACHMENTS 57; 86- 106 D PACKAG…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ources, and delivers measurable cost savings and cost avoidance. C- 4. APPLICABLE DOCUMENTS AND REFERENCES C- 4.1. Technical References: Details specific references that must be complied with when developing the Learning Management Program content or products. This list includes Department of War (DoW) Directives and Instructions, Office of Management and Budget memorandums and circulars, public law, Office of the Secretary of War and DoW memorandums, and other policies and forms. (See Appendix 1_PWS_Technical Ref…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "CES PRICE/COST SCHEDULE. Offeror is to fill in the proposed pricing table below. The Government anticipates a labor mix from the below list of CLINS that will be utilized against the contract. B-4. AWARD. Upon award of contract, Sections K, L, and M of the solicitation will be removed, and the Contractor’s technical proposal, including any revisions will be incorporated by reference, subject to Clause NARS.I015 (Order of Precedence). B-5. MilLife Online Learning -Base Year CLIN LCAT Proposed HOURS Unit Issue Propo…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "004a Program Analyst II (Multimedia Specialist) LH 0004b Program Analyst II (Web Design and Content Developer) LH 0004c Sr. Program Analyst (Course Administrator) LH 0004d Program Analyst II (Issue Resolution) LH 0004e Program Analyst II (Course Testing and QA) LH Subtotal Travel and ODCs (T&M) 0005 Travel --- 0005a LO NTE $15,000.00 0005a ODCs --- 0005b LO NTE $65,000.00 Subtotal NTE $80,000.00 Total MilLife Online Learning - Option Year I CLIN LCAT Proposed Hours Unit Issue Proposed Unit Price Proposed Total Pri…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "494 7. ISSUED BY CODE 8. ADDRESS OFFER TO (If other than item 7) COMMANDER, NAVY INSTALLATIONS COMMAND NAF ACQUISITIONS BRANCH N945 5720 INTEGRITY DRIVE LASSEN BUILDING 457 MILLINGTON, TN 38055-6500 POC: Kelly Cline kelly.l.cline7.naf@us.navy.mil NOTE: In sealed bid solicitations “offer” and “offeror” mean “bid” and “bidder”. SOLICITATION 9. Sealed offers in original and electronic copies for furnishing the supplies or services in the Schedule will be received at the place specified in Item 8, or if hand carried, …",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "d data protection requirements. IV. Substitution Requirement: Substitution requires prior Government approval. The contractor shall submit a complete resume and support documentation demonstrating that the proposed replacement meets or exceeds the departing key person's qualifications, experience, and availability. V. Availability Requirement: Must be available to support continuous process improvement, AI- enabled development, automation planning, modernization initiatives, and reporting on efficiencies, cost sav…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "s the principles of \"Truth-seeking\" and \"Ideological Neutrality,\" as established in Executive Order 14319 and defined below. N4571A-27-R-0002 Page 13 of 106 Truth-seeking means the LLM is truthful in responding to user prompts seeking factual information or analysis. The LLM prioritizes historical accuracy, scientific inquiry, and objectivity, and acknowledges uncertainty where reliable information is incomplete or contradictory. Ideological Neutrality means the LLM is a neutral, nonpartisan tool that does not man…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ality and Non-Compliance. 1. Compliance with Unbiased AI Principles is a material requirement of the contract. 2. In the event the LLM output appears to violate the Unbiased AI Principles, the Contracting Officer will provide written notification to the contractor. The Contractor must, within 15 business days, investigate the matter and provide a written response to the Contracting Officer detailing the findings, whether there was a violation, the most likely cause of the violation, the contractor's proposed corre…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "X) SEC. DESCRIPTION PAGE(S) PART I - THE SCHEDULE PART II - CONTRACT CLAUSES X A SOLICITATION/CONTRACT FORM 1 X I CONTRACT CLAUSES 31-56 X B SUPPLIES OR SERVICES AND PRICES/COSTS 2-7 PART III - LIST OF DOCUMENTS, EXHIBITS AND OTHER ATTACH. X C DESCRIPTION/SPECS./WORK STATEMENT 8-28 X J LIST OF ATTACHMENTS 57; 86- 106 D PACKAGING AND MARKING - PART IV - REPRESENTATIONS AND INSTRUCTIONS X E INSPECTION AND ACCEPTANCE 28 X K REPRESENTATIONS, CERTIFICATIONS AND OTHER STATEMENTS OF OFFERORS 57-73 X F DELIVERIES OR PERFO…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": ". Content Developer) LH 4004a Program Analyst II (Multimedia Specialist) LH 4004b Program Analyst II (Web Design and Content Developer) LH 4004c Sr. Program Analyst (Course Administrator) LH 4004d Program Analyst II (Issue Resolution) LH 4004e Program Analyst II (Course Testing and QA) LH Subtotal Travel and ODCs (T&M) 4005 Travel --- 0005a LO NTE $15,000.00 4005a ODCs --- 0005b LO NTE $65,000.00 Subtotal NTE $80,000.00 Total Base Year & All Option Years Total Estimated Price $ ___________ (END OF SECTION B) N4571…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "II (Graphic Designer) LH 0002e Program Analyst II (508 and SCORM reviewer) LH Subtotal Reporting and Analysis (FFP) 0003 Program Analyst III (Data Analyst) LH Subtotal N4571A-27-R-0002 Page 3 of 106 Develop and Maintain Online Resources (T&M) 0004 Technical Specialist II (LMS Admin, Sr. Content Developer) LH 0004a Program Analyst II (Multimedia Specialist) LH 0004b Program Analyst II (Web Design and Content Developer) LH 0004c Sr. Program Analyst (Course Administrator) LH 0004d Program Analyst II (Issue Resolution…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "0002e Program Analyst II (508 and SCORM reviewer) LH Subtotal Reporting and Analysis (FFP) 0003 Program Analyst III (Data Analyst) LH Subtotal N4571A-27-R-0002 Page 3 of 106 Develop and Maintain Online Resources (T&M) 0004 Technical Specialist II (LMS Admin, Sr. Content Developer) LH 0004a Program Analyst II (Multimedia Specialist) LH 0004b Program Analyst II (Web Design and Content Developer) LH 0004c Sr. Program Analyst (Course Administrator) LH 0004d Program Analyst II (Issue Resolution) LH 0004e Program Analys…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "Subtotal N4571A-27-R-0002 Page 3 of 106 Develop and Maintain Online Resources (T&M) 0004 Technical Specialist II (LMS Admin, Sr. Content Developer) LH 0004a Program Analyst II (Multimedia Specialist) LH 0004b Program Analyst II (Web Design and Content Developer) LH 0004c Sr. Program Analyst (Course Administrator) LH 0004d Program Analyst II (Issue Resolution) LH 0004e Program Analyst II (Course Testing and QA) LH Subtotal Travel and ODCs (T&M) 0005 Travel --- 0005a LO NTE $15,000.00 0005a ODCs --- 0005b LO NTE $65…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rogram Analyst III (Data Analyst) LH Subtotal Develop and Maintain Online Resources (T&M) 1004 Technical Specialist II (LMS Admin, Sr. Content Developer) LH 1004a Program Analyst II (Multimedia Specialist) LH 1004b Program Analyst II (Web Design and Content Developer) LH 1004c Sr. Program Analyst (Course Administrator) LH 1004d Program Analyst II (Issue Resolution) LH 1004e Program Analyst II (Course Testing and QA) LH Subtotal Travel and ODCs (T&M) 1005 Travel --- 0005a LO NTE $15,000.00 1005a ODCs --- 0005b LO N…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "ection L until 10:00 CT local time 21 DECEMBER 2026 (Hour) (Date) CAUTION - LATE Submissions, Modifications, and Withdrawals: See Section L, Provision No. L-6. All offers are subject to all terms and conditions contained in this solicitation. 10. FOR INFORMATION CALL: A. NAME B. TELEPHONE (NO COLLECT CALLS) C. E-MAIL ADDRESS Kelly Cline AREA CODE NUMBER EXT. kelly.l.cline7.naf@us.navy.mil 901 305-3378 11. TABLE OF CONTENTS (X) SEC. DESCRIPTION PAGE(S) (X) SEC. DESCRIPTION PAGE(S) PART I - THE SCHEDULE PART II - CO…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "AGE 1 106 2. CONTRACT NUMBER 3. SOLICITATION NUMBER 4. TYPE OF SOLICITATION SEALED BID (IFB) NEGOTIATED (RFP) 5. DATE ISSUED 6. REQUISITION/PURCHASE NUMBER N4571A-27-R-0002 5494 7. ISSUED BY CODE 8. ADDRESS OFFER TO (If other than item 7) COMMANDER, NAVY INSTALLATIONS COMMAND NAF ACQUISITIONS BRANCH N945 5720 INTEGRITY DRIVE LASSEN BUILDING 457 MILLINGTON, TN 38055-6500 POC: Kelly Cline kelly.l.cline7.naf@us.navy.mil NOTE: In sealed bid solicitations “offer” and “offeror” mean “bid” and “bidder”. SOLICITATION 9. S…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "d links within the LVA. • The team will highlight all the expired links. There are currently over 3,500 expired links. • The team will work with OO to re-vet all the links that expired from 2014 to 2018. There are approximately 140 links that expired within that timeframe. • The team will make the required updates within the LVA. Phase IV Once phases I through III have been completed, the team will update this SOP with the following: • An annual re-vetting schedule for the remaining links • Process for re-vetting …",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "nsidered when the required knowledge to perform the role advances beyond the current operational or technical environment or if the certification and training is not available to the public. N4571A-27-R-0002 Page 17 of 106 C- 6.3.1. The contractor shall incorporate accessibility throughout design, development, testing, delivery, maintenance, and remediation. The contractor shall identify accessibility issues, notify the Government of required updates or remediation, provide recommendations and levels of effort as …",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "se Department of Labor Wage Determination. All correspondence in conjunction with this solicitation should be directed to the NAFI's Point of Contact (POC) identified below: Contract Specialist: Kelly Cline E-mail: kelly.l.cline7.naf@us.navy.mil L-2. PROPOSAL GENERAL REQUIREMENTS. (a) Offerors are hereby advised that the Navy CNIC reserves the right, to make award without discussions; therefore, Offerors should propose their best-offer initially. Offerors shall submit their proposals as follows: (b) Responses to t…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "ble cost savings and cost avoidance. Title 10, U.S. Code, Chapter 88, Subchapter I, Military Family Programs, is a statutory driver for Online Learning Systems and MilLife Learning. It requires online resources that provide comprehensive information to members of the Armed Forces and their families regarding available benefits and services, including contact information for obtaining specific assistance. This Performance Work Statement (PWS) establishes the requirements for online training support services that ar…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "e 10, U.S. Code, Chapter 88, Subchapter I, Military Family Programs, is a statutory driver for Online Learning Systems and MilLife Learning. It requires online resources that provide comprehensive information to members of the Armed Forces and their families regarding available benefits and services, including contact information for obtaining specific assistance. This Performance Work Statement (PWS) establishes the requirements for online training support services that are timely, accurate, accessible, user-focu…",
+            "source": "files/N4571A-27-R-0002.pdf",
+            "source_url": "https://iae-fbo-attachments.s3.amazonaws.com/fbo/files/edd/edd3b4ead4594444a8a49eb1ad90bc50.pdf?response-content-disposition=attachment%3B%20filename%3DN4571A-27-R-0002.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261121T095719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9&X-Amz-Credential=AKIAY3LPYEEXZ5J7ESLR%2F20261121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50ec471a0a62f596c88fb6638794a15cd70106377bf6135ecf8660ecd0cff9a",
+            "source_sha256": "dcc8e37734916c9b9173ee8d2c5981c3d9f96f86dce0548c82b3708b3793bc2d",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -404,14 +1522,217 @@
         "release_tag": "dce-harvest-44490344638"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 4,
+        "text_chars": 28872,
+        "attributed_compact_snippets": 18,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "er Berufsregister) Eintragung in das Handelsregister Beschreibung: • Nachweis der Eintragung in einem Handelsregister (oder Berufsregister) Weitere Bedingungen zur Qualifizierung Nachforderung von Unterlagen: Die Nachforderung von Erklärungen, Unterlagen und Nachweisen ist nicht ausgeschlossen. Zusätzliche Informationen: Eine Nachforderung von Unterlagen nach Fristablauf ist nicht ausgeschlossen. Vorbehaltene Auftragsvergabe Die Teilnahme ist Organisationen vorbehalten, die zur Erfüllung von Gemeinwohlaufgaben tät…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "- mindestens € 3.000.000 für Personenschäden - mindestens € 500.000 für Vermögensschäden - alle Werte mindestens 2-fach maximiert pro Kalenderjahr Andere wirtschaftliche oder finanzielle Anforderungen Beschreibung: • Wettbewerbsregister ohne negative Eintragungen • Vergütung des MindestlohnsQuelle: DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF83MA • fristgerechte Entrichtung von Steuern und Abgaben • der Bieter muss durch Eigenerklärung versichern, entsprechend der Verordnung (EU…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "mindestens 2-fach maximiert pro Kalenderjahr Andere wirtschaftliche oder finanzielle Anforderungen Beschreibung: • Wettbewerbsregister ohne negative Eintragungen • Vergütung des MindestlohnsQuelle: DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF83MA • fristgerechte Entrichtung von Steuern und Abgaben • der Bieter muss durch Eigenerklärung versichern, entsprechend der Verordnung (EU) 2022/576 die ausgeschriebene Dienstleistung nicht mit russischen Unternehmen zu erbringen Spezifisch…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "ten 3 Jahre verfügen, die nach Art und Umfang mit der angefragten Leistung vergleichbar sind. Vergleichbar ist, wenn folgende Kriterien erfüllt sind - Verarbeitung druckfähiger Datenströme mit variablen Inhalten (z.B. PDF/XML) - tägliche Verarbeitung E+1/2 (Tagespost), mindestens 500.000 Sendungen p.a. - selektive BeilagensteuerungAus DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF83MA - Vertragslaufzeit von mindestens einem Jahr Bestand bei Angebotsabgabe Zertifikate von unabhängi…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "tägliche Verarbeitung E+1/2 (Tagespost), mindestens 500.000 Sendungen p.a. - selektive BeilagensteuerungAus DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF83MA - Vertragslaufzeit von mindestens einem Jahr Bestand bei Angebotsabgabe Zertifikate von unabhängigen Stellen über Qualitätssicherungsstandards Beschreibung: • der Bieter muss über eine zertifizierte Qualitätssicherung gemäß DIN ISO 9001 verfügen InformationssicherheitKopie aus DABL, NjRfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzND…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "ds Beschreibung: • der Bieter muss über eine zertifizierte Qualitätssicherung gemäß DIN ISO 9001 verfügen InformationssicherheitKopie aus DABL, NjRfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF82NA Beschreibung: • der Bieter muss über eine zertifizierte Informations-/IT-Sicherheit gemäß DIN ISO 27001 oder vergleichbar verfügen Sicherheit bei der Verarbeitung, Speicherung und Übermittlung von klassifizierten Informationen Beschreibung: • der Bieter muss über geeignete technische und organis…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "ung gemäß DIN ISO 9001 verfügen InformationssicherheitKopie aus DABL, NjRfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF82NA Beschreibung: • der Bieter muss über eine zertifizierte Informations-/IT-Sicherheit gemäß DIN ISO 27001 oder vergleichbar verfügen Sicherheit bei der Verarbeitung, Speicherung und Übermittlung von klassifizierten Informationen Beschreibung: • der Bieter muss über geeignete technische und organisatorische Maßnahmen verfügen, die einen wirksamen Schutz personenbezogener…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "===== FILE: files/2026 11 09_BKK OG_Bieterfragen_1.pdf ===== Bieterfragen zur Ausschreibung Vergabe-Nr.: X-SDO-2026-0039 Bezeichnung: Produktion Tagespost Lfd. Nr. 1 Gemäß Leistungsbeschreibung, Ziffer 8.2, Punkt b) gibt es für die BKK Deutsche Bank die Versandhüllen in 4 Varianten. Wir bitten um Konkretisierung, ob diese 4 Varianten parallel zum Einsatz kommen, oder sequentiell immer nur eine Version für einen bestimmten Zeitraum. Es kommt immer nur eine Version für einen bestimmten Zeitraum zum Einsatz. 2 Sollen…",
+            "source": "files/2026 11 09_BKK OG_Bieterfragen_1.pdf",
+            "source_url": "https://www.deutsches-ausschreibungsblatt.de/lookup/index.php?module=download&method=getAttachment&params=54321-NetParticipantMessage-1a1c4890942-6bc3cc1495f55170",
+            "source_sha256": "cc1deca1fdb703d3ed6b6a270aeddd187e7044e7963b0adb5c1a4526cb20eced",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Bitte liefern Sie alle Drucke simplex ein 3 Die Seite 1 der Datei \"12_BKK-OG_Testdrucke 1_XSDO-39.pdf\" hat ein randabfallendes Layout, jedoch wird die Datei ohne Überfüllung bereitgestellt. Ein sauberer Randbeschnitt ist nur möglich, wenn auch eine Datei mit Überfüllung (analog zur Datei \"13_BKK-OG_Testdrucke 2_XSDO-39.pdf\") bereitgestellt wird. Ein unsauberer Randbeschnitt hat keine Auswirkungen auf die Beurteilung der Testdrucke 09.11.2026 17:00 Uhr AntwortenFragen ===== FILE: files/2026 11 17_BKK OG_Bieterfrage…",
+            "source": "files/2026 11 17_BKK OG_Bieterfragen_2.pdf",
+            "source_url": "https://www.deutsches-ausschreibungsblatt.de/lookup/index.php?module=download&method=getAttachment&params=54321-NetParticipantMessage-1a1e9abeb3f-492e963f91a913b5",
+            "source_sha256": "ae22bafd4f73e8ba731576bda248260bffc61131890e20c973294d093ad07d20",
+            "source_kind": "pdf",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "ter muss über eine technische Betriebsausstattung verfügen, wie sie sich aus den Fragen zur Eignung ergeben Referenzen zu bestimmten Dienstleistungen Beschreibung: • der Bieter muss über mindestens 3 Referenzen der letzten 3 Jahre verfügen, die nach Art und Umfang mit der angefragten Leistung vergleichbar sind. Vergleichbar ist, wenn folgende Kriterien erfüllt sind - Verarbeitung druckfähiger Datenströme mit variablen Inhalten (z.B. PDF/XML) - tägliche Verarbeitung E+1/2 (Tagespost), mindestens 500.000 Sendungen p…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "der Bieter muss über eine technische Betriebsausstattung verfügen, wie sie sich aus den Fragen zur Eignung ergeben Referenzen zu bestimmten Dienstleistungen Beschreibung: • der Bieter muss über mindestens 3 Referenzen der letzten 3 Jahre verfügen, die nach Art und Umfang mit der angefragten Leistung vergleichbar sind. Vergleichbar ist, wenn folgende Kriterien erfüllt sind - Verarbeitung druckfähiger Datenströme mit variablen Inhalten (z.B. PDF/XML) - tägliche Verarbeitung E+1/2 (Tagespost), mindestens 500.000 Send…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "t für kleinste, kleine und mittlere Unternehmen (KMU): Nein Art der Auftragsvergabe Art der strategischen Beschaffung: Geschätzte Laufzeit Datum des Beginns: 01.07.2027 Enddatum der Laufzeit: 30.06.2029 Verlängerungen und Optionen Beschreibung der Optionen: ja, 2 x 12 Monate Verlängerung - Maximale Anzahl: 2 Übereinkommen über das öffentliche Beschaffungswesen Die Beschaffung fällt unter das Übereinkommen über das öffentliche Beschaffungswesen: Nein Verwendung von EU-Mitteln Die Auftragsvergabe wird zumindest teil…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "ichtversicherung verfügen (oder sich im Falle des Zuschlags zum Abschluss einer solchen Versicherung verpflichten) mit einer Deckungssumme von - mindestens € 1.000.000 für Sachschäden - mindestens € 3.000.000 für Personenschäden - mindestens € 500.000 für Vermögensschäden - alle Werte mindestens 2-fach maximiert pro Kalenderjahr Andere wirtschaftliche oder finanzielle Anforderungen Beschreibung: • Wettbewerbsregister ohne negative Eintragungen • Vergütung des MindestlohnsQuelle: DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxY…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nd der Verordnung (EU) 2022/576 die ausgeschriebene Dienstleistung nicht mit russischen Unternehmen zu erbringen Spezifischer durchschnittlicher Jahresumsatz Beschreibung: • der Bieter muss mit vergleichbaren Leistungen in den letzten drei Jahren einen Umsatz von mindestens € 250.000,00 p.a. erzielt haben Eintragung in ein relevantes Berufsregister Beschreibung: • Nachweis der Eintragung in einem Handelsregister (oder Berufsregister) Eintragung in das Handelsregister Beschreibung: • Nachweis der Eintragung in eine…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "ondere Briefpostdienstleistungen, sind nicht Bestandteil dieses Vergabeverfahrens. Art des Auftrags: Dienstleistungen Umfang der Auftragsvergabe Hauptklassifizierung (CPV-Code) Ursprung: DABL, NTNfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF81Mw CPV-Code Hauptteil: 79811000-2 Kopie aus DABL, NDFfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF80MQ Weitere CPV-Code Hauptteile: 72512000-7 Erfüllungsort Sonstige Beschränkungen am Erfüllungsort: Ort im betreffenden Land …",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF81OA Grenzübergreifende Rechtsvorschriften Einzelheiten zum Verfahrenstyp Verfahrensart Verfahrensart: Offenes Verfahren Zusätzliche Informationen Beschaffungsinformationen (allgemein) Vergabeverfahren Frühere Bekanntmachung zu diesem Verfahren (Vorinformation, ...) Bedingungen der Auktion Es wird eine elektronische Auktion durchgeführt: Nein Auftragsvergabeverfahren Rahmenvereinbarung geschlossen: Keine Rahmenvereinbarung Quelle: DABL, NDRfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAx…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": "en, die nach Art und Umfang mit der angefragten Leistung vergleichbar sind. Vergleichbar ist, wenn folgende Kriterien erfüllt sind - Verarbeitung druckfähiger Datenströme mit variablen Inhalten (z.B. PDF/XML) - tägliche Verarbeitung E+1/2 (Tagespost), mindestens 500.000 Sendungen p.a. - selektive BeilagensteuerungAus DABL, NzBfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF83MA - Vertragslaufzeit von mindestens einem Jahr Bestand bei Angebotsabgabe Zertifikate von unabhängigen Stellen über Q…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "haffungswesen: Nein Verwendung von EU-Mitteln Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert: Nein Zusätzliche Informationen Bedingungen für die Einreichung eines Angebots Zuschlagskriterien QualitätskriteriumUrsprung: DABL, NDNfMWZiYTkzNjg2YWVjMzRjNjkxYmEzNzg5NjIzNDg1XzAxMjM0NTY3ODkwOTg3NjU0MzIxMF80Mw Umweltschutzkonzept, Beschreibung: Umweltschutzkonzept, Gewichtung: 15,00 Migrationskonzept, Beschreibung: Migrationskonzept, Gewichtung: 10,00 Erfahrung IT-Schnittstelle,…",
+            "source": "files/portal_page.txt",
+            "source_url": null,
+            "source_sha256": "90a8941dd9aae0bfb99be08fe2549fc582b889a988c4d42b4382fb3b521e009c",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
@@ -437,25 +1758,334 @@
       "spm_friction_signals": [],
       "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
       "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 44855126821,
+      "authoritative_submission_date": "2026-11-26",
+      "source_dce_run_id": 44891934285,
       "source_shard": 2,
-      "review_key": "f897479429a10bef2ce31b85e11a61746df71de3a90fc5f9cee60b97e15f118f",
+      "review_key": "c07b53571b78b1ce18f5afe208246534d0d51e33c1bf8232356b74cba91c12c1",
       "artifact_locator": {
-        "dce_run_id": 44855126821,
+        "dce_run_id": 44891934285,
         "shard": 2,
         "candidate_id": "IE:9376304",
-        "release_tag": "dce-harvest-44855126821"
+        "release_tag": "dce-harvest-44891934285"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 23,
+        "text_chars": 257274,
+        "attributed_compact_snippets": 28,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "particular ground applies in this Competition. Applicant Note: Complete the relevant rows where the CA has selected the particular ground to apply in this Competition. Regulation 57 (1) of S.I. No. 284 of 2016 , the European Union (Award of Public Authority Contracts) Regulations 2016, sets out the following reasons for exclusions: Participation in a criminal organisation (); Corruption (); Fraud(); Terrorist offences or offences linked to terrorist activities (); Money laundering or terrorist financing (); Child …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-A-Applicants-Self-Declaration-re-Regulation-57 (1).docx",
+            "source_url": null,
+            "source_sha256": "174e9cfa7045443c508a0c5a14f64b40f80499471536db85339176eff45f5433",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "viction, specify which of points 1 to 6 in 3.A.1 is concerned and the reason(s) for the conviction | date, point(s), reason(s) | Identify who has been convicted | [Click here and insert details] | Insofar as established directly in the conviction, please insert the length of the period of exclusion and the point(s) concerned | [Click here and insert length of the period of exclusion and the point(s) concerned] [If the relevant documentation is available electronically, please indicate the web address, issuing auth…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-A-Applicants-Self-Declaration-re-Regulation-57 (1).docx",
+            "source_url": null,
+            "source_sha256": "174e9cfa7045443c508a0c5a14f64b40f80499471536db85339176eff45f5433",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "turnover_financial": [
+          {
+            "text": "wall, and ceiling finishes, flat roof finish, decoration internally, and associated external works. Design Team An IDT team has been appointed for the project, the full Project Team members are as follows: SELECTION CRITERIA Works Contractor Suitability The Contracting Authority is seeking a contractor capable of delivering the new works within a live operational fire station campus. Applicants will need to demonstrate experience of working in a live environment and managing working within this environment success…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "nts and assurance that the Tenderer has capability to deliver to a high standard for projects of this scale, nature and complexity. | 76% – 87% Excellent | Excellent response with very few or no weaknesses, exceeds requirements, and provides comprehensive, detailed, and convincing assurance that the Tenderer has capability to deliver to an excellent standard for projects of this scale, nature and complexity. | 88% – 100% ===== FILE: files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1-Appendix-D.docx",
+            "source_url": null,
+            "source_sha256": "df8d73496896bf304271afce2d87ae1acb98412abfc1215bb0e11a390cd55c9b",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "references_experience": [
+          {
+            "text": "anagement or supervisory body or has powers of representation, decision or control therein been the subject of a conviction for any of the following, either within the last 5 years, or where an exclusion period set out directly in the conviction continues to be applicable: Participation in a criminal organisation (); Corruption (); Fraud(); Terrorist offences or offences linked to terrorist activities (); Money laundering or terrorist financing (); Child labour and other forms of trafficking in human beings (). | …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-A-Applicants-Self-Declaration-re-Regulation-57 (1).docx",
+            "source_url": null,
+            "source_sha256": "174e9cfa7045443c508a0c5a14f64b40f80499471536db85339176eff45f5433",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "here and insert details] (). A.2 | If the answer to A.1 is yes, please (): | | Indicate the date of conviction, specify which of points 1 to 6 in 3.A.1 is concerned and the reason(s) for the conviction | date, point(s), reason(s) | Identify who has been convicted | [Click here and insert details] | Insofar as established directly in the conviction, please insert the length of the period of exclusion and the point(s) concerned | [Click here and insert length of the period of exclusion and the point(s) concerned] [I…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-A-Applicants-Self-Declaration-re-Regulation-57 (1).docx",
+            "source_url": null,
+            "source_sha256": "174e9cfa7045443c508a0c5a14f64b40f80499471536db85339176eff45f5433",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "certifications_partner": [
+          {
+            "text": "anagement staff with appropriate educational/professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works The evidence required to pass this criterion should be submitted in the form of a document setting out the Applicant’s organisational structure and the curricula vitae of the Applicant’s management staff and any additional requirements that may be set out below. The curriculum vitae of each management staff member should indicate their rele…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "of personnel with appropriate educational and professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works. The evidence required to pass this criterion should be submitted in the form of a document setting out the Applicant’s organisational structure and the curricula vitae of the Applicant’s personnel and any additional requirements that may be set out below. The curriculum vitae of each of the Applicant’s personnel should indicate their rele…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "staffing_team": [
+          {
+            "text": "minimum standard stated under each Qualification Criterion. 3.4.1a (HS) EDUCATIONAL AND PROFESSIONAL QUALIFICATIONS (Management) The Minimum Standard required to pass this criterion is evidence of management staff with appropriate educational/professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works The evidence required to pass this criterion should be submitted in the form of a document setting out the Applicant’s organisational structure …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rly identify the relevant sub-criterion to which the evidence relates. 3.4.1b (HS) EDUCATIONAL AND PROFESSIONAL QUALIFICATIONS (Personnel) The Minimum Standard required to pass this criterion is evidence of personnel with appropriate educational and professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works. The evidence required to pass this criterion should be submitted in the form of a document setting out the Applicant’s organisational st…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "insurance_bonds": [
+          {
+            "text": "Entry/NA | Applicant Entry/NA | Applicant Entry/NA CA Entry / NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA CA Entry / NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA ===== FILE: files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-D1-QW1-Letter-of-Undertaking-re.-Bond.docx ===…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-D1-QW1-Letter-of-Undertaking-re.-Bond.docx",
+            "source_url": null,
+            "source_sha256": "3a7aeb879f4c52a114949171b22a92dfe55d03de42a5bbcd1f84f4da504587c8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "Applicant Entry/NA | Applicant Entry/NA CA Entry / NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA | Applicant Entry/NA ===== FILE: files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-D1-QW1-Letter-of-Undertaking-re.-Bond.docx ===== Letter of Undertaking from Surety Company Regarding Bond A Dhaoine Uaisle, We confirm that as Surety we are authorised as an insurance undertaking by the Central Bank of…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-D1-QW1-Letter-of-Undertaking-re.-Bond.docx",
+            "source_url": null,
+            "source_sha256": "3a7aeb879f4c52a114949171b22a92dfe55d03de42a5bbcd1f84f4da504587c8",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "ry: Works Contractor/Works Specialist/Works Specialist with Design Input PROJECT NUMBER: | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry SITE Construction contract: (Title & brief description) | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry Site location: | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-B2-Certificate-of-Satisfactory-Project-Execution.docx",
+            "source_url": null,
+            "source_sha256": "d1e911a55cbb5f5583dd10925ed98e410b75b643a4bd4597b24aeda1df12e3ae",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "t PROJECT NUMBER: | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry SITE Construction contract: (Title & brief description) | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry Site location: | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry | Applicant Entry Proportion of Project undertaken by Applicant: | App…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Appendix-B2-Certificate-of-Satisfactory-Project-Execution.docx",
+            "source_url": null,
+            "source_sha256": "d1e911a55cbb5f5583dd10925ed98e410b75b643a4bd4597b24aeda1df12e3ae",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "only. The Applicant must meet the relevant minimum standard stated under each Qualification Criterion. 3.4.1a (HS) EDUCATIONAL AND PROFESSIONAL QUALIFICATIONS (Management) The Minimum Standard required to pass this criterion is evidence of management staff with appropriate educational/professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works The evidence required to pass this criterion should be submitted in the form of a document setting ou…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "sub-criterion 3.4a, the Applicant must clearly identify the relevant sub-criterion to which the evidence relates. 3.4.1b (HS) EDUCATIONAL AND PROFESSIONAL QUALIFICATIONS (Personnel) The Minimum Standard required to pass this criterion is evidence of personnel with appropriate educational and professional qualifications and experience and with Health and Safety qualifications, training and experience relevant to the Works. The evidence required to pass this criterion should be submitted in the form of a document se…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "sla_onsite": [
+          {
+            "text": "cilities. No works are proposed to the existing main fire station building in the Stage 1 Report. Scope of Works The proposed project comprises constructing a new two-storey training building (gross internal floor area 700 sqm approx.), alterations to the BA building & new training tower, new storage shed & gas compound and upgrade works to external yard. The site is a brownfield site (adjacent to existing dwellings). The proposed new building is a two-storey structure comprised of RC column and beam construction …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rises constructing a new two-storey training building (gross internal floor area 700 sqm approx.), alterations to the BA building & new training tower, new storage shed & gas compound and upgrade works to external yard. The site is a brownfield site (adjacent to existing dwellings). The proposed new building is a two-storey structure comprised of RC column and beam construction with composite cladding finish. Construction comprises concrete ground beams on CFA piles, blockwork rising walls, concrete floor slab, me…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "term_value": [
+          {
+            "text": "gainst the award criteria set out in the tender documents, following which the Contracting Authority will select the successful Tenderer. The main works contract is identified in the QW1 as CF1 – Public Works Contract for Building Works designed by the Employer. The successful Tenderer will be appointed as Works Contractor / Contractor for the purposes of the Construction Regulations, as Project Supervisor Construction Stage (PSCS), and as Builder where the Building Control (Amendment) Regulations [BC(A)R] apply. …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "INDICATIVE PROGRAMME The following timeline is envisaged for this procurement: Estimated Contract Value The current order of cost /estimated value of the works is approximately €5.4M (excluding VAT). It is emphasised, however, that this figure is provided strictly for indicative purposes only. Duration The programme estimated is 12-months for construction stage. The anticipated works start in Q2 2027. PROJECT BACKGROUND Project Objectives The project will upgrade the fire service training facilities at the existin…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "award_criteria": [
+          {
+            "text": "ion 3.4c. 2. Safety and Health Plans from '1' number of previous projects, and how health and safety management was implemented on those projects required. APPLICANT NOTE: Where response type above is marked “Evidence Required” and the response to sub-criteria 3.4c is also marked “Evidence Required” the Applicant may include the evidence required above with the evidence required for sub-criteria 3.4c. Where an Applicant includes evidence for this criterion with the evidence required for this criterion 3.4c, the Ap…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1-Part-1-v2.3-25-11-2025  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "c646920da09147b989e8324babdd48e53d41c3df18792cd6af22bff96dbd4f8e",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "mit the required evidence in the SAQ Response may result in exclusion from the Competition. Under the ‘Evaluation’ heading, where the Contracting Authority has chosen “Pass/Fail”, the requirements specified in the Qualification Criterion must be met in full in order to pass, and, if passed, have no further role in calculating the Applicant’s overall score (where a pass/fail and qualitative assessment is being undertaken). Note that Qualification Criteria in Health & Safety Supplements are evaluated on a Pass/Fail …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1-Part-1-v2.3-25-11-2025  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "c646920da09147b989e8324babdd48e53d41c3df18792cd6af22bff96dbd4f8e",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "forms_signatures": [
+          {
+            "text": "us Published Title Contract notice - general directive, standard regime File Associated : ===== FILE: files/1367_9376304_unpacked/1_c4t_9376304_1.xml ===== Complete Tender File MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDA+dt1VVwUZUYSgmf1FMNPmB7chu5nRBOHeya4nw2ATOu0pxrrSKGlzCb5ZgIghtoX0vPRcpMo6Gvlhf3DCls3TthnOYD9BvhDfN4sgcocUPPt36eFdgkTux9nADnkMRZhsTX/9o6/OnKyGCMifCKULppSABMTwaXcXutEZfkYPwIDAQAB ===== FILE: files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-…",
+            "source": "files/1367_9376304_unpacked/1_c4t_9376304_1.xml",
+            "source_url": null,
+            "source_sha256": "8c396b44d1988d16da0a1dae98b6adee3b6163f56962d7c26c0752b1b111fe5e",
+            "source_kind": "text",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "inimum Standard required to pass this criterion is evidence in the form specified below of the Health and Safety aspects of works previously undertaken by the Applicant. A Contracting Authority may only require Applicants to submit a list of works projects provided over a maximum period of the past 5 years. However, where necessary in order to ensure an adequate level of competition, the Contracting Authority may take into account works delivered over the previous 7 year period. The period specified in the sub-cri…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/3.4.1-HS-Works-Contractor_v3.1-25-11-2025.docx",
+            "source_url": null,
+            "source_sha256": "a78ef0445d747c6161f0e0bd1fda343cab2883cda3e6152733eb360e1ea336da",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "1 day of the latest date for receipt of queries. The Authority has no obligation to respond to queries. If the Authority responds to a query, it will send the response to all Applicants. The Authority will not accept responsibility for information relayed (or not relayed) via third parties. If the SAQ documentation as issued by the Authority is in any way altered or edited, the subsequent tender may be deemed inadmissible. If an Applicant becomes aware of any ambiguity, discrepancy, error or omission in or between…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "of any ambiguity, discrepancy, error or omission in or between these documents, it must immediately inform the Authority, even after the time for submitting queries has expired. SAQ Returns & Deadline Completed SAQs should be returned by the date and time included within the e-tenders contract notice. SAQs must be submitted via the electronic post-box available on www.etenders.gov.ie. Only SAQs and tenders submitted to the electronic post-box will be accepted. SAQs submitted by fax or post/courier will NOT be acce…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/Project Information Memorandum -  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "b00b76336cc47be21c5f1d16535ec95958f30192ce56ae38d4f827059dc3201a",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ],
+        "ip_data_security": [
+          {
+            "text": ", the Contracting Authority may state a review procedure, whereby an Applicant who disputes a decision of the Contracting Authority about whether a SAQ Response complies with this Questionnaire may raise the matter with the Contracting Authority. The review procedure should include appropriate timelines for the submission of the query and response times. Important Note to Applicants: Any such review process set out in the Project Particulars is not mandatory. Applicants should obtain legal advice as to the review …",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1-Part-1-v2.3-25-11-2025  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "c646920da09147b989e8324babdd48e53d41c3df18792cd6af22bff96dbd4f8e",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "h the Contracting Authority. The review procedure should include appropriate timelines for the submission of the query and response times. Important Note to Applicants: Any such review process set out in the Project Particulars is not mandatory. Applicants should obtain legal advice as to the review procedures that may be available to them under law, as well as the timeframes in which such review procedures may be availed of. DATA PROTECTION NOTICE As part of this Competition, the Applicant may (at various stages)…",
+            "source": "files/1367_9376304_unpacked/2_Revised Tender Pack_unpacked/Revised Tender Pack/QW1-Part-1-v2.3-25-11-2025  Dundalk Fire Service Learning and Development Centre – Development and upgrade works.docx",
+            "source_url": null,
+            "source_sha256": "c646920da09147b989e8324babdd48e53d41c3df18792cd6af22bff96dbd4f8e",
+            "source_kind": "docx",
+            "provenance_strength": "DOCUMENT_HASH_ATTRIBUTED",
+            "raw_machine_format": false,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
