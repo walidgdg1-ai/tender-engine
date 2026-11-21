@@ -1,7 +1,7 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-11-21T17:11:32.984096+00:00",
-  "source_inbox_updated_at": "2026-11-21T17:11:31.719083+00:00",
+  "generated_at": "2026-11-21T17:13:11.412364+00:00",
+  "source_inbox_updated_at": "2026-11-21T17:13:10.125465+00:00",
   "latest_source_dce_run_id": 44927876750,
   "batch_index": 7,
   "start_rank": 71,
@@ -38,6 +38,50 @@
         "shard": 7,
         "candidate_id": "US-SAM:fa0229e741a3464393df29e3b3f078f7",
         "release_tag": "dce-harvest-36724785787"
+      },
+      "evidence_quality": {
+        "raw_status": null,
+        "documents_with_text": null,
+        "text_chars": null,
+        "attributed_compact_snippets": 0,
+        "artifact_lookup_required_snippets": 0,
+        "all_compact_snippets_document_attributed": false
+      },
+      "evidence": {},
+      "provenance_override": null,
+      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
+      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
+    },
+    {
+      "candidate_id": "PL-BZP:08df46fa-c229-33ab-7343-eb000163b214",
+      "title": "Świadczenie usługi testów bezpieczeństwa w okresie 24 miesięcy (3 części)",
+      "buyer": "CENTRALNY OŚRODEK INFORMATYKI",
+      "portal": "PL_EZAMOWIENIA",
+      "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df46fa-c229-33ab-7343-eb000163b214",
+      "deadline": "2026-12-07T10:00:00+00:00",
+      "estimated_value": null,
+      "currency": null,
+      "review_stage": "BUSINESS_GATES",
+      "gate_readiness": true,
+      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
+      "evidence_gate_coverage": 1,
+      "spm_post_dce_score": 40,
+      "spm_fit_band": "GOOD",
+      "spm_fit_reasons": [
+        "web-application"
+      ],
+      "spm_friction_signals": [],
+      "deadline_authority_status": "CONSISTENT_AUTHORITATIVE_SUBMISSION_DATE",
+      "deadline_conflict": false,
+      "authoritative_submission_date": null,
+      "source_dce_run_id": 44927876750,
+      "source_shard": 13,
+      "review_key": "9802d3b5ba1a4b07b1488ba8cdbae81c2fd89ca1a71af3d5afbf64aed49704d7",
+      "artifact_locator": {
+        "dce_run_id": 44927876750,
+        "shard": 13,
+        "candidate_id": "PL-BZP:08df46fa-c229-33ab-7343-eb000163b214",
+        "release_tag": "dce-harvest-44927876750"
       },
       "evidence_quality": {
         "raw_status": null,
@@ -393,51 +437,6 @@
         "shard": 0,
         "candidate_id": "TED:460870-2026",
         "release_tag": "dce-harvest-32887258753"
-      },
-      "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
-        "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
-      },
-      "evidence": {},
-      "provenance_override": null,
-      "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
-      "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
-    },
-    {
-      "candidate_id": "TED:117413-2026",
-      "title": "Ireland – Training services – 2025/66 - Readvertisement Year 1 - Panel for the Provision of Service Providers to deliver Training Courses to AMTCE in 6 Lots",
-      "buyer": "Louth and Meath Education and Training Board 1384",
-      "portal": "TED",
-      "notice_url": "https://ted.europa.eu/en/notice/-/detail/117413-2026",
-      "deadline": "2026-12-21T12:00:00+00:00",
-      "estimated_value": 750000.0,
-      "currency": "EUR",
-      "review_stage": "BUSINESS_GATES",
-      "gate_readiness": true,
-      "content_quality": "SUBSTANTIVE_DCE_PRESENT",
-      "evidence_gate_coverage": 14,
-      "spm_post_dce_score": 33,
-      "spm_fit_band": "MAYBE",
-      "spm_fit_reasons": [
-        "training-services",
-        "training-course"
-      ],
-      "spm_friction_signals": [],
-      "deadline_authority_status": "DCE_AUTHORITATIVE_SUBMISSION_DATE_OVERRIDES_NOTICE_METADATA",
-      "deadline_conflict": false,
-      "authoritative_submission_date": null,
-      "source_dce_run_id": 32780541374,
-      "source_shard": 2,
-      "review_key": "d2fbd63396f761558f782e04d1ee8e4b56c68183728acdceb7214284f1875ca1",
-      "artifact_locator": {
-        "dce_run_id": 32780541374,
-        "shard": 2,
-        "candidate_id": "TED:117413-2026",
-        "release_tag": "dce-harvest-32780541374"
       },
       "evidence_quality": {
         "raw_status": null,
