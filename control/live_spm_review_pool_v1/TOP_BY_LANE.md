@@ -61,7 +61,9 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:810346-2026** · FRA · p=66 · deadline=2027-01-13T01:00:00+00:00 · blockers=none · France – Printing and distribution services – Mise en page et impression du magazine d'information et distribution du magazine d'information et autres supports - Communauté de communes Granville Terre et Mer
 - **TED:804212-2026** · FRA · p=64 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – Graphic design services – MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
 - **FR-BOAMP:26-111744** · FR · p=64 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · MAGAZINE DES PAYS DE LA LOIRE - LOT1 MISE EN PAGE
+- **FR-BOAMP:26-112835** · FR · p=64 · deadline=2026-12-04T12:00:00+00:00 · blockers=none · Edition, rédaction, mise en page, impression et diffusion du journal du Parc national de forêts
 - **FR-BOAMP:26-103965** · FR · p=64 · deadline=2026-12-07T12:00:00+00:00 · blockers=none · TRAITEMENT DES INFORMATIONS, MISE EN PAGE, IMPRESSION, CONDITIONNEMENT ET ACHEMINEMENT DES DOCUMENTS DES PUBLICITES DE COLLECTES (AFFICHES ET FLYERS) DES ETABLISSEMENTS DE METROPOLE DE L’EFS
+- **FR-BOAMP:26-113104** · FR · p=64 · deadline=2026-12-11T17:00:00+00:00 · blockers=none · Prestation de conception graphique pour l'Opéra de Rennes
 - **FR-BOAMP:26-111071** · FR · p=64 · deadline=2026-12-16T11:00:00+00:00 · blockers=none · Toulouse Team, la Spl Agence d'attractivité de Toulouse Metropole, souhaite faire appel à un prestataire pour prendre en charge la création graphique, la mise en page et l'accompag
 - **FR-BOAMP:26-111320** · FR · p=64 · deadline=2026-12-16T11:00:00+00:00 · blockers=none · Prestations de graphisme sur tous supports de communication pour les besoins d'OPCO Mobilités
 - **FR-BOAMP:26-112162** · FR · p=64 · deadline=2027-01-13T11:00:00+00:00 · blockers=none · Mise en page et impression du magazine d'information et distribution du magazine d'information et autres supports - Communauté de communes Granville Terre et Mer
@@ -72,8 +74,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-92654** · FR · p=58 · deadline=UNKNOWN · blockers=none · Refonte graphique de la maquette, réalisation de la mise en page et d'impression du magazine municipal
 - **TED:665833-2026** · CHE · p=54 · deadline=2027-01-12T01:00:00+00:00 · blockers=none · Switzerland – Data services – (26163) 998 Technikpartner WEB
 - **CH-SIMAP:390cdb30-9e68-4c25-bed9-8384e4a366cc** · CH · p=54 · deadline=2027-01-12T22:59:00+00:00 · blockers=none · (26163) 998 Partenaire technique WEB
-- **TED:716110-2026** · IRL · p=48 · deadline=2026-11-24T11:00:00+00:00 · blockers=none · Ireland – E-learning services – TR5866 A Single Supplier Framework Agreement Digital Learning Design, Development and Maintenance Services pursuant to a framework agreement
-- **TED:762192-2026** · BEL · p=46 · deadline=2026-12-03T10:00:00+00:00 · blockers=none · Belgium – Advertising and marketing services – European Potato Promotion Campaign
 
 ## digitization
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -155,10 +155,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:8f2c81e8b86f44d59ee4540988491b3a** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:f2fb6bafa6ec4f72aeba3231e4961a44** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:fa59c8d3be7b4ea98fb6372bc9f99ccc** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
-- **US-SAM:74e8563095734e87982a9923d1f44141** · US · p=46 · deadline=2026-11-20T20:30:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
-- **US-SAM:c44ace0216034910aa264f583477912c** · US · p=46 · deadline=2026-11-20T20:30:00+00:00 · blockers=none · 47--CONNECTION,FLEXIBLE
-- **US-SAM:cb7425fdf9304332945cf90e4fafd0d1** · US · p=46 · deadline=2026-11-20T20:30:00+00:00 · blockers=none · 48--MANIFOLD ASSEMBLY - AND SIMILAR REPLACEMENT PARTS, IN REPAIR/MODIFICATION OF
-- **US-SAM:d810163560d143d5850b976880537016** · US · p=46 · deadline=2026-11-20T20:30:00+00:00 · blockers=none · 48--VALVE REGULATING SY, IN REPAIR/MODIFICATION OF
 - **US-SAM:4ed31d622dd045a28614a2bfbd54ba47** · US · p=46 · deadline=2026-11-23T04:00:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
 - **US-SAM:5d14e9a1e70d46679312a2d07a360e71** · US · p=46 · deadline=2026-11-23T04:00:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB
 - **US-SAM:8ecae9c8e7064064be2cad0ea627b3d8** · US · p=46 · deadline=2026-11-23T04:00:00+00:00 · blockers=none · 59--CIRCUIT CARD ASSEMB, IN REPAIR/MODIFICATION OF
@@ -168,6 +164,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:cf2e4b18b9214a48975c863638132efc** · US · p=46 · deadline=2026-11-27T18:00:00+00:00 · blockers=none · 43--PUMP UNIT,CENTRIFUG, IN REPAIR/MODIFICATION OF
 - **US-SAM:953cc3ed58d64af2a3f7d98f413beb83** · US · p=46 · deadline=2026-11-30T04:00:00+00:00 · blockers=none · 48--VALVE, SOL 3-WAY
 - **US-SAM:bf2622928d8b4719adfb1e2b97c801a3** · US · p=46 · deadline=2026-11-30T04:00:00+00:00 · blockers=none · 66--TRANSDUCER,MOTIONAL
+- **US-SAM:21f6b3b05ff14f5ab3c385d04ece9394** · US · p=46 · deadline=2026-11-30T18:00:00+00:00 · blockers=none · 66--INDICATOR,RADIO FRE, IN REPAIR/MODIFICATION OF
+- **US-SAM:57647c9fb12a43909d2555f3fc69042a** · US · p=46 · deadline=2026-11-30T20:30:00+00:00 · blockers=none · 48--VALVE,GLOBE
+- **US-SAM:d1bae6c995df4104a3bca95d68ac7892** · US · p=46 · deadline=2026-11-30T20:30:00+00:00 · blockers=none · 20--PRAIRIE AIR,STBD, IN REPAIR/MODIFICATION OF
+- **US-SAM:3c84ec0f859641f4956750f58bffc6ae** · US · p=46 · deadline=2026-12-02T04:00:00+00:00 · blockers=none · 16--GENERATOR,VARIABLE, IN REPAIR/MODIFICATION OF
 
 ## social_marketing
 - **TED:350690-2026** · DEU · p=46 · deadline=2030-02-19T23:00:59+00:00 · blockers=none · Germany – Advertising and marketing services – Development of Technical Aviation Safety Promotion Content
@@ -190,7 +190,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:699650-2026** · NOR · p=50 · deadline=2032-11-22T11:00:00+00:00 · blockers=none · Norway – Network equipment – Dynamic purchasing system for supplementary procurements, assistance and consultancy services for network systems and equipment.
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:6370d30d6bf54fc3b0668120edb19965** · US · p=48 · deadline=2026-11-21T00:00:00+00:00 · blockers=none · WebEx and Expressway Software Licenses
 - **CA:BPM026895/35409** · CA · p=48 · deadline=2026-11-23T11:00:00+00:00 · blockers=none · Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation
 - **CA:BPM026777/35500** · CA · p=48 · deadline=2026-11-23T14:00:00+00:00 · blockers=none · Red Hat OpenShift Bare Metal Node
 - **CA:BPM026880/35383** · CA · p=48 · deadline=2026-11-23T14:00:00+00:00 · blockers=none · BPM026880 - RFQ-DDP - Red Hat - DND-MDN
@@ -199,6 +198,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:f1f18bee9d474db0918820b8baf8303d** · US · p=48 · deadline=2026-11-23T22:00:00+00:00 · blockers=none · Radio Detection Kit with Accessories - No Alternatives
 - **TED:750821-2026** · NLD · p=48 · deadline=2026-11-24T11:00:00+00:00 · blockers=none · Netherlands – Air traffic control software package – UTM Drone Flight Planning Tool
 - **US-SAM:355f236ce5374e48a1732e29c4fa0f32** · US · p=48 · deadline=2026-11-24T19:00:00+00:00 · blockers=none · MIM SOFTWARE SOFTWARE LICENSES AND MAINTENANCE
+- **US-SAM:89ccec118a6c4395a3da6babd2c52292** · US · p=48 · deadline=2026-11-25T18:00:00+00:00 · blockers=none · Rustici Content Controller License Renewal
 
 ## transcription
 - **FR-BOAMP:26-106148** · FR · p=54 · deadline=2026-12-01T12:00:00+00:00 · blockers=none · Retranscription de réunions débats et discours de la Région Grand Est
@@ -213,7 +213,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-88536** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **TED:694228-2026** · NOR · p=48 · deadline=2026-11-23T00:00:00+00:00 · blockers=none · Norway – Translation services – Framework Agreement for Norwegian-Northern Sami Translation Services
-- **TED:750606-2026** · DEU · p=40 · deadline=2026-11-20T22:59:00+00:00 · blockers=none · Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)
+- **TED:750606-2026** · DEU · p=40 · deadline=2026-11-27T00:00:00+00:00 · blockers=none · Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)
 - **TED:755183-2026** · ESP · p=40 · deadline=2026-11-27T01:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de traducción, interpretación y transcripción en los órganos judiciales, la fiscalía, el instituto de medicina legal y ciencias forenses de Cantabria y la oficina de asistencia a las víctimas del delito que tienen su sede en la comunidad Autónoma de Cantabria.
 - **TED:756747-2026** · BEL · p=40 · deadline=2026-11-30T11:00:00+00:00 · blockers=none · Belgium – Translation services – Aanleveren van OT voor VRT-producties
 - **TED:804453-2026** · BEL · p=40 · deadline=2026-11-30T11:00:00+00:00 · blockers=none · Belgium – Translation services – Aanleveren van OT voor VRT-producties
