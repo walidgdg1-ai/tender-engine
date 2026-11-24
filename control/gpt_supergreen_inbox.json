@@ -1,6 +1,6 @@
 {
   "schema": "GPT_WEB_REVIEW_INBOX_V3_FAIR_SHARE",
-  "updated_at": "2026-11-24T07:41:14.714943+00:00",
+  "updated_at": "2026-11-24T07:41:29.434702+00:00",
   "latest_source_dce_run_id": 45349721764,
   "review_queue": [
     {
@@ -20563,9 +20563,9 @@
           }
         ]
       },
-      "source_dce_run_id": 45172570990,
-      "source_shard": 13,
-      "hot_ready_at": "2026-11-23T12:20:42.029876+00:00",
+      "source_dce_run_id": 45349721764,
+      "source_shard": 0,
+      "hot_ready_at": "2026-11-24T07:41:27.162326+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 14,
       "spm_fit_band": "LOW",
@@ -20574,15 +20574,15 @@
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "8a8239fde4cb89b8c092b7988ed605362a938518cd022db3cb4681d604613820",
+      "review_key": "3ef05fcd4e8f26e01ef095598f77befa392542c41a74137f5e90016af4820c33",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 14,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 45172570990,
-        "shard": 13,
+        "dce_run_id": 45349721764,
+        "shard": 0,
         "candidate_id": "NO-DOFFIN:2026-118119",
         "release_tag": null
       },
@@ -41349,9 +41349,9 @@
           }
         ]
       },
-      "source_dce_run_id": 45172570990,
-      "source_shard": 13,
-      "hot_ready_at": "2026-11-23T12:20:42.029876+00:00",
+      "source_dce_run_id": 45349721764,
+      "source_shard": 0,
+      "hot_ready_at": "2026-11-24T07:41:27.162326+00:00",
       "review_contract": "Gate-ready authoritative DCE evidence pack from the current DCE generation. Unknown is never PASS. FINAL_SUPER_GREEN requires every mandatory gate resolved and authoritative deadline reconciliation.",
       "spm_post_dce_score": 14,
       "spm_fit_band": "LOW",
@@ -41360,15 +41360,15 @@
       "review_lane": "SPM_PRIORITY",
       "review_state": "PENDING_GPT_WEB",
       "review_tick": false,
-      "review_key": "8a8239fde4cb89b8c092b7988ed605362a938518cd022db3cb4681d604613820",
+      "review_key": "3ef05fcd4e8f26e01ef095598f77befa392542c41a74137f5e90016af4820c33",
       "recommended_gpt_action": "GPT_WEB_REVIEW_NOW",
       "gpt_priority_score": 14,
       "upstream_signal": "DCE_REVIEW_READY",
       "finality": "NOT_A_VERDICT_GPT_WEB_MUST_REVIEW",
-      "inbox_live_source": "existing_inbox",
+      "inbox_live_source": "control/gpt_review_hot.json",
       "evidence_locator": {
-        "dce_run_id": 45172570990,
-        "shard": 13,
+        "dce_run_id": 45349721764,
+        "shard": 0,
         "candidate_id": "NO-DOFFIN:2026-118119",
         "release_tag": null
       },
@@ -41619,7 +41619,7 @@
     "reviewed_ticks_total": 540,
     "excluded_already_reviewed": 0,
     "excluded_already_in_final_bank": 0,
-    "pending_before_visible_cap": 160,
+    "pending_before_visible_cap": 161,
     "pending_by_stage": {
       "BUSINESS_GATES": 140,
       "DCE_AUTHENTICITY": 20
