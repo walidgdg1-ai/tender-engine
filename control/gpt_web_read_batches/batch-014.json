@@ -1,8 +1,8 @@
 {
   "schema": "GPT_WEB_READ_BATCH_V3_PROVENANCE_REFRESH",
-  "generated_at": "2026-11-25T14:56:22.837506+00:00",
-  "source_inbox_updated_at": "2026-11-25T12:34:03.242360+00:00",
-  "latest_source_dce_run_id": 45613087434,
+  "generated_at": "2026-11-25T21:57:33.997033+00:00",
+  "source_inbox_updated_at": "2026-11-25T21:57:32.697830+00:00",
+  "latest_source_dce_run_id": 45708214165,
   "batch_index": 14,
   "start_rank": 141,
   "end_rank": 150,
@@ -320,7 +320,7 @@
       "spm_fit_reasons": [],
       "spm_friction_signals": [],
       "deadline_authority_status": "UNLABELLED_DCE_DEADLINE_CONFLICT_REVIEW_REQUIRED",
-      "deadline_conflict": false,
+      "deadline_conflict": true,
       "authoritative_submission_date": null,
       "source_dce_run_id": 45613087434,
       "source_shard": 1,
@@ -332,14 +332,83 @@
         "release_tag": "dce-harvest-45613087434"
       },
       "evidence_quality": {
-        "raw_status": null,
-        "documents_with_text": null,
-        "text_chars": null,
-        "attributed_compact_snippets": 0,
+        "raw_status": "DOWNLOADED_PUBLIC",
+        "documents_with_text": 1,
+        "text_chars": 4194,
+        "attributed_compact_snippets": 6,
         "artifact_lookup_required_snippets": 0,
-        "all_compact_snippets_document_attributed": false
+        "all_compact_snippets_document_attributed": true
       },
-      "evidence": {},
+      "evidence": {
+        "entity_geography": [
+          {
+            "text": "ts under the Contract No. MOES-UIHERP-C2-MERGERS-92 \"Procurement of equipment for film and animation laboratory\" . 2. The Ministry of Education and Science of Ukraine invites eligible participants to submit sealed proposals for the supply of television and audiovisual equipment and the provision of related services. More detailed information is provided in the Technical Specifications. The expected duration of the supply of goods is 90 (ninety) days from the date of signing the contract. 3. The World Bank requires…",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "f equipment for film and animation laboratory\" . 2. The Ministry of Education and Science of Ukraine invites eligible participants to submit sealed proposals for the supply of television and audiovisual equipment and the provision of related services. More detailed information is provided in the Technical Specifications. The expected duration of the supply of goods is 90 (ninety) days from the date of signing the contract. 3. The World Bank requires compliance with the Bank's Anti-Corruption Guidelines and its app…",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "subcontracting_consortium": [
+          {
+            "text": "tes eligible participants to submit sealed proposals for the supply of television and audiovisual equipment and the provision of related services. More detailed information is provided in the Technical Specifications. The expected duration of the supply of goods is 90 (ninety) days from the date of signing the contract. 3. The World Bank requires compliance with the Bank's Anti-Corruption Guidelines and its applicable sanctions policies and procedures, as outlined in the World Bank Group Sanctions Framework. In fu…",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "deliverables_scope": [
+          {
+            "text": "received the Loan No. 9238-UA from the International Bank for Reconstruction and Development (IBRD) in US dollars to finance the Ukraine Improving Higher Education for Results Project and intends to use part of the funds to make payments under the Contract No. MOES-UIHERP-C2-MERGERS-92 \"Procurement of equipment for film and animation laboratory\" . 2. The Ministry of Education and Science of Ukraine invites eligible participants to submit sealed proposals for the supply of television and audiovisual equipment and t…",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          },
+          {
+            "text": "rement, \"similar goods\" refers to: Lot 1 and Lot 2: professional film, video, audio, and photographic equipment, lighting equipment, or similar multimedia equipment. The total value of successfully completed deliveries used to demonstrate compliance must be at least 40% of the expected value of the relevant Lot. Such experience may be evidenced by one or more contracts. If a single contract includes various categories of goods, only the value of those goods that meet the aforementioned definition of similar goods …",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ],
+        "submission": [
+          {
+            "text": "well as for their verification by auditors appointed by the Bank. The attention of interested Consultants is drawn to Section III, paragraphs, 3.14, 3.16, and 3.17 of the Procurement Regulations, setting forth the World Bank’s policy on conflict of interest. 4. The participants must meet the following minimum criteria: A participant submitting a proposal must have been registered for at least 3 years prior to the date preceding the date of this RFQ; The participant must confirm successful experience in supplying g…",
+            "source": "files/world_bank_procurement_notice_OP00483169.html",
+            "source_url": "https://search.worldbank.org/api/procnotices?format=json&rows=25&qterm=OP00483169",
+            "source_sha256": "66e87738bd0d2d985b30d0bde10304e05456786f87639d8a3334078e190c503e",
+            "source_kind": "text",
+            "provenance_strength": "SOURCE_URL_ATTRIBUTED",
+            "raw_machine_format": true,
+            "artifact_lookup_required": false
+          }
+        ]
+      },
       "provenance_override": null,
       "evidence_instruction": "A compact snippet without document path+SHA is navigation evidence only. Follow artifact_locator before resolving a mandatory gate from legacy/unattributed material. Raw machine-format text is display-cleaned but must still be checked against its source artifact.",
       "finality": "NOT_A_VERDICT_ASSISTANT_MUST_ADJUDICATE"
