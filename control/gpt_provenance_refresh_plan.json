@@ -1,8 +1,8 @@
 {
   "schema": "DCE_PROVENANCE_REFRESH_PLAN_V4_REAL_SHARD_ARTIFACT_NAME",
-  "source_inbox_updated_at": "2026-11-25T12:34:03.242360+00:00",
-  "eligible_legacy_reviews": 116,
-  "selected": 13,
+  "source_inbox_updated_at": "2026-11-26T13:24:15.812771+00:00",
+  "eligible_legacy_reviews": 114,
+  "selected": 10,
   "release_count": 2,
   "release_tags": [
     "dce-harvest-44580039881",
@@ -54,17 +54,6 @@
       "portal": "IRELAND_ETENDERS"
     },
     {
-      "candidate_id": "TED:804212-2026",
-      "dce_run_id": 45292950461,
-      "source_shard": 2,
-      "workflow_artifact_name": "dce-shard-2",
-      "release_tag": "dce-harvest-45292950461",
-      "archive_name": "candidate-TED-804212-2026.tar.gz",
-      "spm_fit_band": "HOT",
-      "score": 69,
-      "portal": "TED"
-    },
-    {
       "candidate_id": "IE:9437374",
       "dce_run_id": 45292950461,
       "source_shard": 8,
@@ -85,17 +74,6 @@
       "spm_fit_band": "GOOD",
       "score": 63,
       "portal": "MALTA_EPPS"
-    },
-    {
-      "candidate_id": "TED:765744-2026",
-      "dce_run_id": 45292950461,
-      "source_shard": 0,
-      "workflow_artifact_name": "dce-shard-0",
-      "release_tag": "dce-harvest-45292950461",
-      "archive_name": "candidate-TED-765744-2026.tar.gz",
-      "spm_fit_band": "GOOD",
-      "score": 63,
-      "portal": "TED"
     },
     {
       "candidate_id": "CA:WS5799408035",
@@ -140,17 +118,6 @@
       "spm_fit_band": "GOOD",
       "score": 47,
       "portal": "EE_RHR"
-    },
-    {
-      "candidate_id": "MT-EPPS:14280639",
-      "dce_run_id": 45292950461,
-      "source_shard": 4,
-      "workflow_artifact_name": "dce-shard-4",
-      "release_tag": "dce-harvest-45292950461",
-      "archive_name": "candidate-MT-EPPS-14280639.tar.gz",
-      "spm_fit_band": "GOOD",
-      "score": 43,
-      "portal": "MALTA_EPPS"
     }
   ],
   "policy": "HOT/GOOD/MAYBE legacy evidence only. Exact dce-shard-<source_shard> workflow artifact is preferred because it contains the original worker output; immutable canonical release bundle is fallback. No procurement fact or verdict is changed."
