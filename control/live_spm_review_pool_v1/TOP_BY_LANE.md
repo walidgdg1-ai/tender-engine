@@ -11,7 +11,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:764550-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Documentation services – Mise en place d'une solution de dématérialisation et de correction en ligne sécurisée des épreuves écrites et orales du Concours Commun Mines-Ponts et des épreuves écrites de la procédure d'admission sur titre GEI-UNIV
 - **TED:811958-2026** · FRA · p=58 · deadline=2026-12-21T02:00:00+00:00 · blockers=none · France – Data-processing services – Prestations de numérisation et d'océrisation de documents d'archives 2027-2031
 - **TED:790943-2026** · FRA · p=57 · deadline=2026-11-26T15:00:00+00:00 · blockers=none · France – Interpretation services – Interprétariat par déplacement physique
-- **FR-BOAMP:26-104276** · FR · p=56 · deadline=2026-11-26T12:00:00+00:00 · blockers=none · Accord-cadre à bons de commande relatif à l'impression et à la livraison de supports de communication
 - **FR-BOAMP:26-113553** · FR · p=56 · deadline=2026-11-26T14:30:00+00:00 · blockers=none · 2026A0243 - Fourniture, impression et livraison de signalétique destinée aux Parcs naturels départementaux ainsi qu'aux itinéraires de randonnées et aux sites d'activités de pleine nature.
 - **TED:818842-2026** · FRA · p=56 · deadline=2026-11-26T14:30:00+00:00 · blockers=none · France – Signs and related items – Fourniture, impression et livraison de signalétique destinée aux Parcs naturels départementaux ainsi qu’aux itinéraires de randonnées et aux sites d’activités de pleine nature.
 - **FR-BOAMP:26-104147** · FR · p=56 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS DE COMMUNICATION
@@ -23,6 +22,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:765529-2026** · FRA · p=56 · deadline=2026-12-04T01:00:00+00:00 · blockers=none · France – News-agency services – Rédaction, impression et régie publicitaire de supports de communication du CHU de Poitiers
 - **FR-BOAMP:26-106401** · FR · p=56 · deadline=2026-12-04T11:00:00+00:00 · blockers=none · Rédaction, impression et régie publicitaire de supports de communication du CHU de Poitiers
 - **FR-BOAMP:26-112839** · FR · p=56 · deadline=2026-12-04T12:00:00+00:00 · blockers=none · TRAVAUX DE PRESTATION GRAPHIQUE, D’IMPRESSION ET DE FACONNAGE POUR LE PARC NATIONAL DE FORETS
+- **FR-BOAMP:26-103638** · FR · p=56 · deadline=2026-12-04T16:00:00+00:00 · blockers=none · Impression et distribution de Haute-Saône Magazine
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -166,7 +166,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 ## social_marketing
 - **TED:350690-2026** · DEU · p=46 · deadline=2030-02-19T23:00:59+00:00 · blockers=none · Germany – Advertising and marketing services – Development of Technical Aviation Safety Promotion Content
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
-- **TED:772936-2026** · IRL · p=40 · deadline=2026-11-26T12:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – Provision of Social Media Management Platform
 - **MT-EPPS:14295087** · MT · p=40 · deadline=2026-12-10T08:30:00+00:00 · blockers=none · SPD3/2026/073 - TENDER FOR THE PROVISION OF DIGITAL MARKETING SERVICES TO PROMOTE GOZO AS A HOLIDAY DESTINATION
 - **UK_FTS_OCDS:108199-2026** · GB · p=40 · deadline=2026-12-15T12:00:00+00:00 · blockers=none · Glasgow Business Growth Framework - Phase 4
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
