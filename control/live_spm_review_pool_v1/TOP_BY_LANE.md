@@ -11,8 +11,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:764550-2026** · FRA · p=58 · deadline=2026-12-14T01:00:00+00:00 · blockers=none · France – Documentation services – Mise en place d'une solution de dématérialisation et de correction en ligne sécurisée des épreuves écrites et orales du Concours Commun Mines-Ponts et des épreuves écrites de la procédure d'admission sur titre GEI-UNIV
 - **TED:811958-2026** · FRA · p=58 · deadline=2026-12-21T02:00:00+00:00 · blockers=none · France – Data-processing services – Prestations de numérisation et d'océrisation de documents d'archives 2027-2031
 - **TED:826443-2026** · FRA · p=58 · deadline=2027-01-20T01:00:00+00:00 · blockers=none · France – Toner cartridges – Accord cadre relatif à la fourniture de consommables pours systèmes d'impression, de numémérisation et d'impression 3D
-- **FR-BOAMP:26-104147** · FR · p=56 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · IMPRESSION DE DOCUMENTS DIVERS DE COMMUNICATION
-- **FR-BOAMP:26-106495** · FR · p=56 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · Impression et livraison de supports d'information municipale pour la commune de Castelsarrasin
 - **FR-BOAMP:26-105959** · FR · p=56 · deadline=2026-11-30T12:00:00+00:00 · blockers=none · Fabrication, l'impression et la pose/dépose d'adhésifs événementiels du parc tramways et bus et des agences commerciales de M TAG
 - **FR-BOAMP:26-105885** · FR · p=56 · deadline=2026-12-03T14:00:00+00:00 · blockers=none · Accord-cadre de services de publications et d'impression de 2027 à 2030 (5 lots) Groupement de commande entre le Ville de Menton et le Centre Communal d'Aide Sociale de la Ville de Menton pour l'ac...
 - **FR-BOAMP:26-105318** · FR · p=56 · deadline=2026-12-03T15:00:00+00:00 · blockers=none · IMPRESSION DES DOCUMENTS ADMINISTRATIFS ET DE COMMUNICATION POUR LE GROUPEMENT DE COMMANDES : VILLE DE CANET-EN-ROUSSILLON, CCAS, CANET TOURISME ET SPL SILLAGES
@@ -23,6 +21,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-103638** · FR · p=56 · deadline=2026-12-04T16:00:00+00:00 · blockers=none · Impression et distribution de Haute-Saône Magazine
 - **FR-BOAMP:26-111511** · FR · p=56 · deadline=2026-12-09T15:00:00+00:00 · blockers=none · Impression de Supports de Communication pour le compte de la Chambre de Métiers et de l'Artisanat de la Réunion
 - **FR-BOAMP:26-110176** · FR · p=56 · deadline=2026-12-14T12:00:00+00:00 · blockers=none · IMPRESSION ET LIVRAISON DES REVUES MUNICIPALES ET DES DOCUMENTS D’INFORMATIONS DE LA VILLE DE NEMOURS
+- **FR-BOAMP:26-110178** · FR · p=56 · deadline=2026-12-15T10:00:00+00:00 · blockers=none · Impression de divers documents pour la commune de Choisy-le-Roi
+- **FR-BOAMP:26-109274** · FR · p=56 · deadline=2026-12-15T11:00:00+00:00 · blockers=none · 2026EPC0011 - IMPRESSION ET FABRICATION DE SUPPORT DE COMMUNICATION ET DE SIGNALETIQUE EVENEMENTIELLE
 
 ## accessibility
 - **TED:209183-2024** · FRA · p=72 · deadline=UNKNOWN · blockers=none · France – Miscellaneous software development services and computer systems – Mise à disposition d’une solution de gestion de remboursement des frais de déplacements professionnels en mode software as a service et de prestations associées
@@ -174,7 +174,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## software_resale
 - **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
-- **TED:810003-2026** · IRL · p=50 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · Ireland – IT services: consulting, software development, Internet and support – HSE 28439 - Restricted Procedure to procure a HSE Enterprise Integration Platform as a Service ( EiPaaS)
 - **TED:805578-2026** · POL · p=50 · deadline=2026-12-02T01:00:00+00:00 · blockers=none · Poland – Computer equipment and supplies – Multiple framework contract for the supply of ICT hardware, spare parts, accessories and associated services (SUPEPAAS)
 - **TED:795601-2026** · IRL · p=50 · deadline=2026-12-03T12:00:00+00:00 · blockers=none · Ireland – License management software package – Supplier to provide VMware Cloud Foundation software licences and support and associated Environmental services pursuant to a contract.
 - **TED:823241-2026** · BEL · p=50 · deadline=2027-01-25T01:00:00+00:00 · blockers=none · Belgium – Computer equipment and supplies – Timestamping
@@ -193,6 +192,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:778984-2026** · FIN · p=48 · deadline=2026-12-09T00:00:00+00:00 · blockers=none · Finland – Software package and information systems – Crypto Asset Tax Calculation Solution
 - **FI-HILMA:61360** · FI · p=48 · deadline=2026-12-09T10:00:00+00:00 · blockers=none · Crypto Asset Tax Calculation Solution
 - **US-SAM:c0d1877fdc934ce89d51c4cfa379045e** · US · p=48 · deadline=2026-12-11T23:00:00+00:00 · blockers=none · IT Solution for UIN
+- **TED:750821-2026** · NLD · p=48 · deadline=2026-12-15T01:00:00+00:00 · blockers=none · Netherlands – Air traffic control software package – UTM Drone Flight Planning Tool
 
 ## transcription
 - **FR-BOAMP:26-106148** · FR · p=54 · deadline=2026-12-01T12:00:00+00:00 · blockers=none · Retranscription de réunions débats et discours de la Région Grand Est
@@ -208,7 +208,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-87481** · FR · p=53 · deadline=UNKNOWN · blockers=none · 2026-0379 Prestations De Traduction Et Correction Pour Les Etablissements Du Ght Hdp
 - **FR-BOAMP:26-88536** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
 - **FR-BOAMP:26-93991** · FR · p=53 · deadline=UNKNOWN · blockers=none · Accord-cadre à bons de commande de Prestations de traduction et de transcription pour les services de Nantes Métropole et la Ville de Nantes
-- **TED:755183-2026** · ESP · p=40 · deadline=2026-11-27T12:00:00+00:00 · blockers=none · Spain – Translation services – Servicio de traducción, interpretación y transcripción en los órganos judiciales, la fiscalía, el instituto de medicina legal y ciencias forenses de Cantabria y la oficina de asistencia a las víctimas del delito que tienen su sede en la comunidad Autónoma de Cantabria.
 - **TED:756747-2026** · BEL · p=40 · deadline=2026-11-30T11:00:00+00:00 · blockers=none · Belgium – Translation services – Aanleveren van OT voor VRT-producties
 - **TED:804453-2026** · BEL · p=40 · deadline=2026-11-30T11:00:00+00:00 · blockers=none · Belgium – Translation services – Aanleveren van OT voor VRT-producties
 - **MT-EPPS:14296909** · MT · p=40 · deadline=2026-12-01T08:30:00+00:00 · blockers=none · XM 2026 95 - Call for Quotations for the Provision of Maltese Translation and Proofreading Services for Xjenza Malta and its Brand Associates
@@ -218,6 +217,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:824037-2026** · DEU · p=40 · deadline=2026-12-30T22:59:00+00:00 · blockers=none · Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)
 - **TED:820859-2026** · BEL · p=40 · deadline=2027-01-06T08:00:00+00:00 · blockers=none · Belgium – Translation services – Vertaaldiensten
 - **TED:380266-2024** · DNK · p=40 · deadline=2034-08-18T22:00:00+00:00 · blockers=none · Denmark – Translation services – Dynamisk indkøbssystem om oversættelsesydelser
+- **TED:762694-2026** · DEU · p=38 · deadline=2026-12-02T01:00:00+00:00 · blockers=none · Germany – Translation services – Ausschreibung „Rahmenvereinbarung Übersetzung juristischer Fachtexte („Agenturvertrag“)
 
 ## video_media
 - **TED:761518-2026** · FRA · p=68 · deadline=2027-01-08T01:00:00+00:00 · blockers=none · France – Motion picture and video tape production and related services – Restauration, numérisation et sauvegarde de films cinématographiques et prestations associées
