@@ -1,26 +1,26 @@
 {
   "schema": "DCE_AUTHENTICITY_BACKLOG_DIAGNOSTIC_V1",
-  "latest_source_dce_run_id": 46077507972,
+  "latest_source_dce_run_id": 46106376224,
   "total_inbox_rows": 160,
   "dce_authenticity_rows": 20,
   "portal_counts": {
+    "TED": 2,
+    "US_SAM": 2,
     "DE_DOE": 2,
     "ES_PLACSP": 2,
     "GENERIC_PUBLIC_PAGE": 2,
     "GR_KHMDHS": 2,
-    "PL_EZAMOWIENIA": 2,
     "SK_UVO": 2,
-    "TED": 2,
-    "US_SAM": 1,
     "WORLD_BANK": 1,
     "ZA_ETENDERS": 1,
     "CA_CANADABUYS": 1,
     "EE_RHR": 1,
-    "LV_IUB": 1
+    "LV_IUB": 1,
+    "PL_EZAMOWIENIA": 1
   },
   "status_counts": {
-    "UNKNOWN_RETRIEVED_DOCUMENT": 11,
-    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 9
+    "UNKNOWN_RETRIEVED_DOCUMENT": 12,
+    "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED": 8
   },
   "reason_counts": {
     "NON_AUTHORITATIVE": 19,
@@ -61,14 +61,6 @@
       }
     },
     {
-      "portal": "PL_EZAMOWIENIA",
-      "blocked": 2,
-      "likely_public_recovery_target": 0,
-      "reason_counts": {
-        "NON_AUTHORITATIVE": 2
-      }
-    },
-    {
       "portal": "SK_UVO",
       "blocked": 2,
       "likely_public_recovery_target": 0,
@@ -78,6 +70,14 @@
     },
     {
       "portal": "TED",
+      "blocked": 2,
+      "likely_public_recovery_target": 0,
+      "reason_counts": {
+        "NON_AUTHORITATIVE": 2
+      }
+    },
+    {
+      "portal": "US_SAM",
       "blocked": 2,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -109,7 +109,7 @@
       }
     },
     {
-      "portal": "US_SAM",
+      "portal": "PL_EZAMOWIENIA",
       "blocked": 1,
       "likely_public_recovery_target": 0,
       "reason_counts": {
@@ -136,6 +136,22 @@
   "samples_by_reason": {
     "NON_AUTHORITATIVE": [
       {
+        "candidate_id": "TED:748271-2026",
+        "portal": "TED",
+        "title": "Spain – Printing services – Servicio de impresión integral para el Consorci Sanitario Integral",
+        "buyer": "Consorci Sanitari Integral",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://ted.europa.eu/en/notice/-/detail/748271-2026"
+      },
+      {
+        "candidate_id": "US-SAM:30115ed550d34a278f1477cda61e16b1",
+        "portal": "US_SAM",
+        "title": "Flight System Team Systems Integration and Technical Expertise",
+        "buyer": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+        "status": "UNKNOWN_RETRIEVED_DOCUMENT",
+        "notice_url": "https://sam.gov/opp/30115ed550d34a278f1477cda61e16b1/view"
+      },
+      {
         "candidate_id": "DE-DOE:93503885-9bed-4b3b-bf52-1fe9917eeb06:01",
         "portal": "DE_DOE",
         "title": "Messe Augsburg: großflächiger Werbedruck für die Werbeflächen auf dem Messegelände",
@@ -158,22 +174,6 @@
         "buyer": null,
         "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
         "notice_url": "https://pubblicitalegale.anticorruzione.it/bandi/fe511593-3ec0-4bd8-8a9a-44dccbe35655?ricercaArchivio=false"
-      },
-      {
-        "candidate_id": "GR-KHMDHS:26PROC020184671",
-        "portal": "GR_KHMDHS",
-        "title": "Διακήρυξη Ηλεκτρονικού Δημόσιου Ανοιχτού διαγωνισμού με Α/Α ΕΣΗΔΗΣ: 590119 (\"Υπηρεσίες Εκτύπωσης\", ΣΤ065)",
-        "buyer": "ΥΠΟΥΡΓΕΙΟ ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC020184671"
-      },
-      {
-        "candidate_id": "PL-BZP:08df4618-5531-42c1-34bd-c9000143c949",
-        "portal": "PL_EZAMOWIENIA",
-        "title": "Wytworzenie i dostawa dokumentów oraz oznaczeń komunikacyjnych na potrzeby Powiatu Piaseczyńskiego w 2027 r. wraz z zapewnieniem infrastruktury teleinformatycznej, personalizacją, dystrybucją ...",
-        "buyer": "Powiat Piaseczyński - Starostwo Powiatowe w Piasecznie",
-        "status": "SUBSTANTIVE_DCE_RELEVANCE_UNVERIFIED",
-        "notice_url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4618-5531-42c1-34bd-c9000143c949"
       }
     ],
     "AUTH_REQUIRED": [
