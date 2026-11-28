@@ -33,7 +33,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:784274-2026** · POL · p=38 · deadline=2026-11-30T01:00:00+00:00 · blockers=none · Poland – Command and control system – Budowa oraz wyposażenie układu do monitorowania i sterowania obiektów sieciowych eksploatowanych przez Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. w Rudzie Śląskiej
 
 ## automation_data
-- **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
 - **US-SAM:3b0f6109cd454e6083c5c431427a1655** · US · p=54 · deadline=2026-12-07T04:00:00+00:00 · blockers=none · 70--KEYBOARD,DATA ENTRY, IN REPAIR/MODIFICATION OF
 - **TED:737646-2026** · ROU · p=48 · deadline=2026-12-02T02:00:00+00:00 · blockers=none · Romania – Software-related services – Servicii de de dezvoltare, testare și pilotare a soluțiilor digitale, inclusiv instruirea personalului și a utilizatorilor în cadrul proiectului „Dezvoltarea digitală în cadrul parteneriatului între Comuna Căpâlnița și Comuna Lueta”
 - **TED:821439-2026** · ROU · p=48 · deadline=2026-12-02T02:00:00+00:00 · blockers=none · Romania – Software-related services – Servicii de de dezvoltare, testare și pilotare a soluțiilor digitale, inclusiv instruirea personalului și a utilizatorilor în cadrul proiectului „Dezvoltarea digitală în cadrul parteneriatului între Comuna Căpâlnița și Comuna Lueta”
@@ -53,6 +52,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:bd1e3a237d18479490f8a593e5c579c8** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:c5fbcadbb9b84f46b2546536f7e93ebb** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 - **US-SAM:ca7657994093439bbd7cf23f5da0074c** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
+- **US-SAM:db64aaffefbb4b309a318debf75a0f6f** · US · p=46 · deadline=2026-11-30T00:00:00+00:00 · blockers=none · FIGHT TONIGHT
 
 ## design_dtp
 - **TED:744409-2026** · FRA · p=74 · deadline=2026-12-07T01:00:00+00:00 · blockers=none · France – Digital printing services – TRAITEMENT DES INFORMATIONS, MISE EN PAGE, IMPRESSION, CONDITIONNEMENT ET ACHEMINEMENT DES DOCUMENTS DES PUBLICITES DE COLLECTES (AFFICHES ET FLYERS) DES ETABLISSEMENTS DE METROPOLE DE L’EFS
@@ -98,12 +98,12 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-105287** · FR · p=67 · deadline=2026-12-21T14:00:00+00:00 · blockers=none · PRESTATIONS DE MAINTENANCE ET D’HEBERGEMENT RELATIVES AUX APPLICATIONS SITE INTERNET AMF ET AMF PROTECT EPARGNE DATE LIMITE DE REMISE DES OFFRES : 21 DECEMBRE
 - **FR-BOAMP:26-112002** · FR · p=67 · deadline=2027-01-06T12:00:00+00:00 · blockers=none · HÉBERGEMENT, MAINTENANCE ET ÉVOLUTION DU SITE INTERNET ET DE L'EXTRANET
 - **FR-BOAMP:26-105150** · FR · p=67 · deadline=2027-01-21T12:00:00+00:00 · blockers=none · Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory
+- **DE-DOE:0174c654-0d7f-41be-81e2-2f090e2ae740:01** · DE · p=65 · deadline=UNKNOWN · blockers=none · Agenturleistungen für Werbemaßnahmen und den Betrieb und die Pflege von Internetauftritten bei der MBW
 - **DE-DOE:26042280:1** · DE · p=65 · deadline=UNKNOWN · blockers=none · Technischer Website-Support
 - **DE-DOE:25885758:1** · DE · p=61 · deadline=UNKNOWN · blockers=none · Rahmenvertrag Pflege Webseiten
+- **DE-DOE:26091254:1** · DE · p=61 · deadline=UNKNOWN · blockers=none · Erstellung, Migration, Hosting, Wartung und Support von Schulwebseiten
 - **FR-BOAMP:26-106967** · FR · p=61 · deadline=UNKNOWN · blockers=none · Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 - **FR-BOAMP:26-107505** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement, maintenance curative et évolutive du site Internet PASS Autocar et du logiciel Autogare
-- **FR-BOAMP:26-83037** · FR · p=61 · deadline=UNKNOWN · blockers=none · Conception, réalisation, mise en production, maintenance et évolution du futur site internet de la CNCCFP
-- **FR-BOAMP:26-87590** · FR · p=61 · deadline=UNKNOWN · blockers=none · Hébergement et maintenance du site internet de la Société du Canal Seine Nord Europe
 
 ## media_monitoring
 - **TED:777635-2026** · DEU · p=44 · deadline=2026-12-04T22:59:59+00:00 · blockers=none · Germany – Data collection and collation services – Media Suite - Media Monitoring & Social Media Content Management
@@ -150,7 +150,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:8f2c81e8b86f44d59ee4540988491b3a** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:f2fb6bafa6ec4f72aeba3231e4961a44** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
 - **US-SAM:fa59c8d3be7b4ea98fb6372bc9f99ccc** · US · p=47 · deadline=2026-12-22T20:00:00+00:00 · blockers=SOURCES_SOUGHT_OR_RFI · REQUEST FOR INFORMATION (RFI) FOR GROUP 1 AND GROUP 2 UNMANNED AIRCRAFT SYSTEM (UAS) TRAINING, MISSION PLANNING, MISSION REHEARSAL, SIMULATION, AND QUALIFICATION MANAGEMENT SYSTEMS
-- **US-SAM:cf2e4b18b9214a48975c863638132efc** · US · p=46 · deadline=2026-11-27T18:00:00+00:00 · blockers=none · 43--PUMP UNIT,CENTRIFUG, IN REPAIR/MODIFICATION OF
 - **US-SAM:953cc3ed58d64af2a3f7d98f413beb83** · US · p=46 · deadline=2026-11-30T04:00:00+00:00 · blockers=none · 48--VALVE, SOL 3-WAY
 - **US-SAM:bf2622928d8b4719adfb1e2b97c801a3** · US · p=46 · deadline=2026-11-30T04:00:00+00:00 · blockers=none · 66--TRANSDUCER,MOTIONAL
 - **US-SAM:21f6b3b05ff14f5ab3c385d04ece9394** · US · p=46 · deadline=2026-11-30T18:00:00+00:00 · blockers=none · 66--INDICATOR,RADIO FRE, IN REPAIR/MODIFICATION OF
@@ -162,6 +161,7 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **US-SAM:39204aaabaa84cf896a3796fb88d2bb7** · US · p=46 · deadline=2026-12-03T16:00:00+00:00 · blockers=none · 66--INERTIAL MEASURING
 - **US-SAM:2643aef5c25e44d79ea9ef481e434031** · US · p=46 · deadline=2026-12-03T20:30:00+00:00 · blockers=none · 48--GUIDE,VALVE STEM
 - **US-SAM:e55173e6172b4a1f85746f250962a44c** · US · p=46 · deadline=2026-12-04T04:00:00+00:00 · blockers=none · 59--DISPLAY,OPTOELECTRO, IN REPAIR/MODIFICATION OF
+- **US-SAM:b0e98a56711a46cea48c0b5a2377c0ad** · US · p=46 · deadline=2026-12-04T20:30:00+00:00 · blockers=none · 49--NRP,CHERRY PICKER A
 
 ## social_marketing
 - **TED:350690-2026** · DEU · p=46 · deadline=2030-02-19T23:00:59+00:00 · blockers=none · Germany – Advertising and marketing services – Development of Technical Aviation Safety Promotion Content
@@ -173,14 +173,12 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **TED:672048-2023** · BEL · p=40 · deadline=UNKNOWN · blockers=none · Belgium – Marketing management consultancy services – Employer Branding
 
 ## software_resale
-- **US-SAM:b3f605b4d3f843f3a2ba04a2c2be5425** · US · p=56 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · DA10--PACT Act - New Task Order: Cockroach DataBase Licenses and Maintenance (VA-26-00079736)
 - **TED:805578-2026** · POL · p=50 · deadline=2026-12-02T01:00:00+00:00 · blockers=none · Poland – Computer equipment and supplies – Multiple framework contract for the supply of ICT hardware, spare parts, accessories and associated services (SUPEPAAS)
 - **TED:795601-2026** · IRL · p=50 · deadline=2026-12-03T12:00:00+00:00 · blockers=none · Ireland – License management software package – Supplier to provide VMware Cloud Foundation software licences and support and associated Environmental services pursuant to a contract.
 - **TED:823241-2026** · BEL · p=50 · deadline=2027-01-25T01:00:00+00:00 · blockers=none · Belgium – Computer equipment and supplies – Timestamping
 - **TED:699650-2026** · NOR · p=50 · deadline=2032-11-22T11:00:00+00:00 · blockers=none · Norway – Network equipment – Dynamic purchasing system for supplementary procurements, assistance and consultancy services for network systems and equipment.
 - **TED:545005-2024** · NOR · p=50 · deadline=2034-10-31T11:00:00+00:00 · blockers=none · Norway – Software package and information systems – Dynamic purchasing system for software licences
 - **US-SAM:2e1bfb153fbf3e898a9cbd1b0e255ae2** · US · p=50 · deadline=UNKNOWN · blockers=none · 70--Endgame software subscription renewals
-- **US-SAM:85f54c4b42d94aa188ca9b89c39a988b** · US · p=48 · deadline=2026-11-28T00:00:00+00:00 · blockers=none · B-1B Electronic Warfare Advanced Simulation Platform (EWASP) calibration and repair services, Simulation View software licenses, and technical support
 - **CA:BPM026954/35531** · CA · p=48 · deadline=2026-11-30T14:00:00+00:00 · blockers=none · Nutanix Cloud Manager for CMHC
 - **US-SAM:dcdb63f1180e40ac863cd91b3ca0be28** · US · p=48 · deadline=2026-11-30T22:00:00+00:00 · blockers=none · MicroFocus Software Subscriptions
 - **CA:BPM026947/35517** · CA · p=48 · deadline=2026-12-01T15:00:00+00:00 · blockers=none · Splunk Maintenance and Support Request for Quotation (RFQ)
@@ -193,6 +191,8 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FI-HILMA:61360** · FI · p=48 · deadline=2026-12-09T10:00:00+00:00 · blockers=none · Crypto Asset Tax Calculation Solution
 - **US-SAM:c0d1877fdc934ce89d51c4cfa379045e** · US · p=48 · deadline=2026-12-11T23:00:00+00:00 · blockers=none · IT Solution for UIN
 - **TED:750821-2026** · NLD · p=48 · deadline=2026-12-15T01:00:00+00:00 · blockers=none · Netherlands – Air traffic control software package – UTM Drone Flight Planning Tool
+- **TED:681208-2026** · FRA · p=48 · deadline=2026-12-18T01:00:00+00:00 · blockers=none · France – Miscellaneous software package and computer systems – Acquisition de licences logicielles permettant l’extension de la plateforme collaborative de modélisation 3D, de gestion de projets et de simulation « Dassault Systèmes 3DEXPERIENCE », déjà utilisée au sein de l’Université d’Aix – Marseille
+- **IE:9496718** · IE · p=48 · deadline=2026-12-18T12:00:00+00:00 · blockers=none · Supplier to provide VMware Cloud Foundation software licences and support and associated Environmental services pursuant to a contract.
 
 ## transcription
 - **FR-BOAMP:26-106148** · FR · p=54 · deadline=2026-12-01T12:00:00+00:00 · blockers=none · Retranscription de réunions débats et discours de la Région Grand Est
@@ -221,7 +221,6 @@ Review-order evidence only. No candidate is GREEN before DCE.
 
 ## video_media
 - **TED:761518-2026** · FRA · p=68 · deadline=2027-01-08T01:00:00+00:00 · blockers=none · France – Motion picture and video tape production and related services – Restauration, numérisation et sauvegarde de films cinématographiques et prestations associées
-- **TED:751691-2026** · AUT · p=48 · deadline=2026-11-27T22:59:00+00:00 · blockers=none · Austria – Advertising campaign services – Selection of an Implementing Partner for an EU Sustainable Soya Awareness Campaign
 - **TED:812031-2026** · NLD · p=40 · deadline=2027-01-15T00:00:00+00:00 · blockers=none · Netherlands – Machinery for working plastics – Turnkey delivery and maintenance of a combined multilayer blown and cast film system
 
 ## web_cms
@@ -239,10 +238,10 @@ Review-order evidence only. No candidate is GREEN before DCE.
 - **FR-BOAMP:26-112002** · FR · p=67 · deadline=2027-01-06T12:00:00+00:00 · blockers=none · HÉBERGEMENT, MAINTENANCE ET ÉVOLUTION DU SITE INTERNET ET DE L'EXTRANET
 - **FR-BOAMP:26-105150** · FR · p=67 · deadline=2027-01-21T12:00:00+00:00 · blockers=none · Reprise, développement, évolutions, hébergement et maintenance en conditions opérationnelles de l’offre WebSite Factory
 - **TED:754067-2026** · DEU · p=65 · deadline=2026-12-01T11:00:00+00:00 · blockers=none · Germany – Internet services – Vergabeverfahren Relaunch Website
+- **DE-DOE:0174c654-0d7f-41be-81e2-2f090e2ae740:01** · DE · p=65 · deadline=UNKNOWN · blockers=none · Agenturleistungen für Werbemaßnahmen und den Betrieb und die Pflege von Internetauftritten bei der MBW
 - **DE-DOE:26042280:1** · DE · p=65 · deadline=UNKNOWN · blockers=none · Technischer Website-Support
 - **TED:763186-2026** · DEU · p=63 · deadline=2026-12-01T01:00:00+00:00 · blockers=none · Germany – IT services: consulting, software development, Internet and support – Technische Betreuung und Weiterentwicklung der Websites www.familienplanung.de und www.jung-und-schwanger.de
 - **DE-DOE:15e2af6d-9c2a-4390-b26a-4362d2b6d490:02** · DE · p=63 · deadline=2026-12-01T11:01:00+00:00 · blockers=none · Technische Betreuung und Weiterentwicklung der Websites www.familienplanung.de und www.jung-und-schwanger.de
 - **TED:807367-2026** · DEU · p=63 · deadline=2026-12-10T22:59:59+00:00 · blockers=none · Germany – World wide web (www) site design services – Weiterentwicklung und Betrieb der Website sowie des Cybersicherheitsportals der CSBW
 - **DE-DOE:25885758:1** · DE · p=61 · deadline=UNKNOWN · blockers=none · Rahmenvertrag Pflege Webseiten
-- **FR-BOAMP:26-106967** · FR · p=61 · deadline=UNKNOWN · blockers=none · Accord-cadre mono-attributaire portant sur des prestations de tierce maintenance applicative du site internet institutionnel d'Audencia
 
